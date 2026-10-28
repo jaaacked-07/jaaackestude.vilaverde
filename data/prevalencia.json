@@ -1,0 +1,785 @@
+{
+ "fonte": "Provas do Vila Verde / Grupo VIV (banca Selecting). Classificadas questão a questão: VIV 2026 (17/01/2026, 100 questões).",
+ "explica": "q = nº de questões do baralho nas provas lidas. pond = q ponderado pelo ano (2026 peso 3, 2025 peso 2, 2024 peso 1) — é o que o app usa. fontes = de qual prova veio cada número. areas = % da prova (20 questões por área; GO = 20 juntas).",
+ "provas": {
+  "VIV 2026": {
+   "data": "2026-01-17",
+   "banca": "Selecting",
+   "questoes": 100,
+   "status": "lida",
+   "url": "https://s3.amazonaws.com/cdn.concursos.selecting.com.br/edital/1/33/a5fa60a9bf35fba31cb0fd311883b461.pdf"
+  },
+  "HVV 2025": {
+   "data": "2025-01-11",
+   "banca": "Selecting",
+   "questoes": 100,
+   "status": "caderno não localizado",
+   "url": "https://portal.concursos.selecting.com.br/edital/ver/21"
+  },
+  "VV 2024": {
+   "data": "2023-12-16",
+   "banca": "Selecting",
+   "questoes": 100,
+   "status": "caderno não localizado",
+   "url": "https://portal.concursos.selecting.com.br/edital/ver/13"
+  }
+ },
+ "areas": {
+  "Clínica Médica": 20,
+  "Cirurgia": 20,
+  "Pediatria": 20,
+  "Medicina Preventiva": 20,
+  "Ginecologia": 12,
+  "Obstetrícia": 8
+ },
+ "grupos": {
+  "Clínica Médica": "CM",
+  "Cirurgia": "CIR",
+  "Pediatria": "PED",
+  "Medicina Preventiva": "PREV",
+  "Ginecologia": "GO",
+  "Obstetrícia": "GO"
+ },
+ "baralhos": {
+  "Cardiopatias congênitas e sopros na infância": {
+   "q": 6,
+   "pond": 6.0,
+   "area": "Pediatria",
+   "tema": "Cardiologia pediátrica",
+   "fontes": {
+    "VIV 2026": 6
+   },
+   "temas": "Coarctação da aorta (VIV 2026 Q81); Sopro inocente / sopro de Still (VIV 2026 Q84); Transposição das grandes artérias (VIV 2026 Q85); CIV (VIV 2026 Q87); PCA no prematuro (VIV 2026 Q94); Tetralogia de Fallot (VIV 2026 Q99)"
+  },
+  "Rastreamento de câncer e níveis de prevenção": {
+   "q": 5,
+   "pond": 5.0,
+   "area": "Medicina Preventiva",
+   "tema": "Atenção Primária",
+   "fontes": {
+    "VIV 2026": 5
+   },
+   "temas": "Prevenção terciária (reabilitação pós-AVC) (VIV 2026 Q2); Rastreamento de câncer colorretal aos 50 anos (VIV 2026 Q4); LSIL no Papanicolau (INCA) (VIV 2026 Q7); Viés de tempo de antecipação (lead-time) (VIV 2026 Q13); Prevenção quaternária (VIV 2026 Q16)"
+  },
+  "Doença falciforme — crises e síndrome torácica aguda": {
+   "q": 4,
+   "pond": 4.0,
+   "area": "Pediatria",
+   "tema": "Hematologia pediátrica",
+   "fontes": {
+    "VIV 2026": 4
+   },
+   "temas": "Sequestro esplênico (VIV 2026 Q91); Profilaxia com penicilina (VIV 2026 Q93); Dactilite (VIV 2026 Q95); Síndrome torácica aguda (VIV 2026 Q96)"
+  },
+  "Coagulopatias — hemofilia e doença de von Willebrand": {
+   "q": 3,
+   "pond": 3.0,
+   "area": "Pediatria",
+   "tema": "Hematologia pediátrica",
+   "fontes": {
+    "VIV 2026": 3
+   },
+   "temas": "Teste que diferencia vWD × hemofilia A (VIV 2026 Q82); Hemofilia A × B (VIV 2026 Q90); Hemartrose: repor fator (VIV 2026 Q98)"
+  },
+  "Urologia pediátrica — hipospádia, criptorquidia e refluxo vesicoureteral": {
+   "q": 3,
+   "pond": 3.0,
+   "area": "Pediatria",
+   "tema": "Urologia pediátrica",
+   "fontes": {
+    "VIV 2026": 3
+   },
+   "temas": "Hipospádia: não circuncidar (VIV 2026 Q83); Refluxo vesicoureteral (VIV 2026 Q92); Criptorquidia intra-abdominal (VIV 2026 Q97)"
+  },
+  "Abdome agudo obstrutivo — bridas e vólvulo": {
+   "q": 2,
+   "pond": 2.0,
+   "area": "Cirurgia",
+   "tema": "Abdome agudo",
+   "fontes": {
+    "VIV 2026": 2
+   },
+   "temas": "Obstrução por bridas: conduta inicial (VIV 2026 Q35); Vólvulo de sigmoide (VIV 2026 Q39)"
+  },
+  "Abdome agudo vascular — isquemia mesentérica": {
+   "q": 2,
+   "pond": 2.0,
+   "area": "Cirurgia",
+   "tema": "Abdome agudo",
+   "fontes": {
+    "VIV 2026": 2
+   },
+   "temas": "Embolia de AMS: tratamento (VIV 2026 Q40); Dor desproporcional + FA + lactato (VIV 2026 Q65)"
+  },
+  "Anticoncepção — métodos e critérios de elegibilidade": {
+   "q": 2,
+   "pond": 2.0,
+   "area": "Ginecologia",
+   "tema": "Planejamento familiar",
+   "fontes": {
+    "VIV 2026": 2
+   },
+   "temas": "Critérios de elegibilidade OMS (VIV 2026 Q47); Mecanismo do ACO combinado (VIV 2026 Q53)"
+  },
+  "Bioestatística e medicina baseada em evidências": {
+   "q": 2,
+   "pond": 2.0,
+   "area": "Medicina Preventiva",
+   "tema": "Epidemiologia",
+   "fontes": {
+    "VIV 2026": 2
+   },
+   "temas": "Erro tipo I, tipo II e poder (VIV 2026 Q12); Hierarquia das evidências (VIV 2026 Q17)"
+  },
+  "Câncer de colo do útero": {
+   "q": 2,
+   "pond": 2.0,
+   "area": "Ginecologia",
+   "tema": "Oncologia ginecológica",
+   "fontes": {
+    "VIV 2026": 2
+   },
+   "temas": "Rastreamento: início, intervalo e fim (VIV 2026 Q54); Colposcopia satisfatória (VIV 2026 Q59)"
+  },
+  "Desenhos de estudo e medidas de associação": {
+   "q": 2,
+   "pond": 2.0,
+   "area": "Medicina Preventiva",
+   "tema": "Epidemiologia",
+   "fontes": {
+    "VIV 2026": 2
+   },
+   "temas": "Caso-controle → odds ratio (VIV 2026 Q6); Ensaio clínico × coorte × caso-controle (VIV 2026 Q9)"
+  },
+  "Diabetes mellitus — diagnóstico, cetoacidose e iSGLT2": {
+   "q": 2,
+   "pond": 2.0,
+   "area": "Clínica Médica",
+   "tema": "Endocrinologia",
+   "fontes": {
+    "VIV 2026": 2
+   },
+   "temas": "Mecanismo dos iSGLT2 (VIV 2026 Q71); CAD: hidratação antes da insulina (VIV 2026 Q76)"
+  },
+  "Distúrbios do potássio": {
+   "q": 2,
+   "pond": 2.0,
+   "area": "Cirurgia",
+   "tema": "Perioperatório",
+   "fontes": {
+    "VIV 2026": 2
+   },
+   "temas": "ECG da hipercalemia grave (VIV 2026 Q33); Hipercalemia: gluconato de cálcio (VIV 2026 Q79)"
+  },
+  "Fisiologia da gestação e datação": {
+   "q": 2,
+   "pond": 2.0,
+   "area": "Obstetrícia",
+   "tema": "Pré-natal",
+   "fontes": {
+    "VIV 2026": 2
+   },
+   "temas": "Datação: CCN no 1º trimestre (VIV 2026 Q49); Adaptações cardiovasculares (VIV 2026 Q52)"
+  },
+  "Testes diagnósticos — sensibilidade, especificidade, valores preditivos e probabilidade pré-teste": {
+   "q": 2,
+   "pond": 2.0,
+   "area": "Medicina Preventiva",
+   "tema": "Epidemiologia",
+   "fontes": {
+    "VIV 2026": 2
+   },
+   "temas": "VPP e prevalência (VIV 2026 Q3); Especificidade (VIV 2026 Q10)"
+  },
+  "AIT, AVC isquêmico agudo e encefalite herpética": {
+   "q": 1,
+   "pond": 1.0,
+   "area": "Clínica Médica",
+   "tema": "Neurologia",
+   "fontes": {
+    "VIV 2026": 1
+   },
+   "temas": "Trombólise na janela (VIV 2026 Q80)"
+  },
+  "Abordagem familiar e método clínico centrado na pessoa": {
+   "q": 1,
+   "pond": 1.0,
+   "area": "Medicina Preventiva",
+   "tema": "Atenção Primária",
+   "fontes": {
+    "VIV 2026": 1
+   },
+   "temas": "Genograma (VIV 2026 Q20)"
+  },
+  "Anemias — classificação, megaloblástica, hemolíticas, von Willebrand e transfusão": {
+   "q": 1,
+   "pond": 1.0,
+   "area": "Clínica Médica",
+   "tema": "Hematologia",
+   "fontes": {
+    "VIV 2026": 1
+   },
+   "temas": "Deficiência de B12 (VIV 2026 Q63)"
+  },
+  "Antibioticoprofilaxia cirúrgica": {
+   "q": 1,
+   "pond": 1.0,
+   "area": "Cirurgia",
+   "tema": "Perioperatório",
+   "fontes": {
+    "VIV 2026": 1
+   },
+   "temas": "Classificação da ferida operatória (VIV 2026 Q21)"
+  },
+  "Ascite — GASA e PBE": {
+   "q": 1,
+   "pond": 1.0,
+   "area": "Clínica Médica",
+   "tema": "Gastroenterologia",
+   "fontes": {
+    "VIV 2026": 1
+   },
+   "temas": "PBE: antibiótico empírico (VIV 2026 Q70)"
+  },
+  "Avaliação geriátrica ampla e polifarmácia": {
+   "q": 1,
+   "pond": 1.0,
+   "area": "Medicina Preventiva",
+   "tema": "Saúde do idoso",
+   "fontes": {
+    "VIV 2026": 1
+   },
+   "temas": "Quedas, benzodiazepínico e TUG (VIV 2026 Q11)"
+  },
+  "Cefaleia e vertigem — sinais de alarme, enxaqueca e VPPB": {
+   "q": 1,
+   "pond": 1.0,
+   "area": "Clínica Médica",
+   "tema": "Neurologia",
+   "fontes": {
+    "VIV 2026": 1
+   },
+   "temas": "Red flags → neuroimagem (VIV 2026 Q67)"
+  },
+  "Choque — tipos e perfil hemodinâmico": {
+   "q": 1,
+   "pond": 1.0,
+   "area": "Cirurgia",
+   "tema": "Trauma",
+   "fontes": {
+    "VIV 2026": 1
+   },
+   "temas": "Perfil do choque cardiogênico (VIV 2026 Q23)"
+  },
+  "Cicatrização de feridas": {
+   "q": 1,
+   "pond": 1.0,
+   "area": "Cirurgia",
+   "tema": "Perioperatório",
+   "fontes": {
+    "VIV 2026": 1
+   },
+   "temas": "Macrófago na fase inflamatória (VIV 2026 Q30)"
+  },
+  "Cirrose — Child-Pugh e MELD": {
+   "q": 1,
+   "pond": 1.0,
+   "area": "Cirurgia",
+   "tema": "Fígado",
+   "fontes": {
+    "VIV 2026": 1
+   },
+   "temas": "Parâmetros do MELD (VIV 2026 Q26)"
+  },
+  "Climatério — terapia hormonal": {
+   "q": 1,
+   "pond": 1.0,
+   "area": "Ginecologia",
+   "tema": "Climatério",
+   "fontes": {
+    "VIV 2026": 1
+   },
+   "temas": "Indicações e proteção endometrial (VIV 2026 Q51)"
+  },
+  "Comunicação de más notícias — SPIKES": {
+   "q": 1,
+   "pond": 1.0,
+   "area": "Medicina Preventiva",
+   "tema": "Atenção Primária",
+   "fontes": {
+    "VIV 2026": 1
+   },
+   "temas": "Etapas do SPIKES (VIV 2026 Q14)"
+  },
+  "Câncer de mama — subtipos moleculares e tratamento": {
+   "q": 1,
+   "pond": 1.0,
+   "area": "Cirurgia",
+   "tema": "Mastologia",
+   "fontes": {
+    "VIV 2026": 1
+   },
+   "temas": "Cirurgia conservadora no T1 N0 (VIV 2026 Q27)"
+  },
+  "Câncer de tireoide": {
+   "q": 1,
+   "pond": 1.0,
+   "area": "Cirurgia",
+   "tema": "Cabeça e pescoço",
+   "fontes": {
+    "VIV 2026": 1
+   },
+   "temas": "Bethesda (VIV 2026 Q37)"
+  },
+  "Câncer gástrico": {
+   "q": 1,
+   "pond": 1.0,
+   "area": "Cirurgia",
+   "tema": "Esôfago e estômago",
+   "fontes": {
+    "VIV 2026": 1
+   },
+   "temas": "Laurén intestinal × difuso (VIV 2026 Q38)"
+  },
+  "DPOC": {
+   "q": 1,
+   "pond": 1.0,
+   "area": "Clínica Médica",
+   "tema": "Pneumologia",
+   "fontes": {
+    "VIV 2026": 1
+   },
+   "temas": "Espirometria e tratamento (VIV 2026 Q73)"
+  },
+  "Diabetes mellitus gestacional": {
+   "q": 1,
+   "pond": 1.0,
+   "area": "Obstetrícia",
+   "tema": "Pré-natal",
+   "fontes": {
+    "VIV 2026": 1
+   },
+   "temas": "TOTG 75 g: critérios (VIV 2026 Q41)"
+  },
+  "Dislipidemia e prevenção cardiovascular": {
+   "q": 1,
+   "pond": 1.0,
+   "area": "Medicina Preventiva",
+   "tema": "Atenção Primária",
+   "fontes": {
+    "VIV 2026": 1
+   },
+   "temas": "Meta de LDL e estatina em DM + HAS (VIV 2026 Q1)"
+  },
+  "Dismenorreia": {
+   "q": 1,
+   "pond": 1.0,
+   "area": "Ginecologia",
+   "tema": "Dor pélvica",
+   "fontes": {
+    "VIV 2026": 1
+   },
+   "temas": "Dismenorreia primária: 1ª linha (VIV 2026 Q42)"
+  },
+  "Distúrbios do sódio": {
+   "q": 1,
+   "pond": 1.0,
+   "area": "Clínica Médica",
+   "tema": "Nefrologia",
+   "fontes": {
+    "VIV 2026": 1
+   },
+   "temas": "Hiponatremia euvolêmica (SIADH) (VIV 2026 Q72)"
+  },
+  "Divertículos — Zenker e doença diverticular dos cólons": {
+   "q": 1,
+   "pond": 1.0,
+   "area": "Cirurgia",
+   "tema": "Intestino delgado e cólon",
+   "fontes": {
+    "VIV 2026": 1
+   },
+   "temas": "Hinchey III (VIV 2026 Q36)"
+  },
+  "Doença de Kawasaki": {
+   "q": 1,
+   "pond": 1.0,
+   "area": "Pediatria",
+   "tema": "Reumatologia pediátrica",
+   "fontes": {
+    "VIV 2026": 1
+   },
+   "temas": "Critério obrigatório (febre) (VIV 2026 Q89)"
+  },
+  "Doença renal crônica": {
+   "q": 1,
+   "pond": 1.0,
+   "area": "Clínica Médica",
+   "tema": "Nefrologia",
+   "fontes": {
+    "VIV 2026": 1
+   },
+   "temas": "Albuminúria, anemia e fósforo (VIV 2026 Q75)"
+  },
+  "Endocardite infecciosa": {
+   "q": 1,
+   "pond": 1.0,
+   "area": "Pediatria",
+   "tema": "Cardiologia pediátrica",
+   "fontes": {
+    "VIV 2026": 1
+   },
+   "temas": "Profilaxia em procedimento dentário (VIV 2026 Q86)"
+  },
+  "Endometriose e adenomiose": {
+   "q": 1,
+   "pond": 1.0,
+   "area": "Ginecologia",
+   "tema": "Dor pélvica",
+   "fontes": {
+    "VIV 2026": 1
+   },
+   "temas": "Nodularidade em uterossacro (VIV 2026 Q50)"
+  },
+  "Febre reumática": {
+   "q": 1,
+   "pond": 1.0,
+   "area": "Pediatria",
+   "tema": "Reumatologia pediátrica",
+   "fontes": {
+    "VIV 2026": 1
+   },
+   "temas": "Profilaxia secundária (VIV 2026 Q100)"
+  },
+  "Fissura anal": {
+   "q": 1,
+   "pond": 1.0,
+   "area": "Cirurgia",
+   "tema": "Coloproctologia",
+   "fontes": {
+    "VIV 2026": 1
+   },
+   "temas": "Fissura crônica refratária → cirurgia (VIV 2026 Q22)"
+  },
+  "GIST — tumor estromal gastrointestinal": {
+   "q": 1,
+   "pond": 1.0,
+   "area": "Cirurgia",
+   "tema": "Esôfago e estômago",
+   "fontes": {
+    "VIV 2026": 1
+   },
+   "temas": "Origem, CD117 e tratamento (VIV 2026 Q25)"
+  },
+  "Gravidez ectópica": {
+   "q": 1,
+   "pond": 1.0,
+   "area": "Obstetrícia",
+   "tema": "Hemorragias da gestação",
+   "fontes": {
+    "VIV 2026": 1
+   },
+   "temas": "Massa anexial + útero vazio (VIV 2026 Q48)"
+  },
+  "Hiperparatireoidismo": {
+   "q": 1,
+   "pond": 1.0,
+   "area": "Cirurgia",
+   "tema": "Cabeça e pescoço",
+   "fontes": {
+    "VIV 2026": 1
+   },
+   "temas": "Causa mais comum do HPT primário (VIV 2026 Q24)"
+  },
+  "Hipertensão arterial sistêmica": {
+   "q": 1,
+   "pond": 1.0,
+   "area": "Clínica Médica",
+   "tema": "Cardiologia",
+   "fontes": {
+    "VIV 2026": 1
+   },
+   "temas": "MAPA, MEV e betabloqueadores (VIV 2026 Q78)"
+  },
+  "Hérnias da parede abdominal — inguinal, femoral e umbilical": {
+   "q": 1,
+   "pond": 1.0,
+   "area": "Cirurgia",
+   "tema": "Hérnias",
+   "fontes": {
+    "VIV 2026": 1
+   },
+   "temas": "Direta × indireta × femoral (VIV 2026 Q29)"
+  },
+  "Incontinência urinária": {
+   "q": 1,
+   "pond": 1.0,
+   "area": "Ginecologia",
+   "tema": "Uroginecologia",
+   "fontes": {
+    "VIV 2026": 1
+   },
+   "temas": "Bexiga hiperativa (urgência) (VIV 2026 Q60)"
+  },
+  "Infecção urinária na criança": {
+   "q": 1,
+   "pond": 1.0,
+   "area": "Pediatria",
+   "tema": "Nefrologia pediátrica",
+   "fontes": {
+    "VIV 2026": 1
+   },
+   "temas": "ITU febril no lactente (VIV 2026 Q88)"
+  },
+  "Infecção urinária no adulto e pielonefrite": {
+   "q": 1,
+   "pond": 1.0,
+   "area": "Clínica Médica",
+   "tema": "Nefrologia",
+   "fontes": {
+    "VIV 2026": 1
+   },
+   "temas": "Pielonefrite enfisematosa no diabético (VIV 2026 Q66)"
+  },
+  "Infertilidade e reserva ovariana": {
+   "q": 1,
+   "pond": 1.0,
+   "area": "Ginecologia",
+   "tema": "Reprodução humana",
+   "fontes": {
+    "VIV 2026": 1
+   },
+   "temas": "Obstrução tubária bilateral → FIV (VIV 2026 Q58)"
+  },
+  "Inflamatório - Apendicite": {
+   "q": 1,
+   "pond": 1.0,
+   "area": "Cirurgia",
+   "tema": "Abdome agudo",
+   "fontes": {
+    "VIV 2026": 1
+   },
+   "temas": "Apendicite na gestante (VIV 2026 Q31)"
+  },
+  "Inflamatório - Colecistite aguda": {
+   "q": 1,
+   "pond": 1.0,
+   "area": "Cirurgia",
+   "tema": "Abdome agudo",
+   "fontes": {
+    "VIV 2026": 1
+   },
+   "temas": "Colecistectomia (VIV 2026 Q28)"
+  },
+  "Insuficiência cardíaca, edema agudo de pulmão e choque cardiogênico": {
+   "q": 1,
+   "pond": 1.0,
+   "area": "Clínica Médica",
+   "tema": "Cardiologia",
+   "fontes": {
+    "VIV 2026": 1
+   },
+   "temas": "Tratamento da ICFEr (VIV 2026 Q61)"
+  },
+  "Lúpus eritematoso sistêmico": {
+   "q": 1,
+   "pond": 1.0,
+   "area": "Clínica Médica",
+   "tema": "Reumatologia",
+   "fontes": {
+    "VIV 2026": 1
+   },
+   "temas": "Anticorpo mais específico (VIV 2026 Q77)"
+  },
+  "Mama — nódulo, BI-RADS e rastreamento": {
+   "q": 1,
+   "pond": 1.0,
+   "area": "Medicina Preventiva",
+   "tema": "Mastologia",
+   "fontes": {
+    "VIV 2026": 1
+   },
+   "temas": "BI-RADS 0 (VIV 2026 Q18)"
+  },
+  "Medidas de frequência — incidência e prevalência": {
+   "q": 1,
+   "pond": 1.0,
+   "area": "Medicina Preventiva",
+   "tema": "Epidemiologia",
+   "fontes": {
+    "VIV 2026": 1
+   },
+   "temas": "Prevalência (VIV 2026 Q5)"
+  },
+  "Miomatose uterina": {
+   "q": 1,
+   "pond": 1.0,
+   "area": "Ginecologia",
+   "tema": "Sangramento uterino",
+   "fontes": {
+    "VIV 2026": 1
+   },
+   "temas": "Leiomioma intramural × subseroso (VIV 2026 Q46)"
+  },
+  "Mononucleose infecciosa": {
+   "q": 1,
+   "pond": 1.0,
+   "area": "Clínica Médica",
+   "tema": "Infectologia",
+   "fontes": {
+    "VIV 2026": 1
+   },
+   "temas": "Exantema após amoxicilina/ampicilina (VIV 2026 Q74)"
+  },
+  "Notificação imediata": {
+   "q": 1,
+   "pond": 1.0,
+   "area": "Medicina Preventiva",
+   "tema": "Vigilância em Saúde",
+   "fontes": {
+    "VIV 2026": 1
+   },
+   "temas": "Notificação imediata (sarampo) (VIV 2026 Q19)"
+  },
+  "Pancreatite aguda": {
+   "q": 1,
+   "pond": 1.0,
+   "area": "Clínica Médica",
+   "tema": "Gastroenterologia",
+   "fontes": {
+    "VIV 2026": 1
+   },
+   "temas": "Hidratação como pilar (VIV 2026 Q68)"
+  },
+  "Pneumonia adquirida na comunidade e nódulo pulmonar": {
+   "q": 1,
+   "pond": 1.0,
+   "area": "Clínica Médica",
+   "tema": "Pneumologia",
+   "fontes": {
+    "VIV 2026": 1
+   },
+   "temas": "CURB-65 (VIV 2026 Q69)"
+  },
+  "Pré-eclâmpsia e síndromes hipertensivas da gestação": {
+   "q": 1,
+   "pond": 1.0,
+   "area": "Obstetrícia",
+   "tema": "Síndromes hipertensivas",
+   "fontes": {
+    "VIV 2026": 1
+   },
+   "temas": "Sulfato de magnésio (VIV 2026 Q57)"
+  },
+  "Pré-natal — exames de rotina, toxoplasmose, estreptococo do grupo B e vacinas": {
+   "q": 1,
+   "pond": 1.0,
+   "area": "Obstetrícia",
+   "tema": "Pré-natal",
+   "fontes": {
+    "VIV 2026": 1
+   },
+   "temas": "Vacinas na gestação (VIV 2026 Q43)"
+  },
+  "Puerpério — mastite e complicações": {
+   "q": 1,
+   "pond": 1.0,
+   "area": "Obstetrícia",
+   "tema": "Parto e puerpério",
+   "fontes": {
+    "VIV 2026": 1
+   },
+   "temas": "Mastite puerperal (VIV 2026 Q44)"
+  },
+  "Sangramento uterino anormal": {
+   "q": 1,
+   "pond": 1.0,
+   "area": "Ginecologia",
+   "tema": "Sangramento uterino",
+   "fontes": {
+    "VIV 2026": 1
+   },
+   "temas": "SUA na pós-menopausa: causa mais comum (VIV 2026 Q45)"
+  },
+  "Sífilis na gestação": {
+   "q": 1,
+   "pond": 1.0,
+   "area": "Obstetrícia",
+   "tema": "Pré-natal",
+   "fontes": {
+    "VIV 2026": 1
+   },
+   "temas": "VDRL 1:32: tratamento (VIV 2026 Q55)"
+  },
+  "Tabagismo e estágios de mudança": {
+   "q": 1,
+   "pond": 1.0,
+   "area": "Medicina Preventiva",
+   "tema": "Atenção Primária",
+   "fontes": {
+    "VIV 2026": 1
+   },
+   "temas": "Prochaska e DiClemente (VIV 2026 Q8)"
+  },
+  "Trauma abdominal": {
+   "q": 1,
+   "pond": 1.0,
+   "area": "Cirurgia",
+   "tema": "Trauma",
+   "fontes": {
+    "VIV 2026": 1
+   },
+   "temas": "Baço com instabilidade → esplenectomia (VIV 2026 Q34)"
+  },
+  "Trauma torácico": {
+   "q": 1,
+   "pond": 1.0,
+   "area": "Cirurgia",
+   "tema": "Trauma",
+   "fontes": {
+    "VIV 2026": 1
+   },
+   "temas": "Pneumotórax pequeno em paciente estável (VIV 2026 Q32)"
+  },
+  "Tromboembolismo pulmonar (TEP)": {
+   "q": 1,
+   "pond": 1.0,
+   "area": "Clínica Médica",
+   "tema": "Pneumologia",
+   "fontes": {
+    "VIV 2026": 1
+   },
+   "temas": "Wells alto → angioTC (VIV 2026 Q62)"
+  },
+  "Tuberculose": {
+   "q": 1,
+   "pond": 1.0,
+   "area": "Clínica Médica",
+   "tema": "Infectologia",
+   "fontes": {
+    "VIV 2026": 1
+   },
+   "temas": "Esquema RIPE fase intensiva (VIV 2026 Q64)"
+  },
+  "Vacinação do adulto e do idoso": {
+   "q": 1,
+   "pond": 1.0,
+   "area": "Medicina Preventiva",
+   "tema": "Imunizações",
+   "fontes": {
+    "VIV 2026": 1
+   },
+   "temas": "Pneumocócica no idoso (VIV 2026 Q15)"
+  },
+  "Vulvovaginites": {
+   "q": 1,
+   "pond": 1.0,
+   "area": "Ginecologia",
+   "tema": "Infecções genitais",
+   "fontes": {
+    "VIV 2026": 1
+   },
+   "temas": "Vaginose bacteriana (VIV 2026 Q56)"
+  }
+ }
+}
