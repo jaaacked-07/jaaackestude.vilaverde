@@ -56131,6 +56131,2114 @@
    ],
    "fonte": "Sabiston 21ª ed. / European Hernia Society — Guidelines on closure of abdominal wall incisions (2015, atualização 2022) / Colégio Brasileiro de Cirurgiões",
    "add": "2026-10-28"
+  },
+  {
+   "id": "fne-01",
+   "tipo": "flash",
+   "area": "Cirurgia",
+   "tema": "Perioperatório",
+   "sub": "Fasciite necrosante e infecções de partes moles",
+   "frente": "Fasciite necrosante: agentes e tratamento",
+   "verso": "**Polimicrobiana na maioria.**\n**Desbridamento cirúrgico urgente + antibiótico amplo.**\n\nAgentes (tipo I):\n- Estreptococos e estafilococos.\n- Anaeróbios.\n- Gram-negativos aeróbios.\n\nAntibiótico:\n- Pip-tazo ou carbapenêmico + vancomicina + clindamicina.\n\nRepetir:\n- Revisões cirúrgicas a cada 24–48 h.",
+   "macete": "Fasciite: \"Faca primeiro, antibiótico junto\".",
+   "pegadinha": "A pele pode parecer NORMAL no início: a pista é dor desproporcional.",
+   "uerj": "VV 2025: polimicrobiana.",
+   "prio": "alta",
+   "contexto": "**Fasciite necrosante = infecção bacteriana grave e rápida dos planos fasciais, com necrose; emergência cirúrgica (Fournier quando acomete períneo/genitais).**\n\nEtiologia:\n- **Tipo I (polimicrobiana, a mais comum)** → estreptococos, estafilococos, anaeróbios e gram-negativos aeróbios; diabéticos, pós-operatório, períneo (Fournier)\n- **Tipo II (monomicrobiana)** → Streptococcus pyogenes (± S. aureus); pode ocorrer em jovem saudável\n\nFatores de risco:\n- Diabetes, obesidade, alcoolismo, imunossupressão, doença vascular, trauma/cirurgia\n\nClínica:\n- **Dor desproporcional ao exame** (precoce)\n- Edema tenso além da área de eritema; a pele pode parecer quase normal no início\n- Depois → bolhas, equimose, necrose, crepitação, anestesia da pele\n- Febre, taquicardia, sepse rapidamente progressiva\n\nDiagnóstico:\n- Clínico; TC pode mostrar gás e edema fascial (não deve atrasar a cirurgia)\n- Exploração cirúrgica → fáscia acinzentada, sem resistência ao dedo (\"finger test\"), líquido em \"água suja\"\n\nTratamento:\n- **Desbridamento cirúrgico URGENTE e amplo**, repetido a cada 24–48 h\n- **Antibiótico de amplo espectro** → ex.: piperacilina-tazobactam ou carbapenêmico + vancomicina + **clindamicina** (inibe a produção de toxinas)\n- Suporte intensivo; Fournier pode exigir colostomia\n- Antibiótico sozinho NÃO resolve\n\nO que mais cai no Vila Verde:\n- VV 2025 → fasciite necrosante (Fournier) em diabético: infecção dos planos fasciais causada por combinação de estreptococos, estafilococos, anaeróbios e gram-negativos; distratores: pele sempre necrótica no início, tratamento só com antibiótico.",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 182\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><rect x=\"20\" y=\"20\" width=\"300\" height=\"30\" fill=\"var(--rose-soft)\" stroke=\"var(--line)\"/><text x=\"30\" y=\"39\" font-size=\"10\" fill=\"var(--ink)\">Epiderme / derme (pode parecer normal)</text><rect x=\"20\" y=\"54\" width=\"300\" height=\"30\" fill=\"var(--card)\" stroke=\"var(--line)\"/><text x=\"30\" y=\"73\" font-size=\"10\" fill=\"var(--ink)\">Subcutâneo</text><rect x=\"20\" y=\"88\" width=\"300\" height=\"30\" fill=\"var(--bad)\" stroke=\"var(--line)\"/><text x=\"30\" y=\"107\" font-size=\"10\" fill=\"var(--ink)\">FÁSCIA — necrose se espalha aqui</text><rect x=\"20\" y=\"122\" width=\"300\" height=\"30\" fill=\"var(--rose-soft)\" stroke=\"var(--line)\"/><text x=\"30\" y=\"141\" font-size=\"10\" fill=\"var(--ink)\">Músculo</text><path d=\"M60 105 Q 170 95 300 105\" fill=\"none\" stroke=\"var(--card)\" stroke-width=\"2\" stroke-dasharray=\"4 3\"/><text x=\"170\" y=\"174\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--mute)\">Dor desproporcional + edema além do eritema → desbridar já</text></svg>",
+     "legenda": "Fasciite necrosante: a infecção corre pela fáscia, por baixo de pele quase normal"
+    }
+   ],
+   "fonte": "IDSA — Practice Guidelines for Skin and Soft Tissue Infections (2014) / WSES/SIS-E — Skin and soft-tissue infections (2018) / Sabiston 21ª ed.",
+   "add": "2026-10-28",
+   "visual": {
+    "tipo": "fluxo",
+    "passos": [
+     "Suspeita clínica (dor desproporcional)",
+     "Não esperar imagem",
+     "Desbridamento amplo no centro cirúrgico + ATB",
+     "Revisão em 24–48 h até tecido viável"
+    ]
+   }
+  },
+  {
+   "id": "fne-02",
+   "tipo": "flash",
+   "area": "Cirurgia",
+   "tema": "Perioperatório",
+   "sub": "Fasciite necrosante e infecções de partes moles",
+   "frente": "Pistas clínicas precoces de fasciite necrosante",
+   "verso": "**Dor desproporcional ao exame.**\n**Edema tenso além do eritema.**\n\nTardias:\n- Bolhas, equimose, necrose, crepitação, anestesia da pele.",
+   "macete": "\"Dói mais do que se vê\".",
+   "visual": {
+    "tipo": "vs",
+    "a": {
+     "t": "Precoce",
+     "itens": [
+      "Dor desproporcional",
+      "Edema além do eritema",
+      "Febre, taquicardia"
+     ]
+    },
+    "b": {
+     "t": "Tardio",
+     "itens": [
+      "Bolhas, equimose",
+      "Necrose, crepitação",
+      "Anestesia da pele, choque"
+     ]
+    }
+   },
+   "pegadinha": "Fournier = períneo/genital, típico do diabético.",
+   "prio": "media",
+   "contexto": "**Fasciite necrosante = infecção bacteriana grave e rápida dos planos fasciais, com necrose; emergência cirúrgica (Fournier quando acomete períneo/genitais).**\n\nEtiologia:\n- **Tipo I (polimicrobiana, a mais comum)** → estreptococos, estafilococos, anaeróbios e gram-negativos aeróbios; diabéticos, pós-operatório, períneo (Fournier)\n- **Tipo II (monomicrobiana)** → Streptococcus pyogenes (± S. aureus); pode ocorrer em jovem saudável\n\nFatores de risco:\n- Diabetes, obesidade, alcoolismo, imunossupressão, doença vascular, trauma/cirurgia\n\nClínica:\n- **Dor desproporcional ao exame** (precoce)\n- Edema tenso além da área de eritema; a pele pode parecer quase normal no início\n- Depois → bolhas, equimose, necrose, crepitação, anestesia da pele\n- Febre, taquicardia, sepse rapidamente progressiva\n\nDiagnóstico:\n- Clínico; TC pode mostrar gás e edema fascial (não deve atrasar a cirurgia)\n- Exploração cirúrgica → fáscia acinzentada, sem resistência ao dedo (\"finger test\"), líquido em \"água suja\"\n\nTratamento:\n- **Desbridamento cirúrgico URGENTE e amplo**, repetido a cada 24–48 h\n- **Antibiótico de amplo espectro** → ex.: piperacilina-tazobactam ou carbapenêmico + vancomicina + **clindamicina** (inibe a produção de toxinas)\n- Suporte intensivo; Fournier pode exigir colostomia\n- Antibiótico sozinho NÃO resolve\n\nO que mais cai no Vila Verde:\n- VV 2025 → fasciite necrosante (Fournier) em diabético: infecção dos planos fasciais causada por combinação de estreptococos, estafilococos, anaeróbios e gram-negativos; distratores: pele sempre necrótica no início, tratamento só com antibiótico.",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 182\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><rect x=\"20\" y=\"20\" width=\"300\" height=\"30\" fill=\"var(--rose-soft)\" stroke=\"var(--line)\"/><text x=\"30\" y=\"39\" font-size=\"10\" fill=\"var(--ink)\">Epiderme / derme (pode parecer normal)</text><rect x=\"20\" y=\"54\" width=\"300\" height=\"30\" fill=\"var(--card)\" stroke=\"var(--line)\"/><text x=\"30\" y=\"73\" font-size=\"10\" fill=\"var(--ink)\">Subcutâneo</text><rect x=\"20\" y=\"88\" width=\"300\" height=\"30\" fill=\"var(--bad)\" stroke=\"var(--line)\"/><text x=\"30\" y=\"107\" font-size=\"10\" fill=\"var(--ink)\">FÁSCIA — necrose se espalha aqui</text><rect x=\"20\" y=\"122\" width=\"300\" height=\"30\" fill=\"var(--rose-soft)\" stroke=\"var(--line)\"/><text x=\"30\" y=\"141\" font-size=\"10\" fill=\"var(--ink)\">Músculo</text><path d=\"M60 105 Q 170 95 300 105\" fill=\"none\" stroke=\"var(--card)\" stroke-width=\"2\" stroke-dasharray=\"4 3\"/><text x=\"170\" y=\"174\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--mute)\">Dor desproporcional + edema além do eritema → desbridar já</text></svg>",
+     "legenda": "Fasciite necrosante: a infecção corre pela fáscia, por baixo de pele quase normal"
+    }
+   ],
+   "fonte": "IDSA — Practice Guidelines for Skin and Soft Tissue Infections (2014) / WSES/SIS-E — Skin and soft-tissue infections (2018) / Sabiston 21ª ed.",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "fne-q1",
+   "tipo": "quiz",
+   "area": "Cirurgia",
+   "tema": "Perioperatório",
+   "sub": "Fasciite necrosante e infecções de partes moles",
+   "frente": "Diabético de 55 anos com dor intensa, febre e edema perineal; pele com aspecto quase normal e piora rápida. Diagnóstico de fasciite necrosante. É CORRETO afirmar:",
+   "opcoes": [
+    "A pele sobrejacente sempre mostra necrose evidente, facilitando o diagnóstico.",
+    "É uma infecção dos planos fasciais, frequentemente polimicrobiana (estreptococos, estafilococos, anaeróbios e gram-negativos).",
+    "O tratamento é exclusivamente com antibióticos.",
+    "A cirurgia deve aguardar a delimitação da necrose."
+   ],
+   "certa": 1,
+   "comentarios": [
+    "Errada.",
+    "Correta.",
+    "Errada.",
+    "Errada: desbridar já."
+   ],
+   "macete": "\"Faca primeiro\".",
+   "pegadinha": "Esperar delimitar aumenta a mortalidade.",
+   "uerj": "VV 2025 (Q48).",
+   "prio": "media",
+   "contexto": "**Fasciite necrosante = infecção bacteriana grave e rápida dos planos fasciais, com necrose; emergência cirúrgica (Fournier quando acomete períneo/genitais).**\n\nEtiologia:\n- **Tipo I (polimicrobiana, a mais comum)** → estreptococos, estafilococos, anaeróbios e gram-negativos aeróbios; diabéticos, pós-operatório, períneo (Fournier)\n- **Tipo II (monomicrobiana)** → Streptococcus pyogenes (± S. aureus); pode ocorrer em jovem saudável\n\nFatores de risco:\n- Diabetes, obesidade, alcoolismo, imunossupressão, doença vascular, trauma/cirurgia\n\nClínica:\n- **Dor desproporcional ao exame** (precoce)\n- Edema tenso além da área de eritema; a pele pode parecer quase normal no início\n- Depois → bolhas, equimose, necrose, crepitação, anestesia da pele\n- Febre, taquicardia, sepse rapidamente progressiva\n\nDiagnóstico:\n- Clínico; TC pode mostrar gás e edema fascial (não deve atrasar a cirurgia)\n- Exploração cirúrgica → fáscia acinzentada, sem resistência ao dedo (\"finger test\"), líquido em \"água suja\"\n\nTratamento:\n- **Desbridamento cirúrgico URGENTE e amplo**, repetido a cada 24–48 h\n- **Antibiótico de amplo espectro** → ex.: piperacilina-tazobactam ou carbapenêmico + vancomicina + **clindamicina** (inibe a produção de toxinas)\n- Suporte intensivo; Fournier pode exigir colostomia\n- Antibiótico sozinho NÃO resolve\n\nO que mais cai no Vila Verde:\n- VV 2025 → fasciite necrosante (Fournier) em diabético: infecção dos planos fasciais causada por combinação de estreptococos, estafilococos, anaeróbios e gram-negativos; distratores: pele sempre necrótica no início, tratamento só com antibiótico.",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 182\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><rect x=\"20\" y=\"20\" width=\"300\" height=\"30\" fill=\"var(--rose-soft)\" stroke=\"var(--line)\"/><text x=\"30\" y=\"39\" font-size=\"10\" fill=\"var(--ink)\">Epiderme / derme (pode parecer normal)</text><rect x=\"20\" y=\"54\" width=\"300\" height=\"30\" fill=\"var(--card)\" stroke=\"var(--line)\"/><text x=\"30\" y=\"73\" font-size=\"10\" fill=\"var(--ink)\">Subcutâneo</text><rect x=\"20\" y=\"88\" width=\"300\" height=\"30\" fill=\"var(--bad)\" stroke=\"var(--line)\"/><text x=\"30\" y=\"107\" font-size=\"10\" fill=\"var(--ink)\">FÁSCIA — necrose se espalha aqui</text><rect x=\"20\" y=\"122\" width=\"300\" height=\"30\" fill=\"var(--rose-soft)\" stroke=\"var(--line)\"/><text x=\"30\" y=\"141\" font-size=\"10\" fill=\"var(--ink)\">Músculo</text><path d=\"M60 105 Q 170 95 300 105\" fill=\"none\" stroke=\"var(--card)\" stroke-width=\"2\" stroke-dasharray=\"4 3\"/><text x=\"170\" y=\"174\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--mute)\">Dor desproporcional + edema além do eritema → desbridar já</text></svg>",
+     "legenda": "Fasciite necrosante: a infecção corre pela fáscia, por baixo de pele quase normal"
+    }
+   ],
+   "fonte": "IDSA — Practice Guidelines for Skin and Soft Tissue Infections (2014) / WSES/SIS-E — Skin and soft-tissue infections (2018) / Sabiston 21ª ed.",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "fne-d1",
+   "tipo": "digitar",
+   "area": "Cirurgia",
+   "tema": "Perioperatório",
+   "sub": "Fasciite necrosante e infecções de partes moles",
+   "frente": "Qual antibiótico se associa na fasciite necrosante para inibir toxinas?",
+   "verso": "**Clindamicina.**",
+   "resposta": "Clindamicina",
+   "aceitas": [
+    "clindamicina"
+   ],
+   "macete": "Clinda \"corta a toxina\".",
+   "prio": "media",
+   "contexto": "**Fasciite necrosante = infecção bacteriana grave e rápida dos planos fasciais, com necrose; emergência cirúrgica (Fournier quando acomete períneo/genitais).**\n\nEtiologia:\n- **Tipo I (polimicrobiana, a mais comum)** → estreptococos, estafilococos, anaeróbios e gram-negativos aeróbios; diabéticos, pós-operatório, períneo (Fournier)\n- **Tipo II (monomicrobiana)** → Streptococcus pyogenes (± S. aureus); pode ocorrer em jovem saudável\n\nFatores de risco:\n- Diabetes, obesidade, alcoolismo, imunossupressão, doença vascular, trauma/cirurgia\n\nClínica:\n- **Dor desproporcional ao exame** (precoce)\n- Edema tenso além da área de eritema; a pele pode parecer quase normal no início\n- Depois → bolhas, equimose, necrose, crepitação, anestesia da pele\n- Febre, taquicardia, sepse rapidamente progressiva\n\nDiagnóstico:\n- Clínico; TC pode mostrar gás e edema fascial (não deve atrasar a cirurgia)\n- Exploração cirúrgica → fáscia acinzentada, sem resistência ao dedo (\"finger test\"), líquido em \"água suja\"\n\nTratamento:\n- **Desbridamento cirúrgico URGENTE e amplo**, repetido a cada 24–48 h\n- **Antibiótico de amplo espectro** → ex.: piperacilina-tazobactam ou carbapenêmico + vancomicina + **clindamicina** (inibe a produção de toxinas)\n- Suporte intensivo; Fournier pode exigir colostomia\n- Antibiótico sozinho NÃO resolve\n\nO que mais cai no Vila Verde:\n- VV 2025 → fasciite necrosante (Fournier) em diabético: infecção dos planos fasciais causada por combinação de estreptococos, estafilococos, anaeróbios e gram-negativos; distratores: pele sempre necrótica no início, tratamento só com antibiótico.",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 182\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><rect x=\"20\" y=\"20\" width=\"300\" height=\"30\" fill=\"var(--rose-soft)\" stroke=\"var(--line)\"/><text x=\"30\" y=\"39\" font-size=\"10\" fill=\"var(--ink)\">Epiderme / derme (pode parecer normal)</text><rect x=\"20\" y=\"54\" width=\"300\" height=\"30\" fill=\"var(--card)\" stroke=\"var(--line)\"/><text x=\"30\" y=\"73\" font-size=\"10\" fill=\"var(--ink)\">Subcutâneo</text><rect x=\"20\" y=\"88\" width=\"300\" height=\"30\" fill=\"var(--bad)\" stroke=\"var(--line)\"/><text x=\"30\" y=\"107\" font-size=\"10\" fill=\"var(--ink)\">FÁSCIA — necrose se espalha aqui</text><rect x=\"20\" y=\"122\" width=\"300\" height=\"30\" fill=\"var(--rose-soft)\" stroke=\"var(--line)\"/><text x=\"30\" y=\"141\" font-size=\"10\" fill=\"var(--ink)\">Músculo</text><path d=\"M60 105 Q 170 95 300 105\" fill=\"none\" stroke=\"var(--card)\" stroke-width=\"2\" stroke-dasharray=\"4 3\"/><text x=\"170\" y=\"174\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--mute)\">Dor desproporcional + edema além do eritema → desbridar já</text></svg>",
+     "legenda": "Fasciite necrosante: a infecção corre pela fáscia, por baixo de pele quase normal"
+    }
+   ],
+   "fonte": "IDSA — Practice Guidelines for Skin and Soft Tissue Infections (2014) / WSES/SIS-E — Skin and soft-tissue infections (2018) / Sabiston 21ª ed.",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "fne-d2",
+   "tipo": "digitar",
+   "area": "Cirurgia",
+   "tema": "Perioperatório",
+   "sub": "Fasciite necrosante e infecções de partes moles",
+   "frente": "Como se chama a fasciite necrosante do períneo e genitais?",
+   "verso": "**Gangrena de Fournier.**",
+   "resposta": "Fournier",
+   "aceitas": [
+    "gangrena de fournier",
+    "fournier"
+   ],
+   "macete": "Fournier = \"Fundo\" (períneo).",
+   "prio": "media",
+   "contexto": "**Fasciite necrosante = infecção bacteriana grave e rápida dos planos fasciais, com necrose; emergência cirúrgica (Fournier quando acomete períneo/genitais).**\n\nEtiologia:\n- **Tipo I (polimicrobiana, a mais comum)** → estreptococos, estafilococos, anaeróbios e gram-negativos aeróbios; diabéticos, pós-operatório, períneo (Fournier)\n- **Tipo II (monomicrobiana)** → Streptococcus pyogenes (± S. aureus); pode ocorrer em jovem saudável\n\nFatores de risco:\n- Diabetes, obesidade, alcoolismo, imunossupressão, doença vascular, trauma/cirurgia\n\nClínica:\n- **Dor desproporcional ao exame** (precoce)\n- Edema tenso além da área de eritema; a pele pode parecer quase normal no início\n- Depois → bolhas, equimose, necrose, crepitação, anestesia da pele\n- Febre, taquicardia, sepse rapidamente progressiva\n\nDiagnóstico:\n- Clínico; TC pode mostrar gás e edema fascial (não deve atrasar a cirurgia)\n- Exploração cirúrgica → fáscia acinzentada, sem resistência ao dedo (\"finger test\"), líquido em \"água suja\"\n\nTratamento:\n- **Desbridamento cirúrgico URGENTE e amplo**, repetido a cada 24–48 h\n- **Antibiótico de amplo espectro** → ex.: piperacilina-tazobactam ou carbapenêmico + vancomicina + **clindamicina** (inibe a produção de toxinas)\n- Suporte intensivo; Fournier pode exigir colostomia\n- Antibiótico sozinho NÃO resolve\n\nO que mais cai no Vila Verde:\n- VV 2025 → fasciite necrosante (Fournier) em diabético: infecção dos planos fasciais causada por combinação de estreptococos, estafilococos, anaeróbios e gram-negativos; distratores: pele sempre necrótica no início, tratamento só com antibiótico.",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 182\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><rect x=\"20\" y=\"20\" width=\"300\" height=\"30\" fill=\"var(--rose-soft)\" stroke=\"var(--line)\"/><text x=\"30\" y=\"39\" font-size=\"10\" fill=\"var(--ink)\">Epiderme / derme (pode parecer normal)</text><rect x=\"20\" y=\"54\" width=\"300\" height=\"30\" fill=\"var(--card)\" stroke=\"var(--line)\"/><text x=\"30\" y=\"73\" font-size=\"10\" fill=\"var(--ink)\">Subcutâneo</text><rect x=\"20\" y=\"88\" width=\"300\" height=\"30\" fill=\"var(--bad)\" stroke=\"var(--line)\"/><text x=\"30\" y=\"107\" font-size=\"10\" fill=\"var(--ink)\">FÁSCIA — necrose se espalha aqui</text><rect x=\"20\" y=\"122\" width=\"300\" height=\"30\" fill=\"var(--rose-soft)\" stroke=\"var(--line)\"/><text x=\"30\" y=\"141\" font-size=\"10\" fill=\"var(--ink)\">Músculo</text><path d=\"M60 105 Q 170 95 300 105\" fill=\"none\" stroke=\"var(--card)\" stroke-width=\"2\" stroke-dasharray=\"4 3\"/><text x=\"170\" y=\"174\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--mute)\">Dor desproporcional + edema além do eritema → desbridar já</text></svg>",
+     "legenda": "Fasciite necrosante: a infecção corre pela fáscia, por baixo de pele quase normal"
+    }
+   ],
+   "fonte": "IDSA — Practice Guidelines for Skin and Soft Tissue Infections (2014) / WSES/SIS-E — Skin and soft-tissue infections (2018) / Sabiston 21ª ed.",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "mte-01",
+   "tipo": "flash",
+   "area": "Cirurgia",
+   "tema": "Perioperatório",
+   "sub": "Morte encefálica e doação de órgãos",
+   "frente": "Protocolo de morte encefálica: quais exames?",
+   "verso": "**2 exames clínicos (médicos diferentes).**\n**1 teste de apneia.**\n**1 exame complementar.**\n\nPré-requisito:\n- Causa conhecida, ≥ 6 h de observação, T > 35 °C, sem drogas/distúrbios metabólicos.",
+   "macete": "ME = \"2 + 1 + 1\": dois clínicos, uma apneia, um complementar.",
+   "visual": {
+    "tipo": "tabela",
+    "cab": [
+     "Idade",
+     "Intervalo entre exames"
+    ],
+    "linhas": [
+     [
+      "7 dias–2 meses",
+      "24 h"
+     ],
+     [
+      "2–24 meses",
+      "12 h"
+     ],
+     [
+      "≥ 2 anos",
+      "1 h"
+     ]
+    ]
+   },
+   "pegadinha": "Os médicos NÃO podem ser da equipe de transplante.",
+   "prio": "media",
+   "contexto": "**Morte encefálica (ME) = perda completa e irreversível das funções encefálicas; é morte legal no Brasil e permite a doação de órgãos (Lei 9.434/1997; Res. CFM 2.173/2017).**\n\nPré-requisitos (antes de examinar):\n- Coma não perceptivo, apneico, de **causa conhecida e irreversível**\n- Ausência de fatores tratáveis que confundam (hipotermia, distúrbios metabólicos, drogas depressoras)\n- Observação e tratamento por no mínimo **6 h** (24 h se encefalopatia hipóxico-isquêmica)\n- Temperatura > 35 °C, SpO₂ > 94%, PAS ≥ 100 mmHg (ou PAM ≥ 65) no adulto\n\nProtocolo:\n- **2 exames clínicos** por médicos diferentes, capacitados, que NÃO sejam da equipe de transplante\n  - Coma, ausência de reflexos de tronco (fotomotor, corneopalpebral, oculocefálico, vestíbulo-calórico, tosse)\n- Intervalo entre os exames pela idade → 7 dias–2 meses: 24 h; 2–24 meses: 12 h; ≥ 2 anos: 1 h\n- **1 teste de apneia** (PaCO₂ > 55 mmHg sem movimento respiratório)\n- **1 exame complementar** (EEG, Doppler transcraniano, angiografia, cintilografia)\n- Notificação obrigatória à central de transplantes (CNCDO/CIHDOTT), mesmo sem doação\n\nDoação de órgãos:\n- **Doador falecido** → após ME ou após parada cardiorrespiratória (esta, em geral, tecidos como córneas e pele)\n- Autorização → família (cônjuge ou parente maior de idade até 2º grau)\n- **Doador vivo** → só órgãos duplos ou partes de órgão (rim, parte do fígado/pulmão, medula óssea), sem comprometer a própria saúde\n  - Parentes até 4º grau ou cônjuge; não parentes → autorização judicial\n- Comercialização é crime\n\nO que mais cai no Vila Verde:\n- VV 2025 → V/F: doador vivo pode doar qualquer órgão (F), ME não é critério legal (F), doador falecido por PCR ou ME (V).",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 200\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><rect x=\"10\" y=\"8\" width=\"320\" height=\"32\" rx=\"9\" fill=\"var(--wine)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"170.0\" y=\"27.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--card)\">Pré-requisitos + 6 h de observação</text><line x1=\"170\" y1=\"40\" x2=\"170\" y2=\"50\" stroke=\"var(--rose)\"/><rect x=\"10\" y=\"50\" width=\"155\" height=\"46\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"87.5\" y=\"72.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">1º exame clínico</text><text x=\"87.5\" y=\"84.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">médico A</text><rect x=\"175\" y=\"50\" width=\"155\" height=\"46\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"252.5\" y=\"72.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">2º exame clínico</text><text x=\"252.5\" y=\"84.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">médico B</text><line x1=\"170\" y1=\"96\" x2=\"170\" y2=\"106\" stroke=\"var(--rose)\"/><rect x=\"10\" y=\"106\" width=\"155\" height=\"46\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"87.5\" y=\"128.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Teste de apneia</text><text x=\"87.5\" y=\"140.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">PaCO₂ > 55</text><rect x=\"175\" y=\"106\" width=\"155\" height=\"46\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"252.5\" y=\"128.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Exame complementar</text><text x=\"252.5\" y=\"140.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">EEG, Doppler, angio</text><line x1=\"170\" y1=\"152\" x2=\"170\" y2=\"162\" stroke=\"var(--rose)\"/><rect x=\"10\" y=\"162\" width=\"320\" height=\"30\" rx=\"9\" fill=\"var(--wine)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"170.0\" y=\"180.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--card)\">ME confirmada → notificar a central de transplantes</text></svg>",
+     "legenda": "Protocolo de morte encefálica (Res. CFM 2.173/2017)"
+    }
+   ],
+   "fonte": "CFM — Resolução 2.173/2017 / Lei 9.434/1997 e Decreto 9.175/2017 / ABTO — Manual de doação de órgãos",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "mte-02",
+   "tipo": "flash",
+   "area": "Cirurgia",
+   "tema": "Perioperatório",
+   "sub": "Morte encefálica e doação de órgãos",
+   "frente": "Doação de órgãos: doador vivo e doador falecido",
+   "verso": "**Vivo → só órgão duplo ou parte, sem prejudicar a saúde.**\n**Falecido → após ME ou após parada cardiorrespiratória.**\n\nVivo:\n- Parente até 4º grau ou cônjuge; outros com autorização judicial.\n\nFalecido:\n- Família autoriza.",
+   "macete": "Vivo doa \"o que tem par ou um pedaço\".",
+   "pegadinha": "ME É critério legal de morte no Brasil.",
+   "uerj": "VV 2025: F, F, V.",
+   "prio": "media",
+   "contexto": "**Morte encefálica (ME) = perda completa e irreversível das funções encefálicas; é morte legal no Brasil e permite a doação de órgãos (Lei 9.434/1997; Res. CFM 2.173/2017).**\n\nPré-requisitos (antes de examinar):\n- Coma não perceptivo, apneico, de **causa conhecida e irreversível**\n- Ausência de fatores tratáveis que confundam (hipotermia, distúrbios metabólicos, drogas depressoras)\n- Observação e tratamento por no mínimo **6 h** (24 h se encefalopatia hipóxico-isquêmica)\n- Temperatura > 35 °C, SpO₂ > 94%, PAS ≥ 100 mmHg (ou PAM ≥ 65) no adulto\n\nProtocolo:\n- **2 exames clínicos** por médicos diferentes, capacitados, que NÃO sejam da equipe de transplante\n  - Coma, ausência de reflexos de tronco (fotomotor, corneopalpebral, oculocefálico, vestíbulo-calórico, tosse)\n- Intervalo entre os exames pela idade → 7 dias–2 meses: 24 h; 2–24 meses: 12 h; ≥ 2 anos: 1 h\n- **1 teste de apneia** (PaCO₂ > 55 mmHg sem movimento respiratório)\n- **1 exame complementar** (EEG, Doppler transcraniano, angiografia, cintilografia)\n- Notificação obrigatória à central de transplantes (CNCDO/CIHDOTT), mesmo sem doação\n\nDoação de órgãos:\n- **Doador falecido** → após ME ou após parada cardiorrespiratória (esta, em geral, tecidos como córneas e pele)\n- Autorização → família (cônjuge ou parente maior de idade até 2º grau)\n- **Doador vivo** → só órgãos duplos ou partes de órgão (rim, parte do fígado/pulmão, medula óssea), sem comprometer a própria saúde\n  - Parentes até 4º grau ou cônjuge; não parentes → autorização judicial\n- Comercialização é crime\n\nO que mais cai no Vila Verde:\n- VV 2025 → V/F: doador vivo pode doar qualquer órgão (F), ME não é critério legal (F), doador falecido por PCR ou ME (V).",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 200\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><rect x=\"10\" y=\"8\" width=\"320\" height=\"32\" rx=\"9\" fill=\"var(--wine)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"170.0\" y=\"27.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--card)\">Pré-requisitos + 6 h de observação</text><line x1=\"170\" y1=\"40\" x2=\"170\" y2=\"50\" stroke=\"var(--rose)\"/><rect x=\"10\" y=\"50\" width=\"155\" height=\"46\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"87.5\" y=\"72.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">1º exame clínico</text><text x=\"87.5\" y=\"84.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">médico A</text><rect x=\"175\" y=\"50\" width=\"155\" height=\"46\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"252.5\" y=\"72.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">2º exame clínico</text><text x=\"252.5\" y=\"84.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">médico B</text><line x1=\"170\" y1=\"96\" x2=\"170\" y2=\"106\" stroke=\"var(--rose)\"/><rect x=\"10\" y=\"106\" width=\"155\" height=\"46\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"87.5\" y=\"128.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Teste de apneia</text><text x=\"87.5\" y=\"140.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">PaCO₂ > 55</text><rect x=\"175\" y=\"106\" width=\"155\" height=\"46\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"252.5\" y=\"128.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Exame complementar</text><text x=\"252.5\" y=\"140.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">EEG, Doppler, angio</text><line x1=\"170\" y1=\"152\" x2=\"170\" y2=\"162\" stroke=\"var(--rose)\"/><rect x=\"10\" y=\"162\" width=\"320\" height=\"30\" rx=\"9\" fill=\"var(--wine)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"170.0\" y=\"180.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--card)\">ME confirmada → notificar a central de transplantes</text></svg>",
+     "legenda": "Protocolo de morte encefálica (Res. CFM 2.173/2017)"
+    }
+   ],
+   "fonte": "CFM — Resolução 2.173/2017 / Lei 9.434/1997 e Decreto 9.175/2017 / ABTO — Manual de doação de órgãos",
+   "add": "2026-10-28",
+   "visual": {
+    "tipo": "vs",
+    "a": {
+     "t": "Doador vivo",
+     "itens": [
+      "Rim, parte do fígado/pulmão, medula",
+      "Parente até 4º grau ou cônjuge",
+      "Não parente → juiz"
+     ]
+    },
+    "b": {
+     "t": "Doador falecido",
+     "itens": [
+      "Após ME ou PCR",
+      "Família autoriza",
+      "PCR → em geral tecidos (córnea, pele)"
+     ]
+    }
+   }
+  },
+  {
+   "id": "mte-q1",
+   "tipo": "quiz",
+   "area": "Cirurgia",
+   "tema": "Perioperatório",
+   "sub": "Morte encefálica e doação de órgãos",
+   "frente": "Sobre a doação de órgãos no Brasil, analise: 1. O doador vivo pode doar qualquer órgão, desde que juridicamente capaz. 2. A morte encefálica não é critério legal para doação. 3. O doador falecido pode ser aquele com morte por parada cardiorrespiratória ou por morte encefálica. A sequência correta é:",
+   "opcoes": [
+    "V, F, F.",
+    "F, V, V.",
+    "F, F, V.",
+    "F, F, F."
+   ],
+   "certa": 2,
+   "comentarios": [
+    "1 é falsa.",
+    "2 é falsa.",
+    "Correta.",
+    "3 é verdadeira."
+   ],
+   "macete": "\"2 + 1 + 1\" e vivo doa só o que tem par.",
+   "pegadinha": "\"Qualquer órgão\" é absurdo (coração não!).",
+   "uerj": "VV 2025 (Q56).",
+   "prio": "media",
+   "contexto": "**Morte encefálica (ME) = perda completa e irreversível das funções encefálicas; é morte legal no Brasil e permite a doação de órgãos (Lei 9.434/1997; Res. CFM 2.173/2017).**\n\nPré-requisitos (antes de examinar):\n- Coma não perceptivo, apneico, de **causa conhecida e irreversível**\n- Ausência de fatores tratáveis que confundam (hipotermia, distúrbios metabólicos, drogas depressoras)\n- Observação e tratamento por no mínimo **6 h** (24 h se encefalopatia hipóxico-isquêmica)\n- Temperatura > 35 °C, SpO₂ > 94%, PAS ≥ 100 mmHg (ou PAM ≥ 65) no adulto\n\nProtocolo:\n- **2 exames clínicos** por médicos diferentes, capacitados, que NÃO sejam da equipe de transplante\n  - Coma, ausência de reflexos de tronco (fotomotor, corneopalpebral, oculocefálico, vestíbulo-calórico, tosse)\n- Intervalo entre os exames pela idade → 7 dias–2 meses: 24 h; 2–24 meses: 12 h; ≥ 2 anos: 1 h\n- **1 teste de apneia** (PaCO₂ > 55 mmHg sem movimento respiratório)\n- **1 exame complementar** (EEG, Doppler transcraniano, angiografia, cintilografia)\n- Notificação obrigatória à central de transplantes (CNCDO/CIHDOTT), mesmo sem doação\n\nDoação de órgãos:\n- **Doador falecido** → após ME ou após parada cardiorrespiratória (esta, em geral, tecidos como córneas e pele)\n- Autorização → família (cônjuge ou parente maior de idade até 2º grau)\n- **Doador vivo** → só órgãos duplos ou partes de órgão (rim, parte do fígado/pulmão, medula óssea), sem comprometer a própria saúde\n  - Parentes até 4º grau ou cônjuge; não parentes → autorização judicial\n- Comercialização é crime\n\nO que mais cai no Vila Verde:\n- VV 2025 → V/F: doador vivo pode doar qualquer órgão (F), ME não é critério legal (F), doador falecido por PCR ou ME (V).",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 200\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><rect x=\"10\" y=\"8\" width=\"320\" height=\"32\" rx=\"9\" fill=\"var(--wine)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"170.0\" y=\"27.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--card)\">Pré-requisitos + 6 h de observação</text><line x1=\"170\" y1=\"40\" x2=\"170\" y2=\"50\" stroke=\"var(--rose)\"/><rect x=\"10\" y=\"50\" width=\"155\" height=\"46\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"87.5\" y=\"72.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">1º exame clínico</text><text x=\"87.5\" y=\"84.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">médico A</text><rect x=\"175\" y=\"50\" width=\"155\" height=\"46\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"252.5\" y=\"72.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">2º exame clínico</text><text x=\"252.5\" y=\"84.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">médico B</text><line x1=\"170\" y1=\"96\" x2=\"170\" y2=\"106\" stroke=\"var(--rose)\"/><rect x=\"10\" y=\"106\" width=\"155\" height=\"46\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"87.5\" y=\"128.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Teste de apneia</text><text x=\"87.5\" y=\"140.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">PaCO₂ > 55</text><rect x=\"175\" y=\"106\" width=\"155\" height=\"46\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"252.5\" y=\"128.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Exame complementar</text><text x=\"252.5\" y=\"140.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">EEG, Doppler, angio</text><line x1=\"170\" y1=\"152\" x2=\"170\" y2=\"162\" stroke=\"var(--rose)\"/><rect x=\"10\" y=\"162\" width=\"320\" height=\"30\" rx=\"9\" fill=\"var(--wine)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"170.0\" y=\"180.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--card)\">ME confirmada → notificar a central de transplantes</text></svg>",
+     "legenda": "Protocolo de morte encefálica (Res. CFM 2.173/2017)"
+    }
+   ],
+   "fonte": "CFM — Resolução 2.173/2017 / Lei 9.434/1997 e Decreto 9.175/2017 / ABTO — Manual de doação de órgãos",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "mte-d1",
+   "tipo": "digitar",
+   "area": "Cirurgia",
+   "tema": "Perioperatório",
+   "sub": "Morte encefálica e doação de órgãos",
+   "frente": "Qual o tempo mínimo de observação antes de iniciar o protocolo de ME (adulto, causa não hipóxica)?",
+   "verso": "**6 horas.**\n\n- Encefalopatia hipóxico-isquêmica → 24 h.",
+   "resposta": "6 horas",
+   "aceitas": [
+    "6",
+    "6h",
+    "6 h",
+    "seis horas"
+   ],
+   "macete": "\"Seis horas de espera\".",
+   "prio": "media",
+   "contexto": "**Morte encefálica (ME) = perda completa e irreversível das funções encefálicas; é morte legal no Brasil e permite a doação de órgãos (Lei 9.434/1997; Res. CFM 2.173/2017).**\n\nPré-requisitos (antes de examinar):\n- Coma não perceptivo, apneico, de **causa conhecida e irreversível**\n- Ausência de fatores tratáveis que confundam (hipotermia, distúrbios metabólicos, drogas depressoras)\n- Observação e tratamento por no mínimo **6 h** (24 h se encefalopatia hipóxico-isquêmica)\n- Temperatura > 35 °C, SpO₂ > 94%, PAS ≥ 100 mmHg (ou PAM ≥ 65) no adulto\n\nProtocolo:\n- **2 exames clínicos** por médicos diferentes, capacitados, que NÃO sejam da equipe de transplante\n  - Coma, ausência de reflexos de tronco (fotomotor, corneopalpebral, oculocefálico, vestíbulo-calórico, tosse)\n- Intervalo entre os exames pela idade → 7 dias–2 meses: 24 h; 2–24 meses: 12 h; ≥ 2 anos: 1 h\n- **1 teste de apneia** (PaCO₂ > 55 mmHg sem movimento respiratório)\n- **1 exame complementar** (EEG, Doppler transcraniano, angiografia, cintilografia)\n- Notificação obrigatória à central de transplantes (CNCDO/CIHDOTT), mesmo sem doação\n\nDoação de órgãos:\n- **Doador falecido** → após ME ou após parada cardiorrespiratória (esta, em geral, tecidos como córneas e pele)\n- Autorização → família (cônjuge ou parente maior de idade até 2º grau)\n- **Doador vivo** → só órgãos duplos ou partes de órgão (rim, parte do fígado/pulmão, medula óssea), sem comprometer a própria saúde\n  - Parentes até 4º grau ou cônjuge; não parentes → autorização judicial\n- Comercialização é crime\n\nO que mais cai no Vila Verde:\n- VV 2025 → V/F: doador vivo pode doar qualquer órgão (F), ME não é critério legal (F), doador falecido por PCR ou ME (V).",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 200\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><rect x=\"10\" y=\"8\" width=\"320\" height=\"32\" rx=\"9\" fill=\"var(--wine)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"170.0\" y=\"27.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--card)\">Pré-requisitos + 6 h de observação</text><line x1=\"170\" y1=\"40\" x2=\"170\" y2=\"50\" stroke=\"var(--rose)\"/><rect x=\"10\" y=\"50\" width=\"155\" height=\"46\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"87.5\" y=\"72.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">1º exame clínico</text><text x=\"87.5\" y=\"84.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">médico A</text><rect x=\"175\" y=\"50\" width=\"155\" height=\"46\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"252.5\" y=\"72.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">2º exame clínico</text><text x=\"252.5\" y=\"84.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">médico B</text><line x1=\"170\" y1=\"96\" x2=\"170\" y2=\"106\" stroke=\"var(--rose)\"/><rect x=\"10\" y=\"106\" width=\"155\" height=\"46\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"87.5\" y=\"128.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Teste de apneia</text><text x=\"87.5\" y=\"140.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">PaCO₂ > 55</text><rect x=\"175\" y=\"106\" width=\"155\" height=\"46\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"252.5\" y=\"128.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Exame complementar</text><text x=\"252.5\" y=\"140.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">EEG, Doppler, angio</text><line x1=\"170\" y1=\"152\" x2=\"170\" y2=\"162\" stroke=\"var(--rose)\"/><rect x=\"10\" y=\"162\" width=\"320\" height=\"30\" rx=\"9\" fill=\"var(--wine)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"170.0\" y=\"180.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--card)\">ME confirmada → notificar a central de transplantes</text></svg>",
+     "legenda": "Protocolo de morte encefálica (Res. CFM 2.173/2017)"
+    }
+   ],
+   "fonte": "CFM — Resolução 2.173/2017 / Lei 9.434/1997 e Decreto 9.175/2017 / ABTO — Manual de doação de órgãos",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "mte-d2",
+   "tipo": "digitar",
+   "area": "Cirurgia",
+   "tema": "Perioperatório",
+   "sub": "Morte encefálica e doação de órgãos",
+   "frente": "Qual o valor de PaCO₂ que valida o teste de apneia?",
+   "verso": "**> 55 mmHg.**",
+   "resposta": "55 mmHg",
+   "aceitas": [
+    "55",
+    "> 55",
+    "maior que 55",
+    "55mmhg"
+   ],
+   "macete": "\"Apneia aos 55\".",
+   "prio": "media",
+   "contexto": "**Morte encefálica (ME) = perda completa e irreversível das funções encefálicas; é morte legal no Brasil e permite a doação de órgãos (Lei 9.434/1997; Res. CFM 2.173/2017).**\n\nPré-requisitos (antes de examinar):\n- Coma não perceptivo, apneico, de **causa conhecida e irreversível**\n- Ausência de fatores tratáveis que confundam (hipotermia, distúrbios metabólicos, drogas depressoras)\n- Observação e tratamento por no mínimo **6 h** (24 h se encefalopatia hipóxico-isquêmica)\n- Temperatura > 35 °C, SpO₂ > 94%, PAS ≥ 100 mmHg (ou PAM ≥ 65) no adulto\n\nProtocolo:\n- **2 exames clínicos** por médicos diferentes, capacitados, que NÃO sejam da equipe de transplante\n  - Coma, ausência de reflexos de tronco (fotomotor, corneopalpebral, oculocefálico, vestíbulo-calórico, tosse)\n- Intervalo entre os exames pela idade → 7 dias–2 meses: 24 h; 2–24 meses: 12 h; ≥ 2 anos: 1 h\n- **1 teste de apneia** (PaCO₂ > 55 mmHg sem movimento respiratório)\n- **1 exame complementar** (EEG, Doppler transcraniano, angiografia, cintilografia)\n- Notificação obrigatória à central de transplantes (CNCDO/CIHDOTT), mesmo sem doação\n\nDoação de órgãos:\n- **Doador falecido** → após ME ou após parada cardiorrespiratória (esta, em geral, tecidos como córneas e pele)\n- Autorização → família (cônjuge ou parente maior de idade até 2º grau)\n- **Doador vivo** → só órgãos duplos ou partes de órgão (rim, parte do fígado/pulmão, medula óssea), sem comprometer a própria saúde\n  - Parentes até 4º grau ou cônjuge; não parentes → autorização judicial\n- Comercialização é crime\n\nO que mais cai no Vila Verde:\n- VV 2025 → V/F: doador vivo pode doar qualquer órgão (F), ME não é critério legal (F), doador falecido por PCR ou ME (V).",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 200\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><rect x=\"10\" y=\"8\" width=\"320\" height=\"32\" rx=\"9\" fill=\"var(--wine)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"170.0\" y=\"27.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--card)\">Pré-requisitos + 6 h de observação</text><line x1=\"170\" y1=\"40\" x2=\"170\" y2=\"50\" stroke=\"var(--rose)\"/><rect x=\"10\" y=\"50\" width=\"155\" height=\"46\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"87.5\" y=\"72.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">1º exame clínico</text><text x=\"87.5\" y=\"84.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">médico A</text><rect x=\"175\" y=\"50\" width=\"155\" height=\"46\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"252.5\" y=\"72.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">2º exame clínico</text><text x=\"252.5\" y=\"84.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">médico B</text><line x1=\"170\" y1=\"96\" x2=\"170\" y2=\"106\" stroke=\"var(--rose)\"/><rect x=\"10\" y=\"106\" width=\"155\" height=\"46\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"87.5\" y=\"128.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Teste de apneia</text><text x=\"87.5\" y=\"140.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">PaCO₂ > 55</text><rect x=\"175\" y=\"106\" width=\"155\" height=\"46\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"252.5\" y=\"128.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Exame complementar</text><text x=\"252.5\" y=\"140.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">EEG, Doppler, angio</text><line x1=\"170\" y1=\"152\" x2=\"170\" y2=\"162\" stroke=\"var(--rose)\"/><rect x=\"10\" y=\"162\" width=\"320\" height=\"30\" rx=\"9\" fill=\"var(--wine)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"170.0\" y=\"180.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--card)\">ME confirmada → notificar a central de transplantes</text></svg>",
+     "legenda": "Protocolo de morte encefálica (Res. CFM 2.173/2017)"
+    }
+   ],
+   "fonte": "CFM — Resolução 2.173/2017 / Lei 9.434/1997 e Decreto 9.175/2017 / ABTO — Manual de doação de órgãos",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "cdl-01",
+   "tipo": "flash",
+   "area": "Cirurgia",
+   "tema": "Vias biliares",
+   "sub": "Coledocolitíase",
+   "frente": "Cálculo no colédoco descoberto na colangiografia intraoperatória: conduta",
+   "verso": "**Explorar o colédoco (coledocotomia) e retirar os cálculos.**\n\nAlternativas:\n- Exploração transcística.\n- CPRE no pós-operatório.\n\nColédoco muito dilatado com múltiplos cálculos:\n- Derivação biliodigestiva.",
+   "macete": "\"Achou na foto da cirurgia, tira na própria cirurgia\".",
+   "pegadinha": "Tratamento conservador (só observar) é errado.",
+   "uerj": "VV 2024: coledocotomia transoperatória.",
+   "prio": "media",
+   "contexto": "**Coledocolitíase = cálculo no colédoco (em geral vindo da vesícula); pode causar icterícia obstrutiva, colangite e pancreatite.**\n\nClínica:\n- Icterícia flutuante, colúria, acolia, prurido, dor em hipocôndrio direito\n- **Colangite** → tríade de Charcot (febre + icterícia + dor); pêntade de Reynolds (+ hipotensão + confusão)\n- Pancreatite biliar\n- Vesícula palpável e indolor com icterícia (Courvoisier-Terrier) → pensar em NEOPLASIA periampular, não em cálculo\n\nInvestigação por risco (ASGE):\n- **Alto risco** (cálculo no colédoco à USG, colangite, ou bilirrubina > 4 com colédoco dilatado) → **CPRE** (diagnóstica e terapêutica) antes da colecistectomia\n- **Intermediário** (colédoco dilatado, enzimas alteradas, > 55 anos) → colangiorressonância ou USG endoscópica (ou colangiografia intraoperatória)\n- **Baixo** → colecistectomia direto\n\nAchado durante a colecistectomia:\n- **Exploração das vias biliares (coledocotomia)** com retirada dos cálculos, em geral com dreno de Kehr (colédoco dilatado)\n- Ou exploração transcística/laparoscópica; ou CPRE pós-operatória\n- Colédoco muito dilatado, múltiplos cálculos, cálculos primários → derivação biliodigestiva (coledocoduodenostomia)\n\nSempre:\n- Coledocolitíase com vesícula → retirar a vesícula (colecistectomia)\n\nO que mais cai no Vila Verde:\n- VV 2024 → cálculos no colédoco distal (1 cm) na colangiografia: tratamento adequado = coledocotomia transoperatória para retirar os cálculos.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "Risco de coledocolitíase",
+      "Critério",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "Alto",
+       "Cálculo no colédoco (USG), colangite, ou BT > 4 + colédoco dilatado",
+       "CPRE → colecistectomia"
+      ],
+      [
+       "Intermediário",
+       "Colédoco dilatado, enzimas alteradas, > 55 anos",
+       "ColangioRM ou USE (ou colangiografia intraop.)"
+      ],
+      [
+       "Baixo",
+       "Nenhum dos acima",
+       "Colecistectomia"
+      ],
+      [
+       "Achado intraoperatório",
+       "Cálculo na colangiografia",
+       "Exploração do colédoco (coledocotomia) ou CPRE pós"
+      ]
+     ]
+    }
+   ],
+   "fonte": "ASGE Guideline on the role of endoscopy in the evaluation and management of choledocholithiasis (2019) / Tokyo Guidelines (2018) / Sabiston 21ª ed.",
+   "add": "2026-10-28",
+   "visual": {
+    "tipo": "lista",
+    "itens": [
+     "!Coledocotomia + dreno de Kehr",
+     "Exploração transcística (laparoscópica)",
+     "CPRE pós-operatória",
+     "Muitos cálculos + colédoco muito dilatado → derivação"
+    ]
+   }
+  },
+  {
+   "id": "cdl-02",
+   "tipo": "flash",
+   "area": "Cirurgia",
+   "tema": "Vias biliares",
+   "sub": "Coledocolitíase",
+   "frente": "Suspeita de coledocolitíase de ALTO risco antes da colecistectomia: conduta",
+   "verso": "**CPRE (diagnóstica e terapêutica) e depois colecistectomia.**\n\nAlto risco:\n- Cálculo visto no colédoco.\n- Colangite.\n- Bilirrubina > 4 com colédoco dilatado.",
+   "macete": "\"Alto risco → CPRE; intermediário → RM; baixo → cirurgia\".",
+   "visual": {
+    "tipo": "fluxo",
+    "passos": [
+     "Colelitíase sintomática",
+     "Estratificar risco",
+     [
+      "Alto → CPRE",
+      "Intermediário → colangioRM/USE",
+      "Baixo → colecistectomia"
+     ]
+    ]
+   },
+   "pegadinha": "Courvoisier (vesícula palpável indolor) sugere tumor, não cálculo.",
+   "prio": "media",
+   "contexto": "**Coledocolitíase = cálculo no colédoco (em geral vindo da vesícula); pode causar icterícia obstrutiva, colangite e pancreatite.**\n\nClínica:\n- Icterícia flutuante, colúria, acolia, prurido, dor em hipocôndrio direito\n- **Colangite** → tríade de Charcot (febre + icterícia + dor); pêntade de Reynolds (+ hipotensão + confusão)\n- Pancreatite biliar\n- Vesícula palpável e indolor com icterícia (Courvoisier-Terrier) → pensar em NEOPLASIA periampular, não em cálculo\n\nInvestigação por risco (ASGE):\n- **Alto risco** (cálculo no colédoco à USG, colangite, ou bilirrubina > 4 com colédoco dilatado) → **CPRE** (diagnóstica e terapêutica) antes da colecistectomia\n- **Intermediário** (colédoco dilatado, enzimas alteradas, > 55 anos) → colangiorressonância ou USG endoscópica (ou colangiografia intraoperatória)\n- **Baixo** → colecistectomia direto\n\nAchado durante a colecistectomia:\n- **Exploração das vias biliares (coledocotomia)** com retirada dos cálculos, em geral com dreno de Kehr (colédoco dilatado)\n- Ou exploração transcística/laparoscópica; ou CPRE pós-operatória\n- Colédoco muito dilatado, múltiplos cálculos, cálculos primários → derivação biliodigestiva (coledocoduodenostomia)\n\nSempre:\n- Coledocolitíase com vesícula → retirar a vesícula (colecistectomia)\n\nO que mais cai no Vila Verde:\n- VV 2024 → cálculos no colédoco distal (1 cm) na colangiografia: tratamento adequado = coledocotomia transoperatória para retirar os cálculos.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "Risco de coledocolitíase",
+      "Critério",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "Alto",
+       "Cálculo no colédoco (USG), colangite, ou BT > 4 + colédoco dilatado",
+       "CPRE → colecistectomia"
+      ],
+      [
+       "Intermediário",
+       "Colédoco dilatado, enzimas alteradas, > 55 anos",
+       "ColangioRM ou USE (ou colangiografia intraop.)"
+      ],
+      [
+       "Baixo",
+       "Nenhum dos acima",
+       "Colecistectomia"
+      ],
+      [
+       "Achado intraoperatório",
+       "Cálculo na colangiografia",
+       "Exploração do colédoco (coledocotomia) ou CPRE pós"
+      ]
+     ]
+    }
+   ],
+   "fonte": "ASGE Guideline on the role of endoscopy in the evaluation and management of choledocholithiasis (2019) / Tokyo Guidelines (2018) / Sabiston 21ª ed.",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "cdl-q1",
+   "tipo": "quiz",
+   "area": "Cirurgia",
+   "tema": "Vias biliares",
+   "sub": "Coledocolitíase",
+   "frente": "Na colecistectomia eletiva, a colangiografia mostra colédoco de 1 cm com cálculos no colédoco distal. É CORRETO:",
+   "opcoes": [
+    "O único tratamento é a colecistectomia parcial.",
+    "Um tratamento adequado é a coledocotomia transoperatória para retirar os cálculos.",
+    "O tratamento é conservador, com observação.",
+    "O único tratamento é a hepaticojejunostomia em Y de Roux."
+   ],
+   "certa": 1,
+   "comentarios": [
+    "Errada.",
+    "Correta.",
+    "Errada: risco de colangite/pancreatite.",
+    "Exagerado."
+   ],
+   "macete": "\"Achou, tira\".",
+   "pegadinha": "\"Único tratamento\" é distrator.",
+   "uerj": "VV 2024 (Q58).",
+   "prio": "media",
+   "contexto": "**Coledocolitíase = cálculo no colédoco (em geral vindo da vesícula); pode causar icterícia obstrutiva, colangite e pancreatite.**\n\nClínica:\n- Icterícia flutuante, colúria, acolia, prurido, dor em hipocôndrio direito\n- **Colangite** → tríade de Charcot (febre + icterícia + dor); pêntade de Reynolds (+ hipotensão + confusão)\n- Pancreatite biliar\n- Vesícula palpável e indolor com icterícia (Courvoisier-Terrier) → pensar em NEOPLASIA periampular, não em cálculo\n\nInvestigação por risco (ASGE):\n- **Alto risco** (cálculo no colédoco à USG, colangite, ou bilirrubina > 4 com colédoco dilatado) → **CPRE** (diagnóstica e terapêutica) antes da colecistectomia\n- **Intermediário** (colédoco dilatado, enzimas alteradas, > 55 anos) → colangiorressonância ou USG endoscópica (ou colangiografia intraoperatória)\n- **Baixo** → colecistectomia direto\n\nAchado durante a colecistectomia:\n- **Exploração das vias biliares (coledocotomia)** com retirada dos cálculos, em geral com dreno de Kehr (colédoco dilatado)\n- Ou exploração transcística/laparoscópica; ou CPRE pós-operatória\n- Colédoco muito dilatado, múltiplos cálculos, cálculos primários → derivação biliodigestiva (coledocoduodenostomia)\n\nSempre:\n- Coledocolitíase com vesícula → retirar a vesícula (colecistectomia)\n\nO que mais cai no Vila Verde:\n- VV 2024 → cálculos no colédoco distal (1 cm) na colangiografia: tratamento adequado = coledocotomia transoperatória para retirar os cálculos.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "Risco de coledocolitíase",
+      "Critério",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "Alto",
+       "Cálculo no colédoco (USG), colangite, ou BT > 4 + colédoco dilatado",
+       "CPRE → colecistectomia"
+      ],
+      [
+       "Intermediário",
+       "Colédoco dilatado, enzimas alteradas, > 55 anos",
+       "ColangioRM ou USE (ou colangiografia intraop.)"
+      ],
+      [
+       "Baixo",
+       "Nenhum dos acima",
+       "Colecistectomia"
+      ],
+      [
+       "Achado intraoperatório",
+       "Cálculo na colangiografia",
+       "Exploração do colédoco (coledocotomia) ou CPRE pós"
+      ]
+     ]
+    }
+   ],
+   "fonte": "ASGE Guideline on the role of endoscopy in the evaluation and management of choledocholithiasis (2019) / Tokyo Guidelines (2018) / Sabiston 21ª ed.",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "cdl-d1",
+   "tipo": "digitar",
+   "area": "Cirurgia",
+   "tema": "Vias biliares",
+   "sub": "Coledocolitíase",
+   "frente": "Qual a tríade de Charcot?",
+   "verso": "**Febre + icterícia + dor abdominal.**\n\n- Reynolds: + hipotensão + confusão.",
+   "resposta": "Febre, icterícia e dor",
+   "aceitas": [
+    "febre icterícia dor",
+    "febre ictericia e dor",
+    "febre, ictericia e dor",
+    "febre icterícia e dor"
+   ],
+   "macete": "Charcot = \"FID\": Febre, Icterícia, Dor.",
+   "prio": "media",
+   "contexto": "**Coledocolitíase = cálculo no colédoco (em geral vindo da vesícula); pode causar icterícia obstrutiva, colangite e pancreatite.**\n\nClínica:\n- Icterícia flutuante, colúria, acolia, prurido, dor em hipocôndrio direito\n- **Colangite** → tríade de Charcot (febre + icterícia + dor); pêntade de Reynolds (+ hipotensão + confusão)\n- Pancreatite biliar\n- Vesícula palpável e indolor com icterícia (Courvoisier-Terrier) → pensar em NEOPLASIA periampular, não em cálculo\n\nInvestigação por risco (ASGE):\n- **Alto risco** (cálculo no colédoco à USG, colangite, ou bilirrubina > 4 com colédoco dilatado) → **CPRE** (diagnóstica e terapêutica) antes da colecistectomia\n- **Intermediário** (colédoco dilatado, enzimas alteradas, > 55 anos) → colangiorressonância ou USG endoscópica (ou colangiografia intraoperatória)\n- **Baixo** → colecistectomia direto\n\nAchado durante a colecistectomia:\n- **Exploração das vias biliares (coledocotomia)** com retirada dos cálculos, em geral com dreno de Kehr (colédoco dilatado)\n- Ou exploração transcística/laparoscópica; ou CPRE pós-operatória\n- Colédoco muito dilatado, múltiplos cálculos, cálculos primários → derivação biliodigestiva (coledocoduodenostomia)\n\nSempre:\n- Coledocolitíase com vesícula → retirar a vesícula (colecistectomia)\n\nO que mais cai no Vila Verde:\n- VV 2024 → cálculos no colédoco distal (1 cm) na colangiografia: tratamento adequado = coledocotomia transoperatória para retirar os cálculos.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "Risco de coledocolitíase",
+      "Critério",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "Alto",
+       "Cálculo no colédoco (USG), colangite, ou BT > 4 + colédoco dilatado",
+       "CPRE → colecistectomia"
+      ],
+      [
+       "Intermediário",
+       "Colédoco dilatado, enzimas alteradas, > 55 anos",
+       "ColangioRM ou USE (ou colangiografia intraop.)"
+      ],
+      [
+       "Baixo",
+       "Nenhum dos acima",
+       "Colecistectomia"
+      ],
+      [
+       "Achado intraoperatório",
+       "Cálculo na colangiografia",
+       "Exploração do colédoco (coledocotomia) ou CPRE pós"
+      ]
+     ]
+    }
+   ],
+   "fonte": "ASGE Guideline on the role of endoscopy in the evaluation and management of choledocholithiasis (2019) / Tokyo Guidelines (2018) / Sabiston 21ª ed.",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "cdl-d2",
+   "tipo": "digitar",
+   "area": "Cirurgia",
+   "tema": "Vias biliares",
+   "sub": "Coledocolitíase",
+   "frente": "Qual dreno se deixa no colédoco após a coledocotomia?",
+   "verso": "**Dreno de Kehr (em T).**",
+   "resposta": "Kehr",
+   "aceitas": [
+    "dreno de kehr",
+    "kehr",
+    "dreno em t",
+    "tubo em t"
+   ],
+   "macete": "Kehr = \"T\".",
+   "prio": "media",
+   "contexto": "**Coledocolitíase = cálculo no colédoco (em geral vindo da vesícula); pode causar icterícia obstrutiva, colangite e pancreatite.**\n\nClínica:\n- Icterícia flutuante, colúria, acolia, prurido, dor em hipocôndrio direito\n- **Colangite** → tríade de Charcot (febre + icterícia + dor); pêntade de Reynolds (+ hipotensão + confusão)\n- Pancreatite biliar\n- Vesícula palpável e indolor com icterícia (Courvoisier-Terrier) → pensar em NEOPLASIA periampular, não em cálculo\n\nInvestigação por risco (ASGE):\n- **Alto risco** (cálculo no colédoco à USG, colangite, ou bilirrubina > 4 com colédoco dilatado) → **CPRE** (diagnóstica e terapêutica) antes da colecistectomia\n- **Intermediário** (colédoco dilatado, enzimas alteradas, > 55 anos) → colangiorressonância ou USG endoscópica (ou colangiografia intraoperatória)\n- **Baixo** → colecistectomia direto\n\nAchado durante a colecistectomia:\n- **Exploração das vias biliares (coledocotomia)** com retirada dos cálculos, em geral com dreno de Kehr (colédoco dilatado)\n- Ou exploração transcística/laparoscópica; ou CPRE pós-operatória\n- Colédoco muito dilatado, múltiplos cálculos, cálculos primários → derivação biliodigestiva (coledocoduodenostomia)\n\nSempre:\n- Coledocolitíase com vesícula → retirar a vesícula (colecistectomia)\n\nO que mais cai no Vila Verde:\n- VV 2024 → cálculos no colédoco distal (1 cm) na colangiografia: tratamento adequado = coledocotomia transoperatória para retirar os cálculos.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "Risco de coledocolitíase",
+      "Critério",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "Alto",
+       "Cálculo no colédoco (USG), colangite, ou BT > 4 + colédoco dilatado",
+       "CPRE → colecistectomia"
+      ],
+      [
+       "Intermediário",
+       "Colédoco dilatado, enzimas alteradas, > 55 anos",
+       "ColangioRM ou USE (ou colangiografia intraop.)"
+      ],
+      [
+       "Baixo",
+       "Nenhum dos acima",
+       "Colecistectomia"
+      ],
+      [
+       "Achado intraoperatório",
+       "Cálculo na colangiografia",
+       "Exploração do colédoco (coledocotomia) ou CPRE pós"
+      ]
+     ]
+    }
+   ],
+   "fonte": "ASGE Guideline on the role of endoscopy in the evaluation and management of choledocholithiasis (2019) / Tokyo Guidelines (2018) / Sabiston 21ª ed.",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "ceso-01",
+   "tipo": "flash",
+   "area": "Cirurgia",
+   "tema": "Esôfago e estômago",
+   "sub": "Câncer de esôfago",
+   "frente": "Câncer de esôfago: epidermoide × adenocarcinoma",
+   "verso": "**Epidermoide → terço médio.**\n**Adenocarcinoma → terço distal (Barrett).**\n\nFatores do epidermoide:\n- Tabaco, álcool, bebida quente.\n\nFatores do adenocarcinoma:\n- DRGE, Barrett, obesidade.\n\nQRT:\n- Epidermoide é mais sensível.",
+   "macete": "\"Escamoso no Meio (Mate quente); Adeno no fim (Azia/Barrett)\".",
+   "pegadinha": "Barrett leva a ADENOcarcinoma, não a epidermoide.",
+   "uerj": "VV 2024: distrator dizia epidermoide menos sensível e ligado ao Barrett.",
+   "prio": "media",
+   "contexto": "**Câncer de esôfago = neoplasia agressiva, de diagnóstico tardio; dois tipos principais: carcinoma epidermoide (escamoso) e adenocarcinoma.**\n\nTipos:\n- **Epidermoide (escamoso)** → terço médio/superior; tabagismo, álcool, bebidas muito quentes (chimarrão), acalasia, cáusticos, tilose; mais comum no Brasil\n- **Adenocarcinoma** → terço distal/junção; DRGE → **esôfago de Barrett**, obesidade; crescendo no Ocidente\n\nClínica:\n- **Disfagia progressiva** (sólidos → líquidos) + **emagrecimento** → em geral doença avançada\n- Odinofagia, rouquidão (nervo recorrente), tosse por fístula traqueoesofágica\n\nDiagnóstico e estadiamento:\n- **EDA com biópsia** → diagnóstico\n- **USG endoscópica (USE)** → o exame mais importante para T (profundidade) e N (linfonodos locais)\n- TC de tórax/abdome e PET-CT → metástases\n- Broncoscopia → tumores do terço médio/superior (invasão da árvore traqueobrônquica)\n\nDisseminação:\n- Rica rede linfática na submucosa e **sem serosa** → disseminação linfonodal PRECOCE e frequente\n\nTratamento:\n- Precoce (T1a) → ressecção endoscópica\n- Localmente avançado → quimiorradioterapia neoadjuvante + esofagectomia\n- **Epidermoide é MAIS sensível à quimiorradioterapia** (pode ser definitiva no cervical)\n- Paliativo → stent, radioterapia, gastrostomia\n\nO que mais cai no Vila Verde:\n- VV 2024 → USE é o principal exame de estadiamento (orienta terapia clínica e cirúrgica); distratores: baixa disseminação linfática, pirose como sintoma principal, epidermoide menos sensível à QRT e associado ao Barrett.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "cab": [
+      "",
+      "Epidermoide",
+      "Adenocarcinoma"
+     ],
+     "linhas": [
+      [
+       "Local",
+       "Terço médio/superior",
+       "Terço distal / junção"
+      ],
+      [
+       "Fatores",
+       "Tabaco, álcool, bebida quente, acalasia, cáustico",
+       "DRGE, Barrett, obesidade"
+      ],
+      [
+       "Quimiorradioterapia",
+       "!Mais sensível",
+       "Menos sensível"
+      ],
+      [
+       "No Brasil",
+       "Mais comum",
+       "Em ascensão"
+      ]
+     ]
+    }
+   ],
+   "fonte": "INCA — Câncer de esôfago / NCCN Guidelines — Esophageal and Esophagogastric Junction Cancers (2025) / Sabiston 21ª ed.",
+   "add": "2026-10-28",
+   "visual": {
+    "tipo": "grupos",
+    "grupos": [
+     {
+      "t": "Epidermoide",
+      "itens": [
+       "Mais comum no Brasil",
+       "Acalasia, cáustico, tilose"
+      ]
+     },
+     {
+      "t": "Adenocarcinoma",
+      "itens": [
+       "Em ascensão no Ocidente",
+       "Junção esofagogástrica"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "ceso-02",
+   "tipo": "flash",
+   "area": "Cirurgia",
+   "tema": "Esôfago e estômago",
+   "sub": "Câncer de esôfago",
+   "frente": "Qual o exame mais importante para estadiar o câncer de esôfago (T e N)?",
+   "verso": "**Ultrassonografia endoscópica.**\n\nComplementam:\n- TC e PET-CT → metástases à distância.\n- Broncoscopia → terço médio/superior.",
+   "macete": "\"Eco por dentro conta as camadas\" (T) e os linfonodos (N).",
+   "visual": {
+    "tipo": "tabela",
+    "cab": [
+     "Exame",
+     "Para quê"
+    ],
+    "linhas": [
+     [
+      "EDA + biópsia",
+      "Diagnóstico"
+     ],
+     [
+      "!USG endoscópica",
+      "T e N locorregional"
+     ],
+     [
+      "TC / PET-CT",
+      "Metástase à distância"
+     ],
+     [
+      "Broncoscopia",
+      "Invasão traqueobrônquica"
+     ]
+    ]
+   },
+   "pegadinha": "A disseminação linfática é PRECOCE (esôfago não tem serosa).",
+   "uerj": "VV 2024: USE.",
+   "prio": "media",
+   "contexto": "**Câncer de esôfago = neoplasia agressiva, de diagnóstico tardio; dois tipos principais: carcinoma epidermoide (escamoso) e adenocarcinoma.**\n\nTipos:\n- **Epidermoide (escamoso)** → terço médio/superior; tabagismo, álcool, bebidas muito quentes (chimarrão), acalasia, cáusticos, tilose; mais comum no Brasil\n- **Adenocarcinoma** → terço distal/junção; DRGE → **esôfago de Barrett**, obesidade; crescendo no Ocidente\n\nClínica:\n- **Disfagia progressiva** (sólidos → líquidos) + **emagrecimento** → em geral doença avançada\n- Odinofagia, rouquidão (nervo recorrente), tosse por fístula traqueoesofágica\n\nDiagnóstico e estadiamento:\n- **EDA com biópsia** → diagnóstico\n- **USG endoscópica (USE)** → o exame mais importante para T (profundidade) e N (linfonodos locais)\n- TC de tórax/abdome e PET-CT → metástases\n- Broncoscopia → tumores do terço médio/superior (invasão da árvore traqueobrônquica)\n\nDisseminação:\n- Rica rede linfática na submucosa e **sem serosa** → disseminação linfonodal PRECOCE e frequente\n\nTratamento:\n- Precoce (T1a) → ressecção endoscópica\n- Localmente avançado → quimiorradioterapia neoadjuvante + esofagectomia\n- **Epidermoide é MAIS sensível à quimiorradioterapia** (pode ser definitiva no cervical)\n- Paliativo → stent, radioterapia, gastrostomia\n\nO que mais cai no Vila Verde:\n- VV 2024 → USE é o principal exame de estadiamento (orienta terapia clínica e cirúrgica); distratores: baixa disseminação linfática, pirose como sintoma principal, epidermoide menos sensível à QRT e associado ao Barrett.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "cab": [
+      "",
+      "Epidermoide",
+      "Adenocarcinoma"
+     ],
+     "linhas": [
+      [
+       "Local",
+       "Terço médio/superior",
+       "Terço distal / junção"
+      ],
+      [
+       "Fatores",
+       "Tabaco, álcool, bebida quente, acalasia, cáustico",
+       "DRGE, Barrett, obesidade"
+      ],
+      [
+       "Quimiorradioterapia",
+       "!Mais sensível",
+       "Menos sensível"
+      ],
+      [
+       "No Brasil",
+       "Mais comum",
+       "Em ascensão"
+      ]
+     ]
+    }
+   ],
+   "fonte": "INCA — Câncer de esôfago / NCCN Guidelines — Esophageal and Esophagogastric Junction Cancers (2025) / Sabiston 21ª ed.",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "ceso-q1",
+   "tipo": "quiz",
+   "area": "Cirurgia",
+   "tema": "Esôfago e estômago",
+   "sub": "Câncer de esôfago",
+   "frente": "Sobre o câncer de esôfago, é CORRETO afirmar:",
+   "opcoes": [
+    "Pelo pobre suprimento linfático, a disseminação linfonodal é baixa.",
+    "A maioria apresenta pirose e regurgitação como sintomas principais.",
+    "A ultrassonografia endoscópica é o componente mais importante do estadiamento locorregional.",
+    "O epidermoide é menos sensível à quimiorradioterapia e se associa ao Barrett."
+   ],
+   "certa": 2,
+   "comentarios": [
+    "Errada: linfático rico, sem serosa.",
+    "Errada: disfagia + emagrecimento.",
+    "Correta.",
+    "Errada: invertido."
+   ],
+   "macete": "\"Eco por dentro\".",
+   "pegadinha": "Disfagia progressiva + perda de peso = câncer até prova em contrário.",
+   "uerj": "VV 2024 (Q47).",
+   "prio": "media",
+   "contexto": "**Câncer de esôfago = neoplasia agressiva, de diagnóstico tardio; dois tipos principais: carcinoma epidermoide (escamoso) e adenocarcinoma.**\n\nTipos:\n- **Epidermoide (escamoso)** → terço médio/superior; tabagismo, álcool, bebidas muito quentes (chimarrão), acalasia, cáusticos, tilose; mais comum no Brasil\n- **Adenocarcinoma** → terço distal/junção; DRGE → **esôfago de Barrett**, obesidade; crescendo no Ocidente\n\nClínica:\n- **Disfagia progressiva** (sólidos → líquidos) + **emagrecimento** → em geral doença avançada\n- Odinofagia, rouquidão (nervo recorrente), tosse por fístula traqueoesofágica\n\nDiagnóstico e estadiamento:\n- **EDA com biópsia** → diagnóstico\n- **USG endoscópica (USE)** → o exame mais importante para T (profundidade) e N (linfonodos locais)\n- TC de tórax/abdome e PET-CT → metástases\n- Broncoscopia → tumores do terço médio/superior (invasão da árvore traqueobrônquica)\n\nDisseminação:\n- Rica rede linfática na submucosa e **sem serosa** → disseminação linfonodal PRECOCE e frequente\n\nTratamento:\n- Precoce (T1a) → ressecção endoscópica\n- Localmente avançado → quimiorradioterapia neoadjuvante + esofagectomia\n- **Epidermoide é MAIS sensível à quimiorradioterapia** (pode ser definitiva no cervical)\n- Paliativo → stent, radioterapia, gastrostomia\n\nO que mais cai no Vila Verde:\n- VV 2024 → USE é o principal exame de estadiamento (orienta terapia clínica e cirúrgica); distratores: baixa disseminação linfática, pirose como sintoma principal, epidermoide menos sensível à QRT e associado ao Barrett.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "cab": [
+      "",
+      "Epidermoide",
+      "Adenocarcinoma"
+     ],
+     "linhas": [
+      [
+       "Local",
+       "Terço médio/superior",
+       "Terço distal / junção"
+      ],
+      [
+       "Fatores",
+       "Tabaco, álcool, bebida quente, acalasia, cáustico",
+       "DRGE, Barrett, obesidade"
+      ],
+      [
+       "Quimiorradioterapia",
+       "!Mais sensível",
+       "Menos sensível"
+      ],
+      [
+       "No Brasil",
+       "Mais comum",
+       "Em ascensão"
+      ]
+     ]
+    }
+   ],
+   "fonte": "INCA — Câncer de esôfago / NCCN Guidelines — Esophageal and Esophagogastric Junction Cancers (2025) / Sabiston 21ª ed.",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "ceso-d1",
+   "tipo": "digitar",
+   "area": "Cirurgia",
+   "tema": "Esôfago e estômago",
+   "sub": "Câncer de esôfago",
+   "frente": "Qual condição pré-maligna leva ao adenocarcinoma de esôfago?",
+   "verso": "**Esôfago de Barrett.**",
+   "resposta": "Barrett",
+   "aceitas": [
+    "esofago de barrett",
+    "barrett",
+    "esôfago de barrett"
+   ],
+   "macete": "Barrett → Adeno.",
+   "prio": "media",
+   "contexto": "**Câncer de esôfago = neoplasia agressiva, de diagnóstico tardio; dois tipos principais: carcinoma epidermoide (escamoso) e adenocarcinoma.**\n\nTipos:\n- **Epidermoide (escamoso)** → terço médio/superior; tabagismo, álcool, bebidas muito quentes (chimarrão), acalasia, cáusticos, tilose; mais comum no Brasil\n- **Adenocarcinoma** → terço distal/junção; DRGE → **esôfago de Barrett**, obesidade; crescendo no Ocidente\n\nClínica:\n- **Disfagia progressiva** (sólidos → líquidos) + **emagrecimento** → em geral doença avançada\n- Odinofagia, rouquidão (nervo recorrente), tosse por fístula traqueoesofágica\n\nDiagnóstico e estadiamento:\n- **EDA com biópsia** → diagnóstico\n- **USG endoscópica (USE)** → o exame mais importante para T (profundidade) e N (linfonodos locais)\n- TC de tórax/abdome e PET-CT → metástases\n- Broncoscopia → tumores do terço médio/superior (invasão da árvore traqueobrônquica)\n\nDisseminação:\n- Rica rede linfática na submucosa e **sem serosa** → disseminação linfonodal PRECOCE e frequente\n\nTratamento:\n- Precoce (T1a) → ressecção endoscópica\n- Localmente avançado → quimiorradioterapia neoadjuvante + esofagectomia\n- **Epidermoide é MAIS sensível à quimiorradioterapia** (pode ser definitiva no cervical)\n- Paliativo → stent, radioterapia, gastrostomia\n\nO que mais cai no Vila Verde:\n- VV 2024 → USE é o principal exame de estadiamento (orienta terapia clínica e cirúrgica); distratores: baixa disseminação linfática, pirose como sintoma principal, epidermoide menos sensível à QRT e associado ao Barrett.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "cab": [
+      "",
+      "Epidermoide",
+      "Adenocarcinoma"
+     ],
+     "linhas": [
+      [
+       "Local",
+       "Terço médio/superior",
+       "Terço distal / junção"
+      ],
+      [
+       "Fatores",
+       "Tabaco, álcool, bebida quente, acalasia, cáustico",
+       "DRGE, Barrett, obesidade"
+      ],
+      [
+       "Quimiorradioterapia",
+       "!Mais sensível",
+       "Menos sensível"
+      ],
+      [
+       "No Brasil",
+       "Mais comum",
+       "Em ascensão"
+      ]
+     ]
+    }
+   ],
+   "fonte": "INCA — Câncer de esôfago / NCCN Guidelines — Esophageal and Esophagogastric Junction Cancers (2025) / Sabiston 21ª ed.",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "ceso-d2",
+   "tipo": "digitar",
+   "area": "Cirurgia",
+   "tema": "Esôfago e estômago",
+   "sub": "Câncer de esôfago",
+   "frente": "Qual o sintoma mais típico do câncer de esôfago?",
+   "verso": "**Disfagia progressiva** (com emagrecimento).",
+   "resposta": "Disfagia",
+   "aceitas": [
+    "disfagia progressiva",
+    "disfagia"
+   ],
+   "macete": "\"Sólido trava, depois o líquido\".",
+   "prio": "media",
+   "contexto": "**Câncer de esôfago = neoplasia agressiva, de diagnóstico tardio; dois tipos principais: carcinoma epidermoide (escamoso) e adenocarcinoma.**\n\nTipos:\n- **Epidermoide (escamoso)** → terço médio/superior; tabagismo, álcool, bebidas muito quentes (chimarrão), acalasia, cáusticos, tilose; mais comum no Brasil\n- **Adenocarcinoma** → terço distal/junção; DRGE → **esôfago de Barrett**, obesidade; crescendo no Ocidente\n\nClínica:\n- **Disfagia progressiva** (sólidos → líquidos) + **emagrecimento** → em geral doença avançada\n- Odinofagia, rouquidão (nervo recorrente), tosse por fístula traqueoesofágica\n\nDiagnóstico e estadiamento:\n- **EDA com biópsia** → diagnóstico\n- **USG endoscópica (USE)** → o exame mais importante para T (profundidade) e N (linfonodos locais)\n- TC de tórax/abdome e PET-CT → metástases\n- Broncoscopia → tumores do terço médio/superior (invasão da árvore traqueobrônquica)\n\nDisseminação:\n- Rica rede linfática na submucosa e **sem serosa** → disseminação linfonodal PRECOCE e frequente\n\nTratamento:\n- Precoce (T1a) → ressecção endoscópica\n- Localmente avançado → quimiorradioterapia neoadjuvante + esofagectomia\n- **Epidermoide é MAIS sensível à quimiorradioterapia** (pode ser definitiva no cervical)\n- Paliativo → stent, radioterapia, gastrostomia\n\nO que mais cai no Vila Verde:\n- VV 2024 → USE é o principal exame de estadiamento (orienta terapia clínica e cirúrgica); distratores: baixa disseminação linfática, pirose como sintoma principal, epidermoide menos sensível à QRT e associado ao Barrett.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "cab": [
+      "",
+      "Epidermoide",
+      "Adenocarcinoma"
+     ],
+     "linhas": [
+      [
+       "Local",
+       "Terço médio/superior",
+       "Terço distal / junção"
+      ],
+      [
+       "Fatores",
+       "Tabaco, álcool, bebida quente, acalasia, cáustico",
+       "DRGE, Barrett, obesidade"
+      ],
+      [
+       "Quimiorradioterapia",
+       "!Mais sensível",
+       "Menos sensível"
+      ],
+      [
+       "No Brasil",
+       "Mais comum",
+       "Em ascensão"
+      ]
+     ]
+    }
+   ],
+   "fonte": "INCA — Câncer de esôfago / NCCN Guidelines — Esophageal and Esophagogastric Junction Cancers (2025) / Sabiston 21ª ed.",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "hdb-01",
+   "tipo": "flash",
+   "area": "Cirurgia",
+   "tema": "Intestino delgado e cólon",
+   "sub": "Hemorragia digestiva baixa",
+   "frente": "HDB: causa mais comum no adulto e exame de escolha",
+   "verso": "**Doença diverticular.**\n**Colonoscopia (em até 24 h, após preparo).**\n\nIdoso com sangramento recorrente do cólon direito:\n- Angiodisplasia.",
+   "macete": "HDB do idoso: \"Divertículo é o Dono\".",
+   "visual": {
+    "tipo": "lista",
+    "itens": [
+     "!Doença diverticular (mais comum)",
+     "Angiodisplasia",
+     "Colite isquêmica",
+     "Neoplasia, DII, hemorroidas"
+    ]
+   },
+   "pegadinha": "Instável → angioTC antes da colonoscopia.",
+   "prio": "media",
+   "contexto": "**Hemorragia digestiva baixa (HDB) = sangramento originado abaixo do ângulo de Treitz (na prática, sobretudo do cólon); a maioria cessa espontaneamente.**\n\nCausas no adulto:\n- **Doença diverticular** → a mais comum (sangramento indolor, volumoso; cólon direito sangra mais)\n- **Angiodisplasia** → idoso, cólon direito, recorrente\n- Colite isquêmica, doença inflamatória, neoplasia, hemorroidas, pós-polipectomia\n- Criança → divertículo de Meckel, pólipo juvenil, fissura\n\nLembrete:\n- ~10–15% das hematoquezias graves vêm de HDA → se instabilidade, considerar EDA\n- Conteúdo biliar sem sangue no aspirado gástrico fala CONTRA HDA\n\nConduta:\n- Estabilizar: acessos, cristaloide, transfusão se necessário (alvo de Hb ~7; ~8 se coronariopata)\n- **Sangramento ativo + coagulopatia (INR > 1,5) e/ou plaquetas < 50.000 → plasma e/ou plaquetas**\n- **Colonoscopia** (após preparo) em até 24 h → diagnóstica e terapêutica\n- Instável/sangramento maciço → **angioTC** → arteriografia com embolização\n- Cintilografia com hemácias marcadas → detecta fluxos baixos (~0,1 mL/min)\n- Cirurgia → refratário; colectomia segmentar se localizado (total se não localizado)\n\nO que mais cai no Vila Verde:\n- VV 2024 → com sangramento ativo e coagulopatia (INR > 1,5) e/ou plaquetas < 50.000 → plasma/plaquetas (correta); distratores: EDA só após 48 h, 85% da HDB vir de HDA.",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 186\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><rect x=\"10\" y=\"8\" width=\"320\" height=\"30\" rx=\"9\" fill=\"var(--wine)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"170.0\" y=\"26.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--card)\">Hematoquezia</text><line x1=\"170\" y1=\"38\" x2=\"170\" y2=\"48\" stroke=\"var(--rose)\"/><rect x=\"10\" y=\"48\" width=\"320\" height=\"32\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"170.0\" y=\"67.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Estabilizar + corrigir coagulopatia (INR > 1,5 / plaq < 50 mil)</text><line x1=\"90\" y1=\"80\" x2=\"90\" y2=\"92\" stroke=\"var(--rose)\"/><line x1=\"250\" y1=\"80\" x2=\"250\" y2=\"92\" stroke=\"var(--rose)\"/><rect x=\"10\" y=\"92\" width=\"160\" height=\"44\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"90.0\" y=\"113.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Estável</text><text x=\"90.0\" y=\"125.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">colonoscopia em 24 h</text><rect x=\"178\" y=\"92\" width=\"152\" height=\"44\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"254.0\" y=\"113.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Instável</text><text x=\"254.0\" y=\"125.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">angioTC → embolização</text><rect x=\"60\" y=\"146\" width=\"220\" height=\"32\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"170.0\" y=\"165.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Refratário → cirurgia</text></svg>",
+     "legenda": "Hemorragia digestiva baixa: fluxo de conduta"
+    }
+   ],
+   "fonte": "ACG Clinical Guideline — Management of Patients With Acute Lower GI Bleeding (2023) / ESGE (2021) / Sabiston 21ª ed.",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "hdb-02",
+   "tipo": "flash",
+   "area": "Cirurgia",
+   "tema": "Intestino delgado e cólon",
+   "sub": "Hemorragia digestiva baixa",
+   "frente": "HDB com sangramento ativo e INR 1,8 ou plaquetas 40 mil: o que repor?",
+   "verso": "**Plasma (INR > 1,5) e/ou plaquetas (< 50.000).**\n\nJunto:\n- Concentrado de hemácias se Hb < 7 (8 no coronariopata).",
+   "macete": "\"1,5 e 50\": corrigir INR e plaquetas no sangramento ativo.",
+   "pegadinha": "Só ~10–15% das hematoquezias graves vêm de HDA (não 85%).",
+   "uerj": "VV 2024: plasma/plaquetas.",
+   "prio": "media",
+   "contexto": "**Hemorragia digestiva baixa (HDB) = sangramento originado abaixo do ângulo de Treitz (na prática, sobretudo do cólon); a maioria cessa espontaneamente.**\n\nCausas no adulto:\n- **Doença diverticular** → a mais comum (sangramento indolor, volumoso; cólon direito sangra mais)\n- **Angiodisplasia** → idoso, cólon direito, recorrente\n- Colite isquêmica, doença inflamatória, neoplasia, hemorroidas, pós-polipectomia\n- Criança → divertículo de Meckel, pólipo juvenil, fissura\n\nLembrete:\n- ~10–15% das hematoquezias graves vêm de HDA → se instabilidade, considerar EDA\n- Conteúdo biliar sem sangue no aspirado gástrico fala CONTRA HDA\n\nConduta:\n- Estabilizar: acessos, cristaloide, transfusão se necessário (alvo de Hb ~7; ~8 se coronariopata)\n- **Sangramento ativo + coagulopatia (INR > 1,5) e/ou plaquetas < 50.000 → plasma e/ou plaquetas**\n- **Colonoscopia** (após preparo) em até 24 h → diagnóstica e terapêutica\n- Instável/sangramento maciço → **angioTC** → arteriografia com embolização\n- Cintilografia com hemácias marcadas → detecta fluxos baixos (~0,1 mL/min)\n- Cirurgia → refratário; colectomia segmentar se localizado (total se não localizado)\n\nO que mais cai no Vila Verde:\n- VV 2024 → com sangramento ativo e coagulopatia (INR > 1,5) e/ou plaquetas < 50.000 → plasma/plaquetas (correta); distratores: EDA só após 48 h, 85% da HDB vir de HDA.",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 186\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><rect x=\"10\" y=\"8\" width=\"320\" height=\"30\" rx=\"9\" fill=\"var(--wine)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"170.0\" y=\"26.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--card)\">Hematoquezia</text><line x1=\"170\" y1=\"38\" x2=\"170\" y2=\"48\" stroke=\"var(--rose)\"/><rect x=\"10\" y=\"48\" width=\"320\" height=\"32\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"170.0\" y=\"67.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Estabilizar + corrigir coagulopatia (INR > 1,5 / plaq < 50 mil)</text><line x1=\"90\" y1=\"80\" x2=\"90\" y2=\"92\" stroke=\"var(--rose)\"/><line x1=\"250\" y1=\"80\" x2=\"250\" y2=\"92\" stroke=\"var(--rose)\"/><rect x=\"10\" y=\"92\" width=\"160\" height=\"44\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"90.0\" y=\"113.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Estável</text><text x=\"90.0\" y=\"125.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">colonoscopia em 24 h</text><rect x=\"178\" y=\"92\" width=\"152\" height=\"44\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"254.0\" y=\"113.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Instável</text><text x=\"254.0\" y=\"125.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">angioTC → embolização</text><rect x=\"60\" y=\"146\" width=\"220\" height=\"32\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"170.0\" y=\"165.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Refratário → cirurgia</text></svg>",
+     "legenda": "Hemorragia digestiva baixa: fluxo de conduta"
+    }
+   ],
+   "fonte": "ACG Clinical Guideline — Management of Patients With Acute Lower GI Bleeding (2023) / ESGE (2021) / Sabiston 21ª ed.",
+   "add": "2026-10-28",
+   "visual": {
+    "tipo": "tabela",
+    "cab": [
+     "Alvo no sangramento ativo",
+     "Repor"
+    ],
+    "linhas": [
+     [
+      "Hb < 7 (8 se coronariopata)",
+      "Concentrado de hemácias"
+     ],
+     [
+      "INR > 1,5",
+      "Plasma fresco"
+     ],
+     [
+      "Plaquetas < 50.000",
+      "Plaquetas"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "hdb-q1",
+   "tipo": "quiz",
+   "area": "Cirurgia",
+   "tema": "Intestino delgado e cólon",
+   "sub": "Hemorragia digestiva baixa",
+   "frente": "Sobre a hemorragia digestiva baixa, é CORRETO afirmar:",
+   "opcoes": [
+    "Sangramento ativo com INR > 1,5 e/ou plaquetas < 50.000 deve receber plasma e/ou plaquetas.",
+    "Conteúdo biliar sem sangue no aspirado gástrico fala a favor de HDA.",
+    "A EDA deve ser feita idealmente após 48 h.",
+    "Cerca de 85% das HDB são causadas por HDA."
+   ],
+   "certa": 0,
+   "comentarios": [
+    "Correta.",
+    "Errada: fala CONTRA.",
+    "Errada.",
+    "Errada: 10–15%."
+   ],
+   "macete": "\"1,5 e 50\".",
+   "pegadinha": "Aspirado com bile e sem sangue → improvável HDA.",
+   "uerj": "VV 2024 (Q53).",
+   "prio": "media",
+   "contexto": "**Hemorragia digestiva baixa (HDB) = sangramento originado abaixo do ângulo de Treitz (na prática, sobretudo do cólon); a maioria cessa espontaneamente.**\n\nCausas no adulto:\n- **Doença diverticular** → a mais comum (sangramento indolor, volumoso; cólon direito sangra mais)\n- **Angiodisplasia** → idoso, cólon direito, recorrente\n- Colite isquêmica, doença inflamatória, neoplasia, hemorroidas, pós-polipectomia\n- Criança → divertículo de Meckel, pólipo juvenil, fissura\n\nLembrete:\n- ~10–15% das hematoquezias graves vêm de HDA → se instabilidade, considerar EDA\n- Conteúdo biliar sem sangue no aspirado gástrico fala CONTRA HDA\n\nConduta:\n- Estabilizar: acessos, cristaloide, transfusão se necessário (alvo de Hb ~7; ~8 se coronariopata)\n- **Sangramento ativo + coagulopatia (INR > 1,5) e/ou plaquetas < 50.000 → plasma e/ou plaquetas**\n- **Colonoscopia** (após preparo) em até 24 h → diagnóstica e terapêutica\n- Instável/sangramento maciço → **angioTC** → arteriografia com embolização\n- Cintilografia com hemácias marcadas → detecta fluxos baixos (~0,1 mL/min)\n- Cirurgia → refratário; colectomia segmentar se localizado (total se não localizado)\n\nO que mais cai no Vila Verde:\n- VV 2024 → com sangramento ativo e coagulopatia (INR > 1,5) e/ou plaquetas < 50.000 → plasma/plaquetas (correta); distratores: EDA só após 48 h, 85% da HDB vir de HDA.",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 186\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><rect x=\"10\" y=\"8\" width=\"320\" height=\"30\" rx=\"9\" fill=\"var(--wine)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"170.0\" y=\"26.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--card)\">Hematoquezia</text><line x1=\"170\" y1=\"38\" x2=\"170\" y2=\"48\" stroke=\"var(--rose)\"/><rect x=\"10\" y=\"48\" width=\"320\" height=\"32\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"170.0\" y=\"67.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Estabilizar + corrigir coagulopatia (INR > 1,5 / plaq < 50 mil)</text><line x1=\"90\" y1=\"80\" x2=\"90\" y2=\"92\" stroke=\"var(--rose)\"/><line x1=\"250\" y1=\"80\" x2=\"250\" y2=\"92\" stroke=\"var(--rose)\"/><rect x=\"10\" y=\"92\" width=\"160\" height=\"44\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"90.0\" y=\"113.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Estável</text><text x=\"90.0\" y=\"125.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">colonoscopia em 24 h</text><rect x=\"178\" y=\"92\" width=\"152\" height=\"44\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"254.0\" y=\"113.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Instável</text><text x=\"254.0\" y=\"125.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">angioTC → embolização</text><rect x=\"60\" y=\"146\" width=\"220\" height=\"32\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"170.0\" y=\"165.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Refratário → cirurgia</text></svg>",
+     "legenda": "Hemorragia digestiva baixa: fluxo de conduta"
+    }
+   ],
+   "fonte": "ACG Clinical Guideline — Management of Patients With Acute Lower GI Bleeding (2023) / ESGE (2021) / Sabiston 21ª ed.",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "hdb-d1",
+   "tipo": "digitar",
+   "area": "Cirurgia",
+   "tema": "Intestino delgado e cólon",
+   "sub": "Hemorragia digestiva baixa",
+   "frente": "Qual a causa mais comum de HDB no adulto?",
+   "verso": "**Doença diverticular.**",
+   "resposta": "Doença diverticular",
+   "aceitas": [
+    "diverticulose",
+    "divertículo",
+    "doenca diverticular",
+    "doença diverticular"
+   ],
+   "macete": "Divertículo é o dono.",
+   "prio": "media",
+   "contexto": "**Hemorragia digestiva baixa (HDB) = sangramento originado abaixo do ângulo de Treitz (na prática, sobretudo do cólon); a maioria cessa espontaneamente.**\n\nCausas no adulto:\n- **Doença diverticular** → a mais comum (sangramento indolor, volumoso; cólon direito sangra mais)\n- **Angiodisplasia** → idoso, cólon direito, recorrente\n- Colite isquêmica, doença inflamatória, neoplasia, hemorroidas, pós-polipectomia\n- Criança → divertículo de Meckel, pólipo juvenil, fissura\n\nLembrete:\n- ~10–15% das hematoquezias graves vêm de HDA → se instabilidade, considerar EDA\n- Conteúdo biliar sem sangue no aspirado gástrico fala CONTRA HDA\n\nConduta:\n- Estabilizar: acessos, cristaloide, transfusão se necessário (alvo de Hb ~7; ~8 se coronariopata)\n- **Sangramento ativo + coagulopatia (INR > 1,5) e/ou plaquetas < 50.000 → plasma e/ou plaquetas**\n- **Colonoscopia** (após preparo) em até 24 h → diagnóstica e terapêutica\n- Instável/sangramento maciço → **angioTC** → arteriografia com embolização\n- Cintilografia com hemácias marcadas → detecta fluxos baixos (~0,1 mL/min)\n- Cirurgia → refratário; colectomia segmentar se localizado (total se não localizado)\n\nO que mais cai no Vila Verde:\n- VV 2024 → com sangramento ativo e coagulopatia (INR > 1,5) e/ou plaquetas < 50.000 → plasma/plaquetas (correta); distratores: EDA só após 48 h, 85% da HDB vir de HDA.",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 186\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><rect x=\"10\" y=\"8\" width=\"320\" height=\"30\" rx=\"9\" fill=\"var(--wine)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"170.0\" y=\"26.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--card)\">Hematoquezia</text><line x1=\"170\" y1=\"38\" x2=\"170\" y2=\"48\" stroke=\"var(--rose)\"/><rect x=\"10\" y=\"48\" width=\"320\" height=\"32\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"170.0\" y=\"67.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Estabilizar + corrigir coagulopatia (INR > 1,5 / plaq < 50 mil)</text><line x1=\"90\" y1=\"80\" x2=\"90\" y2=\"92\" stroke=\"var(--rose)\"/><line x1=\"250\" y1=\"80\" x2=\"250\" y2=\"92\" stroke=\"var(--rose)\"/><rect x=\"10\" y=\"92\" width=\"160\" height=\"44\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"90.0\" y=\"113.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Estável</text><text x=\"90.0\" y=\"125.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">colonoscopia em 24 h</text><rect x=\"178\" y=\"92\" width=\"152\" height=\"44\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"254.0\" y=\"113.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Instável</text><text x=\"254.0\" y=\"125.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">angioTC → embolização</text><rect x=\"60\" y=\"146\" width=\"220\" height=\"32\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"170.0\" y=\"165.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Refratário → cirurgia</text></svg>",
+     "legenda": "Hemorragia digestiva baixa: fluxo de conduta"
+    }
+   ],
+   "fonte": "ACG Clinical Guideline — Management of Patients With Acute Lower GI Bleeding (2023) / ESGE (2021) / Sabiston 21ª ed.",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "hdb-d2",
+   "tipo": "digitar",
+   "area": "Cirurgia",
+   "tema": "Intestino delgado e cólon",
+   "sub": "Hemorragia digestiva baixa",
+   "frente": "Qual a causa mais comum de sangramento intestinal na criança pequena (indolor, volumoso)?",
+   "verso": "**Divertículo de Meckel.**",
+   "resposta": "Meckel",
+   "aceitas": [
+    "divertículo de meckel",
+    "meckel",
+    "diverticulo de meckel"
+   ],
+   "macete": "Meckel = \"regra dos 2\".",
+   "prio": "media",
+   "contexto": "**Hemorragia digestiva baixa (HDB) = sangramento originado abaixo do ângulo de Treitz (na prática, sobretudo do cólon); a maioria cessa espontaneamente.**\n\nCausas no adulto:\n- **Doença diverticular** → a mais comum (sangramento indolor, volumoso; cólon direito sangra mais)\n- **Angiodisplasia** → idoso, cólon direito, recorrente\n- Colite isquêmica, doença inflamatória, neoplasia, hemorroidas, pós-polipectomia\n- Criança → divertículo de Meckel, pólipo juvenil, fissura\n\nLembrete:\n- ~10–15% das hematoquezias graves vêm de HDA → se instabilidade, considerar EDA\n- Conteúdo biliar sem sangue no aspirado gástrico fala CONTRA HDA\n\nConduta:\n- Estabilizar: acessos, cristaloide, transfusão se necessário (alvo de Hb ~7; ~8 se coronariopata)\n- **Sangramento ativo + coagulopatia (INR > 1,5) e/ou plaquetas < 50.000 → plasma e/ou plaquetas**\n- **Colonoscopia** (após preparo) em até 24 h → diagnóstica e terapêutica\n- Instável/sangramento maciço → **angioTC** → arteriografia com embolização\n- Cintilografia com hemácias marcadas → detecta fluxos baixos (~0,1 mL/min)\n- Cirurgia → refratário; colectomia segmentar se localizado (total se não localizado)\n\nO que mais cai no Vila Verde:\n- VV 2024 → com sangramento ativo e coagulopatia (INR > 1,5) e/ou plaquetas < 50.000 → plasma/plaquetas (correta); distratores: EDA só após 48 h, 85% da HDB vir de HDA.",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 186\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><rect x=\"10\" y=\"8\" width=\"320\" height=\"30\" rx=\"9\" fill=\"var(--wine)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"170.0\" y=\"26.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--card)\">Hematoquezia</text><line x1=\"170\" y1=\"38\" x2=\"170\" y2=\"48\" stroke=\"var(--rose)\"/><rect x=\"10\" y=\"48\" width=\"320\" height=\"32\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"170.0\" y=\"67.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Estabilizar + corrigir coagulopatia (INR > 1,5 / plaq < 50 mil)</text><line x1=\"90\" y1=\"80\" x2=\"90\" y2=\"92\" stroke=\"var(--rose)\"/><line x1=\"250\" y1=\"80\" x2=\"250\" y2=\"92\" stroke=\"var(--rose)\"/><rect x=\"10\" y=\"92\" width=\"160\" height=\"44\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"90.0\" y=\"113.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Estável</text><text x=\"90.0\" y=\"125.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">colonoscopia em 24 h</text><rect x=\"178\" y=\"92\" width=\"152\" height=\"44\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"254.0\" y=\"113.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Instável</text><text x=\"254.0\" y=\"125.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">angioTC → embolização</text><rect x=\"60\" y=\"146\" width=\"220\" height=\"32\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"170.0\" y=\"165.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Refratário → cirurgia</text></svg>",
+     "legenda": "Hemorragia digestiva baixa: fluxo de conduta"
+    }
+   ],
+   "fonte": "ACG Clinical Guideline — Management of Patients With Acute Lower GI Bleeding (2023) / ESGE (2021) / Sabiston 21ª ed.",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "mel-01",
+   "tipo": "flash",
+   "area": "Cirurgia",
+   "tema": "Oncologia cirúrgica",
+   "sub": "Melanoma e câncer de pele",
+   "frente": "Melanoma: principais fatores prognósticos",
+   "verso": "**Metástase linfonodal.**\n**Espessura de Breslow** (no tumor primário).\n\nDepois:\n- Ulceração, idade, local, sexo.",
+   "macete": "\"Breslow mede o Buraco\" (profundidade).",
+   "visual": {
+    "tipo": "tabela",
+    "cab": [
+     "Breslow (espessura em mm, sem pontuação)",
+     "T (AJCC 8)"
+    ],
+    "linhas": [
+     [
+      "≤ 1 mm",
+      "T1"
+     ],
+     [
+      "1,01–2 mm",
+      "T2"
+     ],
+     [
+      "2,01–4 mm",
+      "T3"
+     ],
+     [
+      "> 4 mm",
+      "T4"
+     ],
+     [
+      "Ulceração",
+      "sufixo b (pior)"
+     ]
+    ]
+   },
+   "pegadinha": "Clark (nível) foi substituído pelo Breslow (espessura).",
+   "uerj": "VV 2024: afirmativa 1 verdadeira.",
+   "prio": "media",
+   "contexto": "**Melanoma = câncer dos melanócitos; o mais letal dos cânceres de pele, com prognóstico ditado pela espessura (Breslow) e pelos linfonodos.**\n\nFatores de risco:\n- Exposição solar intermitente e queimaduras na infância, pele clara, muitos nevos/nevos atípicos, história familiar, imunossupressão\n\nReconhecer (ABCDE):\n- **A**ssimetria, **B**ordas irregulares, **C**or variada, **D**iâmetro > 6 mm, **E**volução (mudança)\n- Sinal do \"patinho feio\" (lesão diferente das outras)\n\nCrescimento:\n- Começa como proliferação de melanócitos na camada basal\n- **Fase RADIAL (horizontal) primeiro** → depois **fase VERTICAL** (invade a derme, vasos → potencial metastático)\n\nTipos:\n- Extensivo superficial (o mais comum), nodular (cresce vertical, agressivo), lentigo maligno (face do idoso), acral lentiginoso (palmas/plantas; o mais comum em negros e asiáticos)\n\nPrognóstico:\n- **Metástase linfonodal** → principal fator de piora\n- **Espessura de Breslow** → o principal fator do tumor primário; depois ulceração, idade, local, sexo\n\nTratamento:\n- Biópsia EXCISIONAL com margem estreita (1–3 mm) para diagnóstico\n- Ampliação de margem conforme Breslow (tabela)\n- Biópsia do linfonodo sentinela → Breslow > 0,8 mm ou ulcerado\n- Avançado → imunoterapia (anti-PD-1), terapia-alvo (BRAF)\n\nO que mais cai no Vila Verde:\n- VV 2024 → V/F: linfonodo positivo e Breslow são os maiores fatores prognósticos (V); crescimento vertical antes do radial (F — é radial primeiro); 1–2 mm → margem de 1 cm aceitável, 2 cm preferível (V).",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "Breslow (melanoma)",
+      "Critério",
+      "Margem de ampliação"
+     ],
+     "linhas": [
+      [
+       "In situ",
+       "Sem invasão da derme",
+       "0,5–1 cm"
+      ],
+      [
+       "≤ 1 mm",
+       "Espessura até 1 mm",
+       "1 cm"
+      ],
+      [
+       "1–2 mm",
+       "Espessura 1,01–2 mm",
+       "1–2 cm (2 cm preferível)"
+      ],
+      [
+       "> 2 mm",
+       "Espessura acima de 2 mm",
+       "2 cm"
+      ],
+      [
+       "Linfonodo sentinela",
+       "Breslow > 0,8 mm ou ulceração",
+       "Pesquisar"
+      ]
+     ]
+    }
+   ],
+   "fonte": "NCCN Guidelines — Cutaneous Melanoma (2025) / SBD/SBCO — Consenso de melanoma / AJCC 8ª ed.",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "mel-02",
+   "tipo": "flash",
+   "area": "Cirurgia",
+   "tema": "Oncologia cirúrgica",
+   "sub": "Melanoma e câncer de pele",
+   "frente": "Melanoma: ordem das fases de crescimento",
+   "verso": "**Primeiro radial (horizontal).**\n**Depois vertical (invasão e metástase).**\n\nExceção:\n- Nodular → já cresce vertical (mais agressivo).",
+   "macete": "\"Primeiro se Espalha, depois Mergulha\".",
+   "visual": {
+    "tipo": "lista",
+    "itens": [
+     "!A — Assimetria",
+     "!B — Bordas irregulares",
+     "!C — Cores variadas",
+     "!D — Diâmetro > 6 mm",
+     "!E — Evolução"
+    ]
+   },
+   "pegadinha": "A VV 2024 inverteu a ordem (afirmativa falsa).",
+   "uerj": "VV 2024: afirmativa 2 falsa; 1V–2F–3V.",
+   "prio": "media",
+   "contexto": "**Melanoma = câncer dos melanócitos; o mais letal dos cânceres de pele, com prognóstico ditado pela espessura (Breslow) e pelos linfonodos.**\n\nFatores de risco:\n- Exposição solar intermitente e queimaduras na infância, pele clara, muitos nevos/nevos atípicos, história familiar, imunossupressão\n\nReconhecer (ABCDE):\n- **A**ssimetria, **B**ordas irregulares, **C**or variada, **D**iâmetro > 6 mm, **E**volução (mudança)\n- Sinal do \"patinho feio\" (lesão diferente das outras)\n\nCrescimento:\n- Começa como proliferação de melanócitos na camada basal\n- **Fase RADIAL (horizontal) primeiro** → depois **fase VERTICAL** (invade a derme, vasos → potencial metastático)\n\nTipos:\n- Extensivo superficial (o mais comum), nodular (cresce vertical, agressivo), lentigo maligno (face do idoso), acral lentiginoso (palmas/plantas; o mais comum em negros e asiáticos)\n\nPrognóstico:\n- **Metástase linfonodal** → principal fator de piora\n- **Espessura de Breslow** → o principal fator do tumor primário; depois ulceração, idade, local, sexo\n\nTratamento:\n- Biópsia EXCISIONAL com margem estreita (1–3 mm) para diagnóstico\n- Ampliação de margem conforme Breslow (tabela)\n- Biópsia do linfonodo sentinela → Breslow > 0,8 mm ou ulcerado\n- Avançado → imunoterapia (anti-PD-1), terapia-alvo (BRAF)\n\nO que mais cai no Vila Verde:\n- VV 2024 → V/F: linfonodo positivo e Breslow são os maiores fatores prognósticos (V); crescimento vertical antes do radial (F — é radial primeiro); 1–2 mm → margem de 1 cm aceitável, 2 cm preferível (V).",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "Breslow (melanoma)",
+      "Critério",
+      "Margem de ampliação"
+     ],
+     "linhas": [
+      [
+       "In situ",
+       "Sem invasão da derme",
+       "0,5–1 cm"
+      ],
+      [
+       "≤ 1 mm",
+       "Espessura até 1 mm",
+       "1 cm"
+      ],
+      [
+       "1–2 mm",
+       "Espessura 1,01–2 mm",
+       "1–2 cm (2 cm preferível)"
+      ],
+      [
+       "> 2 mm",
+       "Espessura acima de 2 mm",
+       "2 cm"
+      ],
+      [
+       "Linfonodo sentinela",
+       "Breslow > 0,8 mm ou ulceração",
+       "Pesquisar"
+      ]
+     ]
+    }
+   ],
+   "fonte": "NCCN Guidelines — Cutaneous Melanoma (2025) / SBD/SBCO — Consenso de melanoma / AJCC 8ª ed.",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "mel-q1",
+   "tipo": "quiz",
+   "area": "Cirurgia",
+   "tema": "Oncologia cirúrgica",
+   "sub": "Melanoma e câncer de pele",
+   "frente": "Para melanomas de 1 a 2 mm de espessura (Breslow), a margem de ampliação é:",
+   "opcoes": [
+    "1 cm aceitável, 2 cm preferível quando possível.",
+    "0,5 cm sempre.",
+    "3 cm obrigatória.",
+    "Não é necessária ampliação."
+   ],
+   "certa": 0,
+   "comentarios": [
+    "Correta.",
+    "Para in situ.",
+    "Excessiva.",
+    "Errada."
+   ],
+   "macete": "\"1 a 2 mm → 1 a 2 cm\".",
+   "pegadinha": "Biópsia inicial é excisional com margem ESTREITA (1–3 mm).",
+   "uerj": "VV 2024 (afirmativa 3, verdadeira).",
+   "prio": "media",
+   "contexto": "**Melanoma = câncer dos melanócitos; o mais letal dos cânceres de pele, com prognóstico ditado pela espessura (Breslow) e pelos linfonodos.**\n\nFatores de risco:\n- Exposição solar intermitente e queimaduras na infância, pele clara, muitos nevos/nevos atípicos, história familiar, imunossupressão\n\nReconhecer (ABCDE):\n- **A**ssimetria, **B**ordas irregulares, **C**or variada, **D**iâmetro > 6 mm, **E**volução (mudança)\n- Sinal do \"patinho feio\" (lesão diferente das outras)\n\nCrescimento:\n- Começa como proliferação de melanócitos na camada basal\n- **Fase RADIAL (horizontal) primeiro** → depois **fase VERTICAL** (invade a derme, vasos → potencial metastático)\n\nTipos:\n- Extensivo superficial (o mais comum), nodular (cresce vertical, agressivo), lentigo maligno (face do idoso), acral lentiginoso (palmas/plantas; o mais comum em negros e asiáticos)\n\nPrognóstico:\n- **Metástase linfonodal** → principal fator de piora\n- **Espessura de Breslow** → o principal fator do tumor primário; depois ulceração, idade, local, sexo\n\nTratamento:\n- Biópsia EXCISIONAL com margem estreita (1–3 mm) para diagnóstico\n- Ampliação de margem conforme Breslow (tabela)\n- Biópsia do linfonodo sentinela → Breslow > 0,8 mm ou ulcerado\n- Avançado → imunoterapia (anti-PD-1), terapia-alvo (BRAF)\n\nO que mais cai no Vila Verde:\n- VV 2024 → V/F: linfonodo positivo e Breslow são os maiores fatores prognósticos (V); crescimento vertical antes do radial (F — é radial primeiro); 1–2 mm → margem de 1 cm aceitável, 2 cm preferível (V).",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "Breslow (melanoma)",
+      "Critério",
+      "Margem de ampliação"
+     ],
+     "linhas": [
+      [
+       "In situ",
+       "Sem invasão da derme",
+       "0,5–1 cm"
+      ],
+      [
+       "≤ 1 mm",
+       "Espessura até 1 mm",
+       "1 cm"
+      ],
+      [
+       "1–2 mm",
+       "Espessura 1,01–2 mm",
+       "1–2 cm (2 cm preferível)"
+      ],
+      [
+       "> 2 mm",
+       "Espessura acima de 2 mm",
+       "2 cm"
+      ],
+      [
+       "Linfonodo sentinela",
+       "Breslow > 0,8 mm ou ulceração",
+       "Pesquisar"
+      ]
+     ]
+    }
+   ],
+   "fonte": "NCCN Guidelines — Cutaneous Melanoma (2025) / SBD/SBCO — Consenso de melanoma / AJCC 8ª ed.",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "mel-d1",
+   "tipo": "digitar",
+   "area": "Cirurgia",
+   "tema": "Oncologia cirúrgica",
+   "sub": "Melanoma e câncer de pele",
+   "frente": "Qual o principal fator prognóstico do tumor primário no melanoma?",
+   "verso": "**Espessura de Breslow.**",
+   "resposta": "Breslow",
+   "aceitas": [
+    "espessura de breslow",
+    "breslow"
+   ],
+   "macete": "Breslow = Buraco.",
+   "prio": "media",
+   "contexto": "**Melanoma = câncer dos melanócitos; o mais letal dos cânceres de pele, com prognóstico ditado pela espessura (Breslow) e pelos linfonodos.**\n\nFatores de risco:\n- Exposição solar intermitente e queimaduras na infância, pele clara, muitos nevos/nevos atípicos, história familiar, imunossupressão\n\nReconhecer (ABCDE):\n- **A**ssimetria, **B**ordas irregulares, **C**or variada, **D**iâmetro > 6 mm, **E**volução (mudança)\n- Sinal do \"patinho feio\" (lesão diferente das outras)\n\nCrescimento:\n- Começa como proliferação de melanócitos na camada basal\n- **Fase RADIAL (horizontal) primeiro** → depois **fase VERTICAL** (invade a derme, vasos → potencial metastático)\n\nTipos:\n- Extensivo superficial (o mais comum), nodular (cresce vertical, agressivo), lentigo maligno (face do idoso), acral lentiginoso (palmas/plantas; o mais comum em negros e asiáticos)\n\nPrognóstico:\n- **Metástase linfonodal** → principal fator de piora\n- **Espessura de Breslow** → o principal fator do tumor primário; depois ulceração, idade, local, sexo\n\nTratamento:\n- Biópsia EXCISIONAL com margem estreita (1–3 mm) para diagnóstico\n- Ampliação de margem conforme Breslow (tabela)\n- Biópsia do linfonodo sentinela → Breslow > 0,8 mm ou ulcerado\n- Avançado → imunoterapia (anti-PD-1), terapia-alvo (BRAF)\n\nO que mais cai no Vila Verde:\n- VV 2024 → V/F: linfonodo positivo e Breslow são os maiores fatores prognósticos (V); crescimento vertical antes do radial (F — é radial primeiro); 1–2 mm → margem de 1 cm aceitável, 2 cm preferível (V).",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "Breslow (melanoma)",
+      "Critério",
+      "Margem de ampliação"
+     ],
+     "linhas": [
+      [
+       "In situ",
+       "Sem invasão da derme",
+       "0,5–1 cm"
+      ],
+      [
+       "≤ 1 mm",
+       "Espessura até 1 mm",
+       "1 cm"
+      ],
+      [
+       "1–2 mm",
+       "Espessura 1,01–2 mm",
+       "1–2 cm (2 cm preferível)"
+      ],
+      [
+       "> 2 mm",
+       "Espessura acima de 2 mm",
+       "2 cm"
+      ],
+      [
+       "Linfonodo sentinela",
+       "Breslow > 0,8 mm ou ulceração",
+       "Pesquisar"
+      ]
+     ]
+    }
+   ],
+   "fonte": "NCCN Guidelines — Cutaneous Melanoma (2025) / SBD/SBCO — Consenso de melanoma / AJCC 8ª ed.",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "mel-d2",
+   "tipo": "digitar",
+   "area": "Cirurgia",
+   "tema": "Oncologia cirúrgica",
+   "sub": "Melanoma e câncer de pele",
+   "frente": "Qual o tipo de melanoma mais comum?",
+   "verso": "**Extensivo superficial.**",
+   "resposta": "Extensivo superficial",
+   "aceitas": [
+    "extensivo superficial",
+    "disseminativo superficial",
+    "superficial"
+   ],
+   "macete": "Mais comum = \"se estende na superfície\".",
+   "prio": "media",
+   "contexto": "**Melanoma = câncer dos melanócitos; o mais letal dos cânceres de pele, com prognóstico ditado pela espessura (Breslow) e pelos linfonodos.**\n\nFatores de risco:\n- Exposição solar intermitente e queimaduras na infância, pele clara, muitos nevos/nevos atípicos, história familiar, imunossupressão\n\nReconhecer (ABCDE):\n- **A**ssimetria, **B**ordas irregulares, **C**or variada, **D**iâmetro > 6 mm, **E**volução (mudança)\n- Sinal do \"patinho feio\" (lesão diferente das outras)\n\nCrescimento:\n- Começa como proliferação de melanócitos na camada basal\n- **Fase RADIAL (horizontal) primeiro** → depois **fase VERTICAL** (invade a derme, vasos → potencial metastático)\n\nTipos:\n- Extensivo superficial (o mais comum), nodular (cresce vertical, agressivo), lentigo maligno (face do idoso), acral lentiginoso (palmas/plantas; o mais comum em negros e asiáticos)\n\nPrognóstico:\n- **Metástase linfonodal** → principal fator de piora\n- **Espessura de Breslow** → o principal fator do tumor primário; depois ulceração, idade, local, sexo\n\nTratamento:\n- Biópsia EXCISIONAL com margem estreita (1–3 mm) para diagnóstico\n- Ampliação de margem conforme Breslow (tabela)\n- Biópsia do linfonodo sentinela → Breslow > 0,8 mm ou ulcerado\n- Avançado → imunoterapia (anti-PD-1), terapia-alvo (BRAF)\n\nO que mais cai no Vila Verde:\n- VV 2024 → V/F: linfonodo positivo e Breslow são os maiores fatores prognósticos (V); crescimento vertical antes do radial (F — é radial primeiro); 1–2 mm → margem de 1 cm aceitável, 2 cm preferível (V).",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "Breslow (melanoma)",
+      "Critério",
+      "Margem de ampliação"
+     ],
+     "linhas": [
+      [
+       "In situ",
+       "Sem invasão da derme",
+       "0,5–1 cm"
+      ],
+      [
+       "≤ 1 mm",
+       "Espessura até 1 mm",
+       "1 cm"
+      ],
+      [
+       "1–2 mm",
+       "Espessura 1,01–2 mm",
+       "1–2 cm (2 cm preferível)"
+      ],
+      [
+       "> 2 mm",
+       "Espessura acima de 2 mm",
+       "2 cm"
+      ],
+      [
+       "Linfonodo sentinela",
+       "Breslow > 0,8 mm ou ulceração",
+       "Pesquisar"
+      ]
+     ]
+    }
+   ],
+   "fonte": "NCCN Guidelines — Cutaneous Melanoma (2025) / SBD/SBCO — Consenso de melanoma / AJCC 8ª ed.",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "pcr-01",
+   "tipo": "flash",
+   "area": "Cirurgia",
+   "tema": "Pâncreas",
+   "sub": "Pancreatite crônica",
+   "frente": "Pancreatite crônica com ducto principal dilatado e dor refratária: qual cirurgia?",
+   "verso": "**Partington-Rochelle (pancreatojejunostomia longitudinal).**\n\nCompare:\n- Cabeça aumentada + ducto dilatado → Frey.\n- Doença na cabeça com ducto fino → Whipple.",
+   "macete": "\"Ducto largo → Partington abre e costura no jejuno\".",
+   "pegadinha": "Whipple é para massa/doença na cabeça, não para ducto dilatado difuso.",
+   "uerj": "VV 2024: Partington-Rochelle.",
+   "prio": "media",
+   "contexto": "**Pancreatite crônica = inflamação e fibrose progressivas e irreversíveis do pâncreas, com dor e perda das funções exócrina e endócrina.**\n\nCausas:\n- **Álcool** (a principal), tabagismo, genéticas, autoimune, obstrutiva, idiopática\n\nClínica:\n- **Dor abdominal** epigástrica que irradia para o dorso (sintoma principal), piora com alimentação\n- Insuficiência exócrina → **esteatorreia**, emagrecimento, déficit de vitaminas lipossolúveis\n- Insuficiência endócrina → **diabetes** (tipo 3c)\n- Tríade clássica → calcificações pancreáticas + esteatorreia + diabetes\n\nImagem:\n- TC → calcificações, atrofia, dilatação ductal; ducto \"em cadeia de lagos\" (estenoses e dilatações)\n- ColangioRM/USG endoscópica\n\nTratamento clínico:\n- Parar álcool e tabaco; analgesia escalonada\n- **Enzimas pancreáticas** (insuficiência exócrina); insulina\n- Endoscopia → cálculos/estenose do ducto principal\n\nCirurgia (dor refratária):\n- **Ducto principal DILATADO (≥ 7 mm) → derivação: Partington-Rochelle** (pancreatojejunostomia longitudinal latero-lateral)\n- Cabeça aumentada + ducto dilatado → Frey (ou Beger)\n- Doença na cabeça com ducto fino → ressecção (duodenopancreatectomia/Whipple)\n- Doença difusa com ducto fino → pancreatectomia total (± autotransplante de ilhotas) — exceção\n\nO que mais cai no Vila Verde:\n- VV 2024 → dor crônica, calcificações difusas e múltiplas estenoses do ducto principal (cadeia de lagos), sem massa: cirurgia de Partington-Rochelle.",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 158\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><path d=\"M30 90 C 60 60, 110 60, 150 80 C 200 105, 260 80, 320 70\" fill=\"none\" stroke=\"var(--rose)\" stroke-width=\"34\" stroke-linecap=\"round\" opacity=\".45\"/><path d=\"M40 88 Q 60 82 72 86 Q 84 92 96 84 Q 112 76 128 84 Q 144 92 160 86 Q 178 80 196 90 Q 214 98 232 88 Q 252 80 272 82 Q 292 84 312 74\" fill=\"none\" stroke=\"var(--wine)\" stroke-width=\"7\"/><circle cx=\"70\" cy=\"68\" r=\"3\" fill=\"var(--ink)\"/><circle cx=\"120\" cy=\"102\" r=\"3\" fill=\"var(--ink)\"/><circle cx=\"180\" cy=\"70\" r=\"3\" fill=\"var(--ink)\"/><circle cx=\"240\" cy=\"104\" r=\"3\" fill=\"var(--ink)\"/><circle cx=\"290\" cy=\"64\" r=\"3\" fill=\"var(--ink)\"/><text x=\"170\" y=\"134\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"600\" fill=\"var(--wine)\">Ducto em \"cadeia de lagos\" + calcificações</text><text x=\"170\" y=\"150\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--mute)\">Ducto dilatado → Partington-Rochelle</text></svg>",
+     "legenda": "Pancreatite crônica com ducto dilatado"
+    }
+   ],
+   "fonte": "American Pancreatic Association / Brazilian consensus on chronic pancreatitis (2017) / ESGE — Endoscopic treatment of chronic pancreatitis (2018) / Sabiston 21ª ed.",
+   "add": "2026-10-28",
+   "visual": {
+    "tipo": "tabela",
+    "cab": [
+     "Anatomia",
+     "Cirurgia"
+    ],
+    "linhas": [
+     [
+      "!Ducto dilatado (≥ 7 mm)",
+      "Partington-Rochelle"
+     ],
+     [
+      "Cabeça aumentada + ducto dilatado",
+      "Frey / Beger"
+     ],
+     [
+      "Massa na cabeça, ducto fino",
+      "Whipple"
+     ],
+     [
+      "Difusa, ducto fino",
+      "Pancreatectomia total"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "pcr-02",
+   "tipo": "flash",
+   "area": "Cirurgia",
+   "tema": "Pâncreas",
+   "sub": "Pancreatite crônica",
+   "frente": "Pancreatite crônica: tríade clássica e principal causa",
+   "verso": "**Calcificações + esteatorreia + diabetes.**\n**Principal causa → álcool.**\n\nTratamento clínico:\n- Parar álcool e fumo, analgesia, enzimas, insulina.",
+   "macete": "Pâncreas cansado: \"Pedra, Gordura nas fezes, Glicose alta\".",
+   "visual": {
+    "tipo": "vs",
+    "a": {
+     "t": "Exócrina",
+     "itens": [
+      "Esteatorreia",
+      "Emagrecimento",
+      "Enzimas pancreáticas"
+     ]
+    },
+    "b": {
+     "t": "Endócrina",
+     "itens": [
+      "Diabetes tipo 3c",
+      "Insulina"
+     ]
+    }
+   },
+   "pegadinha": "Dor é o sintoma principal (não a icterícia).",
+   "prio": "media",
+   "contexto": "**Pancreatite crônica = inflamação e fibrose progressivas e irreversíveis do pâncreas, com dor e perda das funções exócrina e endócrina.**\n\nCausas:\n- **Álcool** (a principal), tabagismo, genéticas, autoimune, obstrutiva, idiopática\n\nClínica:\n- **Dor abdominal** epigástrica que irradia para o dorso (sintoma principal), piora com alimentação\n- Insuficiência exócrina → **esteatorreia**, emagrecimento, déficit de vitaminas lipossolúveis\n- Insuficiência endócrina → **diabetes** (tipo 3c)\n- Tríade clássica → calcificações pancreáticas + esteatorreia + diabetes\n\nImagem:\n- TC → calcificações, atrofia, dilatação ductal; ducto \"em cadeia de lagos\" (estenoses e dilatações)\n- ColangioRM/USG endoscópica\n\nTratamento clínico:\n- Parar álcool e tabaco; analgesia escalonada\n- **Enzimas pancreáticas** (insuficiência exócrina); insulina\n- Endoscopia → cálculos/estenose do ducto principal\n\nCirurgia (dor refratária):\n- **Ducto principal DILATADO (≥ 7 mm) → derivação: Partington-Rochelle** (pancreatojejunostomia longitudinal latero-lateral)\n- Cabeça aumentada + ducto dilatado → Frey (ou Beger)\n- Doença na cabeça com ducto fino → ressecção (duodenopancreatectomia/Whipple)\n- Doença difusa com ducto fino → pancreatectomia total (± autotransplante de ilhotas) — exceção\n\nO que mais cai no Vila Verde:\n- VV 2024 → dor crônica, calcificações difusas e múltiplas estenoses do ducto principal (cadeia de lagos), sem massa: cirurgia de Partington-Rochelle.",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 158\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><path d=\"M30 90 C 60 60, 110 60, 150 80 C 200 105, 260 80, 320 70\" fill=\"none\" stroke=\"var(--rose)\" stroke-width=\"34\" stroke-linecap=\"round\" opacity=\".45\"/><path d=\"M40 88 Q 60 82 72 86 Q 84 92 96 84 Q 112 76 128 84 Q 144 92 160 86 Q 178 80 196 90 Q 214 98 232 88 Q 252 80 272 82 Q 292 84 312 74\" fill=\"none\" stroke=\"var(--wine)\" stroke-width=\"7\"/><circle cx=\"70\" cy=\"68\" r=\"3\" fill=\"var(--ink)\"/><circle cx=\"120\" cy=\"102\" r=\"3\" fill=\"var(--ink)\"/><circle cx=\"180\" cy=\"70\" r=\"3\" fill=\"var(--ink)\"/><circle cx=\"240\" cy=\"104\" r=\"3\" fill=\"var(--ink)\"/><circle cx=\"290\" cy=\"64\" r=\"3\" fill=\"var(--ink)\"/><text x=\"170\" y=\"134\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"600\" fill=\"var(--wine)\">Ducto em \"cadeia de lagos\" + calcificações</text><text x=\"170\" y=\"150\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--mute)\">Ducto dilatado → Partington-Rochelle</text></svg>",
+     "legenda": "Pancreatite crônica com ducto dilatado"
+    }
+   ],
+   "fonte": "American Pancreatic Association / Brazilian consensus on chronic pancreatitis (2017) / ESGE — Endoscopic treatment of chronic pancreatitis (2018) / Sabiston 21ª ed.",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "pcr-q1",
+   "tipo": "quiz",
+   "area": "Cirurgia",
+   "tema": "Pâncreas",
+   "sub": "Pancreatite crônica",
+   "frente": "Homem de 45 anos, dor abdominal superior irradiada para o dorso há meses, TC com calcificações difusas e múltiplas estenoses ao longo do ducto pancreático principal, sem massa. O procedimento mais adequado é:",
+   "opcoes": [
+    "Pancreatectomia total.",
+    "Esfincterotomia endoscópica.",
+    "Partington-Rochelle.",
+    "Cirurgia de Whipple."
+   ],
+   "certa": 2,
+   "comentarios": [
+    "Excessiva.",
+    "Insuficiente para doença difusa.",
+    "Correta.",
+    "Sem massa na cabeça."
+   ],
+   "macete": "\"Cadeia de lagos → Partington\".",
+   "pegadinha": "Sem massa, sem Whipple.",
+   "uerj": "VV 2024 (Q57).",
+   "prio": "media",
+   "contexto": "**Pancreatite crônica = inflamação e fibrose progressivas e irreversíveis do pâncreas, com dor e perda das funções exócrina e endócrina.**\n\nCausas:\n- **Álcool** (a principal), tabagismo, genéticas, autoimune, obstrutiva, idiopática\n\nClínica:\n- **Dor abdominal** epigástrica que irradia para o dorso (sintoma principal), piora com alimentação\n- Insuficiência exócrina → **esteatorreia**, emagrecimento, déficit de vitaminas lipossolúveis\n- Insuficiência endócrina → **diabetes** (tipo 3c)\n- Tríade clássica → calcificações pancreáticas + esteatorreia + diabetes\n\nImagem:\n- TC → calcificações, atrofia, dilatação ductal; ducto \"em cadeia de lagos\" (estenoses e dilatações)\n- ColangioRM/USG endoscópica\n\nTratamento clínico:\n- Parar álcool e tabaco; analgesia escalonada\n- **Enzimas pancreáticas** (insuficiência exócrina); insulina\n- Endoscopia → cálculos/estenose do ducto principal\n\nCirurgia (dor refratária):\n- **Ducto principal DILATADO (≥ 7 mm) → derivação: Partington-Rochelle** (pancreatojejunostomia longitudinal latero-lateral)\n- Cabeça aumentada + ducto dilatado → Frey (ou Beger)\n- Doença na cabeça com ducto fino → ressecção (duodenopancreatectomia/Whipple)\n- Doença difusa com ducto fino → pancreatectomia total (± autotransplante de ilhotas) — exceção\n\nO que mais cai no Vila Verde:\n- VV 2024 → dor crônica, calcificações difusas e múltiplas estenoses do ducto principal (cadeia de lagos), sem massa: cirurgia de Partington-Rochelle.",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 158\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><path d=\"M30 90 C 60 60, 110 60, 150 80 C 200 105, 260 80, 320 70\" fill=\"none\" stroke=\"var(--rose)\" stroke-width=\"34\" stroke-linecap=\"round\" opacity=\".45\"/><path d=\"M40 88 Q 60 82 72 86 Q 84 92 96 84 Q 112 76 128 84 Q 144 92 160 86 Q 178 80 196 90 Q 214 98 232 88 Q 252 80 272 82 Q 292 84 312 74\" fill=\"none\" stroke=\"var(--wine)\" stroke-width=\"7\"/><circle cx=\"70\" cy=\"68\" r=\"3\" fill=\"var(--ink)\"/><circle cx=\"120\" cy=\"102\" r=\"3\" fill=\"var(--ink)\"/><circle cx=\"180\" cy=\"70\" r=\"3\" fill=\"var(--ink)\"/><circle cx=\"240\" cy=\"104\" r=\"3\" fill=\"var(--ink)\"/><circle cx=\"290\" cy=\"64\" r=\"3\" fill=\"var(--ink)\"/><text x=\"170\" y=\"134\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"600\" fill=\"var(--wine)\">Ducto em \"cadeia de lagos\" + calcificações</text><text x=\"170\" y=\"150\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--mute)\">Ducto dilatado → Partington-Rochelle</text></svg>",
+     "legenda": "Pancreatite crônica com ducto dilatado"
+    }
+   ],
+   "fonte": "American Pancreatic Association / Brazilian consensus on chronic pancreatitis (2017) / ESGE — Endoscopic treatment of chronic pancreatitis (2018) / Sabiston 21ª ed.",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "pcr-d1",
+   "tipo": "digitar",
+   "area": "Cirurgia",
+   "tema": "Pâncreas",
+   "sub": "Pancreatite crônica",
+   "frente": "Qual a principal causa de pancreatite crônica?",
+   "verso": "**Álcool.**",
+   "resposta": "Álcool",
+   "aceitas": [
+    "alcool",
+    "etilismo",
+    "álcool",
+    "alcoolismo"
+   ],
+   "macete": "Pancreatite crônica = álcool.",
+   "prio": "media",
+   "contexto": "**Pancreatite crônica = inflamação e fibrose progressivas e irreversíveis do pâncreas, com dor e perda das funções exócrina e endócrina.**\n\nCausas:\n- **Álcool** (a principal), tabagismo, genéticas, autoimune, obstrutiva, idiopática\n\nClínica:\n- **Dor abdominal** epigástrica que irradia para o dorso (sintoma principal), piora com alimentação\n- Insuficiência exócrina → **esteatorreia**, emagrecimento, déficit de vitaminas lipossolúveis\n- Insuficiência endócrina → **diabetes** (tipo 3c)\n- Tríade clássica → calcificações pancreáticas + esteatorreia + diabetes\n\nImagem:\n- TC → calcificações, atrofia, dilatação ductal; ducto \"em cadeia de lagos\" (estenoses e dilatações)\n- ColangioRM/USG endoscópica\n\nTratamento clínico:\n- Parar álcool e tabaco; analgesia escalonada\n- **Enzimas pancreáticas** (insuficiência exócrina); insulina\n- Endoscopia → cálculos/estenose do ducto principal\n\nCirurgia (dor refratária):\n- **Ducto principal DILATADO (≥ 7 mm) → derivação: Partington-Rochelle** (pancreatojejunostomia longitudinal latero-lateral)\n- Cabeça aumentada + ducto dilatado → Frey (ou Beger)\n- Doença na cabeça com ducto fino → ressecção (duodenopancreatectomia/Whipple)\n- Doença difusa com ducto fino → pancreatectomia total (± autotransplante de ilhotas) — exceção\n\nO que mais cai no Vila Verde:\n- VV 2024 → dor crônica, calcificações difusas e múltiplas estenoses do ducto principal (cadeia de lagos), sem massa: cirurgia de Partington-Rochelle.",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 158\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><path d=\"M30 90 C 60 60, 110 60, 150 80 C 200 105, 260 80, 320 70\" fill=\"none\" stroke=\"var(--rose)\" stroke-width=\"34\" stroke-linecap=\"round\" opacity=\".45\"/><path d=\"M40 88 Q 60 82 72 86 Q 84 92 96 84 Q 112 76 128 84 Q 144 92 160 86 Q 178 80 196 90 Q 214 98 232 88 Q 252 80 272 82 Q 292 84 312 74\" fill=\"none\" stroke=\"var(--wine)\" stroke-width=\"7\"/><circle cx=\"70\" cy=\"68\" r=\"3\" fill=\"var(--ink)\"/><circle cx=\"120\" cy=\"102\" r=\"3\" fill=\"var(--ink)\"/><circle cx=\"180\" cy=\"70\" r=\"3\" fill=\"var(--ink)\"/><circle cx=\"240\" cy=\"104\" r=\"3\" fill=\"var(--ink)\"/><circle cx=\"290\" cy=\"64\" r=\"3\" fill=\"var(--ink)\"/><text x=\"170\" y=\"134\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"600\" fill=\"var(--wine)\">Ducto em \"cadeia de lagos\" + calcificações</text><text x=\"170\" y=\"150\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--mute)\">Ducto dilatado → Partington-Rochelle</text></svg>",
+     "legenda": "Pancreatite crônica com ducto dilatado"
+    }
+   ],
+   "fonte": "American Pancreatic Association / Brazilian consensus on chronic pancreatitis (2017) / ESGE — Endoscopic treatment of chronic pancreatitis (2018) / Sabiston 21ª ed.",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "pcr-d2",
+   "tipo": "digitar",
+   "area": "Cirurgia",
+   "tema": "Pâncreas",
+   "sub": "Pancreatite crônica",
+   "frente": "Como se chama o aspecto do ducto com estenoses e dilatações na pancreatite crônica?",
+   "verso": "**Cadeia de lagos.**",
+   "resposta": "Cadeia de lagos",
+   "aceitas": [
+    "cadeia de lagos",
+    "rosário",
+    "colar de contas"
+   ],
+   "macete": "\"Lagos ligados\".",
+   "prio": "media",
+   "contexto": "**Pancreatite crônica = inflamação e fibrose progressivas e irreversíveis do pâncreas, com dor e perda das funções exócrina e endócrina.**\n\nCausas:\n- **Álcool** (a principal), tabagismo, genéticas, autoimune, obstrutiva, idiopática\n\nClínica:\n- **Dor abdominal** epigástrica que irradia para o dorso (sintoma principal), piora com alimentação\n- Insuficiência exócrina → **esteatorreia**, emagrecimento, déficit de vitaminas lipossolúveis\n- Insuficiência endócrina → **diabetes** (tipo 3c)\n- Tríade clássica → calcificações pancreáticas + esteatorreia + diabetes\n\nImagem:\n- TC → calcificações, atrofia, dilatação ductal; ducto \"em cadeia de lagos\" (estenoses e dilatações)\n- ColangioRM/USG endoscópica\n\nTratamento clínico:\n- Parar álcool e tabaco; analgesia escalonada\n- **Enzimas pancreáticas** (insuficiência exócrina); insulina\n- Endoscopia → cálculos/estenose do ducto principal\n\nCirurgia (dor refratária):\n- **Ducto principal DILATADO (≥ 7 mm) → derivação: Partington-Rochelle** (pancreatojejunostomia longitudinal latero-lateral)\n- Cabeça aumentada + ducto dilatado → Frey (ou Beger)\n- Doença na cabeça com ducto fino → ressecção (duodenopancreatectomia/Whipple)\n- Doença difusa com ducto fino → pancreatectomia total (± autotransplante de ilhotas) — exceção\n\nO que mais cai no Vila Verde:\n- VV 2024 → dor crônica, calcificações difusas e múltiplas estenoses do ducto principal (cadeia de lagos), sem massa: cirurgia de Partington-Rochelle.",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 158\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><path d=\"M30 90 C 60 60, 110 60, 150 80 C 200 105, 260 80, 320 70\" fill=\"none\" stroke=\"var(--rose)\" stroke-width=\"34\" stroke-linecap=\"round\" opacity=\".45\"/><path d=\"M40 88 Q 60 82 72 86 Q 84 92 96 84 Q 112 76 128 84 Q 144 92 160 86 Q 178 80 196 90 Q 214 98 232 88 Q 252 80 272 82 Q 292 84 312 74\" fill=\"none\" stroke=\"var(--wine)\" stroke-width=\"7\"/><circle cx=\"70\" cy=\"68\" r=\"3\" fill=\"var(--ink)\"/><circle cx=\"120\" cy=\"102\" r=\"3\" fill=\"var(--ink)\"/><circle cx=\"180\" cy=\"70\" r=\"3\" fill=\"var(--ink)\"/><circle cx=\"240\" cy=\"104\" r=\"3\" fill=\"var(--ink)\"/><circle cx=\"290\" cy=\"64\" r=\"3\" fill=\"var(--ink)\"/><text x=\"170\" y=\"134\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"600\" fill=\"var(--wine)\">Ducto em \"cadeia de lagos\" + calcificações</text><text x=\"170\" y=\"150\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--mute)\">Ducto dilatado → Partington-Rochelle</text></svg>",
+     "legenda": "Pancreatite crônica com ducto dilatado"
+    }
+   ],
+   "fonte": "American Pancreatic Association / Brazilian consensus on chronic pancreatitis (2017) / ESGE — Endoscopic treatment of chronic pancreatitis (2018) / Sabiston 21ª ed.",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "pcv-01",
+   "tipo": "flash",
+   "area": "Cirurgia",
+   "tema": "Cabeça e pescoço",
+   "sub": "Paralisia de cordas vocais",
+   "frente": "Paralisia de prega vocal: qual lado é mais comum e por quê?",
+   "verso": "**Esquerdo.**\n\nPor quê:\n- O recorrente esquerdo é mais longo (contorna o arco aórtico).\n\nCausa mais comum:\n- Cirurgia (tireoidectomia).",
+   "macete": "\"Esquerdo dá a volta na aorta, se machuca mais\".",
+   "pegadinha": "A VV 2024 afirmou que a direita é mais comum (falso).",
+   "uerj": "VV 2024: 1F–2V–3F.",
+   "prio": "media",
+   "contexto": "**Paralisia de prega vocal = imobilidade por lesão do nervo laríngeo recorrente (ou vago); a causa mais comum é o trauma cirúrgico (tireoidectomia).**\n\nAnatomia:\n- O nervo laríngeo recorrente inerva quase todos os músculos intrínsecos da laringe\n- **Recorrente ESQUERDO é mais longo** (contorna o arco aórtico) → a paralisia da prega ESQUERDA é a mais comum\n- Recorrente direito contorna a subclávia\n\nCausas:\n- Cirurgia (tireoidectomia, cirurgia cervical/torácica, cardíaca)\n- Neoplasias de tireoide, pulmão, mediastino, esôfago, laringe\n- Compressão (aneurisma de aorta, átrio esquerdo grande — síndrome de Ortner)\n- Neuropatia viral, diabetes, colagenoses, sarcoidose; ~20% idiopática\n\nClínica:\n- **Unilateral** → disfonia (voz soprosa/fraca), fadiga vocal, engasgos/aspiração → em geral SINTOMÁTICA\n- **Bilateral** → pregas em posição paramediana → voz quase normal, mas **estridor e dispneia** (urgência de via aérea)\n\nDiagnóstico:\n- Laringoscopia (videolaringoscopia)\n- Investigar o trajeto do nervo (TC de pescoço e tórax) se sem causa clara\n\nTratamento:\n- Fonoterapia; observar recuperação (meses)\n- Medialização → injeção (aumento), tireoplastia\n- **Reinervação** (ex.: anastomose alça cervical–nervo recorrente) → devolve tônus, mas leva meses\n- Bilateral com obstrução → traqueostomia, cordotomia/aritenoidectomia\n\nO que mais cai no Vila Verde:\n- VV 2024 → V/F: paralisia direita mais comum (F); reinervação alça cervical–recorrente dá medialização com tônus mas leva meses (V); unilateral é assintomática (F).",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 196\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><path d=\"M170 20 C 140 60, 110 100, 120 150\" fill=\"none\" stroke=\"var(--rose)\" stroke-width=\"3\"/><path d=\"M200 20 C 230 60, 260 110, 230 160 C 220 175, 190 170, 185 140\" fill=\"none\" stroke=\"var(--wine)\" stroke-width=\"3\"/><path d=\"M190 140 C 200 110, 250 110, 260 140\" fill=\"none\" stroke=\"var(--bad)\" stroke-width=\"8\" opacity=\".6\"/><text x=\"270\" y=\"140\" font-size=\"9.5\" fill=\"var(--bad)\">arco aórtico</text><rect x=\"150\" y=\"30\" width=\"60\" height=\"40\" rx=\"10\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\"/><text x=\"180\" y=\"54\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--ink)\">laringe</text><text x=\"60\" y=\"160\" font-size=\"9.5\" fill=\"var(--ink)\">recorrente D</text><text x=\"200\" y=\"186\" font-size=\"9.5\" fill=\"var(--wine)\">recorrente E (mais longo)</text></svg>",
+     "legenda": "O recorrente esquerdo contorna o arco aórtico: trajeto mais longo, mais lesões"
+    }
+   ],
+   "fonte": "Cummings Otolaryngology 7ª ed. / AAO-HNS — Clinical Practice Guideline: Hoarseness (Dysphonia) (2018) / Sabiston 21ª ed.",
+   "add": "2026-10-28",
+   "visual": {
+    "tipo": "lista",
+    "itens": [
+     "!Tireoidectomia (causa mais comum)",
+     "Câncer de pulmão/mediastino/esôfago",
+     "Aneurisma de aorta, átrio E grande (Ortner)",
+     "Idiopática (~20%)"
+    ]
+   }
+  },
+  {
+   "id": "pcv-02",
+   "tipo": "flash",
+   "area": "Cirurgia",
+   "tema": "Cabeça e pescoço",
+   "sub": "Paralisia de cordas vocais",
+   "frente": "Paralisia unilateral × bilateral de prega vocal",
+   "verso": "**Unilateral → disfonia (voz soprosa) e aspiração.**\n**Bilateral → estridor e dispneia (via aérea).**",
+   "macete": "\"Uma: voz ruim; duas: ar ruim\".",
+   "visual": {
+    "tipo": "vs",
+    "a": {
+     "t": "Unilateral",
+     "itens": [
+      "Voz soprosa/fraca",
+      "Engasgos/aspiração",
+      "Fonoterapia, medialização"
+     ]
+    },
+    "b": {
+     "t": "Bilateral",
+     "itens": [
+      "Voz quase normal",
+      "Estridor, dispneia",
+      "Traqueostomia/cordotomia"
+     ]
+    }
+   },
+   "pegadinha": "Unilateral NÃO é assintomática.",
+   "prio": "media",
+   "contexto": "**Paralisia de prega vocal = imobilidade por lesão do nervo laríngeo recorrente (ou vago); a causa mais comum é o trauma cirúrgico (tireoidectomia).**\n\nAnatomia:\n- O nervo laríngeo recorrente inerva quase todos os músculos intrínsecos da laringe\n- **Recorrente ESQUERDO é mais longo** (contorna o arco aórtico) → a paralisia da prega ESQUERDA é a mais comum\n- Recorrente direito contorna a subclávia\n\nCausas:\n- Cirurgia (tireoidectomia, cirurgia cervical/torácica, cardíaca)\n- Neoplasias de tireoide, pulmão, mediastino, esôfago, laringe\n- Compressão (aneurisma de aorta, átrio esquerdo grande — síndrome de Ortner)\n- Neuropatia viral, diabetes, colagenoses, sarcoidose; ~20% idiopática\n\nClínica:\n- **Unilateral** → disfonia (voz soprosa/fraca), fadiga vocal, engasgos/aspiração → em geral SINTOMÁTICA\n- **Bilateral** → pregas em posição paramediana → voz quase normal, mas **estridor e dispneia** (urgência de via aérea)\n\nDiagnóstico:\n- Laringoscopia (videolaringoscopia)\n- Investigar o trajeto do nervo (TC de pescoço e tórax) se sem causa clara\n\nTratamento:\n- Fonoterapia; observar recuperação (meses)\n- Medialização → injeção (aumento), tireoplastia\n- **Reinervação** (ex.: anastomose alça cervical–nervo recorrente) → devolve tônus, mas leva meses\n- Bilateral com obstrução → traqueostomia, cordotomia/aritenoidectomia\n\nO que mais cai no Vila Verde:\n- VV 2024 → V/F: paralisia direita mais comum (F); reinervação alça cervical–recorrente dá medialização com tônus mas leva meses (V); unilateral é assintomática (F).",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 196\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><path d=\"M170 20 C 140 60, 110 100, 120 150\" fill=\"none\" stroke=\"var(--rose)\" stroke-width=\"3\"/><path d=\"M200 20 C 230 60, 260 110, 230 160 C 220 175, 190 170, 185 140\" fill=\"none\" stroke=\"var(--wine)\" stroke-width=\"3\"/><path d=\"M190 140 C 200 110, 250 110, 260 140\" fill=\"none\" stroke=\"var(--bad)\" stroke-width=\"8\" opacity=\".6\"/><text x=\"270\" y=\"140\" font-size=\"9.5\" fill=\"var(--bad)\">arco aórtico</text><rect x=\"150\" y=\"30\" width=\"60\" height=\"40\" rx=\"10\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\"/><text x=\"180\" y=\"54\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--ink)\">laringe</text><text x=\"60\" y=\"160\" font-size=\"9.5\" fill=\"var(--ink)\">recorrente D</text><text x=\"200\" y=\"186\" font-size=\"9.5\" fill=\"var(--wine)\">recorrente E (mais longo)</text></svg>",
+     "legenda": "O recorrente esquerdo contorna o arco aórtico: trajeto mais longo, mais lesões"
+    }
+   ],
+   "fonte": "Cummings Otolaryngology 7ª ed. / AAO-HNS — Clinical Practice Guideline: Hoarseness (Dysphonia) (2018) / Sabiston 21ª ed.",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "pcv-q1",
+   "tipo": "quiz",
+   "area": "Cirurgia",
+   "tema": "Cabeça e pescoço",
+   "sub": "Paralisia de cordas vocais",
+   "frente": "Sobre a paralisia das pregas vocais, analise: 1. A paralisia direita é mais comum pelo trajeto mais longo do recorrente direito. 2. A reinervação por anastomose alça cervical–nervo recorrente dá medialização com tônus, mas leva meses. 3. A imobilidade unilateral é assintomática. A sequência correta é:",
+   "opcoes": [
+    "V, F, V.",
+    "V, V, F.",
+    "F, F, V.",
+    "F, V, F."
+   ],
+   "certa": 3,
+   "comentarios": [
+    "Errada.",
+    "1 é falsa.",
+    "Errada.",
+    "Correta."
+   ],
+   "macete": "\"Esquerdo é o longo\".",
+   "pegadinha": "Unilateral causa disfonia.",
+   "uerj": "VV 2024 (Q48).",
+   "prio": "media",
+   "contexto": "**Paralisia de prega vocal = imobilidade por lesão do nervo laríngeo recorrente (ou vago); a causa mais comum é o trauma cirúrgico (tireoidectomia).**\n\nAnatomia:\n- O nervo laríngeo recorrente inerva quase todos os músculos intrínsecos da laringe\n- **Recorrente ESQUERDO é mais longo** (contorna o arco aórtico) → a paralisia da prega ESQUERDA é a mais comum\n- Recorrente direito contorna a subclávia\n\nCausas:\n- Cirurgia (tireoidectomia, cirurgia cervical/torácica, cardíaca)\n- Neoplasias de tireoide, pulmão, mediastino, esôfago, laringe\n- Compressão (aneurisma de aorta, átrio esquerdo grande — síndrome de Ortner)\n- Neuropatia viral, diabetes, colagenoses, sarcoidose; ~20% idiopática\n\nClínica:\n- **Unilateral** → disfonia (voz soprosa/fraca), fadiga vocal, engasgos/aspiração → em geral SINTOMÁTICA\n- **Bilateral** → pregas em posição paramediana → voz quase normal, mas **estridor e dispneia** (urgência de via aérea)\n\nDiagnóstico:\n- Laringoscopia (videolaringoscopia)\n- Investigar o trajeto do nervo (TC de pescoço e tórax) se sem causa clara\n\nTratamento:\n- Fonoterapia; observar recuperação (meses)\n- Medialização → injeção (aumento), tireoplastia\n- **Reinervação** (ex.: anastomose alça cervical–nervo recorrente) → devolve tônus, mas leva meses\n- Bilateral com obstrução → traqueostomia, cordotomia/aritenoidectomia\n\nO que mais cai no Vila Verde:\n- VV 2024 → V/F: paralisia direita mais comum (F); reinervação alça cervical–recorrente dá medialização com tônus mas leva meses (V); unilateral é assintomática (F).",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 196\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><path d=\"M170 20 C 140 60, 110 100, 120 150\" fill=\"none\" stroke=\"var(--rose)\" stroke-width=\"3\"/><path d=\"M200 20 C 230 60, 260 110, 230 160 C 220 175, 190 170, 185 140\" fill=\"none\" stroke=\"var(--wine)\" stroke-width=\"3\"/><path d=\"M190 140 C 200 110, 250 110, 260 140\" fill=\"none\" stroke=\"var(--bad)\" stroke-width=\"8\" opacity=\".6\"/><text x=\"270\" y=\"140\" font-size=\"9.5\" fill=\"var(--bad)\">arco aórtico</text><rect x=\"150\" y=\"30\" width=\"60\" height=\"40\" rx=\"10\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\"/><text x=\"180\" y=\"54\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--ink)\">laringe</text><text x=\"60\" y=\"160\" font-size=\"9.5\" fill=\"var(--ink)\">recorrente D</text><text x=\"200\" y=\"186\" font-size=\"9.5\" fill=\"var(--wine)\">recorrente E (mais longo)</text></svg>",
+     "legenda": "O recorrente esquerdo contorna o arco aórtico: trajeto mais longo, mais lesões"
+    }
+   ],
+   "fonte": "Cummings Otolaryngology 7ª ed. / AAO-HNS — Clinical Practice Guideline: Hoarseness (Dysphonia) (2018) / Sabiston 21ª ed.",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "pcv-d1",
+   "tipo": "digitar",
+   "area": "Cirurgia",
+   "tema": "Cabeça e pescoço",
+   "sub": "Paralisia de cordas vocais",
+   "frente": "Qual nervo, quando lesado, causa paralisia da prega vocal na tireoidectomia?",
+   "verso": "**Nervo laríngeo recorrente.**",
+   "resposta": "Laríngeo recorrente",
+   "aceitas": [
+    "recorrente",
+    "nervo laringeo recorrente",
+    "laringeo recorrente",
+    "laríngeo recorrente"
+   ],
+   "macete": "Recorrente = voz.",
+   "prio": "media",
+   "contexto": "**Paralisia de prega vocal = imobilidade por lesão do nervo laríngeo recorrente (ou vago); a causa mais comum é o trauma cirúrgico (tireoidectomia).**\n\nAnatomia:\n- O nervo laríngeo recorrente inerva quase todos os músculos intrínsecos da laringe\n- **Recorrente ESQUERDO é mais longo** (contorna o arco aórtico) → a paralisia da prega ESQUERDA é a mais comum\n- Recorrente direito contorna a subclávia\n\nCausas:\n- Cirurgia (tireoidectomia, cirurgia cervical/torácica, cardíaca)\n- Neoplasias de tireoide, pulmão, mediastino, esôfago, laringe\n- Compressão (aneurisma de aorta, átrio esquerdo grande — síndrome de Ortner)\n- Neuropatia viral, diabetes, colagenoses, sarcoidose; ~20% idiopática\n\nClínica:\n- **Unilateral** → disfonia (voz soprosa/fraca), fadiga vocal, engasgos/aspiração → em geral SINTOMÁTICA\n- **Bilateral** → pregas em posição paramediana → voz quase normal, mas **estridor e dispneia** (urgência de via aérea)\n\nDiagnóstico:\n- Laringoscopia (videolaringoscopia)\n- Investigar o trajeto do nervo (TC de pescoço e tórax) se sem causa clara\n\nTratamento:\n- Fonoterapia; observar recuperação (meses)\n- Medialização → injeção (aumento), tireoplastia\n- **Reinervação** (ex.: anastomose alça cervical–nervo recorrente) → devolve tônus, mas leva meses\n- Bilateral com obstrução → traqueostomia, cordotomia/aritenoidectomia\n\nO que mais cai no Vila Verde:\n- VV 2024 → V/F: paralisia direita mais comum (F); reinervação alça cervical–recorrente dá medialização com tônus mas leva meses (V); unilateral é assintomática (F).",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 196\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><path d=\"M170 20 C 140 60, 110 100, 120 150\" fill=\"none\" stroke=\"var(--rose)\" stroke-width=\"3\"/><path d=\"M200 20 C 230 60, 260 110, 230 160 C 220 175, 190 170, 185 140\" fill=\"none\" stroke=\"var(--wine)\" stroke-width=\"3\"/><path d=\"M190 140 C 200 110, 250 110, 260 140\" fill=\"none\" stroke=\"var(--bad)\" stroke-width=\"8\" opacity=\".6\"/><text x=\"270\" y=\"140\" font-size=\"9.5\" fill=\"var(--bad)\">arco aórtico</text><rect x=\"150\" y=\"30\" width=\"60\" height=\"40\" rx=\"10\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\"/><text x=\"180\" y=\"54\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--ink)\">laringe</text><text x=\"60\" y=\"160\" font-size=\"9.5\" fill=\"var(--ink)\">recorrente D</text><text x=\"200\" y=\"186\" font-size=\"9.5\" fill=\"var(--wine)\">recorrente E (mais longo)</text></svg>",
+     "legenda": "O recorrente esquerdo contorna o arco aórtico: trajeto mais longo, mais lesões"
+    }
+   ],
+   "fonte": "Cummings Otolaryngology 7ª ed. / AAO-HNS — Clinical Practice Guideline: Hoarseness (Dysphonia) (2018) / Sabiston 21ª ed.",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "pcv-d2",
+   "tipo": "digitar",
+   "area": "Cirurgia",
+   "tema": "Cabeça e pescoço",
+   "sub": "Paralisia de cordas vocais",
+   "frente": "Qual o sintoma principal da paralisia BILATERAL de pregas vocais?",
+   "verso": "**Estridor (dispneia).**",
+   "resposta": "Estridor",
+   "aceitas": [
+    "estridor",
+    "dispneia",
+    "estridor e dispneia"
+   ],
+   "macete": "Duas: ar ruim.",
+   "prio": "media",
+   "contexto": "**Paralisia de prega vocal = imobilidade por lesão do nervo laríngeo recorrente (ou vago); a causa mais comum é o trauma cirúrgico (tireoidectomia).**\n\nAnatomia:\n- O nervo laríngeo recorrente inerva quase todos os músculos intrínsecos da laringe\n- **Recorrente ESQUERDO é mais longo** (contorna o arco aórtico) → a paralisia da prega ESQUERDA é a mais comum\n- Recorrente direito contorna a subclávia\n\nCausas:\n- Cirurgia (tireoidectomia, cirurgia cervical/torácica, cardíaca)\n- Neoplasias de tireoide, pulmão, mediastino, esôfago, laringe\n- Compressão (aneurisma de aorta, átrio esquerdo grande — síndrome de Ortner)\n- Neuropatia viral, diabetes, colagenoses, sarcoidose; ~20% idiopática\n\nClínica:\n- **Unilateral** → disfonia (voz soprosa/fraca), fadiga vocal, engasgos/aspiração → em geral SINTOMÁTICA\n- **Bilateral** → pregas em posição paramediana → voz quase normal, mas **estridor e dispneia** (urgência de via aérea)\n\nDiagnóstico:\n- Laringoscopia (videolaringoscopia)\n- Investigar o trajeto do nervo (TC de pescoço e tórax) se sem causa clara\n\nTratamento:\n- Fonoterapia; observar recuperação (meses)\n- Medialização → injeção (aumento), tireoplastia\n- **Reinervação** (ex.: anastomose alça cervical–nervo recorrente) → devolve tônus, mas leva meses\n- Bilateral com obstrução → traqueostomia, cordotomia/aritenoidectomia\n\nO que mais cai no Vila Verde:\n- VV 2024 → V/F: paralisia direita mais comum (F); reinervação alça cervical–recorrente dá medialização com tônus mas leva meses (V); unilateral é assintomática (F).",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 196\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><path d=\"M170 20 C 140 60, 110 100, 120 150\" fill=\"none\" stroke=\"var(--rose)\" stroke-width=\"3\"/><path d=\"M200 20 C 230 60, 260 110, 230 160 C 220 175, 190 170, 185 140\" fill=\"none\" stroke=\"var(--wine)\" stroke-width=\"3\"/><path d=\"M190 140 C 200 110, 250 110, 260 140\" fill=\"none\" stroke=\"var(--bad)\" stroke-width=\"8\" opacity=\".6\"/><text x=\"270\" y=\"140\" font-size=\"9.5\" fill=\"var(--bad)\">arco aórtico</text><rect x=\"150\" y=\"30\" width=\"60\" height=\"40\" rx=\"10\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\"/><text x=\"180\" y=\"54\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--ink)\">laringe</text><text x=\"60\" y=\"160\" font-size=\"9.5\" fill=\"var(--ink)\">recorrente D</text><text x=\"200\" y=\"186\" font-size=\"9.5\" fill=\"var(--wine)\">recorrente E (mais longo)</text></svg>",
+     "legenda": "O recorrente esquerdo contorna o arco aórtico: trajeto mais longo, mais lesões"
+    }
+   ],
+   "fonte": "Cummings Otolaryngology 7ª ed. / AAO-HNS — Clinical Practice Guideline: Hoarseness (Dysphonia) (2018) / Sabiston 21ª ed.",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "brd-01",
+   "tipo": "flash",
+   "area": "Clínica Médica",
+   "tema": "Cardiologia",
+   "sub": "Bradiarritmias e ECG básico",
+   "frente": "Onda P normal antes de cada QRS com FC de 45 bpm: diagnóstico?",
+   "verso": "**Bradicardia sinusal.**\n\nCausas:\n- Atleta, sono, betabloqueador, hipotireoidismo, hipercalemia, IAM inferior.",
+   "macete": "\"P antes de todo QRS + lento = sinusal lento\".",
+   "pegadinha": "BAV de 2º grau tem P SEM QRS em algum momento.",
+   "uerj": "VV 2024: bradicardia sinusal.",
+   "prio": "media",
+   "contexto": "**Bradiarritmias = ritmos com FC baixa (< 50–60 bpm); importam pela causa e pela presença de instabilidade.**\n\nTipos:\n- **Bradicardia sinusal** → onda P normal antes de cada QRS, FC < 50–60 (atleta, sono, drogas)\n- **BAV 1º grau** → PR > 200 ms, todas as P conduzem\n- **BAV 2º grau Mobitz I (Wenckebach)** → PR aumenta progressivamente até uma P não conduzir; nodal, geralmente benigno\n- **BAV 2º grau Mobitz II** → PR fixo com P bloqueada de repente; infranodal; risco de BAV total → marcapasso\n- **BAV total (3º grau)** → dissociação AV (P e QRS independentes) → marcapasso\n\nCausas a investigar:\n- Drogas (betabloqueador, BCC não di-hidropiridínico, digoxina, amiodarona)\n- **Hipercalemia**, hipotireoidismo, hipotermia\n- IAM de parede inferior (coronária direita)\n- Hipertensão intracraniana (tríade de Cushing), apneia do sono, doença do nó sinusal\n\nBradicardia instável (sinais):\n- Hipotensão, alteração de consciência, choque, dor torácica isquêmica, IC aguda\n\nTratamento (ACLS):\n- Estável → observar e tratar a causa\n- **Instável → atropina 1 mg EV** (repetir a cada 3–5 min, máx. 3 mg)\n- Sem resposta → **marcapasso transcutâneo** ou infusão de dopamina/adrenalina\n- Mobitz II e BAV total → marcapasso (atropina pouco eficaz)\n\nO que mais cai no Vila Verde:\n- VV 2024 → onda P normal com FC < 50 bpm = bradicardia sinusal.",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 206\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><text x=\"8\" y=\"24\" font-size=\"9.5\" font-weight=\"600\" fill=\"var(--wine)\">Sinusal</text><text x=\"8\" y=\"70\" font-size=\"9.5\" font-weight=\"600\" fill=\"var(--wine)\">Mobitz I</text><text x=\"8\" y=\"116\" font-size=\"9.5\" font-weight=\"600\" fill=\"var(--wine)\">Mobitz II</text><text x=\"8\" y=\"162\" font-size=\"9.5\" font-weight=\"600\" fill=\"var(--wine)\">BAV total</text><path d=\"M70 30 h12 q5 -8 10 0 h8 l3 6 l4 -26 l4 30 l3 -10 h40 q5 -8 10 0 h8 l3 6 l4 -26 l4 30 l3 -10 h40 q5 -8 10 0 h8 l3 6 l4 -26 l4 30 l3 -10 h20\" fill=\"none\" stroke=\"var(--ink)\" stroke-width=\"1.4\"/><path d=\"M70 76 h6 q5 -8 10 0 h6 l3 6 l4 -26 l4 30 l3 -10 h8 q5 -8 10 0 h12 l3 6 l4 -26 l4 30 l3 -10 h8 q5 -8 10 0 h18 l3 6 l4 -26 l4 30 l3 -10 h8 q5 -8 10 0 h40\" fill=\"none\" stroke=\"var(--ink)\" stroke-width=\"1.4\"/><text x=\"300\" y=\"70\" font-size=\"8.5\" fill=\"var(--bad)\">P bloq.</text><path d=\"M70 122 h6 q5 -8 10 0 h10 l3 6 l4 -26 l4 30 l3 -10 h8 q5 -8 10 0 h10 l3 6 l4 -26 l4 30 l3 -10 h8 q5 -8 10 0 h44 q5 -8 10 0 h10 l3 6 l4 -26 l4 30 l3 -10 h10\" fill=\"none\" stroke=\"var(--ink)\" stroke-width=\"1.4\"/><text x=\"212\" y=\"112\" font-size=\"8.5\" fill=\"var(--bad)\">P bloq.</text><path d=\"M70 168 h6 q5 -8 10 0 h20 l3 6 l4 -26 l4 30 l3 -10 h4 q5 -8 10 0 h26 q5 -8 10 0 h8 l3 6 l4 -26 l4 30 l3 -10 h16 q5 -8 10 0 h26 q5 -8 10 0 h4 l3 6 l4 -26 l4 30 l3 -10 h10\" fill=\"none\" stroke=\"var(--ink)\" stroke-width=\"1.4\"/><text x=\"170\" y=\"200\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">Mobitz I: PR cresce · Mobitz II: PR fixo · BAV total: P e QRS independentes</text></svg>",
+     "legenda": "Bradiarritmias no ECG (esquemático)"
+    },
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "Bradiarritmia",
+      "Critério",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "Sinusal",
+       "P normal antes de cada QRS, FC < 50–60",
+       "Tratar causa; atropina se instável"
+      ],
+      [
+       "BAV 1º grau",
+       "PR > 200 ms",
+       "Observar"
+      ],
+      [
+       "Mobitz I",
+       "PR cresce até bloquear",
+       "Observar; atropina se sintomático"
+      ],
+      [
+       "Mobitz II",
+       "PR fixo, bloqueio súbito",
+       "Marcapasso"
+      ],
+      [
+       "BAV total",
+       "Dissociação AV",
+       "Marcapasso"
+      ]
+     ]
+    }
+   ],
+   "fonte": "AHA — ACLS Guidelines (2020, atualização 2025) / SBC — Diretriz de Arritmias / Diretriz Brasileira de Telemetria e ECG (2022)",
+   "add": "2026-10-28",
+   "visual": {
+    "tipo": "tabela",
+    "cab": [
+     "Ritmo",
+     "Onda P"
+    ],
+    "linhas": [
+     [
+      "!Bradicardia sinusal",
+      "Normal, antes de todo QRS"
+     ],
+     [
+      "Fibrilação atrial",
+      "Ausente"
+     ],
+     [
+      "BAV 2º grau",
+      "Algumas P sem QRS"
+     ],
+     [
+      "BAV total",
+      "P e QRS independentes"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "brd-02",
+   "tipo": "flash",
+   "area": "Clínica Médica",
+   "tema": "Cardiologia",
+   "sub": "Bradiarritmias e ECG básico",
+   "frente": "Bradicardia instável: tratamento",
+   "verso": "**Atropina 1 mg EV (até 3 mg).**\n**Sem resposta → marcapasso transcutâneo ou dopamina/adrenalina.**\n\nInstabilidade:\n- Hipotensão, confusão, choque, dor isquêmica, IC aguda.",
+   "macete": "\"Atropina, depois Marcapasso\" = A → M.",
+   "visual": {
+    "tipo": "fluxo",
+    "passos": [
+     "Bradicardia + sinais de instabilidade",
+     "Atropina 1 mg EV (repetir até 3 mg)",
+     "Marcapasso transcutâneo ou dopamina/adrenalina",
+     "Marcapasso transvenoso / definitivo"
+    ]
+   },
+   "pegadinha": "Mobitz II e BAV total respondem mal à atropina: marcapasso.",
+   "prio": "alta",
+   "contexto": "**Bradiarritmias = ritmos com FC baixa (< 50–60 bpm); importam pela causa e pela presença de instabilidade.**\n\nTipos:\n- **Bradicardia sinusal** → onda P normal antes de cada QRS, FC < 50–60 (atleta, sono, drogas)\n- **BAV 1º grau** → PR > 200 ms, todas as P conduzem\n- **BAV 2º grau Mobitz I (Wenckebach)** → PR aumenta progressivamente até uma P não conduzir; nodal, geralmente benigno\n- **BAV 2º grau Mobitz II** → PR fixo com P bloqueada de repente; infranodal; risco de BAV total → marcapasso\n- **BAV total (3º grau)** → dissociação AV (P e QRS independentes) → marcapasso\n\nCausas a investigar:\n- Drogas (betabloqueador, BCC não di-hidropiridínico, digoxina, amiodarona)\n- **Hipercalemia**, hipotireoidismo, hipotermia\n- IAM de parede inferior (coronária direita)\n- Hipertensão intracraniana (tríade de Cushing), apneia do sono, doença do nó sinusal\n\nBradicardia instável (sinais):\n- Hipotensão, alteração de consciência, choque, dor torácica isquêmica, IC aguda\n\nTratamento (ACLS):\n- Estável → observar e tratar a causa\n- **Instável → atropina 1 mg EV** (repetir a cada 3–5 min, máx. 3 mg)\n- Sem resposta → **marcapasso transcutâneo** ou infusão de dopamina/adrenalina\n- Mobitz II e BAV total → marcapasso (atropina pouco eficaz)\n\nO que mais cai no Vila Verde:\n- VV 2024 → onda P normal com FC < 50 bpm = bradicardia sinusal.",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 206\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><text x=\"8\" y=\"24\" font-size=\"9.5\" font-weight=\"600\" fill=\"var(--wine)\">Sinusal</text><text x=\"8\" y=\"70\" font-size=\"9.5\" font-weight=\"600\" fill=\"var(--wine)\">Mobitz I</text><text x=\"8\" y=\"116\" font-size=\"9.5\" font-weight=\"600\" fill=\"var(--wine)\">Mobitz II</text><text x=\"8\" y=\"162\" font-size=\"9.5\" font-weight=\"600\" fill=\"var(--wine)\">BAV total</text><path d=\"M70 30 h12 q5 -8 10 0 h8 l3 6 l4 -26 l4 30 l3 -10 h40 q5 -8 10 0 h8 l3 6 l4 -26 l4 30 l3 -10 h40 q5 -8 10 0 h8 l3 6 l4 -26 l4 30 l3 -10 h20\" fill=\"none\" stroke=\"var(--ink)\" stroke-width=\"1.4\"/><path d=\"M70 76 h6 q5 -8 10 0 h6 l3 6 l4 -26 l4 30 l3 -10 h8 q5 -8 10 0 h12 l3 6 l4 -26 l4 30 l3 -10 h8 q5 -8 10 0 h18 l3 6 l4 -26 l4 30 l3 -10 h8 q5 -8 10 0 h40\" fill=\"none\" stroke=\"var(--ink)\" stroke-width=\"1.4\"/><text x=\"300\" y=\"70\" font-size=\"8.5\" fill=\"var(--bad)\">P bloq.</text><path d=\"M70 122 h6 q5 -8 10 0 h10 l3 6 l4 -26 l4 30 l3 -10 h8 q5 -8 10 0 h10 l3 6 l4 -26 l4 30 l3 -10 h8 q5 -8 10 0 h44 q5 -8 10 0 h10 l3 6 l4 -26 l4 30 l3 -10 h10\" fill=\"none\" stroke=\"var(--ink)\" stroke-width=\"1.4\"/><text x=\"212\" y=\"112\" font-size=\"8.5\" fill=\"var(--bad)\">P bloq.</text><path d=\"M70 168 h6 q5 -8 10 0 h20 l3 6 l4 -26 l4 30 l3 -10 h4 q5 -8 10 0 h26 q5 -8 10 0 h8 l3 6 l4 -26 l4 30 l3 -10 h16 q5 -8 10 0 h26 q5 -8 10 0 h4 l3 6 l4 -26 l4 30 l3 -10 h10\" fill=\"none\" stroke=\"var(--ink)\" stroke-width=\"1.4\"/><text x=\"170\" y=\"200\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">Mobitz I: PR cresce · Mobitz II: PR fixo · BAV total: P e QRS independentes</text></svg>",
+     "legenda": "Bradiarritmias no ECG (esquemático)"
+    },
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "Bradiarritmia",
+      "Critério",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "Sinusal",
+       "P normal antes de cada QRS, FC < 50–60",
+       "Tratar causa; atropina se instável"
+      ],
+      [
+       "BAV 1º grau",
+       "PR > 200 ms",
+       "Observar"
+      ],
+      [
+       "Mobitz I",
+       "PR cresce até bloquear",
+       "Observar; atropina se sintomático"
+      ],
+      [
+       "Mobitz II",
+       "PR fixo, bloqueio súbito",
+       "Marcapasso"
+      ],
+      [
+       "BAV total",
+       "Dissociação AV",
+       "Marcapasso"
+      ]
+     ]
+    }
+   ],
+   "fonte": "AHA — ACLS Guidelines (2020, atualização 2025) / SBC — Diretriz de Arritmias / Diretriz Brasileira de Telemetria e ECG (2022)",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "brd-q1",
+   "tipo": "quiz",
+   "area": "Clínica Médica",
+   "tema": "Cardiologia",
+   "sub": "Bradiarritmias e ECG básico",
+   "frente": "Idoso com fadiga; ECG com onda P de orientação normal e FC < 50 bpm. O diagnóstico mais provável é:",
+   "opcoes": [
+    "Taquicardia ventricular.",
+    "Fibrilação atrial.",
+    "Bloqueio AV de segundo grau.",
+    "Bradicardia sinusal."
+   ],
+   "certa": 3,
+   "comentarios": [
+    "FC alta.",
+    "Sem onda P.",
+    "Teria P sem QRS.",
+    "Correta."
+   ],
+   "macete": "\"P normal + lento\".",
+   "pegadinha": "Fibrilação atrial não tem onda P.",
+   "uerj": "VV 2024 (Q19).",
+   "prio": "media",
+   "contexto": "**Bradiarritmias = ritmos com FC baixa (< 50–60 bpm); importam pela causa e pela presença de instabilidade.**\n\nTipos:\n- **Bradicardia sinusal** → onda P normal antes de cada QRS, FC < 50–60 (atleta, sono, drogas)\n- **BAV 1º grau** → PR > 200 ms, todas as P conduzem\n- **BAV 2º grau Mobitz I (Wenckebach)** → PR aumenta progressivamente até uma P não conduzir; nodal, geralmente benigno\n- **BAV 2º grau Mobitz II** → PR fixo com P bloqueada de repente; infranodal; risco de BAV total → marcapasso\n- **BAV total (3º grau)** → dissociação AV (P e QRS independentes) → marcapasso\n\nCausas a investigar:\n- Drogas (betabloqueador, BCC não di-hidropiridínico, digoxina, amiodarona)\n- **Hipercalemia**, hipotireoidismo, hipotermia\n- IAM de parede inferior (coronária direita)\n- Hipertensão intracraniana (tríade de Cushing), apneia do sono, doença do nó sinusal\n\nBradicardia instável (sinais):\n- Hipotensão, alteração de consciência, choque, dor torácica isquêmica, IC aguda\n\nTratamento (ACLS):\n- Estável → observar e tratar a causa\n- **Instável → atropina 1 mg EV** (repetir a cada 3–5 min, máx. 3 mg)\n- Sem resposta → **marcapasso transcutâneo** ou infusão de dopamina/adrenalina\n- Mobitz II e BAV total → marcapasso (atropina pouco eficaz)\n\nO que mais cai no Vila Verde:\n- VV 2024 → onda P normal com FC < 50 bpm = bradicardia sinusal.",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 206\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><text x=\"8\" y=\"24\" font-size=\"9.5\" font-weight=\"600\" fill=\"var(--wine)\">Sinusal</text><text x=\"8\" y=\"70\" font-size=\"9.5\" font-weight=\"600\" fill=\"var(--wine)\">Mobitz I</text><text x=\"8\" y=\"116\" font-size=\"9.5\" font-weight=\"600\" fill=\"var(--wine)\">Mobitz II</text><text x=\"8\" y=\"162\" font-size=\"9.5\" font-weight=\"600\" fill=\"var(--wine)\">BAV total</text><path d=\"M70 30 h12 q5 -8 10 0 h8 l3 6 l4 -26 l4 30 l3 -10 h40 q5 -8 10 0 h8 l3 6 l4 -26 l4 30 l3 -10 h40 q5 -8 10 0 h8 l3 6 l4 -26 l4 30 l3 -10 h20\" fill=\"none\" stroke=\"var(--ink)\" stroke-width=\"1.4\"/><path d=\"M70 76 h6 q5 -8 10 0 h6 l3 6 l4 -26 l4 30 l3 -10 h8 q5 -8 10 0 h12 l3 6 l4 -26 l4 30 l3 -10 h8 q5 -8 10 0 h18 l3 6 l4 -26 l4 30 l3 -10 h8 q5 -8 10 0 h40\" fill=\"none\" stroke=\"var(--ink)\" stroke-width=\"1.4\"/><text x=\"300\" y=\"70\" font-size=\"8.5\" fill=\"var(--bad)\">P bloq.</text><path d=\"M70 122 h6 q5 -8 10 0 h10 l3 6 l4 -26 l4 30 l3 -10 h8 q5 -8 10 0 h10 l3 6 l4 -26 l4 30 l3 -10 h8 q5 -8 10 0 h44 q5 -8 10 0 h10 l3 6 l4 -26 l4 30 l3 -10 h10\" fill=\"none\" stroke=\"var(--ink)\" stroke-width=\"1.4\"/><text x=\"212\" y=\"112\" font-size=\"8.5\" fill=\"var(--bad)\">P bloq.</text><path d=\"M70 168 h6 q5 -8 10 0 h20 l3 6 l4 -26 l4 30 l3 -10 h4 q5 -8 10 0 h26 q5 -8 10 0 h8 l3 6 l4 -26 l4 30 l3 -10 h16 q5 -8 10 0 h26 q5 -8 10 0 h4 l3 6 l4 -26 l4 30 l3 -10 h10\" fill=\"none\" stroke=\"var(--ink)\" stroke-width=\"1.4\"/><text x=\"170\" y=\"200\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">Mobitz I: PR cresce · Mobitz II: PR fixo · BAV total: P e QRS independentes</text></svg>",
+     "legenda": "Bradiarritmias no ECG (esquemático)"
+    },
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "Bradiarritmia",
+      "Critério",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "Sinusal",
+       "P normal antes de cada QRS, FC < 50–60",
+       "Tratar causa; atropina se instável"
+      ],
+      [
+       "BAV 1º grau",
+       "PR > 200 ms",
+       "Observar"
+      ],
+      [
+       "Mobitz I",
+       "PR cresce até bloquear",
+       "Observar; atropina se sintomático"
+      ],
+      [
+       "Mobitz II",
+       "PR fixo, bloqueio súbito",
+       "Marcapasso"
+      ],
+      [
+       "BAV total",
+       "Dissociação AV",
+       "Marcapasso"
+      ]
+     ]
+    }
+   ],
+   "fonte": "AHA — ACLS Guidelines (2020, atualização 2025) / SBC — Diretriz de Arritmias / Diretriz Brasileira de Telemetria e ECG (2022)",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "brd-d1",
+   "tipo": "digitar",
+   "area": "Clínica Médica",
+   "tema": "Cardiologia",
+   "sub": "Bradiarritmias e ECG básico",
+   "frente": "Qual a dose inicial de atropina na bradicardia instável (ACLS)?",
+   "verso": "**1 mg EV** (repetir a cada 3–5 min, máx. 3 mg).",
+   "resposta": "1 mg",
+   "aceitas": [
+    "1mg",
+    "1 mg ev",
+    "1"
+   ],
+   "macete": "\"Um de atropina\".",
+   "prio": "alta",
+   "contexto": "**Bradiarritmias = ritmos com FC baixa (< 50–60 bpm); importam pela causa e pela presença de instabilidade.**\n\nTipos:\n- **Bradicardia sinusal** → onda P normal antes de cada QRS, FC < 50–60 (atleta, sono, drogas)\n- **BAV 1º grau** → PR > 200 ms, todas as P conduzem\n- **BAV 2º grau Mobitz I (Wenckebach)** → PR aumenta progressivamente até uma P não conduzir; nodal, geralmente benigno\n- **BAV 2º grau Mobitz II** → PR fixo com P bloqueada de repente; infranodal; risco de BAV total → marcapasso\n- **BAV total (3º grau)** → dissociação AV (P e QRS independentes) → marcapasso\n\nCausas a investigar:\n- Drogas (betabloqueador, BCC não di-hidropiridínico, digoxina, amiodarona)\n- **Hipercalemia**, hipotireoidismo, hipotermia\n- IAM de parede inferior (coronária direita)\n- Hipertensão intracraniana (tríade de Cushing), apneia do sono, doença do nó sinusal\n\nBradicardia instável (sinais):\n- Hipotensão, alteração de consciência, choque, dor torácica isquêmica, IC aguda\n\nTratamento (ACLS):\n- Estável → observar e tratar a causa\n- **Instável → atropina 1 mg EV** (repetir a cada 3–5 min, máx. 3 mg)\n- Sem resposta → **marcapasso transcutâneo** ou infusão de dopamina/adrenalina\n- Mobitz II e BAV total → marcapasso (atropina pouco eficaz)\n\nO que mais cai no Vila Verde:\n- VV 2024 → onda P normal com FC < 50 bpm = bradicardia sinusal.",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 206\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><text x=\"8\" y=\"24\" font-size=\"9.5\" font-weight=\"600\" fill=\"var(--wine)\">Sinusal</text><text x=\"8\" y=\"70\" font-size=\"9.5\" font-weight=\"600\" fill=\"var(--wine)\">Mobitz I</text><text x=\"8\" y=\"116\" font-size=\"9.5\" font-weight=\"600\" fill=\"var(--wine)\">Mobitz II</text><text x=\"8\" y=\"162\" font-size=\"9.5\" font-weight=\"600\" fill=\"var(--wine)\">BAV total</text><path d=\"M70 30 h12 q5 -8 10 0 h8 l3 6 l4 -26 l4 30 l3 -10 h40 q5 -8 10 0 h8 l3 6 l4 -26 l4 30 l3 -10 h40 q5 -8 10 0 h8 l3 6 l4 -26 l4 30 l3 -10 h20\" fill=\"none\" stroke=\"var(--ink)\" stroke-width=\"1.4\"/><path d=\"M70 76 h6 q5 -8 10 0 h6 l3 6 l4 -26 l4 30 l3 -10 h8 q5 -8 10 0 h12 l3 6 l4 -26 l4 30 l3 -10 h8 q5 -8 10 0 h18 l3 6 l4 -26 l4 30 l3 -10 h8 q5 -8 10 0 h40\" fill=\"none\" stroke=\"var(--ink)\" stroke-width=\"1.4\"/><text x=\"300\" y=\"70\" font-size=\"8.5\" fill=\"var(--bad)\">P bloq.</text><path d=\"M70 122 h6 q5 -8 10 0 h10 l3 6 l4 -26 l4 30 l3 -10 h8 q5 -8 10 0 h10 l3 6 l4 -26 l4 30 l3 -10 h8 q5 -8 10 0 h44 q5 -8 10 0 h10 l3 6 l4 -26 l4 30 l3 -10 h10\" fill=\"none\" stroke=\"var(--ink)\" stroke-width=\"1.4\"/><text x=\"212\" y=\"112\" font-size=\"8.5\" fill=\"var(--bad)\">P bloq.</text><path d=\"M70 168 h6 q5 -8 10 0 h20 l3 6 l4 -26 l4 30 l3 -10 h4 q5 -8 10 0 h26 q5 -8 10 0 h8 l3 6 l4 -26 l4 30 l3 -10 h16 q5 -8 10 0 h26 q5 -8 10 0 h4 l3 6 l4 -26 l4 30 l3 -10 h10\" fill=\"none\" stroke=\"var(--ink)\" stroke-width=\"1.4\"/><text x=\"170\" y=\"200\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">Mobitz I: PR cresce · Mobitz II: PR fixo · BAV total: P e QRS independentes</text></svg>",
+     "legenda": "Bradiarritmias no ECG (esquemático)"
+    },
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "Bradiarritmia",
+      "Critério",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "Sinusal",
+       "P normal antes de cada QRS, FC < 50–60",
+       "Tratar causa; atropina se instável"
+      ],
+      [
+       "BAV 1º grau",
+       "PR > 200 ms",
+       "Observar"
+      ],
+      [
+       "Mobitz I",
+       "PR cresce até bloquear",
+       "Observar; atropina se sintomático"
+      ],
+      [
+       "Mobitz II",
+       "PR fixo, bloqueio súbito",
+       "Marcapasso"
+      ],
+      [
+       "BAV total",
+       "Dissociação AV",
+       "Marcapasso"
+      ]
+     ]
+    }
+   ],
+   "fonte": "AHA — ACLS Guidelines (2020, atualização 2025) / SBC — Diretriz de Arritmias / Diretriz Brasileira de Telemetria e ECG (2022)",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "brd-d2",
+   "tipo": "digitar",
+   "area": "Clínica Médica",
+   "tema": "Cardiologia",
+   "sub": "Bradiarritmias e ECG básico",
+   "frente": "Qual BAV de 2º grau tem PR crescente até bloquear?",
+   "verso": "**Mobitz I (Wenckebach).**",
+   "resposta": "Mobitz I",
+   "aceitas": [
+    "mobitz 1",
+    "wenckebach",
+    "mobitz i",
+    "mobitz tipo i"
+   ],
+   "macete": "Wenckebach = \"vai esticando até cair\".",
+   "prio": "media",
+   "contexto": "**Bradiarritmias = ritmos com FC baixa (< 50–60 bpm); importam pela causa e pela presença de instabilidade.**\n\nTipos:\n- **Bradicardia sinusal** → onda P normal antes de cada QRS, FC < 50–60 (atleta, sono, drogas)\n- **BAV 1º grau** → PR > 200 ms, todas as P conduzem\n- **BAV 2º grau Mobitz I (Wenckebach)** → PR aumenta progressivamente até uma P não conduzir; nodal, geralmente benigno\n- **BAV 2º grau Mobitz II** → PR fixo com P bloqueada de repente; infranodal; risco de BAV total → marcapasso\n- **BAV total (3º grau)** → dissociação AV (P e QRS independentes) → marcapasso\n\nCausas a investigar:\n- Drogas (betabloqueador, BCC não di-hidropiridínico, digoxina, amiodarona)\n- **Hipercalemia**, hipotireoidismo, hipotermia\n- IAM de parede inferior (coronária direita)\n- Hipertensão intracraniana (tríade de Cushing), apneia do sono, doença do nó sinusal\n\nBradicardia instável (sinais):\n- Hipotensão, alteração de consciência, choque, dor torácica isquêmica, IC aguda\n\nTratamento (ACLS):\n- Estável → observar e tratar a causa\n- **Instável → atropina 1 mg EV** (repetir a cada 3–5 min, máx. 3 mg)\n- Sem resposta → **marcapasso transcutâneo** ou infusão de dopamina/adrenalina\n- Mobitz II e BAV total → marcapasso (atropina pouco eficaz)\n\nO que mais cai no Vila Verde:\n- VV 2024 → onda P normal com FC < 50 bpm = bradicardia sinusal.",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 206\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><text x=\"8\" y=\"24\" font-size=\"9.5\" font-weight=\"600\" fill=\"var(--wine)\">Sinusal</text><text x=\"8\" y=\"70\" font-size=\"9.5\" font-weight=\"600\" fill=\"var(--wine)\">Mobitz I</text><text x=\"8\" y=\"116\" font-size=\"9.5\" font-weight=\"600\" fill=\"var(--wine)\">Mobitz II</text><text x=\"8\" y=\"162\" font-size=\"9.5\" font-weight=\"600\" fill=\"var(--wine)\">BAV total</text><path d=\"M70 30 h12 q5 -8 10 0 h8 l3 6 l4 -26 l4 30 l3 -10 h40 q5 -8 10 0 h8 l3 6 l4 -26 l4 30 l3 -10 h40 q5 -8 10 0 h8 l3 6 l4 -26 l4 30 l3 -10 h20\" fill=\"none\" stroke=\"var(--ink)\" stroke-width=\"1.4\"/><path d=\"M70 76 h6 q5 -8 10 0 h6 l3 6 l4 -26 l4 30 l3 -10 h8 q5 -8 10 0 h12 l3 6 l4 -26 l4 30 l3 -10 h8 q5 -8 10 0 h18 l3 6 l4 -26 l4 30 l3 -10 h8 q5 -8 10 0 h40\" fill=\"none\" stroke=\"var(--ink)\" stroke-width=\"1.4\"/><text x=\"300\" y=\"70\" font-size=\"8.5\" fill=\"var(--bad)\">P bloq.</text><path d=\"M70 122 h6 q5 -8 10 0 h10 l3 6 l4 -26 l4 30 l3 -10 h8 q5 -8 10 0 h10 l3 6 l4 -26 l4 30 l3 -10 h8 q5 -8 10 0 h44 q5 -8 10 0 h10 l3 6 l4 -26 l4 30 l3 -10 h10\" fill=\"none\" stroke=\"var(--ink)\" stroke-width=\"1.4\"/><text x=\"212\" y=\"112\" font-size=\"8.5\" fill=\"var(--bad)\">P bloq.</text><path d=\"M70 168 h6 q5 -8 10 0 h20 l3 6 l4 -26 l4 30 l3 -10 h4 q5 -8 10 0 h26 q5 -8 10 0 h8 l3 6 l4 -26 l4 30 l3 -10 h16 q5 -8 10 0 h26 q5 -8 10 0 h4 l3 6 l4 -26 l4 30 l3 -10 h10\" fill=\"none\" stroke=\"var(--ink)\" stroke-width=\"1.4\"/><text x=\"170\" y=\"200\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">Mobitz I: PR cresce · Mobitz II: PR fixo · BAV total: P e QRS independentes</text></svg>",
+     "legenda": "Bradiarritmias no ECG (esquemático)"
+    },
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "Bradiarritmia",
+      "Critério",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "Sinusal",
+       "P normal antes de cada QRS, FC < 50–60",
+       "Tratar causa; atropina se instável"
+      ],
+      [
+       "BAV 1º grau",
+       "PR > 200 ms",
+       "Observar"
+      ],
+      [
+       "Mobitz I",
+       "PR cresce até bloquear",
+       "Observar; atropina se sintomático"
+      ],
+      [
+       "Mobitz II",
+       "PR fixo, bloqueio súbito",
+       "Marcapasso"
+      ],
+      [
+       "BAV total",
+       "Dissociação AV",
+       "Marcapasso"
+      ]
+     ]
+    }
+   ],
+   "fonte": "AHA — ACLS Guidelines (2020, atualização 2025) / SBC — Diretriz de Arritmias / Diretriz Brasileira de Telemetria e ECG (2022)",
+   "add": "2026-10-28"
   }
  ],
  "rev": 0
