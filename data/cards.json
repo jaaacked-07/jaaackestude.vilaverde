@@ -54179,6 +54179,1958 @@
    ],
    "fonte": "SBP — Pneumonia adquirida na comunidade na infância (2018) / OMS — Pocket book of hospital care for children (2013) / BTS Guidelines — CAP in children (2011)",
    "add": "2026-10-28"
+  },
+  {
+   "id": "cmn-01",
+   "tipo": "flash",
+   "area": "Ginecologia",
+   "tema": "Endocrinologia ginecológica",
+   "sub": "Ciclo menstrual — fisiologia",
+   "frente": "Fase lútea: quem produz progesterona e o que ela faz no endométrio?",
+   "verso": "**Corpo lúteo produz progesterona.**\n**Endométrio fica secretor e estável para a implantação.**\n\nCompare:\n- Estrogênio → prolifera (mitoses).\n- Progesterona → diferencia (secreção).",
+   "macete": "\"Estrogênio Estica (prolifera); Progesterona Prepara (secreta)\".",
+   "visual": {
+    "tipo": "vs",
+    "a": {
+     "t": "Folicular",
+     "itens": [
+      "FSH",
+      "Estrogênio",
+      "Endométrio proliferativo",
+      "Muco fluido"
+     ]
+    },
+    "b": {
+     "t": "Lútea",
+     "itens": [
+      "Corpo lúteo",
+      "Progesterona",
+      "Endométrio secretor",
+      "Muco espesso, T° basal ↑"
+     ]
+    }
+   },
+   "pegadinha": "A progesterona NÃO aumenta mitoses (isso é o estrogênio).",
+   "uerj": "VV 2025: progesterona do corpo lúteo amadurece e estabiliza o endométrio (gabarito B).",
+   "prio": "media",
+   "contexto": "**Ciclo menstrual = interação hipotálamo (GnRH) → hipófise (FSH/LH) → ovário (estrogênio/progesterona) → endométrio, com ovulação no meio do ciclo.**\n\nFase folicular (proliferativa no endométrio):\n- FSH recruta e faz crescer os folículos; o dominante produz **estrogênio**\n- Estrogênio → endométrio **proliferativo**; muco cervical fluido e filante\n- Estrogênio alto e mantido → feedback POSITIVO → **pico de LH**\n- Duração variável (é ela que muda o tamanho do ciclo)\n\nOvulação:\n- ~24–36 h após o início do pico de LH\n\nFase lútea (secretora no endométrio):\n- O folículo vira **corpo lúteo**, que secreta **PROGESTERONA** (e estrogênio)\n- Progesterona → endométrio **secretor**: maduro e estável, preparado para a implantação\n- Muco cervical espesso; temperatura basal sobe ~0,3–0,5 °C\n- Duração ~14 dias (fixa)\n- Sem gravidez → luteólise → queda da progesterona → descamação (menstruação)\n- Com gravidez → hCG mantém o corpo lúteo até a placenta assumir\n\nDicas:\n- Progesterona no 21º dia (ciclo de 28) confirma ovulação\n- Inibina B → folicular; inibina A → lútea\n- Estrogênio PROLIFERA (mitoses); progesterona DIFERENCIA (secreção)\n\nO que mais cai no Vila Verde:\n- VV 2025 → na fase lútea, a progesterona do corpo lúteo promove a maturação e estabilização do endométrio para a implantação; distratores dizem que a progesterona aumenta mitoses ou que é o estrogênio do corpo lúteo que estabiliza.",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 208\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><line x1=\"20\" y1=\"90\" x2=\"330\" y2=\"90\" stroke=\"var(--line)\"/><line x1=\"175\" y1=\"14\" x2=\"175\" y2=\"190\" stroke=\"var(--rose)\" stroke-dasharray=\"4 4\"/><text x=\"90\" y=\"14\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"600\" fill=\"var(--wine)\">Folicular</text><text x=\"255\" y=\"14\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"600\" fill=\"var(--wine)\">Lútea</text><text x=\"175\" y=\"200\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">ovulação (dia ~14)</text><path d=\"M20 80 C 80 78, 140 70, 165 30 C 170 20, 180 20, 185 70 C 200 85, 320 84, 330 82\" fill=\"none\" stroke=\"var(--bad)\" stroke-width=\"2\"/><text x=\"146\" y=\"34\" text-anchor=\"end\" font-size=\"9.5\" fill=\"var(--bad)\">pico de LH</text><path d=\"M20 78 C 100 70, 150 40, 168 46 C 185 60, 200 70, 240 58 C 280 52, 310 70, 330 80\" fill=\"none\" stroke=\"var(--ok)\" stroke-width=\"2\"/><text x=\"96\" y=\"64\" font-size=\"9.5\" fill=\"var(--ok)\">estrogênio</text><path d=\"M20 86 C 150 86, 180 84, 200 66 C 230 36, 280 40, 330 84\" fill=\"none\" stroke=\"var(--wine)\" stroke-width=\"2.4\"/><text x=\"252\" y=\"34\" font-size=\"9.5\" fill=\"var(--wine)\">progesterona</text><rect x=\"20\" y=\"140\" width=\"155\" height=\"30\" fill=\"var(--rose-soft)\"/><text x=\"97\" y=\"159\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--ink)\">endométrio proliferativo</text><rect x=\"175\" y=\"130\" width=\"155\" height=\"40\" fill=\"var(--rose)\" opacity=\".6\"/><text x=\"252\" y=\"154\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--ink)\">endométrio secretor</text></svg>",
+     "legenda": "Hormônios e endométrio ao longo do ciclo"
+    }
+   ],
+   "fonte": "Speroff — Endocrinologia Ginecológica Clínica e Infertilidade 9ª ed. / Guyton & Hall 14ª ed. / FEBRASGO — Tratado de Ginecologia",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "cmn-02",
+   "tipo": "flash",
+   "area": "Ginecologia",
+   "tema": "Endocrinologia ginecológica",
+   "sub": "Ciclo menstrual — fisiologia",
+   "frente": "O que dispara a ovulação?",
+   "verso": "**Pico de LH.**\n\nComo:\n- Estrogênio alto e sustentado → feedback positivo no eixo.\n- Ovulação ~24–36 h após o início do pico.",
+   "macete": "\"LH = Liberta o óvulo\".",
+   "pegadinha": "A fase de duração FIXA é a lútea (~14 dias); a folicular varia.",
+   "prio": "media",
+   "contexto": "**Ciclo menstrual = interação hipotálamo (GnRH) → hipófise (FSH/LH) → ovário (estrogênio/progesterona) → endométrio, com ovulação no meio do ciclo.**\n\nFase folicular (proliferativa no endométrio):\n- FSH recruta e faz crescer os folículos; o dominante produz **estrogênio**\n- Estrogênio → endométrio **proliferativo**; muco cervical fluido e filante\n- Estrogênio alto e mantido → feedback POSITIVO → **pico de LH**\n- Duração variável (é ela que muda o tamanho do ciclo)\n\nOvulação:\n- ~24–36 h após o início do pico de LH\n\nFase lútea (secretora no endométrio):\n- O folículo vira **corpo lúteo**, que secreta **PROGESTERONA** (e estrogênio)\n- Progesterona → endométrio **secretor**: maduro e estável, preparado para a implantação\n- Muco cervical espesso; temperatura basal sobe ~0,3–0,5 °C\n- Duração ~14 dias (fixa)\n- Sem gravidez → luteólise → queda da progesterona → descamação (menstruação)\n- Com gravidez → hCG mantém o corpo lúteo até a placenta assumir\n\nDicas:\n- Progesterona no 21º dia (ciclo de 28) confirma ovulação\n- Inibina B → folicular; inibina A → lútea\n- Estrogênio PROLIFERA (mitoses); progesterona DIFERENCIA (secreção)\n\nO que mais cai no Vila Verde:\n- VV 2025 → na fase lútea, a progesterona do corpo lúteo promove a maturação e estabilização do endométrio para a implantação; distratores dizem que a progesterona aumenta mitoses ou que é o estrogênio do corpo lúteo que estabiliza.",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 208\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><line x1=\"20\" y1=\"90\" x2=\"330\" y2=\"90\" stroke=\"var(--line)\"/><line x1=\"175\" y1=\"14\" x2=\"175\" y2=\"190\" stroke=\"var(--rose)\" stroke-dasharray=\"4 4\"/><text x=\"90\" y=\"14\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"600\" fill=\"var(--wine)\">Folicular</text><text x=\"255\" y=\"14\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"600\" fill=\"var(--wine)\">Lútea</text><text x=\"175\" y=\"200\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">ovulação (dia ~14)</text><path d=\"M20 80 C 80 78, 140 70, 165 30 C 170 20, 180 20, 185 70 C 200 85, 320 84, 330 82\" fill=\"none\" stroke=\"var(--bad)\" stroke-width=\"2\"/><text x=\"146\" y=\"34\" text-anchor=\"end\" font-size=\"9.5\" fill=\"var(--bad)\">pico de LH</text><path d=\"M20 78 C 100 70, 150 40, 168 46 C 185 60, 200 70, 240 58 C 280 52, 310 70, 330 80\" fill=\"none\" stroke=\"var(--ok)\" stroke-width=\"2\"/><text x=\"96\" y=\"64\" font-size=\"9.5\" fill=\"var(--ok)\">estrogênio</text><path d=\"M20 86 C 150 86, 180 84, 200 66 C 230 36, 280 40, 330 84\" fill=\"none\" stroke=\"var(--wine)\" stroke-width=\"2.4\"/><text x=\"252\" y=\"34\" font-size=\"9.5\" fill=\"var(--wine)\">progesterona</text><rect x=\"20\" y=\"140\" width=\"155\" height=\"30\" fill=\"var(--rose-soft)\"/><text x=\"97\" y=\"159\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--ink)\">endométrio proliferativo</text><rect x=\"175\" y=\"130\" width=\"155\" height=\"40\" fill=\"var(--rose)\" opacity=\".6\"/><text x=\"252\" y=\"154\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--ink)\">endométrio secretor</text></svg>",
+     "legenda": "Hormônios e endométrio ao longo do ciclo"
+    }
+   ],
+   "fonte": "Speroff — Endocrinologia Ginecológica Clínica e Infertilidade 9ª ed. / Guyton & Hall 14ª ed. / FEBRASGO — Tratado de Ginecologia",
+   "add": "2026-10-28",
+   "visual": {
+    "tipo": "fluxo",
+    "passos": [
+     "FSH → folículo dominante",
+     "Estrogênio alto e sustentado",
+     "Feedback positivo → pico de LH",
+     "Ovulação em 24–36 h"
+    ]
+   }
+  },
+  {
+   "id": "cmn-q1",
+   "tipo": "quiz",
+   "area": "Ginecologia",
+   "tema": "Endocrinologia ginecológica",
+   "sub": "Ciclo menstrual — fisiologia",
+   "frente": "Sobre as mudanças hormonais e endometriais da fase lútea, é CORRETO afirmar:",
+   "opcoes": [
+    "A progesterona aumenta a atividade mitótica do endométrio.",
+    "A progesterona é secretada pelo corpo lúteo e promove a maturação e a estabilização do endométrio para a implantação.",
+    "O estrogênio do corpo lúteo é o principal responsável por estabilizar o endométrio.",
+    "A ausência de progesterona mantém o endométrio estável."
+   ],
+   "certa": 1,
+   "comentarios": [
+    "Errada: é o estrogênio.",
+    "Correta.",
+    "Errada: é a progesterona.",
+    "Errada: a queda da progesterona leva à menstruação."
+   ],
+   "macete": "\"Progesterona Prepara\".",
+   "pegadinha": "Queda da progesterona = menstruação.",
+   "uerj": "VV 2025 (Q65, gabarito B).",
+   "prio": "media",
+   "contexto": "**Ciclo menstrual = interação hipotálamo (GnRH) → hipófise (FSH/LH) → ovário (estrogênio/progesterona) → endométrio, com ovulação no meio do ciclo.**\n\nFase folicular (proliferativa no endométrio):\n- FSH recruta e faz crescer os folículos; o dominante produz **estrogênio**\n- Estrogênio → endométrio **proliferativo**; muco cervical fluido e filante\n- Estrogênio alto e mantido → feedback POSITIVO → **pico de LH**\n- Duração variável (é ela que muda o tamanho do ciclo)\n\nOvulação:\n- ~24–36 h após o início do pico de LH\n\nFase lútea (secretora no endométrio):\n- O folículo vira **corpo lúteo**, que secreta **PROGESTERONA** (e estrogênio)\n- Progesterona → endométrio **secretor**: maduro e estável, preparado para a implantação\n- Muco cervical espesso; temperatura basal sobe ~0,3–0,5 °C\n- Duração ~14 dias (fixa)\n- Sem gravidez → luteólise → queda da progesterona → descamação (menstruação)\n- Com gravidez → hCG mantém o corpo lúteo até a placenta assumir\n\nDicas:\n- Progesterona no 21º dia (ciclo de 28) confirma ovulação\n- Inibina B → folicular; inibina A → lútea\n- Estrogênio PROLIFERA (mitoses); progesterona DIFERENCIA (secreção)\n\nO que mais cai no Vila Verde:\n- VV 2025 → na fase lútea, a progesterona do corpo lúteo promove a maturação e estabilização do endométrio para a implantação; distratores dizem que a progesterona aumenta mitoses ou que é o estrogênio do corpo lúteo que estabiliza.",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 208\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><line x1=\"20\" y1=\"90\" x2=\"330\" y2=\"90\" stroke=\"var(--line)\"/><line x1=\"175\" y1=\"14\" x2=\"175\" y2=\"190\" stroke=\"var(--rose)\" stroke-dasharray=\"4 4\"/><text x=\"90\" y=\"14\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"600\" fill=\"var(--wine)\">Folicular</text><text x=\"255\" y=\"14\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"600\" fill=\"var(--wine)\">Lútea</text><text x=\"175\" y=\"200\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">ovulação (dia ~14)</text><path d=\"M20 80 C 80 78, 140 70, 165 30 C 170 20, 180 20, 185 70 C 200 85, 320 84, 330 82\" fill=\"none\" stroke=\"var(--bad)\" stroke-width=\"2\"/><text x=\"146\" y=\"34\" text-anchor=\"end\" font-size=\"9.5\" fill=\"var(--bad)\">pico de LH</text><path d=\"M20 78 C 100 70, 150 40, 168 46 C 185 60, 200 70, 240 58 C 280 52, 310 70, 330 80\" fill=\"none\" stroke=\"var(--ok)\" stroke-width=\"2\"/><text x=\"96\" y=\"64\" font-size=\"9.5\" fill=\"var(--ok)\">estrogênio</text><path d=\"M20 86 C 150 86, 180 84, 200 66 C 230 36, 280 40, 330 84\" fill=\"none\" stroke=\"var(--wine)\" stroke-width=\"2.4\"/><text x=\"252\" y=\"34\" font-size=\"9.5\" fill=\"var(--wine)\">progesterona</text><rect x=\"20\" y=\"140\" width=\"155\" height=\"30\" fill=\"var(--rose-soft)\"/><text x=\"97\" y=\"159\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--ink)\">endométrio proliferativo</text><rect x=\"175\" y=\"130\" width=\"155\" height=\"40\" fill=\"var(--rose)\" opacity=\".6\"/><text x=\"252\" y=\"154\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--ink)\">endométrio secretor</text></svg>",
+     "legenda": "Hormônios e endométrio ao longo do ciclo"
+    }
+   ],
+   "fonte": "Speroff — Endocrinologia Ginecológica Clínica e Infertilidade 9ª ed. / Guyton & Hall 14ª ed. / FEBRASGO — Tratado de Ginecologia",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "cmn-d1",
+   "tipo": "digitar",
+   "area": "Ginecologia",
+   "tema": "Endocrinologia ginecológica",
+   "sub": "Ciclo menstrual — fisiologia",
+   "frente": "Qual hormônio predomina na fase lútea?",
+   "verso": "**Progesterona.**",
+   "resposta": "Progesterona",
+   "aceitas": [
+    "progesterona"
+   ],
+   "macete": "Lútea = Progesterona.",
+   "prio": "media",
+   "contexto": "**Ciclo menstrual = interação hipotálamo (GnRH) → hipófise (FSH/LH) → ovário (estrogênio/progesterona) → endométrio, com ovulação no meio do ciclo.**\n\nFase folicular (proliferativa no endométrio):\n- FSH recruta e faz crescer os folículos; o dominante produz **estrogênio**\n- Estrogênio → endométrio **proliferativo**; muco cervical fluido e filante\n- Estrogênio alto e mantido → feedback POSITIVO → **pico de LH**\n- Duração variável (é ela que muda o tamanho do ciclo)\n\nOvulação:\n- ~24–36 h após o início do pico de LH\n\nFase lútea (secretora no endométrio):\n- O folículo vira **corpo lúteo**, que secreta **PROGESTERONA** (e estrogênio)\n- Progesterona → endométrio **secretor**: maduro e estável, preparado para a implantação\n- Muco cervical espesso; temperatura basal sobe ~0,3–0,5 °C\n- Duração ~14 dias (fixa)\n- Sem gravidez → luteólise → queda da progesterona → descamação (menstruação)\n- Com gravidez → hCG mantém o corpo lúteo até a placenta assumir\n\nDicas:\n- Progesterona no 21º dia (ciclo de 28) confirma ovulação\n- Inibina B → folicular; inibina A → lútea\n- Estrogênio PROLIFERA (mitoses); progesterona DIFERENCIA (secreção)\n\nO que mais cai no Vila Verde:\n- VV 2025 → na fase lútea, a progesterona do corpo lúteo promove a maturação e estabilização do endométrio para a implantação; distratores dizem que a progesterona aumenta mitoses ou que é o estrogênio do corpo lúteo que estabiliza.",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 208\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><line x1=\"20\" y1=\"90\" x2=\"330\" y2=\"90\" stroke=\"var(--line)\"/><line x1=\"175\" y1=\"14\" x2=\"175\" y2=\"190\" stroke=\"var(--rose)\" stroke-dasharray=\"4 4\"/><text x=\"90\" y=\"14\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"600\" fill=\"var(--wine)\">Folicular</text><text x=\"255\" y=\"14\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"600\" fill=\"var(--wine)\">Lútea</text><text x=\"175\" y=\"200\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">ovulação (dia ~14)</text><path d=\"M20 80 C 80 78, 140 70, 165 30 C 170 20, 180 20, 185 70 C 200 85, 320 84, 330 82\" fill=\"none\" stroke=\"var(--bad)\" stroke-width=\"2\"/><text x=\"146\" y=\"34\" text-anchor=\"end\" font-size=\"9.5\" fill=\"var(--bad)\">pico de LH</text><path d=\"M20 78 C 100 70, 150 40, 168 46 C 185 60, 200 70, 240 58 C 280 52, 310 70, 330 80\" fill=\"none\" stroke=\"var(--ok)\" stroke-width=\"2\"/><text x=\"96\" y=\"64\" font-size=\"9.5\" fill=\"var(--ok)\">estrogênio</text><path d=\"M20 86 C 150 86, 180 84, 200 66 C 230 36, 280 40, 330 84\" fill=\"none\" stroke=\"var(--wine)\" stroke-width=\"2.4\"/><text x=\"252\" y=\"34\" font-size=\"9.5\" fill=\"var(--wine)\">progesterona</text><rect x=\"20\" y=\"140\" width=\"155\" height=\"30\" fill=\"var(--rose-soft)\"/><text x=\"97\" y=\"159\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--ink)\">endométrio proliferativo</text><rect x=\"175\" y=\"130\" width=\"155\" height=\"40\" fill=\"var(--rose)\" opacity=\".6\"/><text x=\"252\" y=\"154\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--ink)\">endométrio secretor</text></svg>",
+     "legenda": "Hormônios e endométrio ao longo do ciclo"
+    }
+   ],
+   "fonte": "Speroff — Endocrinologia Ginecológica Clínica e Infertilidade 9ª ed. / Guyton & Hall 14ª ed. / FEBRASGO — Tratado de Ginecologia",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "cmn-d2",
+   "tipo": "digitar",
+   "area": "Ginecologia",
+   "tema": "Endocrinologia ginecológica",
+   "sub": "Ciclo menstrual — fisiologia",
+   "frente": "Qual dosagem confirma a ovulação em ciclo de 28 dias?",
+   "verso": "**Progesterona no 21º dia.**",
+   "resposta": "Progesterona",
+   "aceitas": [
+    "progesterona sérica",
+    "progesterona no 21º dia",
+    "progesterona dia 21",
+    "progesterona"
+   ],
+   "macete": "\"Dia 21, Progesterona\".",
+   "prio": "media",
+   "contexto": "**Ciclo menstrual = interação hipotálamo (GnRH) → hipófise (FSH/LH) → ovário (estrogênio/progesterona) → endométrio, com ovulação no meio do ciclo.**\n\nFase folicular (proliferativa no endométrio):\n- FSH recruta e faz crescer os folículos; o dominante produz **estrogênio**\n- Estrogênio → endométrio **proliferativo**; muco cervical fluido e filante\n- Estrogênio alto e mantido → feedback POSITIVO → **pico de LH**\n- Duração variável (é ela que muda o tamanho do ciclo)\n\nOvulação:\n- ~24–36 h após o início do pico de LH\n\nFase lútea (secretora no endométrio):\n- O folículo vira **corpo lúteo**, que secreta **PROGESTERONA** (e estrogênio)\n- Progesterona → endométrio **secretor**: maduro e estável, preparado para a implantação\n- Muco cervical espesso; temperatura basal sobe ~0,3–0,5 °C\n- Duração ~14 dias (fixa)\n- Sem gravidez → luteólise → queda da progesterona → descamação (menstruação)\n- Com gravidez → hCG mantém o corpo lúteo até a placenta assumir\n\nDicas:\n- Progesterona no 21º dia (ciclo de 28) confirma ovulação\n- Inibina B → folicular; inibina A → lútea\n- Estrogênio PROLIFERA (mitoses); progesterona DIFERENCIA (secreção)\n\nO que mais cai no Vila Verde:\n- VV 2025 → na fase lútea, a progesterona do corpo lúteo promove a maturação e estabilização do endométrio para a implantação; distratores dizem que a progesterona aumenta mitoses ou que é o estrogênio do corpo lúteo que estabiliza.",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 208\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><line x1=\"20\" y1=\"90\" x2=\"330\" y2=\"90\" stroke=\"var(--line)\"/><line x1=\"175\" y1=\"14\" x2=\"175\" y2=\"190\" stroke=\"var(--rose)\" stroke-dasharray=\"4 4\"/><text x=\"90\" y=\"14\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"600\" fill=\"var(--wine)\">Folicular</text><text x=\"255\" y=\"14\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"600\" fill=\"var(--wine)\">Lútea</text><text x=\"175\" y=\"200\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">ovulação (dia ~14)</text><path d=\"M20 80 C 80 78, 140 70, 165 30 C 170 20, 180 20, 185 70 C 200 85, 320 84, 330 82\" fill=\"none\" stroke=\"var(--bad)\" stroke-width=\"2\"/><text x=\"146\" y=\"34\" text-anchor=\"end\" font-size=\"9.5\" fill=\"var(--bad)\">pico de LH</text><path d=\"M20 78 C 100 70, 150 40, 168 46 C 185 60, 200 70, 240 58 C 280 52, 310 70, 330 80\" fill=\"none\" stroke=\"var(--ok)\" stroke-width=\"2\"/><text x=\"96\" y=\"64\" font-size=\"9.5\" fill=\"var(--ok)\">estrogênio</text><path d=\"M20 86 C 150 86, 180 84, 200 66 C 230 36, 280 40, 330 84\" fill=\"none\" stroke=\"var(--wine)\" stroke-width=\"2.4\"/><text x=\"252\" y=\"34\" font-size=\"9.5\" fill=\"var(--wine)\">progesterona</text><rect x=\"20\" y=\"140\" width=\"155\" height=\"30\" fill=\"var(--rose-soft)\"/><text x=\"97\" y=\"159\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--ink)\">endométrio proliferativo</text><rect x=\"175\" y=\"130\" width=\"155\" height=\"40\" fill=\"var(--rose)\" opacity=\".6\"/><text x=\"252\" y=\"154\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--ink)\">endométrio secretor</text></svg>",
+     "legenda": "Hormônios e endométrio ao longo do ciclo"
+    }
+   ],
+   "fonte": "Speroff — Endocrinologia Ginecológica Clínica e Infertilidade 9ª ed. / Guyton & Hall 14ª ed. / FEBRASGO — Tratado de Ginecologia",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "pdt-01",
+   "tipo": "flash",
+   "area": "Obstetrícia",
+   "tema": "Parto e puerpério",
+   "sub": "Gestação prolongada (pós-datismo)",
+   "frente": "Gestação de risco habitual com 40 semanas sem trabalho de parto: conduta (MS)",
+   "verso": "**Vigiar a vitalidade e induzir com 41 semanas.**\n\nVigilância:\n- CTG + líquido amniótico ~2×/semana a partir de 40 semanas.\n\nAntecipar a indução:\n- Oligoidrâmnio ou vitalidade alterada.",
+   "macete": "\"40 vigia, 41 induz, 42 não espera\".",
+   "visual": {
+    "tipo": "fluxo",
+    "passos": [
+     "40 semanas",
+     "Vitalidade (CTG + ILA) 2×/semana",
+     "41 semanas sem TP",
+     "Indução (Bishop decide o método)"
+    ]
+   },
+   "pegadinha": "Indução \"imediata com 40 semanas para todas\" é distrator.",
+   "uerj": "VV 2025: MS acompanha até 41 semanas e induz (gabarito C).",
+   "prio": "alta",
+   "contexto": "**Gestação prolongada = gestação que passa de 40 semanas (pós-datismo) ou chega a 42 (pós-termo); aumenta oligoidrâmnio, mecônio, macrossomia e óbito fetal.**\n\nDefinições:\n- Termo → 37 a 41+6 semanas\n- **Pós-datismo** → ≥ 40 semanas\n- **Pós-termo** → ≥ 42 semanas\n- Datação correta pela USG do 1º trimestre reduz o falso diagnóstico\n\nRiscos:\n- Oligoidrâmnio, líquido meconial, macrossomia (distocia), sofrimento fetal, óbito fetal\n\nConduta (Ministério da Saúde):\n- A partir de 40 semanas → avaliação da vitalidade fetal (CTG + líquido amniótico, cerca de 2×/semana)\n- **Indução do parto a partir de 41 semanas** se não entrar em trabalho de parto (antes, se vitalidade alterada ou oligoidrâmnio)\n- ACOG → indução entre 41 e 42 semanas\n\nIndução do parto:\n- Avaliar o colo pelo **índice de Bishop**\n- Colo desfavorável → preparo com misoprostol vaginal (25 mcg) ou sonda de Foley\n- Colo favorável → ocitocina ± amniotomia\n\nO que mais cai no Vila Verde:\n- VV 2025 → MS: gestação de risco habitual acompanhada até 41 semanas, com indução se não houver trabalho de parto espontâneo.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "Índice de Bishop",
+      "0 ponto",
+      "1 ponto",
+      "2 pontos",
+      "3 pontos"
+     ],
+     "linhas": [
+      [
+       "Dilatação (cm)",
+       "0",
+       "1–2",
+       "3–4",
+       "≥ 5"
+      ],
+      [
+       "Apagamento",
+       "0–30%",
+       "40–50%",
+       "60–70%",
+       "≥ 80%"
+      ],
+      [
+       "Altura (De Lee)",
+       "−3",
+       "−2",
+       "−1 / 0",
+       "+1 / +2"
+      ],
+      [
+       "Consistência",
+       "Firme",
+       "Média",
+       "Amolecida",
+       "—"
+      ],
+      [
+       "Posição",
+       "Posterior",
+       "Intermediária",
+       "Anterior",
+       "—"
+      ],
+      [
+       "Total (0–13)",
+       "< 6 → colo desfavorável: preparar (misoprostol/Foley)",
+       "",
+       "≥ 6 → favorável: ocitocina",
+       ""
+      ]
+     ]
+    }
+   ],
+   "fonte": "MS — Manual de Gestação de Alto Risco (2022) e Diretrizes Nacionais de Assistência ao Parto Normal (2017) / ACOG Practice Bulletin 146 (2014, reafirmado) / FEBRASGO — Indução do parto",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "pdt-02",
+   "tipo": "flash",
+   "area": "Obstetrícia",
+   "tema": "Parto e puerpério",
+   "sub": "Gestação prolongada (pós-datismo)",
+   "frente": "Índice de Bishop: o que avalia e como usar",
+   "verso": "**Avalia o colo para a indução.**\n**< 6 → preparar o colo (misoprostol/Foley).**\n**≥ 6 → ocitocina.**\n\nTotal (0–13 pontos):\n- < 6 → colo desfavorável.\n- ≥ 6 → colo favorável.",
+   "macete": "Bishop = \"DAACP\": Dilatação, Apagamento, Altura, Consistência, Posição.",
+   "pegadinha": "Misoprostol é contraindicado com cicatriz uterina (risco de rotura).",
+   "prio": "media",
+   "contexto": "**Gestação prolongada = gestação que passa de 40 semanas (pós-datismo) ou chega a 42 (pós-termo); aumenta oligoidrâmnio, mecônio, macrossomia e óbito fetal.**\n\nDefinições:\n- Termo → 37 a 41+6 semanas\n- **Pós-datismo** → ≥ 40 semanas\n- **Pós-termo** → ≥ 42 semanas\n- Datação correta pela USG do 1º trimestre reduz o falso diagnóstico\n\nRiscos:\n- Oligoidrâmnio, líquido meconial, macrossomia (distocia), sofrimento fetal, óbito fetal\n\nConduta (Ministério da Saúde):\n- A partir de 40 semanas → avaliação da vitalidade fetal (CTG + líquido amniótico, cerca de 2×/semana)\n- **Indução do parto a partir de 41 semanas** se não entrar em trabalho de parto (antes, se vitalidade alterada ou oligoidrâmnio)\n- ACOG → indução entre 41 e 42 semanas\n\nIndução do parto:\n- Avaliar o colo pelo **índice de Bishop**\n- Colo desfavorável → preparo com misoprostol vaginal (25 mcg) ou sonda de Foley\n- Colo favorável → ocitocina ± amniotomia\n\nO que mais cai no Vila Verde:\n- VV 2025 → MS: gestação de risco habitual acompanhada até 41 semanas, com indução se não houver trabalho de parto espontâneo.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "Índice de Bishop",
+      "0 ponto",
+      "1 ponto",
+      "2 pontos",
+      "3 pontos"
+     ],
+     "linhas": [
+      [
+       "Dilatação (cm)",
+       "0",
+       "1–2",
+       "3–4",
+       "≥ 5"
+      ],
+      [
+       "Apagamento",
+       "0–30%",
+       "40–50%",
+       "60–70%",
+       "≥ 80%"
+      ],
+      [
+       "Altura (De Lee)",
+       "−3",
+       "−2",
+       "−1 / 0",
+       "+1 / +2"
+      ],
+      [
+       "Consistência",
+       "Firme",
+       "Média",
+       "Amolecida",
+       "—"
+      ],
+      [
+       "Posição",
+       "Posterior",
+       "Intermediária",
+       "Anterior",
+       "—"
+      ],
+      [
+       "Total (0–13)",
+       "< 6 → colo desfavorável: preparar (misoprostol/Foley)",
+       "",
+       "≥ 6 → favorável: ocitocina",
+       ""
+      ]
+     ]
+    }
+   ],
+   "fonte": "MS — Manual de Gestação de Alto Risco (2022) e Diretrizes Nacionais de Assistência ao Parto Normal (2017) / ACOG Practice Bulletin 146 (2014, reafirmado) / FEBRASGO — Indução do parto",
+   "add": "2026-10-28",
+   "visual": {
+    "tipo": "tabela",
+    "cab": [
+     "Item (Bishop)",
+     "0",
+     "1",
+     "2",
+     "3 pontos"
+    ],
+    "linhas": [
+     [
+      "Dilatação (cm)",
+      "0",
+      "1–2",
+      "3–4",
+      "≥ 5"
+     ],
+     [
+      "Apagamento",
+      "0–30%",
+      "40–50%",
+      "60–70%",
+      "≥ 80%"
+     ],
+     [
+      "Altura (De Lee)",
+      "−3",
+      "−2",
+      "−1/0",
+      "+1/+2"
+     ],
+     [
+      "Consistência",
+      "Firme",
+      "Média",
+      "Amolecida",
+      "—"
+     ],
+     [
+      "Posição",
+      "Posterior",
+      "Intermediária",
+      "Anterior",
+      "—"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "pdt-q1",
+   "tipo": "quiz",
+   "area": "Obstetrícia",
+   "tema": "Parto e puerpério",
+   "sub": "Gestação prolongada (pós-datismo)",
+   "frente": "Sobre o manejo das gestações que ultrapassam 40 semanas, é CORRETO afirmar:",
+   "opcoes": [
+    "O acompanhamento deve ser semanal até 42 semanas, sem avaliações adicionais.",
+    "O ACOG recomenda induzir com 40 semanas, independentemente da clínica.",
+    "O MS recomenda acompanhar até 41 semanas e induzir se não ocorrer trabalho de parto.",
+    "A indução está indicada logo após 40 semanas em todas."
+   ],
+   "certa": 2,
+   "comentarios": [
+    "Errada.",
+    "Errada: 41–42 semanas.",
+    "Correta.",
+    "Errada."
+   ],
+   "macete": "\"40 vigia, 41 induz\".",
+   "pegadinha": "Esperar até 42 aumenta o risco de óbito fetal.",
+   "uerj": "VV 2025 (Q75, gabarito C).",
+   "prio": "media",
+   "contexto": "**Gestação prolongada = gestação que passa de 40 semanas (pós-datismo) ou chega a 42 (pós-termo); aumenta oligoidrâmnio, mecônio, macrossomia e óbito fetal.**\n\nDefinições:\n- Termo → 37 a 41+6 semanas\n- **Pós-datismo** → ≥ 40 semanas\n- **Pós-termo** → ≥ 42 semanas\n- Datação correta pela USG do 1º trimestre reduz o falso diagnóstico\n\nRiscos:\n- Oligoidrâmnio, líquido meconial, macrossomia (distocia), sofrimento fetal, óbito fetal\n\nConduta (Ministério da Saúde):\n- A partir de 40 semanas → avaliação da vitalidade fetal (CTG + líquido amniótico, cerca de 2×/semana)\n- **Indução do parto a partir de 41 semanas** se não entrar em trabalho de parto (antes, se vitalidade alterada ou oligoidrâmnio)\n- ACOG → indução entre 41 e 42 semanas\n\nIndução do parto:\n- Avaliar o colo pelo **índice de Bishop**\n- Colo desfavorável → preparo com misoprostol vaginal (25 mcg) ou sonda de Foley\n- Colo favorável → ocitocina ± amniotomia\n\nO que mais cai no Vila Verde:\n- VV 2025 → MS: gestação de risco habitual acompanhada até 41 semanas, com indução se não houver trabalho de parto espontâneo.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "Índice de Bishop",
+      "0 ponto",
+      "1 ponto",
+      "2 pontos",
+      "3 pontos"
+     ],
+     "linhas": [
+      [
+       "Dilatação (cm)",
+       "0",
+       "1–2",
+       "3–4",
+       "≥ 5"
+      ],
+      [
+       "Apagamento",
+       "0–30%",
+       "40–50%",
+       "60–70%",
+       "≥ 80%"
+      ],
+      [
+       "Altura (De Lee)",
+       "−3",
+       "−2",
+       "−1 / 0",
+       "+1 / +2"
+      ],
+      [
+       "Consistência",
+       "Firme",
+       "Média",
+       "Amolecida",
+       "—"
+      ],
+      [
+       "Posição",
+       "Posterior",
+       "Intermediária",
+       "Anterior",
+       "—"
+      ],
+      [
+       "Total (0–13)",
+       "< 6 → colo desfavorável: preparar (misoprostol/Foley)",
+       "",
+       "≥ 6 → favorável: ocitocina",
+       ""
+      ]
+     ]
+    }
+   ],
+   "fonte": "MS — Manual de Gestação de Alto Risco (2022) e Diretrizes Nacionais de Assistência ao Parto Normal (2017) / ACOG Practice Bulletin 146 (2014, reafirmado) / FEBRASGO — Indução do parto",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "pdt-d1",
+   "tipo": "digitar",
+   "area": "Obstetrícia",
+   "tema": "Parto e puerpério",
+   "sub": "Gestação prolongada (pós-datismo)",
+   "frente": "Com quantas semanas o MS recomenda induzir o parto no pós-datismo de risco habitual?",
+   "verso": "**41 semanas.**",
+   "resposta": "41 semanas",
+   "aceitas": [
+    "41",
+    "41 sem",
+    "quarenta e uma"
+   ],
+   "macete": "\"41 induz\".",
+   "prio": "alta",
+   "contexto": "**Gestação prolongada = gestação que passa de 40 semanas (pós-datismo) ou chega a 42 (pós-termo); aumenta oligoidrâmnio, mecônio, macrossomia e óbito fetal.**\n\nDefinições:\n- Termo → 37 a 41+6 semanas\n- **Pós-datismo** → ≥ 40 semanas\n- **Pós-termo** → ≥ 42 semanas\n- Datação correta pela USG do 1º trimestre reduz o falso diagnóstico\n\nRiscos:\n- Oligoidrâmnio, líquido meconial, macrossomia (distocia), sofrimento fetal, óbito fetal\n\nConduta (Ministério da Saúde):\n- A partir de 40 semanas → avaliação da vitalidade fetal (CTG + líquido amniótico, cerca de 2×/semana)\n- **Indução do parto a partir de 41 semanas** se não entrar em trabalho de parto (antes, se vitalidade alterada ou oligoidrâmnio)\n- ACOG → indução entre 41 e 42 semanas\n\nIndução do parto:\n- Avaliar o colo pelo **índice de Bishop**\n- Colo desfavorável → preparo com misoprostol vaginal (25 mcg) ou sonda de Foley\n- Colo favorável → ocitocina ± amniotomia\n\nO que mais cai no Vila Verde:\n- VV 2025 → MS: gestação de risco habitual acompanhada até 41 semanas, com indução se não houver trabalho de parto espontâneo.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "Índice de Bishop",
+      "0 ponto",
+      "1 ponto",
+      "2 pontos",
+      "3 pontos"
+     ],
+     "linhas": [
+      [
+       "Dilatação (cm)",
+       "0",
+       "1–2",
+       "3–4",
+       "≥ 5"
+      ],
+      [
+       "Apagamento",
+       "0–30%",
+       "40–50%",
+       "60–70%",
+       "≥ 80%"
+      ],
+      [
+       "Altura (De Lee)",
+       "−3",
+       "−2",
+       "−1 / 0",
+       "+1 / +2"
+      ],
+      [
+       "Consistência",
+       "Firme",
+       "Média",
+       "Amolecida",
+       "—"
+      ],
+      [
+       "Posição",
+       "Posterior",
+       "Intermediária",
+       "Anterior",
+       "—"
+      ],
+      [
+       "Total (0–13)",
+       "< 6 → colo desfavorável: preparar (misoprostol/Foley)",
+       "",
+       "≥ 6 → favorável: ocitocina",
+       ""
+      ]
+     ]
+    }
+   ],
+   "fonte": "MS — Manual de Gestação de Alto Risco (2022) e Diretrizes Nacionais de Assistência ao Parto Normal (2017) / ACOG Practice Bulletin 146 (2014, reafirmado) / FEBRASGO — Indução do parto",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "pdt-d2",
+   "tipo": "digitar",
+   "area": "Obstetrícia",
+   "tema": "Parto e puerpério",
+   "sub": "Gestação prolongada (pós-datismo)",
+   "frente": "A partir de quantas semanas a gestação é pós-termo?",
+   "verso": "**42 semanas.**",
+   "resposta": "42 semanas",
+   "aceitas": [
+    "42",
+    "42 sem"
+   ],
+   "macete": "Pós-termo = 42.",
+   "prio": "media",
+   "contexto": "**Gestação prolongada = gestação que passa de 40 semanas (pós-datismo) ou chega a 42 (pós-termo); aumenta oligoidrâmnio, mecônio, macrossomia e óbito fetal.**\n\nDefinições:\n- Termo → 37 a 41+6 semanas\n- **Pós-datismo** → ≥ 40 semanas\n- **Pós-termo** → ≥ 42 semanas\n- Datação correta pela USG do 1º trimestre reduz o falso diagnóstico\n\nRiscos:\n- Oligoidrâmnio, líquido meconial, macrossomia (distocia), sofrimento fetal, óbito fetal\n\nConduta (Ministério da Saúde):\n- A partir de 40 semanas → avaliação da vitalidade fetal (CTG + líquido amniótico, cerca de 2×/semana)\n- **Indução do parto a partir de 41 semanas** se não entrar em trabalho de parto (antes, se vitalidade alterada ou oligoidrâmnio)\n- ACOG → indução entre 41 e 42 semanas\n\nIndução do parto:\n- Avaliar o colo pelo **índice de Bishop**\n- Colo desfavorável → preparo com misoprostol vaginal (25 mcg) ou sonda de Foley\n- Colo favorável → ocitocina ± amniotomia\n\nO que mais cai no Vila Verde:\n- VV 2025 → MS: gestação de risco habitual acompanhada até 41 semanas, com indução se não houver trabalho de parto espontâneo.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "Índice de Bishop",
+      "0 ponto",
+      "1 ponto",
+      "2 pontos",
+      "3 pontos"
+     ],
+     "linhas": [
+      [
+       "Dilatação (cm)",
+       "0",
+       "1–2",
+       "3–4",
+       "≥ 5"
+      ],
+      [
+       "Apagamento",
+       "0–30%",
+       "40–50%",
+       "60–70%",
+       "≥ 80%"
+      ],
+      [
+       "Altura (De Lee)",
+       "−3",
+       "−2",
+       "−1 / 0",
+       "+1 / +2"
+      ],
+      [
+       "Consistência",
+       "Firme",
+       "Média",
+       "Amolecida",
+       "—"
+      ],
+      [
+       "Posição",
+       "Posterior",
+       "Intermediária",
+       "Anterior",
+       "—"
+      ],
+      [
+       "Total (0–13)",
+       "< 6 → colo desfavorável: preparar (misoprostol/Foley)",
+       "",
+       "≥ 6 → favorável: ocitocina",
+       ""
+      ]
+     ]
+    }
+   ],
+   "fonte": "MS — Manual de Gestação de Alto Risco (2022) e Diretrizes Nacionais de Assistência ao Parto Normal (2017) / ACOG Practice Bulletin 146 (2014, reafirmado) / FEBRASGO — Indução do parto",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "hpp-01",
+   "tipo": "flash",
+   "area": "Obstetrícia",
+   "tema": "Parto e puerpério",
+   "sub": "Hemorragia pós-parto",
+   "frente": "Qual a principal medida de prevenção da hemorragia pós-parto?",
+   "verso": "**Ocitocina 10 UI IM logo após o nascimento (todas).**\n\nJunto:\n- Tração controlada do cordão.\n- Massagem e vigilância uterina por 2 h.",
+   "macete": "\"Nasceu, 10 de ocitocina no músculo\".",
+   "visual": {
+    "tipo": "lista",
+    "itens": [
+     "!Ocitocina 10 UI IM após o nascimento",
+     "Tração controlada do cordão",
+     "Clampeamento oportuno (1–3 min)",
+     "Vigiar o útero por 2 h"
+    ]
+   },
+   "pegadinha": "Tração VIGOROSA do cordão é errada (risco de inversão uterina).",
+   "uerj": "VV 2025: ocitocina 10 UI IM universal reduz > 50% (gabarito B).",
+   "prio": "alta",
+   "contexto": "**Hemorragia pós-parto (HPP) = perda ≥ 500 mL após parto vaginal ou ≥ 1.000 mL após cesárea (ou qualquer perda com instabilidade); uma das maiores causas de morte materna.**\n\nCausas — os 4 T:\n- **Tônus** → atonia uterina (~70%, a principal)\n- **Trauma** → lacerações, hematomas, rotura, inversão uterina\n- **Tecido** → retenção de placenta/restos, acretismo\n- **Trombina** → coagulopatia\n\nFatores de risco:\n- Gemelar, macrossomia, polidrâmnio (útero muito distendido), trabalho de parto prolongado ou muito rápido, corioamnionite, HPP prévia, uso prolongado de ocitocina\n\nPrevenção (manejo ativo do 3º período):\n- **Ocitocina 10 UI IM logo após o nascimento para TODAS** → reduz a HPP em mais de 50%\n- Tração CONTROLADA do cordão (não vigorosa), por profissional treinado\n- Clampeamento oportuno do cordão (1–3 min)\n- **Vigilância e massagem uterina após a dequitação** (primeiras 2 h)\n\nTratamento (\"hora de ouro\"):\n- Chamar ajuda, 2 acessos calibrosos, cristaloide aquecido, monitorizar; índice de choque (FC/PAS) ≥ 0,9 → pensar em transfusão\n- Massagem uterina bimanual + **ocitocina EV**\n- **Ácido tranexâmico 1 g EV** (até 3 h do parto)\n- Metilergometrina IM (evitar em hipertensa) e misoprostol\n- Balão de tamponamento intrauterino; traje antichoque não pneumático\n- Cirurgia → suturas compressivas (B-Lynch), ligaduras arteriais, histerectomia\n\nO que mais cai no Vila Verde:\n- VV 2025 → ocitocina 10 UI IM universal reduz HPP em mais de 50%; distratores: tração vigorosa do cordão, ocitocina contraindicada no 3º período, vigilância uterina sem impacto.",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 174\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><rect x=\"10\" y=\"8\" width=\"155\" height=\"56\" rx=\"9\" fill=\"var(--wine)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"87.5\" y=\"35.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--card)\">Tônus</text><text x=\"87.5\" y=\"47.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--card)\">atonia (~70%)</text><rect x=\"175\" y=\"8\" width=\"155\" height=\"56\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"252.5\" y=\"35.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Trauma</text><text x=\"252.5\" y=\"47.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">lacerações, rotura, inversão</text><rect x=\"10\" y=\"72\" width=\"155\" height=\"56\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"87.5\" y=\"99.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Tecido</text><text x=\"87.5\" y=\"111.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">restos, acretismo</text><rect x=\"175\" y=\"72\" width=\"155\" height=\"56\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"252.5\" y=\"99.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Trombina</text><text x=\"252.5\" y=\"111.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">coagulopatia</text><text x=\"170\" y=\"150\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"600\" fill=\"var(--wine)\">Prevenção: ocitocina 10 UI IM em TODAS</text><text x=\"170\" y=\"166\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--mute)\">Tratamento: massagem + ocitocina EV + ácido tranexâmico</text></svg>",
+     "legenda": "Os 4 T da hemorragia pós-parto"
+    }
+   ],
+   "fonte": "OPAS/MS — Recomendações assistenciais para prevenção, diagnóstico e tratamento da HPP (2018) / OMS — Recommendations on prevention and treatment of PPH (2023) / WOMAN trial (Lancet 2017)",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "hpp-02",
+   "tipo": "flash",
+   "area": "Obstetrícia",
+   "tema": "Parto e puerpério",
+   "sub": "Hemorragia pós-parto",
+   "frente": "HPP por atonia: sequência de tratamento",
+   "verso": "**Massagem bimanual + ocitocina EV.**\n**Ácido tranexâmico 1 g EV em até 3 h.**\n\nSe persistir:\n- Metilergometrina (não na hipertensa) ou misoprostol.\n- Balão de tamponamento.\n- Cirurgia (B-Lynch, ligaduras, histerectomia).",
+   "macete": "Atonia: \"Aperta, Ocitocina, Tranexâmico, Tampona, Opera\".",
+   "visual": {
+    "tipo": "fluxo",
+    "passos": [
+     "Massagem bimanual",
+     "Ocitocina EV + ácido tranexâmico",
+     "Metilergometrina / misoprostol",
+     "Balão de tamponamento",
+     "Cirurgia"
+    ]
+   },
+   "pegadinha": "Metilergometrina é contraindicada na hipertensão/pré-eclâmpsia.",
+   "prio": "alta",
+   "contexto": "**Hemorragia pós-parto (HPP) = perda ≥ 500 mL após parto vaginal ou ≥ 1.000 mL após cesárea (ou qualquer perda com instabilidade); uma das maiores causas de morte materna.**\n\nCausas — os 4 T:\n- **Tônus** → atonia uterina (~70%, a principal)\n- **Trauma** → lacerações, hematomas, rotura, inversão uterina\n- **Tecido** → retenção de placenta/restos, acretismo\n- **Trombina** → coagulopatia\n\nFatores de risco:\n- Gemelar, macrossomia, polidrâmnio (útero muito distendido), trabalho de parto prolongado ou muito rápido, corioamnionite, HPP prévia, uso prolongado de ocitocina\n\nPrevenção (manejo ativo do 3º período):\n- **Ocitocina 10 UI IM logo após o nascimento para TODAS** → reduz a HPP em mais de 50%\n- Tração CONTROLADA do cordão (não vigorosa), por profissional treinado\n- Clampeamento oportuno do cordão (1–3 min)\n- **Vigilância e massagem uterina após a dequitação** (primeiras 2 h)\n\nTratamento (\"hora de ouro\"):\n- Chamar ajuda, 2 acessos calibrosos, cristaloide aquecido, monitorizar; índice de choque (FC/PAS) ≥ 0,9 → pensar em transfusão\n- Massagem uterina bimanual + **ocitocina EV**\n- **Ácido tranexâmico 1 g EV** (até 3 h do parto)\n- Metilergometrina IM (evitar em hipertensa) e misoprostol\n- Balão de tamponamento intrauterino; traje antichoque não pneumático\n- Cirurgia → suturas compressivas (B-Lynch), ligaduras arteriais, histerectomia\n\nO que mais cai no Vila Verde:\n- VV 2025 → ocitocina 10 UI IM universal reduz HPP em mais de 50%; distratores: tração vigorosa do cordão, ocitocina contraindicada no 3º período, vigilância uterina sem impacto.",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 174\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><rect x=\"10\" y=\"8\" width=\"155\" height=\"56\" rx=\"9\" fill=\"var(--wine)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"87.5\" y=\"35.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--card)\">Tônus</text><text x=\"87.5\" y=\"47.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--card)\">atonia (~70%)</text><rect x=\"175\" y=\"8\" width=\"155\" height=\"56\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"252.5\" y=\"35.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Trauma</text><text x=\"252.5\" y=\"47.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">lacerações, rotura, inversão</text><rect x=\"10\" y=\"72\" width=\"155\" height=\"56\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"87.5\" y=\"99.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Tecido</text><text x=\"87.5\" y=\"111.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">restos, acretismo</text><rect x=\"175\" y=\"72\" width=\"155\" height=\"56\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"252.5\" y=\"99.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Trombina</text><text x=\"252.5\" y=\"111.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">coagulopatia</text><text x=\"170\" y=\"150\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"600\" fill=\"var(--wine)\">Prevenção: ocitocina 10 UI IM em TODAS</text><text x=\"170\" y=\"166\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--mute)\">Tratamento: massagem + ocitocina EV + ácido tranexâmico</text></svg>",
+     "legenda": "Os 4 T da hemorragia pós-parto"
+    }
+   ],
+   "fonte": "OPAS/MS — Recomendações assistenciais para prevenção, diagnóstico e tratamento da HPP (2018) / OMS — Recommendations on prevention and treatment of PPH (2023) / WOMAN trial (Lancet 2017)",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "hpp-q1",
+   "tipo": "quiz",
+   "area": "Obstetrícia",
+   "tema": "Parto e puerpério",
+   "sub": "Hemorragia pós-parto",
+   "frente": "Sobre a prevenção da hemorragia pós-parto, é CORRETO afirmar:",
+   "opcoes": [
+    "A tração imediata e vigorosa do cordão é recomendada.",
+    "O uso universal de ocitocina 10 UI IM após o nascimento reduz em mais de 50% os casos.",
+    "A ocitocina é contraindicada no terceiro período.",
+    "A vigilância do útero após a dequitação não tem impacto."
+   ],
+   "certa": 1,
+   "comentarios": [
+    "Errada.",
+    "Correta.",
+    "Errada.",
+    "Errada."
+   ],
+   "macete": "\"10 de ocitocina para todas\".",
+   "pegadinha": "Ocitocina é o pilar do manejo ativo.",
+   "uerj": "VV 2025 (Q78, gabarito B).",
+   "prio": "alta",
+   "contexto": "**Hemorragia pós-parto (HPP) = perda ≥ 500 mL após parto vaginal ou ≥ 1.000 mL após cesárea (ou qualquer perda com instabilidade); uma das maiores causas de morte materna.**\n\nCausas — os 4 T:\n- **Tônus** → atonia uterina (~70%, a principal)\n- **Trauma** → lacerações, hematomas, rotura, inversão uterina\n- **Tecido** → retenção de placenta/restos, acretismo\n- **Trombina** → coagulopatia\n\nFatores de risco:\n- Gemelar, macrossomia, polidrâmnio (útero muito distendido), trabalho de parto prolongado ou muito rápido, corioamnionite, HPP prévia, uso prolongado de ocitocina\n\nPrevenção (manejo ativo do 3º período):\n- **Ocitocina 10 UI IM logo após o nascimento para TODAS** → reduz a HPP em mais de 50%\n- Tração CONTROLADA do cordão (não vigorosa), por profissional treinado\n- Clampeamento oportuno do cordão (1–3 min)\n- **Vigilância e massagem uterina após a dequitação** (primeiras 2 h)\n\nTratamento (\"hora de ouro\"):\n- Chamar ajuda, 2 acessos calibrosos, cristaloide aquecido, monitorizar; índice de choque (FC/PAS) ≥ 0,9 → pensar em transfusão\n- Massagem uterina bimanual + **ocitocina EV**\n- **Ácido tranexâmico 1 g EV** (até 3 h do parto)\n- Metilergometrina IM (evitar em hipertensa) e misoprostol\n- Balão de tamponamento intrauterino; traje antichoque não pneumático\n- Cirurgia → suturas compressivas (B-Lynch), ligaduras arteriais, histerectomia\n\nO que mais cai no Vila Verde:\n- VV 2025 → ocitocina 10 UI IM universal reduz HPP em mais de 50%; distratores: tração vigorosa do cordão, ocitocina contraindicada no 3º período, vigilância uterina sem impacto.",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 174\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><rect x=\"10\" y=\"8\" width=\"155\" height=\"56\" rx=\"9\" fill=\"var(--wine)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"87.5\" y=\"35.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--card)\">Tônus</text><text x=\"87.5\" y=\"47.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--card)\">atonia (~70%)</text><rect x=\"175\" y=\"8\" width=\"155\" height=\"56\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"252.5\" y=\"35.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Trauma</text><text x=\"252.5\" y=\"47.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">lacerações, rotura, inversão</text><rect x=\"10\" y=\"72\" width=\"155\" height=\"56\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"87.5\" y=\"99.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Tecido</text><text x=\"87.5\" y=\"111.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">restos, acretismo</text><rect x=\"175\" y=\"72\" width=\"155\" height=\"56\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"252.5\" y=\"99.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Trombina</text><text x=\"252.5\" y=\"111.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">coagulopatia</text><text x=\"170\" y=\"150\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"600\" fill=\"var(--wine)\">Prevenção: ocitocina 10 UI IM em TODAS</text><text x=\"170\" y=\"166\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--mute)\">Tratamento: massagem + ocitocina EV + ácido tranexâmico</text></svg>",
+     "legenda": "Os 4 T da hemorragia pós-parto"
+    }
+   ],
+   "fonte": "OPAS/MS — Recomendações assistenciais para prevenção, diagnóstico e tratamento da HPP (2018) / OMS — Recommendations on prevention and treatment of PPH (2023) / WOMAN trial (Lancet 2017)",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "hpp-d1",
+   "tipo": "digitar",
+   "area": "Obstetrícia",
+   "tema": "Parto e puerpério",
+   "sub": "Hemorragia pós-parto",
+   "frente": "Qual a causa mais comum de hemorragia pós-parto?",
+   "verso": "**Atonia uterina.**",
+   "resposta": "Atonia uterina",
+   "aceitas": [
+    "atonia",
+    "atonia uterina",
+    "tônus"
+   ],
+   "macete": "1º T = Tônus.",
+   "prio": "alta",
+   "contexto": "**Hemorragia pós-parto (HPP) = perda ≥ 500 mL após parto vaginal ou ≥ 1.000 mL após cesárea (ou qualquer perda com instabilidade); uma das maiores causas de morte materna.**\n\nCausas — os 4 T:\n- **Tônus** → atonia uterina (~70%, a principal)\n- **Trauma** → lacerações, hematomas, rotura, inversão uterina\n- **Tecido** → retenção de placenta/restos, acretismo\n- **Trombina** → coagulopatia\n\nFatores de risco:\n- Gemelar, macrossomia, polidrâmnio (útero muito distendido), trabalho de parto prolongado ou muito rápido, corioamnionite, HPP prévia, uso prolongado de ocitocina\n\nPrevenção (manejo ativo do 3º período):\n- **Ocitocina 10 UI IM logo após o nascimento para TODAS** → reduz a HPP em mais de 50%\n- Tração CONTROLADA do cordão (não vigorosa), por profissional treinado\n- Clampeamento oportuno do cordão (1–3 min)\n- **Vigilância e massagem uterina após a dequitação** (primeiras 2 h)\n\nTratamento (\"hora de ouro\"):\n- Chamar ajuda, 2 acessos calibrosos, cristaloide aquecido, monitorizar; índice de choque (FC/PAS) ≥ 0,9 → pensar em transfusão\n- Massagem uterina bimanual + **ocitocina EV**\n- **Ácido tranexâmico 1 g EV** (até 3 h do parto)\n- Metilergometrina IM (evitar em hipertensa) e misoprostol\n- Balão de tamponamento intrauterino; traje antichoque não pneumático\n- Cirurgia → suturas compressivas (B-Lynch), ligaduras arteriais, histerectomia\n\nO que mais cai no Vila Verde:\n- VV 2025 → ocitocina 10 UI IM universal reduz HPP em mais de 50%; distratores: tração vigorosa do cordão, ocitocina contraindicada no 3º período, vigilância uterina sem impacto.",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 174\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><rect x=\"10\" y=\"8\" width=\"155\" height=\"56\" rx=\"9\" fill=\"var(--wine)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"87.5\" y=\"35.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--card)\">Tônus</text><text x=\"87.5\" y=\"47.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--card)\">atonia (~70%)</text><rect x=\"175\" y=\"8\" width=\"155\" height=\"56\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"252.5\" y=\"35.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Trauma</text><text x=\"252.5\" y=\"47.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">lacerações, rotura, inversão</text><rect x=\"10\" y=\"72\" width=\"155\" height=\"56\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"87.5\" y=\"99.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Tecido</text><text x=\"87.5\" y=\"111.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">restos, acretismo</text><rect x=\"175\" y=\"72\" width=\"155\" height=\"56\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"252.5\" y=\"99.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Trombina</text><text x=\"252.5\" y=\"111.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">coagulopatia</text><text x=\"170\" y=\"150\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"600\" fill=\"var(--wine)\">Prevenção: ocitocina 10 UI IM em TODAS</text><text x=\"170\" y=\"166\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--mute)\">Tratamento: massagem + ocitocina EV + ácido tranexâmico</text></svg>",
+     "legenda": "Os 4 T da hemorragia pós-parto"
+    }
+   ],
+   "fonte": "OPAS/MS — Recomendações assistenciais para prevenção, diagnóstico e tratamento da HPP (2018) / OMS — Recommendations on prevention and treatment of PPH (2023) / WOMAN trial (Lancet 2017)",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "hpp-d2",
+   "tipo": "digitar",
+   "area": "Obstetrícia",
+   "tema": "Parto e puerpério",
+   "sub": "Hemorragia pós-parto",
+   "frente": "Qual a dose de ácido tranexâmico na HPP?",
+   "verso": "**1 g EV (em até 3 h do parto).**",
+   "resposta": "1 g",
+   "aceitas": [
+    "1g",
+    "1 grama",
+    "1000 mg",
+    "1g ev"
+   ],
+   "macete": "\"Um grama na hora de ouro\".",
+   "prio": "media",
+   "contexto": "**Hemorragia pós-parto (HPP) = perda ≥ 500 mL após parto vaginal ou ≥ 1.000 mL após cesárea (ou qualquer perda com instabilidade); uma das maiores causas de morte materna.**\n\nCausas — os 4 T:\n- **Tônus** → atonia uterina (~70%, a principal)\n- **Trauma** → lacerações, hematomas, rotura, inversão uterina\n- **Tecido** → retenção de placenta/restos, acretismo\n- **Trombina** → coagulopatia\n\nFatores de risco:\n- Gemelar, macrossomia, polidrâmnio (útero muito distendido), trabalho de parto prolongado ou muito rápido, corioamnionite, HPP prévia, uso prolongado de ocitocina\n\nPrevenção (manejo ativo do 3º período):\n- **Ocitocina 10 UI IM logo após o nascimento para TODAS** → reduz a HPP em mais de 50%\n- Tração CONTROLADA do cordão (não vigorosa), por profissional treinado\n- Clampeamento oportuno do cordão (1–3 min)\n- **Vigilância e massagem uterina após a dequitação** (primeiras 2 h)\n\nTratamento (\"hora de ouro\"):\n- Chamar ajuda, 2 acessos calibrosos, cristaloide aquecido, monitorizar; índice de choque (FC/PAS) ≥ 0,9 → pensar em transfusão\n- Massagem uterina bimanual + **ocitocina EV**\n- **Ácido tranexâmico 1 g EV** (até 3 h do parto)\n- Metilergometrina IM (evitar em hipertensa) e misoprostol\n- Balão de tamponamento intrauterino; traje antichoque não pneumático\n- Cirurgia → suturas compressivas (B-Lynch), ligaduras arteriais, histerectomia\n\nO que mais cai no Vila Verde:\n- VV 2025 → ocitocina 10 UI IM universal reduz HPP em mais de 50%; distratores: tração vigorosa do cordão, ocitocina contraindicada no 3º período, vigilância uterina sem impacto.",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 174\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><rect x=\"10\" y=\"8\" width=\"155\" height=\"56\" rx=\"9\" fill=\"var(--wine)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"87.5\" y=\"35.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--card)\">Tônus</text><text x=\"87.5\" y=\"47.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--card)\">atonia (~70%)</text><rect x=\"175\" y=\"8\" width=\"155\" height=\"56\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"252.5\" y=\"35.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Trauma</text><text x=\"252.5\" y=\"47.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">lacerações, rotura, inversão</text><rect x=\"10\" y=\"72\" width=\"155\" height=\"56\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"87.5\" y=\"99.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Tecido</text><text x=\"87.5\" y=\"111.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">restos, acretismo</text><rect x=\"175\" y=\"72\" width=\"155\" height=\"56\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"252.5\" y=\"99.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Trombina</text><text x=\"252.5\" y=\"111.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">coagulopatia</text><text x=\"170\" y=\"150\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"600\" fill=\"var(--wine)\">Prevenção: ocitocina 10 UI IM em TODAS</text><text x=\"170\" y=\"166\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--mute)\">Tratamento: massagem + ocitocina EV + ácido tranexâmico</text></svg>",
+     "legenda": "Os 4 T da hemorragia pós-parto"
+    }
+   ],
+   "fonte": "OPAS/MS — Recomendações assistenciais para prevenção, diagnóstico e tratamento da HPP (2018) / OMS — Recommendations on prevention and treatment of PPH (2023) / WOMAN trial (Lancet 2017)",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "pmt-01",
+   "tipo": "flash",
+   "area": "Obstetrícia",
+   "tema": "Prematuridade e RPMO",
+   "sub": "Prematuridade — prevenção e trabalho de parto prematuro",
+   "frente": "Prematuridade: principal fator de risco e quando usar progesterona",
+   "verso": "**Principal fator → parto prematuro prévio.**\n**Progesterona vaginal → colo curto (≤ 25 mm) ou prematuridade prévia.**\n\nOutros fatores:\n- Infecções (ITU, vaginose), gemelaridade, ausência de pré-natal.",
+   "macete": "\"Quem já teve prematuro, tem colo curto: Progesterona protege\".",
+   "pegadinha": "Progesterona é INDICADA (não contraindicada) no colo curto.",
+   "uerj": "VV 2025: prematuridade prévia + ITU como fatores (gabarito D).",
+   "prio": "alta",
+   "contexto": "**Prematuridade = parto antes de 37 semanas; principal causa de morbimortalidade neonatal. O pré-natal busca reconhecer o risco e prevenir.**\n\nFatores de risco:\n- **Parto prematuro prévio** (o principal)\n- **Colo uterino curto** (≤ 25 mm na USG transvaginal entre 18 e 24 semanas)\n- Gestação múltipla, polidrâmnio, malformações uterinas\n- **Infecções** → ITU/bacteriúria, vaginose bacteriana (associada a parto prematuro E a rotura prematura de membranas)\n- Ausência de pré-natal, extremos de idade, tabagismo, baixo nível socioeconômico, sangramento\n\nPrevenção:\n- **Progesterona vaginal** → colo curto (≤ 25 mm) e/ou prematuridade prévia\n- Cerclagem → insuficiência istmocervical\n- Tratar bacteriúria assintomática\n\nTrabalho de parto prematuro (24–34 semanas):\n- Contrações regulares + modificação do colo\n- **Corticoide antenatal** → betametasona 12 mg IM, 2 doses com 24 h (maturação pulmonar)\n- **Tocólise** (nifedipina ou atosiban) por até 48 h → dá tempo para o corticoide\n- **Sulfato de magnésio** < 32 semanas → neuroproteção fetal\n- Profilaxia para estreptococo do grupo B se status desconhecido\n- Contraindicam tocólise → corioamnionite, sofrimento fetal, DPP, malformação letal, óbito fetal, pré-eclâmpsia grave\n\nO que mais cai no Vila Verde:\n- VV 2025 → prematuridade prévia aumenta o risco de novo parto pré-termo e ITU é fator de risco (correta); distratores: progesterona contraindicada no colo curto, vaginose sem relação com RPMO, falta de pré-natal sem relação.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "TPP (24–34 sem)",
+      "Critério",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "Corticoide",
+       "24–34 semanas com risco de parto em 7 dias",
+       "Betametasona 12 mg IM 2 doses (24/24 h)"
+      ],
+      [
+       "Tocólise",
+       "Sem contraindicação, até 34 semanas",
+       "Nifedipina ou atosiban por até 48 h"
+      ],
+      [
+       "Neuroproteção",
+       "< 32 semanas",
+       "Sulfato de magnésio"
+      ],
+      [
+       "Estreptococo B",
+       "Status desconhecido/positivo",
+       "Penicilina/ampicilina intraparto"
+      ]
+     ]
+    }
+   ],
+   "fonte": "MS — Manual de Gestação de Alto Risco (2022) / FEBRASGO — Prematuridade (Protocolo 2021) / ACOG Practice Bulletin 234 — Prediction and Prevention of Spontaneous Preterm Birth (2021)",
+   "add": "2026-10-28",
+   "visual": {
+    "tipo": "lista",
+    "itens": [
+     "!Parto prematuro prévio",
+     "!Colo ≤ 25 mm (18–24 sem)",
+     "Gemelar, polidrâmnio",
+     "ITU, vaginose bacteriana",
+     "Sem pré-natal, tabagismo"
+    ]
+   }
+  },
+  {
+   "id": "pmt-02",
+   "tipo": "flash",
+   "area": "Obstetrícia",
+   "tema": "Prematuridade e RPMO",
+   "sub": "Prematuridade — prevenção e trabalho de parto prematuro",
+   "frente": "Trabalho de parto prematuro com 30 semanas: o que fazer?",
+   "verso": "**Corticoide (betametasona).**\n**Tocólise por até 48 h.**\n**Sulfato de magnésio (< 32 semanas).**\n\nJunto:\n- Profilaxia para estreptococo B se status desconhecido.",
+   "macete": "TPP: \"Corticoide, Calma o útero (tocólise), Magnésio no cérebro\".",
+   "visual": {
+    "tipo": "lista",
+    "itens": [
+     "!Betametasona 12 mg IM × 2 (24/24 h)",
+     "!Nifedipina ou atosiban (48 h)",
+     "!Sulfato de magnésio se < 32 sem",
+     "Antibiótico para estreptococo B"
+    ]
+   },
+   "pegadinha": "Corioamnionite contraindica tocólise.",
+   "prio": "alta",
+   "contexto": "**Prematuridade = parto antes de 37 semanas; principal causa de morbimortalidade neonatal. O pré-natal busca reconhecer o risco e prevenir.**\n\nFatores de risco:\n- **Parto prematuro prévio** (o principal)\n- **Colo uterino curto** (≤ 25 mm na USG transvaginal entre 18 e 24 semanas)\n- Gestação múltipla, polidrâmnio, malformações uterinas\n- **Infecções** → ITU/bacteriúria, vaginose bacteriana (associada a parto prematuro E a rotura prematura de membranas)\n- Ausência de pré-natal, extremos de idade, tabagismo, baixo nível socioeconômico, sangramento\n\nPrevenção:\n- **Progesterona vaginal** → colo curto (≤ 25 mm) e/ou prematuridade prévia\n- Cerclagem → insuficiência istmocervical\n- Tratar bacteriúria assintomática\n\nTrabalho de parto prematuro (24–34 semanas):\n- Contrações regulares + modificação do colo\n- **Corticoide antenatal** → betametasona 12 mg IM, 2 doses com 24 h (maturação pulmonar)\n- **Tocólise** (nifedipina ou atosiban) por até 48 h → dá tempo para o corticoide\n- **Sulfato de magnésio** < 32 semanas → neuroproteção fetal\n- Profilaxia para estreptococo do grupo B se status desconhecido\n- Contraindicam tocólise → corioamnionite, sofrimento fetal, DPP, malformação letal, óbito fetal, pré-eclâmpsia grave\n\nO que mais cai no Vila Verde:\n- VV 2025 → prematuridade prévia aumenta o risco de novo parto pré-termo e ITU é fator de risco (correta); distratores: progesterona contraindicada no colo curto, vaginose sem relação com RPMO, falta de pré-natal sem relação.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "TPP (24–34 sem)",
+      "Critério",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "Corticoide",
+       "24–34 semanas com risco de parto em 7 dias",
+       "Betametasona 12 mg IM 2 doses (24/24 h)"
+      ],
+      [
+       "Tocólise",
+       "Sem contraindicação, até 34 semanas",
+       "Nifedipina ou atosiban por até 48 h"
+      ],
+      [
+       "Neuroproteção",
+       "< 32 semanas",
+       "Sulfato de magnésio"
+      ],
+      [
+       "Estreptococo B",
+       "Status desconhecido/positivo",
+       "Penicilina/ampicilina intraparto"
+      ]
+     ]
+    }
+   ],
+   "fonte": "MS — Manual de Gestação de Alto Risco (2022) / FEBRASGO — Prematuridade (Protocolo 2021) / ACOG Practice Bulletin 234 — Prediction and Prevention of Spontaneous Preterm Birth (2021)",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "pmt-q1",
+   "tipo": "quiz",
+   "area": "Obstetrícia",
+   "tema": "Prematuridade e RPMO",
+   "sub": "Prematuridade — prevenção e trabalho de parto prematuro",
+   "frente": "Sobre a prematuridade, é CORRETO afirmar:",
+   "opcoes": [
+    "A progesterona vaginal é contraindicada no colo uterino curto.",
+    "A vaginose bacteriana não influencia o risco de rotura prematura das membranas.",
+    "A ausência de pré-natal não se relaciona ao risco de prematuridade.",
+    "O parto prematuro prévio aumenta o risco de novo parto pré-termo e a ITU é fator de risco."
+   ],
+   "certa": 3,
+   "comentarios": [
+    "Errada: é indicada.",
+    "Errada: aumenta.",
+    "Errada.",
+    "Correta."
+   ],
+   "macete": "\"Já teve, pode ter de novo\".",
+   "pegadinha": "Três alternativas com \"não\": todas falsas.",
+   "uerj": "VV 2025 (Q77, gabarito D).",
+   "prio": "media",
+   "contexto": "**Prematuridade = parto antes de 37 semanas; principal causa de morbimortalidade neonatal. O pré-natal busca reconhecer o risco e prevenir.**\n\nFatores de risco:\n- **Parto prematuro prévio** (o principal)\n- **Colo uterino curto** (≤ 25 mm na USG transvaginal entre 18 e 24 semanas)\n- Gestação múltipla, polidrâmnio, malformações uterinas\n- **Infecções** → ITU/bacteriúria, vaginose bacteriana (associada a parto prematuro E a rotura prematura de membranas)\n- Ausência de pré-natal, extremos de idade, tabagismo, baixo nível socioeconômico, sangramento\n\nPrevenção:\n- **Progesterona vaginal** → colo curto (≤ 25 mm) e/ou prematuridade prévia\n- Cerclagem → insuficiência istmocervical\n- Tratar bacteriúria assintomática\n\nTrabalho de parto prematuro (24–34 semanas):\n- Contrações regulares + modificação do colo\n- **Corticoide antenatal** → betametasona 12 mg IM, 2 doses com 24 h (maturação pulmonar)\n- **Tocólise** (nifedipina ou atosiban) por até 48 h → dá tempo para o corticoide\n- **Sulfato de magnésio** < 32 semanas → neuroproteção fetal\n- Profilaxia para estreptococo do grupo B se status desconhecido\n- Contraindicam tocólise → corioamnionite, sofrimento fetal, DPP, malformação letal, óbito fetal, pré-eclâmpsia grave\n\nO que mais cai no Vila Verde:\n- VV 2025 → prematuridade prévia aumenta o risco de novo parto pré-termo e ITU é fator de risco (correta); distratores: progesterona contraindicada no colo curto, vaginose sem relação com RPMO, falta de pré-natal sem relação.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "TPP (24–34 sem)",
+      "Critério",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "Corticoide",
+       "24–34 semanas com risco de parto em 7 dias",
+       "Betametasona 12 mg IM 2 doses (24/24 h)"
+      ],
+      [
+       "Tocólise",
+       "Sem contraindicação, até 34 semanas",
+       "Nifedipina ou atosiban por até 48 h"
+      ],
+      [
+       "Neuroproteção",
+       "< 32 semanas",
+       "Sulfato de magnésio"
+      ],
+      [
+       "Estreptococo B",
+       "Status desconhecido/positivo",
+       "Penicilina/ampicilina intraparto"
+      ]
+     ]
+    }
+   ],
+   "fonte": "MS — Manual de Gestação de Alto Risco (2022) / FEBRASGO — Prematuridade (Protocolo 2021) / ACOG Practice Bulletin 234 — Prediction and Prevention of Spontaneous Preterm Birth (2021)",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "pmt-d1",
+   "tipo": "digitar",
+   "area": "Obstetrícia",
+   "tema": "Prematuridade e RPMO",
+   "sub": "Prematuridade — prevenção e trabalho de parto prematuro",
+   "frente": "Qual corticoide se usa para maturação pulmonar fetal?",
+   "verso": "**Betametasona 12 mg IM, 2 doses com 24 h.**",
+   "resposta": "Betametasona",
+   "aceitas": [
+    "betametasona",
+    "dexametasona"
+   ],
+   "macete": "\"Beta para os pulmões do bebê\".",
+   "prio": "alta",
+   "contexto": "**Prematuridade = parto antes de 37 semanas; principal causa de morbimortalidade neonatal. O pré-natal busca reconhecer o risco e prevenir.**\n\nFatores de risco:\n- **Parto prematuro prévio** (o principal)\n- **Colo uterino curto** (≤ 25 mm na USG transvaginal entre 18 e 24 semanas)\n- Gestação múltipla, polidrâmnio, malformações uterinas\n- **Infecções** → ITU/bacteriúria, vaginose bacteriana (associada a parto prematuro E a rotura prematura de membranas)\n- Ausência de pré-natal, extremos de idade, tabagismo, baixo nível socioeconômico, sangramento\n\nPrevenção:\n- **Progesterona vaginal** → colo curto (≤ 25 mm) e/ou prematuridade prévia\n- Cerclagem → insuficiência istmocervical\n- Tratar bacteriúria assintomática\n\nTrabalho de parto prematuro (24–34 semanas):\n- Contrações regulares + modificação do colo\n- **Corticoide antenatal** → betametasona 12 mg IM, 2 doses com 24 h (maturação pulmonar)\n- **Tocólise** (nifedipina ou atosiban) por até 48 h → dá tempo para o corticoide\n- **Sulfato de magnésio** < 32 semanas → neuroproteção fetal\n- Profilaxia para estreptococo do grupo B se status desconhecido\n- Contraindicam tocólise → corioamnionite, sofrimento fetal, DPP, malformação letal, óbito fetal, pré-eclâmpsia grave\n\nO que mais cai no Vila Verde:\n- VV 2025 → prematuridade prévia aumenta o risco de novo parto pré-termo e ITU é fator de risco (correta); distratores: progesterona contraindicada no colo curto, vaginose sem relação com RPMO, falta de pré-natal sem relação.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "TPP (24–34 sem)",
+      "Critério",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "Corticoide",
+       "24–34 semanas com risco de parto em 7 dias",
+       "Betametasona 12 mg IM 2 doses (24/24 h)"
+      ],
+      [
+       "Tocólise",
+       "Sem contraindicação, até 34 semanas",
+       "Nifedipina ou atosiban por até 48 h"
+      ],
+      [
+       "Neuroproteção",
+       "< 32 semanas",
+       "Sulfato de magnésio"
+      ],
+      [
+       "Estreptococo B",
+       "Status desconhecido/positivo",
+       "Penicilina/ampicilina intraparto"
+      ]
+     ]
+    }
+   ],
+   "fonte": "MS — Manual de Gestação de Alto Risco (2022) / FEBRASGO — Prematuridade (Protocolo 2021) / ACOG Practice Bulletin 234 — Prediction and Prevention of Spontaneous Preterm Birth (2021)",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "pmt-d2",
+   "tipo": "digitar",
+   "area": "Obstetrícia",
+   "tema": "Prematuridade e RPMO",
+   "sub": "Prematuridade — prevenção e trabalho de parto prematuro",
+   "frente": "Abaixo de quantas semanas se usa sulfato de magnésio para neuroproteção?",
+   "verso": "**32 semanas.**",
+   "resposta": "32 semanas",
+   "aceitas": [
+    "32",
+    "32 sem"
+   ],
+   "macete": "Magnésio < 32.",
+   "prio": "media",
+   "contexto": "**Prematuridade = parto antes de 37 semanas; principal causa de morbimortalidade neonatal. O pré-natal busca reconhecer o risco e prevenir.**\n\nFatores de risco:\n- **Parto prematuro prévio** (o principal)\n- **Colo uterino curto** (≤ 25 mm na USG transvaginal entre 18 e 24 semanas)\n- Gestação múltipla, polidrâmnio, malformações uterinas\n- **Infecções** → ITU/bacteriúria, vaginose bacteriana (associada a parto prematuro E a rotura prematura de membranas)\n- Ausência de pré-natal, extremos de idade, tabagismo, baixo nível socioeconômico, sangramento\n\nPrevenção:\n- **Progesterona vaginal** → colo curto (≤ 25 mm) e/ou prematuridade prévia\n- Cerclagem → insuficiência istmocervical\n- Tratar bacteriúria assintomática\n\nTrabalho de parto prematuro (24–34 semanas):\n- Contrações regulares + modificação do colo\n- **Corticoide antenatal** → betametasona 12 mg IM, 2 doses com 24 h (maturação pulmonar)\n- **Tocólise** (nifedipina ou atosiban) por até 48 h → dá tempo para o corticoide\n- **Sulfato de magnésio** < 32 semanas → neuroproteção fetal\n- Profilaxia para estreptococo do grupo B se status desconhecido\n- Contraindicam tocólise → corioamnionite, sofrimento fetal, DPP, malformação letal, óbito fetal, pré-eclâmpsia grave\n\nO que mais cai no Vila Verde:\n- VV 2025 → prematuridade prévia aumenta o risco de novo parto pré-termo e ITU é fator de risco (correta); distratores: progesterona contraindicada no colo curto, vaginose sem relação com RPMO, falta de pré-natal sem relação.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "TPP (24–34 sem)",
+      "Critério",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "Corticoide",
+       "24–34 semanas com risco de parto em 7 dias",
+       "Betametasona 12 mg IM 2 doses (24/24 h)"
+      ],
+      [
+       "Tocólise",
+       "Sem contraindicação, até 34 semanas",
+       "Nifedipina ou atosiban por até 48 h"
+      ],
+      [
+       "Neuroproteção",
+       "< 32 semanas",
+       "Sulfato de magnésio"
+      ],
+      [
+       "Estreptococo B",
+       "Status desconhecido/positivo",
+       "Penicilina/ampicilina intraparto"
+      ]
+     ]
+    }
+   ],
+   "fonte": "MS — Manual de Gestação de Alto Risco (2022) / FEBRASGO — Prematuridade (Protocolo 2021) / ACOG Practice Bulletin 234 — Prediction and Prevention of Spontaneous Preterm Birth (2021)",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "mal-01",
+   "tipo": "flash",
+   "area": "Clínica Médica",
+   "tema": "Infectologia",
+   "sub": "Malária",
+   "frente": "Qual Plasmodium forma hipnozoítos e é o mais comum no Brasil?",
+   "verso": "**Plasmodium vivax.**\n\nConsequência:\n- Recaídas meses/anos depois.\n- Tratar com primaquina para eliminar os hipnozoítos.",
+   "macete": "\"Vivax Vive escondido no fígado\" (hipnozoíto).",
+   "pegadinha": "Falciparum é o mais GRAVE, mas não forma hipnozoítos.",
+   "uerj": "VV 2025: P. vivax (gabarito D).",
+   "prio": "media",
+   "contexto": "**Malária = infecção por Plasmodium transmitida pela fêmea do Anopheles; no Brasil concentra-se na Amazônia e o P. vivax é o mais comum.**\n\nEspécies:\n- **P. vivax** → ~80–90% dos casos no Brasil; **forma hipnozoítos no fígado → recaídas** meses/anos depois; febre terçã\n- **P. falciparum** → formas GRAVES (malária cerebral, anemia grave, IRA, hipoglicemia, SDRA); sem hipnozoítos\n- P. malariae → febre quartã; sem hipnozoítos\n- P. ovale → também forma hipnozoítos (África)\n\nClínica:\n- Febre com calafrio e sudorese (paroxismos), cefaleia, mialgia; anemia, esplenomegalia\n- Viajante que volta da Amazônia com febre → malária até prova em contrário\n\nDiagnóstico:\n- **Gota espessa** → padrão-ouro (detecta e quantifica)\n- Esfregaço delgado → identifica a espécie\n- Teste rápido → alternativa\n\nTratamento (MS):\n- **Vivax** → cloroquina 3 dias + **primaquina** 7 dias (elimina hipnozoítos); tafenoquina em dose única após teste de G6PD\n- **Falciparum** → artemeter + lumefantrina (3 dias) + primaquina dose única\n- **Grave** → artesunato EV\n- Primaquina → contraindicada na gestante, < 6 meses e na deficiência de G6PD\n\nNotificação compulsória.\n\nO que mais cai no Vila Verde:\n- VV 2025 → espécie que forma hipnozoítos, causa recaídas e predomina na Amazônia = Plasmodium vivax.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "cab": [
+      "Espécie",
+      "Hipnozoíto",
+      "Marca"
+     ],
+     "linhas": [
+      [
+       "!P. vivax",
+       "!Sim (recaídas)",
+       "Mais comum no Brasil; terçã"
+      ],
+      [
+       "P. falciparum",
+       "Não",
+       "Malária grave/cerebral"
+      ],
+      [
+       "P. malariae",
+       "Não",
+       "Febre quartã"
+      ],
+      [
+       "P. ovale",
+       "Sim",
+       "África"
+      ]
+     ]
+    }
+   ],
+   "fonte": "MS — Guia de Tratamento da Malária no Brasil (2021) / Guia de Vigilância em Saúde 6ª ed. (2023)",
+   "add": "2026-10-28",
+   "visual": {
+    "tipo": "vs",
+    "a": {
+     "t": "P. vivax",
+     "itens": [
+      "Mais comum no Brasil",
+      "Hipnozoítos → recaídas",
+      "Primaquina"
+     ]
+    },
+    "b": {
+     "t": "P. falciparum",
+     "itens": [
+      "Mais grave",
+      "Malária cerebral",
+      "Artemisinina"
+     ]
+    }
+   }
+  },
+  {
+   "id": "mal-02",
+   "tipo": "flash",
+   "area": "Clínica Médica",
+   "tema": "Infectologia",
+   "sub": "Malária",
+   "frente": "Malária: diagnóstico e tratamento do vivax",
+   "verso": "**Gota espessa.**\n**Cloroquina 3 dias + primaquina 7 dias.**\n\nPrimaquina contraindicada:\n- Gestante, < 6 meses, deficiência de G6PD.",
+   "macete": "Vivax: \"Cloro para o sangue, Prima para o fígado\".",
+   "visual": {
+    "tipo": "vs",
+    "a": {
+     "t": "Vivax",
+     "itens": [
+      "Cloroquina 3 dias",
+      "Primaquina 7 dias"
+     ]
+    },
+    "b": {
+     "t": "Falciparum",
+     "itens": [
+      "Artemeter + lumefantrina",
+      "Primaquina dose única",
+      "Grave: artesunato EV"
+     ]
+    }
+   },
+   "pegadinha": "Na gestante, cloroquina semanal até o parto (sem primaquina).",
+   "prio": "media",
+   "contexto": "**Malária = infecção por Plasmodium transmitida pela fêmea do Anopheles; no Brasil concentra-se na Amazônia e o P. vivax é o mais comum.**\n\nEspécies:\n- **P. vivax** → ~80–90% dos casos no Brasil; **forma hipnozoítos no fígado → recaídas** meses/anos depois; febre terçã\n- **P. falciparum** → formas GRAVES (malária cerebral, anemia grave, IRA, hipoglicemia, SDRA); sem hipnozoítos\n- P. malariae → febre quartã; sem hipnozoítos\n- P. ovale → também forma hipnozoítos (África)\n\nClínica:\n- Febre com calafrio e sudorese (paroxismos), cefaleia, mialgia; anemia, esplenomegalia\n- Viajante que volta da Amazônia com febre → malária até prova em contrário\n\nDiagnóstico:\n- **Gota espessa** → padrão-ouro (detecta e quantifica)\n- Esfregaço delgado → identifica a espécie\n- Teste rápido → alternativa\n\nTratamento (MS):\n- **Vivax** → cloroquina 3 dias + **primaquina** 7 dias (elimina hipnozoítos); tafenoquina em dose única após teste de G6PD\n- **Falciparum** → artemeter + lumefantrina (3 dias) + primaquina dose única\n- **Grave** → artesunato EV\n- Primaquina → contraindicada na gestante, < 6 meses e na deficiência de G6PD\n\nNotificação compulsória.\n\nO que mais cai no Vila Verde:\n- VV 2025 → espécie que forma hipnozoítos, causa recaídas e predomina na Amazônia = Plasmodium vivax.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "cab": [
+      "Espécie",
+      "Hipnozoíto",
+      "Marca"
+     ],
+     "linhas": [
+      [
+       "!P. vivax",
+       "!Sim (recaídas)",
+       "Mais comum no Brasil; terçã"
+      ],
+      [
+       "P. falciparum",
+       "Não",
+       "Malária grave/cerebral"
+      ],
+      [
+       "P. malariae",
+       "Não",
+       "Febre quartã"
+      ],
+      [
+       "P. ovale",
+       "Sim",
+       "África"
+      ]
+     ]
+    }
+   ],
+   "fonte": "MS — Guia de Tratamento da Malária no Brasil (2021) / Guia de Vigilância em Saúde 6ª ed. (2023)",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "mal-q1",
+   "tipo": "quiz",
+   "area": "Clínica Médica",
+   "tema": "Infectologia",
+   "sub": "Malária",
+   "frente": "O protozoário transmitido pelo Anopheles, que forma hipnozoítos no fígado causando recaídas e predomina na Amazônia brasileira, é:",
+   "opcoes": [
+    "Plasmodium falciparum.",
+    "Plasmodium malariae.",
+    "Plasmodium ovale.",
+    "Plasmodium vivax."
+   ],
+   "certa": 3,
+   "comentarios": [
+    "Sem hipnozoítos.",
+    "Sem hipnozoítos.",
+    "Forma hipnozoítos, mas é africano.",
+    "Correta."
+   ],
+   "macete": "\"Vivax Vive escondido\".",
+   "pegadinha": "Ovale também forma hipnozoítos, mas não predomina no Brasil.",
+   "uerj": "VV 2025 (Q92, gabarito D).",
+   "prio": "media",
+   "contexto": "**Malária = infecção por Plasmodium transmitida pela fêmea do Anopheles; no Brasil concentra-se na Amazônia e o P. vivax é o mais comum.**\n\nEspécies:\n- **P. vivax** → ~80–90% dos casos no Brasil; **forma hipnozoítos no fígado → recaídas** meses/anos depois; febre terçã\n- **P. falciparum** → formas GRAVES (malária cerebral, anemia grave, IRA, hipoglicemia, SDRA); sem hipnozoítos\n- P. malariae → febre quartã; sem hipnozoítos\n- P. ovale → também forma hipnozoítos (África)\n\nClínica:\n- Febre com calafrio e sudorese (paroxismos), cefaleia, mialgia; anemia, esplenomegalia\n- Viajante que volta da Amazônia com febre → malária até prova em contrário\n\nDiagnóstico:\n- **Gota espessa** → padrão-ouro (detecta e quantifica)\n- Esfregaço delgado → identifica a espécie\n- Teste rápido → alternativa\n\nTratamento (MS):\n- **Vivax** → cloroquina 3 dias + **primaquina** 7 dias (elimina hipnozoítos); tafenoquina em dose única após teste de G6PD\n- **Falciparum** → artemeter + lumefantrina (3 dias) + primaquina dose única\n- **Grave** → artesunato EV\n- Primaquina → contraindicada na gestante, < 6 meses e na deficiência de G6PD\n\nNotificação compulsória.\n\nO que mais cai no Vila Verde:\n- VV 2025 → espécie que forma hipnozoítos, causa recaídas e predomina na Amazônia = Plasmodium vivax.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "cab": [
+      "Espécie",
+      "Hipnozoíto",
+      "Marca"
+     ],
+     "linhas": [
+      [
+       "!P. vivax",
+       "!Sim (recaídas)",
+       "Mais comum no Brasil; terçã"
+      ],
+      [
+       "P. falciparum",
+       "Não",
+       "Malária grave/cerebral"
+      ],
+      [
+       "P. malariae",
+       "Não",
+       "Febre quartã"
+      ],
+      [
+       "P. ovale",
+       "Sim",
+       "África"
+      ]
+     ]
+    }
+   ],
+   "fonte": "MS — Guia de Tratamento da Malária no Brasil (2021) / Guia de Vigilância em Saúde 6ª ed. (2023)",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "mal-d1",
+   "tipo": "digitar",
+   "area": "Clínica Médica",
+   "tema": "Infectologia",
+   "sub": "Malária",
+   "frente": "Qual o exame padrão-ouro para malária?",
+   "verso": "**Gota espessa.**",
+   "resposta": "Gota espessa",
+   "aceitas": [
+    "gota espessa"
+   ],
+   "macete": "\"Gota grossa pega o parasita\".",
+   "prio": "media",
+   "contexto": "**Malária = infecção por Plasmodium transmitida pela fêmea do Anopheles; no Brasil concentra-se na Amazônia e o P. vivax é o mais comum.**\n\nEspécies:\n- **P. vivax** → ~80–90% dos casos no Brasil; **forma hipnozoítos no fígado → recaídas** meses/anos depois; febre terçã\n- **P. falciparum** → formas GRAVES (malária cerebral, anemia grave, IRA, hipoglicemia, SDRA); sem hipnozoítos\n- P. malariae → febre quartã; sem hipnozoítos\n- P. ovale → também forma hipnozoítos (África)\n\nClínica:\n- Febre com calafrio e sudorese (paroxismos), cefaleia, mialgia; anemia, esplenomegalia\n- Viajante que volta da Amazônia com febre → malária até prova em contrário\n\nDiagnóstico:\n- **Gota espessa** → padrão-ouro (detecta e quantifica)\n- Esfregaço delgado → identifica a espécie\n- Teste rápido → alternativa\n\nTratamento (MS):\n- **Vivax** → cloroquina 3 dias + **primaquina** 7 dias (elimina hipnozoítos); tafenoquina em dose única após teste de G6PD\n- **Falciparum** → artemeter + lumefantrina (3 dias) + primaquina dose única\n- **Grave** → artesunato EV\n- Primaquina → contraindicada na gestante, < 6 meses e na deficiência de G6PD\n\nNotificação compulsória.\n\nO que mais cai no Vila Verde:\n- VV 2025 → espécie que forma hipnozoítos, causa recaídas e predomina na Amazônia = Plasmodium vivax.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "cab": [
+      "Espécie",
+      "Hipnozoíto",
+      "Marca"
+     ],
+     "linhas": [
+      [
+       "!P. vivax",
+       "!Sim (recaídas)",
+       "Mais comum no Brasil; terçã"
+      ],
+      [
+       "P. falciparum",
+       "Não",
+       "Malária grave/cerebral"
+      ],
+      [
+       "P. malariae",
+       "Não",
+       "Febre quartã"
+      ],
+      [
+       "P. ovale",
+       "Sim",
+       "África"
+      ]
+     ]
+    }
+   ],
+   "fonte": "MS — Guia de Tratamento da Malária no Brasil (2021) / Guia de Vigilância em Saúde 6ª ed. (2023)",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "mal-d2",
+   "tipo": "digitar",
+   "area": "Clínica Médica",
+   "tema": "Infectologia",
+   "sub": "Malária",
+   "frente": "Qual droga elimina os hipnozoítos do P. vivax?",
+   "verso": "**Primaquina** (ou tafenoquina).",
+   "resposta": "Primaquina",
+   "aceitas": [
+    "primaquina",
+    "tafenoquina"
+   ],
+   "macete": "Prima limpa o fígado.",
+   "prio": "media",
+   "contexto": "**Malária = infecção por Plasmodium transmitida pela fêmea do Anopheles; no Brasil concentra-se na Amazônia e o P. vivax é o mais comum.**\n\nEspécies:\n- **P. vivax** → ~80–90% dos casos no Brasil; **forma hipnozoítos no fígado → recaídas** meses/anos depois; febre terçã\n- **P. falciparum** → formas GRAVES (malária cerebral, anemia grave, IRA, hipoglicemia, SDRA); sem hipnozoítos\n- P. malariae → febre quartã; sem hipnozoítos\n- P. ovale → também forma hipnozoítos (África)\n\nClínica:\n- Febre com calafrio e sudorese (paroxismos), cefaleia, mialgia; anemia, esplenomegalia\n- Viajante que volta da Amazônia com febre → malária até prova em contrário\n\nDiagnóstico:\n- **Gota espessa** → padrão-ouro (detecta e quantifica)\n- Esfregaço delgado → identifica a espécie\n- Teste rápido → alternativa\n\nTratamento (MS):\n- **Vivax** → cloroquina 3 dias + **primaquina** 7 dias (elimina hipnozoítos); tafenoquina em dose única após teste de G6PD\n- **Falciparum** → artemeter + lumefantrina (3 dias) + primaquina dose única\n- **Grave** → artesunato EV\n- Primaquina → contraindicada na gestante, < 6 meses e na deficiência de G6PD\n\nNotificação compulsória.\n\nO que mais cai no Vila Verde:\n- VV 2025 → espécie que forma hipnozoítos, causa recaídas e predomina na Amazônia = Plasmodium vivax.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "cab": [
+      "Espécie",
+      "Hipnozoíto",
+      "Marca"
+     ],
+     "linhas": [
+      [
+       "!P. vivax",
+       "!Sim (recaídas)",
+       "Mais comum no Brasil; terçã"
+      ],
+      [
+       "P. falciparum",
+       "Não",
+       "Malária grave/cerebral"
+      ],
+      [
+       "P. malariae",
+       "Não",
+       "Febre quartã"
+      ],
+      [
+       "P. ovale",
+       "Sim",
+       "África"
+      ]
+     ]
+    }
+   ],
+   "fonte": "MS — Guia de Tratamento da Malária no Brasil (2021) / Guia de Vigilância em Saúde 6ª ed. (2023)",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "ind-01",
+   "tipo": "flash",
+   "area": "Medicina Preventiva",
+   "tema": "Epidemiologia",
+   "sub": "Indicadores demográficos e de saúde",
+   "frente": "Como se calcula a razão de dependência?",
+   "verso": "**(0–14 anos + ≥ 65 anos) ÷ 15–64 anos × 100.**\n\nSignificado:\n- Peso dos dependentes sobre a população em idade ativa.",
+   "macete": "\"Quem é sustentado ÷ quem sustenta\".",
+   "pegadinha": "Índice de envelhecimento é outra coisa: idosos ÷ jovens.",
+   "uerj": "VV 2025: razão de dependência (gabarito A).",
+   "prio": "media",
+   "contexto": "**Indicadores demográficos e de saúde = medidas que descrevem a estrutura da população e seu nível de saúde (dependência, envelhecimento, fecundidade, mortalidade).**\n\nDemográficos:\n- **Razão de dependência** → (população 0–14 anos + ≥ 65 anos) ÷ população 15–64 anos × 100\n  - Mede o peso dos \"economicamente dependentes\" sobre a população em idade ativa\n- **Índice de envelhecimento** → idosos (≥ 60 ou ≥ 65) ÷ menores de 15 × 100\n- **Taxa de fecundidade total** → nº médio de filhos por mulher; reposição = 2,1 (Brasil ~1,6)\n- Esperança de vida ao nascer\n\nTransição demográfica:\n- Queda da mortalidade → depois queda da natalidade/fecundidade → envelhecimento\n- Pirâmide etária estreita na base e alarga no topo\n\nDe saúde:\n- **Mortalidade infantil** → óbitos < 1 ano ÷ nascidos vivos × 1.000\n  - Neonatal precoce (0–6 dias), tardia (7–27), pós-neonatal (28–364)\n- **Razão de mortalidade materna** → óbitos maternos ÷ nascidos vivos × 100.000\n- **Indicador de Swaroop-Uemura** → % de óbitos com ≥ 50 anos (quanto maior, melhor a saúde)\n- **Curva de Nelson de Moraes** (mortalidade proporcional) → tipo I (muito baixo) a IV (elevado nível de saúde, \"J\")\n\nO que mais cai no Vila Verde:\n- VV 2025 → razão de dependência = (jovens + idosos) ÷ população em idade ativa.",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 124\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><rect x=\"20\" y=\"30\" width=\"300\" height=\"60\" rx=\"10\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\"/><text x=\"170\" y=\"55\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--wine)\">(0–14 anos) + (≥ 65 anos)</text><line x1=\"40\" y1=\"64\" x2=\"300\" y2=\"64\" stroke=\"var(--ink)\"/><text x=\"170\" y=\"82\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">15–64 anos (idade ativa)</text><text x=\"170\" y=\"16\" text-anchor=\"middle\" font-size=\"10\" fill=\"var(--mute)\">Razão de dependência (× 100)</text><text x=\"170\" y=\"116\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--mute)\">Quanto maior, mais dependentes para cada pessoa em idade ativa</text></svg>",
+     "legenda": "Fórmula da razão de dependência"
+    }
+   ],
+   "fonte": "RIPSA — Indicadores Básicos para a Saúde no Brasil, 2ª ed. (2008) / IBGE / Rouquayrol — Epidemiologia & Saúde 8ª ed.",
+   "add": "2026-10-28",
+   "visual": {
+    "tipo": "vs",
+    "a": {
+     "t": "Razão de dependência",
+     "itens": [
+      "(0–14 + ≥ 65) ÷ 15–64"
+     ]
+    },
+    "b": {
+     "t": "Índice de envelhecimento",
+     "itens": [
+      "Idosos ÷ < 15 anos"
+     ]
+    }
+   }
+  },
+  {
+   "id": "ind-02",
+   "tipo": "flash",
+   "area": "Medicina Preventiva",
+   "tema": "Epidemiologia",
+   "sub": "Indicadores demográficos e de saúde",
+   "frente": "Mortalidade infantil e materna: fórmulas",
+   "verso": "**Infantil → óbitos < 1 ano ÷ nascidos vivos × 1.000.**\n**Materna → óbitos maternos ÷ nascidos vivos × 100.000.**",
+   "macete": "Infantil \"por mil\", materna \"por cem mil\".",
+   "visual": {
+    "tipo": "tabela",
+    "cab": [
+     "Componente",
+     "Período"
+    ],
+    "linhas": [
+     [
+      "Neonatal precoce",
+      "0–6 dias"
+     ],
+     [
+      "Neonatal tardia",
+      "7–27 dias"
+     ],
+     [
+      "Pós-neonatal",
+      "28–364 dias"
+     ]
+    ]
+   },
+   "pegadinha": "O denominador das duas é NASCIDOS VIVOS (não população).",
+   "prio": "media",
+   "contexto": "**Indicadores demográficos e de saúde = medidas que descrevem a estrutura da população e seu nível de saúde (dependência, envelhecimento, fecundidade, mortalidade).**\n\nDemográficos:\n- **Razão de dependência** → (população 0–14 anos + ≥ 65 anos) ÷ população 15–64 anos × 100\n  - Mede o peso dos \"economicamente dependentes\" sobre a população em idade ativa\n- **Índice de envelhecimento** → idosos (≥ 60 ou ≥ 65) ÷ menores de 15 × 100\n- **Taxa de fecundidade total** → nº médio de filhos por mulher; reposição = 2,1 (Brasil ~1,6)\n- Esperança de vida ao nascer\n\nTransição demográfica:\n- Queda da mortalidade → depois queda da natalidade/fecundidade → envelhecimento\n- Pirâmide etária estreita na base e alarga no topo\n\nDe saúde:\n- **Mortalidade infantil** → óbitos < 1 ano ÷ nascidos vivos × 1.000\n  - Neonatal precoce (0–6 dias), tardia (7–27), pós-neonatal (28–364)\n- **Razão de mortalidade materna** → óbitos maternos ÷ nascidos vivos × 100.000\n- **Indicador de Swaroop-Uemura** → % de óbitos com ≥ 50 anos (quanto maior, melhor a saúde)\n- **Curva de Nelson de Moraes** (mortalidade proporcional) → tipo I (muito baixo) a IV (elevado nível de saúde, \"J\")\n\nO que mais cai no Vila Verde:\n- VV 2025 → razão de dependência = (jovens + idosos) ÷ população em idade ativa.",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 124\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><rect x=\"20\" y=\"30\" width=\"300\" height=\"60\" rx=\"10\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\"/><text x=\"170\" y=\"55\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--wine)\">(0–14 anos) + (≥ 65 anos)</text><line x1=\"40\" y1=\"64\" x2=\"300\" y2=\"64\" stroke=\"var(--ink)\"/><text x=\"170\" y=\"82\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">15–64 anos (idade ativa)</text><text x=\"170\" y=\"16\" text-anchor=\"middle\" font-size=\"10\" fill=\"var(--mute)\">Razão de dependência (× 100)</text><text x=\"170\" y=\"116\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--mute)\">Quanto maior, mais dependentes para cada pessoa em idade ativa</text></svg>",
+     "legenda": "Fórmula da razão de dependência"
+    }
+   ],
+   "fonte": "RIPSA — Indicadores Básicos para a Saúde no Brasil, 2ª ed. (2008) / IBGE / Rouquayrol — Epidemiologia & Saúde 8ª ed.",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "ind-q1",
+   "tipo": "quiz",
+   "area": "Medicina Preventiva",
+   "tema": "Epidemiologia",
+   "sub": "Indicadores demográficos e de saúde",
+   "frente": "Para avaliar o impacto do contingente inativo sobre a população produtiva, a equipe deve calcular a razão de dependência, definida como:",
+   "opcoes": [
+    "(0–15 anos + > 65 anos) ÷ (15–65 anos).",
+    "(15–65 anos + > 65 anos) ÷ (0–15 anos).",
+    "(> 65 anos) ÷ (15–65 anos).",
+    "(0–15 anos) ÷ (> 65 anos)."
+   ],
+   "certa": 0,
+   "comentarios": [
+    "Correta.",
+    "Invertida.",
+    "Só a dependência de idosos.",
+    "Não é indicador usual."
+   ],
+   "macete": "\"Sustentados ÷ quem sustenta\".",
+   "pegadinha": "A alternativa C é a razão de dependência de IDOSOS, não a total.",
+   "uerj": "VV 2025 (Q95, gabarito A).",
+   "prio": "media",
+   "contexto": "**Indicadores demográficos e de saúde = medidas que descrevem a estrutura da população e seu nível de saúde (dependência, envelhecimento, fecundidade, mortalidade).**\n\nDemográficos:\n- **Razão de dependência** → (população 0–14 anos + ≥ 65 anos) ÷ população 15–64 anos × 100\n  - Mede o peso dos \"economicamente dependentes\" sobre a população em idade ativa\n- **Índice de envelhecimento** → idosos (≥ 60 ou ≥ 65) ÷ menores de 15 × 100\n- **Taxa de fecundidade total** → nº médio de filhos por mulher; reposição = 2,1 (Brasil ~1,6)\n- Esperança de vida ao nascer\n\nTransição demográfica:\n- Queda da mortalidade → depois queda da natalidade/fecundidade → envelhecimento\n- Pirâmide etária estreita na base e alarga no topo\n\nDe saúde:\n- **Mortalidade infantil** → óbitos < 1 ano ÷ nascidos vivos × 1.000\n  - Neonatal precoce (0–6 dias), tardia (7–27), pós-neonatal (28–364)\n- **Razão de mortalidade materna** → óbitos maternos ÷ nascidos vivos × 100.000\n- **Indicador de Swaroop-Uemura** → % de óbitos com ≥ 50 anos (quanto maior, melhor a saúde)\n- **Curva de Nelson de Moraes** (mortalidade proporcional) → tipo I (muito baixo) a IV (elevado nível de saúde, \"J\")\n\nO que mais cai no Vila Verde:\n- VV 2025 → razão de dependência = (jovens + idosos) ÷ população em idade ativa.",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 124\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><rect x=\"20\" y=\"30\" width=\"300\" height=\"60\" rx=\"10\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\"/><text x=\"170\" y=\"55\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--wine)\">(0–14 anos) + (≥ 65 anos)</text><line x1=\"40\" y1=\"64\" x2=\"300\" y2=\"64\" stroke=\"var(--ink)\"/><text x=\"170\" y=\"82\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">15–64 anos (idade ativa)</text><text x=\"170\" y=\"16\" text-anchor=\"middle\" font-size=\"10\" fill=\"var(--mute)\">Razão de dependência (× 100)</text><text x=\"170\" y=\"116\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--mute)\">Quanto maior, mais dependentes para cada pessoa em idade ativa</text></svg>",
+     "legenda": "Fórmula da razão de dependência"
+    }
+   ],
+   "fonte": "RIPSA — Indicadores Básicos para a Saúde no Brasil, 2ª ed. (2008) / IBGE / Rouquayrol — Epidemiologia & Saúde 8ª ed.",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "ind-d1",
+   "tipo": "digitar",
+   "area": "Medicina Preventiva",
+   "tema": "Epidemiologia",
+   "sub": "Indicadores demográficos e de saúde",
+   "frente": "Qual a taxa de fecundidade de reposição populacional?",
+   "verso": "**2,1 filhos por mulher.**",
+   "resposta": "2,1",
+   "aceitas": [
+    "2.1",
+    "2,1 filhos",
+    "2,1"
+   ],
+   "macete": "\"Dois e um pouquinho\".",
+   "prio": "media",
+   "contexto": "**Indicadores demográficos e de saúde = medidas que descrevem a estrutura da população e seu nível de saúde (dependência, envelhecimento, fecundidade, mortalidade).**\n\nDemográficos:\n- **Razão de dependência** → (população 0–14 anos + ≥ 65 anos) ÷ população 15–64 anos × 100\n  - Mede o peso dos \"economicamente dependentes\" sobre a população em idade ativa\n- **Índice de envelhecimento** → idosos (≥ 60 ou ≥ 65) ÷ menores de 15 × 100\n- **Taxa de fecundidade total** → nº médio de filhos por mulher; reposição = 2,1 (Brasil ~1,6)\n- Esperança de vida ao nascer\n\nTransição demográfica:\n- Queda da mortalidade → depois queda da natalidade/fecundidade → envelhecimento\n- Pirâmide etária estreita na base e alarga no topo\n\nDe saúde:\n- **Mortalidade infantil** → óbitos < 1 ano ÷ nascidos vivos × 1.000\n  - Neonatal precoce (0–6 dias), tardia (7–27), pós-neonatal (28–364)\n- **Razão de mortalidade materna** → óbitos maternos ÷ nascidos vivos × 100.000\n- **Indicador de Swaroop-Uemura** → % de óbitos com ≥ 50 anos (quanto maior, melhor a saúde)\n- **Curva de Nelson de Moraes** (mortalidade proporcional) → tipo I (muito baixo) a IV (elevado nível de saúde, \"J\")\n\nO que mais cai no Vila Verde:\n- VV 2025 → razão de dependência = (jovens + idosos) ÷ população em idade ativa.",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 124\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><rect x=\"20\" y=\"30\" width=\"300\" height=\"60\" rx=\"10\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\"/><text x=\"170\" y=\"55\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--wine)\">(0–14 anos) + (≥ 65 anos)</text><line x1=\"40\" y1=\"64\" x2=\"300\" y2=\"64\" stroke=\"var(--ink)\"/><text x=\"170\" y=\"82\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">15–64 anos (idade ativa)</text><text x=\"170\" y=\"16\" text-anchor=\"middle\" font-size=\"10\" fill=\"var(--mute)\">Razão de dependência (× 100)</text><text x=\"170\" y=\"116\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--mute)\">Quanto maior, mais dependentes para cada pessoa em idade ativa</text></svg>",
+     "legenda": "Fórmula da razão de dependência"
+    }
+   ],
+   "fonte": "RIPSA — Indicadores Básicos para a Saúde no Brasil, 2ª ed. (2008) / IBGE / Rouquayrol — Epidemiologia & Saúde 8ª ed.",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "ind-d2",
+   "tipo": "digitar",
+   "area": "Medicina Preventiva",
+   "tema": "Epidemiologia",
+   "sub": "Indicadores demográficos e de saúde",
+   "frente": "Qual indicador mede a proporção de óbitos com 50 anos ou mais?",
+   "verso": "**Indicador de Swaroop-Uemura.**",
+   "resposta": "Swaroop-Uemura",
+   "aceitas": [
+    "swaroop uemura",
+    "swaroop-uemura",
+    "indicador de swaroop-uemura",
+    "razão de mortalidade proporcional"
+   ],
+   "macete": "\"Swaroop: quem passou dos 50\".",
+   "prio": "media",
+   "contexto": "**Indicadores demográficos e de saúde = medidas que descrevem a estrutura da população e seu nível de saúde (dependência, envelhecimento, fecundidade, mortalidade).**\n\nDemográficos:\n- **Razão de dependência** → (população 0–14 anos + ≥ 65 anos) ÷ população 15–64 anos × 100\n  - Mede o peso dos \"economicamente dependentes\" sobre a população em idade ativa\n- **Índice de envelhecimento** → idosos (≥ 60 ou ≥ 65) ÷ menores de 15 × 100\n- **Taxa de fecundidade total** → nº médio de filhos por mulher; reposição = 2,1 (Brasil ~1,6)\n- Esperança de vida ao nascer\n\nTransição demográfica:\n- Queda da mortalidade → depois queda da natalidade/fecundidade → envelhecimento\n- Pirâmide etária estreita na base e alarga no topo\n\nDe saúde:\n- **Mortalidade infantil** → óbitos < 1 ano ÷ nascidos vivos × 1.000\n  - Neonatal precoce (0–6 dias), tardia (7–27), pós-neonatal (28–364)\n- **Razão de mortalidade materna** → óbitos maternos ÷ nascidos vivos × 100.000\n- **Indicador de Swaroop-Uemura** → % de óbitos com ≥ 50 anos (quanto maior, melhor a saúde)\n- **Curva de Nelson de Moraes** (mortalidade proporcional) → tipo I (muito baixo) a IV (elevado nível de saúde, \"J\")\n\nO que mais cai no Vila Verde:\n- VV 2025 → razão de dependência = (jovens + idosos) ÷ população em idade ativa.",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 124\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><rect x=\"20\" y=\"30\" width=\"300\" height=\"60\" rx=\"10\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\"/><text x=\"170\" y=\"55\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--wine)\">(0–14 anos) + (≥ 65 anos)</text><line x1=\"40\" y1=\"64\" x2=\"300\" y2=\"64\" stroke=\"var(--ink)\"/><text x=\"170\" y=\"82\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">15–64 anos (idade ativa)</text><text x=\"170\" y=\"16\" text-anchor=\"middle\" font-size=\"10\" fill=\"var(--mute)\">Razão de dependência (× 100)</text><text x=\"170\" y=\"116\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--mute)\">Quanto maior, mais dependentes para cada pessoa em idade ativa</text></svg>",
+     "legenda": "Fórmula da razão de dependência"
+    }
+   ],
+   "fonte": "RIPSA — Indicadores Básicos para a Saúde no Brasil, 2ª ed. (2008) / IBGE / Rouquayrol — Epidemiologia & Saúde 8ª ed.",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "suas-01",
+   "tipo": "flash",
+   "area": "Medicina Preventiva",
+   "tema": "SUS",
+   "sub": "Assistência social — PNAS e SUAS",
+   "frente": "Proteção social básica × especial (SUAS)",
+   "verso": "**Básica → prevenir riscos e fortalecer vínculos (CRAS).**\n**Especial → direitos já violados (CREAS e acolhimento).**\n\nEspecial:\n- Média → vínculos mantidos (CREAS).\n- Alta → vínculos rompidos → acolhimento.",
+   "macete": "CRAS = \"Começo\" (básica); CREAS = \"Resolver o problema\" (especial).",
+   "visual": {
+    "tipo": "tabela",
+    "cab": [
+     "Nível",
+     "Situação",
+     "Equipamento"
+    ],
+    "linhas": [
+     [
+      "Básica",
+      "Risco/vulnerabilidade",
+      "CRAS"
+     ],
+     [
+      "Especial média",
+      "Violação, vínculo mantido",
+      "CREAS"
+     ],
+     [
+      "Especial alta",
+      "Vínculo rompido",
+      "Acolhimento"
+     ]
+    ]
+   },
+   "pegadinha": "Alta complexidade EXIGE acolhimento institucional.",
+   "uerj": "VV 2025: I e II corretas (gabarito C).",
+   "prio": "media",
+   "contexto": "**Assistência social (PNAS/SUAS) = política pública NÃO contributiva que integra a seguridade social com a saúde e a previdência; organizada em proteção social básica e especial.**\n\nBases legais:\n- Constituição 1988 (seguridade = saúde + previdência + assistência)\n- LOAS (Lei 8.742/1993); PNAS (2004); SUAS (Lei 12.435/2011)\n\nProteção social BÁSICA:\n- Objetivo → PREVENIR situações de risco e fortalecer vínculos familiares e comunitários\n- Equipamento → **CRAS** (porta de entrada), com o PAIF\n- Benefícios → BPC, programas de transferência de renda (CadÚnico)\n\nProteção social ESPECIAL (direitos já violados):\n- **Média complexidade** → vínculos familiares NÃO rompidos (violência, abuso, trabalho infantil, medidas socioeducativas em meio aberto) → **CREAS** (PAEFI)\n- **Alta complexidade** → vínculos ROMPIDOS → exige **acolhimento** (abrigos, casa-lar, república, família acolhedora)\n\nBPC (Benefício de Prestação Continuada):\n- 1 salário mínimo para idoso ≥ 65 anos ou pessoa com deficiência, com renda per capita ≤ 1/4 do salário mínimo\n- Não exige contribuição\n\nO que mais cai no Vila Verde:\n- VV 2025 → I (básica × especial) e II (básica previne e fortalece vínculos) corretas; III falsa (alta complexidade EXIGE acolhimento).",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 178\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><rect x=\"10\" y=\"8\" width=\"320\" height=\"30\" rx=\"9\" fill=\"var(--wine)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"170.0\" y=\"26.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--card)\">SUAS — proteção social</text><line x1=\"90\" y1=\"38\" x2=\"90\" y2=\"50\" stroke=\"var(--rose)\"/><line x1=\"250\" y1=\"38\" x2=\"250\" y2=\"50\" stroke=\"var(--rose)\"/><rect x=\"10\" y=\"50\" width=\"160\" height=\"52\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"90.0\" y=\"75.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Básica</text><text x=\"90.0\" y=\"87.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">CRAS: prevenir, vínculos</text><rect x=\"178\" y=\"50\" width=\"152\" height=\"52\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"254.0\" y=\"75.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Especial</text><text x=\"254.0\" y=\"87.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">direitos violados</text><line x1=\"214\" y1=\"102\" x2=\"214\" y2=\"114\" stroke=\"var(--rose)\"/><line x1=\"294\" y1=\"102\" x2=\"294\" y2=\"114\" stroke=\"var(--rose)\"/><rect x=\"140\" y=\"114\" width=\"110\" height=\"56\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"195.0\" y=\"141.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Média</text><text x=\"195.0\" y=\"153.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">CREAS; vínculo mantido</text><rect x=\"256\" y=\"114\" width=\"76\" height=\"56\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"294.0\" y=\"141.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Alta</text><text x=\"294.0\" y=\"153.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">acolhimento</text></svg>",
+     "legenda": "Níveis de proteção do SUAS"
+    }
+   ],
+   "fonte": "Lei 8.742/1993 (LOAS) / PNAS (Resolução CNAS 145/2004) / Lei 12.435/2011 (SUAS) / Tipificação Nacional dos Serviços Socioassistenciais (2009)",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "suas-q1",
+   "tipo": "quiz",
+   "area": "Medicina Preventiva",
+   "tema": "SUS",
+   "sub": "Assistência social — PNAS e SUAS",
+   "frente": "Sobre a PNAS, analise: I. Organiza-se em proteção social básica e especial. II. A básica visa prevenir riscos e fortalecer vínculos. III. A especial de alta complexidade não exige acolhimento institucional. Está CORRETO:",
+   "opcoes": [
+    "Apenas I.",
+    "Apenas III.",
+    "Apenas I e II.",
+    "Apenas II e III."
+   ],
+   "certa": 2,
+   "comentarios": [
+    "Incompleta.",
+    "III é falsa.",
+    "Correta.",
+    "III é falsa."
+   ],
+   "macete": "Alta complexidade = sem vínculo = acolhimento.",
+   "pegadinha": "\"Não exige acolhimento\" é o erro.",
+   "uerj": "VV 2025 (Q100, gabarito C).",
+   "prio": "media",
+   "contexto": "**Assistência social (PNAS/SUAS) = política pública NÃO contributiva que integra a seguridade social com a saúde e a previdência; organizada em proteção social básica e especial.**\n\nBases legais:\n- Constituição 1988 (seguridade = saúde + previdência + assistência)\n- LOAS (Lei 8.742/1993); PNAS (2004); SUAS (Lei 12.435/2011)\n\nProteção social BÁSICA:\n- Objetivo → PREVENIR situações de risco e fortalecer vínculos familiares e comunitários\n- Equipamento → **CRAS** (porta de entrada), com o PAIF\n- Benefícios → BPC, programas de transferência de renda (CadÚnico)\n\nProteção social ESPECIAL (direitos já violados):\n- **Média complexidade** → vínculos familiares NÃO rompidos (violência, abuso, trabalho infantil, medidas socioeducativas em meio aberto) → **CREAS** (PAEFI)\n- **Alta complexidade** → vínculos ROMPIDOS → exige **acolhimento** (abrigos, casa-lar, república, família acolhedora)\n\nBPC (Benefício de Prestação Continuada):\n- 1 salário mínimo para idoso ≥ 65 anos ou pessoa com deficiência, com renda per capita ≤ 1/4 do salário mínimo\n- Não exige contribuição\n\nO que mais cai no Vila Verde:\n- VV 2025 → I (básica × especial) e II (básica previne e fortalece vínculos) corretas; III falsa (alta complexidade EXIGE acolhimento).",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 178\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><rect x=\"10\" y=\"8\" width=\"320\" height=\"30\" rx=\"9\" fill=\"var(--wine)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"170.0\" y=\"26.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--card)\">SUAS — proteção social</text><line x1=\"90\" y1=\"38\" x2=\"90\" y2=\"50\" stroke=\"var(--rose)\"/><line x1=\"250\" y1=\"38\" x2=\"250\" y2=\"50\" stroke=\"var(--rose)\"/><rect x=\"10\" y=\"50\" width=\"160\" height=\"52\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"90.0\" y=\"75.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Básica</text><text x=\"90.0\" y=\"87.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">CRAS: prevenir, vínculos</text><rect x=\"178\" y=\"50\" width=\"152\" height=\"52\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"254.0\" y=\"75.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Especial</text><text x=\"254.0\" y=\"87.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">direitos violados</text><line x1=\"214\" y1=\"102\" x2=\"214\" y2=\"114\" stroke=\"var(--rose)\"/><line x1=\"294\" y1=\"102\" x2=\"294\" y2=\"114\" stroke=\"var(--rose)\"/><rect x=\"140\" y=\"114\" width=\"110\" height=\"56\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"195.0\" y=\"141.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Média</text><text x=\"195.0\" y=\"153.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">CREAS; vínculo mantido</text><rect x=\"256\" y=\"114\" width=\"76\" height=\"56\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"294.0\" y=\"141.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Alta</text><text x=\"294.0\" y=\"153.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">acolhimento</text></svg>",
+     "legenda": "Níveis de proteção do SUAS"
+    }
+   ],
+   "fonte": "Lei 8.742/1993 (LOAS) / PNAS (Resolução CNAS 145/2004) / Lei 12.435/2011 (SUAS) / Tipificação Nacional dos Serviços Socioassistenciais (2009)",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "suas-d1",
+   "tipo": "digitar",
+   "area": "Medicina Preventiva",
+   "tema": "SUS",
+   "sub": "Assistência social — PNAS e SUAS",
+   "frente": "Qual equipamento é a porta de entrada da proteção social básica?",
+   "verso": "**CRAS.**",
+   "resposta": "CRAS",
+   "aceitas": [
+    "cras",
+    "centro de referência de assistência social"
+   ],
+   "macete": "CRAS = Começo.",
+   "prio": "media",
+   "contexto": "**Assistência social (PNAS/SUAS) = política pública NÃO contributiva que integra a seguridade social com a saúde e a previdência; organizada em proteção social básica e especial.**\n\nBases legais:\n- Constituição 1988 (seguridade = saúde + previdência + assistência)\n- LOAS (Lei 8.742/1993); PNAS (2004); SUAS (Lei 12.435/2011)\n\nProteção social BÁSICA:\n- Objetivo → PREVENIR situações de risco e fortalecer vínculos familiares e comunitários\n- Equipamento → **CRAS** (porta de entrada), com o PAIF\n- Benefícios → BPC, programas de transferência de renda (CadÚnico)\n\nProteção social ESPECIAL (direitos já violados):\n- **Média complexidade** → vínculos familiares NÃO rompidos (violência, abuso, trabalho infantil, medidas socioeducativas em meio aberto) → **CREAS** (PAEFI)\n- **Alta complexidade** → vínculos ROMPIDOS → exige **acolhimento** (abrigos, casa-lar, república, família acolhedora)\n\nBPC (Benefício de Prestação Continuada):\n- 1 salário mínimo para idoso ≥ 65 anos ou pessoa com deficiência, com renda per capita ≤ 1/4 do salário mínimo\n- Não exige contribuição\n\nO que mais cai no Vila Verde:\n- VV 2025 → I (básica × especial) e II (básica previne e fortalece vínculos) corretas; III falsa (alta complexidade EXIGE acolhimento).",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 178\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><rect x=\"10\" y=\"8\" width=\"320\" height=\"30\" rx=\"9\" fill=\"var(--wine)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"170.0\" y=\"26.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--card)\">SUAS — proteção social</text><line x1=\"90\" y1=\"38\" x2=\"90\" y2=\"50\" stroke=\"var(--rose)\"/><line x1=\"250\" y1=\"38\" x2=\"250\" y2=\"50\" stroke=\"var(--rose)\"/><rect x=\"10\" y=\"50\" width=\"160\" height=\"52\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"90.0\" y=\"75.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Básica</text><text x=\"90.0\" y=\"87.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">CRAS: prevenir, vínculos</text><rect x=\"178\" y=\"50\" width=\"152\" height=\"52\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"254.0\" y=\"75.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Especial</text><text x=\"254.0\" y=\"87.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">direitos violados</text><line x1=\"214\" y1=\"102\" x2=\"214\" y2=\"114\" stroke=\"var(--rose)\"/><line x1=\"294\" y1=\"102\" x2=\"294\" y2=\"114\" stroke=\"var(--rose)\"/><rect x=\"140\" y=\"114\" width=\"110\" height=\"56\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"195.0\" y=\"141.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Média</text><text x=\"195.0\" y=\"153.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">CREAS; vínculo mantido</text><rect x=\"256\" y=\"114\" width=\"76\" height=\"56\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"294.0\" y=\"141.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Alta</text><text x=\"294.0\" y=\"153.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">acolhimento</text></svg>",
+     "legenda": "Níveis de proteção do SUAS"
+    }
+   ],
+   "fonte": "Lei 8.742/1993 (LOAS) / PNAS (Resolução CNAS 145/2004) / Lei 12.435/2011 (SUAS) / Tipificação Nacional dos Serviços Socioassistenciais (2009)",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "suas-d2",
+   "tipo": "digitar",
+   "area": "Medicina Preventiva",
+   "tema": "SUS",
+   "sub": "Assistência social — PNAS e SUAS",
+   "frente": "Qual a idade mínima do idoso para o BPC?",
+   "verso": "**65 anos.**",
+   "resposta": "65 anos",
+   "aceitas": [
+    "65",
+    "65 anos"
+   ],
+   "macete": "BPC idoso = 65.",
+   "prio": "media",
+   "contexto": "**Assistência social (PNAS/SUAS) = política pública NÃO contributiva que integra a seguridade social com a saúde e a previdência; organizada em proteção social básica e especial.**\n\nBases legais:\n- Constituição 1988 (seguridade = saúde + previdência + assistência)\n- LOAS (Lei 8.742/1993); PNAS (2004); SUAS (Lei 12.435/2011)\n\nProteção social BÁSICA:\n- Objetivo → PREVENIR situações de risco e fortalecer vínculos familiares e comunitários\n- Equipamento → **CRAS** (porta de entrada), com o PAIF\n- Benefícios → BPC, programas de transferência de renda (CadÚnico)\n\nProteção social ESPECIAL (direitos já violados):\n- **Média complexidade** → vínculos familiares NÃO rompidos (violência, abuso, trabalho infantil, medidas socioeducativas em meio aberto) → **CREAS** (PAEFI)\n- **Alta complexidade** → vínculos ROMPIDOS → exige **acolhimento** (abrigos, casa-lar, república, família acolhedora)\n\nBPC (Benefício de Prestação Continuada):\n- 1 salário mínimo para idoso ≥ 65 anos ou pessoa com deficiência, com renda per capita ≤ 1/4 do salário mínimo\n- Não exige contribuição\n\nO que mais cai no Vila Verde:\n- VV 2025 → I (básica × especial) e II (básica previne e fortalece vínculos) corretas; III falsa (alta complexidade EXIGE acolhimento).",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 178\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><rect x=\"10\" y=\"8\" width=\"320\" height=\"30\" rx=\"9\" fill=\"var(--wine)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"170.0\" y=\"26.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--card)\">SUAS — proteção social</text><line x1=\"90\" y1=\"38\" x2=\"90\" y2=\"50\" stroke=\"var(--rose)\"/><line x1=\"250\" y1=\"38\" x2=\"250\" y2=\"50\" stroke=\"var(--rose)\"/><rect x=\"10\" y=\"50\" width=\"160\" height=\"52\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"90.0\" y=\"75.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Básica</text><text x=\"90.0\" y=\"87.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">CRAS: prevenir, vínculos</text><rect x=\"178\" y=\"50\" width=\"152\" height=\"52\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"254.0\" y=\"75.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Especial</text><text x=\"254.0\" y=\"87.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">direitos violados</text><line x1=\"214\" y1=\"102\" x2=\"214\" y2=\"114\" stroke=\"var(--rose)\"/><line x1=\"294\" y1=\"102\" x2=\"294\" y2=\"114\" stroke=\"var(--rose)\"/><rect x=\"140\" y=\"114\" width=\"110\" height=\"56\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"195.0\" y=\"141.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Média</text><text x=\"195.0\" y=\"153.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">CREAS; vínculo mantido</text><rect x=\"256\" y=\"114\" width=\"76\" height=\"56\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"294.0\" y=\"141.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Alta</text><text x=\"294.0\" y=\"153.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">acolhimento</text></svg>",
+     "legenda": "Níveis de proteção do SUAS"
+    }
+   ],
+   "fonte": "Lei 8.742/1993 (LOAS) / PNAS (Resolução CNAS 145/2004) / Lei 12.435/2011 (SUAS) / Tipificação Nacional dos Serviços Socioassistenciais (2009)",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "upf-01",
+   "tipo": "flash",
+   "area": "Cirurgia",
+   "tema": "Abdome agudo",
+   "sub": "Abdome agudo perfurativo — úlcera péptica perfurada",
+   "frente": "Úlcera péptica perfurada: exame inicial e cirurgia usual",
+   "verso": "**RX de tórax em pé → pneumoperitônio.**\n**Rafia + epiploplastia (omento).**\n\nJunto:\n- Lavagem da cavidade, IBP, antibiótico.\n- Depois: erradicar H. pylori, suspender AINE.",
+   "macete": "Perfurou? \"Costura e cobre com o avental\" (omento).",
+   "visual": {
+    "tipo": "fluxo",
+    "passos": [
+     "Dor súbita + abdome em tábua",
+     "RX tórax em pé: ar sob o diafragma",
+     "Reanimação + IBP + ATB",
+     "Rafia + epiploplastia + lavagem"
+    ]
+   },
+   "pegadinha": "Gastrectomia NÃO é 1ª linha.",
+   "uerj": "VV 2025: sutura + omento maior (gabarito D).",
+   "prio": "alta",
+   "contexto": "**Úlcera péptica perfurada = causa mais comum de abdome agudo perfurativo; dor súbita \"em punhalada\" com peritonite química e pneumoperitônio.**\n\nFatores:\n- AINE, H. pylori, tabagismo, corticoide\n- Mais comum → úlcera duodenal de parede ANTERIOR (a posterior tende a sangrar: artéria gastroduodenal)\n\nClínica:\n- Dor epigástrica súbita e intensa → peritonite difusa\n- Abdome \"em tábua\"; sinal de Jobert (perda da macicez hepática à percussão)\n- Taquicardia, febre tardia, choque\n\nDiagnóstico:\n- **RX de tórax em pé (ou decúbito lateral)** → pneumoperitônio (ar sob a cúpula diafragmática)\n- TC → se dúvida (mais sensível)\n\nTratamento:\n- Reanimação, jejum, sonda nasogástrica, IBP EV, antibiótico\n- **Cirurgia → rafia (sutura) da perfuração + epiploplastia (retalho de omento, \"patch de Graham\")**, aberta ou laparoscópica, com lavagem da cavidade\n- Úlcera GÁSTRICA perfurada → biopsiar as bordas (excluir câncer)\n- Depois → erradicar H. pylori e suspender AINE\n- Gastrectomia → exceção (perfuração gigante, suspeita de câncer, sangramento/obstrução associados)\n- Conservador (Taylor) → casos selecionados, estáveis e com perfuração bloqueada\n\nO que mais cai no Vila Verde:\n- VV 2025 → tratamento usual = sutura da lesão + proteção com retalho de omento maior; distratores: \"nunca suturar\", \"gastrectomia para todos\".",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 198\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><path d=\"M60 40 Q 170 0 280 40\" fill=\"none\" stroke=\"var(--ink)\" stroke-width=\"3\"/><text x=\"170\" y=\"20\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--mute)\">diafragma</text><path d=\"M70 44 Q 120 30 160 46 L 150 56 Q 110 46 76 56 Z\" fill=\"var(--card)\" stroke=\"var(--bad)\" stroke-width=\"2\"/><text x=\"112\" y=\"74\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"600\" fill=\"var(--bad)\">ar livre</text><path d=\"M60 90 C 60 150, 140 170, 200 150 C 260 130, 280 90, 280 90\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\"/><text x=\"100\" y=\"128\" font-size=\"9.5\" fill=\"var(--ink)\">fígado</text><text x=\"170\" y=\"190\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--mute)\">RX de tórax em pé: pneumoperitônio sob a cúpula direita</text></svg>",
+     "legenda": "Pneumoperitônio na úlcera perfurada"
+    }
+   ],
+   "fonte": "WSES Guidelines — Perforated and bleeding peptic ulcer (2020) / Sabiston 21ª ed. / Colégio Brasileiro de Cirurgiões",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "upf-02",
+   "tipo": "flash",
+   "area": "Cirurgia",
+   "tema": "Abdome agudo",
+   "sub": "Abdome agudo perfurativo — úlcera péptica perfurada",
+   "frente": "Úlcera duodenal anterior × posterior: o que cada uma costuma fazer?",
+   "verso": "**Anterior → perfura.**\n**Posterior → sangra (artéria gastroduodenal).**",
+   "macete": "\"Frente fura, atrás sangra\".",
+   "visual": {
+    "tipo": "vs",
+    "a": {
+     "t": "Parede anterior",
+     "itens": [
+      "Perfuração",
+      "Pneumoperitônio"
+     ]
+    },
+    "b": {
+     "t": "Parede posterior",
+     "itens": [
+      "Hemorragia",
+      "Artéria gastroduodenal"
+     ]
+    }
+   },
+   "pegadinha": "Úlcera gástrica perfurada → biopsiar as bordas.",
+   "prio": "media",
+   "contexto": "**Úlcera péptica perfurada = causa mais comum de abdome agudo perfurativo; dor súbita \"em punhalada\" com peritonite química e pneumoperitônio.**\n\nFatores:\n- AINE, H. pylori, tabagismo, corticoide\n- Mais comum → úlcera duodenal de parede ANTERIOR (a posterior tende a sangrar: artéria gastroduodenal)\n\nClínica:\n- Dor epigástrica súbita e intensa → peritonite difusa\n- Abdome \"em tábua\"; sinal de Jobert (perda da macicez hepática à percussão)\n- Taquicardia, febre tardia, choque\n\nDiagnóstico:\n- **RX de tórax em pé (ou decúbito lateral)** → pneumoperitônio (ar sob a cúpula diafragmática)\n- TC → se dúvida (mais sensível)\n\nTratamento:\n- Reanimação, jejum, sonda nasogástrica, IBP EV, antibiótico\n- **Cirurgia → rafia (sutura) da perfuração + epiploplastia (retalho de omento, \"patch de Graham\")**, aberta ou laparoscópica, com lavagem da cavidade\n- Úlcera GÁSTRICA perfurada → biopsiar as bordas (excluir câncer)\n- Depois → erradicar H. pylori e suspender AINE\n- Gastrectomia → exceção (perfuração gigante, suspeita de câncer, sangramento/obstrução associados)\n- Conservador (Taylor) → casos selecionados, estáveis e com perfuração bloqueada\n\nO que mais cai no Vila Verde:\n- VV 2025 → tratamento usual = sutura da lesão + proteção com retalho de omento maior; distratores: \"nunca suturar\", \"gastrectomia para todos\".",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 198\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><path d=\"M60 40 Q 170 0 280 40\" fill=\"none\" stroke=\"var(--ink)\" stroke-width=\"3\"/><text x=\"170\" y=\"20\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--mute)\">diafragma</text><path d=\"M70 44 Q 120 30 160 46 L 150 56 Q 110 46 76 56 Z\" fill=\"var(--card)\" stroke=\"var(--bad)\" stroke-width=\"2\"/><text x=\"112\" y=\"74\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"600\" fill=\"var(--bad)\">ar livre</text><path d=\"M60 90 C 60 150, 140 170, 200 150 C 260 130, 280 90, 280 90\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\"/><text x=\"100\" y=\"128\" font-size=\"9.5\" fill=\"var(--ink)\">fígado</text><text x=\"170\" y=\"190\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--mute)\">RX de tórax em pé: pneumoperitônio sob a cúpula direita</text></svg>",
+     "legenda": "Pneumoperitônio na úlcera perfurada"
+    }
+   ],
+   "fonte": "WSES Guidelines — Perforated and bleeding peptic ulcer (2020) / Sabiston 21ª ed. / Colégio Brasileiro de Cirurgiões",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "upf-q1",
+   "tipo": "quiz",
+   "area": "Cirurgia",
+   "tema": "Abdome agudo",
+   "sub": "Abdome agudo perfurativo — úlcera péptica perfurada",
+   "frente": "Sobre a conduta no abdome agudo perfurativo por úlcera péptica, é CORRETO afirmar:",
+   "opcoes": [
+    "As úlceras perfuradas nunca são suturadas; a opção é a gastrectomia.",
+    "A gastrectomia é a primeira linha em todos os casos.",
+    "O tratamento consiste geralmente na sutura da lesão, podendo associar retalho de omento maior.",
+    "A cirurgia deve ser adiada até a resolução da peritonite."
+   ],
+   "certa": 2,
+   "comentarios": [
+    "Errada.",
+    "Errada.",
+    "Correta.",
+    "Errada."
+   ],
+   "macete": "\"Costura e cobre\".",
+   "pegadinha": "\"Nunca\" e \"todos\" são distratores.",
+   "uerj": "VV 2025 (Q54, gabarito D).",
+   "prio": "alta",
+   "contexto": "**Úlcera péptica perfurada = causa mais comum de abdome agudo perfurativo; dor súbita \"em punhalada\" com peritonite química e pneumoperitônio.**\n\nFatores:\n- AINE, H. pylori, tabagismo, corticoide\n- Mais comum → úlcera duodenal de parede ANTERIOR (a posterior tende a sangrar: artéria gastroduodenal)\n\nClínica:\n- Dor epigástrica súbita e intensa → peritonite difusa\n- Abdome \"em tábua\"; sinal de Jobert (perda da macicez hepática à percussão)\n- Taquicardia, febre tardia, choque\n\nDiagnóstico:\n- **RX de tórax em pé (ou decúbito lateral)** → pneumoperitônio (ar sob a cúpula diafragmática)\n- TC → se dúvida (mais sensível)\n\nTratamento:\n- Reanimação, jejum, sonda nasogástrica, IBP EV, antibiótico\n- **Cirurgia → rafia (sutura) da perfuração + epiploplastia (retalho de omento, \"patch de Graham\")**, aberta ou laparoscópica, com lavagem da cavidade\n- Úlcera GÁSTRICA perfurada → biopsiar as bordas (excluir câncer)\n- Depois → erradicar H. pylori e suspender AINE\n- Gastrectomia → exceção (perfuração gigante, suspeita de câncer, sangramento/obstrução associados)\n- Conservador (Taylor) → casos selecionados, estáveis e com perfuração bloqueada\n\nO que mais cai no Vila Verde:\n- VV 2025 → tratamento usual = sutura da lesão + proteção com retalho de omento maior; distratores: \"nunca suturar\", \"gastrectomia para todos\".",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 198\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><path d=\"M60 40 Q 170 0 280 40\" fill=\"none\" stroke=\"var(--ink)\" stroke-width=\"3\"/><text x=\"170\" y=\"20\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--mute)\">diafragma</text><path d=\"M70 44 Q 120 30 160 46 L 150 56 Q 110 46 76 56 Z\" fill=\"var(--card)\" stroke=\"var(--bad)\" stroke-width=\"2\"/><text x=\"112\" y=\"74\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"600\" fill=\"var(--bad)\">ar livre</text><path d=\"M60 90 C 60 150, 140 170, 200 150 C 260 130, 280 90, 280 90\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\"/><text x=\"100\" y=\"128\" font-size=\"9.5\" fill=\"var(--ink)\">fígado</text><text x=\"170\" y=\"190\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--mute)\">RX de tórax em pé: pneumoperitônio sob a cúpula direita</text></svg>",
+     "legenda": "Pneumoperitônio na úlcera perfurada"
+    }
+   ],
+   "fonte": "WSES Guidelines — Perforated and bleeding peptic ulcer (2020) / Sabiston 21ª ed. / Colégio Brasileiro de Cirurgiões",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "upf-d1",
+   "tipo": "digitar",
+   "area": "Cirurgia",
+   "tema": "Abdome agudo",
+   "sub": "Abdome agudo perfurativo — úlcera péptica perfurada",
+   "frente": "Qual o achado radiológico clássico da úlcera perfurada?",
+   "verso": "**Pneumoperitônio.**",
+   "resposta": "Pneumoperitônio",
+   "aceitas": [
+    "pneumoperitonio",
+    "ar livre",
+    "ar sob o diafragma",
+    "pneumoperitônio"
+   ],
+   "macete": "Furou → \"ar livre\".",
+   "prio": "alta",
+   "contexto": "**Úlcera péptica perfurada = causa mais comum de abdome agudo perfurativo; dor súbita \"em punhalada\" com peritonite química e pneumoperitônio.**\n\nFatores:\n- AINE, H. pylori, tabagismo, corticoide\n- Mais comum → úlcera duodenal de parede ANTERIOR (a posterior tende a sangrar: artéria gastroduodenal)\n\nClínica:\n- Dor epigástrica súbita e intensa → peritonite difusa\n- Abdome \"em tábua\"; sinal de Jobert (perda da macicez hepática à percussão)\n- Taquicardia, febre tardia, choque\n\nDiagnóstico:\n- **RX de tórax em pé (ou decúbito lateral)** → pneumoperitônio (ar sob a cúpula diafragmática)\n- TC → se dúvida (mais sensível)\n\nTratamento:\n- Reanimação, jejum, sonda nasogástrica, IBP EV, antibiótico\n- **Cirurgia → rafia (sutura) da perfuração + epiploplastia (retalho de omento, \"patch de Graham\")**, aberta ou laparoscópica, com lavagem da cavidade\n- Úlcera GÁSTRICA perfurada → biopsiar as bordas (excluir câncer)\n- Depois → erradicar H. pylori e suspender AINE\n- Gastrectomia → exceção (perfuração gigante, suspeita de câncer, sangramento/obstrução associados)\n- Conservador (Taylor) → casos selecionados, estáveis e com perfuração bloqueada\n\nO que mais cai no Vila Verde:\n- VV 2025 → tratamento usual = sutura da lesão + proteção com retalho de omento maior; distratores: \"nunca suturar\", \"gastrectomia para todos\".",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 198\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><path d=\"M60 40 Q 170 0 280 40\" fill=\"none\" stroke=\"var(--ink)\" stroke-width=\"3\"/><text x=\"170\" y=\"20\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--mute)\">diafragma</text><path d=\"M70 44 Q 120 30 160 46 L 150 56 Q 110 46 76 56 Z\" fill=\"var(--card)\" stroke=\"var(--bad)\" stroke-width=\"2\"/><text x=\"112\" y=\"74\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"600\" fill=\"var(--bad)\">ar livre</text><path d=\"M60 90 C 60 150, 140 170, 200 150 C 260 130, 280 90, 280 90\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\"/><text x=\"100\" y=\"128\" font-size=\"9.5\" fill=\"var(--ink)\">fígado</text><text x=\"170\" y=\"190\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--mute)\">RX de tórax em pé: pneumoperitônio sob a cúpula direita</text></svg>",
+     "legenda": "Pneumoperitônio na úlcera perfurada"
+    }
+   ],
+   "fonte": "WSES Guidelines — Perforated and bleeding peptic ulcer (2020) / Sabiston 21ª ed. / Colégio Brasileiro de Cirurgiões",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "upf-d2",
+   "tipo": "digitar",
+   "area": "Cirurgia",
+   "tema": "Abdome agudo",
+   "sub": "Abdome agudo perfurativo — úlcera péptica perfurada",
+   "frente": "Qual estrutura cobre a rafia da úlcera perfurada?",
+   "verso": "**Omento maior (epiploplastia).**",
+   "resposta": "Omento",
+   "aceitas": [
+    "omento maior",
+    "omento",
+    "epíplon",
+    "epiploon"
+   ],
+   "macete": "Omento = \"avental\".",
+   "prio": "media",
+   "contexto": "**Úlcera péptica perfurada = causa mais comum de abdome agudo perfurativo; dor súbita \"em punhalada\" com peritonite química e pneumoperitônio.**\n\nFatores:\n- AINE, H. pylori, tabagismo, corticoide\n- Mais comum → úlcera duodenal de parede ANTERIOR (a posterior tende a sangrar: artéria gastroduodenal)\n\nClínica:\n- Dor epigástrica súbita e intensa → peritonite difusa\n- Abdome \"em tábua\"; sinal de Jobert (perda da macicez hepática à percussão)\n- Taquicardia, febre tardia, choque\n\nDiagnóstico:\n- **RX de tórax em pé (ou decúbito lateral)** → pneumoperitônio (ar sob a cúpula diafragmática)\n- TC → se dúvida (mais sensível)\n\nTratamento:\n- Reanimação, jejum, sonda nasogástrica, IBP EV, antibiótico\n- **Cirurgia → rafia (sutura) da perfuração + epiploplastia (retalho de omento, \"patch de Graham\")**, aberta ou laparoscópica, com lavagem da cavidade\n- Úlcera GÁSTRICA perfurada → biopsiar as bordas (excluir câncer)\n- Depois → erradicar H. pylori e suspender AINE\n- Gastrectomia → exceção (perfuração gigante, suspeita de câncer, sangramento/obstrução associados)\n- Conservador (Taylor) → casos selecionados, estáveis e com perfuração bloqueada\n\nO que mais cai no Vila Verde:\n- VV 2025 → tratamento usual = sutura da lesão + proteção com retalho de omento maior; distratores: \"nunca suturar\", \"gastrectomia para todos\".",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 198\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><path d=\"M60 40 Q 170 0 280 40\" fill=\"none\" stroke=\"var(--ink)\" stroke-width=\"3\"/><text x=\"170\" y=\"20\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--mute)\">diafragma</text><path d=\"M70 44 Q 120 30 160 46 L 150 56 Q 110 46 76 56 Z\" fill=\"var(--card)\" stroke=\"var(--bad)\" stroke-width=\"2\"/><text x=\"112\" y=\"74\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"600\" fill=\"var(--bad)\">ar livre</text><path d=\"M60 90 C 60 150, 140 170, 200 150 C 260 130, 280 90, 280 90\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\"/><text x=\"100\" y=\"128\" font-size=\"9.5\" fill=\"var(--ink)\">fígado</text><text x=\"170\" y=\"190\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--mute)\">RX de tórax em pé: pneumoperitônio sob a cúpula direita</text></svg>",
+     "legenda": "Pneumoperitônio na úlcera perfurada"
+    }
+   ],
+   "fonte": "WSES Guidelines — Perforated and bleeding peptic ulcer (2020) / Sabiston 21ª ed. / Colégio Brasileiro de Cirurgiões",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "dei-01",
+   "tipo": "flash",
+   "area": "Cirurgia",
+   "tema": "Perioperatório",
+   "sub": "Complicações da ferida operatória — deiscência e evisceração",
+   "frente": "Qual o sinal precoce de deiscência da aponeurose?",
+   "verso": "**Secreção serossanguinolenta pela ferida.**\n\nQuando:\n- Geralmente 5º–8º dia de pós-operatório.\n\nPrincipal fator:\n- Infecção do sítio cirúrgico.",
+   "macete": "\"Água de carne na ferida = aponeurose abrindo\".",
+   "visual": {
+    "tipo": "lista",
+    "itens": [
+     "!Infecção de sítio cirúrgico",
+     "Ascite, tosse, distensão, obesidade",
+     "Desnutrição, corticoide, quimioterapia",
+     "Incisão mediana, sutura com tensão"
+    ]
+   },
+   "pegadinha": "Ascite AUMENTA o risco (pressão abdominal).",
+   "uerj": "VV 2025: secreção serossanguinolenta (gabarito C).",
+   "prio": "alta",
+   "contexto": "**Deiscência da ferida operatória = abertura de planos da sutura (a aponeurótica é a grave); evisceração = saída de vísceras pela ferida, uma emergência cirúrgica.**\n\nQuando ocorre:\n- Deiscência aponeurótica → geralmente entre o **5º e o 8º dia** de pós-operatório (não nas primeiras 48 h)\n\nSinal precoce:\n- **Saída de secreção serossanguinolenta** (cor de \"água de carne\") pela ferida\n\nFatores de risco:\n- **Infecção do sítio cirúrgico** (o principal)\n- Aumento da pressão abdominal → tosse, vômitos, distensão, **ascite**, obesidade\n- Desnutrição/hipoalbuminemia, anemia, icterícia, uremia\n- Corticoide, quimioterapia, diabetes, idade avançada, tabagismo\n- Técnica → incisão mediana, sutura com tensão, pontos grandes\n\nConduta:\n- **Evisceração** → cobrir com compressas estéreis úmidas e levar ao **centro cirúrgico para ressutura** (pontos totais/tela)\n- Deiscência contida (sem evisceração) → pode ser tratada de forma conservadora e virar hérnia incisional\n\nPrevenção:\n- Sutura contínua com fio de absorção lenta\n- Relação comprimento do fio : ferida ≥ 4:1, pontos pequenos (\"small bites\")\n- Controle de tosse, nutrição, glicemia\n\nOutras complicações da ferida:\n- Seroma, hematoma\n- Infecção de sítio cirúrgico → 4º–6º dia; superficial, profunda ou órgão/espaço; abrir e drenar\n\nO que mais cai no Vila Verde:\n- VV 2025 → secreção serossanguinolenta = sinal precoce de deiscência; distratores: ascite não aumenta risco, ocorre em 48 h, evisceração tratada só com antibiótico.",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 148\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><rect x=\"10\" y=\"8\" width=\"100\" height=\"50\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"60.0\" y=\"32.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Dia 1–3</text><text x=\"60.0\" y=\"44.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">hematoma/seroma</text><rect x=\"120\" y=\"8\" width=\"100\" height=\"50\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"170.0\" y=\"32.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Dia 4–6</text><text x=\"170.0\" y=\"44.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">infecção de sítio</text><rect x=\"230\" y=\"8\" width=\"100\" height=\"50\" rx=\"9\" fill=\"var(--wine)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"280.0\" y=\"32.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--card)\">Dia 5–8</text><text x=\"280.0\" y=\"44.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--card)\">DEISCÊNCIA</text><text x=\"170\" y=\"86\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"600\" fill=\"var(--wine)\">Alerta: secreção serossanguinolenta</text><rect x=\"60\" y=\"100\" width=\"220\" height=\"40\" rx=\"9\" fill=\"var(--wine)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"170.0\" y=\"123.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--card)\">Evisceração → compressa úmida + centro cirúrgico</text></svg>",
+     "legenda": "Complicações da ferida pelo tempo de pós-operatório"
+    }
+   ],
+   "fonte": "Sabiston 21ª ed. / European Hernia Society — Guidelines on closure of abdominal wall incisions (2015, atualização 2022) / Colégio Brasileiro de Cirurgiões",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "dei-02",
+   "tipo": "flash",
+   "area": "Cirurgia",
+   "tema": "Perioperatório",
+   "sub": "Complicações da ferida operatória — deiscência e evisceração",
+   "frente": "Evisceração: conduta",
+   "verso": "**Compressas estéreis úmidas + centro cirúrgico para ressutura.**\n\nNão fazer:\n- Reintroduzir as vísceras à beira do leito.\n- Tratar só com antibiótico.",
+   "macete": "\"Cobre úmido e corre para o centro cirúrgico\".",
+   "pegadinha": "Deiscência CONTIDA (sem evisceração) pode ser conservadora.",
+   "prio": "alta",
+   "contexto": "**Deiscência da ferida operatória = abertura de planos da sutura (a aponeurótica é a grave); evisceração = saída de vísceras pela ferida, uma emergência cirúrgica.**\n\nQuando ocorre:\n- Deiscência aponeurótica → geralmente entre o **5º e o 8º dia** de pós-operatório (não nas primeiras 48 h)\n\nSinal precoce:\n- **Saída de secreção serossanguinolenta** (cor de \"água de carne\") pela ferida\n\nFatores de risco:\n- **Infecção do sítio cirúrgico** (o principal)\n- Aumento da pressão abdominal → tosse, vômitos, distensão, **ascite**, obesidade\n- Desnutrição/hipoalbuminemia, anemia, icterícia, uremia\n- Corticoide, quimioterapia, diabetes, idade avançada, tabagismo\n- Técnica → incisão mediana, sutura com tensão, pontos grandes\n\nConduta:\n- **Evisceração** → cobrir com compressas estéreis úmidas e levar ao **centro cirúrgico para ressutura** (pontos totais/tela)\n- Deiscência contida (sem evisceração) → pode ser tratada de forma conservadora e virar hérnia incisional\n\nPrevenção:\n- Sutura contínua com fio de absorção lenta\n- Relação comprimento do fio : ferida ≥ 4:1, pontos pequenos (\"small bites\")\n- Controle de tosse, nutrição, glicemia\n\nOutras complicações da ferida:\n- Seroma, hematoma\n- Infecção de sítio cirúrgico → 4º–6º dia; superficial, profunda ou órgão/espaço; abrir e drenar\n\nO que mais cai no Vila Verde:\n- VV 2025 → secreção serossanguinolenta = sinal precoce de deiscência; distratores: ascite não aumenta risco, ocorre em 48 h, evisceração tratada só com antibiótico.",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 148\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><rect x=\"10\" y=\"8\" width=\"100\" height=\"50\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"60.0\" y=\"32.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Dia 1–3</text><text x=\"60.0\" y=\"44.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">hematoma/seroma</text><rect x=\"120\" y=\"8\" width=\"100\" height=\"50\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"170.0\" y=\"32.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Dia 4–6</text><text x=\"170.0\" y=\"44.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">infecção de sítio</text><rect x=\"230\" y=\"8\" width=\"100\" height=\"50\" rx=\"9\" fill=\"var(--wine)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"280.0\" y=\"32.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--card)\">Dia 5–8</text><text x=\"280.0\" y=\"44.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--card)\">DEISCÊNCIA</text><text x=\"170\" y=\"86\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"600\" fill=\"var(--wine)\">Alerta: secreção serossanguinolenta</text><rect x=\"60\" y=\"100\" width=\"220\" height=\"40\" rx=\"9\" fill=\"var(--wine)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"170.0\" y=\"123.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--card)\">Evisceração → compressa úmida + centro cirúrgico</text></svg>",
+     "legenda": "Complicações da ferida pelo tempo de pós-operatório"
+    }
+   ],
+   "fonte": "Sabiston 21ª ed. / European Hernia Society — Guidelines on closure of abdominal wall incisions (2015, atualização 2022) / Colégio Brasileiro de Cirurgiões",
+   "add": "2026-10-28",
+   "visual": {
+    "tipo": "fluxo",
+    "passos": [
+     "Vísceras pela ferida",
+     "Compressas estéreis úmidas",
+     "Jejum, analgesia, ATB",
+     "Centro cirúrgico: ressutura"
+    ]
+   }
+  },
+  {
+   "id": "dei-q1",
+   "tipo": "quiz",
+   "area": "Cirurgia",
+   "tema": "Perioperatório",
+   "sub": "Complicações da ferida operatória — deiscência e evisceração",
+   "frente": "Sobre a deiscência de ferida operatória, é CORRETO afirmar:",
+   "opcoes": [
+    "Pacientes com ascite não têm maior risco.",
+    "Ocorre geralmente nas primeiras 48 horas.",
+    "A secreção serossanguinolenta pode ser sinal precoce de deiscência da aponeurose.",
+    "A evisceração pode ser tratada com antibiótico isolado."
+   ],
+   "certa": 2,
+   "comentarios": [
+    "Errada.",
+    "Errada: 5º–8º dia.",
+    "Correta.",
+    "Errada: cirurgia urgente."
+   ],
+   "macete": "\"Água de carne\".",
+   "pegadinha": "Evisceração é emergência.",
+   "uerj": "VV 2025 (Q50, gabarito C).",
+   "prio": "media",
+   "contexto": "**Deiscência da ferida operatória = abertura de planos da sutura (a aponeurótica é a grave); evisceração = saída de vísceras pela ferida, uma emergência cirúrgica.**\n\nQuando ocorre:\n- Deiscência aponeurótica → geralmente entre o **5º e o 8º dia** de pós-operatório (não nas primeiras 48 h)\n\nSinal precoce:\n- **Saída de secreção serossanguinolenta** (cor de \"água de carne\") pela ferida\n\nFatores de risco:\n- **Infecção do sítio cirúrgico** (o principal)\n- Aumento da pressão abdominal → tosse, vômitos, distensão, **ascite**, obesidade\n- Desnutrição/hipoalbuminemia, anemia, icterícia, uremia\n- Corticoide, quimioterapia, diabetes, idade avançada, tabagismo\n- Técnica → incisão mediana, sutura com tensão, pontos grandes\n\nConduta:\n- **Evisceração** → cobrir com compressas estéreis úmidas e levar ao **centro cirúrgico para ressutura** (pontos totais/tela)\n- Deiscência contida (sem evisceração) → pode ser tratada de forma conservadora e virar hérnia incisional\n\nPrevenção:\n- Sutura contínua com fio de absorção lenta\n- Relação comprimento do fio : ferida ≥ 4:1, pontos pequenos (\"small bites\")\n- Controle de tosse, nutrição, glicemia\n\nOutras complicações da ferida:\n- Seroma, hematoma\n- Infecção de sítio cirúrgico → 4º–6º dia; superficial, profunda ou órgão/espaço; abrir e drenar\n\nO que mais cai no Vila Verde:\n- VV 2025 → secreção serossanguinolenta = sinal precoce de deiscência; distratores: ascite não aumenta risco, ocorre em 48 h, evisceração tratada só com antibiótico.",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 148\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><rect x=\"10\" y=\"8\" width=\"100\" height=\"50\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"60.0\" y=\"32.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Dia 1–3</text><text x=\"60.0\" y=\"44.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">hematoma/seroma</text><rect x=\"120\" y=\"8\" width=\"100\" height=\"50\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"170.0\" y=\"32.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Dia 4–6</text><text x=\"170.0\" y=\"44.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">infecção de sítio</text><rect x=\"230\" y=\"8\" width=\"100\" height=\"50\" rx=\"9\" fill=\"var(--wine)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"280.0\" y=\"32.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--card)\">Dia 5–8</text><text x=\"280.0\" y=\"44.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--card)\">DEISCÊNCIA</text><text x=\"170\" y=\"86\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"600\" fill=\"var(--wine)\">Alerta: secreção serossanguinolenta</text><rect x=\"60\" y=\"100\" width=\"220\" height=\"40\" rx=\"9\" fill=\"var(--wine)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"170.0\" y=\"123.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--card)\">Evisceração → compressa úmida + centro cirúrgico</text></svg>",
+     "legenda": "Complicações da ferida pelo tempo de pós-operatório"
+    }
+   ],
+   "fonte": "Sabiston 21ª ed. / European Hernia Society — Guidelines on closure of abdominal wall incisions (2015, atualização 2022) / Colégio Brasileiro de Cirurgiões",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "dei-d1",
+   "tipo": "digitar",
+   "area": "Cirurgia",
+   "tema": "Perioperatório",
+   "sub": "Complicações da ferida operatória — deiscência e evisceração",
+   "frente": "Em que período a deiscência aponeurótica costuma ocorrer?",
+   "verso": "**5º ao 8º dia de pós-operatório.**",
+   "resposta": "5º ao 8º dia",
+   "aceitas": [
+    "5 a 8 dias",
+    "5-8 dias",
+    "5 a 8",
+    "quinto ao oitavo dia"
+   ],
+   "macete": "\"Uma semana depois abre\".",
+   "prio": "media",
+   "contexto": "**Deiscência da ferida operatória = abertura de planos da sutura (a aponeurótica é a grave); evisceração = saída de vísceras pela ferida, uma emergência cirúrgica.**\n\nQuando ocorre:\n- Deiscência aponeurótica → geralmente entre o **5º e o 8º dia** de pós-operatório (não nas primeiras 48 h)\n\nSinal precoce:\n- **Saída de secreção serossanguinolenta** (cor de \"água de carne\") pela ferida\n\nFatores de risco:\n- **Infecção do sítio cirúrgico** (o principal)\n- Aumento da pressão abdominal → tosse, vômitos, distensão, **ascite**, obesidade\n- Desnutrição/hipoalbuminemia, anemia, icterícia, uremia\n- Corticoide, quimioterapia, diabetes, idade avançada, tabagismo\n- Técnica → incisão mediana, sutura com tensão, pontos grandes\n\nConduta:\n- **Evisceração** → cobrir com compressas estéreis úmidas e levar ao **centro cirúrgico para ressutura** (pontos totais/tela)\n- Deiscência contida (sem evisceração) → pode ser tratada de forma conservadora e virar hérnia incisional\n\nPrevenção:\n- Sutura contínua com fio de absorção lenta\n- Relação comprimento do fio : ferida ≥ 4:1, pontos pequenos (\"small bites\")\n- Controle de tosse, nutrição, glicemia\n\nOutras complicações da ferida:\n- Seroma, hematoma\n- Infecção de sítio cirúrgico → 4º–6º dia; superficial, profunda ou órgão/espaço; abrir e drenar\n\nO que mais cai no Vila Verde:\n- VV 2025 → secreção serossanguinolenta = sinal precoce de deiscência; distratores: ascite não aumenta risco, ocorre em 48 h, evisceração tratada só com antibiótico.",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 148\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><rect x=\"10\" y=\"8\" width=\"100\" height=\"50\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"60.0\" y=\"32.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Dia 1–3</text><text x=\"60.0\" y=\"44.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">hematoma/seroma</text><rect x=\"120\" y=\"8\" width=\"100\" height=\"50\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"170.0\" y=\"32.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Dia 4–6</text><text x=\"170.0\" y=\"44.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">infecção de sítio</text><rect x=\"230\" y=\"8\" width=\"100\" height=\"50\" rx=\"9\" fill=\"var(--wine)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"280.0\" y=\"32.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--card)\">Dia 5–8</text><text x=\"280.0\" y=\"44.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--card)\">DEISCÊNCIA</text><text x=\"170\" y=\"86\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"600\" fill=\"var(--wine)\">Alerta: secreção serossanguinolenta</text><rect x=\"60\" y=\"100\" width=\"220\" height=\"40\" rx=\"9\" fill=\"var(--wine)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"170.0\" y=\"123.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--card)\">Evisceração → compressa úmida + centro cirúrgico</text></svg>",
+     "legenda": "Complicações da ferida pelo tempo de pós-operatório"
+    }
+   ],
+   "fonte": "Sabiston 21ª ed. / European Hernia Society — Guidelines on closure of abdominal wall incisions (2015, atualização 2022) / Colégio Brasileiro de Cirurgiões",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "dei-d2",
+   "tipo": "digitar",
+   "area": "Cirurgia",
+   "tema": "Perioperatório",
+   "sub": "Complicações da ferida operatória — deiscência e evisceração",
+   "frente": "Qual o principal fator de risco para deiscência?",
+   "verso": "**Infecção do sítio cirúrgico.**",
+   "resposta": "Infecção",
+   "aceitas": [
+    "infecção de sítio cirúrgico",
+    "infecção da ferida",
+    "infecção",
+    "isc"
+   ],
+   "macete": "Infectou → abriu.",
+   "prio": "media",
+   "contexto": "**Deiscência da ferida operatória = abertura de planos da sutura (a aponeurótica é a grave); evisceração = saída de vísceras pela ferida, uma emergência cirúrgica.**\n\nQuando ocorre:\n- Deiscência aponeurótica → geralmente entre o **5º e o 8º dia** de pós-operatório (não nas primeiras 48 h)\n\nSinal precoce:\n- **Saída de secreção serossanguinolenta** (cor de \"água de carne\") pela ferida\n\nFatores de risco:\n- **Infecção do sítio cirúrgico** (o principal)\n- Aumento da pressão abdominal → tosse, vômitos, distensão, **ascite**, obesidade\n- Desnutrição/hipoalbuminemia, anemia, icterícia, uremia\n- Corticoide, quimioterapia, diabetes, idade avançada, tabagismo\n- Técnica → incisão mediana, sutura com tensão, pontos grandes\n\nConduta:\n- **Evisceração** → cobrir com compressas estéreis úmidas e levar ao **centro cirúrgico para ressutura** (pontos totais/tela)\n- Deiscência contida (sem evisceração) → pode ser tratada de forma conservadora e virar hérnia incisional\n\nPrevenção:\n- Sutura contínua com fio de absorção lenta\n- Relação comprimento do fio : ferida ≥ 4:1, pontos pequenos (\"small bites\")\n- Controle de tosse, nutrição, glicemia\n\nOutras complicações da ferida:\n- Seroma, hematoma\n- Infecção de sítio cirúrgico → 4º–6º dia; superficial, profunda ou órgão/espaço; abrir e drenar\n\nO que mais cai no Vila Verde:\n- VV 2025 → secreção serossanguinolenta = sinal precoce de deiscência; distratores: ascite não aumenta risco, ocorre em 48 h, evisceração tratada só com antibiótico.",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 148\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><rect x=\"10\" y=\"8\" width=\"100\" height=\"50\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"60.0\" y=\"32.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Dia 1–3</text><text x=\"60.0\" y=\"44.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">hematoma/seroma</text><rect x=\"120\" y=\"8\" width=\"100\" height=\"50\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"170.0\" y=\"32.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Dia 4–6</text><text x=\"170.0\" y=\"44.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">infecção de sítio</text><rect x=\"230\" y=\"8\" width=\"100\" height=\"50\" rx=\"9\" fill=\"var(--wine)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"280.0\" y=\"32.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--card)\">Dia 5–8</text><text x=\"280.0\" y=\"44.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--card)\">DEISCÊNCIA</text><text x=\"170\" y=\"86\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"600\" fill=\"var(--wine)\">Alerta: secreção serossanguinolenta</text><rect x=\"60\" y=\"100\" width=\"220\" height=\"40\" rx=\"9\" fill=\"var(--wine)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"170.0\" y=\"123.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--card)\">Evisceração → compressa úmida + centro cirúrgico</text></svg>",
+     "legenda": "Complicações da ferida pelo tempo de pós-operatório"
+    }
+   ],
+   "fonte": "Sabiston 21ª ed. / European Hernia Society — Guidelines on closure of abdominal wall incisions (2015, atualização 2022) / Colégio Brasileiro de Cirurgiões",
+   "add": "2026-10-28"
   }
  ],
  "rev": 0
