@@ -196,6 +196,10 @@ table.t{width:100%;table-layout:auto;overflow-wrap:break-word;word-break:normal;
 .ans p+p{margin-top:6px}
 .ans .blq+.blq{margin-top:14px}
 .ctx{margin-top:34px;padding:16px 18px 18px;background:var(--rose-soft);border-radius:16px;border-left:3px solid var(--rose)}
+.ctxbase{padding-bottom:4px;border-radius:16px 16px 0 0}
+.ctxbase+.ctx{margin-top:0;border-radius:0 0 16px 16px;padding-top:6px}
+.ctxbase+.ctx>.ctxh{display:none}
+.ctx .base{margin-bottom:10px}
 .ctxh{font-family:Fraunces,Georgia,serif;font-style:italic;font-size:17px;color:var(--wine);margin-bottom:10px;display:flex;align-items:center;gap:8px}
 .ctxh::before{content:"✦";font-style:normal;font-size:13px;color:var(--rose)}
 .ctx .blq{font-family:Fraunces,Georgia,serif;letter-spacing:-.005em}
@@ -805,7 +809,7 @@ const vib=n=>{try{navigator.vibrate&&navigator.vibrate(n)}catch(e){}};
 /* ===== Visuais ===== */
 /* marcações do contexto ficam no contexto (não no card): mesmo contexto em vários cards = mesmas marcações */
 const ctxKey=c=>{ const t=String(c.contexto||'').split('\n')[0].replace(/\*\*/g,'').trim(); let h=5381; for(let i=0;i<t.length;i++) h=((h<<5)+h+t.charCodeAt(i))|0; return 'ctx-'+(h>>>0).toString(36); };
-const ctxHTML=c0=>{const c=ctxDoBaralho(c0); return c.contexto?`<div class="ctx hlz" data-hl="${ctxKey(c)}" data-an="an:${ctxKey(c)}"><div class="ctxh">Contexto do tema</div>${paras(c.contexto)}${visual(c.ctxvisual)}</div>`:'';};
+const ctxHTML=(c0,semRac)=>{const c=ctxDoBaralho(c0), r=semRac?'':racHTML(c0); return (r?`<div class="ctx ctxbase"><div class="ctxh">Contexto do tema</div>${r}</div>`:'')+(c.contexto?`<div class="ctx hlz" data-hl="${ctxKey(c)}" data-an="an:${ctxKey(c)}"><div class="ctxh">Contexto do tema</div>${paras(c.contexto)}${visual(c.ctxvisual)}</div>`:'');};
 const macHTML=c=>c.macete?`<div class="mac"><b>🧠 Macete · </b>${inlBr(c.macete)}</div>`:'';
 /* card "digitar": compara a resposta digitada (sem acento, maiúscula, pontuação; tolera erro de digitação) */
 /* ===== correção do card de digitar (tolerante) =====
@@ -1145,7 +1149,7 @@ function abrirMat(x){
   fecharMat(true);
   const d=document.createElement('div'); d.id='mat';
   const bt=()=>{ const l=matLido(x); return `<button class="mlido ${l?'on':''}" id="mlido">${l?'✓ Lido':'Marcar como lido'}</button>`; };
-  d.innerHTML=`<div class="mpn"><div class="mbar"><button class="mvolta" id="mvolta" aria-label="Voltar" title="Voltar (Esc)">←</button><div class="mtt"><small>${esc(x.area)} › ${esc(x.tema)}</small><b>${esc(x.sub)}</b></div>${bt()}</div><div class="mbody">${ctxHTML(x)}</div></div>`;
+  d.innerHTML=`<div class="mpn"><div class="mbar"><button class="mvolta" id="mvolta" aria-label="Voltar" title="Voltar (Esc)">←</button><div class="mtt"><small>${esc(x.area)} › ${esc(x.tema)}</small><b>${esc(x.sub)}</b></div>${bt()}</div><div class="mbody">${ctxHTML(x,true)}</div></div>`;
   d.onclick=e=>{ if(e.target===d) fecharMat(); };
   document.body.appendChild(d); document.body.style.overflow='hidden'; document.body.classList.add('matab');
   $('#mvolta').onclick=()=>fecharMat();
@@ -2134,12 +2138,14 @@ function frenteHTML(c){
   return `<div class="q serif">${inlBr(c.frente)}</div>${c.fvis?visual(c.fvis):''}`;
 }
 /* resposta principal (1º bloco, sem tópicos/rótulo) em destaque; o resto é explicação */
-function versoHTML(v,vb){
-  /* bloco "Raciocínio:" no início do verso (+ esquemas com "base":true) = a base para entender antes da resposta */
-  let base=''; const mr=String(v||'').match(/^\s*Racioc[ií]nio:\s*\n((?:[ \t]*[-•◦][^\n]*(?:\n|$))+)\s*/);
-  if(mr) v=String(v).slice(mr[0].length);
-  if(mr||vb) base=`<div class="base"><div class="bt">🔎 Raciocínio</div>${mr?paras(mr[1].trim()):''}${vb||''}</div>`;
-  return base+versoResp(v);
+/* bloco "Raciocínio:" no início do verso (+ esquemas "base":true) → aparece no TOPO do contexto do tema; ao virar, a 1ª coisa é a resposta curta */
+const RAC_RE=/^\s*Racioc[ií]nio:\s*\n((?:[ \t]*[-•◦][^\n]*(?:\n|$))+)\s*/;
+function versoHTML(v){ const mr=String(v||'').match(RAC_RE); return versoResp(mr?String(v).slice(mr[0].length):v); }
+function racHTML(c){
+  if(!c||!c.verso) return '';
+  const mr=String(c.verso).match(RAC_RE), vs=c.visual?(Array.isArray(c.visual)?c.visual:[c.visual]):[], vb=vs.filter(x=>x&&x.base);
+  if(!mr&&!vb.length) return '';
+  return `<div class="base"><div class="bt">🔎 Raciocínio · a base para entender</div>${mr?paras(mr[1].trim()):''}${vb.length?visual(vb):''}</div>`;
 }
 function versoResp(v){
   const bl=String(v||'').split(/\n\s*\n/), b0=(bl[0]||'').trim(), ls=b0.split('\n').map(x=>x.trim()).filter(Boolean);
@@ -2151,8 +2157,8 @@ function versoResp(v){
 function respHTML(c){
   if(c.tipo==='cloze') return `<div class="czq">${clozeHTML(c.texto,c.n,true)}</div>${c.verso?paras(c.verso):''}${visual(c.visual)}`;
   if(c.tipo==='io') return `<div class="q serif">${inlBr(c.perg||'O que está oculto?')}</div>${ioHTML(c,true)}${c.verso?paras(c.verso):''}`;
-  const vs=c.visual?(Array.isArray(c.visual)?c.visual:[c.visual]):[], vb=vs.filter(x=>x&&x.base), vr=vs.filter(x=>!(x&&x.base));
-  return versoHTML(c.verso,vb.length?visual(vb):'')+(vr.length?visual(vr):'');
+  const vs=c.visual?(Array.isArray(c.visual)?c.visual:[c.visual]):[], vr=vs.filter(x=>!(x&&x.base));
+  return versoHTML(c.verso)+(vr.length?visual(vr):'');
 }
 const ehFrenteOculta=c=>c.tipo==='cloze'||c.tipo==='io';
 /* contexto do baralho para cards criados por ela */
