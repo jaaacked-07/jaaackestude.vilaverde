@@ -58239,6 +58239,1785 @@
    ],
    "fonte": "AHA — ACLS Guidelines (2020, atualização 2025) / SBC — Diretriz de Arritmias / Diretriz Brasileira de Telemetria e ECG (2022)",
    "add": "2026-10-28"
+  },
+  {
+   "id": "dneu-01",
+   "tipo": "flash",
+   "area": "Clínica Médica",
+   "tema": "Neurologia",
+   "sub": "Dor — classificação e dor neuropática",
+   "frente": "Dor em queimação e formigamento, desproporcional à lesão: que tipo de dor?",
+   "verso": "**Dor neuropática.**\n\nOutras pistas:\n- Alodinia e disestesia.\n- Distribuição de nervo ou dermátomo.\n- Após trauma, herpes zoster, diabetes.",
+   "macete": "Neuropática \"QUEIMA e FORMIGA\".",
+   "visual": {
+    "tipo": "vs",
+    "a": {
+     "t": "Visceral",
+     "itens": [
+      "Vaga, surda",
+      "Referida a distância",
+      "Distensão/espasmo de víscera"
+     ]
+    },
+    "b": {
+     "t": "Somática",
+     "itens": [
+      "Bem localizada",
+      "Inflamação/lesão do tecido",
+      "Pontada, latejante"
+     ]
+    }
+   },
+   "pegadinha": "Dor vaga e referida a distância é VISCERAL, não neuropática.",
+   "uerj": "VV 2024 (Q20): classificar a dor pela qualidade sensitiva.",
+   "prio": "media",
+   "contexto": "**Dor = experiência sensitiva e emocional desagradável associada (ou semelhante) a lesão tecidual real ou potencial (IASP 2020); classificar o tipo orienta o tratamento.**\n\nTipos pelo mecanismo:\n- **Nociceptiva somática** → pele, músculo, osso; **bem localizada**, em pontada/latejante; ligada à inflamação/lesão\n- **Nociceptiva visceral** → órgãos ocos/cápsulas; **vaga, surda, mal localizada**, muitas vezes **referida** a distância; cólica por distensão/espasmo; sintomas autonômicos\n- **Neuropática** → lesão ou doença do sistema nervoso somatossensitivo\n  - Queimação, choque, formigamento, agulhadas\n  - **Disestesia, alodinia** (dor a estímulo não doloroso), hiperalgesia\n  - Distribuição de nervo/dermátomo; dor **desproporcional à lesão tecidual**\n  - Ex.: neuropatia diabética, neuralgia pós-herpética, trigeminal, pós-trauma/cirurgia, dor do membro fantasma\n- **Nociplástica** → alteração do processamento da dor sem lesão evidente (ex.: fibromialgia)\n\nPela duração:\n- Aguda (< 3 meses) × crônica (≥ 3 meses)\n\nTratamento da dor nociceptiva:\n- Escada analgésica da OMS → 1º degrau analgésico simples/AINE; 2º opioide fraco (tramadol, codeína); 3º opioide forte (morfina) ± adjuvantes\n\nTratamento da dor neuropática (1ª linha):\n- **Gabapentinoides** (gabapentina, pregabalina)\n- **Antidepressivo tricíclico** (amitriptilina) ou **IRSN** (duloxetina, venlafaxina)\n- Tópicos para dor localizada → lidocaína, capsaicina\n- **Neuralgia do trigêmeo → carbamazepina**\n- Analgésicos comuns e AINE funcionam MAL na neuropática\n\nO que mais cai no Vila Verde:\n- VV 2024 → dor em queimação e formigamento no braço 6 meses após acidente: neuropática (vaga, desproporcional à lesão, disestesia); distratores descreviam dor visceral (vaga, referida) e somática (bem localizada).",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "cab": [
+      "",
+      "Somática",
+      "Visceral",
+      "Neuropática"
+     ],
+     "linhas": [
+      [
+       "Localização",
+       "Bem localizada",
+       "Vaga, referida",
+       "Trajeto do nervo"
+      ],
+      [
+       "Caráter",
+       "Pontada, latejante",
+       "Surda, cólica",
+       "Queimação, choque, formigamento"
+      ],
+      [
+       "Extra",
+       "Piora ao movimento",
+       "Náusea, sudorese",
+       "Alodinia, disestesia"
+      ],
+      [
+       "Tratamento",
+       "Analgésico, AINE, opioide",
+       "Analgésico, antiespasmódico",
+       "!Gabapentinoide, tricíclico, IRSN"
+      ]
+     ]
+    },
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "DN4 (dor neuropática)",
+      "Critério",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "Entrevista (7 itens)",
+       "Queimação, frio doloroso, choque, formigamento, alfinetada, dormência, coceira — 1 ponto cada",
+       "Somar"
+      ],
+      [
+       "Exame (3 itens)",
+       "Hipoestesia ao toque, hipoestesia à picada, dor à escovação (alodinia) — 1 ponto cada",
+       "Somar"
+      ],
+      [
+       "Total ≥ 4 de 10 pontos",
+       "Dor neuropática provável",
+       "Tratar como neuropática (gabapentinoide, tricíclico, IRSN)"
+      ],
+      [
+       "Total < 4 pontos",
+       "Neuropática improvável",
+       "Tratar como nociceptiva"
+      ]
+     ]
+    }
+   ],
+   "fonte": "IASP — Revised definition of pain (2020) / NeuPSIG — Pharmacotherapy for neuropathic pain (Finnerup, Lancet Neurol 2015) / SBED — Consenso de dor neuropática (2018)",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "dneu-02",
+   "tipo": "flash",
+   "area": "Clínica Médica",
+   "tema": "Neurologia",
+   "sub": "Dor — classificação e dor neuropática",
+   "frente": "Dor neuropática: 1ª linha de tratamento",
+   "verso": "**Gabapentinoide (gabapentina, pregabalina).**\n**Tricíclico (amitriptilina) ou IRSN (duloxetina).**\n\nCasos especiais:\n- Neuralgia do trigêmeo → carbamazepina.\n- Dor localizada → lidocaína ou capsaicina tópica.",
+   "macete": "Neuropática = \"GAD\": Gabapentina, Amitriptilina, Duloxetina.",
+   "visual": {
+    "tipo": "fluxo",
+    "passos": [
+     "Dor neuropática (DN4 ≥ 4)",
+     "1ª linha: gabapentinoide ou tricíclico ou IRSN",
+     "2ª linha: tramadol, tópicos",
+     "3ª linha: opioide forte, toxina botulínica"
+    ]
+   },
+   "pegadinha": "AINE e paracetamol funcionam mal na dor neuropática.",
+   "prio": "media",
+   "contexto": "**Dor = experiência sensitiva e emocional desagradável associada (ou semelhante) a lesão tecidual real ou potencial (IASP 2020); classificar o tipo orienta o tratamento.**\n\nTipos pelo mecanismo:\n- **Nociceptiva somática** → pele, músculo, osso; **bem localizada**, em pontada/latejante; ligada à inflamação/lesão\n- **Nociceptiva visceral** → órgãos ocos/cápsulas; **vaga, surda, mal localizada**, muitas vezes **referida** a distância; cólica por distensão/espasmo; sintomas autonômicos\n- **Neuropática** → lesão ou doença do sistema nervoso somatossensitivo\n  - Queimação, choque, formigamento, agulhadas\n  - **Disestesia, alodinia** (dor a estímulo não doloroso), hiperalgesia\n  - Distribuição de nervo/dermátomo; dor **desproporcional à lesão tecidual**\n  - Ex.: neuropatia diabética, neuralgia pós-herpética, trigeminal, pós-trauma/cirurgia, dor do membro fantasma\n- **Nociplástica** → alteração do processamento da dor sem lesão evidente (ex.: fibromialgia)\n\nPela duração:\n- Aguda (< 3 meses) × crônica (≥ 3 meses)\n\nTratamento da dor nociceptiva:\n- Escada analgésica da OMS → 1º degrau analgésico simples/AINE; 2º opioide fraco (tramadol, codeína); 3º opioide forte (morfina) ± adjuvantes\n\nTratamento da dor neuropática (1ª linha):\n- **Gabapentinoides** (gabapentina, pregabalina)\n- **Antidepressivo tricíclico** (amitriptilina) ou **IRSN** (duloxetina, venlafaxina)\n- Tópicos para dor localizada → lidocaína, capsaicina\n- **Neuralgia do trigêmeo → carbamazepina**\n- Analgésicos comuns e AINE funcionam MAL na neuropática\n\nO que mais cai no Vila Verde:\n- VV 2024 → dor em queimação e formigamento no braço 6 meses após acidente: neuropática (vaga, desproporcional à lesão, disestesia); distratores descreviam dor visceral (vaga, referida) e somática (bem localizada).",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "cab": [
+      "",
+      "Somática",
+      "Visceral",
+      "Neuropática"
+     ],
+     "linhas": [
+      [
+       "Localização",
+       "Bem localizada",
+       "Vaga, referida",
+       "Trajeto do nervo"
+      ],
+      [
+       "Caráter",
+       "Pontada, latejante",
+       "Surda, cólica",
+       "Queimação, choque, formigamento"
+      ],
+      [
+       "Extra",
+       "Piora ao movimento",
+       "Náusea, sudorese",
+       "Alodinia, disestesia"
+      ],
+      [
+       "Tratamento",
+       "Analgésico, AINE, opioide",
+       "Analgésico, antiespasmódico",
+       "!Gabapentinoide, tricíclico, IRSN"
+      ]
+     ]
+    },
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "DN4 (dor neuropática)",
+      "Critério",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "Entrevista (7 itens)",
+       "Queimação, frio doloroso, choque, formigamento, alfinetada, dormência, coceira — 1 ponto cada",
+       "Somar"
+      ],
+      [
+       "Exame (3 itens)",
+       "Hipoestesia ao toque, hipoestesia à picada, dor à escovação (alodinia) — 1 ponto cada",
+       "Somar"
+      ],
+      [
+       "Total ≥ 4 de 10 pontos",
+       "Dor neuropática provável",
+       "Tratar como neuropática (gabapentinoide, tricíclico, IRSN)"
+      ],
+      [
+       "Total < 4 pontos",
+       "Neuropática improvável",
+       "Tratar como nociceptiva"
+      ]
+     ]
+    }
+   ],
+   "fonte": "IASP — Revised definition of pain (2020) / NeuPSIG — Pharmacotherapy for neuropathic pain (Finnerup, Lancet Neurol 2015) / SBED — Consenso de dor neuropática (2018)",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "dneu-q1",
+   "tipo": "quiz",
+   "area": "Clínica Médica",
+   "tema": "Neurologia",
+   "sub": "Dor — classificação e dor neuropática",
+   "frente": "Mulher de 45 anos com dor persistente no braço direito 6 meses após acidente de carro, descrita como queimação e formigamento. A classificação mais provável da dor é:",
+   "opcoes": [
+    "Aguda, associada a distensão ou espasmo de víscera oca.",
+    "Bem localizada, associada à inflamação de um órgão.",
+    "Surda e profunda, referida a local distante da lesão.",
+    "Vaga, desproporcional à lesão tecidual, com disestesia (neuropática)."
+   ],
+   "certa": 3,
+   "comentarios": [
+    "Visceral (cólica).",
+    "Somática.",
+    "Visceral referida.",
+    "Correta."
+   ],
+   "macete": "\"Queima e formiga\" = neuropática.",
+   "pegadinha": "O tempo (6 meses) também a torna crônica.",
+   "uerj": "VV 2024 (Q20).",
+   "prio": "media",
+   "contexto": "**Dor = experiência sensitiva e emocional desagradável associada (ou semelhante) a lesão tecidual real ou potencial (IASP 2020); classificar o tipo orienta o tratamento.**\n\nTipos pelo mecanismo:\n- **Nociceptiva somática** → pele, músculo, osso; **bem localizada**, em pontada/latejante; ligada à inflamação/lesão\n- **Nociceptiva visceral** → órgãos ocos/cápsulas; **vaga, surda, mal localizada**, muitas vezes **referida** a distância; cólica por distensão/espasmo; sintomas autonômicos\n- **Neuropática** → lesão ou doença do sistema nervoso somatossensitivo\n  - Queimação, choque, formigamento, agulhadas\n  - **Disestesia, alodinia** (dor a estímulo não doloroso), hiperalgesia\n  - Distribuição de nervo/dermátomo; dor **desproporcional à lesão tecidual**\n  - Ex.: neuropatia diabética, neuralgia pós-herpética, trigeminal, pós-trauma/cirurgia, dor do membro fantasma\n- **Nociplástica** → alteração do processamento da dor sem lesão evidente (ex.: fibromialgia)\n\nPela duração:\n- Aguda (< 3 meses) × crônica (≥ 3 meses)\n\nTratamento da dor nociceptiva:\n- Escada analgésica da OMS → 1º degrau analgésico simples/AINE; 2º opioide fraco (tramadol, codeína); 3º opioide forte (morfina) ± adjuvantes\n\nTratamento da dor neuropática (1ª linha):\n- **Gabapentinoides** (gabapentina, pregabalina)\n- **Antidepressivo tricíclico** (amitriptilina) ou **IRSN** (duloxetina, venlafaxina)\n- Tópicos para dor localizada → lidocaína, capsaicina\n- **Neuralgia do trigêmeo → carbamazepina**\n- Analgésicos comuns e AINE funcionam MAL na neuropática\n\nO que mais cai no Vila Verde:\n- VV 2024 → dor em queimação e formigamento no braço 6 meses após acidente: neuropática (vaga, desproporcional à lesão, disestesia); distratores descreviam dor visceral (vaga, referida) e somática (bem localizada).",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "cab": [
+      "",
+      "Somática",
+      "Visceral",
+      "Neuropática"
+     ],
+     "linhas": [
+      [
+       "Localização",
+       "Bem localizada",
+       "Vaga, referida",
+       "Trajeto do nervo"
+      ],
+      [
+       "Caráter",
+       "Pontada, latejante",
+       "Surda, cólica",
+       "Queimação, choque, formigamento"
+      ],
+      [
+       "Extra",
+       "Piora ao movimento",
+       "Náusea, sudorese",
+       "Alodinia, disestesia"
+      ],
+      [
+       "Tratamento",
+       "Analgésico, AINE, opioide",
+       "Analgésico, antiespasmódico",
+       "!Gabapentinoide, tricíclico, IRSN"
+      ]
+     ]
+    },
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "DN4 (dor neuropática)",
+      "Critério",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "Entrevista (7 itens)",
+       "Queimação, frio doloroso, choque, formigamento, alfinetada, dormência, coceira — 1 ponto cada",
+       "Somar"
+      ],
+      [
+       "Exame (3 itens)",
+       "Hipoestesia ao toque, hipoestesia à picada, dor à escovação (alodinia) — 1 ponto cada",
+       "Somar"
+      ],
+      [
+       "Total ≥ 4 de 10 pontos",
+       "Dor neuropática provável",
+       "Tratar como neuropática (gabapentinoide, tricíclico, IRSN)"
+      ],
+      [
+       "Total < 4 pontos",
+       "Neuropática improvável",
+       "Tratar como nociceptiva"
+      ]
+     ]
+    }
+   ],
+   "fonte": "IASP — Revised definition of pain (2020) / NeuPSIG — Pharmacotherapy for neuropathic pain (Finnerup, Lancet Neurol 2015) / SBED — Consenso de dor neuropática (2018)",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "dneu-d1",
+   "tipo": "digitar",
+   "area": "Clínica Médica",
+   "tema": "Neurologia",
+   "sub": "Dor — classificação e dor neuropática",
+   "frente": "Qual a droga de escolha na neuralgia do trigêmeo?",
+   "verso": "**Carbamazepina.**\n\n- Alternativa → oxcarbazepina.",
+   "resposta": "Carbamazepina",
+   "aceitas": [
+    "carbamazepina",
+    "tegretol"
+   ],
+   "macete": "Trigêmeo → \"Carba\" (o choque no rosto).",
+   "prio": "media",
+   "contexto": "**Dor = experiência sensitiva e emocional desagradável associada (ou semelhante) a lesão tecidual real ou potencial (IASP 2020); classificar o tipo orienta o tratamento.**\n\nTipos pelo mecanismo:\n- **Nociceptiva somática** → pele, músculo, osso; **bem localizada**, em pontada/latejante; ligada à inflamação/lesão\n- **Nociceptiva visceral** → órgãos ocos/cápsulas; **vaga, surda, mal localizada**, muitas vezes **referida** a distância; cólica por distensão/espasmo; sintomas autonômicos\n- **Neuropática** → lesão ou doença do sistema nervoso somatossensitivo\n  - Queimação, choque, formigamento, agulhadas\n  - **Disestesia, alodinia** (dor a estímulo não doloroso), hiperalgesia\n  - Distribuição de nervo/dermátomo; dor **desproporcional à lesão tecidual**\n  - Ex.: neuropatia diabética, neuralgia pós-herpética, trigeminal, pós-trauma/cirurgia, dor do membro fantasma\n- **Nociplástica** → alteração do processamento da dor sem lesão evidente (ex.: fibromialgia)\n\nPela duração:\n- Aguda (< 3 meses) × crônica (≥ 3 meses)\n\nTratamento da dor nociceptiva:\n- Escada analgésica da OMS → 1º degrau analgésico simples/AINE; 2º opioide fraco (tramadol, codeína); 3º opioide forte (morfina) ± adjuvantes\n\nTratamento da dor neuropática (1ª linha):\n- **Gabapentinoides** (gabapentina, pregabalina)\n- **Antidepressivo tricíclico** (amitriptilina) ou **IRSN** (duloxetina, venlafaxina)\n- Tópicos para dor localizada → lidocaína, capsaicina\n- **Neuralgia do trigêmeo → carbamazepina**\n- Analgésicos comuns e AINE funcionam MAL na neuropática\n\nO que mais cai no Vila Verde:\n- VV 2024 → dor em queimação e formigamento no braço 6 meses após acidente: neuropática (vaga, desproporcional à lesão, disestesia); distratores descreviam dor visceral (vaga, referida) e somática (bem localizada).",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "cab": [
+      "",
+      "Somática",
+      "Visceral",
+      "Neuropática"
+     ],
+     "linhas": [
+      [
+       "Localização",
+       "Bem localizada",
+       "Vaga, referida",
+       "Trajeto do nervo"
+      ],
+      [
+       "Caráter",
+       "Pontada, latejante",
+       "Surda, cólica",
+       "Queimação, choque, formigamento"
+      ],
+      [
+       "Extra",
+       "Piora ao movimento",
+       "Náusea, sudorese",
+       "Alodinia, disestesia"
+      ],
+      [
+       "Tratamento",
+       "Analgésico, AINE, opioide",
+       "Analgésico, antiespasmódico",
+       "!Gabapentinoide, tricíclico, IRSN"
+      ]
+     ]
+    },
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "DN4 (dor neuropática)",
+      "Critério",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "Entrevista (7 itens)",
+       "Queimação, frio doloroso, choque, formigamento, alfinetada, dormência, coceira — 1 ponto cada",
+       "Somar"
+      ],
+      [
+       "Exame (3 itens)",
+       "Hipoestesia ao toque, hipoestesia à picada, dor à escovação (alodinia) — 1 ponto cada",
+       "Somar"
+      ],
+      [
+       "Total ≥ 4 de 10 pontos",
+       "Dor neuropática provável",
+       "Tratar como neuropática (gabapentinoide, tricíclico, IRSN)"
+      ],
+      [
+       "Total < 4 pontos",
+       "Neuropática improvável",
+       "Tratar como nociceptiva"
+      ]
+     ]
+    }
+   ],
+   "fonte": "IASP — Revised definition of pain (2020) / NeuPSIG — Pharmacotherapy for neuropathic pain (Finnerup, Lancet Neurol 2015) / SBED — Consenso de dor neuropática (2018)",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "dneu-d2",
+   "tipo": "digitar",
+   "area": "Clínica Médica",
+   "tema": "Neurologia",
+   "sub": "Dor — classificação e dor neuropática",
+   "frente": "Como se chama a dor provocada por estímulo normalmente não doloroso?",
+   "verso": "**Alodinia.**\n\n- Típica da dor neuropática.",
+   "resposta": "Alodinia",
+   "aceitas": [
+    "alodínia",
+    "alodinia"
+   ],
+   "macete": "Alo = \"outro\": o toque vira dor.",
+   "prio": "media",
+   "contexto": "**Dor = experiência sensitiva e emocional desagradável associada (ou semelhante) a lesão tecidual real ou potencial (IASP 2020); classificar o tipo orienta o tratamento.**\n\nTipos pelo mecanismo:\n- **Nociceptiva somática** → pele, músculo, osso; **bem localizada**, em pontada/latejante; ligada à inflamação/lesão\n- **Nociceptiva visceral** → órgãos ocos/cápsulas; **vaga, surda, mal localizada**, muitas vezes **referida** a distância; cólica por distensão/espasmo; sintomas autonômicos\n- **Neuropática** → lesão ou doença do sistema nervoso somatossensitivo\n  - Queimação, choque, formigamento, agulhadas\n  - **Disestesia, alodinia** (dor a estímulo não doloroso), hiperalgesia\n  - Distribuição de nervo/dermátomo; dor **desproporcional à lesão tecidual**\n  - Ex.: neuropatia diabética, neuralgia pós-herpética, trigeminal, pós-trauma/cirurgia, dor do membro fantasma\n- **Nociplástica** → alteração do processamento da dor sem lesão evidente (ex.: fibromialgia)\n\nPela duração:\n- Aguda (< 3 meses) × crônica (≥ 3 meses)\n\nTratamento da dor nociceptiva:\n- Escada analgésica da OMS → 1º degrau analgésico simples/AINE; 2º opioide fraco (tramadol, codeína); 3º opioide forte (morfina) ± adjuvantes\n\nTratamento da dor neuropática (1ª linha):\n- **Gabapentinoides** (gabapentina, pregabalina)\n- **Antidepressivo tricíclico** (amitriptilina) ou **IRSN** (duloxetina, venlafaxina)\n- Tópicos para dor localizada → lidocaína, capsaicina\n- **Neuralgia do trigêmeo → carbamazepina**\n- Analgésicos comuns e AINE funcionam MAL na neuropática\n\nO que mais cai no Vila Verde:\n- VV 2024 → dor em queimação e formigamento no braço 6 meses após acidente: neuropática (vaga, desproporcional à lesão, disestesia); distratores descreviam dor visceral (vaga, referida) e somática (bem localizada).",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "cab": [
+      "",
+      "Somática",
+      "Visceral",
+      "Neuropática"
+     ],
+     "linhas": [
+      [
+       "Localização",
+       "Bem localizada",
+       "Vaga, referida",
+       "Trajeto do nervo"
+      ],
+      [
+       "Caráter",
+       "Pontada, latejante",
+       "Surda, cólica",
+       "Queimação, choque, formigamento"
+      ],
+      [
+       "Extra",
+       "Piora ao movimento",
+       "Náusea, sudorese",
+       "Alodinia, disestesia"
+      ],
+      [
+       "Tratamento",
+       "Analgésico, AINE, opioide",
+       "Analgésico, antiespasmódico",
+       "!Gabapentinoide, tricíclico, IRSN"
+      ]
+     ]
+    },
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "DN4 (dor neuropática)",
+      "Critério",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "Entrevista (7 itens)",
+       "Queimação, frio doloroso, choque, formigamento, alfinetada, dormência, coceira — 1 ponto cada",
+       "Somar"
+      ],
+      [
+       "Exame (3 itens)",
+       "Hipoestesia ao toque, hipoestesia à picada, dor à escovação (alodinia) — 1 ponto cada",
+       "Somar"
+      ],
+      [
+       "Total ≥ 4 de 10 pontos",
+       "Dor neuropática provável",
+       "Tratar como neuropática (gabapentinoide, tricíclico, IRSN)"
+      ],
+      [
+       "Total < 4 pontos",
+       "Neuropática improvável",
+       "Tratar como nociceptiva"
+      ]
+     ]
+    }
+   ],
+   "fonte": "IASP — Revised definition of pain (2020) / NeuPSIG — Pharmacotherapy for neuropathic pain (Finnerup, Lancet Neurol 2015) / SBED — Consenso de dor neuropática (2018)",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "prl-01",
+   "tipo": "flash",
+   "area": "Clínica Médica",
+   "tema": "Endocrinologia",
+   "sub": "Hiperprolactinemia e prolactinoma",
+   "frente": "Por que a hiperprolactinemia causa amenorreia?",
+   "verso": "**Inibe a pulsatilidade do GnRH.**\n**→ LH e FSH baixos (hipogonadismo hipogonadotrófico).**\n\nConsequências:\n- Anovulação, infertilidade.\n- Perda de libido.\n- Osteoporose.",
+   "macete": "\"Prolactina manda o ovário dormir\" (como na amamentação).",
+   "visual": {
+    "tipo": "vs",
+    "a": {
+     "t": "Mulher",
+     "itens": [
+      "Amenorreia",
+      "Galactorreia",
+      "Infertilidade"
+     ]
+    },
+    "b": {
+     "t": "Homem",
+     "itens": [
+      "↓ Libido, disfunção erétil",
+      "Ginecomastia",
+      "Mais macroadenoma"
+     ]
+    }
+   },
+   "pegadinha": "PRL NÃO estimula LH/FSH e DIMINUI a libido.",
+   "uerj": "VV 2024 (Q17).",
+   "prio": "media",
+   "contexto": "**Hiperprolactinemia = prolactina (PRL) elevada; causa amenorreia, galactorreia e infertilidade na mulher e hipogonadismo/disfunção erétil no homem.**\n\nFisiologia:\n- A **dopamina** hipotalâmica INIBE a PRL (via haste hipofisária)\n- PRL alta **inibe a pulsatilidade do GnRH** → LH e FSH baixos → **hipogonadismo hipogonadotrófico**\n\nCausas (excluir antes de chamar de tumor):\n- Fisiológicas → **gravidez**, amamentação, estresse, estimulação mamilar, sono\n- **Medicamentos** (a causa não fisiológica mais comum) → **antipsicóticos** (risperidona, haloperidol), metoclopramida, domperidona, ADT, metildopa, verapamil, opioides\n- **Hipotireoidismo primário** (TRH estimula PRL), DRC, cirrose\n- Lesões que comprimem a haste (efeito haste; PRL em geral < 100–150)\n- **Prolactinoma** → o tumor hipofisário funcionante mais comum\n- Macroprolactinemia (forma inativa; pesquisar com PEG se assintomática)\n\nClínica:\n- Mulher → amenorreia/oligomenorreia, **galactorreia**, infertilidade, perda de libido, osteoporose\n- Homem → **diminuição da libido**, disfunção erétil, ginecomastia; diagnóstico tardio, mais macroadenomas\n- Macroadenoma (≥ 1 cm) → cefaleia, **hemianopsia bitemporal** (quiasma), hipopituitarismo\n\nDiagnóstico:\n- PRL sérica (repetir se discreta); excluir gravidez (β-hCG), TSH, função renal, drogas\n- PRL > 250 ng/mL sugere prolactinoma (> 500 → macroprolactinoma)\n- **RM de sela túrcica**\n- **Efeito gancho (hook)** → macroadenoma grande com PRL falsamente baixa → diluir a amostra\n\nTratamento:\n- **Agonista dopaminérgico: cabergolina** (1ª escolha; melhor tolerância) ou bromocriptina (preferida por alguns na gestação)\n- Trata inclusive o macroadenoma com compressão visual (reduz o tumor)\n- Cirurgia transesfenoidal → intolerância/resistência, apoplexia\n- Microadenoma assintomático pós-menopausa → pode só observar\n- Droga causadora → trocar/suspender se possível (no antipsicótico: trocar por aripiprazol, avaliado com o psiquiatra)\n\nO que mais cai no Vila Verde:\n- VV 2024 → mulher com amenorreia + galactorreia + adenoma: hiperprolactinemia causa hipogonadismo hipogonadotrófico por inibir a pulsatilidade do GnRH; distratores: PRL estimularia LH/FSH, aumentaria a libido.",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 172\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><rect x=\"110\" y=\"8\" width=\"120\" height=\"34\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"170.0\" y=\"24.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Hipotálamo</text><text x=\"170.0\" y=\"36.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">dopamina ⊣ PRL</text><line x1=\"170\" y1=\"42\" x2=\"170\" y2=\"60\" stroke=\"var(--rose)\" stroke-width=\"2\"/><rect x=\"110\" y=\"60\" width=\"120\" height=\"34\" rx=\"9\" fill=\"var(--wine)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"170.0\" y=\"76.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--card)\">Hipófise</text><text x=\"170.0\" y=\"88.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--card)\">prolactinoma</text><line x1=\"170\" y1=\"94\" x2=\"170\" y2=\"112\" stroke=\"var(--rose)\" stroke-width=\"2\"/><rect x=\"110\" y=\"112\" width=\"120\" height=\"30\" rx=\"9\" fill=\"var(--wine)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"170.0\" y=\"130.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--card)\">↑ Prolactina</text><path d=\"M110 127 C 40 120, 40 40, 108 25\" fill=\"none\" stroke=\"var(--bad)\" stroke-width=\"2\" stroke-dasharray=\"4 3\"/><text x=\"10\" y=\"80\" font-size=\"9.5\" fill=\"var(--bad)\">inibe GnRH</text><line x1=\"230\" y1=\"127\" x2=\"250\" y2=\"127\" stroke=\"var(--rose)\"/><rect x=\"250\" y=\"108\" width=\"84\" height=\"40\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"292.0\" y=\"127.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">↓ LH/FSH</text><text x=\"292.0\" y=\"139.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">hipogonadismo</text><text x=\"170\" y=\"164\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--mute)\">Amenorreia + galactorreia → PRL, β-hCG, TSH, RM de sela</text></svg>",
+     "legenda": "Hiperprolactinemia: hipogonadismo hipogonadotrófico"
+    }
+   ],
+   "fonte": "Endocrine Society — Diagnosis and Treatment of Hyperprolactinemia (2011) / Pituitary Society — Consensus on prolactinomas (2023) / SBEM",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "prl-02",
+   "tipo": "flash",
+   "area": "Clínica Médica",
+   "tema": "Endocrinologia",
+   "sub": "Hiperprolactinemia e prolactinoma",
+   "frente": "Prolactinoma: tratamento de 1ª escolha",
+   "verso": "**Agonista dopaminérgico: cabergolina.**\n\nMesmo no macroadenoma:\n- Reduz o tumor e melhora a compressão visual.\n\nCirurgia transesfenoidal:\n- Intolerância ou resistência à droga.\n- Apoplexia.",
+   "macete": "\"Cabergolina encolhe a cabeça (hipófise)\".",
+   "visual": {
+    "tipo": "lista",
+    "itens": [
+     "Antes de chamar de tumor, excluir:",
+     "!Gravidez (β-hCG)",
+     "!Drogas (antipsicótico, metoclopramida)",
+     "!Hipotireoidismo (TSH)",
+     "DRC, efeito haste, macroprolactina"
+    ]
+   },
+   "pegadinha": "Prolactinoma é a exceção: tumor hipofisário tratado com remédio, não cirurgia.",
+   "prio": "media",
+   "contexto": "**Hiperprolactinemia = prolactina (PRL) elevada; causa amenorreia, galactorreia e infertilidade na mulher e hipogonadismo/disfunção erétil no homem.**\n\nFisiologia:\n- A **dopamina** hipotalâmica INIBE a PRL (via haste hipofisária)\n- PRL alta **inibe a pulsatilidade do GnRH** → LH e FSH baixos → **hipogonadismo hipogonadotrófico**\n\nCausas (excluir antes de chamar de tumor):\n- Fisiológicas → **gravidez**, amamentação, estresse, estimulação mamilar, sono\n- **Medicamentos** (a causa não fisiológica mais comum) → **antipsicóticos** (risperidona, haloperidol), metoclopramida, domperidona, ADT, metildopa, verapamil, opioides\n- **Hipotireoidismo primário** (TRH estimula PRL), DRC, cirrose\n- Lesões que comprimem a haste (efeito haste; PRL em geral < 100–150)\n- **Prolactinoma** → o tumor hipofisário funcionante mais comum\n- Macroprolactinemia (forma inativa; pesquisar com PEG se assintomática)\n\nClínica:\n- Mulher → amenorreia/oligomenorreia, **galactorreia**, infertilidade, perda de libido, osteoporose\n- Homem → **diminuição da libido**, disfunção erétil, ginecomastia; diagnóstico tardio, mais macroadenomas\n- Macroadenoma (≥ 1 cm) → cefaleia, **hemianopsia bitemporal** (quiasma), hipopituitarismo\n\nDiagnóstico:\n- PRL sérica (repetir se discreta); excluir gravidez (β-hCG), TSH, função renal, drogas\n- PRL > 250 ng/mL sugere prolactinoma (> 500 → macroprolactinoma)\n- **RM de sela túrcica**\n- **Efeito gancho (hook)** → macroadenoma grande com PRL falsamente baixa → diluir a amostra\n\nTratamento:\n- **Agonista dopaminérgico: cabergolina** (1ª escolha; melhor tolerância) ou bromocriptina (preferida por alguns na gestação)\n- Trata inclusive o macroadenoma com compressão visual (reduz o tumor)\n- Cirurgia transesfenoidal → intolerância/resistência, apoplexia\n- Microadenoma assintomático pós-menopausa → pode só observar\n- Droga causadora → trocar/suspender se possível (no antipsicótico: trocar por aripiprazol, avaliado com o psiquiatra)\n\nO que mais cai no Vila Verde:\n- VV 2024 → mulher com amenorreia + galactorreia + adenoma: hiperprolactinemia causa hipogonadismo hipogonadotrófico por inibir a pulsatilidade do GnRH; distratores: PRL estimularia LH/FSH, aumentaria a libido.",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 172\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><rect x=\"110\" y=\"8\" width=\"120\" height=\"34\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"170.0\" y=\"24.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Hipotálamo</text><text x=\"170.0\" y=\"36.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">dopamina ⊣ PRL</text><line x1=\"170\" y1=\"42\" x2=\"170\" y2=\"60\" stroke=\"var(--rose)\" stroke-width=\"2\"/><rect x=\"110\" y=\"60\" width=\"120\" height=\"34\" rx=\"9\" fill=\"var(--wine)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"170.0\" y=\"76.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--card)\">Hipófise</text><text x=\"170.0\" y=\"88.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--card)\">prolactinoma</text><line x1=\"170\" y1=\"94\" x2=\"170\" y2=\"112\" stroke=\"var(--rose)\" stroke-width=\"2\"/><rect x=\"110\" y=\"112\" width=\"120\" height=\"30\" rx=\"9\" fill=\"var(--wine)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"170.0\" y=\"130.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--card)\">↑ Prolactina</text><path d=\"M110 127 C 40 120, 40 40, 108 25\" fill=\"none\" stroke=\"var(--bad)\" stroke-width=\"2\" stroke-dasharray=\"4 3\"/><text x=\"10\" y=\"80\" font-size=\"9.5\" fill=\"var(--bad)\">inibe GnRH</text><line x1=\"230\" y1=\"127\" x2=\"250\" y2=\"127\" stroke=\"var(--rose)\"/><rect x=\"250\" y=\"108\" width=\"84\" height=\"40\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"292.0\" y=\"127.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">↓ LH/FSH</text><text x=\"292.0\" y=\"139.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">hipogonadismo</text><text x=\"170\" y=\"164\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--mute)\">Amenorreia + galactorreia → PRL, β-hCG, TSH, RM de sela</text></svg>",
+     "legenda": "Hiperprolactinemia: hipogonadismo hipogonadotrófico"
+    }
+   ],
+   "fonte": "Endocrine Society — Diagnosis and Treatment of Hyperprolactinemia (2011) / Pituitary Society — Consensus on prolactinomas (2023) / SBEM",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "prl-q1",
+   "tipo": "quiz",
+   "area": "Clínica Médica",
+   "tema": "Endocrinologia",
+   "sub": "Hiperprolactinemia e prolactinoma",
+   "frente": "Mulher de 32 anos com amenorreia e galactorreia, prolactina elevada e adenoma hipofisário. Sobre as manifestações do prolactinoma, é CORRETO:",
+   "opcoes": [
+    "A hiperprolactinemia leva ao hipogonadismo hipogonadotrófico, principalmente por inibir a pulsatilidade do GnRH.",
+    "O aumento da prolactina geralmente estimula a produção de LH e FSH.",
+    "A hiperprolactinemia se associa a aumento da libido e da função sexual.",
+    "Galactorreia só ocorre em macroadenomas."
+   ],
+   "certa": 0,
+   "comentarios": [
+    "Correta.",
+    "Errada: inibe.",
+    "Errada: diminui.",
+    "Errada: ocorre também em microadenomas."
+   ],
+   "macete": "\"Prolactina manda o ovário dormir\".",
+   "pegadinha": "O antipsicótico é causa comum (relevante para a residência de psiquiatria).",
+   "uerj": "VV 2024 (Q17).",
+   "prio": "media",
+   "contexto": "**Hiperprolactinemia = prolactina (PRL) elevada; causa amenorreia, galactorreia e infertilidade na mulher e hipogonadismo/disfunção erétil no homem.**\n\nFisiologia:\n- A **dopamina** hipotalâmica INIBE a PRL (via haste hipofisária)\n- PRL alta **inibe a pulsatilidade do GnRH** → LH e FSH baixos → **hipogonadismo hipogonadotrófico**\n\nCausas (excluir antes de chamar de tumor):\n- Fisiológicas → **gravidez**, amamentação, estresse, estimulação mamilar, sono\n- **Medicamentos** (a causa não fisiológica mais comum) → **antipsicóticos** (risperidona, haloperidol), metoclopramida, domperidona, ADT, metildopa, verapamil, opioides\n- **Hipotireoidismo primário** (TRH estimula PRL), DRC, cirrose\n- Lesões que comprimem a haste (efeito haste; PRL em geral < 100–150)\n- **Prolactinoma** → o tumor hipofisário funcionante mais comum\n- Macroprolactinemia (forma inativa; pesquisar com PEG se assintomática)\n\nClínica:\n- Mulher → amenorreia/oligomenorreia, **galactorreia**, infertilidade, perda de libido, osteoporose\n- Homem → **diminuição da libido**, disfunção erétil, ginecomastia; diagnóstico tardio, mais macroadenomas\n- Macroadenoma (≥ 1 cm) → cefaleia, **hemianopsia bitemporal** (quiasma), hipopituitarismo\n\nDiagnóstico:\n- PRL sérica (repetir se discreta); excluir gravidez (β-hCG), TSH, função renal, drogas\n- PRL > 250 ng/mL sugere prolactinoma (> 500 → macroprolactinoma)\n- **RM de sela túrcica**\n- **Efeito gancho (hook)** → macroadenoma grande com PRL falsamente baixa → diluir a amostra\n\nTratamento:\n- **Agonista dopaminérgico: cabergolina** (1ª escolha; melhor tolerância) ou bromocriptina (preferida por alguns na gestação)\n- Trata inclusive o macroadenoma com compressão visual (reduz o tumor)\n- Cirurgia transesfenoidal → intolerância/resistência, apoplexia\n- Microadenoma assintomático pós-menopausa → pode só observar\n- Droga causadora → trocar/suspender se possível (no antipsicótico: trocar por aripiprazol, avaliado com o psiquiatra)\n\nO que mais cai no Vila Verde:\n- VV 2024 → mulher com amenorreia + galactorreia + adenoma: hiperprolactinemia causa hipogonadismo hipogonadotrófico por inibir a pulsatilidade do GnRH; distratores: PRL estimularia LH/FSH, aumentaria a libido.",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 172\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><rect x=\"110\" y=\"8\" width=\"120\" height=\"34\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"170.0\" y=\"24.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Hipotálamo</text><text x=\"170.0\" y=\"36.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">dopamina ⊣ PRL</text><line x1=\"170\" y1=\"42\" x2=\"170\" y2=\"60\" stroke=\"var(--rose)\" stroke-width=\"2\"/><rect x=\"110\" y=\"60\" width=\"120\" height=\"34\" rx=\"9\" fill=\"var(--wine)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"170.0\" y=\"76.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--card)\">Hipófise</text><text x=\"170.0\" y=\"88.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--card)\">prolactinoma</text><line x1=\"170\" y1=\"94\" x2=\"170\" y2=\"112\" stroke=\"var(--rose)\" stroke-width=\"2\"/><rect x=\"110\" y=\"112\" width=\"120\" height=\"30\" rx=\"9\" fill=\"var(--wine)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"170.0\" y=\"130.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--card)\">↑ Prolactina</text><path d=\"M110 127 C 40 120, 40 40, 108 25\" fill=\"none\" stroke=\"var(--bad)\" stroke-width=\"2\" stroke-dasharray=\"4 3\"/><text x=\"10\" y=\"80\" font-size=\"9.5\" fill=\"var(--bad)\">inibe GnRH</text><line x1=\"230\" y1=\"127\" x2=\"250\" y2=\"127\" stroke=\"var(--rose)\"/><rect x=\"250\" y=\"108\" width=\"84\" height=\"40\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"292.0\" y=\"127.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">↓ LH/FSH</text><text x=\"292.0\" y=\"139.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">hipogonadismo</text><text x=\"170\" y=\"164\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--mute)\">Amenorreia + galactorreia → PRL, β-hCG, TSH, RM de sela</text></svg>",
+     "legenda": "Hiperprolactinemia: hipogonadismo hipogonadotrófico"
+    }
+   ],
+   "fonte": "Endocrine Society — Diagnosis and Treatment of Hyperprolactinemia (2011) / Pituitary Society — Consensus on prolactinomas (2023) / SBEM",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "prl-d1",
+   "tipo": "digitar",
+   "area": "Clínica Médica",
+   "tema": "Endocrinologia",
+   "sub": "Hiperprolactinemia e prolactinoma",
+   "frente": "Qual a droga de 1ª escolha no prolactinoma?",
+   "verso": "**Cabergolina.**\n\n- Alternativa → bromocriptina.",
+   "resposta": "Cabergolina",
+   "aceitas": [
+    "cabergolina",
+    "agonista dopaminérgico"
+   ],
+   "macete": "Cabergolina encolhe.",
+   "prio": "media",
+   "contexto": "**Hiperprolactinemia = prolactina (PRL) elevada; causa amenorreia, galactorreia e infertilidade na mulher e hipogonadismo/disfunção erétil no homem.**\n\nFisiologia:\n- A **dopamina** hipotalâmica INIBE a PRL (via haste hipofisária)\n- PRL alta **inibe a pulsatilidade do GnRH** → LH e FSH baixos → **hipogonadismo hipogonadotrófico**\n\nCausas (excluir antes de chamar de tumor):\n- Fisiológicas → **gravidez**, amamentação, estresse, estimulação mamilar, sono\n- **Medicamentos** (a causa não fisiológica mais comum) → **antipsicóticos** (risperidona, haloperidol), metoclopramida, domperidona, ADT, metildopa, verapamil, opioides\n- **Hipotireoidismo primário** (TRH estimula PRL), DRC, cirrose\n- Lesões que comprimem a haste (efeito haste; PRL em geral < 100–150)\n- **Prolactinoma** → o tumor hipofisário funcionante mais comum\n- Macroprolactinemia (forma inativa; pesquisar com PEG se assintomática)\n\nClínica:\n- Mulher → amenorreia/oligomenorreia, **galactorreia**, infertilidade, perda de libido, osteoporose\n- Homem → **diminuição da libido**, disfunção erétil, ginecomastia; diagnóstico tardio, mais macroadenomas\n- Macroadenoma (≥ 1 cm) → cefaleia, **hemianopsia bitemporal** (quiasma), hipopituitarismo\n\nDiagnóstico:\n- PRL sérica (repetir se discreta); excluir gravidez (β-hCG), TSH, função renal, drogas\n- PRL > 250 ng/mL sugere prolactinoma (> 500 → macroprolactinoma)\n- **RM de sela túrcica**\n- **Efeito gancho (hook)** → macroadenoma grande com PRL falsamente baixa → diluir a amostra\n\nTratamento:\n- **Agonista dopaminérgico: cabergolina** (1ª escolha; melhor tolerância) ou bromocriptina (preferida por alguns na gestação)\n- Trata inclusive o macroadenoma com compressão visual (reduz o tumor)\n- Cirurgia transesfenoidal → intolerância/resistência, apoplexia\n- Microadenoma assintomático pós-menopausa → pode só observar\n- Droga causadora → trocar/suspender se possível (no antipsicótico: trocar por aripiprazol, avaliado com o psiquiatra)\n\nO que mais cai no Vila Verde:\n- VV 2024 → mulher com amenorreia + galactorreia + adenoma: hiperprolactinemia causa hipogonadismo hipogonadotrófico por inibir a pulsatilidade do GnRH; distratores: PRL estimularia LH/FSH, aumentaria a libido.",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 172\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><rect x=\"110\" y=\"8\" width=\"120\" height=\"34\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"170.0\" y=\"24.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Hipotálamo</text><text x=\"170.0\" y=\"36.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">dopamina ⊣ PRL</text><line x1=\"170\" y1=\"42\" x2=\"170\" y2=\"60\" stroke=\"var(--rose)\" stroke-width=\"2\"/><rect x=\"110\" y=\"60\" width=\"120\" height=\"34\" rx=\"9\" fill=\"var(--wine)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"170.0\" y=\"76.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--card)\">Hipófise</text><text x=\"170.0\" y=\"88.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--card)\">prolactinoma</text><line x1=\"170\" y1=\"94\" x2=\"170\" y2=\"112\" stroke=\"var(--rose)\" stroke-width=\"2\"/><rect x=\"110\" y=\"112\" width=\"120\" height=\"30\" rx=\"9\" fill=\"var(--wine)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"170.0\" y=\"130.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--card)\">↑ Prolactina</text><path d=\"M110 127 C 40 120, 40 40, 108 25\" fill=\"none\" stroke=\"var(--bad)\" stroke-width=\"2\" stroke-dasharray=\"4 3\"/><text x=\"10\" y=\"80\" font-size=\"9.5\" fill=\"var(--bad)\">inibe GnRH</text><line x1=\"230\" y1=\"127\" x2=\"250\" y2=\"127\" stroke=\"var(--rose)\"/><rect x=\"250\" y=\"108\" width=\"84\" height=\"40\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"292.0\" y=\"127.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">↓ LH/FSH</text><text x=\"292.0\" y=\"139.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">hipogonadismo</text><text x=\"170\" y=\"164\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--mute)\">Amenorreia + galactorreia → PRL, β-hCG, TSH, RM de sela</text></svg>",
+     "legenda": "Hiperprolactinemia: hipogonadismo hipogonadotrófico"
+    }
+   ],
+   "fonte": "Endocrine Society — Diagnosis and Treatment of Hyperprolactinemia (2011) / Pituitary Society — Consensus on prolactinomas (2023) / SBEM",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "prl-d2",
+   "tipo": "digitar",
+   "area": "Clínica Médica",
+   "tema": "Endocrinologia",
+   "sub": "Hiperprolactinemia e prolactinoma",
+   "frente": "Qual neurotransmissor hipotalâmico inibe a prolactina?",
+   "verso": "**Dopamina.**\n\n- Por isso antipsicóticos (antidopaminérgicos) elevam a PRL.",
+   "resposta": "Dopamina",
+   "aceitas": [
+    "dopamina"
+   ],
+   "macete": "\"Dopamina dá o freio\".",
+   "prio": "media",
+   "contexto": "**Hiperprolactinemia = prolactina (PRL) elevada; causa amenorreia, galactorreia e infertilidade na mulher e hipogonadismo/disfunção erétil no homem.**\n\nFisiologia:\n- A **dopamina** hipotalâmica INIBE a PRL (via haste hipofisária)\n- PRL alta **inibe a pulsatilidade do GnRH** → LH e FSH baixos → **hipogonadismo hipogonadotrófico**\n\nCausas (excluir antes de chamar de tumor):\n- Fisiológicas → **gravidez**, amamentação, estresse, estimulação mamilar, sono\n- **Medicamentos** (a causa não fisiológica mais comum) → **antipsicóticos** (risperidona, haloperidol), metoclopramida, domperidona, ADT, metildopa, verapamil, opioides\n- **Hipotireoidismo primário** (TRH estimula PRL), DRC, cirrose\n- Lesões que comprimem a haste (efeito haste; PRL em geral < 100–150)\n- **Prolactinoma** → o tumor hipofisário funcionante mais comum\n- Macroprolactinemia (forma inativa; pesquisar com PEG se assintomática)\n\nClínica:\n- Mulher → amenorreia/oligomenorreia, **galactorreia**, infertilidade, perda de libido, osteoporose\n- Homem → **diminuição da libido**, disfunção erétil, ginecomastia; diagnóstico tardio, mais macroadenomas\n- Macroadenoma (≥ 1 cm) → cefaleia, **hemianopsia bitemporal** (quiasma), hipopituitarismo\n\nDiagnóstico:\n- PRL sérica (repetir se discreta); excluir gravidez (β-hCG), TSH, função renal, drogas\n- PRL > 250 ng/mL sugere prolactinoma (> 500 → macroprolactinoma)\n- **RM de sela túrcica**\n- **Efeito gancho (hook)** → macroadenoma grande com PRL falsamente baixa → diluir a amostra\n\nTratamento:\n- **Agonista dopaminérgico: cabergolina** (1ª escolha; melhor tolerância) ou bromocriptina (preferida por alguns na gestação)\n- Trata inclusive o macroadenoma com compressão visual (reduz o tumor)\n- Cirurgia transesfenoidal → intolerância/resistência, apoplexia\n- Microadenoma assintomático pós-menopausa → pode só observar\n- Droga causadora → trocar/suspender se possível (no antipsicótico: trocar por aripiprazol, avaliado com o psiquiatra)\n\nO que mais cai no Vila Verde:\n- VV 2024 → mulher com amenorreia + galactorreia + adenoma: hiperprolactinemia causa hipogonadismo hipogonadotrófico por inibir a pulsatilidade do GnRH; distratores: PRL estimularia LH/FSH, aumentaria a libido.",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 172\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><rect x=\"110\" y=\"8\" width=\"120\" height=\"34\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"170.0\" y=\"24.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Hipotálamo</text><text x=\"170.0\" y=\"36.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">dopamina ⊣ PRL</text><line x1=\"170\" y1=\"42\" x2=\"170\" y2=\"60\" stroke=\"var(--rose)\" stroke-width=\"2\"/><rect x=\"110\" y=\"60\" width=\"120\" height=\"34\" rx=\"9\" fill=\"var(--wine)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"170.0\" y=\"76.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--card)\">Hipófise</text><text x=\"170.0\" y=\"88.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--card)\">prolactinoma</text><line x1=\"170\" y1=\"94\" x2=\"170\" y2=\"112\" stroke=\"var(--rose)\" stroke-width=\"2\"/><rect x=\"110\" y=\"112\" width=\"120\" height=\"30\" rx=\"9\" fill=\"var(--wine)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"170.0\" y=\"130.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--card)\">↑ Prolactina</text><path d=\"M110 127 C 40 120, 40 40, 108 25\" fill=\"none\" stroke=\"var(--bad)\" stroke-width=\"2\" stroke-dasharray=\"4 3\"/><text x=\"10\" y=\"80\" font-size=\"9.5\" fill=\"var(--bad)\">inibe GnRH</text><line x1=\"230\" y1=\"127\" x2=\"250\" y2=\"127\" stroke=\"var(--rose)\"/><rect x=\"250\" y=\"108\" width=\"84\" height=\"40\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"292.0\" y=\"127.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">↓ LH/FSH</text><text x=\"292.0\" y=\"139.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">hipogonadismo</text><text x=\"170\" y=\"164\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--mute)\">Amenorreia + galactorreia → PRL, β-hCG, TSH, RM de sela</text></svg>",
+     "legenda": "Hiperprolactinemia: hipogonadismo hipogonadotrófico"
+    }
+   ],
+   "fonte": "Endocrine Society — Diagnosis and Treatment of Hyperprolactinemia (2011) / Pituitary Society — Consensus on prolactinomas (2023) / SBEM",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "pba-01",
+   "tipo": "flash",
+   "area": "Clínica Médica",
+   "tema": "Infectologia",
+   "sub": "Prostatite bacteriana aguda",
+   "frente": "Prostatite bacteriana aguda: quadro clínico e toque retal",
+   "verso": "**Início abrupto de sintomas urinários + febre + dor perineal.**\n**Toque → próstata aumentada, quente e muito dolorosa.**\n\nNão fazer:\n- Massagem prostática (dor e bacteremia).",
+   "macete": "Prostatite = \"Próstata em brasa\": quente, inchada, dói ao toque.",
+   "visual": {
+    "tipo": "lista",
+    "itens": [
+     "!E. coli (a mais comum)",
+     "Outras enterobactérias",
+     "Pós-instrumentação → Pseudomonas, enterococo",
+     "< 35 anos → gonococo, clamídia"
+    ]
+   },
+   "pegadinha": "O PSA costuma SUBIR na PBA (afirmativa \"não altera\" é falsa).",
+   "uerj": "VV 2024 (Q14): 1V–2F–3V.",
+   "prio": "media",
+   "contexto": "**Prostatite bacteriana aguda (PBA) = infecção aguda da próstata, geralmente por bactérias gram-negativas da via urinária; quadro febril e potencialmente grave.**\n\nClassificação NIH:\n- Ver tabela do contexto (I a IV)\n\nEtiologia:\n- **E. coli** (a mais comum) e outras enterobactérias; Pseudomonas e enterococo após manipulação\n- Homem < 35 anos sexualmente ativo → considerar gonococo e clamídia\n- **~10% após instrumentação** geniturinária (biópsia de próstata, sondagem, cistoscopia) → pacientes mais velhos, mais resistência, mais recorrência e abscesso\n\nClínica:\n- **Início abrupto** de sintomas urinários (disúria, polaciúria, urgência, jato fraco, retenção) + **dor mal localizada** (perineal, suprapúbica, retal, lombar)\n- **Achados sistêmicos** → febre, calafrios, astenia, mialgia\n- Toque retal → próstata aumentada, **muito dolorosa**, quente, amolecida\n\nDiagnóstico:\n- Clínico + urina I e **urocultura**; hemoculturas se febre\n- **PSA costuma SUBIR** (não pedir para rastreio na fase aguda; normaliza em semanas)\n- **Massagem prostática CONTRAINDICADA** (dor e risco de bacteremia)\n- USG transretal/TC → suspeita de abscesso (sem melhora em 48 h)\n\nTratamento:\n- Ambulatorial → **fluoroquinolona** (ciprofloxacino/levofloxacino) ou SMX-TMP por **2 a 4 semanas**\n- Grave/sepse/retenção → internação + ATB EV (ceftriaxona, piperacilina-tazobactam, ± aminoglicosídeo)\n- **Retenção urinária → cistostomia suprapúbica** (ou sonda fina de alívio)\n- Abscesso → drenagem (transretal ou transperineal)\n\nO que mais cai no Vila Verde:\n- VV 2024 → V/F: ~10% após instrumentação, pacientes mais velhos, mais recorrência e abscesso (V); PSA não se altera (F — costuma subir); início abrupto com sintomas urinários, dor mal localizada e febre/astenia (V).",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "NIH (prostatite)",
+      "Critério",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "I — Bacteriana aguda",
+       "Febre, sintomas urinários, próstata dolorosa, urocultura +",
+       "ATB 2–4 semanas; internar se grave"
+      ],
+      [
+       "II — Bacteriana crônica",
+       "ITU recorrente pelo mesmo germe, > 3 meses",
+       "Fluoroquinolona 4–6 semanas"
+      ],
+      [
+       "IIIa — Dor pélvica crônica inflamatória",
+       "Dor > 3 meses, leucócitos no fluido prostático, cultura −",
+       "Alfabloqueador, analgesia, fisioterapia"
+      ],
+      [
+       "IIIb — Dor pélvica crônica não inflamatória",
+       "Dor > 3 meses, sem leucócitos, cultura −",
+       "Igual IIIa (multimodal)"
+      ],
+      [
+       "IV — Inflamatória assintomática",
+       "Achado (biópsia/sêmen), sem sintomas",
+       "Não tratar"
+      ]
+     ]
+    }
+   ],
+   "fonte": "EAU Guidelines on Urological Infections (2025) / AUA / Campbell-Walsh Urology 12ª ed.",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "pba-02",
+   "tipo": "flash",
+   "area": "Clínica Médica",
+   "tema": "Infectologia",
+   "sub": "Prostatite bacteriana aguda",
+   "frente": "Prostatite bacteriana aguda: tratamento",
+   "verso": "**Fluoroquinolona (ou SMX-TMP) por 2 a 4 semanas.**\n\nGrave ou séptico:\n- Internar, ATB EV (ceftriaxona, pip-tazo).\n\nRetenção urinária:\n- Cistostomia suprapúbica.\n\nSem melhora em 48 h:\n- Imagem para abscesso → drenar.",
+   "macete": "\"Quino por um mês\" (2–4 semanas).",
+   "visual": {
+    "tipo": "fluxo",
+    "passos": [
+     "Suspeita de PBA → urocultura (± hemocultura)",
+     [
+      "Estável → quinolona VO 2–4 sem",
+      "Séptico/retenção → internar, ATB EV"
+     ],
+     "Sem melhora em 48 h → USG transretal/TC (abscesso)"
+    ]
+   },
+   "pegadinha": "Duração curta (3–7 dias) como na cistite é ERRADA.",
+   "prio": "media",
+   "contexto": "**Prostatite bacteriana aguda (PBA) = infecção aguda da próstata, geralmente por bactérias gram-negativas da via urinária; quadro febril e potencialmente grave.**\n\nClassificação NIH:\n- Ver tabela do contexto (I a IV)\n\nEtiologia:\n- **E. coli** (a mais comum) e outras enterobactérias; Pseudomonas e enterococo após manipulação\n- Homem < 35 anos sexualmente ativo → considerar gonococo e clamídia\n- **~10% após instrumentação** geniturinária (biópsia de próstata, sondagem, cistoscopia) → pacientes mais velhos, mais resistência, mais recorrência e abscesso\n\nClínica:\n- **Início abrupto** de sintomas urinários (disúria, polaciúria, urgência, jato fraco, retenção) + **dor mal localizada** (perineal, suprapúbica, retal, lombar)\n- **Achados sistêmicos** → febre, calafrios, astenia, mialgia\n- Toque retal → próstata aumentada, **muito dolorosa**, quente, amolecida\n\nDiagnóstico:\n- Clínico + urina I e **urocultura**; hemoculturas se febre\n- **PSA costuma SUBIR** (não pedir para rastreio na fase aguda; normaliza em semanas)\n- **Massagem prostática CONTRAINDICADA** (dor e risco de bacteremia)\n- USG transretal/TC → suspeita de abscesso (sem melhora em 48 h)\n\nTratamento:\n- Ambulatorial → **fluoroquinolona** (ciprofloxacino/levofloxacino) ou SMX-TMP por **2 a 4 semanas**\n- Grave/sepse/retenção → internação + ATB EV (ceftriaxona, piperacilina-tazobactam, ± aminoglicosídeo)\n- **Retenção urinária → cistostomia suprapúbica** (ou sonda fina de alívio)\n- Abscesso → drenagem (transretal ou transperineal)\n\nO que mais cai no Vila Verde:\n- VV 2024 → V/F: ~10% após instrumentação, pacientes mais velhos, mais recorrência e abscesso (V); PSA não se altera (F — costuma subir); início abrupto com sintomas urinários, dor mal localizada e febre/astenia (V).",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "NIH (prostatite)",
+      "Critério",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "I — Bacteriana aguda",
+       "Febre, sintomas urinários, próstata dolorosa, urocultura +",
+       "ATB 2–4 semanas; internar se grave"
+      ],
+      [
+       "II — Bacteriana crônica",
+       "ITU recorrente pelo mesmo germe, > 3 meses",
+       "Fluoroquinolona 4–6 semanas"
+      ],
+      [
+       "IIIa — Dor pélvica crônica inflamatória",
+       "Dor > 3 meses, leucócitos no fluido prostático, cultura −",
+       "Alfabloqueador, analgesia, fisioterapia"
+      ],
+      [
+       "IIIb — Dor pélvica crônica não inflamatória",
+       "Dor > 3 meses, sem leucócitos, cultura −",
+       "Igual IIIa (multimodal)"
+      ],
+      [
+       "IV — Inflamatória assintomática",
+       "Achado (biópsia/sêmen), sem sintomas",
+       "Não tratar"
+      ]
+     ]
+    }
+   ],
+   "fonte": "EAU Guidelines on Urological Infections (2025) / AUA / Campbell-Walsh Urology 12ª ed.",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "pba-q1",
+   "tipo": "quiz",
+   "area": "Clínica Médica",
+   "tema": "Infectologia",
+   "sub": "Prostatite bacteriana aguda",
+   "frente": "Sobre a prostatite bacteriana aguda (PBA), analise: 1. Cerca de 10% ocorrem após instrumentação geniturinária, em pacientes mais velhos, com maior risco de recorrência e abscesso. 2. O PSA sérico comumente não se altera, elevando-se em até 2% dos casos. 3. O quadro é de instalação abrupta de sintomas urinários e dor mal localizada, frequentemente com febre e astenia. A sequência correta é:",
+   "opcoes": [
+    "1F – 2V – 3F.",
+    "1V – 2F – 3V.",
+    "1V – 2V – 3F.",
+    "1F – 2F – 3V."
+   ],
+   "certa": 1,
+   "comentarios": [
+    "Errada.",
+    "Correta.",
+    "2 é falsa.",
+    "1 é verdadeira."
+   ],
+   "macete": "\"Próstata em brasa\" e PSA sobe.",
+   "pegadinha": "O PSA sobe na inflamação.",
+   "uerj": "VV 2024 (Q14).",
+   "prio": "media",
+   "contexto": "**Prostatite bacteriana aguda (PBA) = infecção aguda da próstata, geralmente por bactérias gram-negativas da via urinária; quadro febril e potencialmente grave.**\n\nClassificação NIH:\n- Ver tabela do contexto (I a IV)\n\nEtiologia:\n- **E. coli** (a mais comum) e outras enterobactérias; Pseudomonas e enterococo após manipulação\n- Homem < 35 anos sexualmente ativo → considerar gonococo e clamídia\n- **~10% após instrumentação** geniturinária (biópsia de próstata, sondagem, cistoscopia) → pacientes mais velhos, mais resistência, mais recorrência e abscesso\n\nClínica:\n- **Início abrupto** de sintomas urinários (disúria, polaciúria, urgência, jato fraco, retenção) + **dor mal localizada** (perineal, suprapúbica, retal, lombar)\n- **Achados sistêmicos** → febre, calafrios, astenia, mialgia\n- Toque retal → próstata aumentada, **muito dolorosa**, quente, amolecida\n\nDiagnóstico:\n- Clínico + urina I e **urocultura**; hemoculturas se febre\n- **PSA costuma SUBIR** (não pedir para rastreio na fase aguda; normaliza em semanas)\n- **Massagem prostática CONTRAINDICADA** (dor e risco de bacteremia)\n- USG transretal/TC → suspeita de abscesso (sem melhora em 48 h)\n\nTratamento:\n- Ambulatorial → **fluoroquinolona** (ciprofloxacino/levofloxacino) ou SMX-TMP por **2 a 4 semanas**\n- Grave/sepse/retenção → internação + ATB EV (ceftriaxona, piperacilina-tazobactam, ± aminoglicosídeo)\n- **Retenção urinária → cistostomia suprapúbica** (ou sonda fina de alívio)\n- Abscesso → drenagem (transretal ou transperineal)\n\nO que mais cai no Vila Verde:\n- VV 2024 → V/F: ~10% após instrumentação, pacientes mais velhos, mais recorrência e abscesso (V); PSA não se altera (F — costuma subir); início abrupto com sintomas urinários, dor mal localizada e febre/astenia (V).",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "NIH (prostatite)",
+      "Critério",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "I — Bacteriana aguda",
+       "Febre, sintomas urinários, próstata dolorosa, urocultura +",
+       "ATB 2–4 semanas; internar se grave"
+      ],
+      [
+       "II — Bacteriana crônica",
+       "ITU recorrente pelo mesmo germe, > 3 meses",
+       "Fluoroquinolona 4–6 semanas"
+      ],
+      [
+       "IIIa — Dor pélvica crônica inflamatória",
+       "Dor > 3 meses, leucócitos no fluido prostático, cultura −",
+       "Alfabloqueador, analgesia, fisioterapia"
+      ],
+      [
+       "IIIb — Dor pélvica crônica não inflamatória",
+       "Dor > 3 meses, sem leucócitos, cultura −",
+       "Igual IIIa (multimodal)"
+      ],
+      [
+       "IV — Inflamatória assintomática",
+       "Achado (biópsia/sêmen), sem sintomas",
+       "Não tratar"
+      ]
+     ]
+    }
+   ],
+   "fonte": "EAU Guidelines on Urological Infections (2025) / AUA / Campbell-Walsh Urology 12ª ed.",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "pba-d1",
+   "tipo": "digitar",
+   "area": "Clínica Médica",
+   "tema": "Infectologia",
+   "sub": "Prostatite bacteriana aguda",
+   "frente": "Qual o agente mais comum da prostatite bacteriana aguda?",
+   "verso": "**Escherichia coli.**",
+   "resposta": "E. coli",
+   "aceitas": [
+    "escherichia coli",
+    "e coli",
+    "e. coli",
+    "ecoli"
+   ],
+   "macete": "ITU e próstata: E. coli de novo.",
+   "prio": "media",
+   "contexto": "**Prostatite bacteriana aguda (PBA) = infecção aguda da próstata, geralmente por bactérias gram-negativas da via urinária; quadro febril e potencialmente grave.**\n\nClassificação NIH:\n- Ver tabela do contexto (I a IV)\n\nEtiologia:\n- **E. coli** (a mais comum) e outras enterobactérias; Pseudomonas e enterococo após manipulação\n- Homem < 35 anos sexualmente ativo → considerar gonococo e clamídia\n- **~10% após instrumentação** geniturinária (biópsia de próstata, sondagem, cistoscopia) → pacientes mais velhos, mais resistência, mais recorrência e abscesso\n\nClínica:\n- **Início abrupto** de sintomas urinários (disúria, polaciúria, urgência, jato fraco, retenção) + **dor mal localizada** (perineal, suprapúbica, retal, lombar)\n- **Achados sistêmicos** → febre, calafrios, astenia, mialgia\n- Toque retal → próstata aumentada, **muito dolorosa**, quente, amolecida\n\nDiagnóstico:\n- Clínico + urina I e **urocultura**; hemoculturas se febre\n- **PSA costuma SUBIR** (não pedir para rastreio na fase aguda; normaliza em semanas)\n- **Massagem prostática CONTRAINDICADA** (dor e risco de bacteremia)\n- USG transretal/TC → suspeita de abscesso (sem melhora em 48 h)\n\nTratamento:\n- Ambulatorial → **fluoroquinolona** (ciprofloxacino/levofloxacino) ou SMX-TMP por **2 a 4 semanas**\n- Grave/sepse/retenção → internação + ATB EV (ceftriaxona, piperacilina-tazobactam, ± aminoglicosídeo)\n- **Retenção urinária → cistostomia suprapúbica** (ou sonda fina de alívio)\n- Abscesso → drenagem (transretal ou transperineal)\n\nO que mais cai no Vila Verde:\n- VV 2024 → V/F: ~10% após instrumentação, pacientes mais velhos, mais recorrência e abscesso (V); PSA não se altera (F — costuma subir); início abrupto com sintomas urinários, dor mal localizada e febre/astenia (V).",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "NIH (prostatite)",
+      "Critério",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "I — Bacteriana aguda",
+       "Febre, sintomas urinários, próstata dolorosa, urocultura +",
+       "ATB 2–4 semanas; internar se grave"
+      ],
+      [
+       "II — Bacteriana crônica",
+       "ITU recorrente pelo mesmo germe, > 3 meses",
+       "Fluoroquinolona 4–6 semanas"
+      ],
+      [
+       "IIIa — Dor pélvica crônica inflamatória",
+       "Dor > 3 meses, leucócitos no fluido prostático, cultura −",
+       "Alfabloqueador, analgesia, fisioterapia"
+      ],
+      [
+       "IIIb — Dor pélvica crônica não inflamatória",
+       "Dor > 3 meses, sem leucócitos, cultura −",
+       "Igual IIIa (multimodal)"
+      ],
+      [
+       "IV — Inflamatória assintomática",
+       "Achado (biópsia/sêmen), sem sintomas",
+       "Não tratar"
+      ]
+     ]
+    }
+   ],
+   "fonte": "EAU Guidelines on Urological Infections (2025) / AUA / Campbell-Walsh Urology 12ª ed.",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "pba-d2",
+   "tipo": "digitar",
+   "area": "Clínica Médica",
+   "tema": "Infectologia",
+   "sub": "Prostatite bacteriana aguda",
+   "frente": "Qual manobra é contraindicada no exame da prostatite aguda?",
+   "verso": "**Massagem prostática.**\n\n- Risco de bacteremia e muita dor.",
+   "resposta": "Massagem prostática",
+   "aceitas": [
+    "massagem prostatica",
+    "massagem",
+    "massagem da próstata"
+   ],
+   "macete": "\"Próstata em brasa não se massageia\".",
+   "prio": "media",
+   "contexto": "**Prostatite bacteriana aguda (PBA) = infecção aguda da próstata, geralmente por bactérias gram-negativas da via urinária; quadro febril e potencialmente grave.**\n\nClassificação NIH:\n- Ver tabela do contexto (I a IV)\n\nEtiologia:\n- **E. coli** (a mais comum) e outras enterobactérias; Pseudomonas e enterococo após manipulação\n- Homem < 35 anos sexualmente ativo → considerar gonococo e clamídia\n- **~10% após instrumentação** geniturinária (biópsia de próstata, sondagem, cistoscopia) → pacientes mais velhos, mais resistência, mais recorrência e abscesso\n\nClínica:\n- **Início abrupto** de sintomas urinários (disúria, polaciúria, urgência, jato fraco, retenção) + **dor mal localizada** (perineal, suprapúbica, retal, lombar)\n- **Achados sistêmicos** → febre, calafrios, astenia, mialgia\n- Toque retal → próstata aumentada, **muito dolorosa**, quente, amolecida\n\nDiagnóstico:\n- Clínico + urina I e **urocultura**; hemoculturas se febre\n- **PSA costuma SUBIR** (não pedir para rastreio na fase aguda; normaliza em semanas)\n- **Massagem prostática CONTRAINDICADA** (dor e risco de bacteremia)\n- USG transretal/TC → suspeita de abscesso (sem melhora em 48 h)\n\nTratamento:\n- Ambulatorial → **fluoroquinolona** (ciprofloxacino/levofloxacino) ou SMX-TMP por **2 a 4 semanas**\n- Grave/sepse/retenção → internação + ATB EV (ceftriaxona, piperacilina-tazobactam, ± aminoglicosídeo)\n- **Retenção urinária → cistostomia suprapúbica** (ou sonda fina de alívio)\n- Abscesso → drenagem (transretal ou transperineal)\n\nO que mais cai no Vila Verde:\n- VV 2024 → V/F: ~10% após instrumentação, pacientes mais velhos, mais recorrência e abscesso (V); PSA não se altera (F — costuma subir); início abrupto com sintomas urinários, dor mal localizada e febre/astenia (V).",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "NIH (prostatite)",
+      "Critério",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "I — Bacteriana aguda",
+       "Febre, sintomas urinários, próstata dolorosa, urocultura +",
+       "ATB 2–4 semanas; internar se grave"
+      ],
+      [
+       "II — Bacteriana crônica",
+       "ITU recorrente pelo mesmo germe, > 3 meses",
+       "Fluoroquinolona 4–6 semanas"
+      ],
+      [
+       "IIIa — Dor pélvica crônica inflamatória",
+       "Dor > 3 meses, leucócitos no fluido prostático, cultura −",
+       "Alfabloqueador, analgesia, fisioterapia"
+      ],
+      [
+       "IIIb — Dor pélvica crônica não inflamatória",
+       "Dor > 3 meses, sem leucócitos, cultura −",
+       "Igual IIIa (multimodal)"
+      ],
+      [
+       "IV — Inflamatória assintomática",
+       "Achado (biópsia/sêmen), sem sintomas",
+       "Não tratar"
+      ]
+     ]
+    }
+   ],
+   "fonte": "EAU Guidelines on Urological Infections (2025) / AUA / Campbell-Walsh Urology 12ª ed.",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "atr-01",
+   "tipo": "flash",
+   "area": "Pediatria",
+   "tema": "Cirurgia pediátrica",
+   "sub": "Atresias intestinais e obstrução neonatal",
+   "frente": "Principal causa de obstrução intestinal no recém-nascido",
+   "verso": "**Atresias intestinais.**\n\nMais comum entre elas:\n- Jejunoileal.\n\nDuodenal:\n- Dupla bolha, associada à síndrome de Down.",
+   "macete": "\"RN obstruído = Atresia\" (A de primeira letra).",
+   "visual": {
+    "tipo": "vs",
+    "a": {
+     "t": "Atresia duodenal",
+     "itens": [
+      "Dupla bolha",
+      "Down (~30%)",
+      "Polidrâmnio, pouca distensão"
+     ]
+    },
+    "b": {
+     "t": "Atresia jejunoileal",
+     "itens": [
+      "Múltiplos níveis",
+      "Isquemia intrauterina",
+      "Distensão importante"
+     ]
+    }
+   },
+   "pegadinha": "Invaginação é do lactente (6 meses–2 anos), não do RN.",
+   "uerj": "VV 2024 (Q40).",
+   "prio": "media",
+   "contexto": "**Obstrução intestinal neonatal = RN com vômitos (biliosos se a obstrução é após a ampola), distensão e falha na eliminação de mecônio; a ATRESIA intestinal é a principal causa.**\n\nSinais de alerta:\n- **Vômito bilioso no RN = obstrução cirúrgica até prova em contrário**\n- Não eliminar mecônio nas primeiras 24–48 h\n- Distensão abdominal (mais na obstrução baixa)\n- Polidrâmnio na gestação (obstrução alta)\n\nCausas:\n- **Atresia duodenal** → falha de recanalização; **síndrome de Down** (~30%); **\"dupla bolha\"** no RX; vômito bilioso precoce, abdome pouco distendido\n  - Tratamento → duodenoduodenostomia (em diamante, Kimura)\n- **Atresia jejunoileal** → a atresia intestinal MAIS comum; acidente vascular intrauterino; **múltiplas bolhas/níveis**; distensão\n- **Má rotação com volvo do intestino médio** → vômito bilioso súbito em RN antes bem; **EMERGÊNCIA** (necrose do intestino); diagnóstico por seriografia (EED); cirurgia de Ladd\n- **Doença de Hirschsprung** → aganglionose; atraso do mecônio > 48 h; toque retal com \"explosão\" de fezes; biópsia retal (padrão-ouro)\n- **Íleo meconial** → mecônio espesso; **fibrose cística**; enema com contraste hidrossolúvel (diagnóstico e tratamento)\n- Malformação anorretal → exame do períneo\n- **Atresia de esôfago** (não intestinal) → salivação excessiva, sonda não progride; tipo mais comum = atresia proximal com fístula traqueoesofágica distal\n\nConduta inicial:\n- Jejum, **sonda orogástrica aberta**, hidratação venosa, correção de eletrólitos\n- RX simples de abdome → contraste conforme a suspeita\n- Cirurgia pediátrica\n\nO que mais cai no Vila Verde:\n- VV 2024 → RN de 36 h sem mecônio, vômito bilioso e distensão: principal causa de obstrução intestinal no RN = atresias intestinais (distratores: invaginação, doença celíaca, úlcera péptica).",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "cab": [
+      "Causa",
+      "Pista",
+      "Imagem"
+     ],
+     "linhas": [
+      [
+       "!Atresia duodenal",
+       "Down, polidrâmnio, vômito bilioso precoce",
+       "Dupla bolha"
+      ],
+      [
+       "!Atresia jejunoileal",
+       "Distensão, isquemia intrauterina",
+       "Múltiplos níveis"
+      ],
+      [
+       "Má rotação + volvo",
+       "Vômito bilioso súbito — emergência",
+       "EED: duodeno fora do lugar"
+      ],
+      [
+       "Hirschsprung",
+       "Mecônio > 48 h, explosão ao toque",
+       "Zona de transição; biópsia retal"
+      ],
+      [
+       "Íleo meconial",
+       "Fibrose cística",
+       "Microcólon, \"bolhas de sabão\""
+      ]
+     ]
+    }
+   ],
+   "fonte": "Nelson Textbook of Pediatrics 22ª ed. / Ashcraft's Pediatric Surgery 7ª ed. / SBP — Tratado de Pediatria 5ª ed.",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "atr-02",
+   "tipo": "flash",
+   "area": "Pediatria",
+   "tema": "Cirurgia pediátrica",
+   "sub": "Atresias intestinais e obstrução neonatal",
+   "frente": "RN com vômito bilioso: o que é obrigatório pensar?",
+   "verso": "**Obstrução cirúrgica, sobretudo má rotação com volvo (emergência).**\n\nConduta:\n- Jejum, sonda orogástrica aberta, hidratação.\n- RX → seriografia (EED) urgente.\n- Cirurgião pediátrico.",
+   "macete": "\"Verde no RN = vermelho de alerta\".",
+   "visual": {
+    "tipo": "fluxo",
+    "passos": [
+     "Vômito bilioso no RN",
+     "Jejum + sonda orogástrica + hidratação",
+     "RX de abdome",
+     [
+      "Dupla bolha → atresia duodenal",
+      "Pouco gás/normal → EED (volvo?)",
+      "Distensão baixa → enema (Hirschsprung, íleo meconial)"
+     ]
+    ]
+   },
+   "pegadinha": "Volvo pode surgir em RN que estava bem e com RX quase normal.",
+   "prio": "alta",
+   "contexto": "**Obstrução intestinal neonatal = RN com vômitos (biliosos se a obstrução é após a ampola), distensão e falha na eliminação de mecônio; a ATRESIA intestinal é a principal causa.**\n\nSinais de alerta:\n- **Vômito bilioso no RN = obstrução cirúrgica até prova em contrário**\n- Não eliminar mecônio nas primeiras 24–48 h\n- Distensão abdominal (mais na obstrução baixa)\n- Polidrâmnio na gestação (obstrução alta)\n\nCausas:\n- **Atresia duodenal** → falha de recanalização; **síndrome de Down** (~30%); **\"dupla bolha\"** no RX; vômito bilioso precoce, abdome pouco distendido\n  - Tratamento → duodenoduodenostomia (em diamante, Kimura)\n- **Atresia jejunoileal** → a atresia intestinal MAIS comum; acidente vascular intrauterino; **múltiplas bolhas/níveis**; distensão\n- **Má rotação com volvo do intestino médio** → vômito bilioso súbito em RN antes bem; **EMERGÊNCIA** (necrose do intestino); diagnóstico por seriografia (EED); cirurgia de Ladd\n- **Doença de Hirschsprung** → aganglionose; atraso do mecônio > 48 h; toque retal com \"explosão\" de fezes; biópsia retal (padrão-ouro)\n- **Íleo meconial** → mecônio espesso; **fibrose cística**; enema com contraste hidrossolúvel (diagnóstico e tratamento)\n- Malformação anorretal → exame do períneo\n- **Atresia de esôfago** (não intestinal) → salivação excessiva, sonda não progride; tipo mais comum = atresia proximal com fístula traqueoesofágica distal\n\nConduta inicial:\n- Jejum, **sonda orogástrica aberta**, hidratação venosa, correção de eletrólitos\n- RX simples de abdome → contraste conforme a suspeita\n- Cirurgia pediátrica\n\nO que mais cai no Vila Verde:\n- VV 2024 → RN de 36 h sem mecônio, vômito bilioso e distensão: principal causa de obstrução intestinal no RN = atresias intestinais (distratores: invaginação, doença celíaca, úlcera péptica).",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "cab": [
+      "Causa",
+      "Pista",
+      "Imagem"
+     ],
+     "linhas": [
+      [
+       "!Atresia duodenal",
+       "Down, polidrâmnio, vômito bilioso precoce",
+       "Dupla bolha"
+      ],
+      [
+       "!Atresia jejunoileal",
+       "Distensão, isquemia intrauterina",
+       "Múltiplos níveis"
+      ],
+      [
+       "Má rotação + volvo",
+       "Vômito bilioso súbito — emergência",
+       "EED: duodeno fora do lugar"
+      ],
+      [
+       "Hirschsprung",
+       "Mecônio > 48 h, explosão ao toque",
+       "Zona de transição; biópsia retal"
+      ],
+      [
+       "Íleo meconial",
+       "Fibrose cística",
+       "Microcólon, \"bolhas de sabão\""
+      ]
+     ]
+    }
+   ],
+   "fonte": "Nelson Textbook of Pediatrics 22ª ed. / Ashcraft's Pediatric Surgery 7ª ed. / SBP — Tratado de Pediatria 5ª ed.",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "atr-q1",
+   "tipo": "quiz",
+   "area": "Pediatria",
+   "tema": "Cirurgia pediátrica",
+   "sub": "Atresias intestinais e obstrução neonatal",
+   "frente": "RN de 36 horas sem eliminar mecônio, com vômito bilioso e distensão abdominal. A principal causa de obstrução intestinal no RN, que deve ser investigada imediatamente, é:",
+   "opcoes": [
+    "Invaginação intestinal.",
+    "Doença celíaca.",
+    "Atresias intestinais.",
+    "Úlcera péptica."
+   ],
+   "certa": 2,
+   "comentarios": [
+    "Lactente maior.",
+    "Não causa obstrução neonatal.",
+    "Correta.",
+    "Absurda no RN."
+   ],
+   "macete": "\"RN obstruído = Atresia\".",
+   "pegadinha": "Doença celíaca exige exposição ao glúten (após o desmame).",
+   "uerj": "VV 2024 (Q40).",
+   "prio": "media",
+   "contexto": "**Obstrução intestinal neonatal = RN com vômitos (biliosos se a obstrução é após a ampola), distensão e falha na eliminação de mecônio; a ATRESIA intestinal é a principal causa.**\n\nSinais de alerta:\n- **Vômito bilioso no RN = obstrução cirúrgica até prova em contrário**\n- Não eliminar mecônio nas primeiras 24–48 h\n- Distensão abdominal (mais na obstrução baixa)\n- Polidrâmnio na gestação (obstrução alta)\n\nCausas:\n- **Atresia duodenal** → falha de recanalização; **síndrome de Down** (~30%); **\"dupla bolha\"** no RX; vômito bilioso precoce, abdome pouco distendido\n  - Tratamento → duodenoduodenostomia (em diamante, Kimura)\n- **Atresia jejunoileal** → a atresia intestinal MAIS comum; acidente vascular intrauterino; **múltiplas bolhas/níveis**; distensão\n- **Má rotação com volvo do intestino médio** → vômito bilioso súbito em RN antes bem; **EMERGÊNCIA** (necrose do intestino); diagnóstico por seriografia (EED); cirurgia de Ladd\n- **Doença de Hirschsprung** → aganglionose; atraso do mecônio > 48 h; toque retal com \"explosão\" de fezes; biópsia retal (padrão-ouro)\n- **Íleo meconial** → mecônio espesso; **fibrose cística**; enema com contraste hidrossolúvel (diagnóstico e tratamento)\n- Malformação anorretal → exame do períneo\n- **Atresia de esôfago** (não intestinal) → salivação excessiva, sonda não progride; tipo mais comum = atresia proximal com fístula traqueoesofágica distal\n\nConduta inicial:\n- Jejum, **sonda orogástrica aberta**, hidratação venosa, correção de eletrólitos\n- RX simples de abdome → contraste conforme a suspeita\n- Cirurgia pediátrica\n\nO que mais cai no Vila Verde:\n- VV 2024 → RN de 36 h sem mecônio, vômito bilioso e distensão: principal causa de obstrução intestinal no RN = atresias intestinais (distratores: invaginação, doença celíaca, úlcera péptica).",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "cab": [
+      "Causa",
+      "Pista",
+      "Imagem"
+     ],
+     "linhas": [
+      [
+       "!Atresia duodenal",
+       "Down, polidrâmnio, vômito bilioso precoce",
+       "Dupla bolha"
+      ],
+      [
+       "!Atresia jejunoileal",
+       "Distensão, isquemia intrauterina",
+       "Múltiplos níveis"
+      ],
+      [
+       "Má rotação + volvo",
+       "Vômito bilioso súbito — emergência",
+       "EED: duodeno fora do lugar"
+      ],
+      [
+       "Hirschsprung",
+       "Mecônio > 48 h, explosão ao toque",
+       "Zona de transição; biópsia retal"
+      ],
+      [
+       "Íleo meconial",
+       "Fibrose cística",
+       "Microcólon, \"bolhas de sabão\""
+      ]
+     ]
+    }
+   ],
+   "fonte": "Nelson Textbook of Pediatrics 22ª ed. / Ashcraft's Pediatric Surgery 7ª ed. / SBP — Tratado de Pediatria 5ª ed.",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "atr-d1",
+   "tipo": "digitar",
+   "area": "Pediatria",
+   "tema": "Cirurgia pediátrica",
+   "sub": "Atresias intestinais e obstrução neonatal",
+   "frente": "Qual o sinal radiológico clássico da atresia duodenal?",
+   "verso": "**Dupla bolha.**\n\n- Estômago + duodeno proximal com ar, sem gás distal.",
+   "resposta": "Dupla bolha",
+   "aceitas": [
+    "dupla bolha",
+    "duas bolhas",
+    "double bubble"
+   ],
+   "macete": "Duodeno = \"Dois\" (dupla bolha).",
+   "prio": "media",
+   "contexto": "**Obstrução intestinal neonatal = RN com vômitos (biliosos se a obstrução é após a ampola), distensão e falha na eliminação de mecônio; a ATRESIA intestinal é a principal causa.**\n\nSinais de alerta:\n- **Vômito bilioso no RN = obstrução cirúrgica até prova em contrário**\n- Não eliminar mecônio nas primeiras 24–48 h\n- Distensão abdominal (mais na obstrução baixa)\n- Polidrâmnio na gestação (obstrução alta)\n\nCausas:\n- **Atresia duodenal** → falha de recanalização; **síndrome de Down** (~30%); **\"dupla bolha\"** no RX; vômito bilioso precoce, abdome pouco distendido\n  - Tratamento → duodenoduodenostomia (em diamante, Kimura)\n- **Atresia jejunoileal** → a atresia intestinal MAIS comum; acidente vascular intrauterino; **múltiplas bolhas/níveis**; distensão\n- **Má rotação com volvo do intestino médio** → vômito bilioso súbito em RN antes bem; **EMERGÊNCIA** (necrose do intestino); diagnóstico por seriografia (EED); cirurgia de Ladd\n- **Doença de Hirschsprung** → aganglionose; atraso do mecônio > 48 h; toque retal com \"explosão\" de fezes; biópsia retal (padrão-ouro)\n- **Íleo meconial** → mecônio espesso; **fibrose cística**; enema com contraste hidrossolúvel (diagnóstico e tratamento)\n- Malformação anorretal → exame do períneo\n- **Atresia de esôfago** (não intestinal) → salivação excessiva, sonda não progride; tipo mais comum = atresia proximal com fístula traqueoesofágica distal\n\nConduta inicial:\n- Jejum, **sonda orogástrica aberta**, hidratação venosa, correção de eletrólitos\n- RX simples de abdome → contraste conforme a suspeita\n- Cirurgia pediátrica\n\nO que mais cai no Vila Verde:\n- VV 2024 → RN de 36 h sem mecônio, vômito bilioso e distensão: principal causa de obstrução intestinal no RN = atresias intestinais (distratores: invaginação, doença celíaca, úlcera péptica).",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "cab": [
+      "Causa",
+      "Pista",
+      "Imagem"
+     ],
+     "linhas": [
+      [
+       "!Atresia duodenal",
+       "Down, polidrâmnio, vômito bilioso precoce",
+       "Dupla bolha"
+      ],
+      [
+       "!Atresia jejunoileal",
+       "Distensão, isquemia intrauterina",
+       "Múltiplos níveis"
+      ],
+      [
+       "Má rotação + volvo",
+       "Vômito bilioso súbito — emergência",
+       "EED: duodeno fora do lugar"
+      ],
+      [
+       "Hirschsprung",
+       "Mecônio > 48 h, explosão ao toque",
+       "Zona de transição; biópsia retal"
+      ],
+      [
+       "Íleo meconial",
+       "Fibrose cística",
+       "Microcólon, \"bolhas de sabão\""
+      ]
+     ]
+    }
+   ],
+   "fonte": "Nelson Textbook of Pediatrics 22ª ed. / Ashcraft's Pediatric Surgery 7ª ed. / SBP — Tratado de Pediatria 5ª ed.",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "atr-d2",
+   "tipo": "digitar",
+   "area": "Pediatria",
+   "tema": "Cirurgia pediátrica",
+   "sub": "Atresias intestinais e obstrução neonatal",
+   "frente": "Qual síndrome genética se associa à atresia duodenal?",
+   "verso": "**Síndrome de Down (trissomia 21).**",
+   "resposta": "Down",
+   "aceitas": [
+    "síndrome de down",
+    "trissomia 21",
+    "down",
+    "sindrome de down"
+   ],
+   "macete": "\"Down → Duodeno\" (os dois com D).",
+   "prio": "media",
+   "contexto": "**Obstrução intestinal neonatal = RN com vômitos (biliosos se a obstrução é após a ampola), distensão e falha na eliminação de mecônio; a ATRESIA intestinal é a principal causa.**\n\nSinais de alerta:\n- **Vômito bilioso no RN = obstrução cirúrgica até prova em contrário**\n- Não eliminar mecônio nas primeiras 24–48 h\n- Distensão abdominal (mais na obstrução baixa)\n- Polidrâmnio na gestação (obstrução alta)\n\nCausas:\n- **Atresia duodenal** → falha de recanalização; **síndrome de Down** (~30%); **\"dupla bolha\"** no RX; vômito bilioso precoce, abdome pouco distendido\n  - Tratamento → duodenoduodenostomia (em diamante, Kimura)\n- **Atresia jejunoileal** → a atresia intestinal MAIS comum; acidente vascular intrauterino; **múltiplas bolhas/níveis**; distensão\n- **Má rotação com volvo do intestino médio** → vômito bilioso súbito em RN antes bem; **EMERGÊNCIA** (necrose do intestino); diagnóstico por seriografia (EED); cirurgia de Ladd\n- **Doença de Hirschsprung** → aganglionose; atraso do mecônio > 48 h; toque retal com \"explosão\" de fezes; biópsia retal (padrão-ouro)\n- **Íleo meconial** → mecônio espesso; **fibrose cística**; enema com contraste hidrossolúvel (diagnóstico e tratamento)\n- Malformação anorretal → exame do períneo\n- **Atresia de esôfago** (não intestinal) → salivação excessiva, sonda não progride; tipo mais comum = atresia proximal com fístula traqueoesofágica distal\n\nConduta inicial:\n- Jejum, **sonda orogástrica aberta**, hidratação venosa, correção de eletrólitos\n- RX simples de abdome → contraste conforme a suspeita\n- Cirurgia pediátrica\n\nO que mais cai no Vila Verde:\n- VV 2024 → RN de 36 h sem mecônio, vômito bilioso e distensão: principal causa de obstrução intestinal no RN = atresias intestinais (distratores: invaginação, doença celíaca, úlcera péptica).",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "cab": [
+      "Causa",
+      "Pista",
+      "Imagem"
+     ],
+     "linhas": [
+      [
+       "!Atresia duodenal",
+       "Down, polidrâmnio, vômito bilioso precoce",
+       "Dupla bolha"
+      ],
+      [
+       "!Atresia jejunoileal",
+       "Distensão, isquemia intrauterina",
+       "Múltiplos níveis"
+      ],
+      [
+       "Má rotação + volvo",
+       "Vômito bilioso súbito — emergência",
+       "EED: duodeno fora do lugar"
+      ],
+      [
+       "Hirschsprung",
+       "Mecônio > 48 h, explosão ao toque",
+       "Zona de transição; biópsia retal"
+      ],
+      [
+       "Íleo meconial",
+       "Fibrose cística",
+       "Microcólon, \"bolhas de sabão\""
+      ]
+     ]
+    }
+   ],
+   "fonte": "Nelson Textbook of Pediatrics 22ª ed. / Ashcraft's Pediatric Surgery 7ª ed. / SBP — Tratado de Pediatria 5ª ed.",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "crn-01",
+   "tipo": "flash",
+   "area": "Pediatria",
+   "tema": "Neonatologia",
+   "sub": "Classificação do recém-nascido — peso e idade gestacional",
+   "frente": "Classificação do RN pelo peso ao nascer",
+   "verso": "**Baixo peso → < 2.500 g**\n**Muito baixo peso → < 1.500 g**\n**Extremo baixo peso → < 1.000 g**",
+   "macete": "\"2,5 – 1,5 – 1\": cada degrau tira 1 kg, depois meio.",
+   "pegadinha": "< 1.500 g é MUITO baixo peso, não \"baixo peso\".",
+   "uerj": "VV 2024 (Q32).",
+   "prio": "alta",
+   "contexto": "**Classificação do recém-nascido = pelo peso ao nascer, pela idade gestacional (IG) e pela relação peso × IG; orienta riscos e cuidados.**\n\nPeso ao nascer:\n- **Baixo peso → < 2.500 g**\n- **Muito baixo peso → < 1.500 g**\n- **Extremo baixo peso → < 1.000 g**\n- Macrossomia → ≥ 4.000 g\n\nIdade gestacional:\n- **Pré-termo → < 37 semanas**\n  - Extremo → < 28 sem\n  - Muito pré-termo → 28 a 31 sem e 6 dias\n  - Moderado → 32 a 33 sem e 6 dias\n  - Tardio → 34 a 36 sem e 6 dias\n- **Termo → 37 a 41 sem e 6 dias**\n  - Precoce → 37 a 38 sem e 6 dias\n  - Completo → 39 a 40 sem e 6 dias\n  - Tardio → 41 a 41 sem e 6 dias\n- **Pós-termo → ≥ 42 semanas**\n\nPeso × IG (curvas Intergrowth-21st ou Fenton):\n- **PIG** → abaixo do percentil 10 (risco de hipoglicemia, policitemia, hipotermia)\n- **AIG** → entre p10 e p90\n- **GIG** → acima do percentil 90 (filho de mãe diabética; hipoglicemia, tocotrauma)\n\nLembretes:\n- PIG ≠ prematuro: um RN pode ser termo e PIG, ou pré-termo e AIG\n- RCIU simétrico (precoce, causa fetal/infecção) × assimétrico (tardio, insuficiência placentária, poupa o crânio)\n- IG pela DUM/USG precoce; no RN, por métodos de exame físico padronizados (ver baralho de neonatologia)\n\nO que mais cai no Vila Verde:\n- VV 2024 → afirmativas sobre peso: < 1.500 g é MUITO baixo peso (não \"baixo\"); < 1.000 g é extremo baixo peso; < 2.500 g é baixo peso (corretas II e III).",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 164\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><rect x=\"10\" y=\"30\" width=\"70\" height=\"34\" fill=\"var(--bad)\" stroke=\"var(--line)\"/><text x=\"45.0\" y=\"51\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--ink)\">Extremo</text><rect x=\"80\" y=\"30\" width=\"80\" height=\"34\" fill=\"var(--rose)\" stroke=\"var(--line)\"/><text x=\"120.0\" y=\"51\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--ink)\">Muito baixo</text><rect x=\"160\" y=\"30\" width=\"90\" height=\"34\" fill=\"var(--rose-soft)\" stroke=\"var(--line)\"/><text x=\"205.0\" y=\"51\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--ink)\">Baixo peso</text><rect x=\"250\" y=\"30\" width=\"80\" height=\"34\" fill=\"var(--card)\" stroke=\"var(--line)\"/><text x=\"290.0\" y=\"51\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--ink)\">Adequado</text><text x=\"80\" y=\"80\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"600\" fill=\"var(--wine)\">1.000 g</text><text x=\"160\" y=\"80\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"600\" fill=\"var(--wine)\">1.500 g</text><text x=\"250\" y=\"80\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"600\" fill=\"var(--wine)\">2.500 g</text><text x=\"170\" y=\"20\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"600\" fill=\"var(--wine)\">Peso ao nascer</text><rect x=\"10\" y=\"104\" width=\"140\" height=\"34\" fill=\"var(--rose-soft)\" stroke=\"var(--line)\"/><text x=\"80.0\" y=\"125\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--ink)\">Pré-termo</text><rect x=\"150\" y=\"104\" width=\"110\" height=\"34\" fill=\"var(--card)\" stroke=\"var(--line)\"/><text x=\"205.0\" y=\"125\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--ink)\">Termo</text><rect x=\"260\" y=\"104\" width=\"70\" height=\"34\" fill=\"var(--rose-soft)\" stroke=\"var(--line)\"/><text x=\"295.0\" y=\"125\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--ink)\">Pós-termo</text><text x=\"150\" y=\"154\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"600\" fill=\"var(--wine)\">37 sem</text><text x=\"260\" y=\"154\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"600\" fill=\"var(--wine)\">42 sem</text><text x=\"170\" y=\"96\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"600\" fill=\"var(--wine)\">Idade gestacional</text></svg>",
+     "legenda": "Classificação do RN por peso e por idade gestacional"
+    }
+   ],
+   "fonte": "OMS / Ministério da Saúde — Atenção à saúde do recém-nascido (2014) / ACOG Committee Opinion 579 (termo precoce/completo/tardio) / SBP",
+   "add": "2026-10-28",
+   "visual": {
+    "tipo": "lista",
+    "itens": [
+     "Na outra ponta:",
+     "!Macrossomia → ≥ 4.000 g",
+     "Filho de mãe diabética é a causa clássica",
+     "Risco: tocotrauma, distocia de ombro, hipoglicemia"
+    ]
+   }
+  },
+  {
+   "id": "crn-02",
+   "tipo": "flash",
+   "area": "Pediatria",
+   "tema": "Neonatologia",
+   "sub": "Classificação do recém-nascido — peso e idade gestacional",
+   "frente": "Classificação do RN pela idade gestacional",
+   "verso": "**Pré-termo → < 37 semanas**\n**Termo → 37 a 41 sem e 6 dias**\n**Pós-termo → ≥ 42 semanas**\n\nPeso × IG:\n- PIG → < p10.\n- AIG → p10 a p90.\n- GIG → > p90.",
+   "macete": "\"37 entra, 42 passa\".",
+   "visual": {
+    "tipo": "tabela",
+    "cab": [
+     "Subgrupo",
+     "IG"
+    ],
+    "linhas": [
+     [
+      "Pré-termo extremo",
+      "< 28 sem"
+     ],
+     [
+      "Muito pré-termo",
+      "28–31+6"
+     ],
+     [
+      "Pré-termo moderado",
+      "32–33+6"
+     ],
+     [
+      "Pré-termo tardio",
+      "34–36+6"
+     ],
+     [
+      "Termo precoce",
+      "37–38+6"
+     ],
+     [
+      "Termo completo",
+      "39–40+6"
+     ],
+     [
+      "Termo tardio",
+      "41–41+6"
+     ]
+    ]
+   },
+   "pegadinha": "PIG fala de peso para a IG, não de prematuridade.",
+   "prio": "media",
+   "contexto": "**Classificação do recém-nascido = pelo peso ao nascer, pela idade gestacional (IG) e pela relação peso × IG; orienta riscos e cuidados.**\n\nPeso ao nascer:\n- **Baixo peso → < 2.500 g**\n- **Muito baixo peso → < 1.500 g**\n- **Extremo baixo peso → < 1.000 g**\n- Macrossomia → ≥ 4.000 g\n\nIdade gestacional:\n- **Pré-termo → < 37 semanas**\n  - Extremo → < 28 sem\n  - Muito pré-termo → 28 a 31 sem e 6 dias\n  - Moderado → 32 a 33 sem e 6 dias\n  - Tardio → 34 a 36 sem e 6 dias\n- **Termo → 37 a 41 sem e 6 dias**\n  - Precoce → 37 a 38 sem e 6 dias\n  - Completo → 39 a 40 sem e 6 dias\n  - Tardio → 41 a 41 sem e 6 dias\n- **Pós-termo → ≥ 42 semanas**\n\nPeso × IG (curvas Intergrowth-21st ou Fenton):\n- **PIG** → abaixo do percentil 10 (risco de hipoglicemia, policitemia, hipotermia)\n- **AIG** → entre p10 e p90\n- **GIG** → acima do percentil 90 (filho de mãe diabética; hipoglicemia, tocotrauma)\n\nLembretes:\n- PIG ≠ prematuro: um RN pode ser termo e PIG, ou pré-termo e AIG\n- RCIU simétrico (precoce, causa fetal/infecção) × assimétrico (tardio, insuficiência placentária, poupa o crânio)\n- IG pela DUM/USG precoce; no RN, por métodos de exame físico padronizados (ver baralho de neonatologia)\n\nO que mais cai no Vila Verde:\n- VV 2024 → afirmativas sobre peso: < 1.500 g é MUITO baixo peso (não \"baixo\"); < 1.000 g é extremo baixo peso; < 2.500 g é baixo peso (corretas II e III).",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 164\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><rect x=\"10\" y=\"30\" width=\"70\" height=\"34\" fill=\"var(--bad)\" stroke=\"var(--line)\"/><text x=\"45.0\" y=\"51\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--ink)\">Extremo</text><rect x=\"80\" y=\"30\" width=\"80\" height=\"34\" fill=\"var(--rose)\" stroke=\"var(--line)\"/><text x=\"120.0\" y=\"51\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--ink)\">Muito baixo</text><rect x=\"160\" y=\"30\" width=\"90\" height=\"34\" fill=\"var(--rose-soft)\" stroke=\"var(--line)\"/><text x=\"205.0\" y=\"51\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--ink)\">Baixo peso</text><rect x=\"250\" y=\"30\" width=\"80\" height=\"34\" fill=\"var(--card)\" stroke=\"var(--line)\"/><text x=\"290.0\" y=\"51\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--ink)\">Adequado</text><text x=\"80\" y=\"80\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"600\" fill=\"var(--wine)\">1.000 g</text><text x=\"160\" y=\"80\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"600\" fill=\"var(--wine)\">1.500 g</text><text x=\"250\" y=\"80\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"600\" fill=\"var(--wine)\">2.500 g</text><text x=\"170\" y=\"20\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"600\" fill=\"var(--wine)\">Peso ao nascer</text><rect x=\"10\" y=\"104\" width=\"140\" height=\"34\" fill=\"var(--rose-soft)\" stroke=\"var(--line)\"/><text x=\"80.0\" y=\"125\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--ink)\">Pré-termo</text><rect x=\"150\" y=\"104\" width=\"110\" height=\"34\" fill=\"var(--card)\" stroke=\"var(--line)\"/><text x=\"205.0\" y=\"125\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--ink)\">Termo</text><rect x=\"260\" y=\"104\" width=\"70\" height=\"34\" fill=\"var(--rose-soft)\" stroke=\"var(--line)\"/><text x=\"295.0\" y=\"125\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--ink)\">Pós-termo</text><text x=\"150\" y=\"154\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"600\" fill=\"var(--wine)\">37 sem</text><text x=\"260\" y=\"154\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"600\" fill=\"var(--wine)\">42 sem</text><text x=\"170\" y=\"96\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"600\" fill=\"var(--wine)\">Idade gestacional</text></svg>",
+     "legenda": "Classificação do RN por peso e por idade gestacional"
+    }
+   ],
+   "fonte": "OMS / Ministério da Saúde — Atenção à saúde do recém-nascido (2014) / ACOG Committee Opinion 579 (termo precoce/completo/tardio) / SBP",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "crn-q1",
+   "tipo": "quiz",
+   "area": "Pediatria",
+   "tema": "Neonatologia",
+   "sub": "Classificação do recém-nascido — peso e idade gestacional",
+   "frente": "Sobre o peso ao nascer: I. Menos de 1.500 g é considerado baixo peso. II. Menos de 1.000 g é considerado extremo baixo peso. III. Menos de 2.500 g é considerado baixo peso. Está CORRETO:",
+   "opcoes": [
+    "Apenas I e II estão incorretas.",
+    "Apenas III está correta.",
+    "Apenas II e III estão corretas.",
+    "Todas estão corretas."
+   ],
+   "certa": 2,
+   "comentarios": [
+    "II está correta.",
+    "II também está correta.",
+    "Correta.",
+    "I está errada (é muito baixo peso)."
+   ],
+   "macete": "\"2,5 – 1,5 – 1\".",
+   "pegadinha": "A banca troca \"baixo\" por \"muito baixo\".",
+   "uerj": "VV 2024 (Q32).",
+   "prio": "media",
+   "contexto": "**Classificação do recém-nascido = pelo peso ao nascer, pela idade gestacional (IG) e pela relação peso × IG; orienta riscos e cuidados.**\n\nPeso ao nascer:\n- **Baixo peso → < 2.500 g**\n- **Muito baixo peso → < 1.500 g**\n- **Extremo baixo peso → < 1.000 g**\n- Macrossomia → ≥ 4.000 g\n\nIdade gestacional:\n- **Pré-termo → < 37 semanas**\n  - Extremo → < 28 sem\n  - Muito pré-termo → 28 a 31 sem e 6 dias\n  - Moderado → 32 a 33 sem e 6 dias\n  - Tardio → 34 a 36 sem e 6 dias\n- **Termo → 37 a 41 sem e 6 dias**\n  - Precoce → 37 a 38 sem e 6 dias\n  - Completo → 39 a 40 sem e 6 dias\n  - Tardio → 41 a 41 sem e 6 dias\n- **Pós-termo → ≥ 42 semanas**\n\nPeso × IG (curvas Intergrowth-21st ou Fenton):\n- **PIG** → abaixo do percentil 10 (risco de hipoglicemia, policitemia, hipotermia)\n- **AIG** → entre p10 e p90\n- **GIG** → acima do percentil 90 (filho de mãe diabética; hipoglicemia, tocotrauma)\n\nLembretes:\n- PIG ≠ prematuro: um RN pode ser termo e PIG, ou pré-termo e AIG\n- RCIU simétrico (precoce, causa fetal/infecção) × assimétrico (tardio, insuficiência placentária, poupa o crânio)\n- IG pela DUM/USG precoce; no RN, por métodos de exame físico padronizados (ver baralho de neonatologia)\n\nO que mais cai no Vila Verde:\n- VV 2024 → afirmativas sobre peso: < 1.500 g é MUITO baixo peso (não \"baixo\"); < 1.000 g é extremo baixo peso; < 2.500 g é baixo peso (corretas II e III).",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 164\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><rect x=\"10\" y=\"30\" width=\"70\" height=\"34\" fill=\"var(--bad)\" stroke=\"var(--line)\"/><text x=\"45.0\" y=\"51\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--ink)\">Extremo</text><rect x=\"80\" y=\"30\" width=\"80\" height=\"34\" fill=\"var(--rose)\" stroke=\"var(--line)\"/><text x=\"120.0\" y=\"51\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--ink)\">Muito baixo</text><rect x=\"160\" y=\"30\" width=\"90\" height=\"34\" fill=\"var(--rose-soft)\" stroke=\"var(--line)\"/><text x=\"205.0\" y=\"51\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--ink)\">Baixo peso</text><rect x=\"250\" y=\"30\" width=\"80\" height=\"34\" fill=\"var(--card)\" stroke=\"var(--line)\"/><text x=\"290.0\" y=\"51\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--ink)\">Adequado</text><text x=\"80\" y=\"80\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"600\" fill=\"var(--wine)\">1.000 g</text><text x=\"160\" y=\"80\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"600\" fill=\"var(--wine)\">1.500 g</text><text x=\"250\" y=\"80\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"600\" fill=\"var(--wine)\">2.500 g</text><text x=\"170\" y=\"20\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"600\" fill=\"var(--wine)\">Peso ao nascer</text><rect x=\"10\" y=\"104\" width=\"140\" height=\"34\" fill=\"var(--rose-soft)\" stroke=\"var(--line)\"/><text x=\"80.0\" y=\"125\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--ink)\">Pré-termo</text><rect x=\"150\" y=\"104\" width=\"110\" height=\"34\" fill=\"var(--card)\" stroke=\"var(--line)\"/><text x=\"205.0\" y=\"125\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--ink)\">Termo</text><rect x=\"260\" y=\"104\" width=\"70\" height=\"34\" fill=\"var(--rose-soft)\" stroke=\"var(--line)\"/><text x=\"295.0\" y=\"125\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--ink)\">Pós-termo</text><text x=\"150\" y=\"154\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"600\" fill=\"var(--wine)\">37 sem</text><text x=\"260\" y=\"154\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"600\" fill=\"var(--wine)\">42 sem</text><text x=\"170\" y=\"96\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"600\" fill=\"var(--wine)\">Idade gestacional</text></svg>",
+     "legenda": "Classificação do RN por peso e por idade gestacional"
+    }
+   ],
+   "fonte": "OMS / Ministério da Saúde — Atenção à saúde do recém-nascido (2014) / ACOG Committee Opinion 579 (termo precoce/completo/tardio) / SBP",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "crn-d1",
+   "tipo": "digitar",
+   "area": "Pediatria",
+   "tema": "Neonatologia",
+   "sub": "Classificação do recém-nascido — peso e idade gestacional",
+   "frente": "Abaixo de quantos gramas o RN é de MUITO baixo peso?",
+   "verso": "**1.500 g.**",
+   "resposta": "1500 g",
+   "aceitas": [
+    "1500",
+    "1.500",
+    "1.500 g",
+    "1500g",
+    "1,5 kg"
+   ],
+   "macete": "Muito baixo = 1,5.",
+   "prio": "alta",
+   "contexto": "**Classificação do recém-nascido = pelo peso ao nascer, pela idade gestacional (IG) e pela relação peso × IG; orienta riscos e cuidados.**\n\nPeso ao nascer:\n- **Baixo peso → < 2.500 g**\n- **Muito baixo peso → < 1.500 g**\n- **Extremo baixo peso → < 1.000 g**\n- Macrossomia → ≥ 4.000 g\n\nIdade gestacional:\n- **Pré-termo → < 37 semanas**\n  - Extremo → < 28 sem\n  - Muito pré-termo → 28 a 31 sem e 6 dias\n  - Moderado → 32 a 33 sem e 6 dias\n  - Tardio → 34 a 36 sem e 6 dias\n- **Termo → 37 a 41 sem e 6 dias**\n  - Precoce → 37 a 38 sem e 6 dias\n  - Completo → 39 a 40 sem e 6 dias\n  - Tardio → 41 a 41 sem e 6 dias\n- **Pós-termo → ≥ 42 semanas**\n\nPeso × IG (curvas Intergrowth-21st ou Fenton):\n- **PIG** → abaixo do percentil 10 (risco de hipoglicemia, policitemia, hipotermia)\n- **AIG** → entre p10 e p90\n- **GIG** → acima do percentil 90 (filho de mãe diabética; hipoglicemia, tocotrauma)\n\nLembretes:\n- PIG ≠ prematuro: um RN pode ser termo e PIG, ou pré-termo e AIG\n- RCIU simétrico (precoce, causa fetal/infecção) × assimétrico (tardio, insuficiência placentária, poupa o crânio)\n- IG pela DUM/USG precoce; no RN, por métodos de exame físico padronizados (ver baralho de neonatologia)\n\nO que mais cai no Vila Verde:\n- VV 2024 → afirmativas sobre peso: < 1.500 g é MUITO baixo peso (não \"baixo\"); < 1.000 g é extremo baixo peso; < 2.500 g é baixo peso (corretas II e III).",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 164\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><rect x=\"10\" y=\"30\" width=\"70\" height=\"34\" fill=\"var(--bad)\" stroke=\"var(--line)\"/><text x=\"45.0\" y=\"51\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--ink)\">Extremo</text><rect x=\"80\" y=\"30\" width=\"80\" height=\"34\" fill=\"var(--rose)\" stroke=\"var(--line)\"/><text x=\"120.0\" y=\"51\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--ink)\">Muito baixo</text><rect x=\"160\" y=\"30\" width=\"90\" height=\"34\" fill=\"var(--rose-soft)\" stroke=\"var(--line)\"/><text x=\"205.0\" y=\"51\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--ink)\">Baixo peso</text><rect x=\"250\" y=\"30\" width=\"80\" height=\"34\" fill=\"var(--card)\" stroke=\"var(--line)\"/><text x=\"290.0\" y=\"51\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--ink)\">Adequado</text><text x=\"80\" y=\"80\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"600\" fill=\"var(--wine)\">1.000 g</text><text x=\"160\" y=\"80\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"600\" fill=\"var(--wine)\">1.500 g</text><text x=\"250\" y=\"80\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"600\" fill=\"var(--wine)\">2.500 g</text><text x=\"170\" y=\"20\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"600\" fill=\"var(--wine)\">Peso ao nascer</text><rect x=\"10\" y=\"104\" width=\"140\" height=\"34\" fill=\"var(--rose-soft)\" stroke=\"var(--line)\"/><text x=\"80.0\" y=\"125\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--ink)\">Pré-termo</text><rect x=\"150\" y=\"104\" width=\"110\" height=\"34\" fill=\"var(--card)\" stroke=\"var(--line)\"/><text x=\"205.0\" y=\"125\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--ink)\">Termo</text><rect x=\"260\" y=\"104\" width=\"70\" height=\"34\" fill=\"var(--rose-soft)\" stroke=\"var(--line)\"/><text x=\"295.0\" y=\"125\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--ink)\">Pós-termo</text><text x=\"150\" y=\"154\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"600\" fill=\"var(--wine)\">37 sem</text><text x=\"260\" y=\"154\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"600\" fill=\"var(--wine)\">42 sem</text><text x=\"170\" y=\"96\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"600\" fill=\"var(--wine)\">Idade gestacional</text></svg>",
+     "legenda": "Classificação do RN por peso e por idade gestacional"
+    }
+   ],
+   "fonte": "OMS / Ministério da Saúde — Atenção à saúde do recém-nascido (2014) / ACOG Committee Opinion 579 (termo precoce/completo/tardio) / SBP",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "crn-d2",
+   "tipo": "digitar",
+   "area": "Pediatria",
+   "tema": "Neonatologia",
+   "sub": "Classificação do recém-nascido — peso e idade gestacional",
+   "frente": "Abaixo de quantas semanas o RN é pré-termo?",
+   "verso": "**37 semanas.**",
+   "resposta": "37 semanas",
+   "aceitas": [
+    "37",
+    "37 sem",
+    "37semanas"
+   ],
+   "macete": "\"37 entra\".",
+   "prio": "alta",
+   "contexto": "**Classificação do recém-nascido = pelo peso ao nascer, pela idade gestacional (IG) e pela relação peso × IG; orienta riscos e cuidados.**\n\nPeso ao nascer:\n- **Baixo peso → < 2.500 g**\n- **Muito baixo peso → < 1.500 g**\n- **Extremo baixo peso → < 1.000 g**\n- Macrossomia → ≥ 4.000 g\n\nIdade gestacional:\n- **Pré-termo → < 37 semanas**\n  - Extremo → < 28 sem\n  - Muito pré-termo → 28 a 31 sem e 6 dias\n  - Moderado → 32 a 33 sem e 6 dias\n  - Tardio → 34 a 36 sem e 6 dias\n- **Termo → 37 a 41 sem e 6 dias**\n  - Precoce → 37 a 38 sem e 6 dias\n  - Completo → 39 a 40 sem e 6 dias\n  - Tardio → 41 a 41 sem e 6 dias\n- **Pós-termo → ≥ 42 semanas**\n\nPeso × IG (curvas Intergrowth-21st ou Fenton):\n- **PIG** → abaixo do percentil 10 (risco de hipoglicemia, policitemia, hipotermia)\n- **AIG** → entre p10 e p90\n- **GIG** → acima do percentil 90 (filho de mãe diabética; hipoglicemia, tocotrauma)\n\nLembretes:\n- PIG ≠ prematuro: um RN pode ser termo e PIG, ou pré-termo e AIG\n- RCIU simétrico (precoce, causa fetal/infecção) × assimétrico (tardio, insuficiência placentária, poupa o crânio)\n- IG pela DUM/USG precoce; no RN, por métodos de exame físico padronizados (ver baralho de neonatologia)\n\nO que mais cai no Vila Verde:\n- VV 2024 → afirmativas sobre peso: < 1.500 g é MUITO baixo peso (não \"baixo\"); < 1.000 g é extremo baixo peso; < 2.500 g é baixo peso (corretas II e III).",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 164\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><rect x=\"10\" y=\"30\" width=\"70\" height=\"34\" fill=\"var(--bad)\" stroke=\"var(--line)\"/><text x=\"45.0\" y=\"51\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--ink)\">Extremo</text><rect x=\"80\" y=\"30\" width=\"80\" height=\"34\" fill=\"var(--rose)\" stroke=\"var(--line)\"/><text x=\"120.0\" y=\"51\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--ink)\">Muito baixo</text><rect x=\"160\" y=\"30\" width=\"90\" height=\"34\" fill=\"var(--rose-soft)\" stroke=\"var(--line)\"/><text x=\"205.0\" y=\"51\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--ink)\">Baixo peso</text><rect x=\"250\" y=\"30\" width=\"80\" height=\"34\" fill=\"var(--card)\" stroke=\"var(--line)\"/><text x=\"290.0\" y=\"51\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--ink)\">Adequado</text><text x=\"80\" y=\"80\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"600\" fill=\"var(--wine)\">1.000 g</text><text x=\"160\" y=\"80\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"600\" fill=\"var(--wine)\">1.500 g</text><text x=\"250\" y=\"80\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"600\" fill=\"var(--wine)\">2.500 g</text><text x=\"170\" y=\"20\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"600\" fill=\"var(--wine)\">Peso ao nascer</text><rect x=\"10\" y=\"104\" width=\"140\" height=\"34\" fill=\"var(--rose-soft)\" stroke=\"var(--line)\"/><text x=\"80.0\" y=\"125\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--ink)\">Pré-termo</text><rect x=\"150\" y=\"104\" width=\"110\" height=\"34\" fill=\"var(--card)\" stroke=\"var(--line)\"/><text x=\"205.0\" y=\"125\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--ink)\">Termo</text><rect x=\"260\" y=\"104\" width=\"70\" height=\"34\" fill=\"var(--rose-soft)\" stroke=\"var(--line)\"/><text x=\"295.0\" y=\"125\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--ink)\">Pós-termo</text><text x=\"150\" y=\"154\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"600\" fill=\"var(--wine)\">37 sem</text><text x=\"260\" y=\"154\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"600\" fill=\"var(--wine)\">42 sem</text><text x=\"170\" y=\"96\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"600\" fill=\"var(--wine)\">Idade gestacional</text></svg>",
+     "legenda": "Classificação do RN por peso e por idade gestacional"
+    }
+   ],
+   "fonte": "OMS / Ministério da Saúde — Atenção à saúde do recém-nascido (2014) / ACOG Committee Opinion 579 (termo precoce/completo/tardio) / SBP",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "tea-01",
+   "tipo": "flash",
+   "area": "Pediatria",
+   "tema": "Crescimento e desenvolvimento",
+   "sub": "Transtorno do espectro autista (TEA)",
+   "frente": "Quando e com o quê a SBP recomenda rastrear TEA?",
+   "verso": "**M-CHAT-R/F entre 18 e 24 meses (triagem universal).**\n\nPontuação:\n- 0–2 → baixo risco.\n- 3–7 → entrevista de seguimento.\n- 8–20 → encaminhar já.",
+   "macete": "\"M-CHAT aos 18 e 24\": quando a fala devia explodir.",
+   "visual": {
+    "tipo": "lista",
+    "itens": [
+     "Sinais de alerta:",
+     "!Não responde ao nome",
+     "!Não aponta para mostrar",
+     "Pouco contato visual e sorriso social",
+     "Sem palavras aos 16 m / sem frases aos 24 m",
+     "!Regressão de linguagem em qualquer idade"
+    ]
+   },
+   "pegadinha": "Os casos estão AUMENTANDO, e a SBP recomenda triagem específica.",
+   "uerj": "VV 2024 (Q37): distrator dizia que a SBP não recomenda triagem.",
+   "prio": "media",
+   "contexto": "**Transtorno do espectro autista (TEA) = transtorno do neurodesenvolvimento com déficit persistente na comunicação/interação social e padrões restritos e repetitivos de comportamento, desde a primeira infância (DSM-5-TR).**\n\nEpidemiologia:\n- Prevalência em ALTA (~1 em 31–36 crianças nos EUA, CDC); mais em meninos (~4:1)\n- Fatores → genética (irmão com TEA), prematuridade, idade parental avançada; vacinas NÃO causam autismo\n\nSinais de alerta no lactente:\n- Não sorri socialmente, pouco contato visual, não responde ao nome (~9–12 meses)\n- Não aponta para mostrar (atenção compartilhada), não balbucia/gestos até 12 meses\n- Sem palavras aos 16 meses, sem frases de 2 palavras aos 24 meses\n- **Qualquer perda de linguagem ou habilidade social (regressão) em qualquer idade**\n- Atraso de marcos do DNPM, sobretudo de **comunicação, comportamento e socialização** → suspeitar de TEA\n\nRastreamento:\n- **SBP recomenda triagem universal com M-CHAT-R/F entre 18 e 24 meses** (além da vigilância com a Caderneta da Criança)\n  - M-CHAT-R → 20 itens; 0–2 pontos baixo risco; 3–7 risco moderado (aplicar a entrevista de seguimento); 8–20 alto risco (encaminhar já)\n- Lei 13.438/2017 → protocolo de avaliação de risco no desenvolvimento psíquico nos primeiros 18 meses (SUS)\n\nDiagnóstico:\n- **CLÍNICO** (critérios DSM-5-TR), por equipe; **não há exame ou biomarcador** que confirme\n- Avaliar audição (descartar surdez); considerar investigação genética (microarray, X frágil)\n- Classificar nível de suporte (1, 2, 3)\n\nComorbidades (COMUNS):\n- Deficiência intelectual, TDAH, epilepsia, ansiedade, distúrbios do sono, TGI, seletividade alimentar\n\nTratamento:\n- **Intervenção precoce e intensiva** (comportamental/ABA, fonoaudiologia, terapia ocupacional) → é o que muda o prognóstico\n- Não há remédio para os sintomas centrais\n- Irritabilidade/agressividade grave → **risperidona ou aripiprazol**\n\nO que mais cai no Vila Verde:\n- VV 2024 → lactente com atraso de marcos de comunicação, comportamento e socialização: suspeitar de TEA (correta); distratores: casos diminuindo e SBP não recomendar triagem, diagnóstico exigir biomarcador, comorbidades serem incomuns.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "DSM-5-TR (TEA)",
+      "Critério",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "A — Comunicação social (os 3)",
+       "Reciprocidade socioemocional, comunicação não verbal, relações",
+       "Avaliar com equipe; M-CHAT 18–24 m"
+      ],
+      [
+       "B — Restritos/repetitivos (≥ 2 de 4)",
+       "Estereotipias, rotinas rígidas, interesses fixos, hiper/hipossensibilidade",
+       "Intervenção precoce"
+      ],
+      [
+       "C — Início precoce",
+       "Desde o início do desenvolvimento",
+       "Não esperar idade escolar"
+      ],
+      [
+       "D — Prejuízo",
+       "Funcional (social, escolar)",
+       "Definir nível de suporte"
+      ],
+      [
+       "E — Não explicado",
+       "Por deficiência intelectual isolada",
+       "Avaliar audição e comorbidades"
+      ],
+      [
+       "Nível 1 / 2 / 3",
+       "Exige apoio / apoio substancial / apoio muito substancial",
+       "Intensidade das terapias"
+      ]
+     ]
+    }
+   ],
+   "fonte": "SBP — Manual de Orientação: Transtorno do Espectro do Autismo (2019; atualização 2024) / DSM-5-TR (APA, 2022) / Lei 13.438/2017 / CDC ADDM (2025)",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "tea-02",
+   "tipo": "flash",
+   "area": "Pediatria",
+   "tema": "Crescimento e desenvolvimento",
+   "sub": "Transtorno do espectro autista (TEA)",
+   "frente": "TEA: como se faz o diagnóstico?",
+   "verso": "**Clínico (critérios do DSM-5-TR).**\n**Não existe exame nem biomarcador que confirme.**\n\nComplementar:\n- Avaliar audição.\n- Genética (microarray, X frágil) para etiologia.",
+   "macete": "Autismo se \"vê e escuta\", não se dosa.",
+   "visual": {
+    "tipo": "vs",
+    "a": {
+     "t": "Trata o núcleo",
+     "itens": [
+      "Intervenção precoce intensiva",
+      "ABA, fono, TO"
+     ]
+    },
+    "b": {
+     "t": "Remédio (sintomas-alvo)",
+     "itens": [
+      "Irritabilidade grave → risperidona/aripiprazol",
+      "Não trata o TEA em si"
+     ]
+    }
+   },
+   "pegadinha": "Comorbidades (DI, TDAH, epilepsia, sono) são COMUNS.",
+   "prio": "media",
+   "contexto": "**Transtorno do espectro autista (TEA) = transtorno do neurodesenvolvimento com déficit persistente na comunicação/interação social e padrões restritos e repetitivos de comportamento, desde a primeira infância (DSM-5-TR).**\n\nEpidemiologia:\n- Prevalência em ALTA (~1 em 31–36 crianças nos EUA, CDC); mais em meninos (~4:1)\n- Fatores → genética (irmão com TEA), prematuridade, idade parental avançada; vacinas NÃO causam autismo\n\nSinais de alerta no lactente:\n- Não sorri socialmente, pouco contato visual, não responde ao nome (~9–12 meses)\n- Não aponta para mostrar (atenção compartilhada), não balbucia/gestos até 12 meses\n- Sem palavras aos 16 meses, sem frases de 2 palavras aos 24 meses\n- **Qualquer perda de linguagem ou habilidade social (regressão) em qualquer idade**\n- Atraso de marcos do DNPM, sobretudo de **comunicação, comportamento e socialização** → suspeitar de TEA\n\nRastreamento:\n- **SBP recomenda triagem universal com M-CHAT-R/F entre 18 e 24 meses** (além da vigilância com a Caderneta da Criança)\n  - M-CHAT-R → 20 itens; 0–2 pontos baixo risco; 3–7 risco moderado (aplicar a entrevista de seguimento); 8–20 alto risco (encaminhar já)\n- Lei 13.438/2017 → protocolo de avaliação de risco no desenvolvimento psíquico nos primeiros 18 meses (SUS)\n\nDiagnóstico:\n- **CLÍNICO** (critérios DSM-5-TR), por equipe; **não há exame ou biomarcador** que confirme\n- Avaliar audição (descartar surdez); considerar investigação genética (microarray, X frágil)\n- Classificar nível de suporte (1, 2, 3)\n\nComorbidades (COMUNS):\n- Deficiência intelectual, TDAH, epilepsia, ansiedade, distúrbios do sono, TGI, seletividade alimentar\n\nTratamento:\n- **Intervenção precoce e intensiva** (comportamental/ABA, fonoaudiologia, terapia ocupacional) → é o que muda o prognóstico\n- Não há remédio para os sintomas centrais\n- Irritabilidade/agressividade grave → **risperidona ou aripiprazol**\n\nO que mais cai no Vila Verde:\n- VV 2024 → lactente com atraso de marcos de comunicação, comportamento e socialização: suspeitar de TEA (correta); distratores: casos diminuindo e SBP não recomendar triagem, diagnóstico exigir biomarcador, comorbidades serem incomuns.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "DSM-5-TR (TEA)",
+      "Critério",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "A — Comunicação social (os 3)",
+       "Reciprocidade socioemocional, comunicação não verbal, relações",
+       "Avaliar com equipe; M-CHAT 18–24 m"
+      ],
+      [
+       "B — Restritos/repetitivos (≥ 2 de 4)",
+       "Estereotipias, rotinas rígidas, interesses fixos, hiper/hipossensibilidade",
+       "Intervenção precoce"
+      ],
+      [
+       "C — Início precoce",
+       "Desde o início do desenvolvimento",
+       "Não esperar idade escolar"
+      ],
+      [
+       "D — Prejuízo",
+       "Funcional (social, escolar)",
+       "Definir nível de suporte"
+      ],
+      [
+       "E — Não explicado",
+       "Por deficiência intelectual isolada",
+       "Avaliar audição e comorbidades"
+      ],
+      [
+       "Nível 1 / 2 / 3",
+       "Exige apoio / apoio substancial / apoio muito substancial",
+       "Intensidade das terapias"
+      ]
+     ]
+    }
+   ],
+   "fonte": "SBP — Manual de Orientação: Transtorno do Espectro do Autismo (2019; atualização 2024) / DSM-5-TR (APA, 2022) / Lei 13.438/2017 / CDC ADDM (2025)",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "tea-q1",
+   "tipo": "quiz",
+   "area": "Pediatria",
+   "tema": "Crescimento e desenvolvimento",
+   "sub": "Transtorno do espectro autista (TEA)",
+   "frente": "Com relação ao diagnóstico de TEA em lactentes, é CORRETO afirmar:",
+   "opcoes": [
+    "Diante de lactente com atraso de marcos relacionados principalmente à comunicação, ao comportamento e à socialização, deve-se suspeitar de TEA.",
+    "Pela diminuição progressiva dos casos, a SBP não recomenda triagem específica para autismo em lactentes.",
+    "Para fechar o diagnóstico há necessidade de teste complementar e biomarcador.",
+    "É incomum os pacientes com TEA apresentarem comorbidades."
+   ],
+   "certa": 0,
+   "comentarios": [
+    "Correta.",
+    "Errada: casos aumentando; M-CHAT recomendado.",
+    "Errada: diagnóstico clínico.",
+    "Errada: comorbidades são comuns."
+   ],
+   "macete": "\"Comunicação + comportamento + socialização\" = pensar em TEA.",
+   "pegadinha": "Não espere o diagnóstico para iniciar intervenção.",
+   "uerj": "VV 2024 (Q37).",
+   "prio": "media",
+   "contexto": "**Transtorno do espectro autista (TEA) = transtorno do neurodesenvolvimento com déficit persistente na comunicação/interação social e padrões restritos e repetitivos de comportamento, desde a primeira infância (DSM-5-TR).**\n\nEpidemiologia:\n- Prevalência em ALTA (~1 em 31–36 crianças nos EUA, CDC); mais em meninos (~4:1)\n- Fatores → genética (irmão com TEA), prematuridade, idade parental avançada; vacinas NÃO causam autismo\n\nSinais de alerta no lactente:\n- Não sorri socialmente, pouco contato visual, não responde ao nome (~9–12 meses)\n- Não aponta para mostrar (atenção compartilhada), não balbucia/gestos até 12 meses\n- Sem palavras aos 16 meses, sem frases de 2 palavras aos 24 meses\n- **Qualquer perda de linguagem ou habilidade social (regressão) em qualquer idade**\n- Atraso de marcos do DNPM, sobretudo de **comunicação, comportamento e socialização** → suspeitar de TEA\n\nRastreamento:\n- **SBP recomenda triagem universal com M-CHAT-R/F entre 18 e 24 meses** (além da vigilância com a Caderneta da Criança)\n  - M-CHAT-R → 20 itens; 0–2 pontos baixo risco; 3–7 risco moderado (aplicar a entrevista de seguimento); 8–20 alto risco (encaminhar já)\n- Lei 13.438/2017 → protocolo de avaliação de risco no desenvolvimento psíquico nos primeiros 18 meses (SUS)\n\nDiagnóstico:\n- **CLÍNICO** (critérios DSM-5-TR), por equipe; **não há exame ou biomarcador** que confirme\n- Avaliar audição (descartar surdez); considerar investigação genética (microarray, X frágil)\n- Classificar nível de suporte (1, 2, 3)\n\nComorbidades (COMUNS):\n- Deficiência intelectual, TDAH, epilepsia, ansiedade, distúrbios do sono, TGI, seletividade alimentar\n\nTratamento:\n- **Intervenção precoce e intensiva** (comportamental/ABA, fonoaudiologia, terapia ocupacional) → é o que muda o prognóstico\n- Não há remédio para os sintomas centrais\n- Irritabilidade/agressividade grave → **risperidona ou aripiprazol**\n\nO que mais cai no Vila Verde:\n- VV 2024 → lactente com atraso de marcos de comunicação, comportamento e socialização: suspeitar de TEA (correta); distratores: casos diminuindo e SBP não recomendar triagem, diagnóstico exigir biomarcador, comorbidades serem incomuns.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "DSM-5-TR (TEA)",
+      "Critério",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "A — Comunicação social (os 3)",
+       "Reciprocidade socioemocional, comunicação não verbal, relações",
+       "Avaliar com equipe; M-CHAT 18–24 m"
+      ],
+      [
+       "B — Restritos/repetitivos (≥ 2 de 4)",
+       "Estereotipias, rotinas rígidas, interesses fixos, hiper/hipossensibilidade",
+       "Intervenção precoce"
+      ],
+      [
+       "C — Início precoce",
+       "Desde o início do desenvolvimento",
+       "Não esperar idade escolar"
+      ],
+      [
+       "D — Prejuízo",
+       "Funcional (social, escolar)",
+       "Definir nível de suporte"
+      ],
+      [
+       "E — Não explicado",
+       "Por deficiência intelectual isolada",
+       "Avaliar audição e comorbidades"
+      ],
+      [
+       "Nível 1 / 2 / 3",
+       "Exige apoio / apoio substancial / apoio muito substancial",
+       "Intensidade das terapias"
+      ]
+     ]
+    }
+   ],
+   "fonte": "SBP — Manual de Orientação: Transtorno do Espectro do Autismo (2019; atualização 2024) / DSM-5-TR (APA, 2022) / Lei 13.438/2017 / CDC ADDM (2025)",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "tea-d1",
+   "tipo": "digitar",
+   "area": "Pediatria",
+   "tema": "Crescimento e desenvolvimento",
+   "sub": "Transtorno do espectro autista (TEA)",
+   "frente": "Qual instrumento a SBP usa para rastrear TEA aos 18–24 meses?",
+   "verso": "**M-CHAT-R/F.**",
+   "resposta": "M-CHAT",
+   "aceitas": [
+    "mchat",
+    "m-chat-r",
+    "m-chat-r/f",
+    "m-chat",
+    "m chat"
+   ],
+   "macete": "M-CHAT = \"Checklist do autismo\".",
+   "prio": "media",
+   "contexto": "**Transtorno do espectro autista (TEA) = transtorno do neurodesenvolvimento com déficit persistente na comunicação/interação social e padrões restritos e repetitivos de comportamento, desde a primeira infância (DSM-5-TR).**\n\nEpidemiologia:\n- Prevalência em ALTA (~1 em 31–36 crianças nos EUA, CDC); mais em meninos (~4:1)\n- Fatores → genética (irmão com TEA), prematuridade, idade parental avançada; vacinas NÃO causam autismo\n\nSinais de alerta no lactente:\n- Não sorri socialmente, pouco contato visual, não responde ao nome (~9–12 meses)\n- Não aponta para mostrar (atenção compartilhada), não balbucia/gestos até 12 meses\n- Sem palavras aos 16 meses, sem frases de 2 palavras aos 24 meses\n- **Qualquer perda de linguagem ou habilidade social (regressão) em qualquer idade**\n- Atraso de marcos do DNPM, sobretudo de **comunicação, comportamento e socialização** → suspeitar de TEA\n\nRastreamento:\n- **SBP recomenda triagem universal com M-CHAT-R/F entre 18 e 24 meses** (além da vigilância com a Caderneta da Criança)\n  - M-CHAT-R → 20 itens; 0–2 pontos baixo risco; 3–7 risco moderado (aplicar a entrevista de seguimento); 8–20 alto risco (encaminhar já)\n- Lei 13.438/2017 → protocolo de avaliação de risco no desenvolvimento psíquico nos primeiros 18 meses (SUS)\n\nDiagnóstico:\n- **CLÍNICO** (critérios DSM-5-TR), por equipe; **não há exame ou biomarcador** que confirme\n- Avaliar audição (descartar surdez); considerar investigação genética (microarray, X frágil)\n- Classificar nível de suporte (1, 2, 3)\n\nComorbidades (COMUNS):\n- Deficiência intelectual, TDAH, epilepsia, ansiedade, distúrbios do sono, TGI, seletividade alimentar\n\nTratamento:\n- **Intervenção precoce e intensiva** (comportamental/ABA, fonoaudiologia, terapia ocupacional) → é o que muda o prognóstico\n- Não há remédio para os sintomas centrais\n- Irritabilidade/agressividade grave → **risperidona ou aripiprazol**\n\nO que mais cai no Vila Verde:\n- VV 2024 → lactente com atraso de marcos de comunicação, comportamento e socialização: suspeitar de TEA (correta); distratores: casos diminuindo e SBP não recomendar triagem, diagnóstico exigir biomarcador, comorbidades serem incomuns.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "DSM-5-TR (TEA)",
+      "Critério",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "A — Comunicação social (os 3)",
+       "Reciprocidade socioemocional, comunicação não verbal, relações",
+       "Avaliar com equipe; M-CHAT 18–24 m"
+      ],
+      [
+       "B — Restritos/repetitivos (≥ 2 de 4)",
+       "Estereotipias, rotinas rígidas, interesses fixos, hiper/hipossensibilidade",
+       "Intervenção precoce"
+      ],
+      [
+       "C — Início precoce",
+       "Desde o início do desenvolvimento",
+       "Não esperar idade escolar"
+      ],
+      [
+       "D — Prejuízo",
+       "Funcional (social, escolar)",
+       "Definir nível de suporte"
+      ],
+      [
+       "E — Não explicado",
+       "Por deficiência intelectual isolada",
+       "Avaliar audição e comorbidades"
+      ],
+      [
+       "Nível 1 / 2 / 3",
+       "Exige apoio / apoio substancial / apoio muito substancial",
+       "Intensidade das terapias"
+      ]
+     ]
+    }
+   ],
+   "fonte": "SBP — Manual de Orientação: Transtorno do Espectro do Autismo (2019; atualização 2024) / DSM-5-TR (APA, 2022) / Lei 13.438/2017 / CDC ADDM (2025)",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "tea-d2",
+   "tipo": "digitar",
+   "area": "Pediatria",
+   "tema": "Crescimento e desenvolvimento",
+   "sub": "Transtorno do espectro autista (TEA)",
+   "frente": "Quais antipsicóticos são usados para irritabilidade grave no TEA?",
+   "verso": "**Risperidona ou aripiprazol.**",
+   "resposta": "Risperidona",
+   "aceitas": [
+    "risperidona",
+    "aripiprazol",
+    "risperidona ou aripiprazol",
+    "risperidona e aripiprazol"
+   ],
+   "macete": "\"RA\": Risperidona e Aripiprazol.",
+   "prio": "media",
+   "contexto": "**Transtorno do espectro autista (TEA) = transtorno do neurodesenvolvimento com déficit persistente na comunicação/interação social e padrões restritos e repetitivos de comportamento, desde a primeira infância (DSM-5-TR).**\n\nEpidemiologia:\n- Prevalência em ALTA (~1 em 31–36 crianças nos EUA, CDC); mais em meninos (~4:1)\n- Fatores → genética (irmão com TEA), prematuridade, idade parental avançada; vacinas NÃO causam autismo\n\nSinais de alerta no lactente:\n- Não sorri socialmente, pouco contato visual, não responde ao nome (~9–12 meses)\n- Não aponta para mostrar (atenção compartilhada), não balbucia/gestos até 12 meses\n- Sem palavras aos 16 meses, sem frases de 2 palavras aos 24 meses\n- **Qualquer perda de linguagem ou habilidade social (regressão) em qualquer idade**\n- Atraso de marcos do DNPM, sobretudo de **comunicação, comportamento e socialização** → suspeitar de TEA\n\nRastreamento:\n- **SBP recomenda triagem universal com M-CHAT-R/F entre 18 e 24 meses** (além da vigilância com a Caderneta da Criança)\n  - M-CHAT-R → 20 itens; 0–2 pontos baixo risco; 3–7 risco moderado (aplicar a entrevista de seguimento); 8–20 alto risco (encaminhar já)\n- Lei 13.438/2017 → protocolo de avaliação de risco no desenvolvimento psíquico nos primeiros 18 meses (SUS)\n\nDiagnóstico:\n- **CLÍNICO** (critérios DSM-5-TR), por equipe; **não há exame ou biomarcador** que confirme\n- Avaliar audição (descartar surdez); considerar investigação genética (microarray, X frágil)\n- Classificar nível de suporte (1, 2, 3)\n\nComorbidades (COMUNS):\n- Deficiência intelectual, TDAH, epilepsia, ansiedade, distúrbios do sono, TGI, seletividade alimentar\n\nTratamento:\n- **Intervenção precoce e intensiva** (comportamental/ABA, fonoaudiologia, terapia ocupacional) → é o que muda o prognóstico\n- Não há remédio para os sintomas centrais\n- Irritabilidade/agressividade grave → **risperidona ou aripiprazol**\n\nO que mais cai no Vila Verde:\n- VV 2024 → lactente com atraso de marcos de comunicação, comportamento e socialização: suspeitar de TEA (correta); distratores: casos diminuindo e SBP não recomendar triagem, diagnóstico exigir biomarcador, comorbidades serem incomuns.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "DSM-5-TR (TEA)",
+      "Critério",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "A — Comunicação social (os 3)",
+       "Reciprocidade socioemocional, comunicação não verbal, relações",
+       "Avaliar com equipe; M-CHAT 18–24 m"
+      ],
+      [
+       "B — Restritos/repetitivos (≥ 2 de 4)",
+       "Estereotipias, rotinas rígidas, interesses fixos, hiper/hipossensibilidade",
+       "Intervenção precoce"
+      ],
+      [
+       "C — Início precoce",
+       "Desde o início do desenvolvimento",
+       "Não esperar idade escolar"
+      ],
+      [
+       "D — Prejuízo",
+       "Funcional (social, escolar)",
+       "Definir nível de suporte"
+      ],
+      [
+       "E — Não explicado",
+       "Por deficiência intelectual isolada",
+       "Avaliar audição e comorbidades"
+      ],
+      [
+       "Nível 1 / 2 / 3",
+       "Exige apoio / apoio substancial / apoio muito substancial",
+       "Intensidade das terapias"
+      ]
+     ]
+    }
+   ],
+   "fonte": "SBP — Manual de Orientação: Transtorno do Espectro do Autismo (2019; atualização 2024) / DSM-5-TR (APA, 2022) / Lei 13.438/2017 / CDC ADDM (2025)",
+   "add": "2026-10-28"
   }
  ],
  "rev": 0
