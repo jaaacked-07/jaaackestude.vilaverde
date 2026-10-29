@@ -28,14 +28,21 @@ for c in cards:
     ctx = c.get('contexto') or ''
     if ctx:
         if not ctx.lstrip().startswith('**'): E(i, 'contexto: 1ª linha tem que ser a definição em **negrito**')
-        # baralho novo: bloco final "O que mais cai no Vila Verde:"; baralhos copiados do UERJ Cards mantêm o bloco antigo
-        rot = 'O que mais cai no Vila Verde:' if 'O que mais cai no Vila Verde:' in ctx else 'O que mais cai na UERJ:'
-        if (c.get('add') or '') >= NOVO and rot != 'O que mais cai no Vila Verde:': E(i, 'contexto: falta o bloco final "O que mais cai no Vila Verde:"')
-        elif rot not in ctx: E(i, 'contexto: falta o bloco final "O que mais cai no Vila Verde:"')
+        # todo baralho termina no bloco "O que mais cai no Vila Verde:" (os da UERJ já foram convertidos)
+        rot = 'O que mais cai no Vila Verde:'
+        if rot not in ctx: E(i, 'contexto: falta o bloco final "O que mais cai no Vila Verde:"')
         elif ctx.rstrip().split(rot)[-1].count('\n\n'): E(i, f'contexto: o bloco "{rot}" tem que ser o ÚLTIMO')
         for l in ctx.split('\n'):
             if re.match(r'^\s*[-•◦]\s', l) and ' · ' in l: E(i, f'contexto: itens juntos com "·" na mesma linha → "{l.strip()[:60]}"')
         if len(ctx) > 3200: W(i, 'contexto longo demais (resumão direto, sem enrolação)')
+    # nada de UERJ nos cards (só o texto dela em "minha" pode citar)
+    for k, v in c.items():
+        if k in ('minha',): continue
+        if k == 'ref_uerj': E(i, 'campo "ref_uerj" não é mais usado: escreva em "uerj" como o Vila Verde/Selecting cobra')
+        elif re.search(r'\bUERJ\b', json.dumps(v, ensure_ascii=False), re.I): E(i, f'"{k}" cita a UERJ: troque por informação do Vila Verde/Selecting')
+    # raciocínio: card novo explica o PORQUÊ (mecanismo/lógica), não só o resultado
+    if c.get('tipo') == 'flash' and (c.get('add') or '') > NOVO and not re.search(r'(?m)^(Por qu[eê]|Por que|Mecanismo|Lógica|Raciocínio)[^\n]*:\s*$', c.get('verso') or ''):
+        E(i, 'flash sem bloco "Por quê:" (explique o mecanismo/razão da resposta, não só o resultado)')
     if c.get('prio') not in ('alta','media','baixa'): E(i, 'falta "prio" (alta, media ou baixa) — prioridade para a prova do Vila Verde')
     if c.get('tipo') not in ('flash','quiz','digitar'): E(i, f'tipo inválido: {c.get("tipo")}')
     if (c.get('add') or '') >= '2026-10-25' and not (c.get('macete') or '').strip(): E(i, 'falta "macete" (mnemônico/associação para gravar) — obrigatório nos cards novos')
