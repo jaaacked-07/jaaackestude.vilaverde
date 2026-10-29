@@ -56,6 +56,8 @@ for c in cards:
     Ev = E if (c.get('add') or '') >= '2026-10-25' else W
     if c.get('tipo') in ('flash','digitar'):
         v = c.get('verso') or ''
+        tem_base = v.lstrip().startswith(('Raciocínio:', 'Raciocinio:'))
+        if tem_base: v = v.split('\n\n', 1)[1] if '\n\n' in v else ''   # bloco de base no início: a resposta em destaque vem logo depois
         b0 = v.split('\n\n')[0].strip().split('\n')
         if not b0 or not b0[0].startswith('**'): Ev(i, 'verso: 1ª linha tem que ser a RESPOSTA DIRETA em **negrito** (é ela que fica em destaque)')
         for l in b0:
@@ -64,7 +66,7 @@ for c in cards:
             if ' · ' in core or re.search(r'[.;]\s+\**[A-ZÁÉÍÓÚÂÊÔÃÕÇ]', core): Ev(i, f'resposta em destaque com 2 ideias na mesma linha (quebre em linhas) → "{l.strip()[:70]}"')
             if core.count(',') >= 2 and not re.search(r'\d,\d', core): Ev(i, f'resposta em destaque com lista por vírgula na mesma linha (use título + um item por linha) → "{l.strip()[:70]}"')
         if b0 and len(b0[0].strip().strip('*')) > 70: W(i, f'1ª linha da resposta longa — deixe objetiva (gatilho de memória) → "{b0[0].strip()[:70]}"')
-        if len(v.split('\n\n')) < 2 and not c.get('visual'): W(i, 'verso sem explicação em tópicos e sem visual')
+        if len(v.split('\n\n')) < 2 and not tem_base and not c.get('visual'): W(i, 'verso sem explicação em tópicos e sem visual')
         for bl in v.split('\n\n')[1:]:
             ls = [x for x in bl.split('\n') if x.strip()]
             prosa = [x for x in ls if not re.match(r'^\s*[-•◦]\s', x) and not x.strip().endswith(':')]
