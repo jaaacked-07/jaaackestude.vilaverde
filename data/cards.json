@@ -52055,6 +52055,2130 @@
    ],
    "fonte": "MS — Saúde da criança: aleitamento materno (Cadernos de AB nº 23, 2015) / Academy of Breastfeeding Medicine Protocol #36 — Mastitis Spectrum (2022) / FEBRASGO",
    "add": "2026-10-28"
+  },
+  {
+   "id": "mam-01",
+   "tipo": "flash",
+   "area": "Ginecologia",
+   "tema": "Mastologia",
+   "sub": "Mama — desenvolvimento, anomalias e anatomia",
+   "frente": "Polimastia e politelia: o que são e por que ocorrem?",
+   "verso": "**Mama acessória (polimastia) e mamilo acessório (politelia).**\n**Falha na regressão da linha láctea.**\n\nOnde:\n- Ao longo da linha láctea (axila → virilha).\n- Polimastia mais comum na axila.",
+   "macete": "POLI-TELIA = muitos \"tetos\" (mamilos); POLI-MASTIA = muitas mamas.",
+   "pegadinha": "A linha láctea vem do ECTODERMA (não do mesoderma).",
+   "uerj": "VV 2025: falha na regressão → polimastia/politelia (gabarito C).",
+   "prio": "media",
+   "contexto": "**Anatomia e embriologia da mama = de onde a mama se origina (linha láctea), suas anomalias de desenvolvimento e sua irrigação e drenagem.**\n\nEmbriologia:\n- Origem → **crista mamária (linha láctea)**, espessamento do ECTODERMA que vai da axila à região inguinal (4ª–6ª semana)\n- A linha regride, ficando só o par torácico\n- **Falha da regressão** → tecido acessório ao longo da linha láctea:\n  - **Politelia** → mamilos acessórios (a anomalia mais comum)\n  - **Polimastia** → mama acessória (mais comum na axila)\n- Amastia/atelia → ausência de mama/mamilo (raras); síndrome de Poland → hipoplasia do peitoral + da mama\n\nIrrigação:\n- **Artéria torácica interna (mamária interna)** → ~60%; porção medial e central\n- **Artéria torácica lateral** → ~30%; quadrante superolateral\n- Intercostais posteriores e ramos da toracoacromial → menor parte\n\nDrenagem linfática:\n- **Axilar** → ~75% (principal)\n- Cadeia mamária interna → quadrantes mediais\n- Níveis axilares de Berg (em relação ao peitoral menor):\n  - I → lateral; II → posterior; III → medial (infraclavicular)\n\nNervos que caem (cirurgia axilar):\n- Torácico longo → serrátil anterior (lesão = escápula alada)\n- Toracodorsal → grande dorsal\n- Intercostobraquial → sensibilidade da face medial do braço\n\nEstruturas de suporte:\n- Ligamentos de Cooper → retração da pele no câncer\n\nO que mais cai no Vila Verde:\n- VV 2025 → falha na regressão da linha láctea causa mamas/papilas acessórias (polimastia/politelia).\n- VV 2024 → a artéria torácica interna fornece ~60% da irrigação (porção medial e central).",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 214\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><path d=\"M120 20 C 100 70, 110 140, 140 190\" fill=\"none\" stroke=\"var(--rose)\" stroke-width=\"3\" stroke-dasharray=\"6 5\"/><path d=\"M220 20 C 240 70, 230 140, 200 190\" fill=\"none\" stroke=\"var(--rose)\" stroke-width=\"3\" stroke-dasharray=\"6 5\"/><circle cx=\"113\" cy=\"76\" r=\"9\" fill=\"var(--wine)\"/><circle cx=\"227\" cy=\"76\" r=\"9\" fill=\"var(--wine)\"/><circle cx=\"110\" cy=\"112\" r=\"4\" fill=\"var(--rose)\"/><circle cx=\"230\" cy=\"130\" r=\"4\" fill=\"var(--rose)\"/><circle cx=\"122\" cy=\"26\" r=\"4\" fill=\"var(--rose)\"/><text x=\"170\" y=\"80\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--ink)\">mamas normais</text><text x=\"250\" y=\"134\" font-size=\"9.5\" fill=\"var(--ink)\">politelia</text><text x=\"130\" y=\"22\" font-size=\"9.5\" fill=\"var(--ink)\">axila: polimastia</text><text x=\"170\" y=\"208\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--mute)\">Linha láctea: da axila à virilha (ectoderma)</text></svg>",
+     "legenda": "Linha láctea e onde aparecem mamas/mamilos acessórios"
+    }
+   ],
+   "fonte": "Moore — Anatomia orientada para a clínica 8ª ed. / Langman — Embriologia Médica 14ª ed. / Bland & Copeland — The Breast 5ª ed.",
+   "add": "2026-10-28",
+   "visual": {
+    "tipo": "vs",
+    "a": {
+     "t": "Politelia",
+     "itens": [
+      "Mamilo acessório",
+      "Anomalia mais comum"
+     ]
+    },
+    "b": {
+     "t": "Polimastia",
+     "itens": [
+      "Mama acessória",
+      "Mais comum na axila"
+     ]
+    }
+   }
+  },
+  {
+   "id": "mam-02",
+   "tipo": "flash",
+   "area": "Ginecologia",
+   "tema": "Mastologia",
+   "sub": "Mama — desenvolvimento, anomalias e anatomia",
+   "frente": "Qual artéria fornece a maior parte do sangue da mama?",
+   "verso": "**Torácica interna (~60%).**\n\nResto:\n- Torácica lateral (~30%) → quadrante superolateral.\n- Intercostais e toracoacromial.",
+   "macete": "\"Interna é a Importante\": 60% pelo lado de dentro.",
+   "visual": {
+    "tipo": "tabela",
+    "cab": [
+     "Artéria",
+     "Contribuição"
+    ],
+    "linhas": [
+     [
+      "!Torácica interna",
+      "~60% (medial e central)"
+     ],
+     [
+      "Torácica lateral",
+      "~30% (superolateral)"
+     ],
+     [
+      "Intercostais / toracoacromial",
+      "Restante"
+     ]
+    ]
+   },
+   "pegadinha": "Toracoacromial é ramo da AXILAR, não da torácica interna.",
+   "uerj": "VV 2024: torácica interna ~60%, porção medial e central (gabarito D).",
+   "prio": "media",
+   "contexto": "**Anatomia e embriologia da mama = de onde a mama se origina (linha láctea), suas anomalias de desenvolvimento e sua irrigação e drenagem.**\n\nEmbriologia:\n- Origem → **crista mamária (linha láctea)**, espessamento do ECTODERMA que vai da axila à região inguinal (4ª–6ª semana)\n- A linha regride, ficando só o par torácico\n- **Falha da regressão** → tecido acessório ao longo da linha láctea:\n  - **Politelia** → mamilos acessórios (a anomalia mais comum)\n  - **Polimastia** → mama acessória (mais comum na axila)\n- Amastia/atelia → ausência de mama/mamilo (raras); síndrome de Poland → hipoplasia do peitoral + da mama\n\nIrrigação:\n- **Artéria torácica interna (mamária interna)** → ~60%; porção medial e central\n- **Artéria torácica lateral** → ~30%; quadrante superolateral\n- Intercostais posteriores e ramos da toracoacromial → menor parte\n\nDrenagem linfática:\n- **Axilar** → ~75% (principal)\n- Cadeia mamária interna → quadrantes mediais\n- Níveis axilares de Berg (em relação ao peitoral menor):\n  - I → lateral; II → posterior; III → medial (infraclavicular)\n\nNervos que caem (cirurgia axilar):\n- Torácico longo → serrátil anterior (lesão = escápula alada)\n- Toracodorsal → grande dorsal\n- Intercostobraquial → sensibilidade da face medial do braço\n\nEstruturas de suporte:\n- Ligamentos de Cooper → retração da pele no câncer\n\nO que mais cai no Vila Verde:\n- VV 2025 → falha na regressão da linha láctea causa mamas/papilas acessórias (polimastia/politelia).\n- VV 2024 → a artéria torácica interna fornece ~60% da irrigação (porção medial e central).",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 214\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><path d=\"M120 20 C 100 70, 110 140, 140 190\" fill=\"none\" stroke=\"var(--rose)\" stroke-width=\"3\" stroke-dasharray=\"6 5\"/><path d=\"M220 20 C 240 70, 230 140, 200 190\" fill=\"none\" stroke=\"var(--rose)\" stroke-width=\"3\" stroke-dasharray=\"6 5\"/><circle cx=\"113\" cy=\"76\" r=\"9\" fill=\"var(--wine)\"/><circle cx=\"227\" cy=\"76\" r=\"9\" fill=\"var(--wine)\"/><circle cx=\"110\" cy=\"112\" r=\"4\" fill=\"var(--rose)\"/><circle cx=\"230\" cy=\"130\" r=\"4\" fill=\"var(--rose)\"/><circle cx=\"122\" cy=\"26\" r=\"4\" fill=\"var(--rose)\"/><text x=\"170\" y=\"80\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--ink)\">mamas normais</text><text x=\"250\" y=\"134\" font-size=\"9.5\" fill=\"var(--ink)\">politelia</text><text x=\"130\" y=\"22\" font-size=\"9.5\" fill=\"var(--ink)\">axila: polimastia</text><text x=\"170\" y=\"208\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--mute)\">Linha láctea: da axila à virilha (ectoderma)</text></svg>",
+     "legenda": "Linha láctea e onde aparecem mamas/mamilos acessórios"
+    }
+   ],
+   "fonte": "Moore — Anatomia orientada para a clínica 8ª ed. / Langman — Embriologia Médica 14ª ed. / Bland & Copeland — The Breast 5ª ed.",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "mam-q1",
+   "tipo": "quiz",
+   "area": "Ginecologia",
+   "tema": "Mastologia",
+   "sub": "Mama — desenvolvimento, anomalias e anatomia",
+   "frente": "Sobre a formação das glândulas mamárias, é CORRETO afirmar:",
+   "opcoes": [
+    "As cristas mamárias desenvolvem-se a partir do mesoderma na oitava semana.",
+    "A regressão das cristas é sempre completa, sem possibilidade de mamas acessórias.",
+    "A falha na regressão das cristas mamárias pode resultar em polimastia ou politelia.",
+    "As glândulas mamárias derivam de glândulas sebáceas modificadas."
+   ],
+   "certa": 2,
+   "comentarios": [
+    "Errada: ectoderma, 4ª–6ª semana.",
+    "Errada.",
+    "Correta.",
+    "Errada: sudoríparas modificadas."
+   ],
+   "macete": "Linha láctea que \"esquece de sumir\" deixa mamilos extras.",
+   "pegadinha": "Glândula mamária = sudorípara modificada.",
+   "uerj": "VV 2025 (Q70, gabarito C).",
+   "prio": "media",
+   "contexto": "**Anatomia e embriologia da mama = de onde a mama se origina (linha láctea), suas anomalias de desenvolvimento e sua irrigação e drenagem.**\n\nEmbriologia:\n- Origem → **crista mamária (linha láctea)**, espessamento do ECTODERMA que vai da axila à região inguinal (4ª–6ª semana)\n- A linha regride, ficando só o par torácico\n- **Falha da regressão** → tecido acessório ao longo da linha láctea:\n  - **Politelia** → mamilos acessórios (a anomalia mais comum)\n  - **Polimastia** → mama acessória (mais comum na axila)\n- Amastia/atelia → ausência de mama/mamilo (raras); síndrome de Poland → hipoplasia do peitoral + da mama\n\nIrrigação:\n- **Artéria torácica interna (mamária interna)** → ~60%; porção medial e central\n- **Artéria torácica lateral** → ~30%; quadrante superolateral\n- Intercostais posteriores e ramos da toracoacromial → menor parte\n\nDrenagem linfática:\n- **Axilar** → ~75% (principal)\n- Cadeia mamária interna → quadrantes mediais\n- Níveis axilares de Berg (em relação ao peitoral menor):\n  - I → lateral; II → posterior; III → medial (infraclavicular)\n\nNervos que caem (cirurgia axilar):\n- Torácico longo → serrátil anterior (lesão = escápula alada)\n- Toracodorsal → grande dorsal\n- Intercostobraquial → sensibilidade da face medial do braço\n\nEstruturas de suporte:\n- Ligamentos de Cooper → retração da pele no câncer\n\nO que mais cai no Vila Verde:\n- VV 2025 → falha na regressão da linha láctea causa mamas/papilas acessórias (polimastia/politelia).\n- VV 2024 → a artéria torácica interna fornece ~60% da irrigação (porção medial e central).",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 214\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><path d=\"M120 20 C 100 70, 110 140, 140 190\" fill=\"none\" stroke=\"var(--rose)\" stroke-width=\"3\" stroke-dasharray=\"6 5\"/><path d=\"M220 20 C 240 70, 230 140, 200 190\" fill=\"none\" stroke=\"var(--rose)\" stroke-width=\"3\" stroke-dasharray=\"6 5\"/><circle cx=\"113\" cy=\"76\" r=\"9\" fill=\"var(--wine)\"/><circle cx=\"227\" cy=\"76\" r=\"9\" fill=\"var(--wine)\"/><circle cx=\"110\" cy=\"112\" r=\"4\" fill=\"var(--rose)\"/><circle cx=\"230\" cy=\"130\" r=\"4\" fill=\"var(--rose)\"/><circle cx=\"122\" cy=\"26\" r=\"4\" fill=\"var(--rose)\"/><text x=\"170\" y=\"80\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--ink)\">mamas normais</text><text x=\"250\" y=\"134\" font-size=\"9.5\" fill=\"var(--ink)\">politelia</text><text x=\"130\" y=\"22\" font-size=\"9.5\" fill=\"var(--ink)\">axila: polimastia</text><text x=\"170\" y=\"208\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--mute)\">Linha láctea: da axila à virilha (ectoderma)</text></svg>",
+     "legenda": "Linha láctea e onde aparecem mamas/mamilos acessórios"
+    }
+   ],
+   "fonte": "Moore — Anatomia orientada para a clínica 8ª ed. / Langman — Embriologia Médica 14ª ed. / Bland & Copeland — The Breast 5ª ed.",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "mam-d1",
+   "tipo": "digitar",
+   "area": "Ginecologia",
+   "tema": "Mastologia",
+   "sub": "Mama — desenvolvimento, anomalias e anatomia",
+   "frente": "Como se chama o mamilo acessório?",
+   "verso": "**Politelia.**",
+   "resposta": "Politelia",
+   "aceitas": [
+    "politelia"
+   ],
+   "macete": "Telia = teto (mamilo).",
+   "prio": "media",
+   "contexto": "**Anatomia e embriologia da mama = de onde a mama se origina (linha láctea), suas anomalias de desenvolvimento e sua irrigação e drenagem.**\n\nEmbriologia:\n- Origem → **crista mamária (linha láctea)**, espessamento do ECTODERMA que vai da axila à região inguinal (4ª–6ª semana)\n- A linha regride, ficando só o par torácico\n- **Falha da regressão** → tecido acessório ao longo da linha láctea:\n  - **Politelia** → mamilos acessórios (a anomalia mais comum)\n  - **Polimastia** → mama acessória (mais comum na axila)\n- Amastia/atelia → ausência de mama/mamilo (raras); síndrome de Poland → hipoplasia do peitoral + da mama\n\nIrrigação:\n- **Artéria torácica interna (mamária interna)** → ~60%; porção medial e central\n- **Artéria torácica lateral** → ~30%; quadrante superolateral\n- Intercostais posteriores e ramos da toracoacromial → menor parte\n\nDrenagem linfática:\n- **Axilar** → ~75% (principal)\n- Cadeia mamária interna → quadrantes mediais\n- Níveis axilares de Berg (em relação ao peitoral menor):\n  - I → lateral; II → posterior; III → medial (infraclavicular)\n\nNervos que caem (cirurgia axilar):\n- Torácico longo → serrátil anterior (lesão = escápula alada)\n- Toracodorsal → grande dorsal\n- Intercostobraquial → sensibilidade da face medial do braço\n\nEstruturas de suporte:\n- Ligamentos de Cooper → retração da pele no câncer\n\nO que mais cai no Vila Verde:\n- VV 2025 → falha na regressão da linha láctea causa mamas/papilas acessórias (polimastia/politelia).\n- VV 2024 → a artéria torácica interna fornece ~60% da irrigação (porção medial e central).",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 214\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><path d=\"M120 20 C 100 70, 110 140, 140 190\" fill=\"none\" stroke=\"var(--rose)\" stroke-width=\"3\" stroke-dasharray=\"6 5\"/><path d=\"M220 20 C 240 70, 230 140, 200 190\" fill=\"none\" stroke=\"var(--rose)\" stroke-width=\"3\" stroke-dasharray=\"6 5\"/><circle cx=\"113\" cy=\"76\" r=\"9\" fill=\"var(--wine)\"/><circle cx=\"227\" cy=\"76\" r=\"9\" fill=\"var(--wine)\"/><circle cx=\"110\" cy=\"112\" r=\"4\" fill=\"var(--rose)\"/><circle cx=\"230\" cy=\"130\" r=\"4\" fill=\"var(--rose)\"/><circle cx=\"122\" cy=\"26\" r=\"4\" fill=\"var(--rose)\"/><text x=\"170\" y=\"80\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--ink)\">mamas normais</text><text x=\"250\" y=\"134\" font-size=\"9.5\" fill=\"var(--ink)\">politelia</text><text x=\"130\" y=\"22\" font-size=\"9.5\" fill=\"var(--ink)\">axila: polimastia</text><text x=\"170\" y=\"208\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--mute)\">Linha láctea: da axila à virilha (ectoderma)</text></svg>",
+     "legenda": "Linha láctea e onde aparecem mamas/mamilos acessórios"
+    }
+   ],
+   "fonte": "Moore — Anatomia orientada para a clínica 8ª ed. / Langman — Embriologia Médica 14ª ed. / Bland & Copeland — The Breast 5ª ed.",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "mam-d2",
+   "tipo": "digitar",
+   "area": "Ginecologia",
+   "tema": "Mastologia",
+   "sub": "Mama — desenvolvimento, anomalias e anatomia",
+   "frente": "Lesão de qual nervo causa escápula alada após cirurgia axilar?",
+   "verso": "**Torácico longo.**\n\n- Inerva o serrátil anterior.",
+   "resposta": "Torácico longo",
+   "aceitas": [
+    "toracico longo",
+    "nervo torácico longo",
+    "torácico longo",
+    "nervo de bell"
+   ],
+   "macete": "\"Longo como a asa\": escápula alada.",
+   "prio": "media",
+   "contexto": "**Anatomia e embriologia da mama = de onde a mama se origina (linha láctea), suas anomalias de desenvolvimento e sua irrigação e drenagem.**\n\nEmbriologia:\n- Origem → **crista mamária (linha láctea)**, espessamento do ECTODERMA que vai da axila à região inguinal (4ª–6ª semana)\n- A linha regride, ficando só o par torácico\n- **Falha da regressão** → tecido acessório ao longo da linha láctea:\n  - **Politelia** → mamilos acessórios (a anomalia mais comum)\n  - **Polimastia** → mama acessória (mais comum na axila)\n- Amastia/atelia → ausência de mama/mamilo (raras); síndrome de Poland → hipoplasia do peitoral + da mama\n\nIrrigação:\n- **Artéria torácica interna (mamária interna)** → ~60%; porção medial e central\n- **Artéria torácica lateral** → ~30%; quadrante superolateral\n- Intercostais posteriores e ramos da toracoacromial → menor parte\n\nDrenagem linfática:\n- **Axilar** → ~75% (principal)\n- Cadeia mamária interna → quadrantes mediais\n- Níveis axilares de Berg (em relação ao peitoral menor):\n  - I → lateral; II → posterior; III → medial (infraclavicular)\n\nNervos que caem (cirurgia axilar):\n- Torácico longo → serrátil anterior (lesão = escápula alada)\n- Toracodorsal → grande dorsal\n- Intercostobraquial → sensibilidade da face medial do braço\n\nEstruturas de suporte:\n- Ligamentos de Cooper → retração da pele no câncer\n\nO que mais cai no Vila Verde:\n- VV 2025 → falha na regressão da linha láctea causa mamas/papilas acessórias (polimastia/politelia).\n- VV 2024 → a artéria torácica interna fornece ~60% da irrigação (porção medial e central).",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 214\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><path d=\"M120 20 C 100 70, 110 140, 140 190\" fill=\"none\" stroke=\"var(--rose)\" stroke-width=\"3\" stroke-dasharray=\"6 5\"/><path d=\"M220 20 C 240 70, 230 140, 200 190\" fill=\"none\" stroke=\"var(--rose)\" stroke-width=\"3\" stroke-dasharray=\"6 5\"/><circle cx=\"113\" cy=\"76\" r=\"9\" fill=\"var(--wine)\"/><circle cx=\"227\" cy=\"76\" r=\"9\" fill=\"var(--wine)\"/><circle cx=\"110\" cy=\"112\" r=\"4\" fill=\"var(--rose)\"/><circle cx=\"230\" cy=\"130\" r=\"4\" fill=\"var(--rose)\"/><circle cx=\"122\" cy=\"26\" r=\"4\" fill=\"var(--rose)\"/><text x=\"170\" y=\"80\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--ink)\">mamas normais</text><text x=\"250\" y=\"134\" font-size=\"9.5\" fill=\"var(--ink)\">politelia</text><text x=\"130\" y=\"22\" font-size=\"9.5\" fill=\"var(--ink)\">axila: polimastia</text><text x=\"170\" y=\"208\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--mute)\">Linha láctea: da axila à virilha (ectoderma)</text></svg>",
+     "legenda": "Linha láctea e onde aparecem mamas/mamilos acessórios"
+    }
+   ],
+   "fonte": "Moore — Anatomia orientada para a clínica 8ª ed. / Langman — Embriologia Médica 14ª ed. / Bland & Copeland — The Breast 5ª ed.",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "han-01",
+   "tipo": "flash",
+   "area": "Clínica Médica",
+   "tema": "Infectologia",
+   "sub": "Hanseníase",
+   "frente": "Hanseníase tuberculoide × virchowiana: imunidade e histologia",
+   "verso": "**Tuberculoide → Th1 e granulomas bem formados.**\n**Virchowiana → Th2 e muitos bacilos.**\n\nTuberculoide:\n- Poucos bacilos, poucas lesões bem delimitadas.\n\nVirchowiana:\n- Sem granulomas organizados, lesões difusas, madarose.",
+   "macete": "TUBERCULOIDE = \"Tropa Unida\" (Th1 organizada); VIRCHOWIANA = \"Vírus de bacilos\" (Th2, bacilo à vontade).",
+   "pegadinha": "A banca troca Th1/Th2 entre as formas.",
+   "uerj": "VV 2025: tuberculoide com granulomas bem formados (gabarito D).",
+   "prio": "alta",
+   "contexto": "**Hanseníase = infecção crônica pelo Mycobacterium leprae que acomete pele e nervos periféricos; o polo clínico depende da resposta imune (Th1 × Th2).**\n\nTransmissão:\n- Vias aéreas superiores, por contato prolongado com doente MULTIBACILAR sem tratamento\n- Incubação longa (2–7 anos); a maioria dos expostos não adoece\n\nDefinição de caso (MS) — pelo menos 1:\n- Lesão de pele com alteração de sensibilidade (térmica, dolorosa, tátil)\n- Espessamento de nervo periférico com alteração sensitiva, motora ou autonômica\n- Baciloscopia positiva (raspado intradérmico)\n\nClassificação operacional (tratamento):\n- **Paucibacilar** → até 5 lesões e baciloscopia negativa\n- **Multibacilar** → mais de 5 lesões OU baciloscopia positiva\n\nFormas clínicas (Madri) e imunidade:\n- Indeterminada → mancha hipocrômica com alteração de sensibilidade\n- **Tuberculoide** → resposta **Th1** forte; **granulomas bem formados**; poucos bacilos; poucas lesões bem delimitadas\n- Dimorfa (borderline) → intermediária, instável\n- **Virchowiana (lepromatosa)** → resposta **Th2**; sem granulomas organizados; **muitos bacilos** (globias); lesões difusas, infiltração, madarose\n\nTratamento — PQT-U (MS 2021; para todos):\n- Rifampicina + dapsona + clofazimina\n- **Paucibacilar → 6 doses** (6 meses); **multibacilar → 12 doses** (12 meses)\n- Contatos → exame dermatoneurológico + BCG\n\nReações hansênicas:\n- **Tipo 1 (reversa)** → Th1; piora das lesões e neurite → prednisona\n- **Tipo 2 (eritema nodoso hansênico)** → imunocomplexos, multibacilares; nódulos dolorosos + febre → **talidomida** (proibida sem contracepção em mulher fértil) ou prednisona\n- Neurite → principal causa de incapacidade; tratar rápido com corticoide\n\nO que mais cai no Vila Verde:\n- VV 2025 → tuberculoide = granulomas bem formados (Th1); distratores invertem Th1/Th2 e dizem que a virchowiana tem poucos bacilos e menos de 5 lesões.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "Hanseníase",
+      "Critério",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "Paucibacilar",
+       "≤ 5 lesões, baciloscopia negativa",
+       "PQT-U 6 doses"
+      ],
+      [
+       "Multibacilar",
+       "> 5 lesões ou baciloscopia positiva",
+       "PQT-U 12 doses"
+      ],
+      [
+       "Reação tipo 1",
+       "Piora das lesões + neurite",
+       "Prednisona"
+      ],
+      [
+       "Reação tipo 2 (ENH)",
+       "Nódulos dolorosos + febre (MB)",
+       "Talidomida ou prednisona"
+      ]
+     ]
+    },
+    {
+     "tipo": "vs",
+     "a": {
+      "t": "Tuberculoide (Th1)",
+      "itens": [
+       "Granulomas bem formados",
+       "Poucos bacilos",
+       "Poucas lesões delimitadas"
+      ]
+     },
+     "b": {
+      "t": "Virchowiana (Th2)",
+      "itens": [
+       "Sem granulomas organizados",
+       "Muitos bacilos (globias)",
+       "Lesões difusas, madarose"
+      ]
+     }
+    }
+   ],
+   "fonte": "MS — Protocolo Clínico e Diretrizes Terapêuticas da Hanseníase (2022) / Guia Prático sobre a Hanseníase (2017) / Nota Técnica PQT-U (2021)",
+   "add": "2026-10-28",
+   "visual": {
+    "tipo": "tabela",
+    "cab": [
+     "",
+     "Tuberculoide",
+     "Virchowiana"
+    ],
+    "linhas": [
+     [
+      "Imunidade",
+      "!Th1",
+      "!Th2"
+     ],
+     [
+      "Granuloma",
+      "Bem formado",
+      "Ausente/desorganizado"
+     ],
+     [
+      "Bacilos",
+      "Poucos",
+      "Muitos (globias)"
+     ],
+     [
+      "Lesões",
+      "Poucas, delimitadas",
+      "Difusas, infiltração"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "han-02",
+   "tipo": "flash",
+   "area": "Clínica Médica",
+   "tema": "Infectologia",
+   "sub": "Hanseníase",
+   "frente": "Classificação operacional e tratamento da hanseníase",
+   "verso": "**Paucibacilar → até 5 lesões → 6 doses.**\n**Multibacilar → mais de 5 lesões ou baciloscopia + → 12 doses.**\n\nEsquema (PQT-U):\n- Rifampicina + dapsona + clofazimina para todos.",
+   "macete": "\"Cinco lesões dividem; 6 ou 12 doses decidem\".",
+   "visual": {
+    "tipo": "vs",
+    "a": {
+     "t": "Paucibacilar",
+     "itens": [
+      "≤ 5 lesões",
+      "Baciloscopia negativa",
+      "6 doses"
+     ]
+    },
+    "b": {
+     "t": "Multibacilar",
+     "itens": [
+      "> 5 lesões",
+      "ou baciloscopia +",
+      "12 doses"
+     ]
+    }
+   },
+   "pegadinha": "Baciloscopia positiva já faz multibacilar, mesmo com poucas lesões.",
+   "prio": "alta",
+   "contexto": "**Hanseníase = infecção crônica pelo Mycobacterium leprae que acomete pele e nervos periféricos; o polo clínico depende da resposta imune (Th1 × Th2).**\n\nTransmissão:\n- Vias aéreas superiores, por contato prolongado com doente MULTIBACILAR sem tratamento\n- Incubação longa (2–7 anos); a maioria dos expostos não adoece\n\nDefinição de caso (MS) — pelo menos 1:\n- Lesão de pele com alteração de sensibilidade (térmica, dolorosa, tátil)\n- Espessamento de nervo periférico com alteração sensitiva, motora ou autonômica\n- Baciloscopia positiva (raspado intradérmico)\n\nClassificação operacional (tratamento):\n- **Paucibacilar** → até 5 lesões e baciloscopia negativa\n- **Multibacilar** → mais de 5 lesões OU baciloscopia positiva\n\nFormas clínicas (Madri) e imunidade:\n- Indeterminada → mancha hipocrômica com alteração de sensibilidade\n- **Tuberculoide** → resposta **Th1** forte; **granulomas bem formados**; poucos bacilos; poucas lesões bem delimitadas\n- Dimorfa (borderline) → intermediária, instável\n- **Virchowiana (lepromatosa)** → resposta **Th2**; sem granulomas organizados; **muitos bacilos** (globias); lesões difusas, infiltração, madarose\n\nTratamento — PQT-U (MS 2021; para todos):\n- Rifampicina + dapsona + clofazimina\n- **Paucibacilar → 6 doses** (6 meses); **multibacilar → 12 doses** (12 meses)\n- Contatos → exame dermatoneurológico + BCG\n\nReações hansênicas:\n- **Tipo 1 (reversa)** → Th1; piora das lesões e neurite → prednisona\n- **Tipo 2 (eritema nodoso hansênico)** → imunocomplexos, multibacilares; nódulos dolorosos + febre → **talidomida** (proibida sem contracepção em mulher fértil) ou prednisona\n- Neurite → principal causa de incapacidade; tratar rápido com corticoide\n\nO que mais cai no Vila Verde:\n- VV 2025 → tuberculoide = granulomas bem formados (Th1); distratores invertem Th1/Th2 e dizem que a virchowiana tem poucos bacilos e menos de 5 lesões.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "Hanseníase",
+      "Critério",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "Paucibacilar",
+       "≤ 5 lesões, baciloscopia negativa",
+       "PQT-U 6 doses"
+      ],
+      [
+       "Multibacilar",
+       "> 5 lesões ou baciloscopia positiva",
+       "PQT-U 12 doses"
+      ],
+      [
+       "Reação tipo 1",
+       "Piora das lesões + neurite",
+       "Prednisona"
+      ],
+      [
+       "Reação tipo 2 (ENH)",
+       "Nódulos dolorosos + febre (MB)",
+       "Talidomida ou prednisona"
+      ]
+     ]
+    },
+    {
+     "tipo": "vs",
+     "a": {
+      "t": "Tuberculoide (Th1)",
+      "itens": [
+       "Granulomas bem formados",
+       "Poucos bacilos",
+       "Poucas lesões delimitadas"
+      ]
+     },
+     "b": {
+      "t": "Virchowiana (Th2)",
+      "itens": [
+       "Sem granulomas organizados",
+       "Muitos bacilos (globias)",
+       "Lesões difusas, madarose"
+      ]
+     }
+    }
+   ],
+   "fonte": "MS — Protocolo Clínico e Diretrizes Terapêuticas da Hanseníase (2022) / Guia Prático sobre a Hanseníase (2017) / Nota Técnica PQT-U (2021)",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "han-q1",
+   "tipo": "quiz",
+   "area": "Clínica Médica",
+   "tema": "Infectologia",
+   "sub": "Hanseníase",
+   "frente": "Sobre a hanseníase, é CORRETO afirmar:",
+   "opcoes": [
+    "Na forma tuberculoide, a resposta é Th2, com alta produção de IL-4.",
+    "A forma virchowiana tem poucos bacilos e menos de cinco lesões.",
+    "A forma virchowiana tem granulomas bem formados e predomínio Th1.",
+    "Na forma tuberculoide, os granulomas são bem formados."
+   ],
+   "certa": 3,
+   "comentarios": [
+    "Errada: Th1.",
+    "Errada: muitos bacilos e lesões difusas.",
+    "Errada: isso é tuberculoide.",
+    "Correta."
+   ],
+   "macete": "Tuberculoide = \"Tropa Unida\".",
+   "pegadinha": "Inversões Th1/Th2 são o distrator clássico.",
+   "uerj": "VV 2025 (Q18, gabarito D).",
+   "prio": "media",
+   "contexto": "**Hanseníase = infecção crônica pelo Mycobacterium leprae que acomete pele e nervos periféricos; o polo clínico depende da resposta imune (Th1 × Th2).**\n\nTransmissão:\n- Vias aéreas superiores, por contato prolongado com doente MULTIBACILAR sem tratamento\n- Incubação longa (2–7 anos); a maioria dos expostos não adoece\n\nDefinição de caso (MS) — pelo menos 1:\n- Lesão de pele com alteração de sensibilidade (térmica, dolorosa, tátil)\n- Espessamento de nervo periférico com alteração sensitiva, motora ou autonômica\n- Baciloscopia positiva (raspado intradérmico)\n\nClassificação operacional (tratamento):\n- **Paucibacilar** → até 5 lesões e baciloscopia negativa\n- **Multibacilar** → mais de 5 lesões OU baciloscopia positiva\n\nFormas clínicas (Madri) e imunidade:\n- Indeterminada → mancha hipocrômica com alteração de sensibilidade\n- **Tuberculoide** → resposta **Th1** forte; **granulomas bem formados**; poucos bacilos; poucas lesões bem delimitadas\n- Dimorfa (borderline) → intermediária, instável\n- **Virchowiana (lepromatosa)** → resposta **Th2**; sem granulomas organizados; **muitos bacilos** (globias); lesões difusas, infiltração, madarose\n\nTratamento — PQT-U (MS 2021; para todos):\n- Rifampicina + dapsona + clofazimina\n- **Paucibacilar → 6 doses** (6 meses); **multibacilar → 12 doses** (12 meses)\n- Contatos → exame dermatoneurológico + BCG\n\nReações hansênicas:\n- **Tipo 1 (reversa)** → Th1; piora das lesões e neurite → prednisona\n- **Tipo 2 (eritema nodoso hansênico)** → imunocomplexos, multibacilares; nódulos dolorosos + febre → **talidomida** (proibida sem contracepção em mulher fértil) ou prednisona\n- Neurite → principal causa de incapacidade; tratar rápido com corticoide\n\nO que mais cai no Vila Verde:\n- VV 2025 → tuberculoide = granulomas bem formados (Th1); distratores invertem Th1/Th2 e dizem que a virchowiana tem poucos bacilos e menos de 5 lesões.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "Hanseníase",
+      "Critério",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "Paucibacilar",
+       "≤ 5 lesões, baciloscopia negativa",
+       "PQT-U 6 doses"
+      ],
+      [
+       "Multibacilar",
+       "> 5 lesões ou baciloscopia positiva",
+       "PQT-U 12 doses"
+      ],
+      [
+       "Reação tipo 1",
+       "Piora das lesões + neurite",
+       "Prednisona"
+      ],
+      [
+       "Reação tipo 2 (ENH)",
+       "Nódulos dolorosos + febre (MB)",
+       "Talidomida ou prednisona"
+      ]
+     ]
+    },
+    {
+     "tipo": "vs",
+     "a": {
+      "t": "Tuberculoide (Th1)",
+      "itens": [
+       "Granulomas bem formados",
+       "Poucos bacilos",
+       "Poucas lesões delimitadas"
+      ]
+     },
+     "b": {
+      "t": "Virchowiana (Th2)",
+      "itens": [
+       "Sem granulomas organizados",
+       "Muitos bacilos (globias)",
+       "Lesões difusas, madarose"
+      ]
+     }
+    }
+   ],
+   "fonte": "MS — Protocolo Clínico e Diretrizes Terapêuticas da Hanseníase (2022) / Guia Prático sobre a Hanseníase (2017) / Nota Técnica PQT-U (2021)",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "han-d1",
+   "tipo": "digitar",
+   "area": "Clínica Médica",
+   "tema": "Infectologia",
+   "sub": "Hanseníase",
+   "frente": "Qual droga trata o eritema nodoso hansênico (reação tipo 2)?",
+   "verso": "**Talidomida.**\n\n- Proibida em mulher fértil sem contracepção (teratogênica).",
+   "resposta": "Talidomida",
+   "aceitas": [
+    "talidomida",
+    "thalidomide"
+   ],
+   "macete": "ENH → \"Tali\".",
+   "prio": "media",
+   "contexto": "**Hanseníase = infecção crônica pelo Mycobacterium leprae que acomete pele e nervos periféricos; o polo clínico depende da resposta imune (Th1 × Th2).**\n\nTransmissão:\n- Vias aéreas superiores, por contato prolongado com doente MULTIBACILAR sem tratamento\n- Incubação longa (2–7 anos); a maioria dos expostos não adoece\n\nDefinição de caso (MS) — pelo menos 1:\n- Lesão de pele com alteração de sensibilidade (térmica, dolorosa, tátil)\n- Espessamento de nervo periférico com alteração sensitiva, motora ou autonômica\n- Baciloscopia positiva (raspado intradérmico)\n\nClassificação operacional (tratamento):\n- **Paucibacilar** → até 5 lesões e baciloscopia negativa\n- **Multibacilar** → mais de 5 lesões OU baciloscopia positiva\n\nFormas clínicas (Madri) e imunidade:\n- Indeterminada → mancha hipocrômica com alteração de sensibilidade\n- **Tuberculoide** → resposta **Th1** forte; **granulomas bem formados**; poucos bacilos; poucas lesões bem delimitadas\n- Dimorfa (borderline) → intermediária, instável\n- **Virchowiana (lepromatosa)** → resposta **Th2**; sem granulomas organizados; **muitos bacilos** (globias); lesões difusas, infiltração, madarose\n\nTratamento — PQT-U (MS 2021; para todos):\n- Rifampicina + dapsona + clofazimina\n- **Paucibacilar → 6 doses** (6 meses); **multibacilar → 12 doses** (12 meses)\n- Contatos → exame dermatoneurológico + BCG\n\nReações hansênicas:\n- **Tipo 1 (reversa)** → Th1; piora das lesões e neurite → prednisona\n- **Tipo 2 (eritema nodoso hansênico)** → imunocomplexos, multibacilares; nódulos dolorosos + febre → **talidomida** (proibida sem contracepção em mulher fértil) ou prednisona\n- Neurite → principal causa de incapacidade; tratar rápido com corticoide\n\nO que mais cai no Vila Verde:\n- VV 2025 → tuberculoide = granulomas bem formados (Th1); distratores invertem Th1/Th2 e dizem que a virchowiana tem poucos bacilos e menos de 5 lesões.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "Hanseníase",
+      "Critério",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "Paucibacilar",
+       "≤ 5 lesões, baciloscopia negativa",
+       "PQT-U 6 doses"
+      ],
+      [
+       "Multibacilar",
+       "> 5 lesões ou baciloscopia positiva",
+       "PQT-U 12 doses"
+      ],
+      [
+       "Reação tipo 1",
+       "Piora das lesões + neurite",
+       "Prednisona"
+      ],
+      [
+       "Reação tipo 2 (ENH)",
+       "Nódulos dolorosos + febre (MB)",
+       "Talidomida ou prednisona"
+      ]
+     ]
+    },
+    {
+     "tipo": "vs",
+     "a": {
+      "t": "Tuberculoide (Th1)",
+      "itens": [
+       "Granulomas bem formados",
+       "Poucos bacilos",
+       "Poucas lesões delimitadas"
+      ]
+     },
+     "b": {
+      "t": "Virchowiana (Th2)",
+      "itens": [
+       "Sem granulomas organizados",
+       "Muitos bacilos (globias)",
+       "Lesões difusas, madarose"
+      ]
+     }
+    }
+   ],
+   "fonte": "MS — Protocolo Clínico e Diretrizes Terapêuticas da Hanseníase (2022) / Guia Prático sobre a Hanseníase (2017) / Nota Técnica PQT-U (2021)",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "han-d2",
+   "tipo": "digitar",
+   "area": "Clínica Médica",
+   "tema": "Infectologia",
+   "sub": "Hanseníase",
+   "frente": "Quantas doses de PQT-U no multibacilar?",
+   "verso": "**12 doses.**",
+   "resposta": "12",
+   "aceitas": [
+    "12",
+    "doze",
+    "12 doses"
+   ],
+   "macete": "Multi = 12 (doze meses).",
+   "prio": "media",
+   "contexto": "**Hanseníase = infecção crônica pelo Mycobacterium leprae que acomete pele e nervos periféricos; o polo clínico depende da resposta imune (Th1 × Th2).**\n\nTransmissão:\n- Vias aéreas superiores, por contato prolongado com doente MULTIBACILAR sem tratamento\n- Incubação longa (2–7 anos); a maioria dos expostos não adoece\n\nDefinição de caso (MS) — pelo menos 1:\n- Lesão de pele com alteração de sensibilidade (térmica, dolorosa, tátil)\n- Espessamento de nervo periférico com alteração sensitiva, motora ou autonômica\n- Baciloscopia positiva (raspado intradérmico)\n\nClassificação operacional (tratamento):\n- **Paucibacilar** → até 5 lesões e baciloscopia negativa\n- **Multibacilar** → mais de 5 lesões OU baciloscopia positiva\n\nFormas clínicas (Madri) e imunidade:\n- Indeterminada → mancha hipocrômica com alteração de sensibilidade\n- **Tuberculoide** → resposta **Th1** forte; **granulomas bem formados**; poucos bacilos; poucas lesões bem delimitadas\n- Dimorfa (borderline) → intermediária, instável\n- **Virchowiana (lepromatosa)** → resposta **Th2**; sem granulomas organizados; **muitos bacilos** (globias); lesões difusas, infiltração, madarose\n\nTratamento — PQT-U (MS 2021; para todos):\n- Rifampicina + dapsona + clofazimina\n- **Paucibacilar → 6 doses** (6 meses); **multibacilar → 12 doses** (12 meses)\n- Contatos → exame dermatoneurológico + BCG\n\nReações hansênicas:\n- **Tipo 1 (reversa)** → Th1; piora das lesões e neurite → prednisona\n- **Tipo 2 (eritema nodoso hansênico)** → imunocomplexos, multibacilares; nódulos dolorosos + febre → **talidomida** (proibida sem contracepção em mulher fértil) ou prednisona\n- Neurite → principal causa de incapacidade; tratar rápido com corticoide\n\nO que mais cai no Vila Verde:\n- VV 2025 → tuberculoide = granulomas bem formados (Th1); distratores invertem Th1/Th2 e dizem que a virchowiana tem poucos bacilos e menos de 5 lesões.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "Hanseníase",
+      "Critério",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "Paucibacilar",
+       "≤ 5 lesões, baciloscopia negativa",
+       "PQT-U 6 doses"
+      ],
+      [
+       "Multibacilar",
+       "> 5 lesões ou baciloscopia positiva",
+       "PQT-U 12 doses"
+      ],
+      [
+       "Reação tipo 1",
+       "Piora das lesões + neurite",
+       "Prednisona"
+      ],
+      [
+       "Reação tipo 2 (ENH)",
+       "Nódulos dolorosos + febre (MB)",
+       "Talidomida ou prednisona"
+      ]
+     ]
+    },
+    {
+     "tipo": "vs",
+     "a": {
+      "t": "Tuberculoide (Th1)",
+      "itens": [
+       "Granulomas bem formados",
+       "Poucos bacilos",
+       "Poucas lesões delimitadas"
+      ]
+     },
+     "b": {
+      "t": "Virchowiana (Th2)",
+      "itens": [
+       "Sem granulomas organizados",
+       "Muitos bacilos (globias)",
+       "Lesões difusas, madarose"
+      ]
+     }
+    }
+   ],
+   "fonte": "MS — Protocolo Clínico e Diretrizes Terapêuticas da Hanseníase (2022) / Guia Prático sobre a Hanseníase (2017) / Nota Técnica PQT-U (2021)",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "hep-01",
+   "tipo": "flash",
+   "area": "Clínica Médica",
+   "tema": "Gastroenterologia",
+   "sub": "Hepatites virais e provas de função hepática",
+   "frente": "Por que a albumina pode estar normal na doença hepática aguda?",
+   "verso": "**Meia-vida longa (~20 dias).**\n\nMelhor marcador de função na aguda:\n- TP/INR (fatores de meia-vida curta).\n\nLembrar:\n- Albumina é sintetizada só pelo hepatócito.",
+   "macete": "Albumina é \"lenta\" (20 dias); INR é \"rápido\" (horas).",
+   "visual": {
+    "tipo": "tabela",
+    "cab": [
+     "Grupo",
+     "Exames"
+    ],
+    "linhas": [
+     [
+      "Lesão",
+      "ALT, AST"
+     ],
+     [
+      "Colestase",
+      "FA, GGT, bilirrubina direta"
+     ],
+     [
+      "!Função",
+      "Albumina, TP/INR"
+     ]
+    ]
+   },
+   "pegadinha": "FA, GGT e ALT são marcadores de lesão/colestase, não de função.",
+   "uerj": "VV 2024: albumina (gabarito A).",
+   "prio": "alta",
+   "contexto": "**Provas de função hepática e hepatites virais = como ler os exames do fígado (lesão × colestase × função) e os marcadores das hepatites A, B e C.**\n\nProvas hepáticas:\n- **Lesão hepatocelular** → ALT (TGP; mais específica do fígado) e AST (TGO)\n  - AST/ALT > 2 → sugere hepatopatia alcoólica\n  - > 1.000 → hepatite viral aguda, isquêmica, medicamentosa (paracetamol)\n- **Colestase** → fosfatase alcalina, GGT, bilirrubina direta\n- **Função (síntese)** → albumina e TP/INR\n  - **Albumina** → produzida só pelo hepatócito, meia-vida ~20 dias → pode estar NORMAL na doença aguda\n  - **TP/INR** → fatores de meia-vida curta → melhor marcador de função na insuficiência aguda\n\nHepatite A:\n- Fecal-oral; não cronifica; diagnóstico → anti-HAV IgM; vacina no PNI aos 15 meses\n\nHepatite B:\n- Transmissão sexual, vertical, parenteral\n- **Cronificação depende da idade** → RN ~90%; 1–5 anos 25–50%; **adulto ~5–10%**\n- Crônica → HBsAg positivo por > 6 meses → acompanhar o adulto com hepatite aguda por pelo menos 6 meses\n- Marcadores:\n  - HBsAg → infecção atual\n  - Anti-HBc IgM → infecção AGUDA\n  - Anti-HBc IgG → contato prévio\n  - Anti-HBs → imunidade (cura ou vacina)\n  - HBeAg → replicação viral alta\n\nHepatite C:\n- Parenteral (drogas injetáveis, transfusão antiga); cronifica em ~70–85%\n- Diagnóstico → anti-HCV + HCV-RNA\n- Tratamento → antivirais de ação direta (cura > 95%)\n\nHepatite D (só com B) e E (fecal-oral; grave na gestante)\n\nO que mais cai no Vila Verde:\n- VV 2024 (2 questões) → albumina: só hepatócitos, meia-vida ~20 dias, pode estar normal na doença aguda; hepatite B aguda no adulto: acompanhar ≥ 6 meses (5–10% cronificam).",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "cab": [
+      "Perfil",
+      "HBsAg",
+      "Anti-HBc IgM",
+      "Anti-HBc IgG",
+      "Anti-HBs"
+     ],
+     "linhas": [
+      [
+       "Aguda",
+       "+",
+       "!+",
+       "−",
+       "−"
+      ],
+      [
+       "Crônica",
+       "+ (> 6 meses)",
+       "−",
+       "+",
+       "−"
+      ],
+      [
+       "Cura",
+       "−",
+       "−",
+       "+",
+       "+"
+      ],
+      [
+       "Vacinado",
+       "−",
+       "−",
+       "−",
+       "!+"
+      ]
+     ]
+    }
+   ],
+   "fonte": "MS — PCDT Hepatite B e Coinfecções (2023) e PCDT Hepatite C (2019) / Harrison's 21ª ed. / EASL Clinical Practice Guidelines on HBV (2025)",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "hep-02",
+   "tipo": "flash",
+   "area": "Clínica Médica",
+   "tema": "Gastroenterologia",
+   "sub": "Hepatites virais e provas de função hepática",
+   "frente": "Hepatite B aguda no adulto: chance de cronificar e seguimento",
+   "verso": "**~5–10% cronificam.**\n**Acompanhar por pelo menos 6 meses.**\n\nCrônica:\n- HBsAg positivo por > 6 meses.\n\nNo RN:\n- ~90% cronificam (por isso vacina ao nascer).",
+   "macete": "\"Adulto 5–10, bebê 90\".",
+   "pegadinha": "Anti-HBc IgM é o marcador da fase AGUDA.",
+   "uerj": "VV 2024: acompanhar ≥ 6 meses, 5–10% cronificam (gabarito D).",
+   "prio": "alta",
+   "contexto": "**Provas de função hepática e hepatites virais = como ler os exames do fígado (lesão × colestase × função) e os marcadores das hepatites A, B e C.**\n\nProvas hepáticas:\n- **Lesão hepatocelular** → ALT (TGP; mais específica do fígado) e AST (TGO)\n  - AST/ALT > 2 → sugere hepatopatia alcoólica\n  - > 1.000 → hepatite viral aguda, isquêmica, medicamentosa (paracetamol)\n- **Colestase** → fosfatase alcalina, GGT, bilirrubina direta\n- **Função (síntese)** → albumina e TP/INR\n  - **Albumina** → produzida só pelo hepatócito, meia-vida ~20 dias → pode estar NORMAL na doença aguda\n  - **TP/INR** → fatores de meia-vida curta → melhor marcador de função na insuficiência aguda\n\nHepatite A:\n- Fecal-oral; não cronifica; diagnóstico → anti-HAV IgM; vacina no PNI aos 15 meses\n\nHepatite B:\n- Transmissão sexual, vertical, parenteral\n- **Cronificação depende da idade** → RN ~90%; 1–5 anos 25–50%; **adulto ~5–10%**\n- Crônica → HBsAg positivo por > 6 meses → acompanhar o adulto com hepatite aguda por pelo menos 6 meses\n- Marcadores:\n  - HBsAg → infecção atual\n  - Anti-HBc IgM → infecção AGUDA\n  - Anti-HBc IgG → contato prévio\n  - Anti-HBs → imunidade (cura ou vacina)\n  - HBeAg → replicação viral alta\n\nHepatite C:\n- Parenteral (drogas injetáveis, transfusão antiga); cronifica em ~70–85%\n- Diagnóstico → anti-HCV + HCV-RNA\n- Tratamento → antivirais de ação direta (cura > 95%)\n\nHepatite D (só com B) e E (fecal-oral; grave na gestante)\n\nO que mais cai no Vila Verde:\n- VV 2024 (2 questões) → albumina: só hepatócitos, meia-vida ~20 dias, pode estar normal na doença aguda; hepatite B aguda no adulto: acompanhar ≥ 6 meses (5–10% cronificam).",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "cab": [
+      "Perfil",
+      "HBsAg",
+      "Anti-HBc IgM",
+      "Anti-HBc IgG",
+      "Anti-HBs"
+     ],
+     "linhas": [
+      [
+       "Aguda",
+       "+",
+       "!+",
+       "−",
+       "−"
+      ],
+      [
+       "Crônica",
+       "+ (> 6 meses)",
+       "−",
+       "+",
+       "−"
+      ],
+      [
+       "Cura",
+       "−",
+       "−",
+       "+",
+       "+"
+      ],
+      [
+       "Vacinado",
+       "−",
+       "−",
+       "−",
+       "!+"
+      ]
+     ]
+    }
+   ],
+   "fonte": "MS — PCDT Hepatite B e Coinfecções (2023) e PCDT Hepatite C (2019) / Harrison's 21ª ed. / EASL Clinical Practice Guidelines on HBV (2025)",
+   "add": "2026-10-28",
+   "visual": {
+    "tipo": "tabela",
+    "cab": [
+     "Idade na infecção",
+     "Cronifica"
+    ],
+    "linhas": [
+     [
+      "RN",
+      "~90%"
+     ],
+     [
+      "1–5 anos",
+      "25–50%"
+     ],
+     [
+      "!Adulto",
+      "~5–10%"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "hep-q1",
+   "tipo": "quiz",
+   "area": "Clínica Médica",
+   "tema": "Gastroenterologia",
+   "sub": "Hepatites virais e provas de função hepática",
+   "frente": "Paciente com HBsAg reagente, anti-HBc IgM reagente e anti-HBs não reagente. A interpretação é:",
+   "opcoes": [
+    "Hepatite B aguda.",
+    "Hepatite B crônica.",
+    "Imunidade por vacina.",
+    "Cura de infecção prévia."
+   ],
+   "certa": 0,
+   "comentarios": [
+    "Correta: anti-HBc IgM = aguda.",
+    "Na crônica o anti-HBc é IgG.",
+    "Vacina → só anti-HBs.",
+    "Cura → HBsAg negativo + anti-HBs."
+   ],
+   "macete": "\"IgM = Imediata\" (aguda).",
+   "pegadinha": "Só anti-HBs positivo = vacinado.",
+   "uerj": "Baseado na VV 2024 (hepatite B aguda).",
+   "prio": "media",
+   "contexto": "**Provas de função hepática e hepatites virais = como ler os exames do fígado (lesão × colestase × função) e os marcadores das hepatites A, B e C.**\n\nProvas hepáticas:\n- **Lesão hepatocelular** → ALT (TGP; mais específica do fígado) e AST (TGO)\n  - AST/ALT > 2 → sugere hepatopatia alcoólica\n  - > 1.000 → hepatite viral aguda, isquêmica, medicamentosa (paracetamol)\n- **Colestase** → fosfatase alcalina, GGT, bilirrubina direta\n- **Função (síntese)** → albumina e TP/INR\n  - **Albumina** → produzida só pelo hepatócito, meia-vida ~20 dias → pode estar NORMAL na doença aguda\n  - **TP/INR** → fatores de meia-vida curta → melhor marcador de função na insuficiência aguda\n\nHepatite A:\n- Fecal-oral; não cronifica; diagnóstico → anti-HAV IgM; vacina no PNI aos 15 meses\n\nHepatite B:\n- Transmissão sexual, vertical, parenteral\n- **Cronificação depende da idade** → RN ~90%; 1–5 anos 25–50%; **adulto ~5–10%**\n- Crônica → HBsAg positivo por > 6 meses → acompanhar o adulto com hepatite aguda por pelo menos 6 meses\n- Marcadores:\n  - HBsAg → infecção atual\n  - Anti-HBc IgM → infecção AGUDA\n  - Anti-HBc IgG → contato prévio\n  - Anti-HBs → imunidade (cura ou vacina)\n  - HBeAg → replicação viral alta\n\nHepatite C:\n- Parenteral (drogas injetáveis, transfusão antiga); cronifica em ~70–85%\n- Diagnóstico → anti-HCV + HCV-RNA\n- Tratamento → antivirais de ação direta (cura > 95%)\n\nHepatite D (só com B) e E (fecal-oral; grave na gestante)\n\nO que mais cai no Vila Verde:\n- VV 2024 (2 questões) → albumina: só hepatócitos, meia-vida ~20 dias, pode estar normal na doença aguda; hepatite B aguda no adulto: acompanhar ≥ 6 meses (5–10% cronificam).",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "cab": [
+      "Perfil",
+      "HBsAg",
+      "Anti-HBc IgM",
+      "Anti-HBc IgG",
+      "Anti-HBs"
+     ],
+     "linhas": [
+      [
+       "Aguda",
+       "+",
+       "!+",
+       "−",
+       "−"
+      ],
+      [
+       "Crônica",
+       "+ (> 6 meses)",
+       "−",
+       "+",
+       "−"
+      ],
+      [
+       "Cura",
+       "−",
+       "−",
+       "+",
+       "+"
+      ],
+      [
+       "Vacinado",
+       "−",
+       "−",
+       "−",
+       "!+"
+      ]
+     ]
+    }
+   ],
+   "fonte": "MS — PCDT Hepatite B e Coinfecções (2023) e PCDT Hepatite C (2019) / Harrison's 21ª ed. / EASL Clinical Practice Guidelines on HBV (2025)",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "hep-d1",
+   "tipo": "digitar",
+   "area": "Clínica Médica",
+   "tema": "Gastroenterologia",
+   "sub": "Hepatites virais e provas de função hepática",
+   "frente": "Qual marcador indica imunidade contra hepatite B?",
+   "verso": "**Anti-HBs.**",
+   "resposta": "Anti-HBs",
+   "aceitas": [
+    "anti-hbs",
+    "anti hbs",
+    "antihbs"
+   ],
+   "macete": "\"Anti-HBs = Superprotegido\".",
+   "prio": "alta",
+   "contexto": "**Provas de função hepática e hepatites virais = como ler os exames do fígado (lesão × colestase × função) e os marcadores das hepatites A, B e C.**\n\nProvas hepáticas:\n- **Lesão hepatocelular** → ALT (TGP; mais específica do fígado) e AST (TGO)\n  - AST/ALT > 2 → sugere hepatopatia alcoólica\n  - > 1.000 → hepatite viral aguda, isquêmica, medicamentosa (paracetamol)\n- **Colestase** → fosfatase alcalina, GGT, bilirrubina direta\n- **Função (síntese)** → albumina e TP/INR\n  - **Albumina** → produzida só pelo hepatócito, meia-vida ~20 dias → pode estar NORMAL na doença aguda\n  - **TP/INR** → fatores de meia-vida curta → melhor marcador de função na insuficiência aguda\n\nHepatite A:\n- Fecal-oral; não cronifica; diagnóstico → anti-HAV IgM; vacina no PNI aos 15 meses\n\nHepatite B:\n- Transmissão sexual, vertical, parenteral\n- **Cronificação depende da idade** → RN ~90%; 1–5 anos 25–50%; **adulto ~5–10%**\n- Crônica → HBsAg positivo por > 6 meses → acompanhar o adulto com hepatite aguda por pelo menos 6 meses\n- Marcadores:\n  - HBsAg → infecção atual\n  - Anti-HBc IgM → infecção AGUDA\n  - Anti-HBc IgG → contato prévio\n  - Anti-HBs → imunidade (cura ou vacina)\n  - HBeAg → replicação viral alta\n\nHepatite C:\n- Parenteral (drogas injetáveis, transfusão antiga); cronifica em ~70–85%\n- Diagnóstico → anti-HCV + HCV-RNA\n- Tratamento → antivirais de ação direta (cura > 95%)\n\nHepatite D (só com B) e E (fecal-oral; grave na gestante)\n\nO que mais cai no Vila Verde:\n- VV 2024 (2 questões) → albumina: só hepatócitos, meia-vida ~20 dias, pode estar normal na doença aguda; hepatite B aguda no adulto: acompanhar ≥ 6 meses (5–10% cronificam).",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "cab": [
+      "Perfil",
+      "HBsAg",
+      "Anti-HBc IgM",
+      "Anti-HBc IgG",
+      "Anti-HBs"
+     ],
+     "linhas": [
+      [
+       "Aguda",
+       "+",
+       "!+",
+       "−",
+       "−"
+      ],
+      [
+       "Crônica",
+       "+ (> 6 meses)",
+       "−",
+       "+",
+       "−"
+      ],
+      [
+       "Cura",
+       "−",
+       "−",
+       "+",
+       "+"
+      ],
+      [
+       "Vacinado",
+       "−",
+       "−",
+       "−",
+       "!+"
+      ]
+     ]
+    }
+   ],
+   "fonte": "MS — PCDT Hepatite B e Coinfecções (2023) e PCDT Hepatite C (2019) / Harrison's 21ª ed. / EASL Clinical Practice Guidelines on HBV (2025)",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "hep-d2",
+   "tipo": "digitar",
+   "area": "Clínica Médica",
+   "tema": "Gastroenterologia",
+   "sub": "Hepatites virais e provas de função hepática",
+   "frente": "Qual exame é o melhor marcador de função hepática na insuficiência aguda?",
+   "verso": "**TP/INR.**",
+   "resposta": "INR",
+   "aceitas": [
+    "tp",
+    "inr",
+    "tempo de protrombina",
+    "tp/inr"
+   ],
+   "macete": "INR é rápido.",
+   "prio": "media",
+   "contexto": "**Provas de função hepática e hepatites virais = como ler os exames do fígado (lesão × colestase × função) e os marcadores das hepatites A, B e C.**\n\nProvas hepáticas:\n- **Lesão hepatocelular** → ALT (TGP; mais específica do fígado) e AST (TGO)\n  - AST/ALT > 2 → sugere hepatopatia alcoólica\n  - > 1.000 → hepatite viral aguda, isquêmica, medicamentosa (paracetamol)\n- **Colestase** → fosfatase alcalina, GGT, bilirrubina direta\n- **Função (síntese)** → albumina e TP/INR\n  - **Albumina** → produzida só pelo hepatócito, meia-vida ~20 dias → pode estar NORMAL na doença aguda\n  - **TP/INR** → fatores de meia-vida curta → melhor marcador de função na insuficiência aguda\n\nHepatite A:\n- Fecal-oral; não cronifica; diagnóstico → anti-HAV IgM; vacina no PNI aos 15 meses\n\nHepatite B:\n- Transmissão sexual, vertical, parenteral\n- **Cronificação depende da idade** → RN ~90%; 1–5 anos 25–50%; **adulto ~5–10%**\n- Crônica → HBsAg positivo por > 6 meses → acompanhar o adulto com hepatite aguda por pelo menos 6 meses\n- Marcadores:\n  - HBsAg → infecção atual\n  - Anti-HBc IgM → infecção AGUDA\n  - Anti-HBc IgG → contato prévio\n  - Anti-HBs → imunidade (cura ou vacina)\n  - HBeAg → replicação viral alta\n\nHepatite C:\n- Parenteral (drogas injetáveis, transfusão antiga); cronifica em ~70–85%\n- Diagnóstico → anti-HCV + HCV-RNA\n- Tratamento → antivirais de ação direta (cura > 95%)\n\nHepatite D (só com B) e E (fecal-oral; grave na gestante)\n\nO que mais cai no Vila Verde:\n- VV 2024 (2 questões) → albumina: só hepatócitos, meia-vida ~20 dias, pode estar normal na doença aguda; hepatite B aguda no adulto: acompanhar ≥ 6 meses (5–10% cronificam).",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "cab": [
+      "Perfil",
+      "HBsAg",
+      "Anti-HBc IgM",
+      "Anti-HBc IgG",
+      "Anti-HBs"
+     ],
+     "linhas": [
+      [
+       "Aguda",
+       "+",
+       "!+",
+       "−",
+       "−"
+      ],
+      [
+       "Crônica",
+       "+ (> 6 meses)",
+       "−",
+       "+",
+       "−"
+      ],
+      [
+       "Cura",
+       "−",
+       "−",
+       "+",
+       "+"
+      ],
+      [
+       "Vacinado",
+       "−",
+       "−",
+       "−",
+       "!+"
+      ]
+     ]
+    }
+   ],
+   "fonte": "MS — PCDT Hepatite B e Coinfecções (2023) e PCDT Hepatite C (2019) / Harrison's 21ª ed. / EASL Clinical Practice Guidelines on HBV (2025)",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "emb-01",
+   "tipo": "flash",
+   "area": "Clínica Médica",
+   "tema": "Nefrologia",
+   "sub": "Embriologia renal",
+   "frente": "De qual estrutura se forma o rim definitivo?",
+   "verso": "**Metanefro.**\n\nDivisão:\n- Blastema metanéfrico → néfron.\n- Broto ureteral → ureter, pelve, cálices e ductos coletores.",
+   "macete": "\"Meta = o rim da Meta final\".",
+   "visual": {
+    "tipo": "vs",
+    "a": {
+     "t": "Blastema metanéfrico",
+     "itens": [
+      "Glomérulo",
+      "Cápsula de Bowman",
+      "Túbulos e alça de Henle"
+     ]
+    },
+    "b": {
+     "t": "Broto ureteral",
+     "itens": [
+      "Ureter",
+      "Pelve e cálices",
+      "Ductos coletores"
+     ]
+    }
+   },
+   "pegadinha": "O broto ureteral NÃO forma glomérulo nem túbulos.",
+   "uerj": "VV 2025: rim definitivo a partir do metanefro (gabarito C).",
+   "prio": "media",
+   "contexto": "**Embriologia renal = três sistemas renais se sucedem (pronefro, mesonefro, metanefro); só o METANEFRO forma o rim definitivo.**\n\nOs três rins:\n- **Pronefro** → rudimentar, regride (4ª semana)\n- **Mesonefro** → rim transitório; seu ducto (de Wolff) forma no homem epidídimo, ducto deferente e vesícula seminal\n- **Metanefro** → **rim definitivo** (a partir da 5ª semana)\n\nMetanefro — duas origens:\n- **Blastema (mesoderma) metanéfrico** → forma o NÉFRON: glomérulo, cápsula de Bowman, túbulos contorcidos, alça de Henle\n- **Broto (botão) ureteral** (sai do ducto mesonéfrico) → forma o SISTEMA COLETOR: ureter, pelve, cálices e ductos coletores\n- Um induz o outro (interação recíproca)\n\nMalformações:\n- Rim sobe da pelve para a região lombar → rim pélvico se não ascende\n- **Rim em ferradura** → fusão dos polos inferiores; para na artéria mesentérica inferior\n- Agenesia renal bilateral → oligoidrâmnio → sequência de Potter (hipoplasia pulmonar, fácies típica)\n- Duplicação ureteral → bifurcação precoce do broto ureteral\n\nO que mais cai no Vila Verde:\n- VV 2025 → o rim definitivo se desenvolve a partir do metanefro; o broto ureteral NÃO forma glomérulo nem túbulos.",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 180\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><rect x=\"10\" y=\"8\" width=\"100\" height=\"40\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"60.0\" y=\"27.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Pronefro</text><text x=\"60.0\" y=\"39.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">regride</text><rect x=\"120\" y=\"8\" width=\"100\" height=\"40\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"170.0\" y=\"27.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Mesonefro</text><text x=\"170.0\" y=\"39.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">transitório</text><rect x=\"230\" y=\"8\" width=\"100\" height=\"40\" rx=\"9\" fill=\"var(--wine)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"280.0\" y=\"27.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--card)\">Metanefro</text><text x=\"280.0\" y=\"39.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--card)\">RIM DEFINITIVO</text><line x1=\"280\" y1=\"48\" x2=\"230\" y2=\"70\" stroke=\"var(--rose)\"/><line x1=\"280\" y1=\"48\" x2=\"320\" y2=\"70\" stroke=\"var(--rose)\"/><rect x=\"150\" y=\"72\" width=\"120\" height=\"54\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"210.0\" y=\"98.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Blastema</text><text x=\"210.0\" y=\"110.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">glomérulo, Bowman, túbulos, Henle</text><rect x=\"276\" y=\"72\" width=\"60\" height=\"54\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"306.0\" y=\"98.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Broto</text><text x=\"306.0\" y=\"110.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">ureter</text><text x=\"306\" y=\"140\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--ink)\">ureter, pelve,</text><text x=\"306\" y=\"152\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--ink)\">cálices, coletores</text><text x=\"120\" y=\"172\" font-size=\"9.5\" fill=\"var(--mute)\">Mesonefro → ducto de Wolff → deferente, epidídimo</text></svg>",
+     "legenda": "Sequência dos rins embrionários e o que cada parte do metanefro forma"
+    }
+   ],
+   "fonte": "Langman — Embriologia Médica 14ª ed. / Moore — Embriologia Clínica 11ª ed.",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "emb-q1",
+   "tipo": "quiz",
+   "area": "Clínica Médica",
+   "tema": "Nefrologia",
+   "sub": "Embriologia renal",
+   "frente": "Sobre a embriogênese renal, é CORRETO afirmar:",
+   "opcoes": [
+    "O botão ureteral dá origem ao glomérulo e aos túbulos renais.",
+    "O mesonefro forma o glomérulo e os túbulos definitivos.",
+    "O pronefro persiste e se desenvolve como o rim adulto.",
+    "O rim definitivo se desenvolve a partir do metanefro."
+   ],
+   "certa": 3,
+   "comentarios": [
+    "Errada: forma o sistema coletor.",
+    "Errada: é transitório.",
+    "Errada: regride.",
+    "Correta."
+   ],
+   "macete": "\"Meta é o final\".",
+   "pegadinha": "Pronefro e mesonefro são transitórios.",
+   "uerj": "VV 2025 (Q4, gabarito C).",
+   "prio": "media",
+   "contexto": "**Embriologia renal = três sistemas renais se sucedem (pronefro, mesonefro, metanefro); só o METANEFRO forma o rim definitivo.**\n\nOs três rins:\n- **Pronefro** → rudimentar, regride (4ª semana)\n- **Mesonefro** → rim transitório; seu ducto (de Wolff) forma no homem epidídimo, ducto deferente e vesícula seminal\n- **Metanefro** → **rim definitivo** (a partir da 5ª semana)\n\nMetanefro — duas origens:\n- **Blastema (mesoderma) metanéfrico** → forma o NÉFRON: glomérulo, cápsula de Bowman, túbulos contorcidos, alça de Henle\n- **Broto (botão) ureteral** (sai do ducto mesonéfrico) → forma o SISTEMA COLETOR: ureter, pelve, cálices e ductos coletores\n- Um induz o outro (interação recíproca)\n\nMalformações:\n- Rim sobe da pelve para a região lombar → rim pélvico se não ascende\n- **Rim em ferradura** → fusão dos polos inferiores; para na artéria mesentérica inferior\n- Agenesia renal bilateral → oligoidrâmnio → sequência de Potter (hipoplasia pulmonar, fácies típica)\n- Duplicação ureteral → bifurcação precoce do broto ureteral\n\nO que mais cai no Vila Verde:\n- VV 2025 → o rim definitivo se desenvolve a partir do metanefro; o broto ureteral NÃO forma glomérulo nem túbulos.",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 180\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><rect x=\"10\" y=\"8\" width=\"100\" height=\"40\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"60.0\" y=\"27.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Pronefro</text><text x=\"60.0\" y=\"39.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">regride</text><rect x=\"120\" y=\"8\" width=\"100\" height=\"40\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"170.0\" y=\"27.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Mesonefro</text><text x=\"170.0\" y=\"39.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">transitório</text><rect x=\"230\" y=\"8\" width=\"100\" height=\"40\" rx=\"9\" fill=\"var(--wine)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"280.0\" y=\"27.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--card)\">Metanefro</text><text x=\"280.0\" y=\"39.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--card)\">RIM DEFINITIVO</text><line x1=\"280\" y1=\"48\" x2=\"230\" y2=\"70\" stroke=\"var(--rose)\"/><line x1=\"280\" y1=\"48\" x2=\"320\" y2=\"70\" stroke=\"var(--rose)\"/><rect x=\"150\" y=\"72\" width=\"120\" height=\"54\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"210.0\" y=\"98.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Blastema</text><text x=\"210.0\" y=\"110.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">glomérulo, Bowman, túbulos, Henle</text><rect x=\"276\" y=\"72\" width=\"60\" height=\"54\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"306.0\" y=\"98.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Broto</text><text x=\"306.0\" y=\"110.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">ureter</text><text x=\"306\" y=\"140\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--ink)\">ureter, pelve,</text><text x=\"306\" y=\"152\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--ink)\">cálices, coletores</text><text x=\"120\" y=\"172\" font-size=\"9.5\" fill=\"var(--mute)\">Mesonefro → ducto de Wolff → deferente, epidídimo</text></svg>",
+     "legenda": "Sequência dos rins embrionários e o que cada parte do metanefro forma"
+    }
+   ],
+   "fonte": "Langman — Embriologia Médica 14ª ed. / Moore — Embriologia Clínica 11ª ed.",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "emb-d1",
+   "tipo": "digitar",
+   "area": "Clínica Médica",
+   "tema": "Nefrologia",
+   "sub": "Embriologia renal",
+   "frente": "Qual estrutura embrionária forma ureter, pelve e cálices?",
+   "verso": "**Broto (botão) ureteral.**",
+   "resposta": "Broto ureteral",
+   "aceitas": [
+    "botão ureteral",
+    "broto ureteral",
+    "botao ureteral",
+    "divertículo metanéfrico"
+   ],
+   "macete": "Broto ureteral → \"tubulação\".",
+   "prio": "media",
+   "contexto": "**Embriologia renal = três sistemas renais se sucedem (pronefro, mesonefro, metanefro); só o METANEFRO forma o rim definitivo.**\n\nOs três rins:\n- **Pronefro** → rudimentar, regride (4ª semana)\n- **Mesonefro** → rim transitório; seu ducto (de Wolff) forma no homem epidídimo, ducto deferente e vesícula seminal\n- **Metanefro** → **rim definitivo** (a partir da 5ª semana)\n\nMetanefro — duas origens:\n- **Blastema (mesoderma) metanéfrico** → forma o NÉFRON: glomérulo, cápsula de Bowman, túbulos contorcidos, alça de Henle\n- **Broto (botão) ureteral** (sai do ducto mesonéfrico) → forma o SISTEMA COLETOR: ureter, pelve, cálices e ductos coletores\n- Um induz o outro (interação recíproca)\n\nMalformações:\n- Rim sobe da pelve para a região lombar → rim pélvico se não ascende\n- **Rim em ferradura** → fusão dos polos inferiores; para na artéria mesentérica inferior\n- Agenesia renal bilateral → oligoidrâmnio → sequência de Potter (hipoplasia pulmonar, fácies típica)\n- Duplicação ureteral → bifurcação precoce do broto ureteral\n\nO que mais cai no Vila Verde:\n- VV 2025 → o rim definitivo se desenvolve a partir do metanefro; o broto ureteral NÃO forma glomérulo nem túbulos.",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 180\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><rect x=\"10\" y=\"8\" width=\"100\" height=\"40\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"60.0\" y=\"27.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Pronefro</text><text x=\"60.0\" y=\"39.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">regride</text><rect x=\"120\" y=\"8\" width=\"100\" height=\"40\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"170.0\" y=\"27.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Mesonefro</text><text x=\"170.0\" y=\"39.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">transitório</text><rect x=\"230\" y=\"8\" width=\"100\" height=\"40\" rx=\"9\" fill=\"var(--wine)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"280.0\" y=\"27.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--card)\">Metanefro</text><text x=\"280.0\" y=\"39.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--card)\">RIM DEFINITIVO</text><line x1=\"280\" y1=\"48\" x2=\"230\" y2=\"70\" stroke=\"var(--rose)\"/><line x1=\"280\" y1=\"48\" x2=\"320\" y2=\"70\" stroke=\"var(--rose)\"/><rect x=\"150\" y=\"72\" width=\"120\" height=\"54\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"210.0\" y=\"98.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Blastema</text><text x=\"210.0\" y=\"110.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">glomérulo, Bowman, túbulos, Henle</text><rect x=\"276\" y=\"72\" width=\"60\" height=\"54\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"306.0\" y=\"98.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Broto</text><text x=\"306.0\" y=\"110.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">ureter</text><text x=\"306\" y=\"140\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--ink)\">ureter, pelve,</text><text x=\"306\" y=\"152\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--ink)\">cálices, coletores</text><text x=\"120\" y=\"172\" font-size=\"9.5\" fill=\"var(--mute)\">Mesonefro → ducto de Wolff → deferente, epidídimo</text></svg>",
+     "legenda": "Sequência dos rins embrionários e o que cada parte do metanefro forma"
+    }
+   ],
+   "fonte": "Langman — Embriologia Médica 14ª ed. / Moore — Embriologia Clínica 11ª ed.",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "emb-d2",
+   "tipo": "digitar",
+   "area": "Clínica Médica",
+   "tema": "Nefrologia",
+   "sub": "Embriologia renal",
+   "frente": "Fusão dos polos inferiores dos rins forma qual malformação?",
+   "verso": "**Rim em ferradura.**\n\n- Fica retido pela artéria mesentérica inferior.",
+   "resposta": "Rim em ferradura",
+   "aceitas": [
+    "ferradura",
+    "rim em ferradura"
+   ],
+   "macete": "\"Ferradura presa na mesentérica\".",
+   "prio": "media",
+   "contexto": "**Embriologia renal = três sistemas renais se sucedem (pronefro, mesonefro, metanefro); só o METANEFRO forma o rim definitivo.**\n\nOs três rins:\n- **Pronefro** → rudimentar, regride (4ª semana)\n- **Mesonefro** → rim transitório; seu ducto (de Wolff) forma no homem epidídimo, ducto deferente e vesícula seminal\n- **Metanefro** → **rim definitivo** (a partir da 5ª semana)\n\nMetanefro — duas origens:\n- **Blastema (mesoderma) metanéfrico** → forma o NÉFRON: glomérulo, cápsula de Bowman, túbulos contorcidos, alça de Henle\n- **Broto (botão) ureteral** (sai do ducto mesonéfrico) → forma o SISTEMA COLETOR: ureter, pelve, cálices e ductos coletores\n- Um induz o outro (interação recíproca)\n\nMalformações:\n- Rim sobe da pelve para a região lombar → rim pélvico se não ascende\n- **Rim em ferradura** → fusão dos polos inferiores; para na artéria mesentérica inferior\n- Agenesia renal bilateral → oligoidrâmnio → sequência de Potter (hipoplasia pulmonar, fácies típica)\n- Duplicação ureteral → bifurcação precoce do broto ureteral\n\nO que mais cai no Vila Verde:\n- VV 2025 → o rim definitivo se desenvolve a partir do metanefro; o broto ureteral NÃO forma glomérulo nem túbulos.",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 180\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><rect x=\"10\" y=\"8\" width=\"100\" height=\"40\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"60.0\" y=\"27.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Pronefro</text><text x=\"60.0\" y=\"39.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">regride</text><rect x=\"120\" y=\"8\" width=\"100\" height=\"40\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"170.0\" y=\"27.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Mesonefro</text><text x=\"170.0\" y=\"39.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">transitório</text><rect x=\"230\" y=\"8\" width=\"100\" height=\"40\" rx=\"9\" fill=\"var(--wine)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"280.0\" y=\"27.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--card)\">Metanefro</text><text x=\"280.0\" y=\"39.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--card)\">RIM DEFINITIVO</text><line x1=\"280\" y1=\"48\" x2=\"230\" y2=\"70\" stroke=\"var(--rose)\"/><line x1=\"280\" y1=\"48\" x2=\"320\" y2=\"70\" stroke=\"var(--rose)\"/><rect x=\"150\" y=\"72\" width=\"120\" height=\"54\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"210.0\" y=\"98.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Blastema</text><text x=\"210.0\" y=\"110.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">glomérulo, Bowman, túbulos, Henle</text><rect x=\"276\" y=\"72\" width=\"60\" height=\"54\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"306.0\" y=\"98.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Broto</text><text x=\"306.0\" y=\"110.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">ureter</text><text x=\"306\" y=\"140\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--ink)\">ureter, pelve,</text><text x=\"306\" y=\"152\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--ink)\">cálices, coletores</text><text x=\"120\" y=\"172\" font-size=\"9.5\" fill=\"var(--mute)\">Mesonefro → ducto de Wolff → deferente, epidídimo</text></svg>",
+     "legenda": "Sequência dos rins embrionários e o que cada parte do metanefro forma"
+    }
+   ],
+   "fonte": "Langman — Embriologia Médica 14ª ed. / Moore — Embriologia Clínica 11ª ed.",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "sna-01",
+   "tipo": "flash",
+   "area": "Clínica Médica",
+   "tema": "Neurologia",
+   "sub": "Sistema nervoso autônomo — fisiologia e farmacologia",
+   "frente": "Simpático × parassimpático: origem e função",
+   "verso": "**Simpático → toracolombar; luta ou fuga.**\n**Parassimpático → craniossacral; repouso e digestão.**\n\nNeurotransmissores:\n- Simpático pós-ganglionar → noradrenalina.\n- Parassimpático → acetilcolina.",
+   "macete": "\"Simpático Sobe a adrenalina\"; \"Parassimpático Para e digere\".",
+   "pegadinha": "A banca troca a origem: craniossacral é o PARASSIMPÁTICO.",
+   "uerj": "VV 2025: todas as afirmativas falsas (gabarito D).",
+   "prio": "media",
+   "contexto": "**Sistema nervoso autônomo (SNA) = controla funções involuntárias; divide-se em simpático, parassimpático e entérico.**\n\nSimpático (\"luta ou fuga\"):\n- Origem **toracolombar** (T1–L2)\n- Gânglios perto da medula (paravertebrais) → fibra pré-ganglionar curta, pós-ganglionar longa\n- Neurotransmissor pós-ganglionar → **noradrenalina** (exceto glândulas sudoríparas → acetilcolina)\n- Efeitos → midríase, taquicardia, broncodilatação, glicogenólise, vasoconstrição cutânea, inibe a digestão\n\nParassimpático (\"repouso e digestão\"):\n- Origem **craniossacral** → nervos cranianos III, VII, IX, X e medula sacral S2–S4\n- Gânglios perto do órgão → pré-ganglionar longa, pós-ganglionar curta\n- Neurotransmissor → **acetilcolina** (receptores muscarínicos no órgão)\n- Efeitos → miose, bradicardia, broncoconstrição, secreções, peristalse, micção\n\nComum aos dois:\n- Sinapse ganglionar → acetilcolina em receptor NICOTÍNICO\n\nEntérico:\n- Plexos mioentérico (Auerbach → motilidade) e submucoso (Meissner → secreção)\n- Tem autonomia, mas é MODULADO pelo SNC (simpático e parassimpático)\n\nReceptores que caem:\n- α1 → vasoconstrição; β1 → coração (FC e contratilidade); β2 → broncodilatação e vasodilatação; M → parassimpático\n\nClínica:\n- Intoxicação por organofosforado (colinérgica) → miose, bradicardia, sialorreia, broncorreia, diarreia → **atropina** + pralidoxima\n\nO que mais cai no Vila Verde:\n- VV 2025 → V/F: simpático craniossacral (F), parassimpático = luta ou fuga (F), entérico independente do SNC em tudo (F) → todas falsas.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "cab": [
+      "",
+      "Simpático",
+      "Parassimpático"
+     ],
+     "linhas": [
+      [
+       "Origem",
+       "!Toracolombar (T1–L2)",
+       "!Craniossacral (III, VII, IX, X, S2–S4)"
+      ],
+      [
+       "Gânglio",
+       "Perto da medula",
+       "Perto do órgão"
+      ],
+      [
+       "Pós-ganglionar",
+       "Noradrenalina",
+       "Acetilcolina"
+      ],
+      [
+       "Função",
+       "Luta ou fuga",
+       "Repouso e digestão"
+      ],
+      [
+       "Pupila / FC",
+       "Midríase / taquicardia",
+       "Miose / bradicardia"
+      ]
+     ]
+    }
+   ],
+   "fonte": "Guyton & Hall — Tratado de Fisiologia Médica 14ª ed. / Goodman & Gilman — As Bases Farmacológicas da Terapêutica 13ª ed.",
+   "add": "2026-10-28",
+   "visual": {
+    "tipo": "vs",
+    "a": {
+     "t": "Simpático",
+     "itens": [
+      "T1–L2",
+      "Midríase, taquicardia",
+      "Broncodilatação"
+     ]
+    },
+    "b": {
+     "t": "Parassimpático",
+     "itens": [
+      "NC III, VII, IX, X + S2–S4",
+      "Miose, bradicardia",
+      "Peristalse, secreção"
+     ]
+    }
+   }
+  },
+  {
+   "id": "sna-02",
+   "tipo": "flash",
+   "area": "Clínica Médica",
+   "tema": "Neurologia",
+   "sub": "Sistema nervoso autônomo — fisiologia e farmacologia",
+   "frente": "Intoxicação por organofosforado: quadro e antídoto",
+   "verso": "**Síndrome colinérgica.**\n**Antídoto → atropina (+ pralidoxima).**\n\nSinais:\n- Miose, bradicardia, sialorreia, broncorreia.\n- Diarreia, vômitos, micção, fasciculações.",
+   "macete": "\"Muito molhado e pupila pequena\" = colinérgico.",
+   "visual": {
+    "tipo": "vs",
+    "a": {
+     "t": "Colinérgico",
+     "itens": [
+      "Miose",
+      "Bradicardia",
+      "Secreções",
+      "Diarreia"
+     ]
+    },
+    "b": {
+     "t": "Anticolinérgico",
+     "itens": [
+      "Midríase",
+      "Taquicardia",
+      "Pele seca",
+      "Retenção urinária"
+     ]
+    }
+   },
+   "pegadinha": "Atropina é dosada pela SECURA das secreções brônquicas, não pela pupila.",
+   "prio": "media",
+   "contexto": "**Sistema nervoso autônomo (SNA) = controla funções involuntárias; divide-se em simpático, parassimpático e entérico.**\n\nSimpático (\"luta ou fuga\"):\n- Origem **toracolombar** (T1–L2)\n- Gânglios perto da medula (paravertebrais) → fibra pré-ganglionar curta, pós-ganglionar longa\n- Neurotransmissor pós-ganglionar → **noradrenalina** (exceto glândulas sudoríparas → acetilcolina)\n- Efeitos → midríase, taquicardia, broncodilatação, glicogenólise, vasoconstrição cutânea, inibe a digestão\n\nParassimpático (\"repouso e digestão\"):\n- Origem **craniossacral** → nervos cranianos III, VII, IX, X e medula sacral S2–S4\n- Gânglios perto do órgão → pré-ganglionar longa, pós-ganglionar curta\n- Neurotransmissor → **acetilcolina** (receptores muscarínicos no órgão)\n- Efeitos → miose, bradicardia, broncoconstrição, secreções, peristalse, micção\n\nComum aos dois:\n- Sinapse ganglionar → acetilcolina em receptor NICOTÍNICO\n\nEntérico:\n- Plexos mioentérico (Auerbach → motilidade) e submucoso (Meissner → secreção)\n- Tem autonomia, mas é MODULADO pelo SNC (simpático e parassimpático)\n\nReceptores que caem:\n- α1 → vasoconstrição; β1 → coração (FC e contratilidade); β2 → broncodilatação e vasodilatação; M → parassimpático\n\nClínica:\n- Intoxicação por organofosforado (colinérgica) → miose, bradicardia, sialorreia, broncorreia, diarreia → **atropina** + pralidoxima\n\nO que mais cai no Vila Verde:\n- VV 2025 → V/F: simpático craniossacral (F), parassimpático = luta ou fuga (F), entérico independente do SNC em tudo (F) → todas falsas.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "cab": [
+      "",
+      "Simpático",
+      "Parassimpático"
+     ],
+     "linhas": [
+      [
+       "Origem",
+       "!Toracolombar (T1–L2)",
+       "!Craniossacral (III, VII, IX, X, S2–S4)"
+      ],
+      [
+       "Gânglio",
+       "Perto da medula",
+       "Perto do órgão"
+      ],
+      [
+       "Pós-ganglionar",
+       "Noradrenalina",
+       "Acetilcolina"
+      ],
+      [
+       "Função",
+       "Luta ou fuga",
+       "Repouso e digestão"
+      ],
+      [
+       "Pupila / FC",
+       "Midríase / taquicardia",
+       "Miose / bradicardia"
+      ]
+     ]
+    }
+   ],
+   "fonte": "Guyton & Hall — Tratado de Fisiologia Médica 14ª ed. / Goodman & Gilman — As Bases Farmacológicas da Terapêutica 13ª ed.",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "sna-q1",
+   "tipo": "quiz",
+   "area": "Clínica Médica",
+   "tema": "Neurologia",
+   "sub": "Sistema nervoso autônomo — fisiologia e farmacologia",
+   "frente": "Sobre o sistema nervoso autônomo, analise: 1. O simpático tem origem nos nervos cranianos e na medula sacral. 2. O parassimpático é responsável pelas respostas de \"luta ou fuga\". 3. O sistema nervoso entérico funciona de forma totalmente independente do SNC em todas as suas atividades. A sequência correta é:",
+   "opcoes": [
+    "V, V, V.",
+    "V, F, F.",
+    "F, V, F.",
+    "F, F, F."
+   ],
+   "certa": 3,
+   "comentarios": [
+    "Errada.",
+    "Errada: 1 é falsa.",
+    "Errada: 2 é falsa.",
+    "Correta: todas falsas."
+   ],
+   "macete": "Origem craniossacral = Parassimpático.",
+   "pegadinha": "Entérico tem autonomia, mas é modulado pelo SNC.",
+   "uerj": "VV 2025 (Q6, gabarito D).",
+   "prio": "media",
+   "contexto": "**Sistema nervoso autônomo (SNA) = controla funções involuntárias; divide-se em simpático, parassimpático e entérico.**\n\nSimpático (\"luta ou fuga\"):\n- Origem **toracolombar** (T1–L2)\n- Gânglios perto da medula (paravertebrais) → fibra pré-ganglionar curta, pós-ganglionar longa\n- Neurotransmissor pós-ganglionar → **noradrenalina** (exceto glândulas sudoríparas → acetilcolina)\n- Efeitos → midríase, taquicardia, broncodilatação, glicogenólise, vasoconstrição cutânea, inibe a digestão\n\nParassimpático (\"repouso e digestão\"):\n- Origem **craniossacral** → nervos cranianos III, VII, IX, X e medula sacral S2–S4\n- Gânglios perto do órgão → pré-ganglionar longa, pós-ganglionar curta\n- Neurotransmissor → **acetilcolina** (receptores muscarínicos no órgão)\n- Efeitos → miose, bradicardia, broncoconstrição, secreções, peristalse, micção\n\nComum aos dois:\n- Sinapse ganglionar → acetilcolina em receptor NICOTÍNICO\n\nEntérico:\n- Plexos mioentérico (Auerbach → motilidade) e submucoso (Meissner → secreção)\n- Tem autonomia, mas é MODULADO pelo SNC (simpático e parassimpático)\n\nReceptores que caem:\n- α1 → vasoconstrição; β1 → coração (FC e contratilidade); β2 → broncodilatação e vasodilatação; M → parassimpático\n\nClínica:\n- Intoxicação por organofosforado (colinérgica) → miose, bradicardia, sialorreia, broncorreia, diarreia → **atropina** + pralidoxima\n\nO que mais cai no Vila Verde:\n- VV 2025 → V/F: simpático craniossacral (F), parassimpático = luta ou fuga (F), entérico independente do SNC em tudo (F) → todas falsas.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "cab": [
+      "",
+      "Simpático",
+      "Parassimpático"
+     ],
+     "linhas": [
+      [
+       "Origem",
+       "!Toracolombar (T1–L2)",
+       "!Craniossacral (III, VII, IX, X, S2–S4)"
+      ],
+      [
+       "Gânglio",
+       "Perto da medula",
+       "Perto do órgão"
+      ],
+      [
+       "Pós-ganglionar",
+       "Noradrenalina",
+       "Acetilcolina"
+      ],
+      [
+       "Função",
+       "Luta ou fuga",
+       "Repouso e digestão"
+      ],
+      [
+       "Pupila / FC",
+       "Midríase / taquicardia",
+       "Miose / bradicardia"
+      ]
+     ]
+    }
+   ],
+   "fonte": "Guyton & Hall — Tratado de Fisiologia Médica 14ª ed. / Goodman & Gilman — As Bases Farmacológicas da Terapêutica 13ª ed.",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "sna-d1",
+   "tipo": "digitar",
+   "area": "Clínica Médica",
+   "tema": "Neurologia",
+   "sub": "Sistema nervoso autônomo — fisiologia e farmacologia",
+   "frente": "Qual o neurotransmissor pós-ganglionar do simpático (na maioria dos órgãos)?",
+   "verso": "**Noradrenalina.**",
+   "resposta": "Noradrenalina",
+   "aceitas": [
+    "norepinefrina",
+    "noradrenalina"
+   ],
+   "macete": "Simpático = Nora.",
+   "prio": "media",
+   "contexto": "**Sistema nervoso autônomo (SNA) = controla funções involuntárias; divide-se em simpático, parassimpático e entérico.**\n\nSimpático (\"luta ou fuga\"):\n- Origem **toracolombar** (T1–L2)\n- Gânglios perto da medula (paravertebrais) → fibra pré-ganglionar curta, pós-ganglionar longa\n- Neurotransmissor pós-ganglionar → **noradrenalina** (exceto glândulas sudoríparas → acetilcolina)\n- Efeitos → midríase, taquicardia, broncodilatação, glicogenólise, vasoconstrição cutânea, inibe a digestão\n\nParassimpático (\"repouso e digestão\"):\n- Origem **craniossacral** → nervos cranianos III, VII, IX, X e medula sacral S2–S4\n- Gânglios perto do órgão → pré-ganglionar longa, pós-ganglionar curta\n- Neurotransmissor → **acetilcolina** (receptores muscarínicos no órgão)\n- Efeitos → miose, bradicardia, broncoconstrição, secreções, peristalse, micção\n\nComum aos dois:\n- Sinapse ganglionar → acetilcolina em receptor NICOTÍNICO\n\nEntérico:\n- Plexos mioentérico (Auerbach → motilidade) e submucoso (Meissner → secreção)\n- Tem autonomia, mas é MODULADO pelo SNC (simpático e parassimpático)\n\nReceptores que caem:\n- α1 → vasoconstrição; β1 → coração (FC e contratilidade); β2 → broncodilatação e vasodilatação; M → parassimpático\n\nClínica:\n- Intoxicação por organofosforado (colinérgica) → miose, bradicardia, sialorreia, broncorreia, diarreia → **atropina** + pralidoxima\n\nO que mais cai no Vila Verde:\n- VV 2025 → V/F: simpático craniossacral (F), parassimpático = luta ou fuga (F), entérico independente do SNC em tudo (F) → todas falsas.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "cab": [
+      "",
+      "Simpático",
+      "Parassimpático"
+     ],
+     "linhas": [
+      [
+       "Origem",
+       "!Toracolombar (T1–L2)",
+       "!Craniossacral (III, VII, IX, X, S2–S4)"
+      ],
+      [
+       "Gânglio",
+       "Perto da medula",
+       "Perto do órgão"
+      ],
+      [
+       "Pós-ganglionar",
+       "Noradrenalina",
+       "Acetilcolina"
+      ],
+      [
+       "Função",
+       "Luta ou fuga",
+       "Repouso e digestão"
+      ],
+      [
+       "Pupila / FC",
+       "Midríase / taquicardia",
+       "Miose / bradicardia"
+      ]
+     ]
+    }
+   ],
+   "fonte": "Guyton & Hall — Tratado de Fisiologia Médica 14ª ed. / Goodman & Gilman — As Bases Farmacológicas da Terapêutica 13ª ed.",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "sna-d2",
+   "tipo": "digitar",
+   "area": "Clínica Médica",
+   "tema": "Neurologia",
+   "sub": "Sistema nervoso autônomo — fisiologia e farmacologia",
+   "frente": "Qual o antídoto da intoxicação por organofosforado?",
+   "verso": "**Atropina** (+ pralidoxima).",
+   "resposta": "Atropina",
+   "aceitas": [
+    "atropina"
+   ],
+   "macete": "Molhado demais → \"Atropina seca\".",
+   "prio": "media",
+   "contexto": "**Sistema nervoso autônomo (SNA) = controla funções involuntárias; divide-se em simpático, parassimpático e entérico.**\n\nSimpático (\"luta ou fuga\"):\n- Origem **toracolombar** (T1–L2)\n- Gânglios perto da medula (paravertebrais) → fibra pré-ganglionar curta, pós-ganglionar longa\n- Neurotransmissor pós-ganglionar → **noradrenalina** (exceto glândulas sudoríparas → acetilcolina)\n- Efeitos → midríase, taquicardia, broncodilatação, glicogenólise, vasoconstrição cutânea, inibe a digestão\n\nParassimpático (\"repouso e digestão\"):\n- Origem **craniossacral** → nervos cranianos III, VII, IX, X e medula sacral S2–S4\n- Gânglios perto do órgão → pré-ganglionar longa, pós-ganglionar curta\n- Neurotransmissor → **acetilcolina** (receptores muscarínicos no órgão)\n- Efeitos → miose, bradicardia, broncoconstrição, secreções, peristalse, micção\n\nComum aos dois:\n- Sinapse ganglionar → acetilcolina em receptor NICOTÍNICO\n\nEntérico:\n- Plexos mioentérico (Auerbach → motilidade) e submucoso (Meissner → secreção)\n- Tem autonomia, mas é MODULADO pelo SNC (simpático e parassimpático)\n\nReceptores que caem:\n- α1 → vasoconstrição; β1 → coração (FC e contratilidade); β2 → broncodilatação e vasodilatação; M → parassimpático\n\nClínica:\n- Intoxicação por organofosforado (colinérgica) → miose, bradicardia, sialorreia, broncorreia, diarreia → **atropina** + pralidoxima\n\nO que mais cai no Vila Verde:\n- VV 2025 → V/F: simpático craniossacral (F), parassimpático = luta ou fuga (F), entérico independente do SNC em tudo (F) → todas falsas.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "cab": [
+      "",
+      "Simpático",
+      "Parassimpático"
+     ],
+     "linhas": [
+      [
+       "Origem",
+       "!Toracolombar (T1–L2)",
+       "!Craniossacral (III, VII, IX, X, S2–S4)"
+      ],
+      [
+       "Gânglio",
+       "Perto da medula",
+       "Perto do órgão"
+      ],
+      [
+       "Pós-ganglionar",
+       "Noradrenalina",
+       "Acetilcolina"
+      ],
+      [
+       "Função",
+       "Luta ou fuga",
+       "Repouso e digestão"
+      ],
+      [
+       "Pupila / FC",
+       "Midríase / taquicardia",
+       "Miose / bradicardia"
+      ]
+     ]
+    }
+   ],
+   "fonte": "Guyton & Hall — Tratado de Fisiologia Médica 14ª ed. / Goodman & Gilman — As Bases Farmacológicas da Terapêutica 13ª ed.",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "oma-01",
+   "tipo": "flash",
+   "area": "Pediatria",
+   "tema": "Infectologia pediátrica",
+   "sub": "Otite média aguda",
+   "frente": "OMA: agente mais comum e antibiótico de escolha",
+   "verso": "**Streptococcus pneumoniae.**\n**Amoxicilina.**\n\nOutros agentes:\n- H. influenzae não tipável.\n- Moraxella catarrhalis.\n\nFalha ou otite + conjuntivite:\n- Amoxicilina-clavulanato.",
+   "macete": "OMA = \"PHM\": Pneumococo, H. influenzae, Moraxella.",
+   "pegadinha": "Otite + conjuntivite purulenta → H. influenzae (produtor de betalactamase).",
+   "uerj": "VV 2025: todas as afirmativas corretas (gabarito D).",
+   "prio": "alta",
+   "contexto": "**Otite média aguda (OMA) = infecção aguda da orelha média, muito comum em lactentes; o achado-chave é o ABAULAMENTO da membrana timpânica.**\n\nEpidemiologia:\n- Pico entre **6 e 24 meses**; novo aumento aos 5–6 anos (entrada na escola)\n- Fatores → creche, mamadeira deitado, fumo passivo, chupeta, IVAS\n- Protegem → aleitamento materno, vacinas pneumocócica e influenza\n\nAgentes:\n- **Streptococcus pneumoniae** (o mais comum)\n- Haemophilus influenzae não tipável\n- Moraxella catarrhalis\n\nDiagnóstico (otoscopia):\n- **Abaulamento da membrana timpânica** (principal) ou otorreia aguda\n- Hiperemia isolada não basta (choro também avermelha)\n- Otalgia, febre, irritabilidade\n\nTratamento:\n- Analgesia sempre\n- **Antibiótico de escolha → amoxicilina**\n  - < 2 anos ou quadro grave → antibiótico; 10 dias\n  - ≥ 2 anos, quadro leve → 5–7 dias ou observação vigilante 48–72 h (conforme diretriz)\n- Falha, uso recente de amoxicilina ou otite + conjuntivite (H. influenzae) → **amoxicilina-clavulanato**\n- Alergia → macrolídeo ou cefalosporina (se não anafilática)\n\nComplicações:\n- Mastoidite (abaulamento retroauricular, orelha \"em abano\") → internar + ATB EV\n- Perfuração timpânica; otite média com efusão (perda auditiva)\n\nO que mais cai no Vila Verde:\n- VV 2025 → V/F: pico 6–24 meses (V), antibiótico cobrindo pneumococo, H. influenzae e Moraxella (V), pneumococo o mais comum (V) → todas corretas.",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 196\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><circle cx=\"100\" cy=\"100\" r=\"62\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"2\"/><line x1=\"100\" y1=\"60\" x2=\"106\" y2=\"104\" stroke=\"var(--ink)\" stroke-width=\"2\"/><path d=\"M100 100 L 130 128 L 70 128 Z\" fill=\"var(--card)\" opacity=\".8\"/><text x=\"100\" y=\"186\" text-anchor=\"middle\" font-size=\"10\" fill=\"var(--ink)\">Normal: translúcida, triângulo luminoso</text><circle cx=\"250\" cy=\"100\" r=\"62\" fill=\"var(--bad)\" opacity=\".75\" stroke=\"var(--bad)\" stroke-width=\"2\"/><circle cx=\"250\" cy=\"96\" r=\"40\" fill=\"var(--bad)\" opacity=\".5\"/><text x=\"250\" y=\"100\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"600\" fill=\"var(--card)\">ABAULADA</text><text x=\"250\" y=\"186\" text-anchor=\"middle\" font-size=\"10\" fill=\"var(--ink)\">OMA: abaulada e opaca</text></svg>",
+     "legenda": "Membrana timpânica normal × otite média aguda"
+    }
+   ],
+   "fonte": "SBP — Otite média aguda: diagnóstico e tratamento (2021) / AAP — The Diagnosis and Management of Acute Otitis Media (2013) / ABORL-CCF",
+   "add": "2026-10-28",
+   "visual": {
+    "tipo": "tabela",
+    "cab": [
+     "Situação",
+     "Antibiótico"
+    ],
+    "linhas": [
+     [
+      "1ª escolha",
+      "!Amoxicilina"
+     ],
+     [
+      "Falha / amoxicilina recente",
+      "Amoxicilina-clavulanato"
+     ],
+     [
+      "Otite + conjuntivite",
+      "Amoxicilina-clavulanato"
+     ],
+     [
+      "Alergia não grave",
+      "Cefalosporina"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "oma-02",
+   "tipo": "flash",
+   "area": "Pediatria",
+   "tema": "Infectologia pediátrica",
+   "sub": "Otite média aguda",
+   "frente": "Qual o principal sinal de otite média aguda na otoscopia?",
+   "verso": "**Abaulamento da membrana timpânica.**\n\nNão basta:\n- Hiperemia isolada (choro também avermelha).",
+   "macete": "OMA = \"tímpano Abaulado\".",
+   "visual": {
+    "tipo": "vs",
+    "a": {
+     "t": "OMA",
+     "itens": [
+      "Abaulamento",
+      "Febre/otalgia",
+      "Antibiótico"
+     ]
+    },
+    "b": {
+     "t": "Otite com efusão",
+     "itens": [
+      "Líquido sem inflamação aguda",
+      "Sem febre",
+      "Observar"
+     ]
+    }
+   },
+   "pegadinha": "Membrana opaca sem abaulamento pode ser só efusão (OME).",
+   "prio": "media",
+   "contexto": "**Otite média aguda (OMA) = infecção aguda da orelha média, muito comum em lactentes; o achado-chave é o ABAULAMENTO da membrana timpânica.**\n\nEpidemiologia:\n- Pico entre **6 e 24 meses**; novo aumento aos 5–6 anos (entrada na escola)\n- Fatores → creche, mamadeira deitado, fumo passivo, chupeta, IVAS\n- Protegem → aleitamento materno, vacinas pneumocócica e influenza\n\nAgentes:\n- **Streptococcus pneumoniae** (o mais comum)\n- Haemophilus influenzae não tipável\n- Moraxella catarrhalis\n\nDiagnóstico (otoscopia):\n- **Abaulamento da membrana timpânica** (principal) ou otorreia aguda\n- Hiperemia isolada não basta (choro também avermelha)\n- Otalgia, febre, irritabilidade\n\nTratamento:\n- Analgesia sempre\n- **Antibiótico de escolha → amoxicilina**\n  - < 2 anos ou quadro grave → antibiótico; 10 dias\n  - ≥ 2 anos, quadro leve → 5–7 dias ou observação vigilante 48–72 h (conforme diretriz)\n- Falha, uso recente de amoxicilina ou otite + conjuntivite (H. influenzae) → **amoxicilina-clavulanato**\n- Alergia → macrolídeo ou cefalosporina (se não anafilática)\n\nComplicações:\n- Mastoidite (abaulamento retroauricular, orelha \"em abano\") → internar + ATB EV\n- Perfuração timpânica; otite média com efusão (perda auditiva)\n\nO que mais cai no Vila Verde:\n- VV 2025 → V/F: pico 6–24 meses (V), antibiótico cobrindo pneumococo, H. influenzae e Moraxella (V), pneumococo o mais comum (V) → todas corretas.",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 196\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><circle cx=\"100\" cy=\"100\" r=\"62\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"2\"/><line x1=\"100\" y1=\"60\" x2=\"106\" y2=\"104\" stroke=\"var(--ink)\" stroke-width=\"2\"/><path d=\"M100 100 L 130 128 L 70 128 Z\" fill=\"var(--card)\" opacity=\".8\"/><text x=\"100\" y=\"186\" text-anchor=\"middle\" font-size=\"10\" fill=\"var(--ink)\">Normal: translúcida, triângulo luminoso</text><circle cx=\"250\" cy=\"100\" r=\"62\" fill=\"var(--bad)\" opacity=\".75\" stroke=\"var(--bad)\" stroke-width=\"2\"/><circle cx=\"250\" cy=\"96\" r=\"40\" fill=\"var(--bad)\" opacity=\".5\"/><text x=\"250\" y=\"100\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"600\" fill=\"var(--card)\">ABAULADA</text><text x=\"250\" y=\"186\" text-anchor=\"middle\" font-size=\"10\" fill=\"var(--ink)\">OMA: abaulada e opaca</text></svg>",
+     "legenda": "Membrana timpânica normal × otite média aguda"
+    }
+   ],
+   "fonte": "SBP — Otite média aguda: diagnóstico e tratamento (2021) / AAP — The Diagnosis and Management of Acute Otitis Media (2013) / ABORL-CCF",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "oma-q1",
+   "tipo": "quiz",
+   "area": "Pediatria",
+   "tema": "Infectologia pediátrica",
+   "sub": "Otite média aguda",
+   "frente": "Sobre a otite média, analise: I. O pico de incidência é entre 6 e 24 meses, com novo aumento aos 5–6 anos. II. A antibioticoterapia visa os 3 principais agentes: pneumococo, H. influenzae não tipável e Moraxella. III. O pneumococo é o agente bacteriano mais comum. Está CORRETO:",
+   "opcoes": [
+    "Apenas II e III.",
+    "Apenas II.",
+    "Apenas III.",
+    "I, II e III."
+   ],
+   "certa": 3,
+   "comentarios": [
+    "Incompleta.",
+    "Incompleta.",
+    "Incompleta.",
+    "Correta."
+   ],
+   "macete": "\"PHM\" e pico de 6 a 24 meses.",
+   "pegadinha": "Às vezes a banca considera TODAS corretas.",
+   "uerj": "VV 2025 (Q1, gabarito D).",
+   "prio": "media",
+   "contexto": "**Otite média aguda (OMA) = infecção aguda da orelha média, muito comum em lactentes; o achado-chave é o ABAULAMENTO da membrana timpânica.**\n\nEpidemiologia:\n- Pico entre **6 e 24 meses**; novo aumento aos 5–6 anos (entrada na escola)\n- Fatores → creche, mamadeira deitado, fumo passivo, chupeta, IVAS\n- Protegem → aleitamento materno, vacinas pneumocócica e influenza\n\nAgentes:\n- **Streptococcus pneumoniae** (o mais comum)\n- Haemophilus influenzae não tipável\n- Moraxella catarrhalis\n\nDiagnóstico (otoscopia):\n- **Abaulamento da membrana timpânica** (principal) ou otorreia aguda\n- Hiperemia isolada não basta (choro também avermelha)\n- Otalgia, febre, irritabilidade\n\nTratamento:\n- Analgesia sempre\n- **Antibiótico de escolha → amoxicilina**\n  - < 2 anos ou quadro grave → antibiótico; 10 dias\n  - ≥ 2 anos, quadro leve → 5–7 dias ou observação vigilante 48–72 h (conforme diretriz)\n- Falha, uso recente de amoxicilina ou otite + conjuntivite (H. influenzae) → **amoxicilina-clavulanato**\n- Alergia → macrolídeo ou cefalosporina (se não anafilática)\n\nComplicações:\n- Mastoidite (abaulamento retroauricular, orelha \"em abano\") → internar + ATB EV\n- Perfuração timpânica; otite média com efusão (perda auditiva)\n\nO que mais cai no Vila Verde:\n- VV 2025 → V/F: pico 6–24 meses (V), antibiótico cobrindo pneumococo, H. influenzae e Moraxella (V), pneumococo o mais comum (V) → todas corretas.",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 196\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><circle cx=\"100\" cy=\"100\" r=\"62\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"2\"/><line x1=\"100\" y1=\"60\" x2=\"106\" y2=\"104\" stroke=\"var(--ink)\" stroke-width=\"2\"/><path d=\"M100 100 L 130 128 L 70 128 Z\" fill=\"var(--card)\" opacity=\".8\"/><text x=\"100\" y=\"186\" text-anchor=\"middle\" font-size=\"10\" fill=\"var(--ink)\">Normal: translúcida, triângulo luminoso</text><circle cx=\"250\" cy=\"100\" r=\"62\" fill=\"var(--bad)\" opacity=\".75\" stroke=\"var(--bad)\" stroke-width=\"2\"/><circle cx=\"250\" cy=\"96\" r=\"40\" fill=\"var(--bad)\" opacity=\".5\"/><text x=\"250\" y=\"100\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"600\" fill=\"var(--card)\">ABAULADA</text><text x=\"250\" y=\"186\" text-anchor=\"middle\" font-size=\"10\" fill=\"var(--ink)\">OMA: abaulada e opaca</text></svg>",
+     "legenda": "Membrana timpânica normal × otite média aguda"
+    }
+   ],
+   "fonte": "SBP — Otite média aguda: diagnóstico e tratamento (2021) / AAP — The Diagnosis and Management of Acute Otitis Media (2013) / ABORL-CCF",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "oma-d1",
+   "tipo": "digitar",
+   "area": "Pediatria",
+   "tema": "Infectologia pediátrica",
+   "sub": "Otite média aguda",
+   "frente": "Qual o antibiótico de primeira escolha na otite média aguda?",
+   "verso": "**Amoxicilina.**",
+   "resposta": "Amoxicilina",
+   "aceitas": [
+    "amoxicilina",
+    "amoxil"
+   ],
+   "macete": "OMA → \"Amoxi\".",
+   "prio": "alta",
+   "contexto": "**Otite média aguda (OMA) = infecção aguda da orelha média, muito comum em lactentes; o achado-chave é o ABAULAMENTO da membrana timpânica.**\n\nEpidemiologia:\n- Pico entre **6 e 24 meses**; novo aumento aos 5–6 anos (entrada na escola)\n- Fatores → creche, mamadeira deitado, fumo passivo, chupeta, IVAS\n- Protegem → aleitamento materno, vacinas pneumocócica e influenza\n\nAgentes:\n- **Streptococcus pneumoniae** (o mais comum)\n- Haemophilus influenzae não tipável\n- Moraxella catarrhalis\n\nDiagnóstico (otoscopia):\n- **Abaulamento da membrana timpânica** (principal) ou otorreia aguda\n- Hiperemia isolada não basta (choro também avermelha)\n- Otalgia, febre, irritabilidade\n\nTratamento:\n- Analgesia sempre\n- **Antibiótico de escolha → amoxicilina**\n  - < 2 anos ou quadro grave → antibiótico; 10 dias\n  - ≥ 2 anos, quadro leve → 5–7 dias ou observação vigilante 48–72 h (conforme diretriz)\n- Falha, uso recente de amoxicilina ou otite + conjuntivite (H. influenzae) → **amoxicilina-clavulanato**\n- Alergia → macrolídeo ou cefalosporina (se não anafilática)\n\nComplicações:\n- Mastoidite (abaulamento retroauricular, orelha \"em abano\") → internar + ATB EV\n- Perfuração timpânica; otite média com efusão (perda auditiva)\n\nO que mais cai no Vila Verde:\n- VV 2025 → V/F: pico 6–24 meses (V), antibiótico cobrindo pneumococo, H. influenzae e Moraxella (V), pneumococo o mais comum (V) → todas corretas.",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 196\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><circle cx=\"100\" cy=\"100\" r=\"62\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"2\"/><line x1=\"100\" y1=\"60\" x2=\"106\" y2=\"104\" stroke=\"var(--ink)\" stroke-width=\"2\"/><path d=\"M100 100 L 130 128 L 70 128 Z\" fill=\"var(--card)\" opacity=\".8\"/><text x=\"100\" y=\"186\" text-anchor=\"middle\" font-size=\"10\" fill=\"var(--ink)\">Normal: translúcida, triângulo luminoso</text><circle cx=\"250\" cy=\"100\" r=\"62\" fill=\"var(--bad)\" opacity=\".75\" stroke=\"var(--bad)\" stroke-width=\"2\"/><circle cx=\"250\" cy=\"96\" r=\"40\" fill=\"var(--bad)\" opacity=\".5\"/><text x=\"250\" y=\"100\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"600\" fill=\"var(--card)\">ABAULADA</text><text x=\"250\" y=\"186\" text-anchor=\"middle\" font-size=\"10\" fill=\"var(--ink)\">OMA: abaulada e opaca</text></svg>",
+     "legenda": "Membrana timpânica normal × otite média aguda"
+    }
+   ],
+   "fonte": "SBP — Otite média aguda: diagnóstico e tratamento (2021) / AAP — The Diagnosis and Management of Acute Otitis Media (2013) / ABORL-CCF",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "oma-d2",
+   "tipo": "digitar",
+   "area": "Pediatria",
+   "tema": "Infectologia pediátrica",
+   "sub": "Otite média aguda",
+   "frente": "Qual a faixa etária de pico da otite média aguda?",
+   "verso": "**6 a 24 meses.**",
+   "resposta": "6 a 24 meses",
+   "aceitas": [
+    "6-24 meses",
+    "6 a 24",
+    "6 a 24 meses",
+    "6 meses a 2 anos"
+   ],
+   "macete": "\"De meio a dois anos\".",
+   "prio": "media",
+   "contexto": "**Otite média aguda (OMA) = infecção aguda da orelha média, muito comum em lactentes; o achado-chave é o ABAULAMENTO da membrana timpânica.**\n\nEpidemiologia:\n- Pico entre **6 e 24 meses**; novo aumento aos 5–6 anos (entrada na escola)\n- Fatores → creche, mamadeira deitado, fumo passivo, chupeta, IVAS\n- Protegem → aleitamento materno, vacinas pneumocócica e influenza\n\nAgentes:\n- **Streptococcus pneumoniae** (o mais comum)\n- Haemophilus influenzae não tipável\n- Moraxella catarrhalis\n\nDiagnóstico (otoscopia):\n- **Abaulamento da membrana timpânica** (principal) ou otorreia aguda\n- Hiperemia isolada não basta (choro também avermelha)\n- Otalgia, febre, irritabilidade\n\nTratamento:\n- Analgesia sempre\n- **Antibiótico de escolha → amoxicilina**\n  - < 2 anos ou quadro grave → antibiótico; 10 dias\n  - ≥ 2 anos, quadro leve → 5–7 dias ou observação vigilante 48–72 h (conforme diretriz)\n- Falha, uso recente de amoxicilina ou otite + conjuntivite (H. influenzae) → **amoxicilina-clavulanato**\n- Alergia → macrolídeo ou cefalosporina (se não anafilática)\n\nComplicações:\n- Mastoidite (abaulamento retroauricular, orelha \"em abano\") → internar + ATB EV\n- Perfuração timpânica; otite média com efusão (perda auditiva)\n\nO que mais cai no Vila Verde:\n- VV 2025 → V/F: pico 6–24 meses (V), antibiótico cobrindo pneumococo, H. influenzae e Moraxella (V), pneumococo o mais comum (V) → todas corretas.",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 196\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><circle cx=\"100\" cy=\"100\" r=\"62\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"2\"/><line x1=\"100\" y1=\"60\" x2=\"106\" y2=\"104\" stroke=\"var(--ink)\" stroke-width=\"2\"/><path d=\"M100 100 L 130 128 L 70 128 Z\" fill=\"var(--card)\" opacity=\".8\"/><text x=\"100\" y=\"186\" text-anchor=\"middle\" font-size=\"10\" fill=\"var(--ink)\">Normal: translúcida, triângulo luminoso</text><circle cx=\"250\" cy=\"100\" r=\"62\" fill=\"var(--bad)\" opacity=\".75\" stroke=\"var(--bad)\" stroke-width=\"2\"/><circle cx=\"250\" cy=\"96\" r=\"40\" fill=\"var(--bad)\" opacity=\".5\"/><text x=\"250\" y=\"100\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"600\" fill=\"var(--card)\">ABAULADA</text><text x=\"250\" y=\"186\" text-anchor=\"middle\" font-size=\"10\" fill=\"var(--ink)\">OMA: abaulada e opaca</text></svg>",
+     "legenda": "Membrana timpânica normal × otite média aguda"
+    }
+   ],
+   "fonte": "SBP — Otite média aguda: diagnóstico e tratamento (2021) / AAP — The Diagnosis and Management of Acute Otitis Media (2013) / ABORL-CCF",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "esc-01",
+   "tipo": "flash",
+   "area": "Pediatria",
+   "tema": "Infectologia pediátrica",
+   "sub": "Escabiose e pediculose",
+   "frente": "Escabiose: agente, transmissão e tratamento",
+   "verso": "**Sarcoptes scabiei, que escava túneis.**\n**Permetrina 5% (repetir em 7 dias) ou ivermectina.**\n\nTransmissão:\n- Contato direto prolongado; também roupas e toalhas.\n\nSempre:\n- Tratar todos os contatos ao mesmo tempo.",
+   "macete": "Sarna = \"Sarcoptes Sob a pele, Sono sem paz\" (prurido noturno).",
+   "pegadinha": "Antibiótico NÃO mata o ácaro (só trata infecção secundária).",
+   "uerj": "VV 2025: II e III corretas (gabarito D).",
+   "prio": "media",
+   "contexto": "**Escabiose = infestação da pele pelo ácaro Sarcoptes scabiei, com prurido noturno intenso; pediculose = infestação por piolhos (cabeça, corpo ou púbis).**\n\nEscabiose:\n- Agente → **Sarcoptes scabiei** var. hominis; a fêmea **escava túneis** na epiderme e deposita ovos\n- Transmissão → contato pessoal direto prolongado (principal); também por roupas, toalhas e roupa de cama\n- Surtos → creches, escolas, instituições de longa permanência\n- **Prurido intenso, pior à noite**, e vários contactantes com o mesmo quadro\n- Lesões → túneis (sulcos), pápulas e vesículas em interdigitais, punhos, axilas, cintura, nádegas, genitais, aréolas\n- Lactente → acomete palmas, plantas, couro cabeludo e face\n- **Sarna crostosa (norueguesa)** → imunossuprimidos; muitos ácaros, crostas; muito contagiosa\n\nTratamento da escabiose:\n- **Permetrina 5% loção** → pescoço para baixo, à noite; repetir em 7 dias\n- **Ivermectina oral** 200 mcg/kg, 2 doses com 7–14 dias (não em gestante nem em criança < 15 kg)\n- Enxofre precipitado → lactentes pequenos e gestantes\n- **Tratar todos os contatos ao mesmo tempo**; lavar roupas a quente\n- Antibiótico só se infecção secundária (impetiginização) — não trata o ácaro\n- O prurido pode durar 2–4 semanas após o tratamento\n\nPediculose da cabeça:\n- Pediculus humanus capitis; lêndeas presas ao fio\n- Permetrina 1% ou ivermectina + pente fino; tratar contatos\n\nO que mais cai no Vila Verde:\n- VV 2025 → agente (Sarcoptes, escava túneis) e transmissão indireta por objetos (V); \"antibiótico tópico é o tratamento\" (F).",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 212\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><path d=\"M150 30 C 110 30, 100 80, 108 120 L 120 190 L 220 190 L 232 120 C 240 80, 230 30, 190 30 Z\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\"/><circle cx=\"118\" cy=\"112\" r=\"4.5\" fill=\"var(--wine)\"/><circle cx=\"222\" cy=\"112\" r=\"4.5\" fill=\"var(--wine)\"/><circle cx=\"130\" cy=\"150\" r=\"4.5\" fill=\"var(--wine)\"/><circle cx=\"210\" cy=\"150\" r=\"4.5\" fill=\"var(--wine)\"/><circle cx=\"170\" cy=\"160\" r=\"4.5\" fill=\"var(--wine)\"/><circle cx=\"150\" cy=\"62\" r=\"4.5\" fill=\"var(--wine)\"/><circle cx=\"190\" cy=\"62\" r=\"4.5\" fill=\"var(--wine)\"/><circle cx=\"170\" cy=\"186\" r=\"4.5\" fill=\"var(--wine)\"/><text x=\"20\" y=\"116\" font-size=\"9.5\" fill=\"var(--ink)\">punhos/</text><text x=\"20\" y=\"128\" font-size=\"9.5\" fill=\"var(--ink)\">interdígitos</text><text x=\"248\" y=\"64\" font-size=\"9.5\" fill=\"var(--ink)\">axilas/aréolas</text><text x=\"244\" y=\"154\" font-size=\"9.5\" fill=\"var(--ink)\">cintura/nádegas</text><text x=\"170\" y=\"206\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--mute)\">Adulto: poupa face e couro cabeludo</text></svg>",
+     "legenda": "Escabiose: locais típicos das lesões"
+    }
+   ],
+   "fonte": "SBD — Escabiose (Consenso) / MS — Guia de bolso de doenças infecciosas e parasitárias / IACS — International Alliance for the Control of Scabies (2020) / Tratado de Pediatria SBP 5ª ed.",
+   "add": "2026-10-28",
+   "visual": {
+    "tipo": "lista",
+    "itens": [
+     "!Permetrina 5% à noite, repetir em 7 dias",
+     "Ivermectina oral 2 doses (> 15 kg, não gestante)",
+     "Tratar contatos juntos",
+     "Lavar roupas a quente"
+    ]
+   }
+  },
+  {
+   "id": "esc-q1",
+   "tipo": "quiz",
+   "area": "Pediatria",
+   "tema": "Infectologia pediátrica",
+   "sub": "Escabiose e pediculose",
+   "frente": "Sobre a escabiose, analise: I. O tratamento de escolha é o antibiótico tópico. II. É causada pelo Sarcoptes scabiei, que escava túneis e deposita ovos. III. Pode ser transmitida por roupas e toalhas. Está CORRETO:",
+   "opcoes": [
+    "Apenas I e III.",
+    "Apenas II.",
+    "Apenas III.",
+    "Apenas II e III."
+   ],
+   "certa": 3,
+   "comentarios": [
+    "I é falsa.",
+    "Incompleta.",
+    "Incompleta.",
+    "Correta."
+   ],
+   "macete": "Ácaro se trata com escabicida, não com antibiótico.",
+   "pegadinha": "Transmissão indireta existe (menos comum).",
+   "uerj": "VV 2025 (Q21, gabarito D).",
+   "prio": "media",
+   "contexto": "**Escabiose = infestação da pele pelo ácaro Sarcoptes scabiei, com prurido noturno intenso; pediculose = infestação por piolhos (cabeça, corpo ou púbis).**\n\nEscabiose:\n- Agente → **Sarcoptes scabiei** var. hominis; a fêmea **escava túneis** na epiderme e deposita ovos\n- Transmissão → contato pessoal direto prolongado (principal); também por roupas, toalhas e roupa de cama\n- Surtos → creches, escolas, instituições de longa permanência\n- **Prurido intenso, pior à noite**, e vários contactantes com o mesmo quadro\n- Lesões → túneis (sulcos), pápulas e vesículas em interdigitais, punhos, axilas, cintura, nádegas, genitais, aréolas\n- Lactente → acomete palmas, plantas, couro cabeludo e face\n- **Sarna crostosa (norueguesa)** → imunossuprimidos; muitos ácaros, crostas; muito contagiosa\n\nTratamento da escabiose:\n- **Permetrina 5% loção** → pescoço para baixo, à noite; repetir em 7 dias\n- **Ivermectina oral** 200 mcg/kg, 2 doses com 7–14 dias (não em gestante nem em criança < 15 kg)\n- Enxofre precipitado → lactentes pequenos e gestantes\n- **Tratar todos os contatos ao mesmo tempo**; lavar roupas a quente\n- Antibiótico só se infecção secundária (impetiginização) — não trata o ácaro\n- O prurido pode durar 2–4 semanas após o tratamento\n\nPediculose da cabeça:\n- Pediculus humanus capitis; lêndeas presas ao fio\n- Permetrina 1% ou ivermectina + pente fino; tratar contatos\n\nO que mais cai no Vila Verde:\n- VV 2025 → agente (Sarcoptes, escava túneis) e transmissão indireta por objetos (V); \"antibiótico tópico é o tratamento\" (F).",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 212\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><path d=\"M150 30 C 110 30, 100 80, 108 120 L 120 190 L 220 190 L 232 120 C 240 80, 230 30, 190 30 Z\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\"/><circle cx=\"118\" cy=\"112\" r=\"4.5\" fill=\"var(--wine)\"/><circle cx=\"222\" cy=\"112\" r=\"4.5\" fill=\"var(--wine)\"/><circle cx=\"130\" cy=\"150\" r=\"4.5\" fill=\"var(--wine)\"/><circle cx=\"210\" cy=\"150\" r=\"4.5\" fill=\"var(--wine)\"/><circle cx=\"170\" cy=\"160\" r=\"4.5\" fill=\"var(--wine)\"/><circle cx=\"150\" cy=\"62\" r=\"4.5\" fill=\"var(--wine)\"/><circle cx=\"190\" cy=\"62\" r=\"4.5\" fill=\"var(--wine)\"/><circle cx=\"170\" cy=\"186\" r=\"4.5\" fill=\"var(--wine)\"/><text x=\"20\" y=\"116\" font-size=\"9.5\" fill=\"var(--ink)\">punhos/</text><text x=\"20\" y=\"128\" font-size=\"9.5\" fill=\"var(--ink)\">interdígitos</text><text x=\"248\" y=\"64\" font-size=\"9.5\" fill=\"var(--ink)\">axilas/aréolas</text><text x=\"244\" y=\"154\" font-size=\"9.5\" fill=\"var(--ink)\">cintura/nádegas</text><text x=\"170\" y=\"206\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--mute)\">Adulto: poupa face e couro cabeludo</text></svg>",
+     "legenda": "Escabiose: locais típicos das lesões"
+    }
+   ],
+   "fonte": "SBD — Escabiose (Consenso) / MS — Guia de bolso de doenças infecciosas e parasitárias / IACS — International Alliance for the Control of Scabies (2020) / Tratado de Pediatria SBP 5ª ed.",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "esc-d1",
+   "tipo": "digitar",
+   "area": "Pediatria",
+   "tema": "Infectologia pediátrica",
+   "sub": "Escabiose e pediculose",
+   "frente": "Qual a concentração de permetrina para escabiose?",
+   "verso": "**5%.**\n\n- Pediculose → 1%.",
+   "resposta": "5%",
+   "aceitas": [
+    "5",
+    "5 %",
+    "cinco por cento"
+   ],
+   "macete": "Sarna 5, piolho 1.",
+   "prio": "media",
+   "contexto": "**Escabiose = infestação da pele pelo ácaro Sarcoptes scabiei, com prurido noturno intenso; pediculose = infestação por piolhos (cabeça, corpo ou púbis).**\n\nEscabiose:\n- Agente → **Sarcoptes scabiei** var. hominis; a fêmea **escava túneis** na epiderme e deposita ovos\n- Transmissão → contato pessoal direto prolongado (principal); também por roupas, toalhas e roupa de cama\n- Surtos → creches, escolas, instituições de longa permanência\n- **Prurido intenso, pior à noite**, e vários contactantes com o mesmo quadro\n- Lesões → túneis (sulcos), pápulas e vesículas em interdigitais, punhos, axilas, cintura, nádegas, genitais, aréolas\n- Lactente → acomete palmas, plantas, couro cabeludo e face\n- **Sarna crostosa (norueguesa)** → imunossuprimidos; muitos ácaros, crostas; muito contagiosa\n\nTratamento da escabiose:\n- **Permetrina 5% loção** → pescoço para baixo, à noite; repetir em 7 dias\n- **Ivermectina oral** 200 mcg/kg, 2 doses com 7–14 dias (não em gestante nem em criança < 15 kg)\n- Enxofre precipitado → lactentes pequenos e gestantes\n- **Tratar todos os contatos ao mesmo tempo**; lavar roupas a quente\n- Antibiótico só se infecção secundária (impetiginização) — não trata o ácaro\n- O prurido pode durar 2–4 semanas após o tratamento\n\nPediculose da cabeça:\n- Pediculus humanus capitis; lêndeas presas ao fio\n- Permetrina 1% ou ivermectina + pente fino; tratar contatos\n\nO que mais cai no Vila Verde:\n- VV 2025 → agente (Sarcoptes, escava túneis) e transmissão indireta por objetos (V); \"antibiótico tópico é o tratamento\" (F).",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 212\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><path d=\"M150 30 C 110 30, 100 80, 108 120 L 120 190 L 220 190 L 232 120 C 240 80, 230 30, 190 30 Z\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\"/><circle cx=\"118\" cy=\"112\" r=\"4.5\" fill=\"var(--wine)\"/><circle cx=\"222\" cy=\"112\" r=\"4.5\" fill=\"var(--wine)\"/><circle cx=\"130\" cy=\"150\" r=\"4.5\" fill=\"var(--wine)\"/><circle cx=\"210\" cy=\"150\" r=\"4.5\" fill=\"var(--wine)\"/><circle cx=\"170\" cy=\"160\" r=\"4.5\" fill=\"var(--wine)\"/><circle cx=\"150\" cy=\"62\" r=\"4.5\" fill=\"var(--wine)\"/><circle cx=\"190\" cy=\"62\" r=\"4.5\" fill=\"var(--wine)\"/><circle cx=\"170\" cy=\"186\" r=\"4.5\" fill=\"var(--wine)\"/><text x=\"20\" y=\"116\" font-size=\"9.5\" fill=\"var(--ink)\">punhos/</text><text x=\"20\" y=\"128\" font-size=\"9.5\" fill=\"var(--ink)\">interdígitos</text><text x=\"248\" y=\"64\" font-size=\"9.5\" fill=\"var(--ink)\">axilas/aréolas</text><text x=\"244\" y=\"154\" font-size=\"9.5\" fill=\"var(--ink)\">cintura/nádegas</text><text x=\"170\" y=\"206\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--mute)\">Adulto: poupa face e couro cabeludo</text></svg>",
+     "legenda": "Escabiose: locais típicos das lesões"
+    }
+   ],
+   "fonte": "SBD — Escabiose (Consenso) / MS — Guia de bolso de doenças infecciosas e parasitárias / IACS — International Alliance for the Control of Scabies (2020) / Tratado de Pediatria SBP 5ª ed.",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "esc-d2",
+   "tipo": "digitar",
+   "area": "Pediatria",
+   "tema": "Infectologia pediátrica",
+   "sub": "Escabiose e pediculose",
+   "frente": "Como se chama a forma grave de escabiose do imunossuprimido?",
+   "verso": "**Sarna crostosa (norueguesa).**",
+   "resposta": "Sarna crostosa",
+   "aceitas": [
+    "norueguesa",
+    "sarna norueguesa",
+    "escabiose crostosa",
+    "crostosa"
+   ],
+   "macete": "\"Crosta de Noruega\".",
+   "prio": "media",
+   "contexto": "**Escabiose = infestação da pele pelo ácaro Sarcoptes scabiei, com prurido noturno intenso; pediculose = infestação por piolhos (cabeça, corpo ou púbis).**\n\nEscabiose:\n- Agente → **Sarcoptes scabiei** var. hominis; a fêmea **escava túneis** na epiderme e deposita ovos\n- Transmissão → contato pessoal direto prolongado (principal); também por roupas, toalhas e roupa de cama\n- Surtos → creches, escolas, instituições de longa permanência\n- **Prurido intenso, pior à noite**, e vários contactantes com o mesmo quadro\n- Lesões → túneis (sulcos), pápulas e vesículas em interdigitais, punhos, axilas, cintura, nádegas, genitais, aréolas\n- Lactente → acomete palmas, plantas, couro cabeludo e face\n- **Sarna crostosa (norueguesa)** → imunossuprimidos; muitos ácaros, crostas; muito contagiosa\n\nTratamento da escabiose:\n- **Permetrina 5% loção** → pescoço para baixo, à noite; repetir em 7 dias\n- **Ivermectina oral** 200 mcg/kg, 2 doses com 7–14 dias (não em gestante nem em criança < 15 kg)\n- Enxofre precipitado → lactentes pequenos e gestantes\n- **Tratar todos os contatos ao mesmo tempo**; lavar roupas a quente\n- Antibiótico só se infecção secundária (impetiginização) — não trata o ácaro\n- O prurido pode durar 2–4 semanas após o tratamento\n\nPediculose da cabeça:\n- Pediculus humanus capitis; lêndeas presas ao fio\n- Permetrina 1% ou ivermectina + pente fino; tratar contatos\n\nO que mais cai no Vila Verde:\n- VV 2025 → agente (Sarcoptes, escava túneis) e transmissão indireta por objetos (V); \"antibiótico tópico é o tratamento\" (F).",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 212\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><path d=\"M150 30 C 110 30, 100 80, 108 120 L 120 190 L 220 190 L 232 120 C 240 80, 230 30, 190 30 Z\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\"/><circle cx=\"118\" cy=\"112\" r=\"4.5\" fill=\"var(--wine)\"/><circle cx=\"222\" cy=\"112\" r=\"4.5\" fill=\"var(--wine)\"/><circle cx=\"130\" cy=\"150\" r=\"4.5\" fill=\"var(--wine)\"/><circle cx=\"210\" cy=\"150\" r=\"4.5\" fill=\"var(--wine)\"/><circle cx=\"170\" cy=\"160\" r=\"4.5\" fill=\"var(--wine)\"/><circle cx=\"150\" cy=\"62\" r=\"4.5\" fill=\"var(--wine)\"/><circle cx=\"190\" cy=\"62\" r=\"4.5\" fill=\"var(--wine)\"/><circle cx=\"170\" cy=\"186\" r=\"4.5\" fill=\"var(--wine)\"/><text x=\"20\" y=\"116\" font-size=\"9.5\" fill=\"var(--ink)\">punhos/</text><text x=\"20\" y=\"128\" font-size=\"9.5\" fill=\"var(--ink)\">interdígitos</text><text x=\"248\" y=\"64\" font-size=\"9.5\" fill=\"var(--ink)\">axilas/aréolas</text><text x=\"244\" y=\"154\" font-size=\"9.5\" fill=\"var(--ink)\">cintura/nádegas</text><text x=\"170\" y=\"206\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--mute)\">Adulto: poupa face e couro cabeludo</text></svg>",
+     "legenda": "Escabiose: locais típicos das lesões"
+    }
+   ],
+   "fonte": "SBD — Escabiose (Consenso) / MS — Guia de bolso de doenças infecciosas e parasitárias / IACS — International Alliance for the Control of Scabies (2020) / Tratado de Pediatria SBP 5ª ed.",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "hgn-01",
+   "tipo": "flash",
+   "area": "Pediatria",
+   "tema": "Neonatologia",
+   "sub": "Hipoglicemia neonatal",
+   "frente": "Hipoglicemia neonatal: o que acontece com os hormônios após o nascimento?",
+   "verso": "**Insulina cai.**\n**Glucagon e catecolaminas sobem.**\n\nResultado:\n- Glicogenólise e gliconeogênese.\n\nAjuda:\n- Amamentação na 1ª hora.",
+   "macete": "RN ao nascer: \"Desliga a insulina, Liga o glucagon\".",
+   "pegadinha": "Afirmativa \"insulina AUMENTA para mobilizar glicogênio\" é falsa.",
+   "uerj": "VV 2025: I e III corretas (gabarito A).",
+   "prio": "media",
+   "contexto": "**Hipoglicemia neonatal = glicemia baixa no RN durante a adaptação pós-natal; mais comum nos grupos de risco e tratável com alimentação precoce ou glicose.**\n\nFisiologia da transição:\n- Glicose fetal ≈ **70% da materna** (passa pela placenta)\n- Ao clampear o cordão → a glicemia cai, com nadir em 1–2 h\n- Adaptação → **insulina CAI**, glucagon e catecolaminas SOBEM → glicogenólise e gliconeogênese\n- **Amamentação precoce** (1ª hora) ajuda a manter a glicemia\n\nGrupos de risco (rastrear nas primeiras horas):\n- Filho de mãe diabética (hiperinsulinismo)\n- Grande ou pequeno para a idade gestacional\n- Prematuro, asfixia, sepse, hipotermia, policitemia\n\nClínica:\n- Muitos assintomáticos\n- Tremores, hipotonia, sucção débil, apneia, cianose, hipotermia, convulsão\n\nLimiares (variam com as horas de vida):\n- Em geral se trata abaixo de ~40–47 mg/dL nas primeiras 24–48 h (protocolos SBP/AAP)\n\nTratamento:\n- Assintomático com glicemia limítrofe → alimentar (seio) e repetir; gel de glicose oral pode ajudar\n- **Sintomático ou muito baixa → glicose EV**: bolus de SG 10% 2 mL/kg + infusão contínua (VIG 4–6 mg/kg/min)\n- Refratária/persistente → investigar hiperinsulinismo, endocrinopatias, erros inatos\n\nO que mais cai no Vila Verde:\n- VV 2025 → glicose do RN ~70% da materna (V); a insulina NÃO aumenta após o nascimento (F); amamentação precoce ajuda a manter a glicemia (V).",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 192\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><line x1=\"30\" y1=\"170\" x2=\"330\" y2=\"170\" stroke=\"var(--ink)\"/><line x1=\"30\" y1=\"20\" x2=\"30\" y2=\"170\" stroke=\"var(--ink)\"/><path d=\"M30 60 Q 80 60 100 130 Q 120 150 160 120 Q 220 80 330 80\" fill=\"none\" stroke=\"var(--wine)\" stroke-width=\"2.4\"/><text x=\"34\" y=\"52\" font-size=\"9.5\" fill=\"var(--ink)\">fetal ≈ 70% da materna</text><text x=\"100\" y=\"160\" font-size=\"9.5\" fill=\"var(--bad)\">nadir 1–2 h</text><text x=\"220\" y=\"70\" font-size=\"9.5\" fill=\"var(--ink)\">glucagon ↑ insulina ↓</text><text x=\"180\" y=\"186\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">horas de vida</text></svg>",
+     "legenda": "Glicemia do RN nas primeiras horas: queda e recuperação"
+    }
+   ],
+   "fonte": "SBP — Hipoglicemia neonatal (Documento Científico 2022) / AAP — Postnatal Glucose Homeostasis (2011) / MS — Atenção à Saúde do RN vol. 3 (2014)",
+   "add": "2026-10-28",
+   "visual": {
+    "tipo": "fluxo",
+    "passos": [
+     "Clampeamento do cordão",
+     "Insulina ↓ / glucagon ↑ / catecolaminas ↑",
+     "Glicogenólise e gliconeogênese",
+     "Glicemia se recupera"
+    ]
+   }
+  },
+  {
+   "id": "hgn-02",
+   "tipo": "flash",
+   "area": "Pediatria",
+   "tema": "Neonatologia",
+   "sub": "Hipoglicemia neonatal",
+   "frente": "RN com hipoglicemia sintomática: tratamento",
+   "verso": "**Glicose EV: bolus de SG 10% 2 mL/kg.**\n**Depois, infusão contínua (VIG 4–6 mg/kg/min).**\n\nAssintomático limítrofe:\n- Alimentar e repetir a glicemia.",
+   "macete": "\"2 de 10\": 2 mL/kg de SG 10%.",
+   "visual": {
+    "tipo": "lista",
+    "itens": [
+     "!Filho de mãe diabética",
+     "GIG ou PIG",
+     "Prematuro",
+     "Asfixia, sepse, hipotermia"
+    ]
+   },
+   "pegadinha": "Filho de mãe diabética tem hiperinsulinismo → hipoglicemia precoce.",
+   "prio": "media",
+   "contexto": "**Hipoglicemia neonatal = glicemia baixa no RN durante a adaptação pós-natal; mais comum nos grupos de risco e tratável com alimentação precoce ou glicose.**\n\nFisiologia da transição:\n- Glicose fetal ≈ **70% da materna** (passa pela placenta)\n- Ao clampear o cordão → a glicemia cai, com nadir em 1–2 h\n- Adaptação → **insulina CAI**, glucagon e catecolaminas SOBEM → glicogenólise e gliconeogênese\n- **Amamentação precoce** (1ª hora) ajuda a manter a glicemia\n\nGrupos de risco (rastrear nas primeiras horas):\n- Filho de mãe diabética (hiperinsulinismo)\n- Grande ou pequeno para a idade gestacional\n- Prematuro, asfixia, sepse, hipotermia, policitemia\n\nClínica:\n- Muitos assintomáticos\n- Tremores, hipotonia, sucção débil, apneia, cianose, hipotermia, convulsão\n\nLimiares (variam com as horas de vida):\n- Em geral se trata abaixo de ~40–47 mg/dL nas primeiras 24–48 h (protocolos SBP/AAP)\n\nTratamento:\n- Assintomático com glicemia limítrofe → alimentar (seio) e repetir; gel de glicose oral pode ajudar\n- **Sintomático ou muito baixa → glicose EV**: bolus de SG 10% 2 mL/kg + infusão contínua (VIG 4–6 mg/kg/min)\n- Refratária/persistente → investigar hiperinsulinismo, endocrinopatias, erros inatos\n\nO que mais cai no Vila Verde:\n- VV 2025 → glicose do RN ~70% da materna (V); a insulina NÃO aumenta após o nascimento (F); amamentação precoce ajuda a manter a glicemia (V).",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 192\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><line x1=\"30\" y1=\"170\" x2=\"330\" y2=\"170\" stroke=\"var(--ink)\"/><line x1=\"30\" y1=\"20\" x2=\"30\" y2=\"170\" stroke=\"var(--ink)\"/><path d=\"M30 60 Q 80 60 100 130 Q 120 150 160 120 Q 220 80 330 80\" fill=\"none\" stroke=\"var(--wine)\" stroke-width=\"2.4\"/><text x=\"34\" y=\"52\" font-size=\"9.5\" fill=\"var(--ink)\">fetal ≈ 70% da materna</text><text x=\"100\" y=\"160\" font-size=\"9.5\" fill=\"var(--bad)\">nadir 1–2 h</text><text x=\"220\" y=\"70\" font-size=\"9.5\" fill=\"var(--ink)\">glucagon ↑ insulina ↓</text><text x=\"180\" y=\"186\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">horas de vida</text></svg>",
+     "legenda": "Glicemia do RN nas primeiras horas: queda e recuperação"
+    }
+   ],
+   "fonte": "SBP — Hipoglicemia neonatal (Documento Científico 2022) / AAP — Postnatal Glucose Homeostasis (2011) / MS — Atenção à Saúde do RN vol. 3 (2014)",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "hgn-q1",
+   "tipo": "quiz",
+   "area": "Pediatria",
+   "tema": "Neonatologia",
+   "sub": "Hipoglicemia neonatal",
+   "frente": "Sobre a hipoglicemia neonatal, analise: I. A glicose fetal é cerca de 70% da materna. II. O aumento da insulina após o nascimento mobiliza o glicogênio hepático. III. A amamentação precoce ajuda a manter a glicemia nas primeiras horas. Está CORRETO:",
+   "opcoes": [
+    "Apenas I e III.",
+    "Apenas II.",
+    "Apenas III.",
+    "Apenas II e III."
+   ],
+   "certa": 0,
+   "comentarios": [
+    "Correta.",
+    "II é falsa.",
+    "Incompleta.",
+    "II é falsa."
+   ],
+   "macete": "\"Desliga a insulina\".",
+   "pegadinha": "Quem mobiliza o glicogênio é o glucagon.",
+   "uerj": "VV 2025 (Q31, gabarito A).",
+   "prio": "media",
+   "contexto": "**Hipoglicemia neonatal = glicemia baixa no RN durante a adaptação pós-natal; mais comum nos grupos de risco e tratável com alimentação precoce ou glicose.**\n\nFisiologia da transição:\n- Glicose fetal ≈ **70% da materna** (passa pela placenta)\n- Ao clampear o cordão → a glicemia cai, com nadir em 1–2 h\n- Adaptação → **insulina CAI**, glucagon e catecolaminas SOBEM → glicogenólise e gliconeogênese\n- **Amamentação precoce** (1ª hora) ajuda a manter a glicemia\n\nGrupos de risco (rastrear nas primeiras horas):\n- Filho de mãe diabética (hiperinsulinismo)\n- Grande ou pequeno para a idade gestacional\n- Prematuro, asfixia, sepse, hipotermia, policitemia\n\nClínica:\n- Muitos assintomáticos\n- Tremores, hipotonia, sucção débil, apneia, cianose, hipotermia, convulsão\n\nLimiares (variam com as horas de vida):\n- Em geral se trata abaixo de ~40–47 mg/dL nas primeiras 24–48 h (protocolos SBP/AAP)\n\nTratamento:\n- Assintomático com glicemia limítrofe → alimentar (seio) e repetir; gel de glicose oral pode ajudar\n- **Sintomático ou muito baixa → glicose EV**: bolus de SG 10% 2 mL/kg + infusão contínua (VIG 4–6 mg/kg/min)\n- Refratária/persistente → investigar hiperinsulinismo, endocrinopatias, erros inatos\n\nO que mais cai no Vila Verde:\n- VV 2025 → glicose do RN ~70% da materna (V); a insulina NÃO aumenta após o nascimento (F); amamentação precoce ajuda a manter a glicemia (V).",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 192\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><line x1=\"30\" y1=\"170\" x2=\"330\" y2=\"170\" stroke=\"var(--ink)\"/><line x1=\"30\" y1=\"20\" x2=\"30\" y2=\"170\" stroke=\"var(--ink)\"/><path d=\"M30 60 Q 80 60 100 130 Q 120 150 160 120 Q 220 80 330 80\" fill=\"none\" stroke=\"var(--wine)\" stroke-width=\"2.4\"/><text x=\"34\" y=\"52\" font-size=\"9.5\" fill=\"var(--ink)\">fetal ≈ 70% da materna</text><text x=\"100\" y=\"160\" font-size=\"9.5\" fill=\"var(--bad)\">nadir 1–2 h</text><text x=\"220\" y=\"70\" font-size=\"9.5\" fill=\"var(--ink)\">glucagon ↑ insulina ↓</text><text x=\"180\" y=\"186\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">horas de vida</text></svg>",
+     "legenda": "Glicemia do RN nas primeiras horas: queda e recuperação"
+    }
+   ],
+   "fonte": "SBP — Hipoglicemia neonatal (Documento Científico 2022) / AAP — Postnatal Glucose Homeostasis (2011) / MS — Atenção à Saúde do RN vol. 3 (2014)",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "hgn-d1",
+   "tipo": "digitar",
+   "area": "Pediatria",
+   "tema": "Neonatologia",
+   "sub": "Hipoglicemia neonatal",
+   "frente": "Qual o volume de SG 10% no bolus da hipoglicemia neonatal?",
+   "verso": "**2 mL/kg.**",
+   "resposta": "2 mL/kg",
+   "aceitas": [
+    "2",
+    "2ml/kg",
+    "2 ml por kg",
+    "2 ml/kg"
+   ],
+   "macete": "\"2 de 10\".",
+   "prio": "media",
+   "contexto": "**Hipoglicemia neonatal = glicemia baixa no RN durante a adaptação pós-natal; mais comum nos grupos de risco e tratável com alimentação precoce ou glicose.**\n\nFisiologia da transição:\n- Glicose fetal ≈ **70% da materna** (passa pela placenta)\n- Ao clampear o cordão → a glicemia cai, com nadir em 1–2 h\n- Adaptação → **insulina CAI**, glucagon e catecolaminas SOBEM → glicogenólise e gliconeogênese\n- **Amamentação precoce** (1ª hora) ajuda a manter a glicemia\n\nGrupos de risco (rastrear nas primeiras horas):\n- Filho de mãe diabética (hiperinsulinismo)\n- Grande ou pequeno para a idade gestacional\n- Prematuro, asfixia, sepse, hipotermia, policitemia\n\nClínica:\n- Muitos assintomáticos\n- Tremores, hipotonia, sucção débil, apneia, cianose, hipotermia, convulsão\n\nLimiares (variam com as horas de vida):\n- Em geral se trata abaixo de ~40–47 mg/dL nas primeiras 24–48 h (protocolos SBP/AAP)\n\nTratamento:\n- Assintomático com glicemia limítrofe → alimentar (seio) e repetir; gel de glicose oral pode ajudar\n- **Sintomático ou muito baixa → glicose EV**: bolus de SG 10% 2 mL/kg + infusão contínua (VIG 4–6 mg/kg/min)\n- Refratária/persistente → investigar hiperinsulinismo, endocrinopatias, erros inatos\n\nO que mais cai no Vila Verde:\n- VV 2025 → glicose do RN ~70% da materna (V); a insulina NÃO aumenta após o nascimento (F); amamentação precoce ajuda a manter a glicemia (V).",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 192\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><line x1=\"30\" y1=\"170\" x2=\"330\" y2=\"170\" stroke=\"var(--ink)\"/><line x1=\"30\" y1=\"20\" x2=\"30\" y2=\"170\" stroke=\"var(--ink)\"/><path d=\"M30 60 Q 80 60 100 130 Q 120 150 160 120 Q 220 80 330 80\" fill=\"none\" stroke=\"var(--wine)\" stroke-width=\"2.4\"/><text x=\"34\" y=\"52\" font-size=\"9.5\" fill=\"var(--ink)\">fetal ≈ 70% da materna</text><text x=\"100\" y=\"160\" font-size=\"9.5\" fill=\"var(--bad)\">nadir 1–2 h</text><text x=\"220\" y=\"70\" font-size=\"9.5\" fill=\"var(--ink)\">glucagon ↑ insulina ↓</text><text x=\"180\" y=\"186\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">horas de vida</text></svg>",
+     "legenda": "Glicemia do RN nas primeiras horas: queda e recuperação"
+    }
+   ],
+   "fonte": "SBP — Hipoglicemia neonatal (Documento Científico 2022) / AAP — Postnatal Glucose Homeostasis (2011) / MS — Atenção à Saúde do RN vol. 3 (2014)",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "hgn-d2",
+   "tipo": "digitar",
+   "area": "Pediatria",
+   "tema": "Neonatologia",
+   "sub": "Hipoglicemia neonatal",
+   "frente": "A glicose fetal corresponde a quanto da glicemia materna?",
+   "verso": "**~70%.**",
+   "resposta": "70%",
+   "aceitas": [
+    "70",
+    "70 %",
+    "setenta por cento"
+   ],
+   "macete": "Bebê recebe 70%.",
+   "prio": "media",
+   "contexto": "**Hipoglicemia neonatal = glicemia baixa no RN durante a adaptação pós-natal; mais comum nos grupos de risco e tratável com alimentação precoce ou glicose.**\n\nFisiologia da transição:\n- Glicose fetal ≈ **70% da materna** (passa pela placenta)\n- Ao clampear o cordão → a glicemia cai, com nadir em 1–2 h\n- Adaptação → **insulina CAI**, glucagon e catecolaminas SOBEM → glicogenólise e gliconeogênese\n- **Amamentação precoce** (1ª hora) ajuda a manter a glicemia\n\nGrupos de risco (rastrear nas primeiras horas):\n- Filho de mãe diabética (hiperinsulinismo)\n- Grande ou pequeno para a idade gestacional\n- Prematuro, asfixia, sepse, hipotermia, policitemia\n\nClínica:\n- Muitos assintomáticos\n- Tremores, hipotonia, sucção débil, apneia, cianose, hipotermia, convulsão\n\nLimiares (variam com as horas de vida):\n- Em geral se trata abaixo de ~40–47 mg/dL nas primeiras 24–48 h (protocolos SBP/AAP)\n\nTratamento:\n- Assintomático com glicemia limítrofe → alimentar (seio) e repetir; gel de glicose oral pode ajudar\n- **Sintomático ou muito baixa → glicose EV**: bolus de SG 10% 2 mL/kg + infusão contínua (VIG 4–6 mg/kg/min)\n- Refratária/persistente → investigar hiperinsulinismo, endocrinopatias, erros inatos\n\nO que mais cai no Vila Verde:\n- VV 2025 → glicose do RN ~70% da materna (V); a insulina NÃO aumenta após o nascimento (F); amamentação precoce ajuda a manter a glicemia (V).",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 192\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><line x1=\"30\" y1=\"170\" x2=\"330\" y2=\"170\" stroke=\"var(--ink)\"/><line x1=\"30\" y1=\"20\" x2=\"30\" y2=\"170\" stroke=\"var(--ink)\"/><path d=\"M30 60 Q 80 60 100 130 Q 120 150 160 120 Q 220 80 330 80\" fill=\"none\" stroke=\"var(--wine)\" stroke-width=\"2.4\"/><text x=\"34\" y=\"52\" font-size=\"9.5\" fill=\"var(--ink)\">fetal ≈ 70% da materna</text><text x=\"100\" y=\"160\" font-size=\"9.5\" fill=\"var(--bad)\">nadir 1–2 h</text><text x=\"220\" y=\"70\" font-size=\"9.5\" fill=\"var(--ink)\">glucagon ↑ insulina ↓</text><text x=\"180\" y=\"186\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">horas de vida</text></svg>",
+     "legenda": "Glicemia do RN nas primeiras horas: queda e recuperação"
+    }
+   ],
+   "fonte": "SBP — Hipoglicemia neonatal (Documento Científico 2022) / AAP — Postnatal Glucose Homeostasis (2011) / MS — Atenção à Saúde do RN vol. 3 (2014)",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "pni2-01",
+   "tipo": "flash",
+   "area": "Pediatria",
+   "tema": "Pneumologia pediátrica",
+   "sub": "Pneumonia na infância",
+   "frente": "Pneumonia na criança de 3 meses a 5 anos: agente viral e bacteriano mais comuns",
+   "verso": "**Viral → VSR.**\n**Bacteriano → pneumococo.**\n\nTratamento ambulatorial:\n- Amoxicilina.\n\nPneumatocele/empiema:\n- Pensar em S. aureus.",
+   "macete": "Criança pequena: \"Vírus Sincicial ou Pneumococo\".",
+   "pegadinha": "Hib deixou de ser importante com a vacina.",
+   "uerj": "VV 2025: VSR é o principal agente das pneumonias virais (gabarito A).",
+   "prio": "alta",
+   "contexto": "**Pneumonia na infância = infecção do parênquima pulmonar; o agente depende da idade e o diagnóstico é clínico, com a TAQUIPNEIA como principal sinal.**\n\nAgentes por idade:\n- **0–3 semanas** → estreptococo do grupo B, gram-negativos entéricos, Listeria\n- **3 semanas–3 meses** → vírus, **Chlamydia trachomatis** (afebril, tosse em staccato, conjuntivite, eosinofilia), Bordetella\n- **3 meses–5 anos** → **vírus (VSR o mais comum)**; bacteriano → **pneumococo**\n- **> 5 anos** → pneumococo; atípicos (Mycoplasma pneumoniae, Chlamydophila)\n- **S. aureus** → pneumonia grave com pneumatoceles e empiema (pós-varicela/sarampo)\n- H. influenzae tipo b → caiu muito com a vacina\n\nDiagnóstico:\n- **Taquipneia (OMS)** → < 2 meses ≥ 60 irpm; 2–11 meses ≥ 50; 1–4 anos ≥ 40\n- Febre, tosse, estertores; RX não é obrigatório nos casos leves\n- Sinais de gravidade (internar) → tiragem subcostal, SpO₂ < 92%, gemência, recusa alimentar, letargia, < 2 meses\n\nTratamento:\n- Ambulatorial → **amoxicilina** (5–7 dias)\n- Internada → penicilina cristalina ou ampicilina (ceftriaxona se grave/vacinação incompleta)\n- Atípica (> 5 anos) ou afebril do lactente (Chlamydia) → macrolídeo (azitromicina)\n- Derrame pleural complicado → drenagem\n\nO que mais cai no Vila Verde:\n- VV 2025 → VSR é o principal agente das pneumonias VIRAIS na criança; distratores colocam S. aureus, Hib e S. pyogenes como bacteriano mais comum (é o pneumococo).",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "cab": [
+      "Idade",
+      "Agentes principais",
+      "Tratamento empírico"
+     ],
+     "linhas": [
+      [
+       "0–3 semanas",
+       "Estreptococo B, gram-negativos, Listeria",
+       "Ampicilina + gentamicina"
+      ],
+      [
+       "3 sem–3 meses",
+       "Vírus, Chlamydia (afebril)",
+       "Macrolídeo se Chlamydia"
+      ],
+      [
+       "3 meses–5 anos",
+       "!VSR (viral) / pneumococo (bacteriano)",
+       "Amoxicilina"
+      ],
+      [
+       "> 5 anos",
+       "Pneumococo, Mycoplasma",
+       "Amoxicilina ou macrolídeo"
+      ]
+     ]
+    }
+   ],
+   "fonte": "SBP — Pneumonia adquirida na comunidade na infância (2018) / OMS — Pocket book of hospital care for children (2013) / BTS Guidelines — CAP in children (2011)",
+   "add": "2026-10-28",
+   "visual": {
+    "tipo": "vs",
+    "a": {
+     "t": "Viral",
+     "itens": [
+      "VSR (mais comum)",
+      "Sibilância, coriza",
+      "Suporte"
+     ]
+    },
+    "b": {
+     "t": "Bacteriana",
+     "itens": [
+      "Pneumococo (mais comum)",
+      "Febre alta, estertor focal",
+      "Amoxicilina"
+     ]
+    }
+   }
+  },
+  {
+   "id": "pni2-02",
+   "tipo": "flash",
+   "area": "Pediatria",
+   "tema": "Pneumologia pediátrica",
+   "sub": "Pneumonia na infância",
+   "frente": "Taquipneia pela OMS conforme a idade",
+   "verso": "**< 2 meses → ≥ 60.**\n**2–11 meses → ≥ 50.**\n**1–4 anos → ≥ 40.**",
+   "macete": "\"60-50-40\" descendo com a idade.",
+   "visual": {
+    "tipo": "lista",
+    "itens": [
+     "!Tiragem subcostal",
+     "SpO₂ < 92%",
+     "Gemência, letargia",
+     "Recusa alimentar",
+     "Idade < 2 meses"
+    ]
+   },
+   "pegadinha": "Tiragem subcostal = gravidade (internar).",
+   "prio": "alta",
+   "contexto": "**Pneumonia na infância = infecção do parênquima pulmonar; o agente depende da idade e o diagnóstico é clínico, com a TAQUIPNEIA como principal sinal.**\n\nAgentes por idade:\n- **0–3 semanas** → estreptococo do grupo B, gram-negativos entéricos, Listeria\n- **3 semanas–3 meses** → vírus, **Chlamydia trachomatis** (afebril, tosse em staccato, conjuntivite, eosinofilia), Bordetella\n- **3 meses–5 anos** → **vírus (VSR o mais comum)**; bacteriano → **pneumococo**\n- **> 5 anos** → pneumococo; atípicos (Mycoplasma pneumoniae, Chlamydophila)\n- **S. aureus** → pneumonia grave com pneumatoceles e empiema (pós-varicela/sarampo)\n- H. influenzae tipo b → caiu muito com a vacina\n\nDiagnóstico:\n- **Taquipneia (OMS)** → < 2 meses ≥ 60 irpm; 2–11 meses ≥ 50; 1–4 anos ≥ 40\n- Febre, tosse, estertores; RX não é obrigatório nos casos leves\n- Sinais de gravidade (internar) → tiragem subcostal, SpO₂ < 92%, gemência, recusa alimentar, letargia, < 2 meses\n\nTratamento:\n- Ambulatorial → **amoxicilina** (5–7 dias)\n- Internada → penicilina cristalina ou ampicilina (ceftriaxona se grave/vacinação incompleta)\n- Atípica (> 5 anos) ou afebril do lactente (Chlamydia) → macrolídeo (azitromicina)\n- Derrame pleural complicado → drenagem\n\nO que mais cai no Vila Verde:\n- VV 2025 → VSR é o principal agente das pneumonias VIRAIS na criança; distratores colocam S. aureus, Hib e S. pyogenes como bacteriano mais comum (é o pneumococo).",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "cab": [
+      "Idade",
+      "Agentes principais",
+      "Tratamento empírico"
+     ],
+     "linhas": [
+      [
+       "0–3 semanas",
+       "Estreptococo B, gram-negativos, Listeria",
+       "Ampicilina + gentamicina"
+      ],
+      [
+       "3 sem–3 meses",
+       "Vírus, Chlamydia (afebril)",
+       "Macrolídeo se Chlamydia"
+      ],
+      [
+       "3 meses–5 anos",
+       "!VSR (viral) / pneumococo (bacteriano)",
+       "Amoxicilina"
+      ],
+      [
+       "> 5 anos",
+       "Pneumococo, Mycoplasma",
+       "Amoxicilina ou macrolídeo"
+      ]
+     ]
+    }
+   ],
+   "fonte": "SBP — Pneumonia adquirida na comunidade na infância (2018) / OMS — Pocket book of hospital care for children (2013) / BTS Guidelines — CAP in children (2011)",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "pni2-q1",
+   "tipo": "quiz",
+   "area": "Pediatria",
+   "tema": "Pneumologia pediátrica",
+   "sub": "Pneumonia na infância",
+   "frente": "Sobre os agentes das pneumonias em crianças, é CORRETO afirmar:",
+   "opcoes": [
+    "O S. aureus é o agente bacteriano mais comum.",
+    "O Hib continua sendo o principal agente nas crianças vacinadas.",
+    "O S. pyogenes é o agente bacteriano mais frequente.",
+    "O vírus sincicial respiratório é o principal agente das pneumonias virais."
+   ],
+   "certa": 3,
+   "comentarios": [
+    "Errada: pneumococo.",
+    "Errada.",
+    "Errada.",
+    "Correta."
+   ],
+   "macete": "\"VSR ou Pneumococo\".",
+   "pegadinha": "S. aureus é grave, mas não é o mais comum.",
+   "uerj": "VV 2025 (Q35, gabarito A).",
+   "prio": "media",
+   "contexto": "**Pneumonia na infância = infecção do parênquima pulmonar; o agente depende da idade e o diagnóstico é clínico, com a TAQUIPNEIA como principal sinal.**\n\nAgentes por idade:\n- **0–3 semanas** → estreptococo do grupo B, gram-negativos entéricos, Listeria\n- **3 semanas–3 meses** → vírus, **Chlamydia trachomatis** (afebril, tosse em staccato, conjuntivite, eosinofilia), Bordetella\n- **3 meses–5 anos** → **vírus (VSR o mais comum)**; bacteriano → **pneumococo**\n- **> 5 anos** → pneumococo; atípicos (Mycoplasma pneumoniae, Chlamydophila)\n- **S. aureus** → pneumonia grave com pneumatoceles e empiema (pós-varicela/sarampo)\n- H. influenzae tipo b → caiu muito com a vacina\n\nDiagnóstico:\n- **Taquipneia (OMS)** → < 2 meses ≥ 60 irpm; 2–11 meses ≥ 50; 1–4 anos ≥ 40\n- Febre, tosse, estertores; RX não é obrigatório nos casos leves\n- Sinais de gravidade (internar) → tiragem subcostal, SpO₂ < 92%, gemência, recusa alimentar, letargia, < 2 meses\n\nTratamento:\n- Ambulatorial → **amoxicilina** (5–7 dias)\n- Internada → penicilina cristalina ou ampicilina (ceftriaxona se grave/vacinação incompleta)\n- Atípica (> 5 anos) ou afebril do lactente (Chlamydia) → macrolídeo (azitromicina)\n- Derrame pleural complicado → drenagem\n\nO que mais cai no Vila Verde:\n- VV 2025 → VSR é o principal agente das pneumonias VIRAIS na criança; distratores colocam S. aureus, Hib e S. pyogenes como bacteriano mais comum (é o pneumococo).",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "cab": [
+      "Idade",
+      "Agentes principais",
+      "Tratamento empírico"
+     ],
+     "linhas": [
+      [
+       "0–3 semanas",
+       "Estreptococo B, gram-negativos, Listeria",
+       "Ampicilina + gentamicina"
+      ],
+      [
+       "3 sem–3 meses",
+       "Vírus, Chlamydia (afebril)",
+       "Macrolídeo se Chlamydia"
+      ],
+      [
+       "3 meses–5 anos",
+       "!VSR (viral) / pneumococo (bacteriano)",
+       "Amoxicilina"
+      ],
+      [
+       "> 5 anos",
+       "Pneumococo, Mycoplasma",
+       "Amoxicilina ou macrolídeo"
+      ]
+     ]
+    }
+   ],
+   "fonte": "SBP — Pneumonia adquirida na comunidade na infância (2018) / OMS — Pocket book of hospital care for children (2013) / BTS Guidelines — CAP in children (2011)",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "pni2-d1",
+   "tipo": "digitar",
+   "area": "Pediatria",
+   "tema": "Pneumologia pediátrica",
+   "sub": "Pneumonia na infância",
+   "frente": "Qual o antibiótico de escolha na pneumonia comunitária ambulatorial da criança?",
+   "verso": "**Amoxicilina.**",
+   "resposta": "Amoxicilina",
+   "aceitas": [
+    "amoxicilina"
+   ],
+   "macete": "Criança com pneumonia → \"Amoxi\".",
+   "prio": "alta",
+   "contexto": "**Pneumonia na infância = infecção do parênquima pulmonar; o agente depende da idade e o diagnóstico é clínico, com a TAQUIPNEIA como principal sinal.**\n\nAgentes por idade:\n- **0–3 semanas** → estreptococo do grupo B, gram-negativos entéricos, Listeria\n- **3 semanas–3 meses** → vírus, **Chlamydia trachomatis** (afebril, tosse em staccato, conjuntivite, eosinofilia), Bordetella\n- **3 meses–5 anos** → **vírus (VSR o mais comum)**; bacteriano → **pneumococo**\n- **> 5 anos** → pneumococo; atípicos (Mycoplasma pneumoniae, Chlamydophila)\n- **S. aureus** → pneumonia grave com pneumatoceles e empiema (pós-varicela/sarampo)\n- H. influenzae tipo b → caiu muito com a vacina\n\nDiagnóstico:\n- **Taquipneia (OMS)** → < 2 meses ≥ 60 irpm; 2–11 meses ≥ 50; 1–4 anos ≥ 40\n- Febre, tosse, estertores; RX não é obrigatório nos casos leves\n- Sinais de gravidade (internar) → tiragem subcostal, SpO₂ < 92%, gemência, recusa alimentar, letargia, < 2 meses\n\nTratamento:\n- Ambulatorial → **amoxicilina** (5–7 dias)\n- Internada → penicilina cristalina ou ampicilina (ceftriaxona se grave/vacinação incompleta)\n- Atípica (> 5 anos) ou afebril do lactente (Chlamydia) → macrolídeo (azitromicina)\n- Derrame pleural complicado → drenagem\n\nO que mais cai no Vila Verde:\n- VV 2025 → VSR é o principal agente das pneumonias VIRAIS na criança; distratores colocam S. aureus, Hib e S. pyogenes como bacteriano mais comum (é o pneumococo).",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "cab": [
+      "Idade",
+      "Agentes principais",
+      "Tratamento empírico"
+     ],
+     "linhas": [
+      [
+       "0–3 semanas",
+       "Estreptococo B, gram-negativos, Listeria",
+       "Ampicilina + gentamicina"
+      ],
+      [
+       "3 sem–3 meses",
+       "Vírus, Chlamydia (afebril)",
+       "Macrolídeo se Chlamydia"
+      ],
+      [
+       "3 meses–5 anos",
+       "!VSR (viral) / pneumococo (bacteriano)",
+       "Amoxicilina"
+      ],
+      [
+       "> 5 anos",
+       "Pneumococo, Mycoplasma",
+       "Amoxicilina ou macrolídeo"
+      ]
+     ]
+    }
+   ],
+   "fonte": "SBP — Pneumonia adquirida na comunidade na infância (2018) / OMS — Pocket book of hospital care for children (2013) / BTS Guidelines — CAP in children (2011)",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "pni2-d2",
+   "tipo": "digitar",
+   "area": "Pediatria",
+   "tema": "Pneumologia pediátrica",
+   "sub": "Pneumonia na infância",
+   "frente": "Qual agente causa pneumonia afebril com tosse em staccato no lactente de 1–3 meses?",
+   "verso": "**Chlamydia trachomatis.**",
+   "resposta": "Chlamydia trachomatis",
+   "aceitas": [
+    "chlamydia",
+    "clamidia",
+    "c. trachomatis",
+    "clamídia"
+   ],
+   "macete": "\"Staccato sem febre = Clamídia\".",
+   "prio": "media",
+   "contexto": "**Pneumonia na infância = infecção do parênquima pulmonar; o agente depende da idade e o diagnóstico é clínico, com a TAQUIPNEIA como principal sinal.**\n\nAgentes por idade:\n- **0–3 semanas** → estreptococo do grupo B, gram-negativos entéricos, Listeria\n- **3 semanas–3 meses** → vírus, **Chlamydia trachomatis** (afebril, tosse em staccato, conjuntivite, eosinofilia), Bordetella\n- **3 meses–5 anos** → **vírus (VSR o mais comum)**; bacteriano → **pneumococo**\n- **> 5 anos** → pneumococo; atípicos (Mycoplasma pneumoniae, Chlamydophila)\n- **S. aureus** → pneumonia grave com pneumatoceles e empiema (pós-varicela/sarampo)\n- H. influenzae tipo b → caiu muito com a vacina\n\nDiagnóstico:\n- **Taquipneia (OMS)** → < 2 meses ≥ 60 irpm; 2–11 meses ≥ 50; 1–4 anos ≥ 40\n- Febre, tosse, estertores; RX não é obrigatório nos casos leves\n- Sinais de gravidade (internar) → tiragem subcostal, SpO₂ < 92%, gemência, recusa alimentar, letargia, < 2 meses\n\nTratamento:\n- Ambulatorial → **amoxicilina** (5–7 dias)\n- Internada → penicilina cristalina ou ampicilina (ceftriaxona se grave/vacinação incompleta)\n- Atípica (> 5 anos) ou afebril do lactente (Chlamydia) → macrolídeo (azitromicina)\n- Derrame pleural complicado → drenagem\n\nO que mais cai no Vila Verde:\n- VV 2025 → VSR é o principal agente das pneumonias VIRAIS na criança; distratores colocam S. aureus, Hib e S. pyogenes como bacteriano mais comum (é o pneumococo).",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "cab": [
+      "Idade",
+      "Agentes principais",
+      "Tratamento empírico"
+     ],
+     "linhas": [
+      [
+       "0–3 semanas",
+       "Estreptococo B, gram-negativos, Listeria",
+       "Ampicilina + gentamicina"
+      ],
+      [
+       "3 sem–3 meses",
+       "Vírus, Chlamydia (afebril)",
+       "Macrolídeo se Chlamydia"
+      ],
+      [
+       "3 meses–5 anos",
+       "!VSR (viral) / pneumococo (bacteriano)",
+       "Amoxicilina"
+      ],
+      [
+       "> 5 anos",
+       "Pneumococo, Mycoplasma",
+       "Amoxicilina ou macrolídeo"
+      ]
+     ]
+    }
+   ],
+   "fonte": "SBP — Pneumonia adquirida na comunidade na infância (2018) / OMS — Pocket book of hospital care for children (2013) / BTS Guidelines — CAP in children (2011)",
+   "add": "2026-10-28"
   }
  ],
  "rev": 0
