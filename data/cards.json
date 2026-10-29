@@ -47387,6 +47387,2606 @@
    ],
    "fonte": "INCA/MS — Protocolo Clínico e Diretrizes Terapêuticas do Tabagismo (2020) / MS — Cadernos de AB nº 40 (Tabagismo) / Prochaska & DiClemente (1983)",
    "add": "2026-10-28"
+  },
+  {
+   "id": "ale-01",
+   "tipo": "flash",
+   "area": "Clínica Médica",
+   "tema": "Dermatologia",
+   "sub": "Alergia — angioedema e reações adversas a drogas",
+   "frente": "Reações adversas a drogas tipo A × tipo B",
+   "verso": "**Tipo A → previsível e dose-dependente (a maioria).**\n**Tipo B → imprevisível e independe da dose.**\n\nTipo B inclui:\n- Alergia (mecanismo imunológico).\n- Idiossincrasia.",
+   "macete": "A = \"Aumentado\" (efeito esperado em excesso); B = \"Bizarro\" (inesperado).",
+   "visual": {
+    "tipo": "vs",
+    "a": {
+     "t": "Tipo A (Augmented)",
+     "itens": [
+      "Previsível",
+      "Dose-dependente",
+      "~80% das RAM",
+      "Ex.: hipoglicemia com insulina"
+     ]
+    },
+    "b": {
+     "t": "Tipo B (Bizarre)",
+     "itens": [
+      "Imprevisível",
+      "Independe da dose",
+      "Alergia/idiossincrasia",
+      "Ex.: anafilaxia"
+     ]
+    }
+   },
+   "pegadinha": "Alergia é tipo B, NÃO tipo A.",
+   "uerj": "VV 2025: RAM tipo A previsíveis, dose-dependentes e maioria (gabarito D).",
+   "prio": "alta",
+   "contexto": "**Reações adversas a drogas (RAM) e angioedema = efeitos indesejados de medicamentos e inchaço profundo de pele/mucosa, mediado por histamina ou por bradicinina.**\n\nClassificação das RAM (OMS):\n- **Tipo A (augmented)** → previsíveis, DOSE-dependentes, ligadas ao efeito farmacológico; são a MAIORIA (~80%)\n  - Ex.: hipoglicemia com insulina, sangramento com anticoagulante\n- **Tipo B (bizarre)** → imprevisíveis, NÃO dependem da dose; imunológicas (alergia) ou idiossincrásicas\n  - Ex.: anafilaxia à penicilina, síndrome de Stevens-Johnson\n- Alergia a droga → RAM tipo B com mecanismo IMUNOLÓGICO (IgE ou células T)\n\nHipersensibilidade (Gell e Coombs):\n- I → IgE, imediata (urticária, anafilaxia)\n- II → citotóxica por anticorpo (anemia hemolítica por droga)\n- III → imunocomplexos (doença do soro)\n- IV → tardia, células T (dermatite de contato, DRESS, Stevens-Johnson)\n\nAngioedema — dois mecanismos:\n- **Histaminérgico (alérgico)** → costuma vir com urticária/prurido; responde a anti-histamínico, corticoide e adrenalina\n- **Bradicininérgico** → SEM urticária; NÃO responde a anti-histamínico nem corticoide\n  - **Hereditário (AEH)** → deficiência quantitativa (tipo I) ou funcional (tipo II) do inibidor de C1 (C1-INH)\n    - **C4 baixo** (inclusive fora da crise) é a triagem; confirmar com C1-INH quantitativo e funcional\n    - Crises → face, lábios, laringe (risco de asfixia) e dor abdominal\n    - Tratamento da crise → concentrado de C1-INH ou icatibanto\n  - **Por IECA** → C4 e C1-INH NORMAIS; pode surgir anos após iniciar; suspender o IECA\n\nAnafilaxia (lembrar sempre):\n- Adrenalina IM no vasto lateral da coxa 0,01 mg/kg (máx. 0,5 mg no adulto)\n\nO que mais cai no Vila Verde:\n- VV 2025 (2 questões) → AEH: diagnóstico pela dosagem de C1-INH e C4; RAM tipo A = previsíveis, dose-dependentes e a maioria.\n- Distratores: \"AEH responde a anti-histamínico e corticoide\" e \"angioedema por IECA tem C4 baixo\".",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "cab": [
+      "",
+      "Histaminérgico",
+      "Hereditário (AEH)",
+      "Por IECA"
+     ],
+     "linhas": [
+      [
+       "Urticária",
+       "Sim",
+       "!Não",
+       "Não"
+      ],
+      [
+       "C4",
+       "Normal",
+       "!Baixo",
+       "Normal"
+      ],
+      [
+       "C1-INH",
+       "Normal",
+       "!Baixo ou disfuncional",
+       "Normal"
+      ],
+      [
+       "Anti-histamínico/corticoide",
+       "Respondem",
+       "!Não respondem",
+       "Pouca resposta"
+      ],
+      [
+       "Tratamento",
+       "Anti-H1, corticoide, adrenalina",
+       "C1-INH ou icatibanto",
+       "Suspender IECA"
+      ]
+     ]
+    }
+   ],
+   "fonte": "WAO/EAACI Guideline for the Management of Hereditary Angioedema (2021) / ASBAI — Diretrizes de Angioedema Hereditário (2022) / OMS — classificação de reações adversas a medicamentos",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "ale-02",
+   "tipo": "flash",
+   "area": "Clínica Médica",
+   "tema": "Dermatologia",
+   "sub": "Alergia — angioedema e reações adversas a drogas",
+   "frente": "Angioedema hereditário: como diagnosticar e por que não melhora com anti-histamínico?",
+   "verso": "**Dosar C4 e C1-INH (quantitativo e funcional).**\n**É mediado por bradicinina, não por histamina.**\n\nCrise:\n- Concentrado de C1-INH ou icatibanto.\n\nPista clínica:\n- Angioedema SEM urticária, recorrente, com dor abdominal.",
+   "macete": "AEH = \"Bradicinina Bate, Histamina não está\": sem coceira, sem urticária, sem resposta a anti-H1.",
+   "pegadinha": "No angioedema por IECA o C4 é NORMAL (diferente do hereditário).",
+   "uerj": "VV 2025: diagnóstico pela dosagem de C1-INH e C4 (gabarito C).",
+   "prio": "alta",
+   "contexto": "**Reações adversas a drogas (RAM) e angioedema = efeitos indesejados de medicamentos e inchaço profundo de pele/mucosa, mediado por histamina ou por bradicinina.**\n\nClassificação das RAM (OMS):\n- **Tipo A (augmented)** → previsíveis, DOSE-dependentes, ligadas ao efeito farmacológico; são a MAIORIA (~80%)\n  - Ex.: hipoglicemia com insulina, sangramento com anticoagulante\n- **Tipo B (bizarre)** → imprevisíveis, NÃO dependem da dose; imunológicas (alergia) ou idiossincrásicas\n  - Ex.: anafilaxia à penicilina, síndrome de Stevens-Johnson\n- Alergia a droga → RAM tipo B com mecanismo IMUNOLÓGICO (IgE ou células T)\n\nHipersensibilidade (Gell e Coombs):\n- I → IgE, imediata (urticária, anafilaxia)\n- II → citotóxica por anticorpo (anemia hemolítica por droga)\n- III → imunocomplexos (doença do soro)\n- IV → tardia, células T (dermatite de contato, DRESS, Stevens-Johnson)\n\nAngioedema — dois mecanismos:\n- **Histaminérgico (alérgico)** → costuma vir com urticária/prurido; responde a anti-histamínico, corticoide e adrenalina\n- **Bradicininérgico** → SEM urticária; NÃO responde a anti-histamínico nem corticoide\n  - **Hereditário (AEH)** → deficiência quantitativa (tipo I) ou funcional (tipo II) do inibidor de C1 (C1-INH)\n    - **C4 baixo** (inclusive fora da crise) é a triagem; confirmar com C1-INH quantitativo e funcional\n    - Crises → face, lábios, laringe (risco de asfixia) e dor abdominal\n    - Tratamento da crise → concentrado de C1-INH ou icatibanto\n  - **Por IECA** → C4 e C1-INH NORMAIS; pode surgir anos após iniciar; suspender o IECA\n\nAnafilaxia (lembrar sempre):\n- Adrenalina IM no vasto lateral da coxa 0,01 mg/kg (máx. 0,5 mg no adulto)\n\nO que mais cai no Vila Verde:\n- VV 2025 (2 questões) → AEH: diagnóstico pela dosagem de C1-INH e C4; RAM tipo A = previsíveis, dose-dependentes e a maioria.\n- Distratores: \"AEH responde a anti-histamínico e corticoide\" e \"angioedema por IECA tem C4 baixo\".",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "cab": [
+      "",
+      "Histaminérgico",
+      "Hereditário (AEH)",
+      "Por IECA"
+     ],
+     "linhas": [
+      [
+       "Urticária",
+       "Sim",
+       "!Não",
+       "Não"
+      ],
+      [
+       "C4",
+       "Normal",
+       "!Baixo",
+       "Normal"
+      ],
+      [
+       "C1-INH",
+       "Normal",
+       "!Baixo ou disfuncional",
+       "Normal"
+      ],
+      [
+       "Anti-histamínico/corticoide",
+       "Respondem",
+       "!Não respondem",
+       "Pouca resposta"
+      ],
+      [
+       "Tratamento",
+       "Anti-H1, corticoide, adrenalina",
+       "C1-INH ou icatibanto",
+       "Suspender IECA"
+      ]
+     ]
+    }
+   ],
+   "fonte": "WAO/EAACI Guideline for the Management of Hereditary Angioedema (2021) / ASBAI — Diretrizes de Angioedema Hereditário (2022) / OMS — classificação de reações adversas a medicamentos",
+   "add": "2026-10-28",
+   "visual": {
+    "tipo": "fluxo",
+    "passos": [
+     "Angioedema sem urticária, recorrente",
+     "Dosar C4 (triagem)",
+     "C1-INH quantitativo e funcional",
+     "Crise: C1-INH ou icatibanto"
+    ]
+   }
+  },
+  {
+   "id": "ale-q1",
+   "tipo": "quiz",
+   "area": "Clínica Médica",
+   "tema": "Dermatologia",
+   "sub": "Alergia — angioedema e reações adversas a drogas",
+   "frente": "Sobre o angioedema hereditário, é CORRETO afirmar:",
+   "opcoes": [
+    "Responde prontamente a anti-histamínicos e corticosteroides.",
+    "O angioedema por IECA tem C4 e C2 baixos, como no hereditário.",
+    "Os níveis de C1-INH estão diminuídos e o C4 permanece normal.",
+    "O diagnóstico pode ser confirmado pela dosagem de C1-INH e de C4."
+   ],
+   "certa": 3,
+   "comentarios": [
+    "Errada: é bradicininérgico; não responde.",
+    "Errada: no IECA o complemento é normal.",
+    "Errada: o C4 cai (consumo pela via clássica).",
+    "Correta."
+   ],
+   "macete": "AEH: \"C4 baixo, C1-INH baixo\".",
+   "pegadinha": "C4 baixo inclusive fora das crises.",
+   "uerj": "VV 2025 (Q12, gabarito C).",
+   "prio": "media",
+   "contexto": "**Reações adversas a drogas (RAM) e angioedema = efeitos indesejados de medicamentos e inchaço profundo de pele/mucosa, mediado por histamina ou por bradicinina.**\n\nClassificação das RAM (OMS):\n- **Tipo A (augmented)** → previsíveis, DOSE-dependentes, ligadas ao efeito farmacológico; são a MAIORIA (~80%)\n  - Ex.: hipoglicemia com insulina, sangramento com anticoagulante\n- **Tipo B (bizarre)** → imprevisíveis, NÃO dependem da dose; imunológicas (alergia) ou idiossincrásicas\n  - Ex.: anafilaxia à penicilina, síndrome de Stevens-Johnson\n- Alergia a droga → RAM tipo B com mecanismo IMUNOLÓGICO (IgE ou células T)\n\nHipersensibilidade (Gell e Coombs):\n- I → IgE, imediata (urticária, anafilaxia)\n- II → citotóxica por anticorpo (anemia hemolítica por droga)\n- III → imunocomplexos (doença do soro)\n- IV → tardia, células T (dermatite de contato, DRESS, Stevens-Johnson)\n\nAngioedema — dois mecanismos:\n- **Histaminérgico (alérgico)** → costuma vir com urticária/prurido; responde a anti-histamínico, corticoide e adrenalina\n- **Bradicininérgico** → SEM urticária; NÃO responde a anti-histamínico nem corticoide\n  - **Hereditário (AEH)** → deficiência quantitativa (tipo I) ou funcional (tipo II) do inibidor de C1 (C1-INH)\n    - **C4 baixo** (inclusive fora da crise) é a triagem; confirmar com C1-INH quantitativo e funcional\n    - Crises → face, lábios, laringe (risco de asfixia) e dor abdominal\n    - Tratamento da crise → concentrado de C1-INH ou icatibanto\n  - **Por IECA** → C4 e C1-INH NORMAIS; pode surgir anos após iniciar; suspender o IECA\n\nAnafilaxia (lembrar sempre):\n- Adrenalina IM no vasto lateral da coxa 0,01 mg/kg (máx. 0,5 mg no adulto)\n\nO que mais cai no Vila Verde:\n- VV 2025 (2 questões) → AEH: diagnóstico pela dosagem de C1-INH e C4; RAM tipo A = previsíveis, dose-dependentes e a maioria.\n- Distratores: \"AEH responde a anti-histamínico e corticoide\" e \"angioedema por IECA tem C4 baixo\".",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "cab": [
+      "",
+      "Histaminérgico",
+      "Hereditário (AEH)",
+      "Por IECA"
+     ],
+     "linhas": [
+      [
+       "Urticária",
+       "Sim",
+       "!Não",
+       "Não"
+      ],
+      [
+       "C4",
+       "Normal",
+       "!Baixo",
+       "Normal"
+      ],
+      [
+       "C1-INH",
+       "Normal",
+       "!Baixo ou disfuncional",
+       "Normal"
+      ],
+      [
+       "Anti-histamínico/corticoide",
+       "Respondem",
+       "!Não respondem",
+       "Pouca resposta"
+      ],
+      [
+       "Tratamento",
+       "Anti-H1, corticoide, adrenalina",
+       "C1-INH ou icatibanto",
+       "Suspender IECA"
+      ]
+     ]
+    }
+   ],
+   "fonte": "WAO/EAACI Guideline for the Management of Hereditary Angioedema (2021) / ASBAI — Diretrizes de Angioedema Hereditário (2022) / OMS — classificação de reações adversas a medicamentos",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "ale-d1",
+   "tipo": "digitar",
+   "area": "Clínica Médica",
+   "tema": "Dermatologia",
+   "sub": "Alergia — angioedema e reações adversas a drogas",
+   "frente": "Qual exame de triagem para o angioedema hereditário?",
+   "verso": "**Dosagem de C4.**\n\n- Confirma com C1-INH quantitativo e funcional.",
+   "resposta": "C4",
+   "aceitas": [
+    "c4",
+    "dosagem de c4",
+    "complemento c4"
+   ],
+   "macete": "AEH \"conta até 4\".",
+   "prio": "media",
+   "contexto": "**Reações adversas a drogas (RAM) e angioedema = efeitos indesejados de medicamentos e inchaço profundo de pele/mucosa, mediado por histamina ou por bradicinina.**\n\nClassificação das RAM (OMS):\n- **Tipo A (augmented)** → previsíveis, DOSE-dependentes, ligadas ao efeito farmacológico; são a MAIORIA (~80%)\n  - Ex.: hipoglicemia com insulina, sangramento com anticoagulante\n- **Tipo B (bizarre)** → imprevisíveis, NÃO dependem da dose; imunológicas (alergia) ou idiossincrásicas\n  - Ex.: anafilaxia à penicilina, síndrome de Stevens-Johnson\n- Alergia a droga → RAM tipo B com mecanismo IMUNOLÓGICO (IgE ou células T)\n\nHipersensibilidade (Gell e Coombs):\n- I → IgE, imediata (urticária, anafilaxia)\n- II → citotóxica por anticorpo (anemia hemolítica por droga)\n- III → imunocomplexos (doença do soro)\n- IV → tardia, células T (dermatite de contato, DRESS, Stevens-Johnson)\n\nAngioedema — dois mecanismos:\n- **Histaminérgico (alérgico)** → costuma vir com urticária/prurido; responde a anti-histamínico, corticoide e adrenalina\n- **Bradicininérgico** → SEM urticária; NÃO responde a anti-histamínico nem corticoide\n  - **Hereditário (AEH)** → deficiência quantitativa (tipo I) ou funcional (tipo II) do inibidor de C1 (C1-INH)\n    - **C4 baixo** (inclusive fora da crise) é a triagem; confirmar com C1-INH quantitativo e funcional\n    - Crises → face, lábios, laringe (risco de asfixia) e dor abdominal\n    - Tratamento da crise → concentrado de C1-INH ou icatibanto\n  - **Por IECA** → C4 e C1-INH NORMAIS; pode surgir anos após iniciar; suspender o IECA\n\nAnafilaxia (lembrar sempre):\n- Adrenalina IM no vasto lateral da coxa 0,01 mg/kg (máx. 0,5 mg no adulto)\n\nO que mais cai no Vila Verde:\n- VV 2025 (2 questões) → AEH: diagnóstico pela dosagem de C1-INH e C4; RAM tipo A = previsíveis, dose-dependentes e a maioria.\n- Distratores: \"AEH responde a anti-histamínico e corticoide\" e \"angioedema por IECA tem C4 baixo\".",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "cab": [
+      "",
+      "Histaminérgico",
+      "Hereditário (AEH)",
+      "Por IECA"
+     ],
+     "linhas": [
+      [
+       "Urticária",
+       "Sim",
+       "!Não",
+       "Não"
+      ],
+      [
+       "C4",
+       "Normal",
+       "!Baixo",
+       "Normal"
+      ],
+      [
+       "C1-INH",
+       "Normal",
+       "!Baixo ou disfuncional",
+       "Normal"
+      ],
+      [
+       "Anti-histamínico/corticoide",
+       "Respondem",
+       "!Não respondem",
+       "Pouca resposta"
+      ],
+      [
+       "Tratamento",
+       "Anti-H1, corticoide, adrenalina",
+       "C1-INH ou icatibanto",
+       "Suspender IECA"
+      ]
+     ]
+    }
+   ],
+   "fonte": "WAO/EAACI Guideline for the Management of Hereditary Angioedema (2021) / ASBAI — Diretrizes de Angioedema Hereditário (2022) / OMS — classificação de reações adversas a medicamentos",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "ale-d2",
+   "tipo": "digitar",
+   "area": "Clínica Médica",
+   "tema": "Dermatologia",
+   "sub": "Alergia — angioedema e reações adversas a drogas",
+   "frente": "Qual o tipo de RAM previsível e dose-dependente?",
+   "verso": "**Tipo A.**",
+   "resposta": "Tipo A",
+   "aceitas": [
+    "a",
+    "tipo a",
+    "augmented"
+   ],
+   "macete": "A = Aumentado.",
+   "prio": "media",
+   "contexto": "**Reações adversas a drogas (RAM) e angioedema = efeitos indesejados de medicamentos e inchaço profundo de pele/mucosa, mediado por histamina ou por bradicinina.**\n\nClassificação das RAM (OMS):\n- **Tipo A (augmented)** → previsíveis, DOSE-dependentes, ligadas ao efeito farmacológico; são a MAIORIA (~80%)\n  - Ex.: hipoglicemia com insulina, sangramento com anticoagulante\n- **Tipo B (bizarre)** → imprevisíveis, NÃO dependem da dose; imunológicas (alergia) ou idiossincrásicas\n  - Ex.: anafilaxia à penicilina, síndrome de Stevens-Johnson\n- Alergia a droga → RAM tipo B com mecanismo IMUNOLÓGICO (IgE ou células T)\n\nHipersensibilidade (Gell e Coombs):\n- I → IgE, imediata (urticária, anafilaxia)\n- II → citotóxica por anticorpo (anemia hemolítica por droga)\n- III → imunocomplexos (doença do soro)\n- IV → tardia, células T (dermatite de contato, DRESS, Stevens-Johnson)\n\nAngioedema — dois mecanismos:\n- **Histaminérgico (alérgico)** → costuma vir com urticária/prurido; responde a anti-histamínico, corticoide e adrenalina\n- **Bradicininérgico** → SEM urticária; NÃO responde a anti-histamínico nem corticoide\n  - **Hereditário (AEH)** → deficiência quantitativa (tipo I) ou funcional (tipo II) do inibidor de C1 (C1-INH)\n    - **C4 baixo** (inclusive fora da crise) é a triagem; confirmar com C1-INH quantitativo e funcional\n    - Crises → face, lábios, laringe (risco de asfixia) e dor abdominal\n    - Tratamento da crise → concentrado de C1-INH ou icatibanto\n  - **Por IECA** → C4 e C1-INH NORMAIS; pode surgir anos após iniciar; suspender o IECA\n\nAnafilaxia (lembrar sempre):\n- Adrenalina IM no vasto lateral da coxa 0,01 mg/kg (máx. 0,5 mg no adulto)\n\nO que mais cai no Vila Verde:\n- VV 2025 (2 questões) → AEH: diagnóstico pela dosagem de C1-INH e C4; RAM tipo A = previsíveis, dose-dependentes e a maioria.\n- Distratores: \"AEH responde a anti-histamínico e corticoide\" e \"angioedema por IECA tem C4 baixo\".",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "cab": [
+      "",
+      "Histaminérgico",
+      "Hereditário (AEH)",
+      "Por IECA"
+     ],
+     "linhas": [
+      [
+       "Urticária",
+       "Sim",
+       "!Não",
+       "Não"
+      ],
+      [
+       "C4",
+       "Normal",
+       "!Baixo",
+       "Normal"
+      ],
+      [
+       "C1-INH",
+       "Normal",
+       "!Baixo ou disfuncional",
+       "Normal"
+      ],
+      [
+       "Anti-histamínico/corticoide",
+       "Respondem",
+       "!Não respondem",
+       "Pouca resposta"
+      ],
+      [
+       "Tratamento",
+       "Anti-H1, corticoide, adrenalina",
+       "C1-INH ou icatibanto",
+       "Suspender IECA"
+      ]
+     ]
+    }
+   ],
+   "fonte": "WAO/EAACI Guideline for the Management of Hereditary Angioedema (2021) / ASBAI — Diretrizes de Angioedema Hereditário (2022) / OMS — classificação de reações adversas a medicamentos",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "atl-01",
+   "tipo": "flash",
+   "area": "Clínica Médica",
+   "tema": "Pneumologia",
+   "sub": "Atelectasia e abscesso pulmonar",
+   "frente": "Atelectasia: achados radiológicos e quando indicar broncoscopia",
+   "verso": "**Opacidade com perda de volume.**\n**Broncoscopia se obstrução ou se não resolve.**\n\nRX:\n- Traqueia e mediastino desviam PARA o lado colapsado.\n- Elevação do diafragma.\n\nPrevenção no pós-operatório:\n- Espirometria de incentivo, analgesia, deambulação.",
+   "macete": "Atelectasia \"Atrai\" o mediastino; derrame \"Empurra\".",
+   "pegadinha": "Atelectasia é, em geral, REVERSÍVEL (não é destruição do parênquima).",
+   "uerj": "VV 2025: atelectasia = ausência de expansão; não resolvida → broncoscopia (gabarito B).",
+   "prio": "media",
+   "contexto": "**Atelectasia = colapso de parte do pulmão (perda de aeração, em geral reversível); abscesso pulmonar = necrose com cavidade e nível hidroaéreo, quase sempre por aspiração.**\n\nAtelectasia — tipos:\n- **Obstrutiva (reabsortiva)** → rolha de muco, corpo estranho, tumor\n- **Compressiva** → derrame pleural, massa, distensão abdominal\n- Adesiva → falta de surfactante (membrana hialina, SDRA)\n- Cicatricial → fibrose\n\nAtelectasia — clínica e imagem:\n- Pós-operatório (dor, sedação, imobilidade) é cenário clássico\n- RX → opacidade com **perda de volume**: traqueia e mediastino desviam PARA O LADO da lesão, diafragma eleva, cisuras se deslocam\n- Derrame grande desvia para o lado OPOSTO (ajuda a diferenciar)\n- Em geral reversível (diferente de destruição do parênquima)\n\nAtelectasia — tratamento e prevenção:\n- Fisioterapia respiratória, espirometria de incentivo, deambulação precoce, analgesia\n- Tratar a causa\n- **Broncoscopia** → suspeita de obstrução (corpo estranho, tumor) ou atelectasia que não resolve com medidas clínicas\n\nAbscesso pulmonar:\n- Cavidade necrótica (> 2 cm) com nível hidroaéreo\n- Causa principal → **aspiração** de flora oral (anaeróbios): alcoolismo, rebaixamento de consciência, disfagia, dentes ruins\n- Local → segmentos posteriores do lobo superior e superiores do lobo inferior, mais à direita\n- Na criança → muitas vezes complica pneumonia (S. aureus, pneumococo)\n- Clínica → febre, tosse, escarro pútrido, emagrecimento\n- **Tratamento** → antibiótico prolongado (semanas): clindamicina, ampicilina-sulbactam/amoxicilina-clavulanato ou penicilina cristalina (± metronidazol)\n- Drenagem/cirurgia → só para refratários, abscesso gigante, hemoptise maciça\n\nO que mais cai no Vila Verde:\n- VV 2025 (2 questões) → atelectasia: ausência de expansão de parte do pulmão; se não resolve, broncoscopia; abscesso na criança: ATB (penicilina cristalina ou clindamicina) e cirurgia só se refratário.",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 168\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><rect x=\"10\" y=\"10\" width=\"155\" height=\"150\" rx=\"10\" fill=\"var(--rose-soft)\" stroke=\"var(--line)\"/><rect x=\"175\" y=\"10\" width=\"155\" height=\"150\" rx=\"10\" fill=\"var(--rose-soft)\" stroke=\"var(--line)\"/><text x=\"87\" y=\"26\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"600\" fill=\"var(--wine)\">Atelectasia</text><text x=\"252\" y=\"26\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"600\" fill=\"var(--wine)\">Derrame volumoso</text><path d=\"M60 40 v100\" stroke=\"var(--ink)\" stroke-width=\"4\"/><path d=\"M60 40 l-14 0\" stroke=\"var(--ink)\"/><path d=\"M70 50 h70 v70 h-70 Z\" fill=\"var(--wine)\" opacity=\".8\"/><path d=\"M35 110 q15 -10 25 0\" fill=\"none\" stroke=\"var(--mute)\"/><text x=\"87\" y=\"150\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--ink)\">traqueia → PARA a lesão</text><path d=\"M235 40 v100\" stroke=\"var(--ink)\" stroke-width=\"4\"/><path d=\"M245 90 h70 v50 h-70 Z\" fill=\"var(--rose)\" opacity=\".9\"/><text x=\"252\" y=\"150\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--ink)\">traqueia → lado OPOSTO</text></svg>",
+     "legenda": "Atelectasia puxa as estruturas; derrame grande empurra"
+    }
+   ],
+   "fonte": "Tarantino — Doenças Pulmonares 7ª ed. / SBPT — Diretrizes / Tratado de Pediatria SBP 5ª ed. / Harrison's 21ª ed.",
+   "add": "2026-10-28",
+   "visual": {
+    "tipo": "tabela",
+    "cab": [
+     "Tipo",
+     "Causa"
+    ],
+    "linhas": [
+     [
+      "Obstrutiva",
+      "Muco, corpo estranho, tumor"
+     ],
+     [
+      "Compressiva",
+      "Derrame, massa"
+     ],
+     [
+      "Adesiva",
+      "Falta de surfactante"
+     ],
+     [
+      "Cicatricial",
+      "Fibrose"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "atl-02",
+   "tipo": "flash",
+   "area": "Clínica Médica",
+   "tema": "Pneumologia",
+   "sub": "Atelectasia e abscesso pulmonar",
+   "frente": "Abscesso pulmonar: causa principal e tratamento",
+   "verso": "**Aspiração de flora oral (anaeróbios).**\n**ATB prolongado; cirurgia só se refratário.**\n\nAntibióticos:\n- Clindamicina.\n- Ampicilina-sulbactam ou amoxicilina-clavulanato.\n- Penicilina cristalina (± metronidazol).\n\nPredispõem:\n- Alcoolismo, convulsão, disfagia, má higiene dental.",
+   "macete": "Abscesso = \"Aspirou a boca\": anaeróbio → clindamicina.",
+   "visual": {
+    "tipo": "lista",
+    "itens": [
+     "!Cavidade > 2 cm com nível hidroaéreo",
+     "Segmento posterior do LS / superior do LI, mais à direita",
+     "Escarro pútrido"
+    ]
+   },
+   "pegadinha": "Cirurgia NÃO é 1ª linha.",
+   "uerj": "VV 2025: criança com abscesso → penicilina cristalina ou clindamicina; cirurgia nos refratários.",
+   "prio": "media",
+   "contexto": "**Atelectasia = colapso de parte do pulmão (perda de aeração, em geral reversível); abscesso pulmonar = necrose com cavidade e nível hidroaéreo, quase sempre por aspiração.**\n\nAtelectasia — tipos:\n- **Obstrutiva (reabsortiva)** → rolha de muco, corpo estranho, tumor\n- **Compressiva** → derrame pleural, massa, distensão abdominal\n- Adesiva → falta de surfactante (membrana hialina, SDRA)\n- Cicatricial → fibrose\n\nAtelectasia — clínica e imagem:\n- Pós-operatório (dor, sedação, imobilidade) é cenário clássico\n- RX → opacidade com **perda de volume**: traqueia e mediastino desviam PARA O LADO da lesão, diafragma eleva, cisuras se deslocam\n- Derrame grande desvia para o lado OPOSTO (ajuda a diferenciar)\n- Em geral reversível (diferente de destruição do parênquima)\n\nAtelectasia — tratamento e prevenção:\n- Fisioterapia respiratória, espirometria de incentivo, deambulação precoce, analgesia\n- Tratar a causa\n- **Broncoscopia** → suspeita de obstrução (corpo estranho, tumor) ou atelectasia que não resolve com medidas clínicas\n\nAbscesso pulmonar:\n- Cavidade necrótica (> 2 cm) com nível hidroaéreo\n- Causa principal → **aspiração** de flora oral (anaeróbios): alcoolismo, rebaixamento de consciência, disfagia, dentes ruins\n- Local → segmentos posteriores do lobo superior e superiores do lobo inferior, mais à direita\n- Na criança → muitas vezes complica pneumonia (S. aureus, pneumococo)\n- Clínica → febre, tosse, escarro pútrido, emagrecimento\n- **Tratamento** → antibiótico prolongado (semanas): clindamicina, ampicilina-sulbactam/amoxicilina-clavulanato ou penicilina cristalina (± metronidazol)\n- Drenagem/cirurgia → só para refratários, abscesso gigante, hemoptise maciça\n\nO que mais cai no Vila Verde:\n- VV 2025 (2 questões) → atelectasia: ausência de expansão de parte do pulmão; se não resolve, broncoscopia; abscesso na criança: ATB (penicilina cristalina ou clindamicina) e cirurgia só se refratário.",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 168\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><rect x=\"10\" y=\"10\" width=\"155\" height=\"150\" rx=\"10\" fill=\"var(--rose-soft)\" stroke=\"var(--line)\"/><rect x=\"175\" y=\"10\" width=\"155\" height=\"150\" rx=\"10\" fill=\"var(--rose-soft)\" stroke=\"var(--line)\"/><text x=\"87\" y=\"26\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"600\" fill=\"var(--wine)\">Atelectasia</text><text x=\"252\" y=\"26\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"600\" fill=\"var(--wine)\">Derrame volumoso</text><path d=\"M60 40 v100\" stroke=\"var(--ink)\" stroke-width=\"4\"/><path d=\"M60 40 l-14 0\" stroke=\"var(--ink)\"/><path d=\"M70 50 h70 v70 h-70 Z\" fill=\"var(--wine)\" opacity=\".8\"/><path d=\"M35 110 q15 -10 25 0\" fill=\"none\" stroke=\"var(--mute)\"/><text x=\"87\" y=\"150\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--ink)\">traqueia → PARA a lesão</text><path d=\"M235 40 v100\" stroke=\"var(--ink)\" stroke-width=\"4\"/><path d=\"M245 90 h70 v50 h-70 Z\" fill=\"var(--rose)\" opacity=\".9\"/><text x=\"252\" y=\"150\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--ink)\">traqueia → lado OPOSTO</text></svg>",
+     "legenda": "Atelectasia puxa as estruturas; derrame grande empurra"
+    }
+   ],
+   "fonte": "Tarantino — Doenças Pulmonares 7ª ed. / SBPT — Diretrizes / Tratado de Pediatria SBP 5ª ed. / Harrison's 21ª ed.",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "atl-q1",
+   "tipo": "quiz",
+   "area": "Clínica Médica",
+   "tema": "Pneumologia",
+   "sub": "Atelectasia e abscesso pulmonar",
+   "frente": "Criança de 6 anos, febre e tosse produtiva há 10 dias; RX com cavidade e nível hidroaéreo sugestiva de abscesso pulmonar. É CORRETO afirmar:",
+   "opcoes": [
+    "A cirurgia é a primeira linha em todos os casos.",
+    "A principal causa na criança é infecção viral.",
+    "Abscessos pulmonares sempre exigem intervenção cirúrgica.",
+    "O tratamento inicial é antibiótico (penicilina cristalina ou clindamicina), com cirurgia para refratários."
+   ],
+   "certa": 3,
+   "comentarios": [
+    "Errada.",
+    "Errada: bacteriana (pneumonia complicada, aspiração).",
+    "Errada: a maioria cura com ATB.",
+    "Correta."
+   ],
+   "macete": "Abscesso: \"Antibiótico Antes, bisturi depois\".",
+   "pegadinha": "\"Sempre\" e \"todos\" denunciam as erradas.",
+   "uerj": "VV 2025 (Q3, gabarito A).",
+   "prio": "media",
+   "contexto": "**Atelectasia = colapso de parte do pulmão (perda de aeração, em geral reversível); abscesso pulmonar = necrose com cavidade e nível hidroaéreo, quase sempre por aspiração.**\n\nAtelectasia — tipos:\n- **Obstrutiva (reabsortiva)** → rolha de muco, corpo estranho, tumor\n- **Compressiva** → derrame pleural, massa, distensão abdominal\n- Adesiva → falta de surfactante (membrana hialina, SDRA)\n- Cicatricial → fibrose\n\nAtelectasia — clínica e imagem:\n- Pós-operatório (dor, sedação, imobilidade) é cenário clássico\n- RX → opacidade com **perda de volume**: traqueia e mediastino desviam PARA O LADO da lesão, diafragma eleva, cisuras se deslocam\n- Derrame grande desvia para o lado OPOSTO (ajuda a diferenciar)\n- Em geral reversível (diferente de destruição do parênquima)\n\nAtelectasia — tratamento e prevenção:\n- Fisioterapia respiratória, espirometria de incentivo, deambulação precoce, analgesia\n- Tratar a causa\n- **Broncoscopia** → suspeita de obstrução (corpo estranho, tumor) ou atelectasia que não resolve com medidas clínicas\n\nAbscesso pulmonar:\n- Cavidade necrótica (> 2 cm) com nível hidroaéreo\n- Causa principal → **aspiração** de flora oral (anaeróbios): alcoolismo, rebaixamento de consciência, disfagia, dentes ruins\n- Local → segmentos posteriores do lobo superior e superiores do lobo inferior, mais à direita\n- Na criança → muitas vezes complica pneumonia (S. aureus, pneumococo)\n- Clínica → febre, tosse, escarro pútrido, emagrecimento\n- **Tratamento** → antibiótico prolongado (semanas): clindamicina, ampicilina-sulbactam/amoxicilina-clavulanato ou penicilina cristalina (± metronidazol)\n- Drenagem/cirurgia → só para refratários, abscesso gigante, hemoptise maciça\n\nO que mais cai no Vila Verde:\n- VV 2025 (2 questões) → atelectasia: ausência de expansão de parte do pulmão; se não resolve, broncoscopia; abscesso na criança: ATB (penicilina cristalina ou clindamicina) e cirurgia só se refratário.",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 168\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><rect x=\"10\" y=\"10\" width=\"155\" height=\"150\" rx=\"10\" fill=\"var(--rose-soft)\" stroke=\"var(--line)\"/><rect x=\"175\" y=\"10\" width=\"155\" height=\"150\" rx=\"10\" fill=\"var(--rose-soft)\" stroke=\"var(--line)\"/><text x=\"87\" y=\"26\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"600\" fill=\"var(--wine)\">Atelectasia</text><text x=\"252\" y=\"26\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"600\" fill=\"var(--wine)\">Derrame volumoso</text><path d=\"M60 40 v100\" stroke=\"var(--ink)\" stroke-width=\"4\"/><path d=\"M60 40 l-14 0\" stroke=\"var(--ink)\"/><path d=\"M70 50 h70 v70 h-70 Z\" fill=\"var(--wine)\" opacity=\".8\"/><path d=\"M35 110 q15 -10 25 0\" fill=\"none\" stroke=\"var(--mute)\"/><text x=\"87\" y=\"150\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--ink)\">traqueia → PARA a lesão</text><path d=\"M235 40 v100\" stroke=\"var(--ink)\" stroke-width=\"4\"/><path d=\"M245 90 h70 v50 h-70 Z\" fill=\"var(--rose)\" opacity=\".9\"/><text x=\"252\" y=\"150\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--ink)\">traqueia → lado OPOSTO</text></svg>",
+     "legenda": "Atelectasia puxa as estruturas; derrame grande empurra"
+    }
+   ],
+   "fonte": "Tarantino — Doenças Pulmonares 7ª ed. / SBPT — Diretrizes / Tratado de Pediatria SBP 5ª ed. / Harrison's 21ª ed.",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "atl-d1",
+   "tipo": "digitar",
+   "area": "Clínica Médica",
+   "tema": "Pneumologia",
+   "sub": "Atelectasia e abscesso pulmonar",
+   "frente": "Na atelectasia, para que lado a traqueia desvia?",
+   "verso": "**Para o mesmo lado da atelectasia.**",
+   "resposta": "Mesmo lado",
+   "aceitas": [
+    "ipsilateral",
+    "para o lado da lesão",
+    "para o lado da atelectasia",
+    "mesmo lado"
+   ],
+   "macete": "Atelectasia \"Atrai\".",
+   "prio": "media",
+   "contexto": "**Atelectasia = colapso de parte do pulmão (perda de aeração, em geral reversível); abscesso pulmonar = necrose com cavidade e nível hidroaéreo, quase sempre por aspiração.**\n\nAtelectasia — tipos:\n- **Obstrutiva (reabsortiva)** → rolha de muco, corpo estranho, tumor\n- **Compressiva** → derrame pleural, massa, distensão abdominal\n- Adesiva → falta de surfactante (membrana hialina, SDRA)\n- Cicatricial → fibrose\n\nAtelectasia — clínica e imagem:\n- Pós-operatório (dor, sedação, imobilidade) é cenário clássico\n- RX → opacidade com **perda de volume**: traqueia e mediastino desviam PARA O LADO da lesão, diafragma eleva, cisuras se deslocam\n- Derrame grande desvia para o lado OPOSTO (ajuda a diferenciar)\n- Em geral reversível (diferente de destruição do parênquima)\n\nAtelectasia — tratamento e prevenção:\n- Fisioterapia respiratória, espirometria de incentivo, deambulação precoce, analgesia\n- Tratar a causa\n- **Broncoscopia** → suspeita de obstrução (corpo estranho, tumor) ou atelectasia que não resolve com medidas clínicas\n\nAbscesso pulmonar:\n- Cavidade necrótica (> 2 cm) com nível hidroaéreo\n- Causa principal → **aspiração** de flora oral (anaeróbios): alcoolismo, rebaixamento de consciência, disfagia, dentes ruins\n- Local → segmentos posteriores do lobo superior e superiores do lobo inferior, mais à direita\n- Na criança → muitas vezes complica pneumonia (S. aureus, pneumococo)\n- Clínica → febre, tosse, escarro pútrido, emagrecimento\n- **Tratamento** → antibiótico prolongado (semanas): clindamicina, ampicilina-sulbactam/amoxicilina-clavulanato ou penicilina cristalina (± metronidazol)\n- Drenagem/cirurgia → só para refratários, abscesso gigante, hemoptise maciça\n\nO que mais cai no Vila Verde:\n- VV 2025 (2 questões) → atelectasia: ausência de expansão de parte do pulmão; se não resolve, broncoscopia; abscesso na criança: ATB (penicilina cristalina ou clindamicina) e cirurgia só se refratário.",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 168\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><rect x=\"10\" y=\"10\" width=\"155\" height=\"150\" rx=\"10\" fill=\"var(--rose-soft)\" stroke=\"var(--line)\"/><rect x=\"175\" y=\"10\" width=\"155\" height=\"150\" rx=\"10\" fill=\"var(--rose-soft)\" stroke=\"var(--line)\"/><text x=\"87\" y=\"26\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"600\" fill=\"var(--wine)\">Atelectasia</text><text x=\"252\" y=\"26\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"600\" fill=\"var(--wine)\">Derrame volumoso</text><path d=\"M60 40 v100\" stroke=\"var(--ink)\" stroke-width=\"4\"/><path d=\"M60 40 l-14 0\" stroke=\"var(--ink)\"/><path d=\"M70 50 h70 v70 h-70 Z\" fill=\"var(--wine)\" opacity=\".8\"/><path d=\"M35 110 q15 -10 25 0\" fill=\"none\" stroke=\"var(--mute)\"/><text x=\"87\" y=\"150\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--ink)\">traqueia → PARA a lesão</text><path d=\"M235 40 v100\" stroke=\"var(--ink)\" stroke-width=\"4\"/><path d=\"M245 90 h70 v50 h-70 Z\" fill=\"var(--rose)\" opacity=\".9\"/><text x=\"252\" y=\"150\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--ink)\">traqueia → lado OPOSTO</text></svg>",
+     "legenda": "Atelectasia puxa as estruturas; derrame grande empurra"
+    }
+   ],
+   "fonte": "Tarantino — Doenças Pulmonares 7ª ed. / SBPT — Diretrizes / Tratado de Pediatria SBP 5ª ed. / Harrison's 21ª ed.",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "atl-d2",
+   "tipo": "digitar",
+   "area": "Clínica Médica",
+   "tema": "Pneumologia",
+   "sub": "Atelectasia e abscesso pulmonar",
+   "frente": "Qual o principal mecanismo do abscesso pulmonar no adulto?",
+   "verso": "**Aspiração.**",
+   "resposta": "Aspiração",
+   "aceitas": [
+    "aspiracao",
+    "broncoaspiração",
+    "aspiração de secreção oral"
+   ],
+   "macete": "Abscesso = \"Aspirou\".",
+   "prio": "media",
+   "contexto": "**Atelectasia = colapso de parte do pulmão (perda de aeração, em geral reversível); abscesso pulmonar = necrose com cavidade e nível hidroaéreo, quase sempre por aspiração.**\n\nAtelectasia — tipos:\n- **Obstrutiva (reabsortiva)** → rolha de muco, corpo estranho, tumor\n- **Compressiva** → derrame pleural, massa, distensão abdominal\n- Adesiva → falta de surfactante (membrana hialina, SDRA)\n- Cicatricial → fibrose\n\nAtelectasia — clínica e imagem:\n- Pós-operatório (dor, sedação, imobilidade) é cenário clássico\n- RX → opacidade com **perda de volume**: traqueia e mediastino desviam PARA O LADO da lesão, diafragma eleva, cisuras se deslocam\n- Derrame grande desvia para o lado OPOSTO (ajuda a diferenciar)\n- Em geral reversível (diferente de destruição do parênquima)\n\nAtelectasia — tratamento e prevenção:\n- Fisioterapia respiratória, espirometria de incentivo, deambulação precoce, analgesia\n- Tratar a causa\n- **Broncoscopia** → suspeita de obstrução (corpo estranho, tumor) ou atelectasia que não resolve com medidas clínicas\n\nAbscesso pulmonar:\n- Cavidade necrótica (> 2 cm) com nível hidroaéreo\n- Causa principal → **aspiração** de flora oral (anaeróbios): alcoolismo, rebaixamento de consciência, disfagia, dentes ruins\n- Local → segmentos posteriores do lobo superior e superiores do lobo inferior, mais à direita\n- Na criança → muitas vezes complica pneumonia (S. aureus, pneumococo)\n- Clínica → febre, tosse, escarro pútrido, emagrecimento\n- **Tratamento** → antibiótico prolongado (semanas): clindamicina, ampicilina-sulbactam/amoxicilina-clavulanato ou penicilina cristalina (± metronidazol)\n- Drenagem/cirurgia → só para refratários, abscesso gigante, hemoptise maciça\n\nO que mais cai no Vila Verde:\n- VV 2025 (2 questões) → atelectasia: ausência de expansão de parte do pulmão; se não resolve, broncoscopia; abscesso na criança: ATB (penicilina cristalina ou clindamicina) e cirurgia só se refratário.",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 168\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><rect x=\"10\" y=\"10\" width=\"155\" height=\"150\" rx=\"10\" fill=\"var(--rose-soft)\" stroke=\"var(--line)\"/><rect x=\"175\" y=\"10\" width=\"155\" height=\"150\" rx=\"10\" fill=\"var(--rose-soft)\" stroke=\"var(--line)\"/><text x=\"87\" y=\"26\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"600\" fill=\"var(--wine)\">Atelectasia</text><text x=\"252\" y=\"26\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"600\" fill=\"var(--wine)\">Derrame volumoso</text><path d=\"M60 40 v100\" stroke=\"var(--ink)\" stroke-width=\"4\"/><path d=\"M60 40 l-14 0\" stroke=\"var(--ink)\"/><path d=\"M70 50 h70 v70 h-70 Z\" fill=\"var(--wine)\" opacity=\".8\"/><path d=\"M35 110 q15 -10 25 0\" fill=\"none\" stroke=\"var(--mute)\"/><text x=\"87\" y=\"150\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--ink)\">traqueia → PARA a lesão</text><path d=\"M235 40 v100\" stroke=\"var(--ink)\" stroke-width=\"4\"/><path d=\"M245 90 h70 v50 h-70 Z\" fill=\"var(--rose)\" opacity=\".9\"/><text x=\"252\" y=\"150\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--ink)\">traqueia → lado OPOSTO</text></svg>",
+     "legenda": "Atelectasia puxa as estruturas; derrame grande empurra"
+    }
+   ],
+   "fonte": "Tarantino — Doenças Pulmonares 7ª ed. / SBPT — Diretrizes / Tratado de Pediatria SBP 5ª ed. / Harrison's 21ª ed.",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "onc-01",
+   "tipo": "flash",
+   "area": "Cirurgia",
+   "tema": "Oncologia cirúrgica",
+   "sub": "Oncologia cirúrgica — biópsias e síndromes hereditárias",
+   "frente": "Biópsia de massa em membro: qual tipo e como orientar a incisão?",
+   "verso": "**Core biopsy ou incisional.**\n**Incisão longitudinal no eixo do membro.**\n\nPor quê:\n- O trajeto é ressecado em bloco na cirurgia definitiva.\n- Incisão transversa contamina mais tecido e piora a ressecção.\n\nNão usar:\n- PAAF para histologia de sarcoma.",
+   "macete": "Membro: \"corta ao longo do osso, nunca atravessado\".",
+   "visual": {
+    "tipo": "tabela",
+    "cab": [
+     "Biópsia",
+     "Retira",
+     "Uso típico"
+    ],
+    "linhas": [
+     [
+      "PAAF",
+      "Células (citologia)",
+      "Tireoide, linfonodo"
+     ],
+     [
+      "Core (agulha grossa)",
+      "Fragmento cilíndrico",
+      "Mama, sarcoma"
+     ],
+     [
+      "!Incisional",
+      "Parte da lesão",
+      "Massas grandes"
+     ],
+     [
+      "Excisional",
+      "Lesão inteira",
+      "Lesões pequenas, melanoma"
+     ]
+    ]
+   },
+   "pegadinha": "Excisional \"sempre antes\" é falso: em lesões grandes ela compromete a margem.",
+   "uerj": "VV 2025: biópsia incisional, longitudinal em membros (gabarito B).",
+   "prio": "alta",
+   "contexto": "**Princípios da cirurgia oncológica = obter diagnóstico histológico sem prejudicar a cirurgia definitiva, ressecar com margens livres e reconhecer as síndromes hereditárias de câncer.**\n\nTipos de biópsia:\n- **PAAF (punção aspirativa por agulha fina)** → citologia (não dá arquitetura); tireoide, linfonodo, cistos\n- **Core biopsy (agulha grossa)** → fragmento para histologia e imuno-histoquímica; preferida em mama e em muitos tumores sólidos\n- **Incisional** → retira um FRAGMENTO de lesões grandes\n  - Em membros → incisão LONGITUDINAL (no eixo do membro), para ser retirada em bloco na cirurgia definitiva\n- **Excisional** → retira TODA a lesão; lesões pequenas (ex.: melanoma com margem estreita de 1–3 mm)\n\nPrincípios técnicos:\n- O trajeto da biópsia deve ser ressecado junto com o tumor\n- Hemostasia rigorosa (hematoma espalha células tumorais)\n- Planejar a biópsia com quem fará a cirurgia definitiva (sarcomas)\n- Cirurgia definitiva → **margens livres (R0)** são prioridade; reconstrução vem depois\n\nSíndromes hereditárias de câncer:\n- **Li-Fraumeni** → mutação germinativa do **TP53**, autossômica dominante\n  - Tumores → sarcomas, câncer de mama precoce, tumores cerebrais, **carcinoma adrenocortical**, leucemias\n  - Carcinoma adrenocortical (ou de plexo coroide, ou rabdomiossarcoma embrionário) → indica teste de TP53 independentemente da história familiar (critérios de Chompret)\n  - Evitar radioterapia quando possível (induz novos tumores)\n- **BRCA1/BRCA2** → mama e ovário (próstata, pâncreas)\n- **Lynch** → colorretal sem polipose, endométrio, ovário (genes de reparo: MLH1, MSH2, MSH6, PMS2)\n- **PAF** → gene APC, centenas de pólipos colorretais\n\nO que mais cai no Vila Verde:\n- VV 2025 (2 questões) → biópsia incisional longitudinal em membro; carcinoma adrenocortical → pesquisar TP53 independentemente da história familiar.\n- Distratores: \"PAAF é o padrão para histologia de sarcoma\", \"excisional sempre antes\", \"margens não importam\".",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 204\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><rect x=\"130\" y=\"10\" width=\"80\" height=\"170\" rx=\"36\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\"/><text x=\"170\" y=\"196\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--mute)\">membro (eixo longitudinal)</text><ellipse cx=\"170\" cy=\"95\" rx=\"26\" ry=\"34\" fill=\"var(--wine)\" opacity=\".75\"/><text x=\"170\" y=\"99\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--card)\">tumor</text><line x1=\"158\" y1=\"62\" x2=\"158\" y2=\"128\" stroke=\"var(--ok)\" stroke-width=\"3\"/><text x=\"40\" y=\"96\" font-size=\"10\" font-weight=\"600\" fill=\"var(--ok)\">✓ longitudinal</text><line x1=\"214\" y1=\"150\" x2=\"270\" y2=\"150\" stroke=\"var(--bad)\" stroke-width=\"3\"/><text x=\"232\" y=\"170\" font-size=\"10\" font-weight=\"600\" fill=\"var(--bad)\">✗ transversa</text></svg>",
+     "legenda": "Biópsia em membro: incisão no eixo do membro, para ser ressecada em bloco depois"
+    }
+   ],
+   "fonte": "INCA — Bases da Oncologia Cirúrgica / NCCN Guidelines: Soft Tissue Sarcoma (2025) e Genetic/Familial High-Risk Assessment (2025) / Chompret criteria (revisados 2015)",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "onc-02",
+   "tipo": "flash",
+   "area": "Cirurgia",
+   "tema": "Oncologia cirúrgica",
+   "sub": "Oncologia cirúrgica — biópsias e síndromes hereditárias",
+   "frente": "Li-Fraumeni: gene, tumores e quando testar",
+   "verso": "**Gene TP53 (autossômico dominante).**\n**Carcinoma adrenocortical → testar TP53 sempre.**\n\nTumores:\n- Sarcomas, mama precoce, cérebro, adrenal, leucemias.\n\nCuidado:\n- Evitar radioterapia quando possível.",
+   "macete": "Li-Fraumeni = \"SBLA\": Sarcoma, Breast (mama), Leucemia/cérebro, Adrenal.",
+   "pegadinha": "Não precisa esperar outro caso na família: carcinoma adrenocortical sozinho já indica o teste.",
+   "uerj": "VV 2025: pesquisa de TP53 por carcinoma adrenocortical, independentemente da história (gabarito A).",
+   "prio": "media",
+   "contexto": "**Princípios da cirurgia oncológica = obter diagnóstico histológico sem prejudicar a cirurgia definitiva, ressecar com margens livres e reconhecer as síndromes hereditárias de câncer.**\n\nTipos de biópsia:\n- **PAAF (punção aspirativa por agulha fina)** → citologia (não dá arquitetura); tireoide, linfonodo, cistos\n- **Core biopsy (agulha grossa)** → fragmento para histologia e imuno-histoquímica; preferida em mama e em muitos tumores sólidos\n- **Incisional** → retira um FRAGMENTO de lesões grandes\n  - Em membros → incisão LONGITUDINAL (no eixo do membro), para ser retirada em bloco na cirurgia definitiva\n- **Excisional** → retira TODA a lesão; lesões pequenas (ex.: melanoma com margem estreita de 1–3 mm)\n\nPrincípios técnicos:\n- O trajeto da biópsia deve ser ressecado junto com o tumor\n- Hemostasia rigorosa (hematoma espalha células tumorais)\n- Planejar a biópsia com quem fará a cirurgia definitiva (sarcomas)\n- Cirurgia definitiva → **margens livres (R0)** são prioridade; reconstrução vem depois\n\nSíndromes hereditárias de câncer:\n- **Li-Fraumeni** → mutação germinativa do **TP53**, autossômica dominante\n  - Tumores → sarcomas, câncer de mama precoce, tumores cerebrais, **carcinoma adrenocortical**, leucemias\n  - Carcinoma adrenocortical (ou de plexo coroide, ou rabdomiossarcoma embrionário) → indica teste de TP53 independentemente da história familiar (critérios de Chompret)\n  - Evitar radioterapia quando possível (induz novos tumores)\n- **BRCA1/BRCA2** → mama e ovário (próstata, pâncreas)\n- **Lynch** → colorretal sem polipose, endométrio, ovário (genes de reparo: MLH1, MSH2, MSH6, PMS2)\n- **PAF** → gene APC, centenas de pólipos colorretais\n\nO que mais cai no Vila Verde:\n- VV 2025 (2 questões) → biópsia incisional longitudinal em membro; carcinoma adrenocortical → pesquisar TP53 independentemente da história familiar.\n- Distratores: \"PAAF é o padrão para histologia de sarcoma\", \"excisional sempre antes\", \"margens não importam\".",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 204\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><rect x=\"130\" y=\"10\" width=\"80\" height=\"170\" rx=\"36\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\"/><text x=\"170\" y=\"196\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--mute)\">membro (eixo longitudinal)</text><ellipse cx=\"170\" cy=\"95\" rx=\"26\" ry=\"34\" fill=\"var(--wine)\" opacity=\".75\"/><text x=\"170\" y=\"99\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--card)\">tumor</text><line x1=\"158\" y1=\"62\" x2=\"158\" y2=\"128\" stroke=\"var(--ok)\" stroke-width=\"3\"/><text x=\"40\" y=\"96\" font-size=\"10\" font-weight=\"600\" fill=\"var(--ok)\">✓ longitudinal</text><line x1=\"214\" y1=\"150\" x2=\"270\" y2=\"150\" stroke=\"var(--bad)\" stroke-width=\"3\"/><text x=\"232\" y=\"170\" font-size=\"10\" font-weight=\"600\" fill=\"var(--bad)\">✗ transversa</text></svg>",
+     "legenda": "Biópsia em membro: incisão no eixo do membro, para ser ressecada em bloco depois"
+    }
+   ],
+   "fonte": "INCA — Bases da Oncologia Cirúrgica / NCCN Guidelines: Soft Tissue Sarcoma (2025) e Genetic/Familial High-Risk Assessment (2025) / Chompret criteria (revisados 2015)",
+   "add": "2026-10-28",
+   "visual": {
+    "tipo": "lista",
+    "itens": [
+     "!Carcinoma adrenocortical → testar TP53",
+     "Sarcoma em jovem",
+     "Câncer de mama < 31 anos",
+     "Tumor de plexo coroide"
+    ]
+   }
+  },
+  {
+   "id": "onc-q1",
+   "tipo": "quiz",
+   "area": "Cirurgia",
+   "tema": "Oncologia cirúrgica",
+   "sub": "Oncologia cirúrgica — biópsias e síndromes hereditárias",
+   "frente": "Sobre os princípios da cirurgia oncológica, é CORRETO afirmar:",
+   "opcoes": [
+    "A PAAF é o método preferencial para avaliação histológica de tumores sólidos de membros.",
+    "A biópsia incisional retira um fragmento e, nos membros, deve ser longitudinal para não comprometer o tratamento definitivo.",
+    "A biópsia excisional deve sempre preceder a cirurgia oncológica, independentemente do tamanho.",
+    "Na ressecção, a reconstrução é prioridade sobre margens livres."
+   ],
+   "certa": 1,
+   "comentarios": [
+    "Errada: PAAF dá citologia.",
+    "Correta.",
+    "Errada: lesão grande → incisional/core.",
+    "Errada: margem livre é prioridade."
+   ],
+   "macete": "\"Longitudinal no membro, margem livre no fim\".",
+   "pegadinha": "A alternativa com \"sempre\" é falsa.",
+   "uerj": "VV 2025 (Q57, gabarito B).",
+   "prio": "media",
+   "contexto": "**Princípios da cirurgia oncológica = obter diagnóstico histológico sem prejudicar a cirurgia definitiva, ressecar com margens livres e reconhecer as síndromes hereditárias de câncer.**\n\nTipos de biópsia:\n- **PAAF (punção aspirativa por agulha fina)** → citologia (não dá arquitetura); tireoide, linfonodo, cistos\n- **Core biopsy (agulha grossa)** → fragmento para histologia e imuno-histoquímica; preferida em mama e em muitos tumores sólidos\n- **Incisional** → retira um FRAGMENTO de lesões grandes\n  - Em membros → incisão LONGITUDINAL (no eixo do membro), para ser retirada em bloco na cirurgia definitiva\n- **Excisional** → retira TODA a lesão; lesões pequenas (ex.: melanoma com margem estreita de 1–3 mm)\n\nPrincípios técnicos:\n- O trajeto da biópsia deve ser ressecado junto com o tumor\n- Hemostasia rigorosa (hematoma espalha células tumorais)\n- Planejar a biópsia com quem fará a cirurgia definitiva (sarcomas)\n- Cirurgia definitiva → **margens livres (R0)** são prioridade; reconstrução vem depois\n\nSíndromes hereditárias de câncer:\n- **Li-Fraumeni** → mutação germinativa do **TP53**, autossômica dominante\n  - Tumores → sarcomas, câncer de mama precoce, tumores cerebrais, **carcinoma adrenocortical**, leucemias\n  - Carcinoma adrenocortical (ou de plexo coroide, ou rabdomiossarcoma embrionário) → indica teste de TP53 independentemente da história familiar (critérios de Chompret)\n  - Evitar radioterapia quando possível (induz novos tumores)\n- **BRCA1/BRCA2** → mama e ovário (próstata, pâncreas)\n- **Lynch** → colorretal sem polipose, endométrio, ovário (genes de reparo: MLH1, MSH2, MSH6, PMS2)\n- **PAF** → gene APC, centenas de pólipos colorretais\n\nO que mais cai no Vila Verde:\n- VV 2025 (2 questões) → biópsia incisional longitudinal em membro; carcinoma adrenocortical → pesquisar TP53 independentemente da história familiar.\n- Distratores: \"PAAF é o padrão para histologia de sarcoma\", \"excisional sempre antes\", \"margens não importam\".",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 204\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><rect x=\"130\" y=\"10\" width=\"80\" height=\"170\" rx=\"36\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\"/><text x=\"170\" y=\"196\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--mute)\">membro (eixo longitudinal)</text><ellipse cx=\"170\" cy=\"95\" rx=\"26\" ry=\"34\" fill=\"var(--wine)\" opacity=\".75\"/><text x=\"170\" y=\"99\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--card)\">tumor</text><line x1=\"158\" y1=\"62\" x2=\"158\" y2=\"128\" stroke=\"var(--ok)\" stroke-width=\"3\"/><text x=\"40\" y=\"96\" font-size=\"10\" font-weight=\"600\" fill=\"var(--ok)\">✓ longitudinal</text><line x1=\"214\" y1=\"150\" x2=\"270\" y2=\"150\" stroke=\"var(--bad)\" stroke-width=\"3\"/><text x=\"232\" y=\"170\" font-size=\"10\" font-weight=\"600\" fill=\"var(--bad)\">✗ transversa</text></svg>",
+     "legenda": "Biópsia em membro: incisão no eixo do membro, para ser ressecada em bloco depois"
+    }
+   ],
+   "fonte": "INCA — Bases da Oncologia Cirúrgica / NCCN Guidelines: Soft Tissue Sarcoma (2025) e Genetic/Familial High-Risk Assessment (2025) / Chompret criteria (revisados 2015)",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "onc-d1",
+   "tipo": "digitar",
+   "area": "Cirurgia",
+   "tema": "Oncologia cirúrgica",
+   "sub": "Oncologia cirúrgica — biópsias e síndromes hereditárias",
+   "frente": "Qual gene está mutado na síndrome de Li-Fraumeni?",
+   "verso": "**TP53.**",
+   "resposta": "TP53",
+   "aceitas": [
+    "p53",
+    "tp 53",
+    "tp53"
+   ],
+   "macete": "Li-Fraumeni = \"p53, o guardião caído\".",
+   "prio": "media",
+   "contexto": "**Princípios da cirurgia oncológica = obter diagnóstico histológico sem prejudicar a cirurgia definitiva, ressecar com margens livres e reconhecer as síndromes hereditárias de câncer.**\n\nTipos de biópsia:\n- **PAAF (punção aspirativa por agulha fina)** → citologia (não dá arquitetura); tireoide, linfonodo, cistos\n- **Core biopsy (agulha grossa)** → fragmento para histologia e imuno-histoquímica; preferida em mama e em muitos tumores sólidos\n- **Incisional** → retira um FRAGMENTO de lesões grandes\n  - Em membros → incisão LONGITUDINAL (no eixo do membro), para ser retirada em bloco na cirurgia definitiva\n- **Excisional** → retira TODA a lesão; lesões pequenas (ex.: melanoma com margem estreita de 1–3 mm)\n\nPrincípios técnicos:\n- O trajeto da biópsia deve ser ressecado junto com o tumor\n- Hemostasia rigorosa (hematoma espalha células tumorais)\n- Planejar a biópsia com quem fará a cirurgia definitiva (sarcomas)\n- Cirurgia definitiva → **margens livres (R0)** são prioridade; reconstrução vem depois\n\nSíndromes hereditárias de câncer:\n- **Li-Fraumeni** → mutação germinativa do **TP53**, autossômica dominante\n  - Tumores → sarcomas, câncer de mama precoce, tumores cerebrais, **carcinoma adrenocortical**, leucemias\n  - Carcinoma adrenocortical (ou de plexo coroide, ou rabdomiossarcoma embrionário) → indica teste de TP53 independentemente da história familiar (critérios de Chompret)\n  - Evitar radioterapia quando possível (induz novos tumores)\n- **BRCA1/BRCA2** → mama e ovário (próstata, pâncreas)\n- **Lynch** → colorretal sem polipose, endométrio, ovário (genes de reparo: MLH1, MSH2, MSH6, PMS2)\n- **PAF** → gene APC, centenas de pólipos colorretais\n\nO que mais cai no Vila Verde:\n- VV 2025 (2 questões) → biópsia incisional longitudinal em membro; carcinoma adrenocortical → pesquisar TP53 independentemente da história familiar.\n- Distratores: \"PAAF é o padrão para histologia de sarcoma\", \"excisional sempre antes\", \"margens não importam\".",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 204\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><rect x=\"130\" y=\"10\" width=\"80\" height=\"170\" rx=\"36\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\"/><text x=\"170\" y=\"196\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--mute)\">membro (eixo longitudinal)</text><ellipse cx=\"170\" cy=\"95\" rx=\"26\" ry=\"34\" fill=\"var(--wine)\" opacity=\".75\"/><text x=\"170\" y=\"99\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--card)\">tumor</text><line x1=\"158\" y1=\"62\" x2=\"158\" y2=\"128\" stroke=\"var(--ok)\" stroke-width=\"3\"/><text x=\"40\" y=\"96\" font-size=\"10\" font-weight=\"600\" fill=\"var(--ok)\">✓ longitudinal</text><line x1=\"214\" y1=\"150\" x2=\"270\" y2=\"150\" stroke=\"var(--bad)\" stroke-width=\"3\"/><text x=\"232\" y=\"170\" font-size=\"10\" font-weight=\"600\" fill=\"var(--bad)\">✗ transversa</text></svg>",
+     "legenda": "Biópsia em membro: incisão no eixo do membro, para ser ressecada em bloco depois"
+    }
+   ],
+   "fonte": "INCA — Bases da Oncologia Cirúrgica / NCCN Guidelines: Soft Tissue Sarcoma (2025) e Genetic/Familial High-Risk Assessment (2025) / Chompret criteria (revisados 2015)",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "onc-d2",
+   "tipo": "digitar",
+   "area": "Cirurgia",
+   "tema": "Oncologia cirúrgica",
+   "sub": "Oncologia cirúrgica — biópsias e síndromes hereditárias",
+   "frente": "Em membros, qual a orientação da incisão de biópsia?",
+   "verso": "**Longitudinal.**",
+   "resposta": "Longitudinal",
+   "aceitas": [
+    "longitudinal",
+    "no eixo do membro",
+    "eixo longitudinal"
+   ],
+   "macete": "Ao longo do osso.",
+   "prio": "media",
+   "contexto": "**Princípios da cirurgia oncológica = obter diagnóstico histológico sem prejudicar a cirurgia definitiva, ressecar com margens livres e reconhecer as síndromes hereditárias de câncer.**\n\nTipos de biópsia:\n- **PAAF (punção aspirativa por agulha fina)** → citologia (não dá arquitetura); tireoide, linfonodo, cistos\n- **Core biopsy (agulha grossa)** → fragmento para histologia e imuno-histoquímica; preferida em mama e em muitos tumores sólidos\n- **Incisional** → retira um FRAGMENTO de lesões grandes\n  - Em membros → incisão LONGITUDINAL (no eixo do membro), para ser retirada em bloco na cirurgia definitiva\n- **Excisional** → retira TODA a lesão; lesões pequenas (ex.: melanoma com margem estreita de 1–3 mm)\n\nPrincípios técnicos:\n- O trajeto da biópsia deve ser ressecado junto com o tumor\n- Hemostasia rigorosa (hematoma espalha células tumorais)\n- Planejar a biópsia com quem fará a cirurgia definitiva (sarcomas)\n- Cirurgia definitiva → **margens livres (R0)** são prioridade; reconstrução vem depois\n\nSíndromes hereditárias de câncer:\n- **Li-Fraumeni** → mutação germinativa do **TP53**, autossômica dominante\n  - Tumores → sarcomas, câncer de mama precoce, tumores cerebrais, **carcinoma adrenocortical**, leucemias\n  - Carcinoma adrenocortical (ou de plexo coroide, ou rabdomiossarcoma embrionário) → indica teste de TP53 independentemente da história familiar (critérios de Chompret)\n  - Evitar radioterapia quando possível (induz novos tumores)\n- **BRCA1/BRCA2** → mama e ovário (próstata, pâncreas)\n- **Lynch** → colorretal sem polipose, endométrio, ovário (genes de reparo: MLH1, MSH2, MSH6, PMS2)\n- **PAF** → gene APC, centenas de pólipos colorretais\n\nO que mais cai no Vila Verde:\n- VV 2025 (2 questões) → biópsia incisional longitudinal em membro; carcinoma adrenocortical → pesquisar TP53 independentemente da história familiar.\n- Distratores: \"PAAF é o padrão para histologia de sarcoma\", \"excisional sempre antes\", \"margens não importam\".",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 204\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><rect x=\"130\" y=\"10\" width=\"80\" height=\"170\" rx=\"36\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\"/><text x=\"170\" y=\"196\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--mute)\">membro (eixo longitudinal)</text><ellipse cx=\"170\" cy=\"95\" rx=\"26\" ry=\"34\" fill=\"var(--wine)\" opacity=\".75\"/><text x=\"170\" y=\"99\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--card)\">tumor</text><line x1=\"158\" y1=\"62\" x2=\"158\" y2=\"128\" stroke=\"var(--ok)\" stroke-width=\"3\"/><text x=\"40\" y=\"96\" font-size=\"10\" font-weight=\"600\" fill=\"var(--ok)\">✓ longitudinal</text><line x1=\"214\" y1=\"150\" x2=\"270\" y2=\"150\" stroke=\"var(--bad)\" stroke-width=\"3\"/><text x=\"232\" y=\"170\" font-size=\"10\" font-weight=\"600\" fill=\"var(--bad)\">✗ transversa</text></svg>",
+     "legenda": "Biópsia em membro: incisão no eixo do membro, para ser ressecada em bloco depois"
+    }
+   ],
+   "fonte": "INCA — Bases da Oncologia Cirúrgica / NCCN Guidelines: Soft Tissue Sarcoma (2025) e Genetic/Familial High-Risk Assessment (2025) / Chompret criteria (revisados 2015)",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "drc-01",
+   "tipo": "flash",
+   "area": "Clínica Médica",
+   "tema": "Nefrologia",
+   "sub": "Doença renal crônica",
+   "frente": "DRC: como estadiar?",
+   "verso": "**TFG (G1 a G5) + albuminúria (A1 a A3).**\n\nCortes da TFG:\n- G3a 45–59, G3b 30–44, G4 15–29, G5 < 15.\n\nCortes da albuminúria:\n- A1 < 30, A2 30–300, A3 > 300 mg/g.",
+   "macete": "\"Noventa, sessenta, quarenta e cinco, trinta, quinze\": as portas do G.",
+   "pegadinha": "DRC exige > 3 meses de alteração.",
+   "uerj": "VIV 2026: V/F com albuminúria na DRC.",
+   "prio": "alta",
+   "contexto": "**Doença renal crônica (DRC) = alteração da estrutura ou da função renal por > 3 meses (TFG < 60 ou marcador de lesão, como albuminúria); classificada por TFG (G) e albuminúria (A).**\n\nCausas principais:\n- Hipertensão e diabetes (as duas maiores no Brasil); glomerulopatias; doença policística\n\nEstadiamento (KDIGO):\n- TFG (mL/min/1,73 m²) → G1 ≥ 90; G2 60–89; G3a 45–59; G3b 30–44; G4 15–29; G5 < 15\n- Albuminúria (relação albumina/creatinina) → A1 < 30 mg/g; A2 30–300; A3 > 300\n\nProteção renal:\n- Controle da PA (meta < 130/80) e da glicemia\n- **IECA ou BRA** → reduz albuminúria e progressão (vigiar K⁺ e creatinina)\n- **iSGLT2** → nefroproteção mesmo sem diabetes (TFG ≥ 20)\n- Evitar nefrotóxicos (AINE, contraste), ajustar doses\n\nComplicações:\n- **Anemia** → normocítica, por deficiência de eritropoetina\n  - Repor ferro primeiro; eritropoetina se Hb < 10 g/dL\n  - Alvo de Hb 10–11,5 (não normalizar: > 13 aumenta AVC e eventos)\n- **Distúrbio mineral-ósseo** → hiperfosfatemia + hipocalcemia + deficiência de calcitriol → hiperparatireoidismo secundário\n  - Dieta pobre em fósforo, quelantes (carbonato de cálcio, sevelamer), calcitriol\n- Acidose metabólica → bicarbonato oral\n- Hipercalemia, hipervolemia, HAS, doença cardiovascular (principal causa de morte)\n\nDiálise de urgência (\"AEIOU\"):\n- Acidose grave refratária\n- Eletrólitos → hipercalemia refratária\n- Intoxicação dialisável (lítio, metanol, salicilato)\n- Overload → hipervolemia refratária (edema agudo de pulmão)\n- Uremia → pericardite, encefalopatia, sangramento urêmico\n\nO que mais cai no Vila Verde:\n- VIV 2026 → V/F sobre albuminúria, anemia (deficiência de EPO) e hiperfosfatemia na DRC.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "DRC (KDIGO)",
+      "Critério",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "G1 / G2",
+       "TFG ≥ 60 + marcador de lesão",
+       "Tratar causa, IECA/BRA se albuminúria"
+      ],
+      [
+       "G3a / G3b",
+       "TFG 30–59",
+       "Rastrear anemia e distúrbio mineral; ajustar doses"
+      ],
+      [
+       "G4",
+       "TFG 15–29",
+       "Preparar terapia renal substitutiva (fístula)"
+      ],
+      [
+       "G5",
+       "TFG < 15",
+       "Diálise ou transplante conforme sintomas"
+      ],
+      [
+       "A1 / A2 / A3",
+       "Albuminúria < 30 / 30–300 / > 300 mg/g",
+       "Quanto maior, mais IECA/BRA + iSGLT2"
+      ]
+     ]
+    }
+   ],
+   "fonte": "KDIGO 2024 Clinical Practice Guideline for CKD / KDIGO Anemia in CKD (2012, em atualização) / SBN — Censo Brasileiro de Diálise (2023)",
+   "add": "2026-10-28",
+   "visual": {
+    "tipo": "tabela",
+    "cab": [
+     "Estágio",
+     "TFG"
+    ],
+    "linhas": [
+     [
+      "G1",
+      "≥ 90"
+     ],
+     [
+      "G2",
+      "60–89"
+     ],
+     [
+      "G3a",
+      "45–59"
+     ],
+     [
+      "G3b",
+      "30–44"
+     ],
+     [
+      "G4",
+      "15–29"
+     ],
+     [
+      "G5",
+      "< 15"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "drc-02",
+   "tipo": "flash",
+   "area": "Clínica Médica",
+   "tema": "Nefrologia",
+   "sub": "Doença renal crônica",
+   "frente": "Anemia da DRC: causa e alvo de hemoglobina",
+   "verso": "**Deficiência de eritropoetina.**\n**Alvo de Hb 10–11,5 g/dL (não normalizar).**\n\nOrdem:\n- Corrigir ferro primeiro.\n- Eritropoetina se Hb < 10.",
+   "macete": "Rim doente \"não fabrica EPO\".",
+   "visual": {
+    "tipo": "fluxo",
+    "passos": [
+     "Anemia normocítica na DRC",
+     "Avaliar e repor ferro",
+     "Hb ainda < 10 → eritropoetina",
+     "Alvo 10–11,5 g/dL"
+    ]
+   },
+   "pegadinha": "Hb > 13 com EPO aumenta AVC e eventos CV.",
+   "uerj": "VIV 2026: anemia da DRC (V/F).",
+   "prio": "alta",
+   "contexto": "**Doença renal crônica (DRC) = alteração da estrutura ou da função renal por > 3 meses (TFG < 60 ou marcador de lesão, como albuminúria); classificada por TFG (G) e albuminúria (A).**\n\nCausas principais:\n- Hipertensão e diabetes (as duas maiores no Brasil); glomerulopatias; doença policística\n\nEstadiamento (KDIGO):\n- TFG (mL/min/1,73 m²) → G1 ≥ 90; G2 60–89; G3a 45–59; G3b 30–44; G4 15–29; G5 < 15\n- Albuminúria (relação albumina/creatinina) → A1 < 30 mg/g; A2 30–300; A3 > 300\n\nProteção renal:\n- Controle da PA (meta < 130/80) e da glicemia\n- **IECA ou BRA** → reduz albuminúria e progressão (vigiar K⁺ e creatinina)\n- **iSGLT2** → nefroproteção mesmo sem diabetes (TFG ≥ 20)\n- Evitar nefrotóxicos (AINE, contraste), ajustar doses\n\nComplicações:\n- **Anemia** → normocítica, por deficiência de eritropoetina\n  - Repor ferro primeiro; eritropoetina se Hb < 10 g/dL\n  - Alvo de Hb 10–11,5 (não normalizar: > 13 aumenta AVC e eventos)\n- **Distúrbio mineral-ósseo** → hiperfosfatemia + hipocalcemia + deficiência de calcitriol → hiperparatireoidismo secundário\n  - Dieta pobre em fósforo, quelantes (carbonato de cálcio, sevelamer), calcitriol\n- Acidose metabólica → bicarbonato oral\n- Hipercalemia, hipervolemia, HAS, doença cardiovascular (principal causa de morte)\n\nDiálise de urgência (\"AEIOU\"):\n- Acidose grave refratária\n- Eletrólitos → hipercalemia refratária\n- Intoxicação dialisável (lítio, metanol, salicilato)\n- Overload → hipervolemia refratária (edema agudo de pulmão)\n- Uremia → pericardite, encefalopatia, sangramento urêmico\n\nO que mais cai no Vila Verde:\n- VIV 2026 → V/F sobre albuminúria, anemia (deficiência de EPO) e hiperfosfatemia na DRC.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "DRC (KDIGO)",
+      "Critério",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "G1 / G2",
+       "TFG ≥ 60 + marcador de lesão",
+       "Tratar causa, IECA/BRA se albuminúria"
+      ],
+      [
+       "G3a / G3b",
+       "TFG 30–59",
+       "Rastrear anemia e distúrbio mineral; ajustar doses"
+      ],
+      [
+       "G4",
+       "TFG 15–29",
+       "Preparar terapia renal substitutiva (fístula)"
+      ],
+      [
+       "G5",
+       "TFG < 15",
+       "Diálise ou transplante conforme sintomas"
+      ],
+      [
+       "A1 / A2 / A3",
+       "Albuminúria < 30 / 30–300 / > 300 mg/g",
+       "Quanto maior, mais IECA/BRA + iSGLT2"
+      ]
+     ]
+    }
+   ],
+   "fonte": "KDIGO 2024 Clinical Practice Guideline for CKD / KDIGO Anemia in CKD (2012, em atualização) / SBN — Censo Brasileiro de Diálise (2023)",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "drc-03",
+   "tipo": "flash",
+   "area": "Clínica Médica",
+   "tema": "Nefrologia",
+   "sub": "Doença renal crônica",
+   "frente": "Distúrbio mineral-ósseo da DRC: sequência e tratamento",
+   "verso": "**Fósforo sobe e cálcio cai.**\n**Resultado → hiperparatireoidismo secundário.**\n\nPor quê:\n- Menos excreção de fósforo e menos calcitriol.\n\nTratamento:\n- Dieta pobre em fósforo.\n- Quelantes (carbonato de cálcio, sevelamer).\n- Calcitriol.",
+   "macete": "DRC: \"Fósforo Fica, Cálcio Cai, PTH Pula\".",
+   "pegadinha": "Hiperfosfatemia (não hipofosfatemia) é a regra na DRC avançada.",
+   "uerj": "VIV 2026: hiperfosfatemia na DRC (V/F).",
+   "prio": "media",
+   "contexto": "**Doença renal crônica (DRC) = alteração da estrutura ou da função renal por > 3 meses (TFG < 60 ou marcador de lesão, como albuminúria); classificada por TFG (G) e albuminúria (A).**\n\nCausas principais:\n- Hipertensão e diabetes (as duas maiores no Brasil); glomerulopatias; doença policística\n\nEstadiamento (KDIGO):\n- TFG (mL/min/1,73 m²) → G1 ≥ 90; G2 60–89; G3a 45–59; G3b 30–44; G4 15–29; G5 < 15\n- Albuminúria (relação albumina/creatinina) → A1 < 30 mg/g; A2 30–300; A3 > 300\n\nProteção renal:\n- Controle da PA (meta < 130/80) e da glicemia\n- **IECA ou BRA** → reduz albuminúria e progressão (vigiar K⁺ e creatinina)\n- **iSGLT2** → nefroproteção mesmo sem diabetes (TFG ≥ 20)\n- Evitar nefrotóxicos (AINE, contraste), ajustar doses\n\nComplicações:\n- **Anemia** → normocítica, por deficiência de eritropoetina\n  - Repor ferro primeiro; eritropoetina se Hb < 10 g/dL\n  - Alvo de Hb 10–11,5 (não normalizar: > 13 aumenta AVC e eventos)\n- **Distúrbio mineral-ósseo** → hiperfosfatemia + hipocalcemia + deficiência de calcitriol → hiperparatireoidismo secundário\n  - Dieta pobre em fósforo, quelantes (carbonato de cálcio, sevelamer), calcitriol\n- Acidose metabólica → bicarbonato oral\n- Hipercalemia, hipervolemia, HAS, doença cardiovascular (principal causa de morte)\n\nDiálise de urgência (\"AEIOU\"):\n- Acidose grave refratária\n- Eletrólitos → hipercalemia refratária\n- Intoxicação dialisável (lítio, metanol, salicilato)\n- Overload → hipervolemia refratária (edema agudo de pulmão)\n- Uremia → pericardite, encefalopatia, sangramento urêmico\n\nO que mais cai no Vila Verde:\n- VIV 2026 → V/F sobre albuminúria, anemia (deficiência de EPO) e hiperfosfatemia na DRC.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "DRC (KDIGO)",
+      "Critério",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "G1 / G2",
+       "TFG ≥ 60 + marcador de lesão",
+       "Tratar causa, IECA/BRA se albuminúria"
+      ],
+      [
+       "G3a / G3b",
+       "TFG 30–59",
+       "Rastrear anemia e distúrbio mineral; ajustar doses"
+      ],
+      [
+       "G4",
+       "TFG 15–29",
+       "Preparar terapia renal substitutiva (fístula)"
+      ],
+      [
+       "G5",
+       "TFG < 15",
+       "Diálise ou transplante conforme sintomas"
+      ],
+      [
+       "A1 / A2 / A3",
+       "Albuminúria < 30 / 30–300 / > 300 mg/g",
+       "Quanto maior, mais IECA/BRA + iSGLT2"
+      ]
+     ]
+    }
+   ],
+   "fonte": "KDIGO 2024 Clinical Practice Guideline for CKD / KDIGO Anemia in CKD (2012, em atualização) / SBN — Censo Brasileiro de Diálise (2023)",
+   "add": "2026-10-28",
+   "visual": {
+    "tipo": "fluxo",
+    "passos": [
+     "Menos excreção de fósforo + menos calcitriol",
+     "Fósforo ↑ e cálcio ↓",
+     "PTH ↑ (hiperparatireoidismo secundário)",
+     "Doença óssea e calcificação vascular"
+    ]
+   }
+  },
+  {
+   "id": "drc-q1",
+   "tipo": "quiz",
+   "area": "Clínica Médica",
+   "tema": "Nefrologia",
+   "sub": "Doença renal crônica",
+   "frente": "Sobre a doença renal crônica, analise: I. Albuminúria é marcador de lesão renal e de risco de progressão. II. A anemia é causada principalmente pela deficiência de eritropoetina. III. A hipofosfatemia é a alteração mineral típica da DRC avançada. Está CORRETO:",
+   "opcoes": [
+    "Apenas I e II.",
+    "Apenas III.",
+    "Apenas II e III.",
+    "I, II e III."
+   ],
+   "certa": 0,
+   "comentarios": [
+    "Correta.",
+    "Errada: III é falsa.",
+    "III é falsa (hiperfosfatemia).",
+    "III é falsa."
+   ],
+   "macete": "DRC: \"Fósforo Fica\".",
+   "pegadinha": "Troca de \"hiper\" por \"hipo\" é o distrator clássico.",
+   "uerj": "Formato da VIV 2026 (Q75).",
+   "prio": "media",
+   "contexto": "**Doença renal crônica (DRC) = alteração da estrutura ou da função renal por > 3 meses (TFG < 60 ou marcador de lesão, como albuminúria); classificada por TFG (G) e albuminúria (A).**\n\nCausas principais:\n- Hipertensão e diabetes (as duas maiores no Brasil); glomerulopatias; doença policística\n\nEstadiamento (KDIGO):\n- TFG (mL/min/1,73 m²) → G1 ≥ 90; G2 60–89; G3a 45–59; G3b 30–44; G4 15–29; G5 < 15\n- Albuminúria (relação albumina/creatinina) → A1 < 30 mg/g; A2 30–300; A3 > 300\n\nProteção renal:\n- Controle da PA (meta < 130/80) e da glicemia\n- **IECA ou BRA** → reduz albuminúria e progressão (vigiar K⁺ e creatinina)\n- **iSGLT2** → nefroproteção mesmo sem diabetes (TFG ≥ 20)\n- Evitar nefrotóxicos (AINE, contraste), ajustar doses\n\nComplicações:\n- **Anemia** → normocítica, por deficiência de eritropoetina\n  - Repor ferro primeiro; eritropoetina se Hb < 10 g/dL\n  - Alvo de Hb 10–11,5 (não normalizar: > 13 aumenta AVC e eventos)\n- **Distúrbio mineral-ósseo** → hiperfosfatemia + hipocalcemia + deficiência de calcitriol → hiperparatireoidismo secundário\n  - Dieta pobre em fósforo, quelantes (carbonato de cálcio, sevelamer), calcitriol\n- Acidose metabólica → bicarbonato oral\n- Hipercalemia, hipervolemia, HAS, doença cardiovascular (principal causa de morte)\n\nDiálise de urgência (\"AEIOU\"):\n- Acidose grave refratária\n- Eletrólitos → hipercalemia refratária\n- Intoxicação dialisável (lítio, metanol, salicilato)\n- Overload → hipervolemia refratária (edema agudo de pulmão)\n- Uremia → pericardite, encefalopatia, sangramento urêmico\n\nO que mais cai no Vila Verde:\n- VIV 2026 → V/F sobre albuminúria, anemia (deficiência de EPO) e hiperfosfatemia na DRC.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "DRC (KDIGO)",
+      "Critério",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "G1 / G2",
+       "TFG ≥ 60 + marcador de lesão",
+       "Tratar causa, IECA/BRA se albuminúria"
+      ],
+      [
+       "G3a / G3b",
+       "TFG 30–59",
+       "Rastrear anemia e distúrbio mineral; ajustar doses"
+      ],
+      [
+       "G4",
+       "TFG 15–29",
+       "Preparar terapia renal substitutiva (fístula)"
+      ],
+      [
+       "G5",
+       "TFG < 15",
+       "Diálise ou transplante conforme sintomas"
+      ],
+      [
+       "A1 / A2 / A3",
+       "Albuminúria < 30 / 30–300 / > 300 mg/g",
+       "Quanto maior, mais IECA/BRA + iSGLT2"
+      ]
+     ]
+    }
+   ],
+   "fonte": "KDIGO 2024 Clinical Practice Guideline for CKD / KDIGO Anemia in CKD (2012, em atualização) / SBN — Censo Brasileiro de Diálise (2023)",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "drc-d1",
+   "tipo": "digitar",
+   "area": "Clínica Médica",
+   "tema": "Nefrologia",
+   "sub": "Doença renal crônica",
+   "frente": "Qual faixa de TFG define o estágio G4 da DRC?",
+   "verso": "**15–29 mL/min/1,73 m².**",
+   "resposta": "15 a 29",
+   "aceitas": [
+    "15-29",
+    "15 a 29",
+    "15–29"
+   ],
+   "macete": "G4 = \"entre 15 e 29\".",
+   "prio": "media",
+   "contexto": "**Doença renal crônica (DRC) = alteração da estrutura ou da função renal por > 3 meses (TFG < 60 ou marcador de lesão, como albuminúria); classificada por TFG (G) e albuminúria (A).**\n\nCausas principais:\n- Hipertensão e diabetes (as duas maiores no Brasil); glomerulopatias; doença policística\n\nEstadiamento (KDIGO):\n- TFG (mL/min/1,73 m²) → G1 ≥ 90; G2 60–89; G3a 45–59; G3b 30–44; G4 15–29; G5 < 15\n- Albuminúria (relação albumina/creatinina) → A1 < 30 mg/g; A2 30–300; A3 > 300\n\nProteção renal:\n- Controle da PA (meta < 130/80) e da glicemia\n- **IECA ou BRA** → reduz albuminúria e progressão (vigiar K⁺ e creatinina)\n- **iSGLT2** → nefroproteção mesmo sem diabetes (TFG ≥ 20)\n- Evitar nefrotóxicos (AINE, contraste), ajustar doses\n\nComplicações:\n- **Anemia** → normocítica, por deficiência de eritropoetina\n  - Repor ferro primeiro; eritropoetina se Hb < 10 g/dL\n  - Alvo de Hb 10–11,5 (não normalizar: > 13 aumenta AVC e eventos)\n- **Distúrbio mineral-ósseo** → hiperfosfatemia + hipocalcemia + deficiência de calcitriol → hiperparatireoidismo secundário\n  - Dieta pobre em fósforo, quelantes (carbonato de cálcio, sevelamer), calcitriol\n- Acidose metabólica → bicarbonato oral\n- Hipercalemia, hipervolemia, HAS, doença cardiovascular (principal causa de morte)\n\nDiálise de urgência (\"AEIOU\"):\n- Acidose grave refratária\n- Eletrólitos → hipercalemia refratária\n- Intoxicação dialisável (lítio, metanol, salicilato)\n- Overload → hipervolemia refratária (edema agudo de pulmão)\n- Uremia → pericardite, encefalopatia, sangramento urêmico\n\nO que mais cai no Vila Verde:\n- VIV 2026 → V/F sobre albuminúria, anemia (deficiência de EPO) e hiperfosfatemia na DRC.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "DRC (KDIGO)",
+      "Critério",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "G1 / G2",
+       "TFG ≥ 60 + marcador de lesão",
+       "Tratar causa, IECA/BRA se albuminúria"
+      ],
+      [
+       "G3a / G3b",
+       "TFG 30–59",
+       "Rastrear anemia e distúrbio mineral; ajustar doses"
+      ],
+      [
+       "G4",
+       "TFG 15–29",
+       "Preparar terapia renal substitutiva (fístula)"
+      ],
+      [
+       "G5",
+       "TFG < 15",
+       "Diálise ou transplante conforme sintomas"
+      ],
+      [
+       "A1 / A2 / A3",
+       "Albuminúria < 30 / 30–300 / > 300 mg/g",
+       "Quanto maior, mais IECA/BRA + iSGLT2"
+      ]
+     ]
+    }
+   ],
+   "fonte": "KDIGO 2024 Clinical Practice Guideline for CKD / KDIGO Anemia in CKD (2012, em atualização) / SBN — Censo Brasileiro de Diálise (2023)",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "drc-d2",
+   "tipo": "digitar",
+   "area": "Clínica Médica",
+   "tema": "Nefrologia",
+   "sub": "Doença renal crônica",
+   "frente": "Qual o alvo de hemoglobina no tratamento da anemia da DRC?",
+   "verso": "**10–11,5 g/dL.**",
+   "resposta": "10 a 11,5",
+   "aceitas": [
+    "10-11,5",
+    "10 a 11,5",
+    "10–11,5",
+    "10 a 11.5"
+   ],
+   "macete": "\"Dez a onze e meio\".",
+   "prio": "media",
+   "contexto": "**Doença renal crônica (DRC) = alteração da estrutura ou da função renal por > 3 meses (TFG < 60 ou marcador de lesão, como albuminúria); classificada por TFG (G) e albuminúria (A).**\n\nCausas principais:\n- Hipertensão e diabetes (as duas maiores no Brasil); glomerulopatias; doença policística\n\nEstadiamento (KDIGO):\n- TFG (mL/min/1,73 m²) → G1 ≥ 90; G2 60–89; G3a 45–59; G3b 30–44; G4 15–29; G5 < 15\n- Albuminúria (relação albumina/creatinina) → A1 < 30 mg/g; A2 30–300; A3 > 300\n\nProteção renal:\n- Controle da PA (meta < 130/80) e da glicemia\n- **IECA ou BRA** → reduz albuminúria e progressão (vigiar K⁺ e creatinina)\n- **iSGLT2** → nefroproteção mesmo sem diabetes (TFG ≥ 20)\n- Evitar nefrotóxicos (AINE, contraste), ajustar doses\n\nComplicações:\n- **Anemia** → normocítica, por deficiência de eritropoetina\n  - Repor ferro primeiro; eritropoetina se Hb < 10 g/dL\n  - Alvo de Hb 10–11,5 (não normalizar: > 13 aumenta AVC e eventos)\n- **Distúrbio mineral-ósseo** → hiperfosfatemia + hipocalcemia + deficiência de calcitriol → hiperparatireoidismo secundário\n  - Dieta pobre em fósforo, quelantes (carbonato de cálcio, sevelamer), calcitriol\n- Acidose metabólica → bicarbonato oral\n- Hipercalemia, hipervolemia, HAS, doença cardiovascular (principal causa de morte)\n\nDiálise de urgência (\"AEIOU\"):\n- Acidose grave refratária\n- Eletrólitos → hipercalemia refratária\n- Intoxicação dialisável (lítio, metanol, salicilato)\n- Overload → hipervolemia refratária (edema agudo de pulmão)\n- Uremia → pericardite, encefalopatia, sangramento urêmico\n\nO que mais cai no Vila Verde:\n- VIV 2026 → V/F sobre albuminúria, anemia (deficiência de EPO) e hiperfosfatemia na DRC.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "DRC (KDIGO)",
+      "Critério",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "G1 / G2",
+       "TFG ≥ 60 + marcador de lesão",
+       "Tratar causa, IECA/BRA se albuminúria"
+      ],
+      [
+       "G3a / G3b",
+       "TFG 30–59",
+       "Rastrear anemia e distúrbio mineral; ajustar doses"
+      ],
+      [
+       "G4",
+       "TFG 15–29",
+       "Preparar terapia renal substitutiva (fístula)"
+      ],
+      [
+       "G5",
+       "TFG < 15",
+       "Diálise ou transplante conforme sintomas"
+      ],
+      [
+       "A1 / A2 / A3",
+       "Albuminúria < 30 / 30–300 / > 300 mg/g",
+       "Quanto maior, mais IECA/BRA + iSGLT2"
+      ]
+     ]
+    }
+   ],
+   "fonte": "KDIGO 2024 Clinical Practice Guideline for CKD / KDIGO Anemia in CKD (2012, em atualização) / SBN — Censo Brasileiro de Diálise (2023)",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "epi-01",
+   "tipo": "flash",
+   "area": "Clínica Médica",
+   "tema": "Neurologia",
+   "sub": "Epilepsia — crises, síndromes e convulsão febril",
+   "frente": "Qual o critério para diagnosticar epilepsia?",
+   "verso": "**≥ 2 crises NÃO provocadas com intervalo > 24 h.**\n\nOu ainda:\n- 1 crise não provocada + alto risco de recorrência (≥ 60%).\n- Síndrome epiléptica definida.\n\nNão conta:\n- Crise febril e crises provocadas (hipoglicemia, eletrólitos).",
+   "macete": "\"Duas sem motivo, um dia de distância\".",
+   "pegadinha": "Crise febril isolada não é epilepsia.",
+   "uerj": "VV 2025: duas crises não provocadas com > 24 h (gabarito B).",
+   "prio": "alta",
+   "contexto": "**Epilepsia = tendência duradoura a crises epilépticas NÃO provocadas; crise provocada (febre, hipoglicemia, distúrbio eletrolítico) não define epilepsia.**\n\nDefinição (ILAE 2014):\n- **≥ 2 crises não provocadas com > 24 h de intervalo**, OU\n- 1 crise não provocada + risco de recorrência ≥ 60% (ex.: lesão estrutural, EEG epileptiforme), OU\n- Diagnóstico de síndrome epiléptica\n\nConvulsão febril (6 meses a 5 anos):\n- **Simples** → generalizada, < 15 min, única em 24 h → não é epilepsia; não precisa EEG nem neuroimagem\n- **Complexa** → focal, > 15 min ou repete em 24 h\n- Punção lombar → sinais meníngeos (considerar em < 12 meses com vacinação incompleta ou uso de antibiótico)\n- Antitérmico NÃO previne recorrência\n- Risco de epilepsia futura → pouco maior que na população\n\nSíndromes e crises que caem:\n- **Epilepsia do lobo temporal mesial (esclerose hipocampal)** → a focal mais comum no adulto\n  - Aura epigástrica ascendente, sensação de \"déjà vu\" → perda de contato → automatismos oromastigatórios e manuais\n  - Muitas vezes refratária → cirurgia\n- **Mioclônica juvenil** → abalos ao acordar, crises tônico-clônicas, adolescente; piora com privação de sono\n- **Ausência infantil** → paradas de segundos, muitas por dia; hiperventilação provoca; EEG ponta-onda 3 Hz → etossuximida\n- **Síndrome de West** → espasmos epilépticos no lactente + hipsarritmia → ACTH/vigabatrina\n\nTratamento:\n- Focais → carbamazepina/oxcarbazepina, lamotrigina, levetiracetam\n- Generalizadas → valproato (evitar em mulheres em idade fértil), lamotrigina, levetiracetam\n- Estado de mal → benzodiazepínico (midazolam/diazepam) → fenitoína/fosfenitoína, valproato ou levetiracetam\n\nO que mais cai no Vila Verde:\n- VV 2025 → critério de epilepsia na criança: 2 crises não provocadas com intervalo > 24 h (febre não conta).\n- VV 2024 → aura epigástrica + automatismos oromastigatórios = epilepsia temporal com esclerose de hipocampo.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "Convulsão febril",
+      "Critério",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "Simples",
+       "Generalizada, < 15 min, única em 24 h, 6 m–5 anos",
+       "Orientar família; sem EEG/neuroimagem"
+      ],
+      [
+       "Complexa",
+       "Focal, > 15 min ou repete em 24 h",
+       "Investigar conforme o caso (EEG, imagem)"
+      ],
+      [
+       "Com sinais meníngeos",
+       "Rigidez de nuca, abaulamento de fontanela",
+       "Punção lombar"
+      ]
+     ]
+    }
+   ],
+   "fonte": "ILAE — Practical clinical definition of epilepsy (2014) e classificação das crises (2025) / AAP — Febrile Seizures guideline (2011) / SBP — Convulsão febril",
+   "add": "2026-10-28",
+   "visual": {
+    "tipo": "vs",
+    "a": {
+     "t": "Conta para epilepsia",
+     "itens": [
+      "Crise não provocada",
+      "≥ 2 com > 24 h",
+      "1 + alto risco de recorrência"
+     ]
+    },
+    "b": {
+     "t": "Não conta",
+     "itens": [
+      "Crise febril",
+      "Hipoglicemia",
+      "Distúrbio eletrolítico/intoxicação"
+     ]
+    }
+   }
+  },
+  {
+   "id": "epi-02",
+   "tipo": "flash",
+   "area": "Clínica Médica",
+   "tema": "Neurologia",
+   "sub": "Epilepsia — crises, síndromes e convulsão febril",
+   "frente": "Aura epigástrica ascendente + perda de contato + automatismos oromastigatórios: qual epilepsia?",
+   "verso": "**Epilepsia do lobo temporal mesial (esclerose hipocampal).**\n\nCaracterísticas:\n- Focal mais comum no adulto.\n- Início na infância tardia/adolescência.\n- Frequentemente refratária → cirurgia.",
+   "macete": "Temporal = \"Tempero na boca\": estômago que sobe e boca que mastiga.",
+   "visual": {
+    "tipo": "fluxo",
+    "passos": [
+     "Aura epigástrica / déjà vu",
+     "Perda de contato",
+     "Automatismos oromastigatórios e manuais",
+     "Confusão pós-ictal"
+    ]
+   },
+   "pegadinha": "Mioclônica juvenil = abalos ao ACORDAR, generalizada.",
+   "uerj": "VV 2024: epilepsia temporal com esclerose de hipocampo (gabarito C).",
+   "prio": "alta",
+   "contexto": "**Epilepsia = tendência duradoura a crises epilépticas NÃO provocadas; crise provocada (febre, hipoglicemia, distúrbio eletrolítico) não define epilepsia.**\n\nDefinição (ILAE 2014):\n- **≥ 2 crises não provocadas com > 24 h de intervalo**, OU\n- 1 crise não provocada + risco de recorrência ≥ 60% (ex.: lesão estrutural, EEG epileptiforme), OU\n- Diagnóstico de síndrome epiléptica\n\nConvulsão febril (6 meses a 5 anos):\n- **Simples** → generalizada, < 15 min, única em 24 h → não é epilepsia; não precisa EEG nem neuroimagem\n- **Complexa** → focal, > 15 min ou repete em 24 h\n- Punção lombar → sinais meníngeos (considerar em < 12 meses com vacinação incompleta ou uso de antibiótico)\n- Antitérmico NÃO previne recorrência\n- Risco de epilepsia futura → pouco maior que na população\n\nSíndromes e crises que caem:\n- **Epilepsia do lobo temporal mesial (esclerose hipocampal)** → a focal mais comum no adulto\n  - Aura epigástrica ascendente, sensação de \"déjà vu\" → perda de contato → automatismos oromastigatórios e manuais\n  - Muitas vezes refratária → cirurgia\n- **Mioclônica juvenil** → abalos ao acordar, crises tônico-clônicas, adolescente; piora com privação de sono\n- **Ausência infantil** → paradas de segundos, muitas por dia; hiperventilação provoca; EEG ponta-onda 3 Hz → etossuximida\n- **Síndrome de West** → espasmos epilépticos no lactente + hipsarritmia → ACTH/vigabatrina\n\nTratamento:\n- Focais → carbamazepina/oxcarbazepina, lamotrigina, levetiracetam\n- Generalizadas → valproato (evitar em mulheres em idade fértil), lamotrigina, levetiracetam\n- Estado de mal → benzodiazepínico (midazolam/diazepam) → fenitoína/fosfenitoína, valproato ou levetiracetam\n\nO que mais cai no Vila Verde:\n- VV 2025 → critério de epilepsia na criança: 2 crises não provocadas com intervalo > 24 h (febre não conta).\n- VV 2024 → aura epigástrica + automatismos oromastigatórios = epilepsia temporal com esclerose de hipocampo.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "Convulsão febril",
+      "Critério",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "Simples",
+       "Generalizada, < 15 min, única em 24 h, 6 m–5 anos",
+       "Orientar família; sem EEG/neuroimagem"
+      ],
+      [
+       "Complexa",
+       "Focal, > 15 min ou repete em 24 h",
+       "Investigar conforme o caso (EEG, imagem)"
+      ],
+      [
+       "Com sinais meníngeos",
+       "Rigidez de nuca, abaulamento de fontanela",
+       "Punção lombar"
+      ]
+     ]
+    }
+   ],
+   "fonte": "ILAE — Practical clinical definition of epilepsy (2014) e classificação das crises (2025) / AAP — Febrile Seizures guideline (2011) / SBP — Convulsão febril",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "epi-03",
+   "tipo": "flash",
+   "area": "Clínica Médica",
+   "tema": "Neurologia",
+   "sub": "Epilepsia — crises, síndromes e convulsão febril",
+   "frente": "Convulsão febril simples × complexa",
+   "verso": "**Simples:**\n- Generalizada\n- < 15 minutos\n- Única em 24 h\n**Complexa → focal, prolongada ou recorrente.**\n\nNa simples:\n- Não precisa EEG nem neuroimagem.\n- Antitérmico não previne.",
+   "macete": "Simples = \"Generalizada, Curta, Única\".",
+   "pegadinha": "Punção lombar só com sinais meníngeos (ou < 12 meses com vacina incompleta).",
+   "prio": "media",
+   "contexto": "**Epilepsia = tendência duradoura a crises epilépticas NÃO provocadas; crise provocada (febre, hipoglicemia, distúrbio eletrolítico) não define epilepsia.**\n\nDefinição (ILAE 2014):\n- **≥ 2 crises não provocadas com > 24 h de intervalo**, OU\n- 1 crise não provocada + risco de recorrência ≥ 60% (ex.: lesão estrutural, EEG epileptiforme), OU\n- Diagnóstico de síndrome epiléptica\n\nConvulsão febril (6 meses a 5 anos):\n- **Simples** → generalizada, < 15 min, única em 24 h → não é epilepsia; não precisa EEG nem neuroimagem\n- **Complexa** → focal, > 15 min ou repete em 24 h\n- Punção lombar → sinais meníngeos (considerar em < 12 meses com vacinação incompleta ou uso de antibiótico)\n- Antitérmico NÃO previne recorrência\n- Risco de epilepsia futura → pouco maior que na população\n\nSíndromes e crises que caem:\n- **Epilepsia do lobo temporal mesial (esclerose hipocampal)** → a focal mais comum no adulto\n  - Aura epigástrica ascendente, sensação de \"déjà vu\" → perda de contato → automatismos oromastigatórios e manuais\n  - Muitas vezes refratária → cirurgia\n- **Mioclônica juvenil** → abalos ao acordar, crises tônico-clônicas, adolescente; piora com privação de sono\n- **Ausência infantil** → paradas de segundos, muitas por dia; hiperventilação provoca; EEG ponta-onda 3 Hz → etossuximida\n- **Síndrome de West** → espasmos epilépticos no lactente + hipsarritmia → ACTH/vigabatrina\n\nTratamento:\n- Focais → carbamazepina/oxcarbazepina, lamotrigina, levetiracetam\n- Generalizadas → valproato (evitar em mulheres em idade fértil), lamotrigina, levetiracetam\n- Estado de mal → benzodiazepínico (midazolam/diazepam) → fenitoína/fosfenitoína, valproato ou levetiracetam\n\nO que mais cai no Vila Verde:\n- VV 2025 → critério de epilepsia na criança: 2 crises não provocadas com intervalo > 24 h (febre não conta).\n- VV 2024 → aura epigástrica + automatismos oromastigatórios = epilepsia temporal com esclerose de hipocampo.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "Convulsão febril",
+      "Critério",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "Simples",
+       "Generalizada, < 15 min, única em 24 h, 6 m–5 anos",
+       "Orientar família; sem EEG/neuroimagem"
+      ],
+      [
+       "Complexa",
+       "Focal, > 15 min ou repete em 24 h",
+       "Investigar conforme o caso (EEG, imagem)"
+      ],
+      [
+       "Com sinais meníngeos",
+       "Rigidez de nuca, abaulamento de fontanela",
+       "Punção lombar"
+      ]
+     ]
+    }
+   ],
+   "fonte": "ILAE — Practical clinical definition of epilepsy (2014) e classificação das crises (2025) / AAP — Febrile Seizures guideline (2011) / SBP — Convulsão febril",
+   "add": "2026-10-28",
+   "visual": {
+    "tipo": "vs",
+    "a": {
+     "t": "Simples",
+     "itens": [
+      "Generalizada",
+      "< 15 min",
+      "1 vez em 24 h"
+     ]
+    },
+    "b": {
+     "t": "Complexa",
+     "itens": [
+      "Focal",
+      "> 15 min",
+      "Repete em 24 h"
+     ]
+    }
+   }
+  },
+  {
+   "id": "epi-q1",
+   "tipo": "quiz",
+   "area": "Clínica Médica",
+   "tema": "Neurologia",
+   "sub": "Epilepsia — crises, síndromes e convulsão febril",
+   "frente": "Sobre o diagnóstico de epilepsia na criança, é CORRETO afirmar:",
+   "opcoes": [
+    "Qualquer crise isolada, mesmo provocada por febre alta, define epilepsia.",
+    "É necessário que a criança apresente pelo menos duas crises não provocadas, com intervalo superior a 24 horas.",
+    "Uma única crise acompanhada de infecção aguda já permite o diagnóstico.",
+    "Crises provocadas por distúrbio metabólico contam para o diagnóstico."
+   ],
+   "certa": 1,
+   "comentarios": [
+    "Errada.",
+    "Correta.",
+    "Errada: crise provocada.",
+    "Errada: crise provocada não conta."
+   ],
+   "macete": "\"Duas sem motivo\".",
+   "pegadinha": "Provocada = não conta.",
+   "uerj": "VV 2025 (Q24, gabarito B).",
+   "prio": "alta",
+   "contexto": "**Epilepsia = tendência duradoura a crises epilépticas NÃO provocadas; crise provocada (febre, hipoglicemia, distúrbio eletrolítico) não define epilepsia.**\n\nDefinição (ILAE 2014):\n- **≥ 2 crises não provocadas com > 24 h de intervalo**, OU\n- 1 crise não provocada + risco de recorrência ≥ 60% (ex.: lesão estrutural, EEG epileptiforme), OU\n- Diagnóstico de síndrome epiléptica\n\nConvulsão febril (6 meses a 5 anos):\n- **Simples** → generalizada, < 15 min, única em 24 h → não é epilepsia; não precisa EEG nem neuroimagem\n- **Complexa** → focal, > 15 min ou repete em 24 h\n- Punção lombar → sinais meníngeos (considerar em < 12 meses com vacinação incompleta ou uso de antibiótico)\n- Antitérmico NÃO previne recorrência\n- Risco de epilepsia futura → pouco maior que na população\n\nSíndromes e crises que caem:\n- **Epilepsia do lobo temporal mesial (esclerose hipocampal)** → a focal mais comum no adulto\n  - Aura epigástrica ascendente, sensação de \"déjà vu\" → perda de contato → automatismos oromastigatórios e manuais\n  - Muitas vezes refratária → cirurgia\n- **Mioclônica juvenil** → abalos ao acordar, crises tônico-clônicas, adolescente; piora com privação de sono\n- **Ausência infantil** → paradas de segundos, muitas por dia; hiperventilação provoca; EEG ponta-onda 3 Hz → etossuximida\n- **Síndrome de West** → espasmos epilépticos no lactente + hipsarritmia → ACTH/vigabatrina\n\nTratamento:\n- Focais → carbamazepina/oxcarbazepina, lamotrigina, levetiracetam\n- Generalizadas → valproato (evitar em mulheres em idade fértil), lamotrigina, levetiracetam\n- Estado de mal → benzodiazepínico (midazolam/diazepam) → fenitoína/fosfenitoína, valproato ou levetiracetam\n\nO que mais cai no Vila Verde:\n- VV 2025 → critério de epilepsia na criança: 2 crises não provocadas com intervalo > 24 h (febre não conta).\n- VV 2024 → aura epigástrica + automatismos oromastigatórios = epilepsia temporal com esclerose de hipocampo.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "Convulsão febril",
+      "Critério",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "Simples",
+       "Generalizada, < 15 min, única em 24 h, 6 m–5 anos",
+       "Orientar família; sem EEG/neuroimagem"
+      ],
+      [
+       "Complexa",
+       "Focal, > 15 min ou repete em 24 h",
+       "Investigar conforme o caso (EEG, imagem)"
+      ],
+      [
+       "Com sinais meníngeos",
+       "Rigidez de nuca, abaulamento de fontanela",
+       "Punção lombar"
+      ]
+     ]
+    }
+   ],
+   "fonte": "ILAE — Practical clinical definition of epilepsy (2014) e classificação das crises (2025) / AAP — Febrile Seizures guideline (2011) / SBP — Convulsão febril",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "epi-d1",
+   "tipo": "digitar",
+   "area": "Clínica Médica",
+   "tema": "Neurologia",
+   "sub": "Epilepsia — crises, síndromes e convulsão febril",
+   "frente": "Qual droga de 1ª escolha na crise de ausência infantil típica?",
+   "verso": "**Etossuximida.**",
+   "resposta": "Etossuximida",
+   "aceitas": [
+    "etossuximida",
+    "ethosuximide"
+   ],
+   "macete": "Ausência = \"Etossu-xi-MIDA\" (sumiu por segundos).",
+   "prio": "media",
+   "contexto": "**Epilepsia = tendência duradoura a crises epilépticas NÃO provocadas; crise provocada (febre, hipoglicemia, distúrbio eletrolítico) não define epilepsia.**\n\nDefinição (ILAE 2014):\n- **≥ 2 crises não provocadas com > 24 h de intervalo**, OU\n- 1 crise não provocada + risco de recorrência ≥ 60% (ex.: lesão estrutural, EEG epileptiforme), OU\n- Diagnóstico de síndrome epiléptica\n\nConvulsão febril (6 meses a 5 anos):\n- **Simples** → generalizada, < 15 min, única em 24 h → não é epilepsia; não precisa EEG nem neuroimagem\n- **Complexa** → focal, > 15 min ou repete em 24 h\n- Punção lombar → sinais meníngeos (considerar em < 12 meses com vacinação incompleta ou uso de antibiótico)\n- Antitérmico NÃO previne recorrência\n- Risco de epilepsia futura → pouco maior que na população\n\nSíndromes e crises que caem:\n- **Epilepsia do lobo temporal mesial (esclerose hipocampal)** → a focal mais comum no adulto\n  - Aura epigástrica ascendente, sensação de \"déjà vu\" → perda de contato → automatismos oromastigatórios e manuais\n  - Muitas vezes refratária → cirurgia\n- **Mioclônica juvenil** → abalos ao acordar, crises tônico-clônicas, adolescente; piora com privação de sono\n- **Ausência infantil** → paradas de segundos, muitas por dia; hiperventilação provoca; EEG ponta-onda 3 Hz → etossuximida\n- **Síndrome de West** → espasmos epilépticos no lactente + hipsarritmia → ACTH/vigabatrina\n\nTratamento:\n- Focais → carbamazepina/oxcarbazepina, lamotrigina, levetiracetam\n- Generalizadas → valproato (evitar em mulheres em idade fértil), lamotrigina, levetiracetam\n- Estado de mal → benzodiazepínico (midazolam/diazepam) → fenitoína/fosfenitoína, valproato ou levetiracetam\n\nO que mais cai no Vila Verde:\n- VV 2025 → critério de epilepsia na criança: 2 crises não provocadas com intervalo > 24 h (febre não conta).\n- VV 2024 → aura epigástrica + automatismos oromastigatórios = epilepsia temporal com esclerose de hipocampo.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "Convulsão febril",
+      "Critério",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "Simples",
+       "Generalizada, < 15 min, única em 24 h, 6 m–5 anos",
+       "Orientar família; sem EEG/neuroimagem"
+      ],
+      [
+       "Complexa",
+       "Focal, > 15 min ou repete em 24 h",
+       "Investigar conforme o caso (EEG, imagem)"
+      ],
+      [
+       "Com sinais meníngeos",
+       "Rigidez de nuca, abaulamento de fontanela",
+       "Punção lombar"
+      ]
+     ]
+    }
+   ],
+   "fonte": "ILAE — Practical clinical definition of epilepsy (2014) e classificação das crises (2025) / AAP — Febrile Seizures guideline (2011) / SBP — Convulsão febril",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "epi-d2",
+   "tipo": "digitar",
+   "area": "Clínica Médica",
+   "tema": "Neurologia",
+   "sub": "Epilepsia — crises, síndromes e convulsão febril",
+   "frente": "Qual a 1ª droga no estado de mal epiléptico?",
+   "verso": "**Benzodiazepínico (midazolam ou diazepam).**",
+   "resposta": "Benzodiazepínico",
+   "aceitas": [
+    "benzodiazepinico",
+    "midazolam",
+    "diazepam",
+    "lorazepam",
+    "bzd"
+   ],
+   "macete": "Status: \"Benzo primeiro\".",
+   "prio": "media",
+   "contexto": "**Epilepsia = tendência duradoura a crises epilépticas NÃO provocadas; crise provocada (febre, hipoglicemia, distúrbio eletrolítico) não define epilepsia.**\n\nDefinição (ILAE 2014):\n- **≥ 2 crises não provocadas com > 24 h de intervalo**, OU\n- 1 crise não provocada + risco de recorrência ≥ 60% (ex.: lesão estrutural, EEG epileptiforme), OU\n- Diagnóstico de síndrome epiléptica\n\nConvulsão febril (6 meses a 5 anos):\n- **Simples** → generalizada, < 15 min, única em 24 h → não é epilepsia; não precisa EEG nem neuroimagem\n- **Complexa** → focal, > 15 min ou repete em 24 h\n- Punção lombar → sinais meníngeos (considerar em < 12 meses com vacinação incompleta ou uso de antibiótico)\n- Antitérmico NÃO previne recorrência\n- Risco de epilepsia futura → pouco maior que na população\n\nSíndromes e crises que caem:\n- **Epilepsia do lobo temporal mesial (esclerose hipocampal)** → a focal mais comum no adulto\n  - Aura epigástrica ascendente, sensação de \"déjà vu\" → perda de contato → automatismos oromastigatórios e manuais\n  - Muitas vezes refratária → cirurgia\n- **Mioclônica juvenil** → abalos ao acordar, crises tônico-clônicas, adolescente; piora com privação de sono\n- **Ausência infantil** → paradas de segundos, muitas por dia; hiperventilação provoca; EEG ponta-onda 3 Hz → etossuximida\n- **Síndrome de West** → espasmos epilépticos no lactente + hipsarritmia → ACTH/vigabatrina\n\nTratamento:\n- Focais → carbamazepina/oxcarbazepina, lamotrigina, levetiracetam\n- Generalizadas → valproato (evitar em mulheres em idade fértil), lamotrigina, levetiracetam\n- Estado de mal → benzodiazepínico (midazolam/diazepam) → fenitoína/fosfenitoína, valproato ou levetiracetam\n\nO que mais cai no Vila Verde:\n- VV 2025 → critério de epilepsia na criança: 2 crises não provocadas com intervalo > 24 h (febre não conta).\n- VV 2024 → aura epigástrica + automatismos oromastigatórios = epilepsia temporal com esclerose de hipocampo.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "Convulsão febril",
+      "Critério",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "Simples",
+       "Generalizada, < 15 min, única em 24 h, 6 m–5 anos",
+       "Orientar família; sem EEG/neuroimagem"
+      ],
+      [
+       "Complexa",
+       "Focal, > 15 min ou repete em 24 h",
+       "Investigar conforme o caso (EEG, imagem)"
+      ],
+      [
+       "Com sinais meníngeos",
+       "Rigidez de nuca, abaulamento de fontanela",
+       "Punção lombar"
+      ]
+     ]
+    }
+   ],
+   "fonte": "ILAE — Practical clinical definition of epilepsy (2014) e classificação das crises (2025) / AAP — Febrile Seizures guideline (2011) / SBP — Convulsão febril",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "pub-01",
+   "tipo": "flash",
+   "area": "Pediatria",
+   "tema": "Endocrinologia pediátrica",
+   "sub": "Puberdade — eventos hormonais e estágios de Tanner",
+   "frente": "Gonadarca × adrenarca",
+   "verso": "**Gonadarca → GnRH → LH/FSH → gônadas.**\n**Adrenarca → andrógenos adrenais (DHEA).**\n\nAdrenarca:\n- Independente do eixo gonadal.\n- Pelos pubianos/axilares, odor, acne.",
+   "macete": "GONADarca = GÔNADA (mama, testículo); ADRENarca = ADRENAL (pelo, cheiro).",
+   "visual": {
+    "tipo": "vs",
+    "a": {
+     "t": "Gonadarca",
+     "itens": [
+      "GnRH pulsátil",
+      "LH e FSH",
+      "Estrogênio/testosterona",
+      "Mamas, testículos, menarca"
+     ]
+    },
+    "b": {
+     "t": "Adrenarca",
+     "itens": [
+      "Adrenal",
+      "DHEA/DHEA-S",
+      "Pelos pubianos e axilares",
+      "Odor, acne"
+     ]
+    }
+   },
+   "pegadinha": "A banca atribui os pelos à gonadarca: é da adrenarca.",
+   "uerj": "VV 2025: GnRH → LH/FSH → maturação sexual (gabarito C).",
+   "prio": "alta",
+   "contexto": "**Puberdade = ativação do eixo hipotálamo–hipófise–gônada (GnRH pulsátil → LH/FSH → esteroides sexuais), levando à maturação sexual e ao estirão.**\n\nEventos hormonais:\n- **Gonadarca** → GnRH pulsátil estimula LH e FSH → as gônadas produzem estrogênio/testosterona → mamas, crescimento testicular, menarca\n- **Adrenarca** → aumento dos andrógenos ADRENAIS (DHEA/DHEA-S), independente do eixo gonadal → pelos pubianos e axilares, odor, acne\n- **Minipuberdade** → ativação transitória do eixo nos primeiros meses de vida, depois quiescência até a puberdade\n\nSequência:\n- **Menina** → telarca (M2, broto mamário) é o 1º sinal (8–13 anos) → pubarca → estirão → menarca (~2–2,5 anos após a telarca, em geral em M4)\n- **Menino** → aumento testicular (≥ 4 mL; G2) é o 1º sinal (9–14 anos) → pubarca → crescimento peniano → estirão mais tardio (G4)\n\nEstágios de Tanner (mamas):\n- M1 → pré-puberal (só a papila elevada)\n- **M2 → broto mamário** (pequena elevação de mama e aréola)\n- M3 → aumento de mama e aréola, sem separação de contornos\n- M4 → aréola e papila formam projeção secundária\n- M5 → adulta (aréola volta ao contorno da mama; só a papila saliente)\n\nAlterações:\n- **Precoce** → menina < 8 anos; menino < 9 anos\n  - Central (GnRH-dependente) → LH alto; RM de crânio (sempre no menino); tratar com análogo de GnRH\n  - Periférica → LH suprimido (HAC, tumores, McCune-Albright)\n- **Atrasada** → menina sem M2 aos 13; menino sem aumento testicular aos 14\n\nO que mais cai no Vila Verde:\n- VV 2025 → GnRH → LH/FSH → maturação sexual (correta); distratores trocam gonadarca × adrenarca e dizem que a minipuberdade suprime o eixo até a vida adulta.\n- VV 2024 → Tanner M2 = broto mamário.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "Tanner mamas",
+      "Critério",
+      "Observação"
+     ],
+     "linhas": [
+      [
+       "M1",
+       "Só a papila elevada",
+       "Pré-puberal"
+      ],
+      [
+       "M2",
+       "Broto mamário",
+       "1º sinal puberal na menina"
+      ],
+      [
+       "M3",
+       "Mama e aréola maiores, sem separação de contornos",
+       "Estirão"
+      ],
+      [
+       "M4",
+       "Aréola e papila em projeção secundária",
+       "Menarca costuma ocorrer"
+      ],
+      [
+       "M5",
+       "Aréola volta ao contorno; só a papila saliente",
+       "Mama adulta"
+      ]
+     ]
+    }
+   ],
+   "fonte": "SBP — Puberdade normal e precoce (Documentos Científicos) / Marshall & Tanner (1969, 1970) / Sperling Pediatric Endocrinology 5ª ed.",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "pub-02",
+   "tipo": "flash",
+   "area": "Pediatria",
+   "tema": "Endocrinologia pediátrica",
+   "sub": "Puberdade — eventos hormonais e estágios de Tanner",
+   "frente": "Qual o primeiro sinal de puberdade na menina e no menino?",
+   "verso": "**Menina → telarca (M2, broto mamário).**\n**Menino → aumento testicular (≥ 4 mL).**\n\nPrecoce:\n- Menina < 8 anos; menino < 9 anos.",
+   "macete": "Menina começa \"pelo Broto\"; menino \"pelo Bago\".",
+   "pegadinha": "Pelos pubianos NÃO são o primeiro sinal habitual.",
+   "uerj": "VV 2024: Tanner M2 = broto mamário.",
+   "prio": "alta",
+   "contexto": "**Puberdade = ativação do eixo hipotálamo–hipófise–gônada (GnRH pulsátil → LH/FSH → esteroides sexuais), levando à maturação sexual e ao estirão.**\n\nEventos hormonais:\n- **Gonadarca** → GnRH pulsátil estimula LH e FSH → as gônadas produzem estrogênio/testosterona → mamas, crescimento testicular, menarca\n- **Adrenarca** → aumento dos andrógenos ADRENAIS (DHEA/DHEA-S), independente do eixo gonadal → pelos pubianos e axilares, odor, acne\n- **Minipuberdade** → ativação transitória do eixo nos primeiros meses de vida, depois quiescência até a puberdade\n\nSequência:\n- **Menina** → telarca (M2, broto mamário) é o 1º sinal (8–13 anos) → pubarca → estirão → menarca (~2–2,5 anos após a telarca, em geral em M4)\n- **Menino** → aumento testicular (≥ 4 mL; G2) é o 1º sinal (9–14 anos) → pubarca → crescimento peniano → estirão mais tardio (G4)\n\nEstágios de Tanner (mamas):\n- M1 → pré-puberal (só a papila elevada)\n- **M2 → broto mamário** (pequena elevação de mama e aréola)\n- M3 → aumento de mama e aréola, sem separação de contornos\n- M4 → aréola e papila formam projeção secundária\n- M5 → adulta (aréola volta ao contorno da mama; só a papila saliente)\n\nAlterações:\n- **Precoce** → menina < 8 anos; menino < 9 anos\n  - Central (GnRH-dependente) → LH alto; RM de crânio (sempre no menino); tratar com análogo de GnRH\n  - Periférica → LH suprimido (HAC, tumores, McCune-Albright)\n- **Atrasada** → menina sem M2 aos 13; menino sem aumento testicular aos 14\n\nO que mais cai no Vila Verde:\n- VV 2025 → GnRH → LH/FSH → maturação sexual (correta); distratores trocam gonadarca × adrenarca e dizem que a minipuberdade suprime o eixo até a vida adulta.\n- VV 2024 → Tanner M2 = broto mamário.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "Tanner mamas",
+      "Critério",
+      "Observação"
+     ],
+     "linhas": [
+      [
+       "M1",
+       "Só a papila elevada",
+       "Pré-puberal"
+      ],
+      [
+       "M2",
+       "Broto mamário",
+       "1º sinal puberal na menina"
+      ],
+      [
+       "M3",
+       "Mama e aréola maiores, sem separação de contornos",
+       "Estirão"
+      ],
+      [
+       "M4",
+       "Aréola e papila em projeção secundária",
+       "Menarca costuma ocorrer"
+      ],
+      [
+       "M5",
+       "Aréola volta ao contorno; só a papila saliente",
+       "Mama adulta"
+      ]
+     ]
+    }
+   ],
+   "fonte": "SBP — Puberdade normal e precoce (Documentos Científicos) / Marshall & Tanner (1969, 1970) / Sperling Pediatric Endocrinology 5ª ed.",
+   "add": "2026-10-28",
+   "visual": {
+    "tipo": "vs",
+    "a": {
+     "t": "Menina",
+     "itens": [
+      "Telarca (M2) 8–13 anos",
+      "Menarca ~2 anos depois",
+      "Precoce < 8 anos"
+     ]
+    },
+    "b": {
+     "t": "Menino",
+     "itens": [
+      "Testículo ≥ 4 mL 9–14 anos",
+      "Estirão mais tardio",
+      "Precoce < 9 anos"
+     ]
+    }
+   }
+  },
+  {
+   "id": "pub-q1",
+   "tipo": "quiz",
+   "area": "Pediatria",
+   "tema": "Endocrinologia pediátrica",
+   "sub": "Puberdade — eventos hormonais e estágios de Tanner",
+   "frente": "Sobre os estágios de Tanner para mamas, é CORRETO afirmar:",
+   "opcoes": [
+    "M1: maior aumento da mama e da aréola, sem separação de contornos.",
+    "M2: broto mamário.",
+    "M3: somente elevação da papila.",
+    "M4: aréola volta ao contorno da mama, com saliência só da papila."
+   ],
+   "certa": 1,
+   "comentarios": [
+    "Errada: isso é M3.",
+    "Correta.",
+    "Errada: isso é M1.",
+    "Errada: isso é M5."
+   ],
+   "macete": "\"M2 = Muda o 2 = Broto\".",
+   "pegadinha": "A banca embaralha as descrições entre os estágios.",
+   "uerj": "VV 2024 (Q25, gabarito B).",
+   "prio": "media",
+   "contexto": "**Puberdade = ativação do eixo hipotálamo–hipófise–gônada (GnRH pulsátil → LH/FSH → esteroides sexuais), levando à maturação sexual e ao estirão.**\n\nEventos hormonais:\n- **Gonadarca** → GnRH pulsátil estimula LH e FSH → as gônadas produzem estrogênio/testosterona → mamas, crescimento testicular, menarca\n- **Adrenarca** → aumento dos andrógenos ADRENAIS (DHEA/DHEA-S), independente do eixo gonadal → pelos pubianos e axilares, odor, acne\n- **Minipuberdade** → ativação transitória do eixo nos primeiros meses de vida, depois quiescência até a puberdade\n\nSequência:\n- **Menina** → telarca (M2, broto mamário) é o 1º sinal (8–13 anos) → pubarca → estirão → menarca (~2–2,5 anos após a telarca, em geral em M4)\n- **Menino** → aumento testicular (≥ 4 mL; G2) é o 1º sinal (9–14 anos) → pubarca → crescimento peniano → estirão mais tardio (G4)\n\nEstágios de Tanner (mamas):\n- M1 → pré-puberal (só a papila elevada)\n- **M2 → broto mamário** (pequena elevação de mama e aréola)\n- M3 → aumento de mama e aréola, sem separação de contornos\n- M4 → aréola e papila formam projeção secundária\n- M5 → adulta (aréola volta ao contorno da mama; só a papila saliente)\n\nAlterações:\n- **Precoce** → menina < 8 anos; menino < 9 anos\n  - Central (GnRH-dependente) → LH alto; RM de crânio (sempre no menino); tratar com análogo de GnRH\n  - Periférica → LH suprimido (HAC, tumores, McCune-Albright)\n- **Atrasada** → menina sem M2 aos 13; menino sem aumento testicular aos 14\n\nO que mais cai no Vila Verde:\n- VV 2025 → GnRH → LH/FSH → maturação sexual (correta); distratores trocam gonadarca × adrenarca e dizem que a minipuberdade suprime o eixo até a vida adulta.\n- VV 2024 → Tanner M2 = broto mamário.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "Tanner mamas",
+      "Critério",
+      "Observação"
+     ],
+     "linhas": [
+      [
+       "M1",
+       "Só a papila elevada",
+       "Pré-puberal"
+      ],
+      [
+       "M2",
+       "Broto mamário",
+       "1º sinal puberal na menina"
+      ],
+      [
+       "M3",
+       "Mama e aréola maiores, sem separação de contornos",
+       "Estirão"
+      ],
+      [
+       "M4",
+       "Aréola e papila em projeção secundária",
+       "Menarca costuma ocorrer"
+      ],
+      [
+       "M5",
+       "Aréola volta ao contorno; só a papila saliente",
+       "Mama adulta"
+      ]
+     ]
+    }
+   ],
+   "fonte": "SBP — Puberdade normal e precoce (Documentos Científicos) / Marshall & Tanner (1969, 1970) / Sperling Pediatric Endocrinology 5ª ed.",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "pub-d1",
+   "tipo": "digitar",
+   "area": "Pediatria",
+   "tema": "Endocrinologia pediátrica",
+   "sub": "Puberdade — eventos hormonais e estágios de Tanner",
+   "frente": "Qual o primeiro sinal de puberdade na menina?",
+   "verso": "**Telarca (broto mamário, M2).**",
+   "resposta": "Telarca",
+   "aceitas": [
+    "telarca",
+    "broto mamário",
+    "m2",
+    "broto mamario"
+   ],
+   "macete": "Menina começa pelo Broto.",
+   "prio": "alta",
+   "contexto": "**Puberdade = ativação do eixo hipotálamo–hipófise–gônada (GnRH pulsátil → LH/FSH → esteroides sexuais), levando à maturação sexual e ao estirão.**\n\nEventos hormonais:\n- **Gonadarca** → GnRH pulsátil estimula LH e FSH → as gônadas produzem estrogênio/testosterona → mamas, crescimento testicular, menarca\n- **Adrenarca** → aumento dos andrógenos ADRENAIS (DHEA/DHEA-S), independente do eixo gonadal → pelos pubianos e axilares, odor, acne\n- **Minipuberdade** → ativação transitória do eixo nos primeiros meses de vida, depois quiescência até a puberdade\n\nSequência:\n- **Menina** → telarca (M2, broto mamário) é o 1º sinal (8–13 anos) → pubarca → estirão → menarca (~2–2,5 anos após a telarca, em geral em M4)\n- **Menino** → aumento testicular (≥ 4 mL; G2) é o 1º sinal (9–14 anos) → pubarca → crescimento peniano → estirão mais tardio (G4)\n\nEstágios de Tanner (mamas):\n- M1 → pré-puberal (só a papila elevada)\n- **M2 → broto mamário** (pequena elevação de mama e aréola)\n- M3 → aumento de mama e aréola, sem separação de contornos\n- M4 → aréola e papila formam projeção secundária\n- M5 → adulta (aréola volta ao contorno da mama; só a papila saliente)\n\nAlterações:\n- **Precoce** → menina < 8 anos; menino < 9 anos\n  - Central (GnRH-dependente) → LH alto; RM de crânio (sempre no menino); tratar com análogo de GnRH\n  - Periférica → LH suprimido (HAC, tumores, McCune-Albright)\n- **Atrasada** → menina sem M2 aos 13; menino sem aumento testicular aos 14\n\nO que mais cai no Vila Verde:\n- VV 2025 → GnRH → LH/FSH → maturação sexual (correta); distratores trocam gonadarca × adrenarca e dizem que a minipuberdade suprime o eixo até a vida adulta.\n- VV 2024 → Tanner M2 = broto mamário.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "Tanner mamas",
+      "Critério",
+      "Observação"
+     ],
+     "linhas": [
+      [
+       "M1",
+       "Só a papila elevada",
+       "Pré-puberal"
+      ],
+      [
+       "M2",
+       "Broto mamário",
+       "1º sinal puberal na menina"
+      ],
+      [
+       "M3",
+       "Mama e aréola maiores, sem separação de contornos",
+       "Estirão"
+      ],
+      [
+       "M4",
+       "Aréola e papila em projeção secundária",
+       "Menarca costuma ocorrer"
+      ],
+      [
+       "M5",
+       "Aréola volta ao contorno; só a papila saliente",
+       "Mama adulta"
+      ]
+     ]
+    }
+   ],
+   "fonte": "SBP — Puberdade normal e precoce (Documentos Científicos) / Marshall & Tanner (1969, 1970) / Sperling Pediatric Endocrinology 5ª ed.",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "pub-d2",
+   "tipo": "digitar",
+   "area": "Pediatria",
+   "tema": "Endocrinologia pediátrica",
+   "sub": "Puberdade — eventos hormonais e estágios de Tanner",
+   "frente": "Abaixo de que idade a puberdade é precoce no menino?",
+   "verso": "**9 anos.**\n\n- Menina → 8 anos.",
+   "resposta": "9 anos",
+   "aceitas": [
+    "9",
+    "nove",
+    "nove anos"
+   ],
+   "macete": "\"Menina 8, menino 9\".",
+   "prio": "media",
+   "contexto": "**Puberdade = ativação do eixo hipotálamo–hipófise–gônada (GnRH pulsátil → LH/FSH → esteroides sexuais), levando à maturação sexual e ao estirão.**\n\nEventos hormonais:\n- **Gonadarca** → GnRH pulsátil estimula LH e FSH → as gônadas produzem estrogênio/testosterona → mamas, crescimento testicular, menarca\n- **Adrenarca** → aumento dos andrógenos ADRENAIS (DHEA/DHEA-S), independente do eixo gonadal → pelos pubianos e axilares, odor, acne\n- **Minipuberdade** → ativação transitória do eixo nos primeiros meses de vida, depois quiescência até a puberdade\n\nSequência:\n- **Menina** → telarca (M2, broto mamário) é o 1º sinal (8–13 anos) → pubarca → estirão → menarca (~2–2,5 anos após a telarca, em geral em M4)\n- **Menino** → aumento testicular (≥ 4 mL; G2) é o 1º sinal (9–14 anos) → pubarca → crescimento peniano → estirão mais tardio (G4)\n\nEstágios de Tanner (mamas):\n- M1 → pré-puberal (só a papila elevada)\n- **M2 → broto mamário** (pequena elevação de mama e aréola)\n- M3 → aumento de mama e aréola, sem separação de contornos\n- M4 → aréola e papila formam projeção secundária\n- M5 → adulta (aréola volta ao contorno da mama; só a papila saliente)\n\nAlterações:\n- **Precoce** → menina < 8 anos; menino < 9 anos\n  - Central (GnRH-dependente) → LH alto; RM de crânio (sempre no menino); tratar com análogo de GnRH\n  - Periférica → LH suprimido (HAC, tumores, McCune-Albright)\n- **Atrasada** → menina sem M2 aos 13; menino sem aumento testicular aos 14\n\nO que mais cai no Vila Verde:\n- VV 2025 → GnRH → LH/FSH → maturação sexual (correta); distratores trocam gonadarca × adrenarca e dizem que a minipuberdade suprime o eixo até a vida adulta.\n- VV 2024 → Tanner M2 = broto mamário.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "Tanner mamas",
+      "Critério",
+      "Observação"
+     ],
+     "linhas": [
+      [
+       "M1",
+       "Só a papila elevada",
+       "Pré-puberal"
+      ],
+      [
+       "M2",
+       "Broto mamário",
+       "1º sinal puberal na menina"
+      ],
+      [
+       "M3",
+       "Mama e aréola maiores, sem separação de contornos",
+       "Estirão"
+      ],
+      [
+       "M4",
+       "Aréola e papila em projeção secundária",
+       "Menarca costuma ocorrer"
+      ],
+      [
+       "M5",
+       "Aréola volta ao contorno; só a papila saliente",
+       "Mama adulta"
+      ]
+     ]
+    }
+   ],
+   "fonte": "SBP — Puberdade normal e precoce (Documentos Científicos) / Marshall & Tanner (1969, 1970) / Sperling Pediatric Endocrinology 5ª ed.",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "chqt-01",
+   "tipo": "flash",
+   "area": "Cirurgia",
+   "tema": "Trauma",
+   "sub": "Choque — tipos e perfil hemodinâmico",
+   "frente": "Choque cardiogênico: qual o perfil hemodinâmico?",
+   "verso": "**DC baixo.**\n**PVC/POAP alta.**\n**RVS alta.**\n\nTratamento:\n- Dobutamina; noradrenalina se hipotenso.\n- Cuidado com volume.",
+   "macete": "Cardiogênico = \"bomba fraca, cano cheio, vaso apertado\".",
+   "visual": {
+    "tipo": "tabela",
+    "cab": [
+     "Choque",
+     "DC",
+     "PVC",
+     "RVS"
+    ],
+    "linhas": [
+     [
+      "Hipovolêmico",
+      "↓",
+      "↓",
+      "↑"
+     ],
+     [
+      "!Cardiogênico",
+      "↓",
+      "↑",
+      "↑"
+     ],
+     [
+      "Séptico",
+      "↑/N",
+      "↓/N",
+      "↓"
+     ],
+     [
+      "Obstrutivo",
+      "↓",
+      "↑",
+      "↑"
+     ]
+    ]
+   },
+   "pegadinha": "O obstrutivo tem o MESMO padrão (DC ↓, PVC ↑, RVS ↑): diferencie pela causa.",
+   "uerj": "VIV 2026: perfil hemodinâmico do choque cardiogênico.",
+   "prio": "alta",
+   "contexto": "**Choque = hipoperfusão tecidual com oferta de O₂ insuficiente; os tipos se diferenciam pelo débito cardíaco (DC), pela pressão de enchimento (PVC/POAP) e pela resistência vascular sistêmica (RVS).**\n\nTipos e perfil hemodinâmico:\n- **Hipovolêmico** → DC ↓, PVC ↓, RVS ↑ (hemorragia, desidratação)\n- **Cardiogênico** → DC ↓, PVC/POAP ↑, RVS ↑ (IAM extenso, miocardite, arritmia)\n- **Distributivo (séptico, anafilático, neurogênico)** → RVS ↓, DC normal ou ↑, PVC ↓/normal\n  - Neurogênico → hipotensão + BRADICARDIA (lesão medular alta)\n- **Obstrutivo** → DC ↓, PVC ↑, RVS ↑ (tamponamento, TEP maciço, pneumotórax hipertensivo)\n\nSinais de hipoperfusão:\n- Hipotensão, taquicardia, oligúria, extremidades frias (exceto distributivo \"quente\"), confusão\n- **Lactato > 2 mmol/L**, tempo de enchimento capilar lento\n\nTratamento por tipo:\n- Hipovolêmico → repor volume (hemorrágico: sangue/hemostasia)\n- Cardiogênico → evitar volume excessivo; inotrópico (dobutamina); noradrenalina se hipotenso; reperfusão no IAM\n- Séptico → antibiótico na 1ª hora + cristaloide 30 mL/kg + **noradrenalina** para PAM ≥ 65 mmHg\n- Anafilático → adrenalina IM\n- Obstrutivo → desfazer a obstrução (pericardiocentese, trombólise, descompressão)\n\nO que mais cai no Vila Verde:\n- VIV 2026 → perfil hemodinâmico do choque CARDIOGÊNICO: DC baixo, PVC alta e RVS alta.\n- VV 2025 → hipovolemia: manifestações por gravidade (baralho \"Choque hemorrágico e transfusão maciça\").",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "Tipo de choque",
+      "Critério (DC / PVC / RVS)",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "Hipovolêmico",
+       "↓ / ↓ / ↑",
+       "Volume (sangue se hemorragia)"
+      ],
+      [
+       "Cardiogênico",
+       "↓ / ↑ / ↑",
+       "Dobutamina ± noradrenalina; tratar causa"
+      ],
+      [
+       "Distributivo (séptico)",
+       "↑ ou normal / ↓ / ↓",
+       "ATB + cristaloide + noradrenalina"
+      ],
+      [
+       "Obstrutivo",
+       "↓ / ↑ / ↑",
+       "Desobstruir (drenar, pericardiocentese, trombolisar)"
+      ]
+     ]
+    }
+   ],
+   "fonte": "Surviving Sepsis Campaign (2021) / ESC — Acute Heart Failure & Cardiogenic Shock (2021, atualização 2023) / ATLS 10ª ed. / Harrison's 21ª ed.",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "chqt-02",
+   "tipo": "flash",
+   "area": "Cirurgia",
+   "tema": "Trauma",
+   "sub": "Choque — tipos e perfil hemodinâmico",
+   "frente": "Qual o único choque com RVS baixa?",
+   "verso": "**Choque distributivo.**\n\nInclui:\n- Séptico, anafilático e neurogênico.\n\nPistas:\n- Extremidades quentes no início.\n- Neurogênico → hipotensão com BRADICARDIA.\n\nVasopressor:\n- Noradrenalina (séptico); adrenalina (anafilaxia).",
+   "macete": "Distributivo = \"vaso aberto, sangue espalhado\".",
+   "pegadinha": "Taquicardia NÃO aparece no neurogênico (lesão simpática).",
+   "prio": "media",
+   "contexto": "**Choque = hipoperfusão tecidual com oferta de O₂ insuficiente; os tipos se diferenciam pelo débito cardíaco (DC), pela pressão de enchimento (PVC/POAP) e pela resistência vascular sistêmica (RVS).**\n\nTipos e perfil hemodinâmico:\n- **Hipovolêmico** → DC ↓, PVC ↓, RVS ↑ (hemorragia, desidratação)\n- **Cardiogênico** → DC ↓, PVC/POAP ↑, RVS ↑ (IAM extenso, miocardite, arritmia)\n- **Distributivo (séptico, anafilático, neurogênico)** → RVS ↓, DC normal ou ↑, PVC ↓/normal\n  - Neurogênico → hipotensão + BRADICARDIA (lesão medular alta)\n- **Obstrutivo** → DC ↓, PVC ↑, RVS ↑ (tamponamento, TEP maciço, pneumotórax hipertensivo)\n\nSinais de hipoperfusão:\n- Hipotensão, taquicardia, oligúria, extremidades frias (exceto distributivo \"quente\"), confusão\n- **Lactato > 2 mmol/L**, tempo de enchimento capilar lento\n\nTratamento por tipo:\n- Hipovolêmico → repor volume (hemorrágico: sangue/hemostasia)\n- Cardiogênico → evitar volume excessivo; inotrópico (dobutamina); noradrenalina se hipotenso; reperfusão no IAM\n- Séptico → antibiótico na 1ª hora + cristaloide 30 mL/kg + **noradrenalina** para PAM ≥ 65 mmHg\n- Anafilático → adrenalina IM\n- Obstrutivo → desfazer a obstrução (pericardiocentese, trombólise, descompressão)\n\nO que mais cai no Vila Verde:\n- VIV 2026 → perfil hemodinâmico do choque CARDIOGÊNICO: DC baixo, PVC alta e RVS alta.\n- VV 2025 → hipovolemia: manifestações por gravidade (baralho \"Choque hemorrágico e transfusão maciça\").",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "Tipo de choque",
+      "Critério (DC / PVC / RVS)",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "Hipovolêmico",
+       "↓ / ↓ / ↑",
+       "Volume (sangue se hemorragia)"
+      ],
+      [
+       "Cardiogênico",
+       "↓ / ↑ / ↑",
+       "Dobutamina ± noradrenalina; tratar causa"
+      ],
+      [
+       "Distributivo (séptico)",
+       "↑ ou normal / ↓ / ↓",
+       "ATB + cristaloide + noradrenalina"
+      ],
+      [
+       "Obstrutivo",
+       "↓ / ↑ / ↑",
+       "Desobstruir (drenar, pericardiocentese, trombolisar)"
+      ]
+     ]
+    }
+   ],
+   "fonte": "Surviving Sepsis Campaign (2021) / ESC — Acute Heart Failure & Cardiogenic Shock (2021, atualização 2023) / ATLS 10ª ed. / Harrison's 21ª ed.",
+   "add": "2026-10-28",
+   "visual": {
+    "tipo": "lista",
+    "itens": [
+     "!Séptico → noradrenalina",
+     "!Anafilático → adrenalina IM",
+     "!Neurogênico → hipotensão + bradicardia"
+    ]
+   }
+  },
+  {
+   "id": "chqt-q1",
+   "tipo": "quiz",
+   "area": "Cirurgia",
+   "tema": "Trauma",
+   "sub": "Choque — tipos e perfil hemodinâmico",
+   "frente": "Paciente com IAM extenso evolui com PA 78/50 mmHg, extremidades frias, estertores bilaterais e turgência jugular. O perfil esperado é:",
+   "opcoes": [
+    "Débito baixo, PVC baixa, RVS alta.",
+    "Débito alto, PVC baixa, RVS baixa.",
+    "Débito baixo, PVC alta, RVS alta.",
+    "Débito normal, PVC normal, RVS baixa."
+   ],
+   "certa": 2,
+   "comentarios": [
+    "Hipovolêmico.",
+    "Distributivo/séptico.",
+    "Correta: cardiogênico.",
+    "Não corresponde."
+   ],
+   "macete": "\"Bomba fraca, cano cheio, vaso apertado\".",
+   "pegadinha": "Turgência jugular e estertores = pressão de enchimento ALTA.",
+   "uerj": "Baseado na VIV 2026 (Q23).",
+   "prio": "alta",
+   "contexto": "**Choque = hipoperfusão tecidual com oferta de O₂ insuficiente; os tipos se diferenciam pelo débito cardíaco (DC), pela pressão de enchimento (PVC/POAP) e pela resistência vascular sistêmica (RVS).**\n\nTipos e perfil hemodinâmico:\n- **Hipovolêmico** → DC ↓, PVC ↓, RVS ↑ (hemorragia, desidratação)\n- **Cardiogênico** → DC ↓, PVC/POAP ↑, RVS ↑ (IAM extenso, miocardite, arritmia)\n- **Distributivo (séptico, anafilático, neurogênico)** → RVS ↓, DC normal ou ↑, PVC ↓/normal\n  - Neurogênico → hipotensão + BRADICARDIA (lesão medular alta)\n- **Obstrutivo** → DC ↓, PVC ↑, RVS ↑ (tamponamento, TEP maciço, pneumotórax hipertensivo)\n\nSinais de hipoperfusão:\n- Hipotensão, taquicardia, oligúria, extremidades frias (exceto distributivo \"quente\"), confusão\n- **Lactato > 2 mmol/L**, tempo de enchimento capilar lento\n\nTratamento por tipo:\n- Hipovolêmico → repor volume (hemorrágico: sangue/hemostasia)\n- Cardiogênico → evitar volume excessivo; inotrópico (dobutamina); noradrenalina se hipotenso; reperfusão no IAM\n- Séptico → antibiótico na 1ª hora + cristaloide 30 mL/kg + **noradrenalina** para PAM ≥ 65 mmHg\n- Anafilático → adrenalina IM\n- Obstrutivo → desfazer a obstrução (pericardiocentese, trombólise, descompressão)\n\nO que mais cai no Vila Verde:\n- VIV 2026 → perfil hemodinâmico do choque CARDIOGÊNICO: DC baixo, PVC alta e RVS alta.\n- VV 2025 → hipovolemia: manifestações por gravidade (baralho \"Choque hemorrágico e transfusão maciça\").",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "Tipo de choque",
+      "Critério (DC / PVC / RVS)",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "Hipovolêmico",
+       "↓ / ↓ / ↑",
+       "Volume (sangue se hemorragia)"
+      ],
+      [
+       "Cardiogênico",
+       "↓ / ↑ / ↑",
+       "Dobutamina ± noradrenalina; tratar causa"
+      ],
+      [
+       "Distributivo (séptico)",
+       "↑ ou normal / ↓ / ↓",
+       "ATB + cristaloide + noradrenalina"
+      ],
+      [
+       "Obstrutivo",
+       "↓ / ↑ / ↑",
+       "Desobstruir (drenar, pericardiocentese, trombolisar)"
+      ]
+     ]
+    }
+   ],
+   "fonte": "Surviving Sepsis Campaign (2021) / ESC — Acute Heart Failure & Cardiogenic Shock (2021, atualização 2023) / ATLS 10ª ed. / Harrison's 21ª ed.",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "chqt-d1",
+   "tipo": "digitar",
+   "area": "Cirurgia",
+   "tema": "Trauma",
+   "sub": "Choque — tipos e perfil hemodinâmico",
+   "frente": "Qual o vasopressor de escolha no choque séptico?",
+   "verso": "**Noradrenalina.**\n\n- Alvo PAM ≥ 65 mmHg.",
+   "resposta": "Noradrenalina",
+   "aceitas": [
+    "norepinefrina",
+    "noradrenalina",
+    "nora"
+   ],
+   "macete": "Sepse: \"Nora no Nível 65\".",
+   "prio": "alta",
+   "contexto": "**Choque = hipoperfusão tecidual com oferta de O₂ insuficiente; os tipos se diferenciam pelo débito cardíaco (DC), pela pressão de enchimento (PVC/POAP) e pela resistência vascular sistêmica (RVS).**\n\nTipos e perfil hemodinâmico:\n- **Hipovolêmico** → DC ↓, PVC ↓, RVS ↑ (hemorragia, desidratação)\n- **Cardiogênico** → DC ↓, PVC/POAP ↑, RVS ↑ (IAM extenso, miocardite, arritmia)\n- **Distributivo (séptico, anafilático, neurogênico)** → RVS ↓, DC normal ou ↑, PVC ↓/normal\n  - Neurogênico → hipotensão + BRADICARDIA (lesão medular alta)\n- **Obstrutivo** → DC ↓, PVC ↑, RVS ↑ (tamponamento, TEP maciço, pneumotórax hipertensivo)\n\nSinais de hipoperfusão:\n- Hipotensão, taquicardia, oligúria, extremidades frias (exceto distributivo \"quente\"), confusão\n- **Lactato > 2 mmol/L**, tempo de enchimento capilar lento\n\nTratamento por tipo:\n- Hipovolêmico → repor volume (hemorrágico: sangue/hemostasia)\n- Cardiogênico → evitar volume excessivo; inotrópico (dobutamina); noradrenalina se hipotenso; reperfusão no IAM\n- Séptico → antibiótico na 1ª hora + cristaloide 30 mL/kg + **noradrenalina** para PAM ≥ 65 mmHg\n- Anafilático → adrenalina IM\n- Obstrutivo → desfazer a obstrução (pericardiocentese, trombólise, descompressão)\n\nO que mais cai no Vila Verde:\n- VIV 2026 → perfil hemodinâmico do choque CARDIOGÊNICO: DC baixo, PVC alta e RVS alta.\n- VV 2025 → hipovolemia: manifestações por gravidade (baralho \"Choque hemorrágico e transfusão maciça\").",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "Tipo de choque",
+      "Critério (DC / PVC / RVS)",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "Hipovolêmico",
+       "↓ / ↓ / ↑",
+       "Volume (sangue se hemorragia)"
+      ],
+      [
+       "Cardiogênico",
+       "↓ / ↑ / ↑",
+       "Dobutamina ± noradrenalina; tratar causa"
+      ],
+      [
+       "Distributivo (séptico)",
+       "↑ ou normal / ↓ / ↓",
+       "ATB + cristaloide + noradrenalina"
+      ],
+      [
+       "Obstrutivo",
+       "↓ / ↑ / ↑",
+       "Desobstruir (drenar, pericardiocentese, trombolisar)"
+      ]
+     ]
+    }
+   ],
+   "fonte": "Surviving Sepsis Campaign (2021) / ESC — Acute Heart Failure & Cardiogenic Shock (2021, atualização 2023) / ATLS 10ª ed. / Harrison's 21ª ed.",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "chqt-d2",
+   "tipo": "digitar",
+   "area": "Cirurgia",
+   "tema": "Trauma",
+   "sub": "Choque — tipos e perfil hemodinâmico",
+   "frente": "Qual o inotrópico usado no choque cardiogênico?",
+   "verso": "**Dobutamina.**",
+   "resposta": "Dobutamina",
+   "aceitas": [
+    "dobutamina"
+   ],
+   "macete": "DOBUtamina \"DOBra a força\" do coração.",
+   "prio": "media",
+   "contexto": "**Choque = hipoperfusão tecidual com oferta de O₂ insuficiente; os tipos se diferenciam pelo débito cardíaco (DC), pela pressão de enchimento (PVC/POAP) e pela resistência vascular sistêmica (RVS).**\n\nTipos e perfil hemodinâmico:\n- **Hipovolêmico** → DC ↓, PVC ↓, RVS ↑ (hemorragia, desidratação)\n- **Cardiogênico** → DC ↓, PVC/POAP ↑, RVS ↑ (IAM extenso, miocardite, arritmia)\n- **Distributivo (séptico, anafilático, neurogênico)** → RVS ↓, DC normal ou ↑, PVC ↓/normal\n  - Neurogênico → hipotensão + BRADICARDIA (lesão medular alta)\n- **Obstrutivo** → DC ↓, PVC ↑, RVS ↑ (tamponamento, TEP maciço, pneumotórax hipertensivo)\n\nSinais de hipoperfusão:\n- Hipotensão, taquicardia, oligúria, extremidades frias (exceto distributivo \"quente\"), confusão\n- **Lactato > 2 mmol/L**, tempo de enchimento capilar lento\n\nTratamento por tipo:\n- Hipovolêmico → repor volume (hemorrágico: sangue/hemostasia)\n- Cardiogênico → evitar volume excessivo; inotrópico (dobutamina); noradrenalina se hipotenso; reperfusão no IAM\n- Séptico → antibiótico na 1ª hora + cristaloide 30 mL/kg + **noradrenalina** para PAM ≥ 65 mmHg\n- Anafilático → adrenalina IM\n- Obstrutivo → desfazer a obstrução (pericardiocentese, trombólise, descompressão)\n\nO que mais cai no Vila Verde:\n- VIV 2026 → perfil hemodinâmico do choque CARDIOGÊNICO: DC baixo, PVC alta e RVS alta.\n- VV 2025 → hipovolemia: manifestações por gravidade (baralho \"Choque hemorrágico e transfusão maciça\").",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "Tipo de choque",
+      "Critério (DC / PVC / RVS)",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "Hipovolêmico",
+       "↓ / ↓ / ↑",
+       "Volume (sangue se hemorragia)"
+      ],
+      [
+       "Cardiogênico",
+       "↓ / ↑ / ↑",
+       "Dobutamina ± noradrenalina; tratar causa"
+      ],
+      [
+       "Distributivo (séptico)",
+       "↑ ou normal / ↓ / ↓",
+       "ATB + cristaloide + noradrenalina"
+      ],
+      [
+       "Obstrutivo",
+       "↓ / ↑ / ↑",
+       "Desobstruir (drenar, pericardiocentese, trombolisar)"
+      ]
+     ]
+    }
+   ],
+   "fonte": "Surviving Sepsis Campaign (2021) / ESC — Acute Heart Failure & Cardiogenic Shock (2021, atualização 2023) / ATLS 10ª ed. / Harrison's 21ª ed.",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "mld-01",
+   "tipo": "flash",
+   "area": "Cirurgia",
+   "tema": "Fígado",
+   "sub": "Cirrose — Child-Pugh e MELD",
+   "frente": "Quais os parâmetros do MELD?",
+   "verso": "**Bilirrubina.**\n**INR.**\n**Creatinina.**\n\nVariações:\n- MELD-Na → + sódio.\n- MELD 3.0 → + sódio, albumina e sexo.",
+   "macete": "MELD = \"BIC\": Bilirrubina, INR, Creatinina.",
+   "visual": {
+    "tipo": "vs",
+    "a": {
+     "t": "MELD",
+     "itens": [
+      "Bilirrubina",
+      "INR",
+      "Creatinina",
+      "Só laboratório"
+     ]
+    },
+    "b": {
+     "t": "Child-Pugh",
+     "itens": [
+      "Bilirrubina",
+      "Albumina",
+      "INR",
+      "Ascite e encefalopatia (clínicos)"
+     ]
+    }
+   },
+   "pegadinha": "Albumina, ascite e encefalopatia são do Child-Pugh (não do MELD clássico).",
+   "uerj": "VIV 2026: três parâmetros laboratoriais do MELD.",
+   "prio": "alta",
+   "contexto": "**Child-Pugh e MELD = escores de gravidade da cirrose; Child usa clínica + laboratório, MELD só laboratório e prioriza o transplante hepático.**\n\nChild-Pugh (5 itens, 5 a 15 pontos):\n- Bilirrubina, albumina, INR (tempo de protrombina), ascite e encefalopatia\n- Classe A → 5–6 pontos (compensada)\n- Classe B → 7–9 pontos\n- Classe C → 10–15 pontos (descompensada, alta mortalidade)\n\nMELD:\n- **Bilirrubina + INR + creatinina** (fórmula logarítmica)\n- MELD-Na → acrescenta o sódio; MELD 3.0 → sódio, albumina e sexo\n- Usado para priorizar a fila de transplante hepático no Brasil (quanto maior, mais grave)\n- Prediz mortalidade em 3 meses\n\nCirrose — o que lembrar junto:\n- Complicações → ascite, PBE, varizes/HDA, encefalopatia, síndrome hepatorrenal, carcinoma hepatocelular\n- Rastreio de hepatocarcinoma → USG ± AFP a cada 6 meses\n\nO que mais cai no Vila Verde:\n- VIV 2026 → os três parâmetros laboratoriais do MELD: bilirrubina, INR e creatinina.\n- A banca coloca albumina ou ascite como distrator (são do Child-Pugh).",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "Child-Pugh",
+      "1 ponto",
+      "2 pontos",
+      "3 pontos"
+     ],
+     "linhas": [
+      [
+       "Bilirrubina (mg/dL)",
+       "< 2",
+       "2–3",
+       "> 3"
+      ],
+      [
+       "Albumina (g/dL)",
+       "> 3,5",
+       "2,8–3,5",
+       "< 2,8"
+      ],
+      [
+       "INR",
+       "< 1,7",
+       "1,7–2,3",
+       "> 2,3"
+      ],
+      [
+       "Ascite",
+       "Ausente",
+       "Leve/controlada",
+       "Moderada/grave"
+      ],
+      [
+       "Encefalopatia",
+       "Ausente",
+       "Grau I–II",
+       "Grau III–IV"
+      ],
+      [
+       "Classe",
+       "A = 5–6",
+       "B = 7–9",
+       "C = 10–15"
+      ]
+     ]
+    }
+   ],
+   "fonte": "Pugh RN et al. (1973) / Kamath PS — MELD (2001) e MELD 3.0 (2021) / Ministério da Saúde — Regulamento Técnico do Sistema Nacional de Transplantes / EASL Clinical Practice Guidelines on Decompensated Cirrhosis (2018)",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "mld-02",
+   "tipo": "flash",
+   "area": "Cirurgia",
+   "tema": "Fígado",
+   "sub": "Cirrose — Child-Pugh e MELD",
+   "frente": "Child-Pugh: itens e classes",
+   "verso": "**5 itens, de 5 a 15 pontos.**\n**A → 5–6.**\n**B → 7–9.**\n**C → 10–15.**\n\nItens:\n- Bilirrubina, albumina, INR.\n- Ascite, encefalopatia.",
+   "macete": "Child = \"BAIAE\": Bilirrubina, Albumina, INR, Ascite, Encefalopatia.",
+   "pegadinha": "Creatinina não entra no Child-Pugh.",
+   "prio": "media",
+   "contexto": "**Child-Pugh e MELD = escores de gravidade da cirrose; Child usa clínica + laboratório, MELD só laboratório e prioriza o transplante hepático.**\n\nChild-Pugh (5 itens, 5 a 15 pontos):\n- Bilirrubina, albumina, INR (tempo de protrombina), ascite e encefalopatia\n- Classe A → 5–6 pontos (compensada)\n- Classe B → 7–9 pontos\n- Classe C → 10–15 pontos (descompensada, alta mortalidade)\n\nMELD:\n- **Bilirrubina + INR + creatinina** (fórmula logarítmica)\n- MELD-Na → acrescenta o sódio; MELD 3.0 → sódio, albumina e sexo\n- Usado para priorizar a fila de transplante hepático no Brasil (quanto maior, mais grave)\n- Prediz mortalidade em 3 meses\n\nCirrose — o que lembrar junto:\n- Complicações → ascite, PBE, varizes/HDA, encefalopatia, síndrome hepatorrenal, carcinoma hepatocelular\n- Rastreio de hepatocarcinoma → USG ± AFP a cada 6 meses\n\nO que mais cai no Vila Verde:\n- VIV 2026 → os três parâmetros laboratoriais do MELD: bilirrubina, INR e creatinina.\n- A banca coloca albumina ou ascite como distrator (são do Child-Pugh).",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "Child-Pugh",
+      "1 ponto",
+      "2 pontos",
+      "3 pontos"
+     ],
+     "linhas": [
+      [
+       "Bilirrubina (mg/dL)",
+       "< 2",
+       "2–3",
+       "> 3"
+      ],
+      [
+       "Albumina (g/dL)",
+       "> 3,5",
+       "2,8–3,5",
+       "< 2,8"
+      ],
+      [
+       "INR",
+       "< 1,7",
+       "1,7–2,3",
+       "> 2,3"
+      ],
+      [
+       "Ascite",
+       "Ausente",
+       "Leve/controlada",
+       "Moderada/grave"
+      ],
+      [
+       "Encefalopatia",
+       "Ausente",
+       "Grau I–II",
+       "Grau III–IV"
+      ],
+      [
+       "Classe",
+       "A = 5–6",
+       "B = 7–9",
+       "C = 10–15"
+      ]
+     ]
+    }
+   ],
+   "fonte": "Pugh RN et al. (1973) / Kamath PS — MELD (2001) e MELD 3.0 (2021) / Ministério da Saúde — Regulamento Técnico do Sistema Nacional de Transplantes / EASL Clinical Practice Guidelines on Decompensated Cirrhosis (2018)",
+   "add": "2026-10-28",
+   "visual": {
+    "tipo": "lista",
+    "itens": [
+     "!Classe A = 5–6 pontos",
+     "!Classe B = 7–9 pontos",
+     "!Classe C = 10–15 pontos"
+    ]
+   }
+  },
+  {
+   "id": "mld-q1",
+   "tipo": "quiz",
+   "area": "Cirurgia",
+   "tema": "Fígado",
+   "sub": "Cirrose — Child-Pugh e MELD",
+   "frente": "O escore MELD, usado na priorização do transplante hepático, é calculado com:",
+   "opcoes": [
+    "Albumina, bilirrubina e INR.",
+    "Bilirrubina, INR e creatinina.",
+    "Ascite, encefalopatia e bilirrubina.",
+    "Sódio, albumina e plaquetas."
+   ],
+   "certa": 1,
+   "comentarios": [
+    "Albumina não entra no MELD clássico.",
+    "Correta.",
+    "Ascite/encefalopatia são do Child.",
+    "Plaquetas não entram."
+   ],
+   "macete": "MELD = BIC.",
+   "pegadinha": "Não misture os dois escores.",
+   "uerj": "VIV 2026 (Q26).",
+   "prio": "media",
+   "contexto": "**Child-Pugh e MELD = escores de gravidade da cirrose; Child usa clínica + laboratório, MELD só laboratório e prioriza o transplante hepático.**\n\nChild-Pugh (5 itens, 5 a 15 pontos):\n- Bilirrubina, albumina, INR (tempo de protrombina), ascite e encefalopatia\n- Classe A → 5–6 pontos (compensada)\n- Classe B → 7–9 pontos\n- Classe C → 10–15 pontos (descompensada, alta mortalidade)\n\nMELD:\n- **Bilirrubina + INR + creatinina** (fórmula logarítmica)\n- MELD-Na → acrescenta o sódio; MELD 3.0 → sódio, albumina e sexo\n- Usado para priorizar a fila de transplante hepático no Brasil (quanto maior, mais grave)\n- Prediz mortalidade em 3 meses\n\nCirrose — o que lembrar junto:\n- Complicações → ascite, PBE, varizes/HDA, encefalopatia, síndrome hepatorrenal, carcinoma hepatocelular\n- Rastreio de hepatocarcinoma → USG ± AFP a cada 6 meses\n\nO que mais cai no Vila Verde:\n- VIV 2026 → os três parâmetros laboratoriais do MELD: bilirrubina, INR e creatinina.\n- A banca coloca albumina ou ascite como distrator (são do Child-Pugh).",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "Child-Pugh",
+      "1 ponto",
+      "2 pontos",
+      "3 pontos"
+     ],
+     "linhas": [
+      [
+       "Bilirrubina (mg/dL)",
+       "< 2",
+       "2–3",
+       "> 3"
+      ],
+      [
+       "Albumina (g/dL)",
+       "> 3,5",
+       "2,8–3,5",
+       "< 2,8"
+      ],
+      [
+       "INR",
+       "< 1,7",
+       "1,7–2,3",
+       "> 2,3"
+      ],
+      [
+       "Ascite",
+       "Ausente",
+       "Leve/controlada",
+       "Moderada/grave"
+      ],
+      [
+       "Encefalopatia",
+       "Ausente",
+       "Grau I–II",
+       "Grau III–IV"
+      ],
+      [
+       "Classe",
+       "A = 5–6",
+       "B = 7–9",
+       "C = 10–15"
+      ]
+     ]
+    }
+   ],
+   "fonte": "Pugh RN et al. (1973) / Kamath PS — MELD (2001) e MELD 3.0 (2021) / Ministério da Saúde — Regulamento Técnico do Sistema Nacional de Transplantes / EASL Clinical Practice Guidelines on Decompensated Cirrhosis (2018)",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "mld-d1",
+   "tipo": "digitar",
+   "area": "Cirurgia",
+   "tema": "Fígado",
+   "sub": "Cirrose — Child-Pugh e MELD",
+   "frente": "Qual exame de função renal entra no MELD?",
+   "verso": "**Creatinina.**",
+   "resposta": "Creatinina",
+   "aceitas": [
+    "creatinina sérica",
+    "creatinina"
+   ],
+   "macete": "MELD = BIC (C de creatinina).",
+   "prio": "alta",
+   "contexto": "**Child-Pugh e MELD = escores de gravidade da cirrose; Child usa clínica + laboratório, MELD só laboratório e prioriza o transplante hepático.**\n\nChild-Pugh (5 itens, 5 a 15 pontos):\n- Bilirrubina, albumina, INR (tempo de protrombina), ascite e encefalopatia\n- Classe A → 5–6 pontos (compensada)\n- Classe B → 7–9 pontos\n- Classe C → 10–15 pontos (descompensada, alta mortalidade)\n\nMELD:\n- **Bilirrubina + INR + creatinina** (fórmula logarítmica)\n- MELD-Na → acrescenta o sódio; MELD 3.0 → sódio, albumina e sexo\n- Usado para priorizar a fila de transplante hepático no Brasil (quanto maior, mais grave)\n- Prediz mortalidade em 3 meses\n\nCirrose — o que lembrar junto:\n- Complicações → ascite, PBE, varizes/HDA, encefalopatia, síndrome hepatorrenal, carcinoma hepatocelular\n- Rastreio de hepatocarcinoma → USG ± AFP a cada 6 meses\n\nO que mais cai no Vila Verde:\n- VIV 2026 → os três parâmetros laboratoriais do MELD: bilirrubina, INR e creatinina.\n- A banca coloca albumina ou ascite como distrator (são do Child-Pugh).",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "Child-Pugh",
+      "1 ponto",
+      "2 pontos",
+      "3 pontos"
+     ],
+     "linhas": [
+      [
+       "Bilirrubina (mg/dL)",
+       "< 2",
+       "2–3",
+       "> 3"
+      ],
+      [
+       "Albumina (g/dL)",
+       "> 3,5",
+       "2,8–3,5",
+       "< 2,8"
+      ],
+      [
+       "INR",
+       "< 1,7",
+       "1,7–2,3",
+       "> 2,3"
+      ],
+      [
+       "Ascite",
+       "Ausente",
+       "Leve/controlada",
+       "Moderada/grave"
+      ],
+      [
+       "Encefalopatia",
+       "Ausente",
+       "Grau I–II",
+       "Grau III–IV"
+      ],
+      [
+       "Classe",
+       "A = 5–6",
+       "B = 7–9",
+       "C = 10–15"
+      ]
+     ]
+    }
+   ],
+   "fonte": "Pugh RN et al. (1973) / Kamath PS — MELD (2001) e MELD 3.0 (2021) / Ministério da Saúde — Regulamento Técnico do Sistema Nacional de Transplantes / EASL Clinical Practice Guidelines on Decompensated Cirrhosis (2018)",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "mld-d2",
+   "tipo": "digitar",
+   "area": "Cirurgia",
+   "tema": "Fígado",
+   "sub": "Cirrose — Child-Pugh e MELD",
+   "frente": "Qual a pontuação da classe C de Child-Pugh?",
+   "verso": "**10 a 15 pontos.**",
+   "resposta": "10 a 15",
+   "aceitas": [
+    "10-15",
+    "10 a 15",
+    "≥ 10",
+    "10 ou mais"
+   ],
+   "macete": "C = \"10 para Cima\".",
+   "prio": "media",
+   "contexto": "**Child-Pugh e MELD = escores de gravidade da cirrose; Child usa clínica + laboratório, MELD só laboratório e prioriza o transplante hepático.**\n\nChild-Pugh (5 itens, 5 a 15 pontos):\n- Bilirrubina, albumina, INR (tempo de protrombina), ascite e encefalopatia\n- Classe A → 5–6 pontos (compensada)\n- Classe B → 7–9 pontos\n- Classe C → 10–15 pontos (descompensada, alta mortalidade)\n\nMELD:\n- **Bilirrubina + INR + creatinina** (fórmula logarítmica)\n- MELD-Na → acrescenta o sódio; MELD 3.0 → sódio, albumina e sexo\n- Usado para priorizar a fila de transplante hepático no Brasil (quanto maior, mais grave)\n- Prediz mortalidade em 3 meses\n\nCirrose — o que lembrar junto:\n- Complicações → ascite, PBE, varizes/HDA, encefalopatia, síndrome hepatorrenal, carcinoma hepatocelular\n- Rastreio de hepatocarcinoma → USG ± AFP a cada 6 meses\n\nO que mais cai no Vila Verde:\n- VIV 2026 → os três parâmetros laboratoriais do MELD: bilirrubina, INR e creatinina.\n- A banca coloca albumina ou ascite como distrator (são do Child-Pugh).",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "Child-Pugh",
+      "1 ponto",
+      "2 pontos",
+      "3 pontos"
+     ],
+     "linhas": [
+      [
+       "Bilirrubina (mg/dL)",
+       "< 2",
+       "2–3",
+       "> 3"
+      ],
+      [
+       "Albumina (g/dL)",
+       "> 3,5",
+       "2,8–3,5",
+       "< 2,8"
+      ],
+      [
+       "INR",
+       "< 1,7",
+       "1,7–2,3",
+       "> 2,3"
+      ],
+      [
+       "Ascite",
+       "Ausente",
+       "Leve/controlada",
+       "Moderada/grave"
+      ],
+      [
+       "Encefalopatia",
+       "Ausente",
+       "Grau I–II",
+       "Grau III–IV"
+      ],
+      [
+       "Classe",
+       "A = 5–6",
+       "B = 7–9",
+       "C = 10–15"
+      ]
+     ]
+    }
+   ],
+   "fonte": "Pugh RN et al. (1973) / Kamath PS — MELD (2001) e MELD 3.0 (2021) / Ministério da Saúde — Regulamento Técnico do Sistema Nacional de Transplantes / EASL Clinical Practice Guidelines on Decompensated Cirrhosis (2018)",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "trh-01",
+   "tipo": "flash",
+   "area": "Ginecologia",
+   "tema": "Climatério",
+   "sub": "Climatério — terapia hormonal",
+   "frente": "Terapia hormonal no climatério: principal indicação e regra do progestagênio",
+   "verso": "**Principal indicação → fogachos moderados a graves.**\n**Com útero → sempre associar progestagênio.**\n\nPor quê:\n- Estrogênio isolado causa hiperplasia e câncer de endométrio.\n\nSem útero:\n- Estrogênio isolado.",
+   "macete": "\"Tem útero? Tem Progesterona\".",
+   "pegadinha": "Síndrome geniturinária isolada → estrogênio VAGINAL (não precisa sistêmico).",
+   "uerj": "VIV 2026: V/F sobre indicações e proteção endometrial.",
+   "prio": "alta",
+   "contexto": "**Terapia hormonal (TH) no climatério = reposição de estrogênio (± progestagênio) para tratar sintomas da menopausa; melhor benefício quando iniciada na \"janela de oportunidade\".**\n\nIndicações:\n- **Sintomas vasomotores moderados a graves** (fogachos, sudorese noturna) → principal indicação\n- Síndrome geniturinária (secura, dispareunia) → estrogênio VAGINAL local\n- Insuficiência ovariana prematura → repor até a idade natural da menopausa\n- Prevenção de osteoporose em mulher com sintomas e risco (não é indicação isolada de 1ª linha)\n\nJanela de oportunidade:\n- Iniciar antes dos 60 anos ou até 10 anos da menopausa → melhor relação risco-benefício\n\nComo prescrever:\n- **Com útero → estrogênio + PROGESTAGÊNIO** (proteção endometrial contra hiperplasia/câncer)\n- Sem útero (histerectomizada) → estrogênio isolado\n- Via transdérmica → menor risco de trombose (preferir em obesa, risco de TEV, hipertrigliceridemia, enxaqueca)\n- Tibolona → alternativa\n- Menor dose eficaz, tempo individualizado, reavaliação anual\n\nContraindicações:\n- Câncer de mama ou de endométrio\n- Sangramento vaginal não esclarecido\n- TEV atual ou prévio, AVC, doença coronariana\n- Doença hepática grave ativa\n- Porfiria, LES ativo, meningioma (progestagênio)\n\nAlternativas sem hormônio para fogachos:\n- ISRS/IRSN (paroxetina, venlafaxina), gabapentina, fezolinetanto\n\nO que mais cai no Vila Verde:\n- VIV 2026 → V/F sobre indicações da TH e proteção endometrial (progestagênio obrigatório em quem tem útero).",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 206\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><rect x=\"10\" y=\"8\" width=\"320\" height=\"30\" rx=\"9\" fill=\"var(--wine)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"170.0\" y=\"26.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--card)\">Mulher com sintomas vasomotores</text><line x1=\"170\" y1=\"38\" x2=\"170\" y2=\"50\" stroke=\"var(--rose)\"/><rect x=\"40\" y=\"50\" width=\"260\" height=\"30\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"170.0\" y=\"68.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">< 60 anos ou < 10 anos da menopausa?</text><line x1=\"90\" y1=\"80\" x2=\"90\" y2=\"94\" stroke=\"var(--rose)\"/><line x1=\"250\" y1=\"80\" x2=\"250\" y2=\"94\" stroke=\"var(--rose)\"/><rect x=\"10\" y=\"94\" width=\"160\" height=\"44\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"90.0\" y=\"115.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Tem útero</text><text x=\"90.0\" y=\"127.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">estrogênio + progestagênio</text><rect x=\"178\" y=\"94\" width=\"152\" height=\"44\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"254.0\" y=\"115.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Sem útero</text><text x=\"254.0\" y=\"127.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">estrogênio isolado</text><rect x=\"10\" y=\"146\" width=\"320\" height=\"34\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"170.0\" y=\"166.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Risco de TEV/obesidade → via transdérmica</text><text x=\"170\" y=\"198\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--mute)\">Contraindicada: câncer de mama/endométrio, TEV, AVC/IAM, sangramento sem causa</text></svg>",
+     "legenda": "Terapia hormonal: decisão rápida"
+    }
+   ],
+   "fonte": "FEBRASGO — Consenso de Terapia Hormonal no Climatério (2018, atualização 2024) / North American Menopause Society — Hormone Therapy Position Statement (2022) / SOBRAC",
+   "add": "2026-10-28",
+   "visual": {
+    "tipo": "vs",
+    "a": {
+     "t": "Com útero",
+     "itens": [
+      "Estrogênio + progestagênio"
+     ]
+    },
+    "b": {
+     "t": "Sem útero",
+     "itens": [
+      "Estrogênio isolado"
+     ]
+    }
+   }
+  },
+  {
+   "id": "trh-02",
+   "tipo": "flash",
+   "area": "Ginecologia",
+   "tema": "Climatério",
+   "sub": "Climatério — terapia hormonal",
+   "frente": "Contraindicações da terapia hormonal",
+   "verso": "**Câncer de mama ou endométrio.**\n**Sangramento vaginal sem diagnóstico.**\n**TEV, AVC ou doença coronariana.**\n**Doença hepática grave ativa.**",
+   "macete": "\"Mama, Útero, Sangue que corre (sangramento) e Sangue que coagula (TEV)\".",
+   "visual": {
+    "tipo": "vs",
+    "a": {
+     "t": "Via oral",
+     "itens": [
+      "Passa pelo fígado",
+      "Maior risco de TEV",
+      "Aumenta triglicerídeos"
+     ]
+    },
+    "b": {
+     "t": "Via transdérmica",
+     "itens": [
+      "Evita 1ª passagem hepática",
+      "Menor risco de TEV",
+      "Preferir em obesa"
+     ]
+    }
+   },
+   "pegadinha": "Risco trombótico aumentado (sem TEV prévio) → preferir via transdérmica.",
+   "prio": "alta",
+   "contexto": "**Terapia hormonal (TH) no climatério = reposição de estrogênio (± progestagênio) para tratar sintomas da menopausa; melhor benefício quando iniciada na \"janela de oportunidade\".**\n\nIndicações:\n- **Sintomas vasomotores moderados a graves** (fogachos, sudorese noturna) → principal indicação\n- Síndrome geniturinária (secura, dispareunia) → estrogênio VAGINAL local\n- Insuficiência ovariana prematura → repor até a idade natural da menopausa\n- Prevenção de osteoporose em mulher com sintomas e risco (não é indicação isolada de 1ª linha)\n\nJanela de oportunidade:\n- Iniciar antes dos 60 anos ou até 10 anos da menopausa → melhor relação risco-benefício\n\nComo prescrever:\n- **Com útero → estrogênio + PROGESTAGÊNIO** (proteção endometrial contra hiperplasia/câncer)\n- Sem útero (histerectomizada) → estrogênio isolado\n- Via transdérmica → menor risco de trombose (preferir em obesa, risco de TEV, hipertrigliceridemia, enxaqueca)\n- Tibolona → alternativa\n- Menor dose eficaz, tempo individualizado, reavaliação anual\n\nContraindicações:\n- Câncer de mama ou de endométrio\n- Sangramento vaginal não esclarecido\n- TEV atual ou prévio, AVC, doença coronariana\n- Doença hepática grave ativa\n- Porfiria, LES ativo, meningioma (progestagênio)\n\nAlternativas sem hormônio para fogachos:\n- ISRS/IRSN (paroxetina, venlafaxina), gabapentina, fezolinetanto\n\nO que mais cai no Vila Verde:\n- VIV 2026 → V/F sobre indicações da TH e proteção endometrial (progestagênio obrigatório em quem tem útero).",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 206\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><rect x=\"10\" y=\"8\" width=\"320\" height=\"30\" rx=\"9\" fill=\"var(--wine)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"170.0\" y=\"26.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--card)\">Mulher com sintomas vasomotores</text><line x1=\"170\" y1=\"38\" x2=\"170\" y2=\"50\" stroke=\"var(--rose)\"/><rect x=\"40\" y=\"50\" width=\"260\" height=\"30\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"170.0\" y=\"68.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">< 60 anos ou < 10 anos da menopausa?</text><line x1=\"90\" y1=\"80\" x2=\"90\" y2=\"94\" stroke=\"var(--rose)\"/><line x1=\"250\" y1=\"80\" x2=\"250\" y2=\"94\" stroke=\"var(--rose)\"/><rect x=\"10\" y=\"94\" width=\"160\" height=\"44\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"90.0\" y=\"115.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Tem útero</text><text x=\"90.0\" y=\"127.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">estrogênio + progestagênio</text><rect x=\"178\" y=\"94\" width=\"152\" height=\"44\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"254.0\" y=\"115.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Sem útero</text><text x=\"254.0\" y=\"127.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">estrogênio isolado</text><rect x=\"10\" y=\"146\" width=\"320\" height=\"34\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"170.0\" y=\"166.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Risco de TEV/obesidade → via transdérmica</text><text x=\"170\" y=\"198\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--mute)\">Contraindicada: câncer de mama/endométrio, TEV, AVC/IAM, sangramento sem causa</text></svg>",
+     "legenda": "Terapia hormonal: decisão rápida"
+    }
+   ],
+   "fonte": "FEBRASGO — Consenso de Terapia Hormonal no Climatério (2018, atualização 2024) / North American Menopause Society — Hormone Therapy Position Statement (2022) / SOBRAC",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "trh-q1",
+   "tipo": "quiz",
+   "area": "Ginecologia",
+   "tema": "Climatério",
+   "sub": "Climatério — terapia hormonal",
+   "frente": "Sobre a terapia hormonal na menopausa, analise: I. Os sintomas vasomotores moderados a graves são a principal indicação. II. Em mulheres com útero, o progestagênio é dispensável se a dose de estrogênio for baixa. III. A via transdérmica tem menor risco de tromboembolismo. Está CORRETO:",
+   "opcoes": [
+    "Apenas I e III.",
+    "Apenas I e II.",
+    "Apenas II e III.",
+    "I, II e III."
+   ],
+   "certa": 0,
+   "comentarios": [
+    "Correta.",
+    "II é falsa.",
+    "II é falsa.",
+    "II é falsa: com útero, sempre progestagênio."
+   ],
+   "macete": "\"Tem útero? Tem Progesterona\".",
+   "pegadinha": "Dose baixa de estrogênio NÃO dispensa o progestagênio sistêmico.",
+   "uerj": "Formato da VIV 2026 (Q51).",
+   "prio": "media",
+   "contexto": "**Terapia hormonal (TH) no climatério = reposição de estrogênio (± progestagênio) para tratar sintomas da menopausa; melhor benefício quando iniciada na \"janela de oportunidade\".**\n\nIndicações:\n- **Sintomas vasomotores moderados a graves** (fogachos, sudorese noturna) → principal indicação\n- Síndrome geniturinária (secura, dispareunia) → estrogênio VAGINAL local\n- Insuficiência ovariana prematura → repor até a idade natural da menopausa\n- Prevenção de osteoporose em mulher com sintomas e risco (não é indicação isolada de 1ª linha)\n\nJanela de oportunidade:\n- Iniciar antes dos 60 anos ou até 10 anos da menopausa → melhor relação risco-benefício\n\nComo prescrever:\n- **Com útero → estrogênio + PROGESTAGÊNIO** (proteção endometrial contra hiperplasia/câncer)\n- Sem útero (histerectomizada) → estrogênio isolado\n- Via transdérmica → menor risco de trombose (preferir em obesa, risco de TEV, hipertrigliceridemia, enxaqueca)\n- Tibolona → alternativa\n- Menor dose eficaz, tempo individualizado, reavaliação anual\n\nContraindicações:\n- Câncer de mama ou de endométrio\n- Sangramento vaginal não esclarecido\n- TEV atual ou prévio, AVC, doença coronariana\n- Doença hepática grave ativa\n- Porfiria, LES ativo, meningioma (progestagênio)\n\nAlternativas sem hormônio para fogachos:\n- ISRS/IRSN (paroxetina, venlafaxina), gabapentina, fezolinetanto\n\nO que mais cai no Vila Verde:\n- VIV 2026 → V/F sobre indicações da TH e proteção endometrial (progestagênio obrigatório em quem tem útero).",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 206\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><rect x=\"10\" y=\"8\" width=\"320\" height=\"30\" rx=\"9\" fill=\"var(--wine)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"170.0\" y=\"26.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--card)\">Mulher com sintomas vasomotores</text><line x1=\"170\" y1=\"38\" x2=\"170\" y2=\"50\" stroke=\"var(--rose)\"/><rect x=\"40\" y=\"50\" width=\"260\" height=\"30\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"170.0\" y=\"68.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">< 60 anos ou < 10 anos da menopausa?</text><line x1=\"90\" y1=\"80\" x2=\"90\" y2=\"94\" stroke=\"var(--rose)\"/><line x1=\"250\" y1=\"80\" x2=\"250\" y2=\"94\" stroke=\"var(--rose)\"/><rect x=\"10\" y=\"94\" width=\"160\" height=\"44\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"90.0\" y=\"115.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Tem útero</text><text x=\"90.0\" y=\"127.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">estrogênio + progestagênio</text><rect x=\"178\" y=\"94\" width=\"152\" height=\"44\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"254.0\" y=\"115.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Sem útero</text><text x=\"254.0\" y=\"127.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">estrogênio isolado</text><rect x=\"10\" y=\"146\" width=\"320\" height=\"34\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"170.0\" y=\"166.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Risco de TEV/obesidade → via transdérmica</text><text x=\"170\" y=\"198\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--mute)\">Contraindicada: câncer de mama/endométrio, TEV, AVC/IAM, sangramento sem causa</text></svg>",
+     "legenda": "Terapia hormonal: decisão rápida"
+    }
+   ],
+   "fonte": "FEBRASGO — Consenso de Terapia Hormonal no Climatério (2018, atualização 2024) / North American Menopause Society — Hormone Therapy Position Statement (2022) / SOBRAC",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "trh-d1",
+   "tipo": "digitar",
+   "area": "Ginecologia",
+   "tema": "Climatério",
+   "sub": "Climatério — terapia hormonal",
+   "frente": "Qual a principal indicação da terapia hormonal no climatério?",
+   "verso": "**Sintomas vasomotores (fogachos).**",
+   "resposta": "Fogachos",
+   "aceitas": [
+    "sintomas vasomotores",
+    "fogacho",
+    "fogachos",
+    "ondas de calor"
+   ],
+   "macete": "TH = \"apagar o Fogo\".",
+   "prio": "media",
+   "contexto": "**Terapia hormonal (TH) no climatério = reposição de estrogênio (± progestagênio) para tratar sintomas da menopausa; melhor benefício quando iniciada na \"janela de oportunidade\".**\n\nIndicações:\n- **Sintomas vasomotores moderados a graves** (fogachos, sudorese noturna) → principal indicação\n- Síndrome geniturinária (secura, dispareunia) → estrogênio VAGINAL local\n- Insuficiência ovariana prematura → repor até a idade natural da menopausa\n- Prevenção de osteoporose em mulher com sintomas e risco (não é indicação isolada de 1ª linha)\n\nJanela de oportunidade:\n- Iniciar antes dos 60 anos ou até 10 anos da menopausa → melhor relação risco-benefício\n\nComo prescrever:\n- **Com útero → estrogênio + PROGESTAGÊNIO** (proteção endometrial contra hiperplasia/câncer)\n- Sem útero (histerectomizada) → estrogênio isolado\n- Via transdérmica → menor risco de trombose (preferir em obesa, risco de TEV, hipertrigliceridemia, enxaqueca)\n- Tibolona → alternativa\n- Menor dose eficaz, tempo individualizado, reavaliação anual\n\nContraindicações:\n- Câncer de mama ou de endométrio\n- Sangramento vaginal não esclarecido\n- TEV atual ou prévio, AVC, doença coronariana\n- Doença hepática grave ativa\n- Porfiria, LES ativo, meningioma (progestagênio)\n\nAlternativas sem hormônio para fogachos:\n- ISRS/IRSN (paroxetina, venlafaxina), gabapentina, fezolinetanto\n\nO que mais cai no Vila Verde:\n- VIV 2026 → V/F sobre indicações da TH e proteção endometrial (progestagênio obrigatório em quem tem útero).",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 206\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><rect x=\"10\" y=\"8\" width=\"320\" height=\"30\" rx=\"9\" fill=\"var(--wine)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"170.0\" y=\"26.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--card)\">Mulher com sintomas vasomotores</text><line x1=\"170\" y1=\"38\" x2=\"170\" y2=\"50\" stroke=\"var(--rose)\"/><rect x=\"40\" y=\"50\" width=\"260\" height=\"30\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"170.0\" y=\"68.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">< 60 anos ou < 10 anos da menopausa?</text><line x1=\"90\" y1=\"80\" x2=\"90\" y2=\"94\" stroke=\"var(--rose)\"/><line x1=\"250\" y1=\"80\" x2=\"250\" y2=\"94\" stroke=\"var(--rose)\"/><rect x=\"10\" y=\"94\" width=\"160\" height=\"44\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"90.0\" y=\"115.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Tem útero</text><text x=\"90.0\" y=\"127.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">estrogênio + progestagênio</text><rect x=\"178\" y=\"94\" width=\"152\" height=\"44\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"254.0\" y=\"115.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Sem útero</text><text x=\"254.0\" y=\"127.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">estrogênio isolado</text><rect x=\"10\" y=\"146\" width=\"320\" height=\"34\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"170.0\" y=\"166.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Risco de TEV/obesidade → via transdérmica</text><text x=\"170\" y=\"198\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--mute)\">Contraindicada: câncer de mama/endométrio, TEV, AVC/IAM, sangramento sem causa</text></svg>",
+     "legenda": "Terapia hormonal: decisão rápida"
+    }
+   ],
+   "fonte": "FEBRASGO — Consenso de Terapia Hormonal no Climatério (2018, atualização 2024) / North American Menopause Society — Hormone Therapy Position Statement (2022) / SOBRAC",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "trh-d2",
+   "tipo": "digitar",
+   "area": "Ginecologia",
+   "tema": "Climatério",
+   "sub": "Climatério — terapia hormonal",
+   "frente": "Qual via de estrogênio tem menor risco de trombose?",
+   "verso": "**Transdérmica.**",
+   "resposta": "Transdérmica",
+   "aceitas": [
+    "transdermica",
+    "adesivo",
+    "gel",
+    "percutânea",
+    "transdérmica"
+   ],
+   "macete": "Pela pele, \"pula o fígado\".",
+   "prio": "media",
+   "contexto": "**Terapia hormonal (TH) no climatério = reposição de estrogênio (± progestagênio) para tratar sintomas da menopausa; melhor benefício quando iniciada na \"janela de oportunidade\".**\n\nIndicações:\n- **Sintomas vasomotores moderados a graves** (fogachos, sudorese noturna) → principal indicação\n- Síndrome geniturinária (secura, dispareunia) → estrogênio VAGINAL local\n- Insuficiência ovariana prematura → repor até a idade natural da menopausa\n- Prevenção de osteoporose em mulher com sintomas e risco (não é indicação isolada de 1ª linha)\n\nJanela de oportunidade:\n- Iniciar antes dos 60 anos ou até 10 anos da menopausa → melhor relação risco-benefício\n\nComo prescrever:\n- **Com útero → estrogênio + PROGESTAGÊNIO** (proteção endometrial contra hiperplasia/câncer)\n- Sem útero (histerectomizada) → estrogênio isolado\n- Via transdérmica → menor risco de trombose (preferir em obesa, risco de TEV, hipertrigliceridemia, enxaqueca)\n- Tibolona → alternativa\n- Menor dose eficaz, tempo individualizado, reavaliação anual\n\nContraindicações:\n- Câncer de mama ou de endométrio\n- Sangramento vaginal não esclarecido\n- TEV atual ou prévio, AVC, doença coronariana\n- Doença hepática grave ativa\n- Porfiria, LES ativo, meningioma (progestagênio)\n\nAlternativas sem hormônio para fogachos:\n- ISRS/IRSN (paroxetina, venlafaxina), gabapentina, fezolinetanto\n\nO que mais cai no Vila Verde:\n- VIV 2026 → V/F sobre indicações da TH e proteção endometrial (progestagênio obrigatório em quem tem útero).",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 206\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><rect x=\"10\" y=\"8\" width=\"320\" height=\"30\" rx=\"9\" fill=\"var(--wine)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"170.0\" y=\"26.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--card)\">Mulher com sintomas vasomotores</text><line x1=\"170\" y1=\"38\" x2=\"170\" y2=\"50\" stroke=\"var(--rose)\"/><rect x=\"40\" y=\"50\" width=\"260\" height=\"30\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"170.0\" y=\"68.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">< 60 anos ou < 10 anos da menopausa?</text><line x1=\"90\" y1=\"80\" x2=\"90\" y2=\"94\" stroke=\"var(--rose)\"/><line x1=\"250\" y1=\"80\" x2=\"250\" y2=\"94\" stroke=\"var(--rose)\"/><rect x=\"10\" y=\"94\" width=\"160\" height=\"44\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"90.0\" y=\"115.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Tem útero</text><text x=\"90.0\" y=\"127.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">estrogênio + progestagênio</text><rect x=\"178\" y=\"94\" width=\"152\" height=\"44\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"254.0\" y=\"115.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Sem útero</text><text x=\"254.0\" y=\"127.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">estrogênio isolado</text><rect x=\"10\" y=\"146\" width=\"320\" height=\"34\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"170.0\" y=\"166.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Risco de TEV/obesidade → via transdérmica</text><text x=\"170\" y=\"198\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--mute)\">Contraindicada: câncer de mama/endométrio, TEV, AVC/IAM, sangramento sem causa</text></svg>",
+     "legenda": "Terapia hormonal: decisão rápida"
+    }
+   ],
+   "fonte": "FEBRASGO — Consenso de Terapia Hormonal no Climatério (2018, atualização 2024) / North American Menopause Society — Hormone Therapy Position Statement (2022) / SOBRAC",
+   "add": "2026-10-28"
   }
  ],
  "rev": 0
