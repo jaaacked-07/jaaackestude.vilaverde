@@ -49987,6 +49987,2074 @@
    ],
    "fonte": "FEBRASGO — Consenso de Terapia Hormonal no Climatério (2018, atualização 2024) / North American Menopause Society — Hormone Therapy Position Statement (2022) / SOBRAC",
    "add": "2026-10-28"
+  },
+  {
+   "id": "spk-01",
+   "tipo": "flash",
+   "area": "Medicina Preventiva",
+   "tema": "Atenção Primária",
+   "sub": "Comunicação de más notícias — SPIKES",
+   "frente": "SPIKES: em qual etapa se pergunta quanto o paciente quer saber?",
+   "verso": "**I — Invitation (convite).**\n\nAntes dela:\n- P → o que ele já sabe.\n\nDepois:\n- K → transmitir a informação.",
+   "macete": "Perception = \"Pergunta o que sabe\"; Invitation = \"Indaga o quanto quer\".",
+   "pegadinha": "Perguntar o que o paciente JÁ SABE é Perception, não Invitation.",
+   "uerj": "VIV 2026: pergunta sobre o desejo de informação = Invitation.",
+   "prio": "alta",
+   "contexto": "**Protocolo SPIKES = roteiro de 6 etapas para comunicar más notícias (criado em oncologia por Baile e Buckman); organiza a conversa e protege a relação médico-paciente.**\n\nAs 6 etapas:\n- **S — Setting (preparar o ambiente)** → local reservado, sentar, sem interrupções, acompanhante se o paciente quiser, tempo disponível\n- **P — Perception (percepção)** → descobrir o que o paciente já sabe e entende (\"O que o senhor já sabe sobre seus exames?\")\n- **I — Invitation (convite)** → perguntar QUANTO e COMO ele quer saber (\"O senhor quer que eu explique os detalhes do resultado?\")\n- **K — Knowledge (conhecimento)** → dar a informação em linguagem simples, em pequenas partes, avisando antes (\"Infelizmente, não trago boas notícias…\")\n- **E — Emotions (emoções/empatia)** → acolher a reação, nomear a emoção, dar tempo, silêncio\n- **S — Strategy and Summary (estratégia e resumo)** → resumir, combinar o plano e os próximos passos, checar o entendimento\n\nPrincípios:\n- Respeitar o direito de NÃO querer saber (por isso existe o \"convite\")\n- Evitar jargão e falsas esperanças; não tirar toda a esperança\n- Falar a verdade de forma gradual (dose da informação)\n\nO que mais cai no Vila Verde:\n- VIV 2026 → etapa em que se pergunta ao paciente quanto ele deseja saber = INVITATION (convite).",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 214\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><rect x=\"8\" y=\"8\" width=\"44\" height=\"28\" rx=\"7\" fill=\"var(--wine)\"/><text x=\"30\" y=\"27\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"700\" fill=\"var(--card)\">S</text><text x=\"62\" y=\"21\" font-size=\"10.5\" font-weight=\"600\" fill=\"var(--ink)\">Setting</text><text x=\"62\" y=\"32\" font-size=\"9\" fill=\"var(--mute)\">ambiente reservado, sentar, tempo</text><rect x=\"8\" y=\"42\" width=\"44\" height=\"28\" rx=\"7\" fill=\"var(--wine)\"/><text x=\"30\" y=\"61\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"700\" fill=\"var(--card)\">P</text><text x=\"62\" y=\"55\" font-size=\"10.5\" font-weight=\"600\" fill=\"var(--ink)\">Perception</text><text x=\"62\" y=\"66\" font-size=\"9\" fill=\"var(--mute)\">o que ele já sabe?</text><rect x=\"8\" y=\"76\" width=\"44\" height=\"28\" rx=\"7\" fill=\"var(--wine)\"/><text x=\"30\" y=\"95\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"700\" fill=\"var(--card)\">I</text><text x=\"62\" y=\"89\" font-size=\"10.5\" font-weight=\"600\" fill=\"var(--ink)\">Invitation</text><text x=\"62\" y=\"100\" font-size=\"9\" fill=\"var(--mute)\">quanto ele quer saber?</text><rect x=\"8\" y=\"110\" width=\"44\" height=\"28\" rx=\"7\" fill=\"var(--wine)\"/><text x=\"30\" y=\"129\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"700\" fill=\"var(--card)\">K</text><text x=\"62\" y=\"123\" font-size=\"10.5\" font-weight=\"600\" fill=\"var(--ink)\">Knowledge</text><text x=\"62\" y=\"134\" font-size=\"9\" fill=\"var(--mute)\">informar aos poucos, sem jargão</text><rect x=\"8\" y=\"144\" width=\"44\" height=\"28\" rx=\"7\" fill=\"var(--wine)\"/><text x=\"30\" y=\"163\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"700\" fill=\"var(--card)\">E</text><text x=\"62\" y=\"157\" font-size=\"10.5\" font-weight=\"600\" fill=\"var(--ink)\">Emotions</text><text x=\"62\" y=\"168\" font-size=\"9\" fill=\"var(--mute)\">acolher com empatia</text><rect x=\"8\" y=\"178\" width=\"44\" height=\"28\" rx=\"7\" fill=\"var(--wine)\"/><text x=\"30\" y=\"197\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"700\" fill=\"var(--card)\">S</text><text x=\"62\" y=\"191\" font-size=\"10.5\" font-weight=\"600\" fill=\"var(--ink)\">Strategy/Summary</text><text x=\"62\" y=\"202\" font-size=\"9\" fill=\"var(--mute)\">resumir e planejar</text></svg>",
+     "legenda": "Protocolo SPIKES em 6 etapas"
+    }
+   ],
+   "fonte": "Baile WF, Buckman R et al. — SPIKES (The Oncologist, 2000) / INCA — Comunicação de notícias difíceis (2010)",
+   "add": "2026-10-28",
+   "visual": {
+    "tipo": "vs",
+    "a": {
+     "t": "Perception",
+     "itens": [
+      "\"O que o senhor já sabe?\""
+     ]
+    },
+    "b": {
+     "t": "Invitation",
+     "itens": [
+      "\"Quanto o senhor quer saber?\""
+     ]
+    }
+   }
+  },
+  {
+   "id": "spk-02",
+   "tipo": "flash",
+   "area": "Medicina Preventiva",
+   "tema": "Atenção Primária",
+   "sub": "Comunicação de más notícias — SPIKES",
+   "frente": "Quais as 6 etapas do SPIKES?",
+   "verso": "**S → Setting.**\n**P → Perception.**\n**I → Invitation.**\n**K → Knowledge.**\n**E → Emotions.**\n**S → Strategy and Summary.**",
+   "macete": "\"Sente, Pergunte, Indague, Kontar, Empatize, Siga\".",
+   "pegadinha": "Começa pelo AMBIENTE, não pela notícia.",
+   "prio": "media",
+   "contexto": "**Protocolo SPIKES = roteiro de 6 etapas para comunicar más notícias (criado em oncologia por Baile e Buckman); organiza a conversa e protege a relação médico-paciente.**\n\nAs 6 etapas:\n- **S — Setting (preparar o ambiente)** → local reservado, sentar, sem interrupções, acompanhante se o paciente quiser, tempo disponível\n- **P — Perception (percepção)** → descobrir o que o paciente já sabe e entende (\"O que o senhor já sabe sobre seus exames?\")\n- **I — Invitation (convite)** → perguntar QUANTO e COMO ele quer saber (\"O senhor quer que eu explique os detalhes do resultado?\")\n- **K — Knowledge (conhecimento)** → dar a informação em linguagem simples, em pequenas partes, avisando antes (\"Infelizmente, não trago boas notícias…\")\n- **E — Emotions (emoções/empatia)** → acolher a reação, nomear a emoção, dar tempo, silêncio\n- **S — Strategy and Summary (estratégia e resumo)** → resumir, combinar o plano e os próximos passos, checar o entendimento\n\nPrincípios:\n- Respeitar o direito de NÃO querer saber (por isso existe o \"convite\")\n- Evitar jargão e falsas esperanças; não tirar toda a esperança\n- Falar a verdade de forma gradual (dose da informação)\n\nO que mais cai no Vila Verde:\n- VIV 2026 → etapa em que se pergunta ao paciente quanto ele deseja saber = INVITATION (convite).",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 214\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><rect x=\"8\" y=\"8\" width=\"44\" height=\"28\" rx=\"7\" fill=\"var(--wine)\"/><text x=\"30\" y=\"27\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"700\" fill=\"var(--card)\">S</text><text x=\"62\" y=\"21\" font-size=\"10.5\" font-weight=\"600\" fill=\"var(--ink)\">Setting</text><text x=\"62\" y=\"32\" font-size=\"9\" fill=\"var(--mute)\">ambiente reservado, sentar, tempo</text><rect x=\"8\" y=\"42\" width=\"44\" height=\"28\" rx=\"7\" fill=\"var(--wine)\"/><text x=\"30\" y=\"61\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"700\" fill=\"var(--card)\">P</text><text x=\"62\" y=\"55\" font-size=\"10.5\" font-weight=\"600\" fill=\"var(--ink)\">Perception</text><text x=\"62\" y=\"66\" font-size=\"9\" fill=\"var(--mute)\">o que ele já sabe?</text><rect x=\"8\" y=\"76\" width=\"44\" height=\"28\" rx=\"7\" fill=\"var(--wine)\"/><text x=\"30\" y=\"95\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"700\" fill=\"var(--card)\">I</text><text x=\"62\" y=\"89\" font-size=\"10.5\" font-weight=\"600\" fill=\"var(--ink)\">Invitation</text><text x=\"62\" y=\"100\" font-size=\"9\" fill=\"var(--mute)\">quanto ele quer saber?</text><rect x=\"8\" y=\"110\" width=\"44\" height=\"28\" rx=\"7\" fill=\"var(--wine)\"/><text x=\"30\" y=\"129\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"700\" fill=\"var(--card)\">K</text><text x=\"62\" y=\"123\" font-size=\"10.5\" font-weight=\"600\" fill=\"var(--ink)\">Knowledge</text><text x=\"62\" y=\"134\" font-size=\"9\" fill=\"var(--mute)\">informar aos poucos, sem jargão</text><rect x=\"8\" y=\"144\" width=\"44\" height=\"28\" rx=\"7\" fill=\"var(--wine)\"/><text x=\"30\" y=\"163\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"700\" fill=\"var(--card)\">E</text><text x=\"62\" y=\"157\" font-size=\"10.5\" font-weight=\"600\" fill=\"var(--ink)\">Emotions</text><text x=\"62\" y=\"168\" font-size=\"9\" fill=\"var(--mute)\">acolher com empatia</text><rect x=\"8\" y=\"178\" width=\"44\" height=\"28\" rx=\"7\" fill=\"var(--wine)\"/><text x=\"30\" y=\"197\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"700\" fill=\"var(--card)\">S</text><text x=\"62\" y=\"191\" font-size=\"10.5\" font-weight=\"600\" fill=\"var(--ink)\">Strategy/Summary</text><text x=\"62\" y=\"202\" font-size=\"9\" fill=\"var(--mute)\">resumir e planejar</text></svg>",
+     "legenda": "Protocolo SPIKES em 6 etapas"
+    }
+   ],
+   "fonte": "Baile WF, Buckman R et al. — SPIKES (The Oncologist, 2000) / INCA — Comunicação de notícias difíceis (2010)",
+   "add": "2026-10-28",
+   "visual": {
+    "tipo": "fluxo",
+    "passos": [
+     "Setting",
+     "Perception",
+     "Invitation",
+     "Knowledge",
+     "Emotions",
+     "Strategy/Summary"
+    ]
+   }
+  },
+  {
+   "id": "spk-q1",
+   "tipo": "quiz",
+   "area": "Medicina Preventiva",
+   "tema": "Atenção Primária",
+   "sub": "Comunicação de más notícias — SPIKES",
+   "frente": "Ao comunicar um diagnóstico de câncer, o médico pergunta: \"O senhor gostaria que eu explicasse todos os detalhes do resultado?\". Essa etapa do protocolo SPIKES é:",
+   "opcoes": [
+    "Setting.",
+    "Perception.",
+    "Knowledge.",
+    "Invitation."
+   ],
+   "certa": 3,
+   "comentarios": [
+    "Setting é preparar o ambiente.",
+    "Perception é saber o que ele já entende.",
+    "Knowledge é transmitir a informação.",
+    "Correta: convite (quanto ele quer saber)."
+   ],
+   "macete": "\"Indaga o quanto quer\" = Invitation.",
+   "pegadinha": "Perception e Invitation são as mais confundidas.",
+   "uerj": "VIV 2026 (Q14).",
+   "prio": "alta",
+   "contexto": "**Protocolo SPIKES = roteiro de 6 etapas para comunicar más notícias (criado em oncologia por Baile e Buckman); organiza a conversa e protege a relação médico-paciente.**\n\nAs 6 etapas:\n- **S — Setting (preparar o ambiente)** → local reservado, sentar, sem interrupções, acompanhante se o paciente quiser, tempo disponível\n- **P — Perception (percepção)** → descobrir o que o paciente já sabe e entende (\"O que o senhor já sabe sobre seus exames?\")\n- **I — Invitation (convite)** → perguntar QUANTO e COMO ele quer saber (\"O senhor quer que eu explique os detalhes do resultado?\")\n- **K — Knowledge (conhecimento)** → dar a informação em linguagem simples, em pequenas partes, avisando antes (\"Infelizmente, não trago boas notícias…\")\n- **E — Emotions (emoções/empatia)** → acolher a reação, nomear a emoção, dar tempo, silêncio\n- **S — Strategy and Summary (estratégia e resumo)** → resumir, combinar o plano e os próximos passos, checar o entendimento\n\nPrincípios:\n- Respeitar o direito de NÃO querer saber (por isso existe o \"convite\")\n- Evitar jargão e falsas esperanças; não tirar toda a esperança\n- Falar a verdade de forma gradual (dose da informação)\n\nO que mais cai no Vila Verde:\n- VIV 2026 → etapa em que se pergunta ao paciente quanto ele deseja saber = INVITATION (convite).",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 214\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><rect x=\"8\" y=\"8\" width=\"44\" height=\"28\" rx=\"7\" fill=\"var(--wine)\"/><text x=\"30\" y=\"27\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"700\" fill=\"var(--card)\">S</text><text x=\"62\" y=\"21\" font-size=\"10.5\" font-weight=\"600\" fill=\"var(--ink)\">Setting</text><text x=\"62\" y=\"32\" font-size=\"9\" fill=\"var(--mute)\">ambiente reservado, sentar, tempo</text><rect x=\"8\" y=\"42\" width=\"44\" height=\"28\" rx=\"7\" fill=\"var(--wine)\"/><text x=\"30\" y=\"61\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"700\" fill=\"var(--card)\">P</text><text x=\"62\" y=\"55\" font-size=\"10.5\" font-weight=\"600\" fill=\"var(--ink)\">Perception</text><text x=\"62\" y=\"66\" font-size=\"9\" fill=\"var(--mute)\">o que ele já sabe?</text><rect x=\"8\" y=\"76\" width=\"44\" height=\"28\" rx=\"7\" fill=\"var(--wine)\"/><text x=\"30\" y=\"95\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"700\" fill=\"var(--card)\">I</text><text x=\"62\" y=\"89\" font-size=\"10.5\" font-weight=\"600\" fill=\"var(--ink)\">Invitation</text><text x=\"62\" y=\"100\" font-size=\"9\" fill=\"var(--mute)\">quanto ele quer saber?</text><rect x=\"8\" y=\"110\" width=\"44\" height=\"28\" rx=\"7\" fill=\"var(--wine)\"/><text x=\"30\" y=\"129\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"700\" fill=\"var(--card)\">K</text><text x=\"62\" y=\"123\" font-size=\"10.5\" font-weight=\"600\" fill=\"var(--ink)\">Knowledge</text><text x=\"62\" y=\"134\" font-size=\"9\" fill=\"var(--mute)\">informar aos poucos, sem jargão</text><rect x=\"8\" y=\"144\" width=\"44\" height=\"28\" rx=\"7\" fill=\"var(--wine)\"/><text x=\"30\" y=\"163\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"700\" fill=\"var(--card)\">E</text><text x=\"62\" y=\"157\" font-size=\"10.5\" font-weight=\"600\" fill=\"var(--ink)\">Emotions</text><text x=\"62\" y=\"168\" font-size=\"9\" fill=\"var(--mute)\">acolher com empatia</text><rect x=\"8\" y=\"178\" width=\"44\" height=\"28\" rx=\"7\" fill=\"var(--wine)\"/><text x=\"30\" y=\"197\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"700\" fill=\"var(--card)\">S</text><text x=\"62\" y=\"191\" font-size=\"10.5\" font-weight=\"600\" fill=\"var(--ink)\">Strategy/Summary</text><text x=\"62\" y=\"202\" font-size=\"9\" fill=\"var(--mute)\">resumir e planejar</text></svg>",
+     "legenda": "Protocolo SPIKES em 6 etapas"
+    }
+   ],
+   "fonte": "Baile WF, Buckman R et al. — SPIKES (The Oncologist, 2000) / INCA — Comunicação de notícias difíceis (2010)",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "spk-d1",
+   "tipo": "digitar",
+   "area": "Medicina Preventiva",
+   "tema": "Atenção Primária",
+   "sub": "Comunicação de más notícias — SPIKES",
+   "frente": "Qual etapa do SPIKES acolhe a reação do paciente com empatia?",
+   "verso": "**E — Emotions.**",
+   "resposta": "Emotions",
+   "aceitas": [
+    "e",
+    "emoções",
+    "emocoes",
+    "empatia",
+    "emotions"
+   ],
+   "macete": "E de Empatia.",
+   "prio": "media",
+   "contexto": "**Protocolo SPIKES = roteiro de 6 etapas para comunicar más notícias (criado em oncologia por Baile e Buckman); organiza a conversa e protege a relação médico-paciente.**\n\nAs 6 etapas:\n- **S — Setting (preparar o ambiente)** → local reservado, sentar, sem interrupções, acompanhante se o paciente quiser, tempo disponível\n- **P — Perception (percepção)** → descobrir o que o paciente já sabe e entende (\"O que o senhor já sabe sobre seus exames?\")\n- **I — Invitation (convite)** → perguntar QUANTO e COMO ele quer saber (\"O senhor quer que eu explique os detalhes do resultado?\")\n- **K — Knowledge (conhecimento)** → dar a informação em linguagem simples, em pequenas partes, avisando antes (\"Infelizmente, não trago boas notícias…\")\n- **E — Emotions (emoções/empatia)** → acolher a reação, nomear a emoção, dar tempo, silêncio\n- **S — Strategy and Summary (estratégia e resumo)** → resumir, combinar o plano e os próximos passos, checar o entendimento\n\nPrincípios:\n- Respeitar o direito de NÃO querer saber (por isso existe o \"convite\")\n- Evitar jargão e falsas esperanças; não tirar toda a esperança\n- Falar a verdade de forma gradual (dose da informação)\n\nO que mais cai no Vila Verde:\n- VIV 2026 → etapa em que se pergunta ao paciente quanto ele deseja saber = INVITATION (convite).",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 214\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><rect x=\"8\" y=\"8\" width=\"44\" height=\"28\" rx=\"7\" fill=\"var(--wine)\"/><text x=\"30\" y=\"27\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"700\" fill=\"var(--card)\">S</text><text x=\"62\" y=\"21\" font-size=\"10.5\" font-weight=\"600\" fill=\"var(--ink)\">Setting</text><text x=\"62\" y=\"32\" font-size=\"9\" fill=\"var(--mute)\">ambiente reservado, sentar, tempo</text><rect x=\"8\" y=\"42\" width=\"44\" height=\"28\" rx=\"7\" fill=\"var(--wine)\"/><text x=\"30\" y=\"61\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"700\" fill=\"var(--card)\">P</text><text x=\"62\" y=\"55\" font-size=\"10.5\" font-weight=\"600\" fill=\"var(--ink)\">Perception</text><text x=\"62\" y=\"66\" font-size=\"9\" fill=\"var(--mute)\">o que ele já sabe?</text><rect x=\"8\" y=\"76\" width=\"44\" height=\"28\" rx=\"7\" fill=\"var(--wine)\"/><text x=\"30\" y=\"95\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"700\" fill=\"var(--card)\">I</text><text x=\"62\" y=\"89\" font-size=\"10.5\" font-weight=\"600\" fill=\"var(--ink)\">Invitation</text><text x=\"62\" y=\"100\" font-size=\"9\" fill=\"var(--mute)\">quanto ele quer saber?</text><rect x=\"8\" y=\"110\" width=\"44\" height=\"28\" rx=\"7\" fill=\"var(--wine)\"/><text x=\"30\" y=\"129\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"700\" fill=\"var(--card)\">K</text><text x=\"62\" y=\"123\" font-size=\"10.5\" font-weight=\"600\" fill=\"var(--ink)\">Knowledge</text><text x=\"62\" y=\"134\" font-size=\"9\" fill=\"var(--mute)\">informar aos poucos, sem jargão</text><rect x=\"8\" y=\"144\" width=\"44\" height=\"28\" rx=\"7\" fill=\"var(--wine)\"/><text x=\"30\" y=\"163\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"700\" fill=\"var(--card)\">E</text><text x=\"62\" y=\"157\" font-size=\"10.5\" font-weight=\"600\" fill=\"var(--ink)\">Emotions</text><text x=\"62\" y=\"168\" font-size=\"9\" fill=\"var(--mute)\">acolher com empatia</text><rect x=\"8\" y=\"178\" width=\"44\" height=\"28\" rx=\"7\" fill=\"var(--wine)\"/><text x=\"30\" y=\"197\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"700\" fill=\"var(--card)\">S</text><text x=\"62\" y=\"191\" font-size=\"10.5\" font-weight=\"600\" fill=\"var(--ink)\">Strategy/Summary</text><text x=\"62\" y=\"202\" font-size=\"9\" fill=\"var(--mute)\">resumir e planejar</text></svg>",
+     "legenda": "Protocolo SPIKES em 6 etapas"
+    }
+   ],
+   "fonte": "Baile WF, Buckman R et al. — SPIKES (The Oncologist, 2000) / INCA — Comunicação de notícias difíceis (2010)",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "spk-d2",
+   "tipo": "digitar",
+   "area": "Medicina Preventiva",
+   "tema": "Atenção Primária",
+   "sub": "Comunicação de más notícias — SPIKES",
+   "frente": "Qual a primeira etapa do SPIKES?",
+   "verso": "**Setting (preparar o ambiente).**",
+   "resposta": "Setting",
+   "aceitas": [
+    "s",
+    "ambiente",
+    "preparar o ambiente",
+    "setting"
+   ],
+   "macete": "Primeiro \"Sente\".",
+   "prio": "media",
+   "contexto": "**Protocolo SPIKES = roteiro de 6 etapas para comunicar más notícias (criado em oncologia por Baile e Buckman); organiza a conversa e protege a relação médico-paciente.**\n\nAs 6 etapas:\n- **S — Setting (preparar o ambiente)** → local reservado, sentar, sem interrupções, acompanhante se o paciente quiser, tempo disponível\n- **P — Perception (percepção)** → descobrir o que o paciente já sabe e entende (\"O que o senhor já sabe sobre seus exames?\")\n- **I — Invitation (convite)** → perguntar QUANTO e COMO ele quer saber (\"O senhor quer que eu explique os detalhes do resultado?\")\n- **K — Knowledge (conhecimento)** → dar a informação em linguagem simples, em pequenas partes, avisando antes (\"Infelizmente, não trago boas notícias…\")\n- **E — Emotions (emoções/empatia)** → acolher a reação, nomear a emoção, dar tempo, silêncio\n- **S — Strategy and Summary (estratégia e resumo)** → resumir, combinar o plano e os próximos passos, checar o entendimento\n\nPrincípios:\n- Respeitar o direito de NÃO querer saber (por isso existe o \"convite\")\n- Evitar jargão e falsas esperanças; não tirar toda a esperança\n- Falar a verdade de forma gradual (dose da informação)\n\nO que mais cai no Vila Verde:\n- VIV 2026 → etapa em que se pergunta ao paciente quanto ele deseja saber = INVITATION (convite).",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 214\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><rect x=\"8\" y=\"8\" width=\"44\" height=\"28\" rx=\"7\" fill=\"var(--wine)\"/><text x=\"30\" y=\"27\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"700\" fill=\"var(--card)\">S</text><text x=\"62\" y=\"21\" font-size=\"10.5\" font-weight=\"600\" fill=\"var(--ink)\">Setting</text><text x=\"62\" y=\"32\" font-size=\"9\" fill=\"var(--mute)\">ambiente reservado, sentar, tempo</text><rect x=\"8\" y=\"42\" width=\"44\" height=\"28\" rx=\"7\" fill=\"var(--wine)\"/><text x=\"30\" y=\"61\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"700\" fill=\"var(--card)\">P</text><text x=\"62\" y=\"55\" font-size=\"10.5\" font-weight=\"600\" fill=\"var(--ink)\">Perception</text><text x=\"62\" y=\"66\" font-size=\"9\" fill=\"var(--mute)\">o que ele já sabe?</text><rect x=\"8\" y=\"76\" width=\"44\" height=\"28\" rx=\"7\" fill=\"var(--wine)\"/><text x=\"30\" y=\"95\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"700\" fill=\"var(--card)\">I</text><text x=\"62\" y=\"89\" font-size=\"10.5\" font-weight=\"600\" fill=\"var(--ink)\">Invitation</text><text x=\"62\" y=\"100\" font-size=\"9\" fill=\"var(--mute)\">quanto ele quer saber?</text><rect x=\"8\" y=\"110\" width=\"44\" height=\"28\" rx=\"7\" fill=\"var(--wine)\"/><text x=\"30\" y=\"129\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"700\" fill=\"var(--card)\">K</text><text x=\"62\" y=\"123\" font-size=\"10.5\" font-weight=\"600\" fill=\"var(--ink)\">Knowledge</text><text x=\"62\" y=\"134\" font-size=\"9\" fill=\"var(--mute)\">informar aos poucos, sem jargão</text><rect x=\"8\" y=\"144\" width=\"44\" height=\"28\" rx=\"7\" fill=\"var(--wine)\"/><text x=\"30\" y=\"163\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"700\" fill=\"var(--card)\">E</text><text x=\"62\" y=\"157\" font-size=\"10.5\" font-weight=\"600\" fill=\"var(--ink)\">Emotions</text><text x=\"62\" y=\"168\" font-size=\"9\" fill=\"var(--mute)\">acolher com empatia</text><rect x=\"8\" y=\"178\" width=\"44\" height=\"28\" rx=\"7\" fill=\"var(--wine)\"/><text x=\"30\" y=\"197\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"700\" fill=\"var(--card)\">S</text><text x=\"62\" y=\"191\" font-size=\"10.5\" font-weight=\"600\" fill=\"var(--ink)\">Strategy/Summary</text><text x=\"62\" y=\"202\" font-size=\"9\" fill=\"var(--mute)\">resumir e planejar</text></svg>",
+     "legenda": "Protocolo SPIKES em 6 etapas"
+    }
+   ],
+   "fonte": "Baile WF, Buckman R et al. — SPIKES (The Oncologist, 2000) / INCA — Comunicação de notícias difíceis (2010)",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "dlp-01",
+   "tipo": "flash",
+   "area": "Medicina Preventiva",
+   "tema": "Atenção Primária",
+   "sub": "Dislipidemia e prevenção cardiovascular",
+   "frente": "Diabético hipertenso de alto risco com LDL 160 mg/dL: conduta",
+   "verso": "**Estatina de alta potência + mudança de estilo de vida.**\n**Meta LDL < 70 mg/dL (alto risco).**\n\nSe não atingir:\n- Associar ezetimiba.\n- Depois, inibidor de PCSK9.",
+   "macete": "\"Alto risco, alvo de 70\"; \"muito alto, 50\"; \"extremo, 40\".",
+   "visual": {
+    "tipo": "tabela",
+    "cab": [
+     "Estatina",
+     "Alta potência"
+    ],
+    "linhas": [
+     [
+      "Atorvastatina",
+      "40–80 mg"
+     ],
+     [
+      "Rosuvastatina",
+      "20–40 mg"
+     ]
+    ]
+   },
+   "pegadinha": "Diabetes NUNCA é baixo risco.",
+   "uerj": "VIV 2026: meta e conduta na dislipidemia do diabético hipertenso.",
+   "prio": "alta",
+   "contexto": "**Dislipidemia e prevenção cardiovascular = estratificar o risco do paciente e definir a meta de LDL; quanto maior o risco, mais baixo o LDL alvo.**\n\nCategorias de risco e metas (SBC 2025):\n- **Baixo** → LDL < 115 mg/dL (não-HDL < 145)\n- **Intermediário** → LDL < 100 (não-HDL < 130)\n- **Alto** → LDL < 70 (não-HDL < 100)\n- **Muito alto** → LDL < 50 (não-HDL < 80)\n- **Extremo** → LDL < 40 (não-HDL < 70)\n\nQuem é de alto risco (exemplos):\n- LDL ≥ 190 mg/dL\n- Diabetes em homem ≥ 50 anos ou mulher ≥ 56 anos\n- DRC, aterosclerose subclínica significativa\n- Muito alto/extremo → doença aterosclerótica manifesta (IAM, AVC, doença arterial periférica), eventos recorrentes\n- **Diabetes nunca é baixo risco**\n\nTratamento:\n- Mudança de estilo de vida sempre (dieta, atividade física, perda de peso, parar de fumar)\n- **Estatina** é a 1ª escolha; alta potência (atorvastatina 40–80, rosuvastatina 20–40) quando precisa reduzir ≥ 50%\n- Não atingiu a meta → + ezetimiba → + inibidor de PCSK9\n- Intolerante à estatina → ezetimiba; ácido bempedoico\n- Triglicerídeos > 500 (risco de pancreatite) → fibrato\n\nEfeitos adversos da estatina:\n- Mialgia, elevação de CK/rabdomiólise (raro), elevação de transaminases\n- Contraindicada na gestação\n\nO que mais cai no Vila Verde:\n- VIV 2026 → diabético e hipertenso com LDL 160 (alto risco): estatina de alta potência + mudança de estilo de vida, com meta de LDL baixa.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "Risco CV (SBC 2025)",
+      "Meta LDL",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "Baixo",
+       "< 115 mg/dL",
+       "MEV; estatina se não atingir"
+      ],
+      [
+       "Intermediário",
+       "< 100 mg/dL",
+       "MEV + estatina"
+      ],
+      [
+       "Alto",
+       "< 70 mg/dL",
+       "Estatina de alta potência (± ezetimiba)"
+      ],
+      [
+       "Muito alto",
+       "< 50 mg/dL",
+       "Alta potência + ezetimiba; PCSK9 se preciso"
+      ],
+      [
+       "Extremo",
+       "< 40 mg/dL",
+       "Terapia combinada intensiva"
+      ]
+     ]
+    }
+   ],
+   "fonte": "SBC — Diretriz Brasileira de Dislipidemias e Prevenção da Aterosclerose 2025 (Arq Bras Cardiol 2025;122(9)) / ESC/EAS Dyslipidaemia Guidelines (2019, focused update 2025)",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "dlp-02",
+   "tipo": "flash",
+   "area": "Medicina Preventiva",
+   "tema": "Atenção Primária",
+   "sub": "Dislipidemia e prevenção cardiovascular",
+   "frente": "Metas de LDL por categoria de risco (SBC 2025)",
+   "verso": "**Baixo < 115.**\n**Intermediário < 100.**\n**Alto < 70.**\n**Muito alto < 50.**\n**Extremo < 40.**",
+   "macete": "\"115, 100, 70, 50, 40\" — desce a escada do risco.",
+   "pegadinha": "As metas mudaram em 2025: baixo risco passou de < 130 para < 115.",
+   "prio": "media",
+   "contexto": "**Dislipidemia e prevenção cardiovascular = estratificar o risco do paciente e definir a meta de LDL; quanto maior o risco, mais baixo o LDL alvo.**\n\nCategorias de risco e metas (SBC 2025):\n- **Baixo** → LDL < 115 mg/dL (não-HDL < 145)\n- **Intermediário** → LDL < 100 (não-HDL < 130)\n- **Alto** → LDL < 70 (não-HDL < 100)\n- **Muito alto** → LDL < 50 (não-HDL < 80)\n- **Extremo** → LDL < 40 (não-HDL < 70)\n\nQuem é de alto risco (exemplos):\n- LDL ≥ 190 mg/dL\n- Diabetes em homem ≥ 50 anos ou mulher ≥ 56 anos\n- DRC, aterosclerose subclínica significativa\n- Muito alto/extremo → doença aterosclerótica manifesta (IAM, AVC, doença arterial periférica), eventos recorrentes\n- **Diabetes nunca é baixo risco**\n\nTratamento:\n- Mudança de estilo de vida sempre (dieta, atividade física, perda de peso, parar de fumar)\n- **Estatina** é a 1ª escolha; alta potência (atorvastatina 40–80, rosuvastatina 20–40) quando precisa reduzir ≥ 50%\n- Não atingiu a meta → + ezetimiba → + inibidor de PCSK9\n- Intolerante à estatina → ezetimiba; ácido bempedoico\n- Triglicerídeos > 500 (risco de pancreatite) → fibrato\n\nEfeitos adversos da estatina:\n- Mialgia, elevação de CK/rabdomiólise (raro), elevação de transaminases\n- Contraindicada na gestação\n\nO que mais cai no Vila Verde:\n- VIV 2026 → diabético e hipertenso com LDL 160 (alto risco): estatina de alta potência + mudança de estilo de vida, com meta de LDL baixa.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "Risco CV (SBC 2025)",
+      "Meta LDL",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "Baixo",
+       "< 115 mg/dL",
+       "MEV; estatina se não atingir"
+      ],
+      [
+       "Intermediário",
+       "< 100 mg/dL",
+       "MEV + estatina"
+      ],
+      [
+       "Alto",
+       "< 70 mg/dL",
+       "Estatina de alta potência (± ezetimiba)"
+      ],
+      [
+       "Muito alto",
+       "< 50 mg/dL",
+       "Alta potência + ezetimiba; PCSK9 se preciso"
+      ],
+      [
+       "Extremo",
+       "< 40 mg/dL",
+       "Terapia combinada intensiva"
+      ]
+     ]
+    }
+   ],
+   "fonte": "SBC — Diretriz Brasileira de Dislipidemias e Prevenção da Aterosclerose 2025 (Arq Bras Cardiol 2025;122(9)) / ESC/EAS Dyslipidaemia Guidelines (2019, focused update 2025)",
+   "add": "2026-10-28",
+   "visual": {
+    "tipo": "tabela",
+    "cab": [
+     "Risco",
+     "LDL alvo",
+     "Não-HDL alvo"
+    ],
+    "linhas": [
+     [
+      "Baixo",
+      "< 115",
+      "< 145"
+     ],
+     [
+      "Intermediário",
+      "< 100",
+      "< 130"
+     ],
+     [
+      "Alto",
+      "< 70",
+      "< 100"
+     ],
+     [
+      "Muito alto",
+      "< 50",
+      "< 80"
+     ],
+     [
+      "Extremo",
+      "< 40",
+      "< 70"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "dlp-q1",
+   "tipo": "quiz",
+   "area": "Medicina Preventiva",
+   "tema": "Atenção Primária",
+   "sub": "Dislipidemia e prevenção cardiovascular",
+   "frente": "Homem de 58 anos, diabético e hipertenso, sem evento cardiovascular prévio, LDL 160 mg/dL. A conduta mais adequada é:",
+   "opcoes": [
+    "Apenas dieta por 6 meses e reavaliar.",
+    "Fibrato como primeira escolha.",
+    "Estatina de alta potência associada a mudança de estilo de vida.",
+    "Ezetimiba isolada como primeira escolha."
+   ],
+   "certa": 2,
+   "comentarios": [
+    "Errada: alto risco não espera.",
+    "Errada: fibrato é para triglicerídeos muito altos.",
+    "Correta.",
+    "Errada: estatina é a 1ª escolha."
+   ],
+   "macete": "Alto risco → \"estatina forte já\".",
+   "pegadinha": "Ezetimiba entra como ASSOCIAÇÃO, não como 1ª escolha.",
+   "uerj": "VIV 2026 (Q1).",
+   "prio": "alta",
+   "contexto": "**Dislipidemia e prevenção cardiovascular = estratificar o risco do paciente e definir a meta de LDL; quanto maior o risco, mais baixo o LDL alvo.**\n\nCategorias de risco e metas (SBC 2025):\n- **Baixo** → LDL < 115 mg/dL (não-HDL < 145)\n- **Intermediário** → LDL < 100 (não-HDL < 130)\n- **Alto** → LDL < 70 (não-HDL < 100)\n- **Muito alto** → LDL < 50 (não-HDL < 80)\n- **Extremo** → LDL < 40 (não-HDL < 70)\n\nQuem é de alto risco (exemplos):\n- LDL ≥ 190 mg/dL\n- Diabetes em homem ≥ 50 anos ou mulher ≥ 56 anos\n- DRC, aterosclerose subclínica significativa\n- Muito alto/extremo → doença aterosclerótica manifesta (IAM, AVC, doença arterial periférica), eventos recorrentes\n- **Diabetes nunca é baixo risco**\n\nTratamento:\n- Mudança de estilo de vida sempre (dieta, atividade física, perda de peso, parar de fumar)\n- **Estatina** é a 1ª escolha; alta potência (atorvastatina 40–80, rosuvastatina 20–40) quando precisa reduzir ≥ 50%\n- Não atingiu a meta → + ezetimiba → + inibidor de PCSK9\n- Intolerante à estatina → ezetimiba; ácido bempedoico\n- Triglicerídeos > 500 (risco de pancreatite) → fibrato\n\nEfeitos adversos da estatina:\n- Mialgia, elevação de CK/rabdomiólise (raro), elevação de transaminases\n- Contraindicada na gestação\n\nO que mais cai no Vila Verde:\n- VIV 2026 → diabético e hipertenso com LDL 160 (alto risco): estatina de alta potência + mudança de estilo de vida, com meta de LDL baixa.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "Risco CV (SBC 2025)",
+      "Meta LDL",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "Baixo",
+       "< 115 mg/dL",
+       "MEV; estatina se não atingir"
+      ],
+      [
+       "Intermediário",
+       "< 100 mg/dL",
+       "MEV + estatina"
+      ],
+      [
+       "Alto",
+       "< 70 mg/dL",
+       "Estatina de alta potência (± ezetimiba)"
+      ],
+      [
+       "Muito alto",
+       "< 50 mg/dL",
+       "Alta potência + ezetimiba; PCSK9 se preciso"
+      ],
+      [
+       "Extremo",
+       "< 40 mg/dL",
+       "Terapia combinada intensiva"
+      ]
+     ]
+    }
+   ],
+   "fonte": "SBC — Diretriz Brasileira de Dislipidemias e Prevenção da Aterosclerose 2025 (Arq Bras Cardiol 2025;122(9)) / ESC/EAS Dyslipidaemia Guidelines (2019, focused update 2025)",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "dlp-d1",
+   "tipo": "digitar",
+   "area": "Medicina Preventiva",
+   "tema": "Atenção Primária",
+   "sub": "Dislipidemia e prevenção cardiovascular",
+   "frente": "Qual a meta de LDL no paciente de alto risco cardiovascular (SBC 2025)?",
+   "verso": "**< 70 mg/dL.**",
+   "resposta": "< 70 mg/dL",
+   "aceitas": [
+    "70",
+    "<70",
+    "menor que 70",
+    "70 mg/dl"
+   ],
+   "macete": "Alto risco = 70.",
+   "prio": "alta",
+   "contexto": "**Dislipidemia e prevenção cardiovascular = estratificar o risco do paciente e definir a meta de LDL; quanto maior o risco, mais baixo o LDL alvo.**\n\nCategorias de risco e metas (SBC 2025):\n- **Baixo** → LDL < 115 mg/dL (não-HDL < 145)\n- **Intermediário** → LDL < 100 (não-HDL < 130)\n- **Alto** → LDL < 70 (não-HDL < 100)\n- **Muito alto** → LDL < 50 (não-HDL < 80)\n- **Extremo** → LDL < 40 (não-HDL < 70)\n\nQuem é de alto risco (exemplos):\n- LDL ≥ 190 mg/dL\n- Diabetes em homem ≥ 50 anos ou mulher ≥ 56 anos\n- DRC, aterosclerose subclínica significativa\n- Muito alto/extremo → doença aterosclerótica manifesta (IAM, AVC, doença arterial periférica), eventos recorrentes\n- **Diabetes nunca é baixo risco**\n\nTratamento:\n- Mudança de estilo de vida sempre (dieta, atividade física, perda de peso, parar de fumar)\n- **Estatina** é a 1ª escolha; alta potência (atorvastatina 40–80, rosuvastatina 20–40) quando precisa reduzir ≥ 50%\n- Não atingiu a meta → + ezetimiba → + inibidor de PCSK9\n- Intolerante à estatina → ezetimiba; ácido bempedoico\n- Triglicerídeos > 500 (risco de pancreatite) → fibrato\n\nEfeitos adversos da estatina:\n- Mialgia, elevação de CK/rabdomiólise (raro), elevação de transaminases\n- Contraindicada na gestação\n\nO que mais cai no Vila Verde:\n- VIV 2026 → diabético e hipertenso com LDL 160 (alto risco): estatina de alta potência + mudança de estilo de vida, com meta de LDL baixa.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "Risco CV (SBC 2025)",
+      "Meta LDL",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "Baixo",
+       "< 115 mg/dL",
+       "MEV; estatina se não atingir"
+      ],
+      [
+       "Intermediário",
+       "< 100 mg/dL",
+       "MEV + estatina"
+      ],
+      [
+       "Alto",
+       "< 70 mg/dL",
+       "Estatina de alta potência (± ezetimiba)"
+      ],
+      [
+       "Muito alto",
+       "< 50 mg/dL",
+       "Alta potência + ezetimiba; PCSK9 se preciso"
+      ],
+      [
+       "Extremo",
+       "< 40 mg/dL",
+       "Terapia combinada intensiva"
+      ]
+     ]
+    }
+   ],
+   "fonte": "SBC — Diretriz Brasileira de Dislipidemias e Prevenção da Aterosclerose 2025 (Arq Bras Cardiol 2025;122(9)) / ESC/EAS Dyslipidaemia Guidelines (2019, focused update 2025)",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "dlp-d2",
+   "tipo": "digitar",
+   "area": "Medicina Preventiva",
+   "tema": "Atenção Primária",
+   "sub": "Dislipidemia e prevenção cardiovascular",
+   "frente": "Qual droga se associa à estatina quando a meta de LDL não é atingida?",
+   "verso": "**Ezetimiba.**\n\n- Depois, inibidor de PCSK9.",
+   "resposta": "Ezetimiba",
+   "aceitas": [
+    "ezetimibe",
+    "ezetimiba"
+   ],
+   "macete": "\"E depois da estatina vem a Ezetimiba\".",
+   "prio": "media",
+   "contexto": "**Dislipidemia e prevenção cardiovascular = estratificar o risco do paciente e definir a meta de LDL; quanto maior o risco, mais baixo o LDL alvo.**\n\nCategorias de risco e metas (SBC 2025):\n- **Baixo** → LDL < 115 mg/dL (não-HDL < 145)\n- **Intermediário** → LDL < 100 (não-HDL < 130)\n- **Alto** → LDL < 70 (não-HDL < 100)\n- **Muito alto** → LDL < 50 (não-HDL < 80)\n- **Extremo** → LDL < 40 (não-HDL < 70)\n\nQuem é de alto risco (exemplos):\n- LDL ≥ 190 mg/dL\n- Diabetes em homem ≥ 50 anos ou mulher ≥ 56 anos\n- DRC, aterosclerose subclínica significativa\n- Muito alto/extremo → doença aterosclerótica manifesta (IAM, AVC, doença arterial periférica), eventos recorrentes\n- **Diabetes nunca é baixo risco**\n\nTratamento:\n- Mudança de estilo de vida sempre (dieta, atividade física, perda de peso, parar de fumar)\n- **Estatina** é a 1ª escolha; alta potência (atorvastatina 40–80, rosuvastatina 20–40) quando precisa reduzir ≥ 50%\n- Não atingiu a meta → + ezetimiba → + inibidor de PCSK9\n- Intolerante à estatina → ezetimiba; ácido bempedoico\n- Triglicerídeos > 500 (risco de pancreatite) → fibrato\n\nEfeitos adversos da estatina:\n- Mialgia, elevação de CK/rabdomiólise (raro), elevação de transaminases\n- Contraindicada na gestação\n\nO que mais cai no Vila Verde:\n- VIV 2026 → diabético e hipertenso com LDL 160 (alto risco): estatina de alta potência + mudança de estilo de vida, com meta de LDL baixa.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "Risco CV (SBC 2025)",
+      "Meta LDL",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "Baixo",
+       "< 115 mg/dL",
+       "MEV; estatina se não atingir"
+      ],
+      [
+       "Intermediário",
+       "< 100 mg/dL",
+       "MEV + estatina"
+      ],
+      [
+       "Alto",
+       "< 70 mg/dL",
+       "Estatina de alta potência (± ezetimiba)"
+      ],
+      [
+       "Muito alto",
+       "< 50 mg/dL",
+       "Alta potência + ezetimiba; PCSK9 se preciso"
+      ],
+      [
+       "Extremo",
+       "< 40 mg/dL",
+       "Terapia combinada intensiva"
+      ]
+     ]
+    }
+   ],
+   "fonte": "SBC — Diretriz Brasileira de Dislipidemias e Prevenção da Aterosclerose 2025 (Arq Bras Cardiol 2025;122(9)) / ESC/EAS Dyslipidaemia Guidelines (2019, focused update 2025)",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "str-01",
+   "tipo": "flash",
+   "area": "Medicina Preventiva",
+   "tema": "Saúde do trabalhador",
+   "sub": "Saúde do trabalhador",
+   "frente": "O que compete ao SUS na saúde do trabalhador?",
+   "verso": "**Vigilância, prevenção e assistência integral.**\n**Notificar os agravos relacionados ao trabalho.**\n\nNão é do SUS:\n- Perícia, benefícios e reabilitação profissional (INSS).\n- Fiscalização das NRs (Ministério do Trabalho).",
+   "macete": "SUS \"Vigia e Cuida\"; INSS \"Periciar e Pagar\".",
+   "pegadinha": "Perícia e reabilitação PROFISSIONAL são da Previdência.",
+   "uerj": "VV 2025: correto = vigilância, prevenção e assistência integral (gabarito A).",
+   "prio": "alta",
+   "contexto": "**Saúde do trabalhador = área da saúde coletiva que estuda a relação trabalho–saúde–doença; no SUS envolve vigilância, assistência integral e notificação dos agravos relacionados ao trabalho.**\n\nPapel do SUS (Lei 8.080 e PNSTT 2012):\n- Vigilância em saúde do trabalhador (ambientes e processos de trabalho)\n- Assistência integral, prevenção, promoção e reabilitação\n- Notificação dos agravos relacionados ao trabalho no SINAN\n- Rede → RENAST e CEREST (Centros de Referência em Saúde do Trabalhador)\n\nO que NÃO é do SUS:\n- Perícia médica, benefícios previdenciários e reabilitação profissional → INSS (Previdência)\n- Normas Regulamentadoras (NR-4 SESMT, NR-7 PCMSO) e fiscalização → Ministério do Trabalho\n- CAT (Comunicação de Acidente de Trabalho) → emitida pela empresa (ou médico/sindicato) para a Previdência\n\nAgravos de notificação compulsória (exemplos):\n- Acidente de trabalho grave/fatal e em crianças/adolescentes\n- Acidente com exposição a material biológico\n- LER/DORT, PAIR (perda auditiva induzida por ruído), pneumoconioses, dermatoses ocupacionais\n- Transtornos mentais relacionados ao trabalho, câncer relacionado ao trabalho, intoxicação exógena\n\nSíndrome de Burnout:\n- Esgotamento por estresse crônico no trabalho; na Lista de Doenças Relacionadas ao Trabalho (MS 2023)\n- Dimensões (Maslach) → exaustão emocional, despersonalização/cinismo, baixa realização profissional\n- **Manifestações psíquicas** → ansiedade, frustração, irritabilidade, desânimo, dificuldade de concentração\n- Manifestações físicas/comportamentais → distúrbios do sono, alterações do apetite, cefaleia\n\nO que mais cai no Vila Verde:\n- VV 2025 → papel do SUS = vigilância, prevenção e assistência integral (perícia e reabilitação profissional são do INSS).\n- VV 2024 → ansiedade e frustração são manifestações psíquicas do Burnout; sono e apetite NÃO foram aceitos como psíquicos (gabarito: apenas I).",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "cab": [
+      "Órgão",
+      "Responsabilidade"
+     ],
+     "linhas": [
+      [
+       "SUS (CEREST/RENAST)",
+       "!Vigilância, assistência, notificação no SINAN"
+      ],
+      [
+       "INSS (Previdência)",
+       "Perícia, benefícios, reabilitação profissional"
+      ],
+      [
+       "Ministério do Trabalho",
+       "NRs, fiscalização (SESMT, PCMSO)"
+      ],
+      [
+       "Empresa",
+       "Emitir a CAT, PCMSO, EPI"
+      ]
+     ]
+    }
+   ],
+   "fonte": "MS — Política Nacional de Saúde do Trabalhador e da Trabalhadora (Portaria 1.823/2012) / Lista de Doenças Relacionadas ao Trabalho (Portaria GM/MS 1.999/2023) / Lei 8.080/1990, art. 6º",
+   "add": "2026-10-28",
+   "visual": {
+    "tipo": "vs",
+    "a": {
+     "t": "SUS",
+     "itens": [
+      "Vigilância (CEREST)",
+      "Assistência integral",
+      "Notificação no SINAN"
+     ]
+    },
+    "b": {
+     "t": "INSS",
+     "itens": [
+      "Perícia",
+      "Benefícios",
+      "Reabilitação profissional"
+     ]
+    }
+   }
+  },
+  {
+   "id": "str-02",
+   "tipo": "flash",
+   "area": "Medicina Preventiva",
+   "tema": "Saúde do trabalhador",
+   "sub": "Saúde do trabalhador",
+   "frente": "Burnout: dimensões e manifestações psíquicas",
+   "verso": "**Exaustão + despersonalização + baixa realização.**\n\nManifestações psíquicas:\n- Ansiedade, frustração, irritabilidade.\n\nFísicas/comportamentais:\n- Distúrbios do sono, apetite, cefaleia.",
+   "macete": "Burnout = \"EDR\": Exausto, Distante (despersonalizado), sem Realização.",
+   "visual": {
+    "tipo": "vs",
+    "a": {
+     "t": "Psíquicas",
+     "itens": [
+      "Ansiedade",
+      "Frustração",
+      "Irritabilidade",
+      "Impotência"
+     ]
+    },
+    "b": {
+     "t": "Físicas/comportamentais",
+     "itens": [
+      "Insônia",
+      "Alteração do apetite",
+      "Cefaleia",
+      "Isolamento"
+     ]
+    }
+   },
+   "pegadinha": "Na VV 2024, sono e apetite NÃO contaram como manifestações psíquicas.",
+   "uerj": "VV 2024: apenas a afirmativa I correta.",
+   "prio": "media",
+   "contexto": "**Saúde do trabalhador = área da saúde coletiva que estuda a relação trabalho–saúde–doença; no SUS envolve vigilância, assistência integral e notificação dos agravos relacionados ao trabalho.**\n\nPapel do SUS (Lei 8.080 e PNSTT 2012):\n- Vigilância em saúde do trabalhador (ambientes e processos de trabalho)\n- Assistência integral, prevenção, promoção e reabilitação\n- Notificação dos agravos relacionados ao trabalho no SINAN\n- Rede → RENAST e CEREST (Centros de Referência em Saúde do Trabalhador)\n\nO que NÃO é do SUS:\n- Perícia médica, benefícios previdenciários e reabilitação profissional → INSS (Previdência)\n- Normas Regulamentadoras (NR-4 SESMT, NR-7 PCMSO) e fiscalização → Ministério do Trabalho\n- CAT (Comunicação de Acidente de Trabalho) → emitida pela empresa (ou médico/sindicato) para a Previdência\n\nAgravos de notificação compulsória (exemplos):\n- Acidente de trabalho grave/fatal e em crianças/adolescentes\n- Acidente com exposição a material biológico\n- LER/DORT, PAIR (perda auditiva induzida por ruído), pneumoconioses, dermatoses ocupacionais\n- Transtornos mentais relacionados ao trabalho, câncer relacionado ao trabalho, intoxicação exógena\n\nSíndrome de Burnout:\n- Esgotamento por estresse crônico no trabalho; na Lista de Doenças Relacionadas ao Trabalho (MS 2023)\n- Dimensões (Maslach) → exaustão emocional, despersonalização/cinismo, baixa realização profissional\n- **Manifestações psíquicas** → ansiedade, frustração, irritabilidade, desânimo, dificuldade de concentração\n- Manifestações físicas/comportamentais → distúrbios do sono, alterações do apetite, cefaleia\n\nO que mais cai no Vila Verde:\n- VV 2025 → papel do SUS = vigilância, prevenção e assistência integral (perícia e reabilitação profissional são do INSS).\n- VV 2024 → ansiedade e frustração são manifestações psíquicas do Burnout; sono e apetite NÃO foram aceitos como psíquicos (gabarito: apenas I).",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "cab": [
+      "Órgão",
+      "Responsabilidade"
+     ],
+     "linhas": [
+      [
+       "SUS (CEREST/RENAST)",
+       "!Vigilância, assistência, notificação no SINAN"
+      ],
+      [
+       "INSS (Previdência)",
+       "Perícia, benefícios, reabilitação profissional"
+      ],
+      [
+       "Ministério do Trabalho",
+       "NRs, fiscalização (SESMT, PCMSO)"
+      ],
+      [
+       "Empresa",
+       "Emitir a CAT, PCMSO, EPI"
+      ]
+     ]
+    }
+   ],
+   "fonte": "MS — Política Nacional de Saúde do Trabalhador e da Trabalhadora (Portaria 1.823/2012) / Lista de Doenças Relacionadas ao Trabalho (Portaria GM/MS 1.999/2023) / Lei 8.080/1990, art. 6º",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "str-q1",
+   "tipo": "quiz",
+   "area": "Medicina Preventiva",
+   "tema": "Saúde do trabalhador",
+   "sub": "Saúde do trabalhador",
+   "frente": "Sobre o papel do Ministério da Saúde/SUS na saúde do trabalhador, é CORRETO afirmar:",
+   "opcoes": [
+    "Responsabilizar-se pela perícia médica e pela reabilitação profissional.",
+    "Promover vigilância, prevenção e assistência integral, reduzindo riscos ocupacionais.",
+    "Coordenar a utilização de agrotóxicos na agricultura.",
+    "Emitir a CAT de todos os trabalhadores formais."
+   ],
+   "certa": 1,
+   "comentarios": [
+    "INSS.",
+    "Correta.",
+    "Não é atribuição central do SUS em saúde do trabalhador.",
+    "A CAT é emitida pela empresa."
+   ],
+   "macete": "SUS \"Vigia e Cuida\".",
+   "pegadinha": "Perícia = INSS.",
+   "uerj": "VV 2025 (Q88, gabarito A).",
+   "prio": "media",
+   "contexto": "**Saúde do trabalhador = área da saúde coletiva que estuda a relação trabalho–saúde–doença; no SUS envolve vigilância, assistência integral e notificação dos agravos relacionados ao trabalho.**\n\nPapel do SUS (Lei 8.080 e PNSTT 2012):\n- Vigilância em saúde do trabalhador (ambientes e processos de trabalho)\n- Assistência integral, prevenção, promoção e reabilitação\n- Notificação dos agravos relacionados ao trabalho no SINAN\n- Rede → RENAST e CEREST (Centros de Referência em Saúde do Trabalhador)\n\nO que NÃO é do SUS:\n- Perícia médica, benefícios previdenciários e reabilitação profissional → INSS (Previdência)\n- Normas Regulamentadoras (NR-4 SESMT, NR-7 PCMSO) e fiscalização → Ministério do Trabalho\n- CAT (Comunicação de Acidente de Trabalho) → emitida pela empresa (ou médico/sindicato) para a Previdência\n\nAgravos de notificação compulsória (exemplos):\n- Acidente de trabalho grave/fatal e em crianças/adolescentes\n- Acidente com exposição a material biológico\n- LER/DORT, PAIR (perda auditiva induzida por ruído), pneumoconioses, dermatoses ocupacionais\n- Transtornos mentais relacionados ao trabalho, câncer relacionado ao trabalho, intoxicação exógena\n\nSíndrome de Burnout:\n- Esgotamento por estresse crônico no trabalho; na Lista de Doenças Relacionadas ao Trabalho (MS 2023)\n- Dimensões (Maslach) → exaustão emocional, despersonalização/cinismo, baixa realização profissional\n- **Manifestações psíquicas** → ansiedade, frustração, irritabilidade, desânimo, dificuldade de concentração\n- Manifestações físicas/comportamentais → distúrbios do sono, alterações do apetite, cefaleia\n\nO que mais cai no Vila Verde:\n- VV 2025 → papel do SUS = vigilância, prevenção e assistência integral (perícia e reabilitação profissional são do INSS).\n- VV 2024 → ansiedade e frustração são manifestações psíquicas do Burnout; sono e apetite NÃO foram aceitos como psíquicos (gabarito: apenas I).",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "cab": [
+      "Órgão",
+      "Responsabilidade"
+     ],
+     "linhas": [
+      [
+       "SUS (CEREST/RENAST)",
+       "!Vigilância, assistência, notificação no SINAN"
+      ],
+      [
+       "INSS (Previdência)",
+       "Perícia, benefícios, reabilitação profissional"
+      ],
+      [
+       "Ministério do Trabalho",
+       "NRs, fiscalização (SESMT, PCMSO)"
+      ],
+      [
+       "Empresa",
+       "Emitir a CAT, PCMSO, EPI"
+      ]
+     ]
+    }
+   ],
+   "fonte": "MS — Política Nacional de Saúde do Trabalhador e da Trabalhadora (Portaria 1.823/2012) / Lista de Doenças Relacionadas ao Trabalho (Portaria GM/MS 1.999/2023) / Lei 8.080/1990, art. 6º",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "str-d1",
+   "tipo": "digitar",
+   "area": "Medicina Preventiva",
+   "tema": "Saúde do trabalhador",
+   "sub": "Saúde do trabalhador",
+   "frente": "Qual a sigla dos centros de referência em saúde do trabalhador no SUS?",
+   "verso": "**CEREST.**",
+   "resposta": "CEREST",
+   "aceitas": [
+    "cerest"
+   ],
+   "macete": "CEREST = \"Centro de Referência\".",
+   "prio": "media",
+   "contexto": "**Saúde do trabalhador = área da saúde coletiva que estuda a relação trabalho–saúde–doença; no SUS envolve vigilância, assistência integral e notificação dos agravos relacionados ao trabalho.**\n\nPapel do SUS (Lei 8.080 e PNSTT 2012):\n- Vigilância em saúde do trabalhador (ambientes e processos de trabalho)\n- Assistência integral, prevenção, promoção e reabilitação\n- Notificação dos agravos relacionados ao trabalho no SINAN\n- Rede → RENAST e CEREST (Centros de Referência em Saúde do Trabalhador)\n\nO que NÃO é do SUS:\n- Perícia médica, benefícios previdenciários e reabilitação profissional → INSS (Previdência)\n- Normas Regulamentadoras (NR-4 SESMT, NR-7 PCMSO) e fiscalização → Ministério do Trabalho\n- CAT (Comunicação de Acidente de Trabalho) → emitida pela empresa (ou médico/sindicato) para a Previdência\n\nAgravos de notificação compulsória (exemplos):\n- Acidente de trabalho grave/fatal e em crianças/adolescentes\n- Acidente com exposição a material biológico\n- LER/DORT, PAIR (perda auditiva induzida por ruído), pneumoconioses, dermatoses ocupacionais\n- Transtornos mentais relacionados ao trabalho, câncer relacionado ao trabalho, intoxicação exógena\n\nSíndrome de Burnout:\n- Esgotamento por estresse crônico no trabalho; na Lista de Doenças Relacionadas ao Trabalho (MS 2023)\n- Dimensões (Maslach) → exaustão emocional, despersonalização/cinismo, baixa realização profissional\n- **Manifestações psíquicas** → ansiedade, frustração, irritabilidade, desânimo, dificuldade de concentração\n- Manifestações físicas/comportamentais → distúrbios do sono, alterações do apetite, cefaleia\n\nO que mais cai no Vila Verde:\n- VV 2025 → papel do SUS = vigilância, prevenção e assistência integral (perícia e reabilitação profissional são do INSS).\n- VV 2024 → ansiedade e frustração são manifestações psíquicas do Burnout; sono e apetite NÃO foram aceitos como psíquicos (gabarito: apenas I).",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "cab": [
+      "Órgão",
+      "Responsabilidade"
+     ],
+     "linhas": [
+      [
+       "SUS (CEREST/RENAST)",
+       "!Vigilância, assistência, notificação no SINAN"
+      ],
+      [
+       "INSS (Previdência)",
+       "Perícia, benefícios, reabilitação profissional"
+      ],
+      [
+       "Ministério do Trabalho",
+       "NRs, fiscalização (SESMT, PCMSO)"
+      ],
+      [
+       "Empresa",
+       "Emitir a CAT, PCMSO, EPI"
+      ]
+     ]
+    }
+   ],
+   "fonte": "MS — Política Nacional de Saúde do Trabalhador e da Trabalhadora (Portaria 1.823/2012) / Lista de Doenças Relacionadas ao Trabalho (Portaria GM/MS 1.999/2023) / Lei 8.080/1990, art. 6º",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "str-d2",
+   "tipo": "digitar",
+   "area": "Medicina Preventiva",
+   "tema": "Saúde do trabalhador",
+   "sub": "Saúde do trabalhador",
+   "frente": "Qual órgão é responsável pela perícia e reabilitação profissional?",
+   "verso": "**INSS (Previdência Social).**",
+   "resposta": "INSS",
+   "aceitas": [
+    "inss",
+    "previdência",
+    "previdencia social"
+   ],
+   "macete": "INSS = \"Perícia e Pagamento\".",
+   "prio": "media",
+   "contexto": "**Saúde do trabalhador = área da saúde coletiva que estuda a relação trabalho–saúde–doença; no SUS envolve vigilância, assistência integral e notificação dos agravos relacionados ao trabalho.**\n\nPapel do SUS (Lei 8.080 e PNSTT 2012):\n- Vigilância em saúde do trabalhador (ambientes e processos de trabalho)\n- Assistência integral, prevenção, promoção e reabilitação\n- Notificação dos agravos relacionados ao trabalho no SINAN\n- Rede → RENAST e CEREST (Centros de Referência em Saúde do Trabalhador)\n\nO que NÃO é do SUS:\n- Perícia médica, benefícios previdenciários e reabilitação profissional → INSS (Previdência)\n- Normas Regulamentadoras (NR-4 SESMT, NR-7 PCMSO) e fiscalização → Ministério do Trabalho\n- CAT (Comunicação de Acidente de Trabalho) → emitida pela empresa (ou médico/sindicato) para a Previdência\n\nAgravos de notificação compulsória (exemplos):\n- Acidente de trabalho grave/fatal e em crianças/adolescentes\n- Acidente com exposição a material biológico\n- LER/DORT, PAIR (perda auditiva induzida por ruído), pneumoconioses, dermatoses ocupacionais\n- Transtornos mentais relacionados ao trabalho, câncer relacionado ao trabalho, intoxicação exógena\n\nSíndrome de Burnout:\n- Esgotamento por estresse crônico no trabalho; na Lista de Doenças Relacionadas ao Trabalho (MS 2023)\n- Dimensões (Maslach) → exaustão emocional, despersonalização/cinismo, baixa realização profissional\n- **Manifestações psíquicas** → ansiedade, frustração, irritabilidade, desânimo, dificuldade de concentração\n- Manifestações físicas/comportamentais → distúrbios do sono, alterações do apetite, cefaleia\n\nO que mais cai no Vila Verde:\n- VV 2025 → papel do SUS = vigilância, prevenção e assistência integral (perícia e reabilitação profissional são do INSS).\n- VV 2024 → ansiedade e frustração são manifestações psíquicas do Burnout; sono e apetite NÃO foram aceitos como psíquicos (gabarito: apenas I).",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "cab": [
+      "Órgão",
+      "Responsabilidade"
+     ],
+     "linhas": [
+      [
+       "SUS (CEREST/RENAST)",
+       "!Vigilância, assistência, notificação no SINAN"
+      ],
+      [
+       "INSS (Previdência)",
+       "Perícia, benefícios, reabilitação profissional"
+      ],
+      [
+       "Ministério do Trabalho",
+       "NRs, fiscalização (SESMT, PCMSO)"
+      ],
+      [
+       "Empresa",
+       "Emitir a CAT, PCMSO, EPI"
+      ]
+     ]
+    }
+   ],
+   "fonte": "MS — Política Nacional de Saúde do Trabalhador e da Trabalhadora (Portaria 1.823/2012) / Lista de Doenças Relacionadas ao Trabalho (Portaria GM/MS 1.999/2023) / Lei 8.080/1990, art. 6º",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "etc-01",
+   "tipo": "flash",
+   "area": "Medicina Preventiva",
+   "tema": "Ética médica",
+   "sub": "Ética médica — sigilo, adolescente e aborto legal",
+   "frente": "Adolescente pede sigilo, mas a não revelação traz risco à sua saúde: o que fazer?",
+   "verso": "**Revelar aos pais/responsáveis.**\n\nBase:\n- Art. 74 do CEM → sigilo do menor com discernimento, EXCETO se a não revelação causar dano.\n\nSe houver violência:\n- Notificar o Conselho Tutelar.",
+   "macete": "Sigilo do adolescente \"vale até onde começa o perigo\".",
+   "pegadinha": "Não é preciso autorização do adolescente para revelar quando há risco.",
+   "uerj": "VV 2025: deve revelar aos pais por risco de dano (gabarito D).",
+   "prio": "alta",
+   "contexto": "**Ética médica na prova = sigilo profissional (inclusive de criança e adolescente) e as situações de aborto permitidas por lei no Brasil.**\n\nSigilo médico (Código de Ética Médica, Res. CFM 2.217/2018):\n- **Art. 73** → proibido revelar fato conhecido no exercício da profissão, salvo **motivo justo, dever legal ou consentimento por escrito** do paciente\n- **Art. 74** → proibido revelar sigilo de criança/adolescente, **inclusive aos pais**, se o menor tiver capacidade de discernimento\n  - **EXCEÇÃO** → quando a não revelação puder acarretar **dano ao paciente** → pode/deve revelar aos responsáveis\n- Suspeita de maus-tratos/violência contra criança ou adolescente → notificação obrigatória ao Conselho Tutelar (ECA)\n- Doença de notificação compulsória → dever legal (não quebra ética)\n\nAtendimento do adolescente:\n- Pode ser atendido sozinho, com sigilo e privacidade\n- Sigilo cai diante de risco à vida/saúde (abuso, risco de suicídio, drogas com risco grave, gravidez de risco)\n\nAborto legal no Brasil:\n- **Risco de vida da gestante** (aborto necessário) → Código Penal, art. 128, I\n- **Gravidez resultante de estupro** → Código Penal, art. 128, II; não exige boletim de ocorrência nem autorização judicial; basta o consentimento da mulher (ou do representante legal)\n- **Anencefalia** → STF, ADPF 54 (2012)\n- Fora dessas situações (malformação não letal, gravidez indesejada) → não é permitido\n\nO que mais cai no Vila Verde:\n- VV 2025 → adolescente de 12 anos com risco à saúde pede sigilo: deve revelar aos pais, pois a não revelação pode causar dano.\n- VV 2024 → permissão legal de aborto: gravidez resultante de estupro (feto sem um braço, gravidez indesejada e pré-eclâmpsia são distratores).",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 170\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><rect x=\"10\" y=\"8\" width=\"320\" height=\"32\" rx=\"9\" fill=\"var(--wine)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"170.0\" y=\"27.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--card)\">Adolescente pede sigilo</text><line x1=\"170\" y1=\"40\" x2=\"170\" y2=\"52\" stroke=\"var(--rose)\"/><rect x=\"40\" y=\"52\" width=\"260\" height=\"32\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"170.0\" y=\"71.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Há risco de dano à saúde ou à vida?</text><line x1=\"90\" y1=\"84\" x2=\"90\" y2=\"98\" stroke=\"var(--rose)\"/><line x1=\"250\" y1=\"84\" x2=\"250\" y2=\"98\" stroke=\"var(--rose)\"/><rect x=\"10\" y=\"98\" width=\"160\" height=\"44\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"90.0\" y=\"119.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Não</text><text x=\"90.0\" y=\"131.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">manter o sigilo</text><rect x=\"178\" y=\"98\" width=\"152\" height=\"44\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"254.0\" y=\"119.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Sim</text><text x=\"254.0\" y=\"131.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">revelar aos responsáveis</text><text x=\"170\" y=\"162\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--mute)\">Maus-tratos → notificar o Conselho Tutelar (ECA)</text></svg>",
+     "legenda": "Sigilo do adolescente (art. 74 do Código de Ética Médica)"
+    },
+    {
+     "tipo": "tabela",
+     "cab": [
+      "Aborto legal",
+      "Base"
+     ],
+     "linhas": [
+      [
+       "Risco de vida da gestante",
+       "Código Penal, art. 128, I"
+      ],
+      [
+       "!Gravidez por estupro",
+       "Código Penal, art. 128, II"
+      ],
+      [
+       "Anencefalia",
+       "STF — ADPF 54 (2012)"
+      ]
+     ]
+    }
+   ],
+   "fonte": "CFM — Código de Ética Médica (Res. 2.217/2018) / Código Penal, art. 128 / STF — ADPF 54 (2012) / ECA (Lei 8.069/1990) / MS — Atenção humanizada ao abortamento (2011)",
+   "add": "2026-10-28",
+   "visual": {
+    "tipo": "fluxo",
+    "passos": [
+     "Adolescente pede sigilo",
+     "Há risco de dano à saúde/vida?",
+     [
+      "Não → manter sigilo",
+      "Sim → revelar aos responsáveis"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "etc-02",
+   "tipo": "flash",
+   "area": "Medicina Preventiva",
+   "tema": "Ética médica",
+   "sub": "Ética médica — sigilo, adolescente e aborto legal",
+   "frente": "Em quais situações o aborto é permitido no Brasil?",
+   "verso": "**Risco de vida da gestante.**\n**Gravidez resultante de estupro.**\n**Anencefalia (STF).**\n\nNo estupro:\n- Não exige boletim de ocorrência nem autorização judicial.",
+   "macete": "\"Vida, Violência e Vazio (anencefalia)\".",
+   "pegadinha": "Malformação não letal e gravidez indesejada NÃO são permitidas.",
+   "uerj": "VV 2024: gravidez resultante de estupro (gabarito C).",
+   "prio": "alta",
+   "contexto": "**Ética médica na prova = sigilo profissional (inclusive de criança e adolescente) e as situações de aborto permitidas por lei no Brasil.**\n\nSigilo médico (Código de Ética Médica, Res. CFM 2.217/2018):\n- **Art. 73** → proibido revelar fato conhecido no exercício da profissão, salvo **motivo justo, dever legal ou consentimento por escrito** do paciente\n- **Art. 74** → proibido revelar sigilo de criança/adolescente, **inclusive aos pais**, se o menor tiver capacidade de discernimento\n  - **EXCEÇÃO** → quando a não revelação puder acarretar **dano ao paciente** → pode/deve revelar aos responsáveis\n- Suspeita de maus-tratos/violência contra criança ou adolescente → notificação obrigatória ao Conselho Tutelar (ECA)\n- Doença de notificação compulsória → dever legal (não quebra ética)\n\nAtendimento do adolescente:\n- Pode ser atendido sozinho, com sigilo e privacidade\n- Sigilo cai diante de risco à vida/saúde (abuso, risco de suicídio, drogas com risco grave, gravidez de risco)\n\nAborto legal no Brasil:\n- **Risco de vida da gestante** (aborto necessário) → Código Penal, art. 128, I\n- **Gravidez resultante de estupro** → Código Penal, art. 128, II; não exige boletim de ocorrência nem autorização judicial; basta o consentimento da mulher (ou do representante legal)\n- **Anencefalia** → STF, ADPF 54 (2012)\n- Fora dessas situações (malformação não letal, gravidez indesejada) → não é permitido\n\nO que mais cai no Vila Verde:\n- VV 2025 → adolescente de 12 anos com risco à saúde pede sigilo: deve revelar aos pais, pois a não revelação pode causar dano.\n- VV 2024 → permissão legal de aborto: gravidez resultante de estupro (feto sem um braço, gravidez indesejada e pré-eclâmpsia são distratores).",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 170\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><rect x=\"10\" y=\"8\" width=\"320\" height=\"32\" rx=\"9\" fill=\"var(--wine)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"170.0\" y=\"27.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--card)\">Adolescente pede sigilo</text><line x1=\"170\" y1=\"40\" x2=\"170\" y2=\"52\" stroke=\"var(--rose)\"/><rect x=\"40\" y=\"52\" width=\"260\" height=\"32\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"170.0\" y=\"71.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Há risco de dano à saúde ou à vida?</text><line x1=\"90\" y1=\"84\" x2=\"90\" y2=\"98\" stroke=\"var(--rose)\"/><line x1=\"250\" y1=\"84\" x2=\"250\" y2=\"98\" stroke=\"var(--rose)\"/><rect x=\"10\" y=\"98\" width=\"160\" height=\"44\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"90.0\" y=\"119.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Não</text><text x=\"90.0\" y=\"131.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">manter o sigilo</text><rect x=\"178\" y=\"98\" width=\"152\" height=\"44\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"254.0\" y=\"119.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Sim</text><text x=\"254.0\" y=\"131.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">revelar aos responsáveis</text><text x=\"170\" y=\"162\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--mute)\">Maus-tratos → notificar o Conselho Tutelar (ECA)</text></svg>",
+     "legenda": "Sigilo do adolescente (art. 74 do Código de Ética Médica)"
+    },
+    {
+     "tipo": "tabela",
+     "cab": [
+      "Aborto legal",
+      "Base"
+     ],
+     "linhas": [
+      [
+       "Risco de vida da gestante",
+       "Código Penal, art. 128, I"
+      ],
+      [
+       "!Gravidez por estupro",
+       "Código Penal, art. 128, II"
+      ],
+      [
+       "Anencefalia",
+       "STF — ADPF 54 (2012)"
+      ]
+     ]
+    }
+   ],
+   "fonte": "CFM — Código de Ética Médica (Res. 2.217/2018) / Código Penal, art. 128 / STF — ADPF 54 (2012) / ECA (Lei 8.069/1990) / MS — Atenção humanizada ao abortamento (2011)",
+   "add": "2026-10-28",
+   "visual": {
+    "tipo": "lista",
+    "itens": [
+     "!Risco de vida da gestante",
+     "!Gravidez por estupro (sem BO, sem juiz)",
+     "!Anencefalia (ADPF 54)"
+    ]
+   }
+  },
+  {
+   "id": "etc-q1",
+   "tipo": "quiz",
+   "area": "Medicina Preventiva",
+   "tema": "Ética médica",
+   "sub": "Ética médica — sigilo, adolescente e aborto legal",
+   "frente": "A alternativa que contém uma permissão legal para a realização do aborto no Brasil é:",
+   "opcoes": [
+    "Feto com ausência do braço direito.",
+    "Gravidez indesejada.",
+    "Gestante com pré-eclâmpsia controlada.",
+    "Gravidez resultante de estupro."
+   ],
+   "certa": 3,
+   "comentarios": [
+    "Malformação não letal não autoriza.",
+    "Não autoriza.",
+    "Não é risco de vida inevitável.",
+    "Correta."
+   ],
+   "macete": "\"Vida, Violência, Vazio\".",
+   "pegadinha": "Risco de vida precisa ser real (não pré-eclâmpsia controlada).",
+   "uerj": "VV 2024 (Q94, gabarito C).",
+   "prio": "alta",
+   "contexto": "**Ética médica na prova = sigilo profissional (inclusive de criança e adolescente) e as situações de aborto permitidas por lei no Brasil.**\n\nSigilo médico (Código de Ética Médica, Res. CFM 2.217/2018):\n- **Art. 73** → proibido revelar fato conhecido no exercício da profissão, salvo **motivo justo, dever legal ou consentimento por escrito** do paciente\n- **Art. 74** → proibido revelar sigilo de criança/adolescente, **inclusive aos pais**, se o menor tiver capacidade de discernimento\n  - **EXCEÇÃO** → quando a não revelação puder acarretar **dano ao paciente** → pode/deve revelar aos responsáveis\n- Suspeita de maus-tratos/violência contra criança ou adolescente → notificação obrigatória ao Conselho Tutelar (ECA)\n- Doença de notificação compulsória → dever legal (não quebra ética)\n\nAtendimento do adolescente:\n- Pode ser atendido sozinho, com sigilo e privacidade\n- Sigilo cai diante de risco à vida/saúde (abuso, risco de suicídio, drogas com risco grave, gravidez de risco)\n\nAborto legal no Brasil:\n- **Risco de vida da gestante** (aborto necessário) → Código Penal, art. 128, I\n- **Gravidez resultante de estupro** → Código Penal, art. 128, II; não exige boletim de ocorrência nem autorização judicial; basta o consentimento da mulher (ou do representante legal)\n- **Anencefalia** → STF, ADPF 54 (2012)\n- Fora dessas situações (malformação não letal, gravidez indesejada) → não é permitido\n\nO que mais cai no Vila Verde:\n- VV 2025 → adolescente de 12 anos com risco à saúde pede sigilo: deve revelar aos pais, pois a não revelação pode causar dano.\n- VV 2024 → permissão legal de aborto: gravidez resultante de estupro (feto sem um braço, gravidez indesejada e pré-eclâmpsia são distratores).",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 170\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><rect x=\"10\" y=\"8\" width=\"320\" height=\"32\" rx=\"9\" fill=\"var(--wine)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"170.0\" y=\"27.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--card)\">Adolescente pede sigilo</text><line x1=\"170\" y1=\"40\" x2=\"170\" y2=\"52\" stroke=\"var(--rose)\"/><rect x=\"40\" y=\"52\" width=\"260\" height=\"32\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"170.0\" y=\"71.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Há risco de dano à saúde ou à vida?</text><line x1=\"90\" y1=\"84\" x2=\"90\" y2=\"98\" stroke=\"var(--rose)\"/><line x1=\"250\" y1=\"84\" x2=\"250\" y2=\"98\" stroke=\"var(--rose)\"/><rect x=\"10\" y=\"98\" width=\"160\" height=\"44\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"90.0\" y=\"119.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Não</text><text x=\"90.0\" y=\"131.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">manter o sigilo</text><rect x=\"178\" y=\"98\" width=\"152\" height=\"44\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"254.0\" y=\"119.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Sim</text><text x=\"254.0\" y=\"131.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">revelar aos responsáveis</text><text x=\"170\" y=\"162\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--mute)\">Maus-tratos → notificar o Conselho Tutelar (ECA)</text></svg>",
+     "legenda": "Sigilo do adolescente (art. 74 do Código de Ética Médica)"
+    },
+    {
+     "tipo": "tabela",
+     "cab": [
+      "Aborto legal",
+      "Base"
+     ],
+     "linhas": [
+      [
+       "Risco de vida da gestante",
+       "Código Penal, art. 128, I"
+      ],
+      [
+       "!Gravidez por estupro",
+       "Código Penal, art. 128, II"
+      ],
+      [
+       "Anencefalia",
+       "STF — ADPF 54 (2012)"
+      ]
+     ]
+    }
+   ],
+   "fonte": "CFM — Código de Ética Médica (Res. 2.217/2018) / Código Penal, art. 128 / STF — ADPF 54 (2012) / ECA (Lei 8.069/1990) / MS — Atenção humanizada ao abortamento (2011)",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "etc-d1",
+   "tipo": "digitar",
+   "area": "Medicina Preventiva",
+   "tema": "Ética médica",
+   "sub": "Ética médica — sigilo, adolescente e aborto legal",
+   "frente": "Qual decisão do STF permitiu a interrupção da gestação de anencéfalo?",
+   "verso": "**ADPF 54 (2012).**",
+   "resposta": "ADPF 54",
+   "aceitas": [
+    "adpf 54",
+    "adpf54",
+    "adpf"
+   ],
+   "macete": "\"ADPF 54\".",
+   "prio": "media",
+   "contexto": "**Ética médica na prova = sigilo profissional (inclusive de criança e adolescente) e as situações de aborto permitidas por lei no Brasil.**\n\nSigilo médico (Código de Ética Médica, Res. CFM 2.217/2018):\n- **Art. 73** → proibido revelar fato conhecido no exercício da profissão, salvo **motivo justo, dever legal ou consentimento por escrito** do paciente\n- **Art. 74** → proibido revelar sigilo de criança/adolescente, **inclusive aos pais**, se o menor tiver capacidade de discernimento\n  - **EXCEÇÃO** → quando a não revelação puder acarretar **dano ao paciente** → pode/deve revelar aos responsáveis\n- Suspeita de maus-tratos/violência contra criança ou adolescente → notificação obrigatória ao Conselho Tutelar (ECA)\n- Doença de notificação compulsória → dever legal (não quebra ética)\n\nAtendimento do adolescente:\n- Pode ser atendido sozinho, com sigilo e privacidade\n- Sigilo cai diante de risco à vida/saúde (abuso, risco de suicídio, drogas com risco grave, gravidez de risco)\n\nAborto legal no Brasil:\n- **Risco de vida da gestante** (aborto necessário) → Código Penal, art. 128, I\n- **Gravidez resultante de estupro** → Código Penal, art. 128, II; não exige boletim de ocorrência nem autorização judicial; basta o consentimento da mulher (ou do representante legal)\n- **Anencefalia** → STF, ADPF 54 (2012)\n- Fora dessas situações (malformação não letal, gravidez indesejada) → não é permitido\n\nO que mais cai no Vila Verde:\n- VV 2025 → adolescente de 12 anos com risco à saúde pede sigilo: deve revelar aos pais, pois a não revelação pode causar dano.\n- VV 2024 → permissão legal de aborto: gravidez resultante de estupro (feto sem um braço, gravidez indesejada e pré-eclâmpsia são distratores).",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 170\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><rect x=\"10\" y=\"8\" width=\"320\" height=\"32\" rx=\"9\" fill=\"var(--wine)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"170.0\" y=\"27.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--card)\">Adolescente pede sigilo</text><line x1=\"170\" y1=\"40\" x2=\"170\" y2=\"52\" stroke=\"var(--rose)\"/><rect x=\"40\" y=\"52\" width=\"260\" height=\"32\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"170.0\" y=\"71.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Há risco de dano à saúde ou à vida?</text><line x1=\"90\" y1=\"84\" x2=\"90\" y2=\"98\" stroke=\"var(--rose)\"/><line x1=\"250\" y1=\"84\" x2=\"250\" y2=\"98\" stroke=\"var(--rose)\"/><rect x=\"10\" y=\"98\" width=\"160\" height=\"44\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"90.0\" y=\"119.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Não</text><text x=\"90.0\" y=\"131.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">manter o sigilo</text><rect x=\"178\" y=\"98\" width=\"152\" height=\"44\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"254.0\" y=\"119.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Sim</text><text x=\"254.0\" y=\"131.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">revelar aos responsáveis</text><text x=\"170\" y=\"162\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--mute)\">Maus-tratos → notificar o Conselho Tutelar (ECA)</text></svg>",
+     "legenda": "Sigilo do adolescente (art. 74 do Código de Ética Médica)"
+    },
+    {
+     "tipo": "tabela",
+     "cab": [
+      "Aborto legal",
+      "Base"
+     ],
+     "linhas": [
+      [
+       "Risco de vida da gestante",
+       "Código Penal, art. 128, I"
+      ],
+      [
+       "!Gravidez por estupro",
+       "Código Penal, art. 128, II"
+      ],
+      [
+       "Anencefalia",
+       "STF — ADPF 54 (2012)"
+      ]
+     ]
+    }
+   ],
+   "fonte": "CFM — Código de Ética Médica (Res. 2.217/2018) / Código Penal, art. 128 / STF — ADPF 54 (2012) / ECA (Lei 8.069/1990) / MS — Atenção humanizada ao abortamento (2011)",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "etc-d2",
+   "tipo": "digitar",
+   "area": "Medicina Preventiva",
+   "tema": "Ética médica",
+   "sub": "Ética médica — sigilo, adolescente e aborto legal",
+   "frente": "A quem notificar a suspeita de maus-tratos em criança?",
+   "verso": "**Conselho Tutelar.**",
+   "resposta": "Conselho Tutelar",
+   "aceitas": [
+    "conselho tutelar"
+   ],
+   "macete": "Criança em risco → \"Conselho Tutelar\".",
+   "prio": "media",
+   "contexto": "**Ética médica na prova = sigilo profissional (inclusive de criança e adolescente) e as situações de aborto permitidas por lei no Brasil.**\n\nSigilo médico (Código de Ética Médica, Res. CFM 2.217/2018):\n- **Art. 73** → proibido revelar fato conhecido no exercício da profissão, salvo **motivo justo, dever legal ou consentimento por escrito** do paciente\n- **Art. 74** → proibido revelar sigilo de criança/adolescente, **inclusive aos pais**, se o menor tiver capacidade de discernimento\n  - **EXCEÇÃO** → quando a não revelação puder acarretar **dano ao paciente** → pode/deve revelar aos responsáveis\n- Suspeita de maus-tratos/violência contra criança ou adolescente → notificação obrigatória ao Conselho Tutelar (ECA)\n- Doença de notificação compulsória → dever legal (não quebra ética)\n\nAtendimento do adolescente:\n- Pode ser atendido sozinho, com sigilo e privacidade\n- Sigilo cai diante de risco à vida/saúde (abuso, risco de suicídio, drogas com risco grave, gravidez de risco)\n\nAborto legal no Brasil:\n- **Risco de vida da gestante** (aborto necessário) → Código Penal, art. 128, I\n- **Gravidez resultante de estupro** → Código Penal, art. 128, II; não exige boletim de ocorrência nem autorização judicial; basta o consentimento da mulher (ou do representante legal)\n- **Anencefalia** → STF, ADPF 54 (2012)\n- Fora dessas situações (malformação não letal, gravidez indesejada) → não é permitido\n\nO que mais cai no Vila Verde:\n- VV 2025 → adolescente de 12 anos com risco à saúde pede sigilo: deve revelar aos pais, pois a não revelação pode causar dano.\n- VV 2024 → permissão legal de aborto: gravidez resultante de estupro (feto sem um braço, gravidez indesejada e pré-eclâmpsia são distratores).",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 170\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><rect x=\"10\" y=\"8\" width=\"320\" height=\"32\" rx=\"9\" fill=\"var(--wine)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"170.0\" y=\"27.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--card)\">Adolescente pede sigilo</text><line x1=\"170\" y1=\"40\" x2=\"170\" y2=\"52\" stroke=\"var(--rose)\"/><rect x=\"40\" y=\"52\" width=\"260\" height=\"32\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"170.0\" y=\"71.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Há risco de dano à saúde ou à vida?</text><line x1=\"90\" y1=\"84\" x2=\"90\" y2=\"98\" stroke=\"var(--rose)\"/><line x1=\"250\" y1=\"84\" x2=\"250\" y2=\"98\" stroke=\"var(--rose)\"/><rect x=\"10\" y=\"98\" width=\"160\" height=\"44\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"90.0\" y=\"119.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Não</text><text x=\"90.0\" y=\"131.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">manter o sigilo</text><rect x=\"178\" y=\"98\" width=\"152\" height=\"44\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"254.0\" y=\"119.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Sim</text><text x=\"254.0\" y=\"131.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">revelar aos responsáveis</text><text x=\"170\" y=\"162\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--mute)\">Maus-tratos → notificar o Conselho Tutelar (ECA)</text></svg>",
+     "legenda": "Sigilo do adolescente (art. 74 do Código de Ética Médica)"
+    },
+    {
+     "tipo": "tabela",
+     "cab": [
+      "Aborto legal",
+      "Base"
+     ],
+     "linhas": [
+      [
+       "Risco de vida da gestante",
+       "Código Penal, art. 128, I"
+      ],
+      [
+       "!Gravidez por estupro",
+       "Código Penal, art. 128, II"
+      ],
+      [
+       "Anencefalia",
+       "STF — ADPF 54 (2012)"
+      ]
+     ]
+    }
+   ],
+   "fonte": "CFM — Código de Ética Médica (Res. 2.217/2018) / Código Penal, art. 128 / STF — ADPF 54 (2012) / ECA (Lei 8.069/1990) / MS — Atenção humanizada ao abortamento (2011)",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "fis-01",
+   "tipo": "flash",
+   "area": "Cirurgia",
+   "tema": "Coloproctologia",
+   "sub": "Fissura anal",
+   "frente": "Fissura anal crônica que falhou ao tratamento clínico: qual cirurgia?",
+   "verso": "**Esfincterotomia lateral interna.**\n\nAntes dela:\n- Fibras, banho de assento.\n- Nitrato ou diltiazem tópico; toxina botulínica.\n\nRisco:\n- Incontinência leve.",
+   "macete": "Fissura: \"relaxa o esfíncter interno (remédio) ou corta de lado (cirurgia)\".",
+   "visual": {
+    "tipo": "fluxo",
+    "passos": [
+     "Fissura anal",
+     "Fibras + banho de assento + tópico relaxante (6–8 sem)",
+     "Refratária/crônica",
+     "Esfincterotomia lateral interna"
+    ]
+   },
+   "pegadinha": "Hemorroidectomia NÃO trata fissura.",
+   "uerj": "VIV 2026: fissura crônica com plicoma, falha clínica → cirurgia indicada.",
+   "prio": "alta",
+   "contexto": "**Fissura anal = úlcera linear do anoderma, distal à linha pectínea, quase sempre na linha média POSTERIOR; a hipertonia do esfíncter interno causa isquemia e impede a cicatrização.**\n\nClínica:\n- Dor anal intensa durante e após evacuar + sangue vivo no papel\n- Constipação/fezes endurecidas como gatilho\n- **Aguda** → < 6–8 semanas, bordas finas\n- **Crônica** → > 6–8 semanas; tríade: **plicoma sentinela**, papila anal hipertrofiada e fibras do esfíncter interno visíveis no leito\n\nLocalização:\n- ~90% linha média posterior; anterior é mais comum em mulheres (pós-parto)\n- **Lateral, múltipla ou indolor** → pensar em Crohn, tuberculose, HIV, sífilis, câncer\n\nTratamento:\n- **Clínico (1ª linha)** → fibras, água, banho de assento, analgésico tópico\n- Relaxantes do esfíncter → nitrato tópico ou bloqueador de canal de cálcio tópico (diltiazem/nifedipina)\n- Toxina botulínica → alternativa\n- **Crônica refratária ao clínico → esfincterotomia lateral interna** (padrão-ouro cirúrgico)\n- Risco da cirurgia → incontinência (gases/fezes) leve\n- Dilatação anal forçada → abandonada (incontinência)\n\nO que mais cai no Vila Verde:\n- VIV 2026 → fissura crônica com plicoma sentinela, falha do clínico → esfincterotomia lateral interna.",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 202\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><circle cx=\"170\" cy=\"100\" r=\"80\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\"/><circle cx=\"170\" cy=\"100\" r=\"20\" fill=\"var(--card)\" stroke=\"var(--rose)\"/><text x=\"170\" y=\"14\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--mute)\">anterior</text><text x=\"170\" y=\"196\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--mute)\">posterior (cóccix)</text><line x1=\"170\" y1=\"122\" x2=\"170\" y2=\"168\" stroke=\"var(--bad)\" stroke-width=\"5\" stroke-linecap=\"round\"/><text x=\"182\" y=\"150\" font-size=\"10\" font-weight=\"600\" fill=\"var(--bad)\">~90%</text><circle cx=\"170\" cy=\"178\" r=\"6\" fill=\"var(--wine)\"/><text x=\"100\" y=\"186\" font-size=\"9.5\" fill=\"var(--ink)\">plicoma sentinela</text></svg>",
+     "legenda": "Fissura anal típica: linha média posterior (paciente em posição de litotomia)"
+    }
+   ],
+   "fonte": "ASCRS — Clinical Practice Guidelines for the Management of Anal Fissures (2023) / SBCP — Fissura anal / Sabiston 21ª ed.",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "fis-02",
+   "tipo": "flash",
+   "area": "Cirurgia",
+   "tema": "Coloproctologia",
+   "sub": "Fissura anal",
+   "frente": "Fissura anal: localização típica e quando suspeitar de causa secundária",
+   "verso": "**Linha média posterior (~90%).**\n**Lateral ou múltipla → pensar em causa secundária.**\n\nCausas secundárias:\n- Crohn, tuberculose, HIV, sífilis, câncer.\n\nCrônica:\n- Plicoma sentinela, papila hipertrófica, fibras do esfíncter visíveis.",
+   "macete": "\"Atrás é comum; do lado é suspeito\".",
+   "pegadinha": "Fissura indolor também é atípica.",
+   "prio": "media",
+   "contexto": "**Fissura anal = úlcera linear do anoderma, distal à linha pectínea, quase sempre na linha média POSTERIOR; a hipertonia do esfíncter interno causa isquemia e impede a cicatrização.**\n\nClínica:\n- Dor anal intensa durante e após evacuar + sangue vivo no papel\n- Constipação/fezes endurecidas como gatilho\n- **Aguda** → < 6–8 semanas, bordas finas\n- **Crônica** → > 6–8 semanas; tríade: **plicoma sentinela**, papila anal hipertrofiada e fibras do esfíncter interno visíveis no leito\n\nLocalização:\n- ~90% linha média posterior; anterior é mais comum em mulheres (pós-parto)\n- **Lateral, múltipla ou indolor** → pensar em Crohn, tuberculose, HIV, sífilis, câncer\n\nTratamento:\n- **Clínico (1ª linha)** → fibras, água, banho de assento, analgésico tópico\n- Relaxantes do esfíncter → nitrato tópico ou bloqueador de canal de cálcio tópico (diltiazem/nifedipina)\n- Toxina botulínica → alternativa\n- **Crônica refratária ao clínico → esfincterotomia lateral interna** (padrão-ouro cirúrgico)\n- Risco da cirurgia → incontinência (gases/fezes) leve\n- Dilatação anal forçada → abandonada (incontinência)\n\nO que mais cai no Vila Verde:\n- VIV 2026 → fissura crônica com plicoma sentinela, falha do clínico → esfincterotomia lateral interna.",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 202\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><circle cx=\"170\" cy=\"100\" r=\"80\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\"/><circle cx=\"170\" cy=\"100\" r=\"20\" fill=\"var(--card)\" stroke=\"var(--rose)\"/><text x=\"170\" y=\"14\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--mute)\">anterior</text><text x=\"170\" y=\"196\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--mute)\">posterior (cóccix)</text><line x1=\"170\" y1=\"122\" x2=\"170\" y2=\"168\" stroke=\"var(--bad)\" stroke-width=\"5\" stroke-linecap=\"round\"/><text x=\"182\" y=\"150\" font-size=\"10\" font-weight=\"600\" fill=\"var(--bad)\">~90%</text><circle cx=\"170\" cy=\"178\" r=\"6\" fill=\"var(--wine)\"/><text x=\"100\" y=\"186\" font-size=\"9.5\" fill=\"var(--ink)\">plicoma sentinela</text></svg>",
+     "legenda": "Fissura anal típica: linha média posterior (paciente em posição de litotomia)"
+    }
+   ],
+   "fonte": "ASCRS — Clinical Practice Guidelines for the Management of Anal Fissures (2023) / SBCP — Fissura anal / Sabiston 21ª ed.",
+   "add": "2026-10-28",
+   "visual": {
+    "tipo": "vs",
+    "a": {
+     "t": "Típica (primária)",
+     "itens": [
+      "Linha média posterior",
+      "Dolorosa",
+      "Única"
+     ]
+    },
+    "b": {
+     "t": "Atípica (secundária)",
+     "itens": [
+      "Lateral",
+      "Múltipla ou indolor",
+      "Crohn, TB, HIV, sífilis, câncer"
+     ]
+    }
+   }
+  },
+  {
+   "id": "fis-q1",
+   "tipo": "quiz",
+   "area": "Cirurgia",
+   "tema": "Coloproctologia",
+   "sub": "Fissura anal",
+   "frente": "Paciente com fissura anal crônica posterior, plicoma sentinela, sem melhora após 8 semanas de fibras, banhos de assento e diltiazem tópico. A cirurgia indicada é:",
+   "opcoes": [
+    "Hemorroidectomia.",
+    "Dilatação anal forçada.",
+    "Fistulotomia.",
+    "Esfincterotomia lateral interna."
+   ],
+   "certa": 3,
+   "comentarios": [
+    "Não trata fissura.",
+    "Abandonada por incontinência.",
+    "É para fístula.",
+    "Correta."
+   ],
+   "macete": "\"Corta de lado\".",
+   "pegadinha": "Dilatação forçada aparece como distrator.",
+   "uerj": "VIV 2026 (Q22).",
+   "prio": "alta",
+   "contexto": "**Fissura anal = úlcera linear do anoderma, distal à linha pectínea, quase sempre na linha média POSTERIOR; a hipertonia do esfíncter interno causa isquemia e impede a cicatrização.**\n\nClínica:\n- Dor anal intensa durante e após evacuar + sangue vivo no papel\n- Constipação/fezes endurecidas como gatilho\n- **Aguda** → < 6–8 semanas, bordas finas\n- **Crônica** → > 6–8 semanas; tríade: **plicoma sentinela**, papila anal hipertrofiada e fibras do esfíncter interno visíveis no leito\n\nLocalização:\n- ~90% linha média posterior; anterior é mais comum em mulheres (pós-parto)\n- **Lateral, múltipla ou indolor** → pensar em Crohn, tuberculose, HIV, sífilis, câncer\n\nTratamento:\n- **Clínico (1ª linha)** → fibras, água, banho de assento, analgésico tópico\n- Relaxantes do esfíncter → nitrato tópico ou bloqueador de canal de cálcio tópico (diltiazem/nifedipina)\n- Toxina botulínica → alternativa\n- **Crônica refratária ao clínico → esfincterotomia lateral interna** (padrão-ouro cirúrgico)\n- Risco da cirurgia → incontinência (gases/fezes) leve\n- Dilatação anal forçada → abandonada (incontinência)\n\nO que mais cai no Vila Verde:\n- VIV 2026 → fissura crônica com plicoma sentinela, falha do clínico → esfincterotomia lateral interna.",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 202\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><circle cx=\"170\" cy=\"100\" r=\"80\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\"/><circle cx=\"170\" cy=\"100\" r=\"20\" fill=\"var(--card)\" stroke=\"var(--rose)\"/><text x=\"170\" y=\"14\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--mute)\">anterior</text><text x=\"170\" y=\"196\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--mute)\">posterior (cóccix)</text><line x1=\"170\" y1=\"122\" x2=\"170\" y2=\"168\" stroke=\"var(--bad)\" stroke-width=\"5\" stroke-linecap=\"round\"/><text x=\"182\" y=\"150\" font-size=\"10\" font-weight=\"600\" fill=\"var(--bad)\">~90%</text><circle cx=\"170\" cy=\"178\" r=\"6\" fill=\"var(--wine)\"/><text x=\"100\" y=\"186\" font-size=\"9.5\" fill=\"var(--ink)\">plicoma sentinela</text></svg>",
+     "legenda": "Fissura anal típica: linha média posterior (paciente em posição de litotomia)"
+    }
+   ],
+   "fonte": "ASCRS — Clinical Practice Guidelines for the Management of Anal Fissures (2023) / SBCP — Fissura anal / Sabiston 21ª ed.",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "fis-d1",
+   "tipo": "digitar",
+   "area": "Cirurgia",
+   "tema": "Coloproctologia",
+   "sub": "Fissura anal",
+   "frente": "Qual a localização mais comum da fissura anal?",
+   "verso": "**Linha média posterior.**",
+   "resposta": "Posterior",
+   "aceitas": [
+    "linha média posterior",
+    "posterior",
+    "linha media posterior"
+   ],
+   "macete": "\"Atrás é comum\".",
+   "prio": "media",
+   "contexto": "**Fissura anal = úlcera linear do anoderma, distal à linha pectínea, quase sempre na linha média POSTERIOR; a hipertonia do esfíncter interno causa isquemia e impede a cicatrização.**\n\nClínica:\n- Dor anal intensa durante e após evacuar + sangue vivo no papel\n- Constipação/fezes endurecidas como gatilho\n- **Aguda** → < 6–8 semanas, bordas finas\n- **Crônica** → > 6–8 semanas; tríade: **plicoma sentinela**, papila anal hipertrofiada e fibras do esfíncter interno visíveis no leito\n\nLocalização:\n- ~90% linha média posterior; anterior é mais comum em mulheres (pós-parto)\n- **Lateral, múltipla ou indolor** → pensar em Crohn, tuberculose, HIV, sífilis, câncer\n\nTratamento:\n- **Clínico (1ª linha)** → fibras, água, banho de assento, analgésico tópico\n- Relaxantes do esfíncter → nitrato tópico ou bloqueador de canal de cálcio tópico (diltiazem/nifedipina)\n- Toxina botulínica → alternativa\n- **Crônica refratária ao clínico → esfincterotomia lateral interna** (padrão-ouro cirúrgico)\n- Risco da cirurgia → incontinência (gases/fezes) leve\n- Dilatação anal forçada → abandonada (incontinência)\n\nO que mais cai no Vila Verde:\n- VIV 2026 → fissura crônica com plicoma sentinela, falha do clínico → esfincterotomia lateral interna.",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 202\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><circle cx=\"170\" cy=\"100\" r=\"80\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\"/><circle cx=\"170\" cy=\"100\" r=\"20\" fill=\"var(--card)\" stroke=\"var(--rose)\"/><text x=\"170\" y=\"14\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--mute)\">anterior</text><text x=\"170\" y=\"196\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--mute)\">posterior (cóccix)</text><line x1=\"170\" y1=\"122\" x2=\"170\" y2=\"168\" stroke=\"var(--bad)\" stroke-width=\"5\" stroke-linecap=\"round\"/><text x=\"182\" y=\"150\" font-size=\"10\" font-weight=\"600\" fill=\"var(--bad)\">~90%</text><circle cx=\"170\" cy=\"178\" r=\"6\" fill=\"var(--wine)\"/><text x=\"100\" y=\"186\" font-size=\"9.5\" fill=\"var(--ink)\">plicoma sentinela</text></svg>",
+     "legenda": "Fissura anal típica: linha média posterior (paciente em posição de litotomia)"
+    }
+   ],
+   "fonte": "ASCRS — Clinical Practice Guidelines for the Management of Anal Fissures (2023) / SBCP — Fissura anal / Sabiston 21ª ed.",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "fis-d2",
+   "tipo": "digitar",
+   "area": "Cirurgia",
+   "tema": "Coloproctologia",
+   "sub": "Fissura anal",
+   "frente": "Qual a cirurgia padrão da fissura anal crônica?",
+   "verso": "**Esfincterotomia lateral interna.**",
+   "resposta": "Esfincterotomia lateral interna",
+   "aceitas": [
+    "esfincterotomia",
+    "esfincterotomia lateral",
+    "esfincterotomia interna lateral"
+   ],
+   "macete": "\"Corta de lado\".",
+   "prio": "alta",
+   "contexto": "**Fissura anal = úlcera linear do anoderma, distal à linha pectínea, quase sempre na linha média POSTERIOR; a hipertonia do esfíncter interno causa isquemia e impede a cicatrização.**\n\nClínica:\n- Dor anal intensa durante e após evacuar + sangue vivo no papel\n- Constipação/fezes endurecidas como gatilho\n- **Aguda** → < 6–8 semanas, bordas finas\n- **Crônica** → > 6–8 semanas; tríade: **plicoma sentinela**, papila anal hipertrofiada e fibras do esfíncter interno visíveis no leito\n\nLocalização:\n- ~90% linha média posterior; anterior é mais comum em mulheres (pós-parto)\n- **Lateral, múltipla ou indolor** → pensar em Crohn, tuberculose, HIV, sífilis, câncer\n\nTratamento:\n- **Clínico (1ª linha)** → fibras, água, banho de assento, analgésico tópico\n- Relaxantes do esfíncter → nitrato tópico ou bloqueador de canal de cálcio tópico (diltiazem/nifedipina)\n- Toxina botulínica → alternativa\n- **Crônica refratária ao clínico → esfincterotomia lateral interna** (padrão-ouro cirúrgico)\n- Risco da cirurgia → incontinência (gases/fezes) leve\n- Dilatação anal forçada → abandonada (incontinência)\n\nO que mais cai no Vila Verde:\n- VIV 2026 → fissura crônica com plicoma sentinela, falha do clínico → esfincterotomia lateral interna.",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 202\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><circle cx=\"170\" cy=\"100\" r=\"80\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\"/><circle cx=\"170\" cy=\"100\" r=\"20\" fill=\"var(--card)\" stroke=\"var(--rose)\"/><text x=\"170\" y=\"14\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--mute)\">anterior</text><text x=\"170\" y=\"196\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--mute)\">posterior (cóccix)</text><line x1=\"170\" y1=\"122\" x2=\"170\" y2=\"168\" stroke=\"var(--bad)\" stroke-width=\"5\" stroke-linecap=\"round\"/><text x=\"182\" y=\"150\" font-size=\"10\" font-weight=\"600\" fill=\"var(--bad)\">~90%</text><circle cx=\"170\" cy=\"178\" r=\"6\" fill=\"var(--wine)\"/><text x=\"100\" y=\"186\" font-size=\"9.5\" fill=\"var(--ink)\">plicoma sentinela</text></svg>",
+     "legenda": "Fissura anal típica: linha média posterior (paciente em posição de litotomia)"
+    }
+   ],
+   "fonte": "ASCRS — Clinical Practice Guidelines for the Management of Anal Fissures (2023) / SBCP — Fissura anal / Sabiston 21ª ed.",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "gist-01",
+   "tipo": "flash",
+   "area": "Cirurgia",
+   "tema": "Esôfago e estômago",
+   "sub": "GIST — tumor estromal gastrointestinal",
+   "frente": "GIST: origem, marcador e tratamento",
+   "verso": "**Células intersticiais de Cajal.**\n**CD117 (KIT) positivo.**\n**Cirurgia R0 sem linfadenectomia + imatinibe nos de risco.**",
+   "macete": "GIST = \"Cajal com KIT: tira inteiro e dá Imatinibe\".",
+   "pegadinha": "Linfadenectomia de rotina NÃO é necessária (linfonodo raramente acometido).",
+   "uerj": "VIV 2026: V/F sobre origem, marcador e tratamento do GIST.",
+   "prio": "alta",
+   "contexto": "**GIST (tumor estromal gastrointestinal) = tumor MESENQUIMAL mais comum do trato digestivo, originado das células intersticiais de Cajal, com mutação de KIT ou PDGFRA.**\n\nCaracterísticas:\n- Local mais comum → **estômago** (~60%), depois intestino delgado\n- Origem → células intersticiais de Cajal (marca-passo intestinal)\n- Imuno-histoquímica → **CD117 (KIT)** e **DOG1** positivos (CD34 frequente)\n- Mutação → KIT (maioria) ou PDGFRA\n\nClínica:\n- Muitas vezes achado incidental\n- Sangramento digestivo (HDA/anemia), massa, dor, saciedade precoce\n- Lesão SUBMUCOSA na endoscopia; biópsia por USG endoscópica\n\nDisseminação:\n- Hematogênica (fígado) e peritoneal; **raramente linfonodal**\n\nTratamento:\n- **Ressecção cirúrgica com margens livres (R0), SEM linfadenectomia de rotina**\n- Evitar romper a cápsula (piora o prognóstico)\n- **Imatinibe** (inibidor de tirosina-quinase) → adjuvante nos de alto risco, neoadjuvante nos grandes, e na doença metastática/irressecável\n- Risco de recorrência → tamanho, índice mitótico e localização (gástrico tem melhor prognóstico)\n\nO que mais cai no Vila Verde:\n- VIV 2026 → V/F sobre origem (células de Cajal), marcador (CD117) e tratamento (cirurgia R0 + imatinibe).",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "cab": [
+      "GIST",
+      "Lembrar"
+     ],
+     "linhas": [
+      [
+       "Origem",
+       "Células intersticiais de Cajal"
+      ],
+      [
+       "Local mais comum",
+       "!Estômago"
+      ],
+      [
+       "Marcador",
+       "!CD117 (KIT) e DOG1"
+      ],
+      [
+       "Disseminação",
+       "Fígado e peritônio (linfonodo raro)"
+      ],
+      [
+       "Cirurgia",
+       "Ressecção R0 sem linfadenectomia"
+      ],
+      [
+       "Droga-alvo",
+       "!Imatinibe"
+      ]
+     ]
+    }
+   ],
+   "fonte": "NCCN Guidelines — Gastrointestinal Stromal Tumors (2025) / ESMO-EURACAN-GENTURIS — GIST Clinical Practice Guidelines (2022) / INCA",
+   "add": "2026-10-28",
+   "visual": {
+    "tipo": "tabela",
+    "cab": [
+     "Item",
+     "Resposta"
+    ],
+    "linhas": [
+     [
+      "Origem",
+      "Células de Cajal"
+     ],
+     [
+      "Local",
+      "Estômago (~60%)"
+     ],
+     [
+      "Marcador",
+      "CD117 + DOG1"
+     ],
+     [
+      "Tratamento",
+      "Ressecção R0 + imatinibe se risco"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "gist-q1",
+   "tipo": "quiz",
+   "area": "Cirurgia",
+   "tema": "Esôfago e estômago",
+   "sub": "GIST — tumor estromal gastrointestinal",
+   "frente": "Sobre os tumores estromais gastrointestinais (GIST), analise: I. Originam-se das células intersticiais de Cajal. II. O CD117 (KIT) é o principal marcador imuno-histoquímico. III. O tratamento cirúrgico exige linfadenectomia D2 de rotina. Está CORRETO:",
+   "opcoes": [
+    "Apenas I e II.",
+    "Apenas III.",
+    "Apenas II e III.",
+    "I, II e III."
+   ],
+   "certa": 0,
+   "comentarios": [
+    "Correta.",
+    "III é falsa.",
+    "III é falsa.",
+    "III é falsa."
+   ],
+   "macete": "\"Cajal com KIT, sem linfonodo\".",
+   "pegadinha": "D2 é do adenocarcinoma gástrico, não do GIST.",
+   "uerj": "Formato da VIV 2026 (Q25).",
+   "prio": "media",
+   "contexto": "**GIST (tumor estromal gastrointestinal) = tumor MESENQUIMAL mais comum do trato digestivo, originado das células intersticiais de Cajal, com mutação de KIT ou PDGFRA.**\n\nCaracterísticas:\n- Local mais comum → **estômago** (~60%), depois intestino delgado\n- Origem → células intersticiais de Cajal (marca-passo intestinal)\n- Imuno-histoquímica → **CD117 (KIT)** e **DOG1** positivos (CD34 frequente)\n- Mutação → KIT (maioria) ou PDGFRA\n\nClínica:\n- Muitas vezes achado incidental\n- Sangramento digestivo (HDA/anemia), massa, dor, saciedade precoce\n- Lesão SUBMUCOSA na endoscopia; biópsia por USG endoscópica\n\nDisseminação:\n- Hematogênica (fígado) e peritoneal; **raramente linfonodal**\n\nTratamento:\n- **Ressecção cirúrgica com margens livres (R0), SEM linfadenectomia de rotina**\n- Evitar romper a cápsula (piora o prognóstico)\n- **Imatinibe** (inibidor de tirosina-quinase) → adjuvante nos de alto risco, neoadjuvante nos grandes, e na doença metastática/irressecável\n- Risco de recorrência → tamanho, índice mitótico e localização (gástrico tem melhor prognóstico)\n\nO que mais cai no Vila Verde:\n- VIV 2026 → V/F sobre origem (células de Cajal), marcador (CD117) e tratamento (cirurgia R0 + imatinibe).",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "cab": [
+      "GIST",
+      "Lembrar"
+     ],
+     "linhas": [
+      [
+       "Origem",
+       "Células intersticiais de Cajal"
+      ],
+      [
+       "Local mais comum",
+       "!Estômago"
+      ],
+      [
+       "Marcador",
+       "!CD117 (KIT) e DOG1"
+      ],
+      [
+       "Disseminação",
+       "Fígado e peritônio (linfonodo raro)"
+      ],
+      [
+       "Cirurgia",
+       "Ressecção R0 sem linfadenectomia"
+      ],
+      [
+       "Droga-alvo",
+       "!Imatinibe"
+      ]
+     ]
+    }
+   ],
+   "fonte": "NCCN Guidelines — Gastrointestinal Stromal Tumors (2025) / ESMO-EURACAN-GENTURIS — GIST Clinical Practice Guidelines (2022) / INCA",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "gist-d1",
+   "tipo": "digitar",
+   "area": "Cirurgia",
+   "tema": "Esôfago e estômago",
+   "sub": "GIST — tumor estromal gastrointestinal",
+   "frente": "Qual o principal marcador imuno-histoquímico do GIST?",
+   "verso": "**CD117 (KIT).**\n\n- DOG1 também.",
+   "resposta": "CD117",
+   "aceitas": [
+    "cd117",
+    "c-kit",
+    "kit",
+    "cd 117"
+   ],
+   "macete": "GIST tem \"KIT\".",
+   "prio": "alta",
+   "contexto": "**GIST (tumor estromal gastrointestinal) = tumor MESENQUIMAL mais comum do trato digestivo, originado das células intersticiais de Cajal, com mutação de KIT ou PDGFRA.**\n\nCaracterísticas:\n- Local mais comum → **estômago** (~60%), depois intestino delgado\n- Origem → células intersticiais de Cajal (marca-passo intestinal)\n- Imuno-histoquímica → **CD117 (KIT)** e **DOG1** positivos (CD34 frequente)\n- Mutação → KIT (maioria) ou PDGFRA\n\nClínica:\n- Muitas vezes achado incidental\n- Sangramento digestivo (HDA/anemia), massa, dor, saciedade precoce\n- Lesão SUBMUCOSA na endoscopia; biópsia por USG endoscópica\n\nDisseminação:\n- Hematogênica (fígado) e peritoneal; **raramente linfonodal**\n\nTratamento:\n- **Ressecção cirúrgica com margens livres (R0), SEM linfadenectomia de rotina**\n- Evitar romper a cápsula (piora o prognóstico)\n- **Imatinibe** (inibidor de tirosina-quinase) → adjuvante nos de alto risco, neoadjuvante nos grandes, e na doença metastática/irressecável\n- Risco de recorrência → tamanho, índice mitótico e localização (gástrico tem melhor prognóstico)\n\nO que mais cai no Vila Verde:\n- VIV 2026 → V/F sobre origem (células de Cajal), marcador (CD117) e tratamento (cirurgia R0 + imatinibe).",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "cab": [
+      "GIST",
+      "Lembrar"
+     ],
+     "linhas": [
+      [
+       "Origem",
+       "Células intersticiais de Cajal"
+      ],
+      [
+       "Local mais comum",
+       "!Estômago"
+      ],
+      [
+       "Marcador",
+       "!CD117 (KIT) e DOG1"
+      ],
+      [
+       "Disseminação",
+       "Fígado e peritônio (linfonodo raro)"
+      ],
+      [
+       "Cirurgia",
+       "Ressecção R0 sem linfadenectomia"
+      ],
+      [
+       "Droga-alvo",
+       "!Imatinibe"
+      ]
+     ]
+    }
+   ],
+   "fonte": "NCCN Guidelines — Gastrointestinal Stromal Tumors (2025) / ESMO-EURACAN-GENTURIS — GIST Clinical Practice Guidelines (2022) / INCA",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "gist-d2",
+   "tipo": "digitar",
+   "area": "Cirurgia",
+   "tema": "Esôfago e estômago",
+   "sub": "GIST — tumor estromal gastrointestinal",
+   "frente": "Qual droga-alvo é usada no GIST?",
+   "verso": "**Imatinibe.**",
+   "resposta": "Imatinibe",
+   "aceitas": [
+    "imatinib",
+    "imatinibe",
+    "glivec"
+   ],
+   "macete": "\"Imagina o GIST sem KIT\": Imatinibe.",
+   "prio": "media",
+   "contexto": "**GIST (tumor estromal gastrointestinal) = tumor MESENQUIMAL mais comum do trato digestivo, originado das células intersticiais de Cajal, com mutação de KIT ou PDGFRA.**\n\nCaracterísticas:\n- Local mais comum → **estômago** (~60%), depois intestino delgado\n- Origem → células intersticiais de Cajal (marca-passo intestinal)\n- Imuno-histoquímica → **CD117 (KIT)** e **DOG1** positivos (CD34 frequente)\n- Mutação → KIT (maioria) ou PDGFRA\n\nClínica:\n- Muitas vezes achado incidental\n- Sangramento digestivo (HDA/anemia), massa, dor, saciedade precoce\n- Lesão SUBMUCOSA na endoscopia; biópsia por USG endoscópica\n\nDisseminação:\n- Hematogênica (fígado) e peritoneal; **raramente linfonodal**\n\nTratamento:\n- **Ressecção cirúrgica com margens livres (R0), SEM linfadenectomia de rotina**\n- Evitar romper a cápsula (piora o prognóstico)\n- **Imatinibe** (inibidor de tirosina-quinase) → adjuvante nos de alto risco, neoadjuvante nos grandes, e na doença metastática/irressecável\n- Risco de recorrência → tamanho, índice mitótico e localização (gástrico tem melhor prognóstico)\n\nO que mais cai no Vila Verde:\n- VIV 2026 → V/F sobre origem (células de Cajal), marcador (CD117) e tratamento (cirurgia R0 + imatinibe).",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "cab": [
+      "GIST",
+      "Lembrar"
+     ],
+     "linhas": [
+      [
+       "Origem",
+       "Células intersticiais de Cajal"
+      ],
+      [
+       "Local mais comum",
+       "!Estômago"
+      ],
+      [
+       "Marcador",
+       "!CD117 (KIT) e DOG1"
+      ],
+      [
+       "Disseminação",
+       "Fígado e peritônio (linfonodo raro)"
+      ],
+      [
+       "Cirurgia",
+       "Ressecção R0 sem linfadenectomia"
+      ],
+      [
+       "Droga-alvo",
+       "!Imatinibe"
+      ]
+     ]
+    }
+   ],
+   "fonte": "NCCN Guidelines — Gastrointestinal Stromal Tumors (2025) / ESMO-EURACAN-GENTURIS — GIST Clinical Practice Guidelines (2022) / INCA",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "dsm-01",
+   "tipo": "flash",
+   "area": "Ginecologia",
+   "tema": "Dor pélvica",
+   "sub": "Dismenorreia",
+   "frente": "Dismenorreia primária: mecanismo e tratamento de 1ª linha",
+   "verso": "**Prostaglandinas (PGF2α).**\n**1ª linha → AINE.**\n\nComo usar:\n- Iniciar 1–2 dias antes ou ao primeiro sinal de dor.\n\nAlternativa:\n- Contraceptivo hormonal.",
+   "macete": "Prostaglandina causa → anti-prostaglandina trata (AINE).",
+   "pegadinha": "Na primária o exame pélvico é NORMAL.",
+   "uerj": "VIV 2026: dismenorreia primária na adolescente → AINE.",
+   "prio": "alta",
+   "contexto": "**Dismenorreia = dor pélvica em cólica associada à menstruação; primária (sem doença pélvica, por prostaglandinas) ou secundária (causada por doença como endometriose).**\n\nPrimária:\n- Começa 6–12 meses após a menarca (com os ciclos ovulatórios)\n- Dor em cólica no hipogástrio no 1º–3º dia, pode irradiar para lombar/coxas; náusea, diarreia, cefaleia\n- Mecanismo → **prostaglandinas (PGF2α)** do endométrio → contrações e isquemia uterina\n- Exame pélvico normal\n- **Tratamento de 1ª linha → AINE** (iniciar 1–2 dias antes ou ao início da dor)\n- Alternativa/associação → contraceptivo hormonal (ACO, DIU-LNG); calor local, exercício\n\nSecundária:\n- Começa mais tarde (geralmente > 25 anos) ou muda de padrão, piora progressiva\n- Causas → **endometriose** (mais comum), adenomiose, miomas, DIP, DIU de cobre, malformações obstrutivas\n- Sinais de alerta → dispareunia, dor fora da menstruação, infertilidade, SUA, exame alterado\n- Investigar → USG transvaginal; tratar a causa\n\nO que mais cai no Vila Verde:\n- VIV 2026 → adolescente com dismenorreia primária: tratamento de 1ª linha = AINE.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "cab": [
+      "",
+      "Primária",
+      "Secundária"
+     ],
+     "linhas": [
+      [
+       "Início",
+       "6–12 meses após a menarca",
+       "Mais tarde / muda o padrão"
+      ],
+      [
+       "Causa",
+       "Prostaglandinas",
+       "Endometriose, adenomiose, miomas"
+      ],
+      [
+       "Exame",
+       "Normal",
+       "Pode estar alterado"
+      ],
+      [
+       "1ª linha",
+       "!AINE",
+       "Tratar a causa"
+      ]
+     ]
+    }
+   ],
+   "fonte": "FEBRASGO — Dismenorreia (Protocolo 2021) / ACOG Committee Opinion 760 — Dysmenorrhea and Endometriosis in the Adolescent (2018)",
+   "add": "2026-10-28",
+   "visual": {
+    "tipo": "fluxo",
+    "passos": [
+     "Endométrio libera PGF2α",
+     "Contrações e isquemia uterina",
+     "Cólica",
+     "AINE bloqueia a produção"
+    ]
+   }
+  },
+  {
+   "id": "dsm-02",
+   "tipo": "flash",
+   "area": "Ginecologia",
+   "tema": "Dor pélvica",
+   "sub": "Dismenorreia",
+   "frente": "Quando pensar em dismenorreia secundária?",
+   "verso": "**Início tardio ou piora progressiva.**\n**Outros sintomas além da cólica.**\n\nSinais de alerta:\n- Dispareunia, dor fora da menstruação, infertilidade.\n\nCausa mais comum:\n- Endometriose.",
+   "macete": "Secundária = \"Sempre tem um Suspeito\" (endometriose, adenomiose, mioma).",
+   "pegadinha": "DIU de cobre pode piorar a cólica.",
+   "prio": "media",
+   "contexto": "**Dismenorreia = dor pélvica em cólica associada à menstruação; primária (sem doença pélvica, por prostaglandinas) ou secundária (causada por doença como endometriose).**\n\nPrimária:\n- Começa 6–12 meses após a menarca (com os ciclos ovulatórios)\n- Dor em cólica no hipogástrio no 1º–3º dia, pode irradiar para lombar/coxas; náusea, diarreia, cefaleia\n- Mecanismo → **prostaglandinas (PGF2α)** do endométrio → contrações e isquemia uterina\n- Exame pélvico normal\n- **Tratamento de 1ª linha → AINE** (iniciar 1–2 dias antes ou ao início da dor)\n- Alternativa/associação → contraceptivo hormonal (ACO, DIU-LNG); calor local, exercício\n\nSecundária:\n- Começa mais tarde (geralmente > 25 anos) ou muda de padrão, piora progressiva\n- Causas → **endometriose** (mais comum), adenomiose, miomas, DIP, DIU de cobre, malformações obstrutivas\n- Sinais de alerta → dispareunia, dor fora da menstruação, infertilidade, SUA, exame alterado\n- Investigar → USG transvaginal; tratar a causa\n\nO que mais cai no Vila Verde:\n- VIV 2026 → adolescente com dismenorreia primária: tratamento de 1ª linha = AINE.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "cab": [
+      "",
+      "Primária",
+      "Secundária"
+     ],
+     "linhas": [
+      [
+       "Início",
+       "6–12 meses após a menarca",
+       "Mais tarde / muda o padrão"
+      ],
+      [
+       "Causa",
+       "Prostaglandinas",
+       "Endometriose, adenomiose, miomas"
+      ],
+      [
+       "Exame",
+       "Normal",
+       "Pode estar alterado"
+      ],
+      [
+       "1ª linha",
+       "!AINE",
+       "Tratar a causa"
+      ]
+     ]
+    }
+   ],
+   "fonte": "FEBRASGO — Dismenorreia (Protocolo 2021) / ACOG Committee Opinion 760 — Dysmenorrhea and Endometriosis in the Adolescent (2018)",
+   "add": "2026-10-28",
+   "visual": {
+    "tipo": "lista",
+    "itens": [
+     "!Endometriose (mais comum)",
+     "Adenomiose",
+     "Miomas",
+     "DIP",
+     "DIU de cobre"
+    ]
+   }
+  },
+  {
+   "id": "dsm-q1",
+   "tipo": "quiz",
+   "area": "Ginecologia",
+   "tema": "Dor pélvica",
+   "sub": "Dismenorreia",
+   "frente": "Adolescente de 15 anos, menarca aos 13, com cólica intensa nos 2 primeiros dias da menstruação, exame normal. O tratamento de primeira linha é:",
+   "opcoes": [
+    "Análogo de GnRH.",
+    "Laparoscopia diagnóstica.",
+    "Anti-inflamatório não esteroide.",
+    "Progestagênio injetável trimestral."
+   ],
+   "certa": 2,
+   "comentarios": [
+    "Excessivo.",
+    "Reservada para refratárias.",
+    "Correta.",
+    "Não é 1ª linha."
+   ],
+   "macete": "\"Cólica de menina = AINE\".",
+   "pegadinha": "Laparoscopia só se refratária a AINE + hormônio.",
+   "uerj": "VIV 2026 (Q42).",
+   "prio": "alta",
+   "contexto": "**Dismenorreia = dor pélvica em cólica associada à menstruação; primária (sem doença pélvica, por prostaglandinas) ou secundária (causada por doença como endometriose).**\n\nPrimária:\n- Começa 6–12 meses após a menarca (com os ciclos ovulatórios)\n- Dor em cólica no hipogástrio no 1º–3º dia, pode irradiar para lombar/coxas; náusea, diarreia, cefaleia\n- Mecanismo → **prostaglandinas (PGF2α)** do endométrio → contrações e isquemia uterina\n- Exame pélvico normal\n- **Tratamento de 1ª linha → AINE** (iniciar 1–2 dias antes ou ao início da dor)\n- Alternativa/associação → contraceptivo hormonal (ACO, DIU-LNG); calor local, exercício\n\nSecundária:\n- Começa mais tarde (geralmente > 25 anos) ou muda de padrão, piora progressiva\n- Causas → **endometriose** (mais comum), adenomiose, miomas, DIP, DIU de cobre, malformações obstrutivas\n- Sinais de alerta → dispareunia, dor fora da menstruação, infertilidade, SUA, exame alterado\n- Investigar → USG transvaginal; tratar a causa\n\nO que mais cai no Vila Verde:\n- VIV 2026 → adolescente com dismenorreia primária: tratamento de 1ª linha = AINE.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "cab": [
+      "",
+      "Primária",
+      "Secundária"
+     ],
+     "linhas": [
+      [
+       "Início",
+       "6–12 meses após a menarca",
+       "Mais tarde / muda o padrão"
+      ],
+      [
+       "Causa",
+       "Prostaglandinas",
+       "Endometriose, adenomiose, miomas"
+      ],
+      [
+       "Exame",
+       "Normal",
+       "Pode estar alterado"
+      ],
+      [
+       "1ª linha",
+       "!AINE",
+       "Tratar a causa"
+      ]
+     ]
+    }
+   ],
+   "fonte": "FEBRASGO — Dismenorreia (Protocolo 2021) / ACOG Committee Opinion 760 — Dysmenorrhea and Endometriosis in the Adolescent (2018)",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "dsm-d1",
+   "tipo": "digitar",
+   "area": "Ginecologia",
+   "tema": "Dor pélvica",
+   "sub": "Dismenorreia",
+   "frente": "Qual mediador causa a dismenorreia primária?",
+   "verso": "**Prostaglandinas (PGF2α).**",
+   "resposta": "Prostaglandinas",
+   "aceitas": [
+    "prostaglandina",
+    "pgf2a",
+    "pgf2α",
+    "prostaglandinas"
+   ],
+   "macete": "Cólica = prostaglandina.",
+   "prio": "media",
+   "contexto": "**Dismenorreia = dor pélvica em cólica associada à menstruação; primária (sem doença pélvica, por prostaglandinas) ou secundária (causada por doença como endometriose).**\n\nPrimária:\n- Começa 6–12 meses após a menarca (com os ciclos ovulatórios)\n- Dor em cólica no hipogástrio no 1º–3º dia, pode irradiar para lombar/coxas; náusea, diarreia, cefaleia\n- Mecanismo → **prostaglandinas (PGF2α)** do endométrio → contrações e isquemia uterina\n- Exame pélvico normal\n- **Tratamento de 1ª linha → AINE** (iniciar 1–2 dias antes ou ao início da dor)\n- Alternativa/associação → contraceptivo hormonal (ACO, DIU-LNG); calor local, exercício\n\nSecundária:\n- Começa mais tarde (geralmente > 25 anos) ou muda de padrão, piora progressiva\n- Causas → **endometriose** (mais comum), adenomiose, miomas, DIP, DIU de cobre, malformações obstrutivas\n- Sinais de alerta → dispareunia, dor fora da menstruação, infertilidade, SUA, exame alterado\n- Investigar → USG transvaginal; tratar a causa\n\nO que mais cai no Vila Verde:\n- VIV 2026 → adolescente com dismenorreia primária: tratamento de 1ª linha = AINE.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "cab": [
+      "",
+      "Primária",
+      "Secundária"
+     ],
+     "linhas": [
+      [
+       "Início",
+       "6–12 meses após a menarca",
+       "Mais tarde / muda o padrão"
+      ],
+      [
+       "Causa",
+       "Prostaglandinas",
+       "Endometriose, adenomiose, miomas"
+      ],
+      [
+       "Exame",
+       "Normal",
+       "Pode estar alterado"
+      ],
+      [
+       "1ª linha",
+       "!AINE",
+       "Tratar a causa"
+      ]
+     ]
+    }
+   ],
+   "fonte": "FEBRASGO — Dismenorreia (Protocolo 2021) / ACOG Committee Opinion 760 — Dysmenorrhea and Endometriosis in the Adolescent (2018)",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "dsm-d2",
+   "tipo": "digitar",
+   "area": "Ginecologia",
+   "tema": "Dor pélvica",
+   "sub": "Dismenorreia",
+   "frente": "Qual a principal causa de dismenorreia secundária?",
+   "verso": "**Endometriose.**",
+   "resposta": "Endometriose",
+   "aceitas": [
+    "endometriose"
+   ],
+   "macete": "Secundária → endometriose.",
+   "prio": "media",
+   "contexto": "**Dismenorreia = dor pélvica em cólica associada à menstruação; primária (sem doença pélvica, por prostaglandinas) ou secundária (causada por doença como endometriose).**\n\nPrimária:\n- Começa 6–12 meses após a menarca (com os ciclos ovulatórios)\n- Dor em cólica no hipogástrio no 1º–3º dia, pode irradiar para lombar/coxas; náusea, diarreia, cefaleia\n- Mecanismo → **prostaglandinas (PGF2α)** do endométrio → contrações e isquemia uterina\n- Exame pélvico normal\n- **Tratamento de 1ª linha → AINE** (iniciar 1–2 dias antes ou ao início da dor)\n- Alternativa/associação → contraceptivo hormonal (ACO, DIU-LNG); calor local, exercício\n\nSecundária:\n- Começa mais tarde (geralmente > 25 anos) ou muda de padrão, piora progressiva\n- Causas → **endometriose** (mais comum), adenomiose, miomas, DIP, DIU de cobre, malformações obstrutivas\n- Sinais de alerta → dispareunia, dor fora da menstruação, infertilidade, SUA, exame alterado\n- Investigar → USG transvaginal; tratar a causa\n\nO que mais cai no Vila Verde:\n- VIV 2026 → adolescente com dismenorreia primária: tratamento de 1ª linha = AINE.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "cab": [
+      "",
+      "Primária",
+      "Secundária"
+     ],
+     "linhas": [
+      [
+       "Início",
+       "6–12 meses após a menarca",
+       "Mais tarde / muda o padrão"
+      ],
+      [
+       "Causa",
+       "Prostaglandinas",
+       "Endometriose, adenomiose, miomas"
+      ],
+      [
+       "Exame",
+       "Normal",
+       "Pode estar alterado"
+      ],
+      [
+       "1ª linha",
+       "!AINE",
+       "Tratar a causa"
+      ]
+     ]
+    }
+   ],
+   "fonte": "FEBRASGO — Dismenorreia (Protocolo 2021) / ACOG Committee Opinion 760 — Dysmenorrhea and Endometriosis in the Adolescent (2018)",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "mio-01",
+   "tipo": "flash",
+   "area": "Ginecologia",
+   "tema": "Sangramento uterino",
+   "sub": "Miomatose uterina",
+   "frente": "Miomas: qual localização sangra mais e qual o principal sintoma?",
+   "verso": "**Submucoso sangra mais.**\n**Principal sintoma → sangramento uterino aumentado.**\n\nOutros:\n- Dor, compressão, infertilidade.\n- Maioria assintomática.",
+   "macete": "SUBmucoso = \"SUBiu o sangue\".",
+   "visual": {
+    "tipo": "tabela",
+    "cab": [
+     "Tipo (FIGO)",
+     "Sintoma típico"
+    ],
+    "linhas": [
+     [
+      "Submucoso (0–2)",
+      "!Sangramento, infertilidade"
+     ],
+     [
+      "Intramural (3–5)",
+      "Sangramento, dor"
+     ],
+     [
+      "Subseroso (6–7)",
+      "Compressão, massa"
+     ]
+    ]
+   },
+   "pegadinha": "Subseroso dá mais COMPRESSÃO que sangramento.",
+   "uerj": "VIV 2026: diagnóstico de leiomiomatose com nódulos intramurais e subserosos.",
+   "prio": "alta",
+   "contexto": "**Miomatose uterina = leiomiomas, tumores benignos de músculo liso do útero dependentes de estrogênio e progesterona; o tumor pélvico benigno mais comum da mulher.**\n\nFatores de risco:\n- Mulheres negras, nuliparidade, menarca precoce, obesidade, história familiar\n- Regridem após a menopausa\n\nClassificação (FIGO 0–8, pela localização):\n- **Submucosos (0–2)** → mais sangramento e infertilidade\n- **Intramurais (3–5)** → na parede\n- **Subserosos (6–7)** → para fora; dão compressão\n- Pediculados → podem torcer\n\nClínica:\n- Maioria assintomática\n- **Sangramento uterino anormal (menorragia)** → principal sintoma; anemia\n- Dor, dismenorreia, compressão (bexiga, reto), infertilidade\n- Útero aumentado e irregular ao toque\n\nDegenerações:\n- Hialina → a mais comum\n- Vermelha (rubra) → na gestação, dor aguda\n- Sarcomatosa (leiomiossarcoma) → rara; crescimento rápido na pós-menopausa\n\nDiagnóstico:\n- **USG transvaginal** → 1º exame\n- Histeroscopia → submucoso; RM → mapeamento antes de cirurgia\n\nTratamento:\n- Assintomático → expectante\n- Clínico → DIU-LNG, ACO, progestagênios, AINE, ácido tranexâmico\n- Análogo de GnRH → pré-operatório (reduz volume e corrige anemia), temporário\n- **Miomectomia** → deseja gestar (histeroscópica no submucoso)\n- **Histerectomia** → prole completa, sintomas importantes\n- Embolização das artérias uterinas → alternativa\n\nO que mais cai no Vila Verde:\n- VIV 2026 → útero com nódulos intramurais e subserosos = leiomiomatose uterina.",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 200\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><path d=\"M120 40 C 80 40, 70 120, 110 170 L 230 170 C 270 120, 260 40, 220 40 Z\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.5\"/><path d=\"M150 70 C 140 100, 150 130, 170 150 C 190 130, 200 100, 190 70 Z\" fill=\"var(--card)\" stroke=\"var(--rose)\"/><circle cx=\"170\" cy=\"100\" r=\"13\" fill=\"var(--wine)\"/><text x=\"170\" y=\"124\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--ink)\">submucoso</text><circle cx=\"113\" cy=\"110\" r=\"14\" fill=\"var(--wine)\"/><text x=\"60\" y=\"140\" font-size=\"9\" fill=\"var(--ink)\">intramural</text><circle cx=\"258\" cy=\"80\" r=\"16\" fill=\"var(--wine)\"/><text x=\"262\" y=\"112\" font-size=\"9\" fill=\"var(--ink)\">subseroso</text><line x1=\"230\" y1=\"160\" x2=\"262\" y2=\"182\" stroke=\"var(--rose)\"/><circle cx=\"268\" cy=\"186\" r=\"9\" fill=\"var(--wine)\"/><text x=\"282\" y=\"190\" font-size=\"9\" fill=\"var(--ink)\">pediculado</text></svg>",
+     "legenda": "Localização dos miomas (submucoso sangra mais)"
+    }
+   ],
+   "fonte": "FEBRASGO — Miomatose uterina (Protocolo 2021) / FIGO Leiomyoma Subclassification System (2018) / ACOG Practice Bulletin 228 (2021)",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "mio-02",
+   "tipo": "flash",
+   "area": "Ginecologia",
+   "tema": "Sangramento uterino",
+   "sub": "Miomatose uterina",
+   "frente": "Miomatose: tratamento conforme o desejo reprodutivo",
+   "verso": "**Quer gestar → miomectomia.**\n**Prole completa → histerectomia.**\n\nClínico:\n- DIU-LNG, ACO, progestagênio, ácido tranexâmico.\n\nAnálogo de GnRH:\n- Pré-operatório (temporário).",
+   "macete": "\"Tira o mioma (miomectomia) ou tira o útero (histerectomia)\".",
+   "pegadinha": "Crescimento de mioma na PÓS-menopausa → suspeitar de sarcoma.",
+   "prio": "media",
+   "contexto": "**Miomatose uterina = leiomiomas, tumores benignos de músculo liso do útero dependentes de estrogênio e progesterona; o tumor pélvico benigno mais comum da mulher.**\n\nFatores de risco:\n- Mulheres negras, nuliparidade, menarca precoce, obesidade, história familiar\n- Regridem após a menopausa\n\nClassificação (FIGO 0–8, pela localização):\n- **Submucosos (0–2)** → mais sangramento e infertilidade\n- **Intramurais (3–5)** → na parede\n- **Subserosos (6–7)** → para fora; dão compressão\n- Pediculados → podem torcer\n\nClínica:\n- Maioria assintomática\n- **Sangramento uterino anormal (menorragia)** → principal sintoma; anemia\n- Dor, dismenorreia, compressão (bexiga, reto), infertilidade\n- Útero aumentado e irregular ao toque\n\nDegenerações:\n- Hialina → a mais comum\n- Vermelha (rubra) → na gestação, dor aguda\n- Sarcomatosa (leiomiossarcoma) → rara; crescimento rápido na pós-menopausa\n\nDiagnóstico:\n- **USG transvaginal** → 1º exame\n- Histeroscopia → submucoso; RM → mapeamento antes de cirurgia\n\nTratamento:\n- Assintomático → expectante\n- Clínico → DIU-LNG, ACO, progestagênios, AINE, ácido tranexâmico\n- Análogo de GnRH → pré-operatório (reduz volume e corrige anemia), temporário\n- **Miomectomia** → deseja gestar (histeroscópica no submucoso)\n- **Histerectomia** → prole completa, sintomas importantes\n- Embolização das artérias uterinas → alternativa\n\nO que mais cai no Vila Verde:\n- VIV 2026 → útero com nódulos intramurais e subserosos = leiomiomatose uterina.",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 200\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><path d=\"M120 40 C 80 40, 70 120, 110 170 L 230 170 C 270 120, 260 40, 220 40 Z\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.5\"/><path d=\"M150 70 C 140 100, 150 130, 170 150 C 190 130, 200 100, 190 70 Z\" fill=\"var(--card)\" stroke=\"var(--rose)\"/><circle cx=\"170\" cy=\"100\" r=\"13\" fill=\"var(--wine)\"/><text x=\"170\" y=\"124\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--ink)\">submucoso</text><circle cx=\"113\" cy=\"110\" r=\"14\" fill=\"var(--wine)\"/><text x=\"60\" y=\"140\" font-size=\"9\" fill=\"var(--ink)\">intramural</text><circle cx=\"258\" cy=\"80\" r=\"16\" fill=\"var(--wine)\"/><text x=\"262\" y=\"112\" font-size=\"9\" fill=\"var(--ink)\">subseroso</text><line x1=\"230\" y1=\"160\" x2=\"262\" y2=\"182\" stroke=\"var(--rose)\"/><circle cx=\"268\" cy=\"186\" r=\"9\" fill=\"var(--wine)\"/><text x=\"282\" y=\"190\" font-size=\"9\" fill=\"var(--ink)\">pediculado</text></svg>",
+     "legenda": "Localização dos miomas (submucoso sangra mais)"
+    }
+   ],
+   "fonte": "FEBRASGO — Miomatose uterina (Protocolo 2021) / FIGO Leiomyoma Subclassification System (2018) / ACOG Practice Bulletin 228 (2021)",
+   "add": "2026-10-28",
+   "visual": {
+    "tipo": "vs",
+    "a": {
+     "t": "Quer gestar",
+     "itens": [
+      "Miomectomia",
+      "Histeroscópica se submucoso"
+     ]
+    },
+    "b": {
+     "t": "Prole completa",
+     "itens": [
+      "Histerectomia",
+      "Embolização (alternativa)"
+     ]
+    }
+   }
+  },
+  {
+   "id": "mio-q1",
+   "tipo": "quiz",
+   "area": "Ginecologia",
+   "tema": "Sangramento uterino",
+   "sub": "Miomatose uterina",
+   "frente": "Mulher de 42 anos com menorragia e anemia. USG: útero aumentado com nódulos hipoecoicos intramurais e subserosos. O diagnóstico mais provável é:",
+   "opcoes": [
+    "Adenomiose difusa.",
+    "Leiomiomatose uterina.",
+    "Câncer de endométrio.",
+    "Pólipo endometrial."
+   ],
+   "certa": 1,
+   "comentarios": [
+    "Adenomiose dá útero globoso sem nódulos bem definidos.",
+    "Correta.",
+    "Seria espessamento endometrial, não nódulos miometriais.",
+    "Pólipo é intracavitário."
+   ],
+   "macete": "\"Nódulo no músculo = mioma\".",
+   "pegadinha": "Adenomiose é difusa, sem nódulos delimitados.",
+   "uerj": "VIV 2026 (Q46).",
+   "prio": "media",
+   "contexto": "**Miomatose uterina = leiomiomas, tumores benignos de músculo liso do útero dependentes de estrogênio e progesterona; o tumor pélvico benigno mais comum da mulher.**\n\nFatores de risco:\n- Mulheres negras, nuliparidade, menarca precoce, obesidade, história familiar\n- Regridem após a menopausa\n\nClassificação (FIGO 0–8, pela localização):\n- **Submucosos (0–2)** → mais sangramento e infertilidade\n- **Intramurais (3–5)** → na parede\n- **Subserosos (6–7)** → para fora; dão compressão\n- Pediculados → podem torcer\n\nClínica:\n- Maioria assintomática\n- **Sangramento uterino anormal (menorragia)** → principal sintoma; anemia\n- Dor, dismenorreia, compressão (bexiga, reto), infertilidade\n- Útero aumentado e irregular ao toque\n\nDegenerações:\n- Hialina → a mais comum\n- Vermelha (rubra) → na gestação, dor aguda\n- Sarcomatosa (leiomiossarcoma) → rara; crescimento rápido na pós-menopausa\n\nDiagnóstico:\n- **USG transvaginal** → 1º exame\n- Histeroscopia → submucoso; RM → mapeamento antes de cirurgia\n\nTratamento:\n- Assintomático → expectante\n- Clínico → DIU-LNG, ACO, progestagênios, AINE, ácido tranexâmico\n- Análogo de GnRH → pré-operatório (reduz volume e corrige anemia), temporário\n- **Miomectomia** → deseja gestar (histeroscópica no submucoso)\n- **Histerectomia** → prole completa, sintomas importantes\n- Embolização das artérias uterinas → alternativa\n\nO que mais cai no Vila Verde:\n- VIV 2026 → útero com nódulos intramurais e subserosos = leiomiomatose uterina.",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 200\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><path d=\"M120 40 C 80 40, 70 120, 110 170 L 230 170 C 270 120, 260 40, 220 40 Z\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.5\"/><path d=\"M150 70 C 140 100, 150 130, 170 150 C 190 130, 200 100, 190 70 Z\" fill=\"var(--card)\" stroke=\"var(--rose)\"/><circle cx=\"170\" cy=\"100\" r=\"13\" fill=\"var(--wine)\"/><text x=\"170\" y=\"124\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--ink)\">submucoso</text><circle cx=\"113\" cy=\"110\" r=\"14\" fill=\"var(--wine)\"/><text x=\"60\" y=\"140\" font-size=\"9\" fill=\"var(--ink)\">intramural</text><circle cx=\"258\" cy=\"80\" r=\"16\" fill=\"var(--wine)\"/><text x=\"262\" y=\"112\" font-size=\"9\" fill=\"var(--ink)\">subseroso</text><line x1=\"230\" y1=\"160\" x2=\"262\" y2=\"182\" stroke=\"var(--rose)\"/><circle cx=\"268\" cy=\"186\" r=\"9\" fill=\"var(--wine)\"/><text x=\"282\" y=\"190\" font-size=\"9\" fill=\"var(--ink)\">pediculado</text></svg>",
+     "legenda": "Localização dos miomas (submucoso sangra mais)"
+    }
+   ],
+   "fonte": "FEBRASGO — Miomatose uterina (Protocolo 2021) / FIGO Leiomyoma Subclassification System (2018) / ACOG Practice Bulletin 228 (2021)",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "mio-d1",
+   "tipo": "digitar",
+   "area": "Ginecologia",
+   "tema": "Sangramento uterino",
+   "sub": "Miomatose uterina",
+   "frente": "Qual a degeneração mais comum do mioma?",
+   "verso": "**Hialina.**\n\n- Na gestação: degeneração vermelha.",
+   "resposta": "Hialina",
+   "aceitas": [
+    "hialina",
+    "degeneração hialina"
+   ],
+   "macete": "\"Hialina é a Habitual\".",
+   "prio": "media",
+   "contexto": "**Miomatose uterina = leiomiomas, tumores benignos de músculo liso do útero dependentes de estrogênio e progesterona; o tumor pélvico benigno mais comum da mulher.**\n\nFatores de risco:\n- Mulheres negras, nuliparidade, menarca precoce, obesidade, história familiar\n- Regridem após a menopausa\n\nClassificação (FIGO 0–8, pela localização):\n- **Submucosos (0–2)** → mais sangramento e infertilidade\n- **Intramurais (3–5)** → na parede\n- **Subserosos (6–7)** → para fora; dão compressão\n- Pediculados → podem torcer\n\nClínica:\n- Maioria assintomática\n- **Sangramento uterino anormal (menorragia)** → principal sintoma; anemia\n- Dor, dismenorreia, compressão (bexiga, reto), infertilidade\n- Útero aumentado e irregular ao toque\n\nDegenerações:\n- Hialina → a mais comum\n- Vermelha (rubra) → na gestação, dor aguda\n- Sarcomatosa (leiomiossarcoma) → rara; crescimento rápido na pós-menopausa\n\nDiagnóstico:\n- **USG transvaginal** → 1º exame\n- Histeroscopia → submucoso; RM → mapeamento antes de cirurgia\n\nTratamento:\n- Assintomático → expectante\n- Clínico → DIU-LNG, ACO, progestagênios, AINE, ácido tranexâmico\n- Análogo de GnRH → pré-operatório (reduz volume e corrige anemia), temporário\n- **Miomectomia** → deseja gestar (histeroscópica no submucoso)\n- **Histerectomia** → prole completa, sintomas importantes\n- Embolização das artérias uterinas → alternativa\n\nO que mais cai no Vila Verde:\n- VIV 2026 → útero com nódulos intramurais e subserosos = leiomiomatose uterina.",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 200\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><path d=\"M120 40 C 80 40, 70 120, 110 170 L 230 170 C 270 120, 260 40, 220 40 Z\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.5\"/><path d=\"M150 70 C 140 100, 150 130, 170 150 C 190 130, 200 100, 190 70 Z\" fill=\"var(--card)\" stroke=\"var(--rose)\"/><circle cx=\"170\" cy=\"100\" r=\"13\" fill=\"var(--wine)\"/><text x=\"170\" y=\"124\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--ink)\">submucoso</text><circle cx=\"113\" cy=\"110\" r=\"14\" fill=\"var(--wine)\"/><text x=\"60\" y=\"140\" font-size=\"9\" fill=\"var(--ink)\">intramural</text><circle cx=\"258\" cy=\"80\" r=\"16\" fill=\"var(--wine)\"/><text x=\"262\" y=\"112\" font-size=\"9\" fill=\"var(--ink)\">subseroso</text><line x1=\"230\" y1=\"160\" x2=\"262\" y2=\"182\" stroke=\"var(--rose)\"/><circle cx=\"268\" cy=\"186\" r=\"9\" fill=\"var(--wine)\"/><text x=\"282\" y=\"190\" font-size=\"9\" fill=\"var(--ink)\">pediculado</text></svg>",
+     "legenda": "Localização dos miomas (submucoso sangra mais)"
+    }
+   ],
+   "fonte": "FEBRASGO — Miomatose uterina (Protocolo 2021) / FIGO Leiomyoma Subclassification System (2018) / ACOG Practice Bulletin 228 (2021)",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "mio-d2",
+   "tipo": "digitar",
+   "area": "Ginecologia",
+   "tema": "Sangramento uterino",
+   "sub": "Miomatose uterina",
+   "frente": "Qual mioma é tratado por via histeroscópica?",
+   "verso": "**Submucoso.**",
+   "resposta": "Submucoso",
+   "aceitas": [
+    "submucoso",
+    "submucosos"
+   ],
+   "macete": "Dentro da cavidade → histeroscopia.",
+   "prio": "media",
+   "contexto": "**Miomatose uterina = leiomiomas, tumores benignos de músculo liso do útero dependentes de estrogênio e progesterona; o tumor pélvico benigno mais comum da mulher.**\n\nFatores de risco:\n- Mulheres negras, nuliparidade, menarca precoce, obesidade, história familiar\n- Regridem após a menopausa\n\nClassificação (FIGO 0–8, pela localização):\n- **Submucosos (0–2)** → mais sangramento e infertilidade\n- **Intramurais (3–5)** → na parede\n- **Subserosos (6–7)** → para fora; dão compressão\n- Pediculados → podem torcer\n\nClínica:\n- Maioria assintomática\n- **Sangramento uterino anormal (menorragia)** → principal sintoma; anemia\n- Dor, dismenorreia, compressão (bexiga, reto), infertilidade\n- Útero aumentado e irregular ao toque\n\nDegenerações:\n- Hialina → a mais comum\n- Vermelha (rubra) → na gestação, dor aguda\n- Sarcomatosa (leiomiossarcoma) → rara; crescimento rápido na pós-menopausa\n\nDiagnóstico:\n- **USG transvaginal** → 1º exame\n- Histeroscopia → submucoso; RM → mapeamento antes de cirurgia\n\nTratamento:\n- Assintomático → expectante\n- Clínico → DIU-LNG, ACO, progestagênios, AINE, ácido tranexâmico\n- Análogo de GnRH → pré-operatório (reduz volume e corrige anemia), temporário\n- **Miomectomia** → deseja gestar (histeroscópica no submucoso)\n- **Histerectomia** → prole completa, sintomas importantes\n- Embolização das artérias uterinas → alternativa\n\nO que mais cai no Vila Verde:\n- VIV 2026 → útero com nódulos intramurais e subserosos = leiomiomatose uterina.",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 200\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><path d=\"M120 40 C 80 40, 70 120, 110 170 L 230 170 C 270 120, 260 40, 220 40 Z\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.5\"/><path d=\"M150 70 C 140 100, 150 130, 170 150 C 190 130, 200 100, 190 70 Z\" fill=\"var(--card)\" stroke=\"var(--rose)\"/><circle cx=\"170\" cy=\"100\" r=\"13\" fill=\"var(--wine)\"/><text x=\"170\" y=\"124\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--ink)\">submucoso</text><circle cx=\"113\" cy=\"110\" r=\"14\" fill=\"var(--wine)\"/><text x=\"60\" y=\"140\" font-size=\"9\" fill=\"var(--ink)\">intramural</text><circle cx=\"258\" cy=\"80\" r=\"16\" fill=\"var(--wine)\"/><text x=\"262\" y=\"112\" font-size=\"9\" fill=\"var(--ink)\">subseroso</text><line x1=\"230\" y1=\"160\" x2=\"262\" y2=\"182\" stroke=\"var(--rose)\"/><circle cx=\"268\" cy=\"186\" r=\"9\" fill=\"var(--wine)\"/><text x=\"282\" y=\"190\" font-size=\"9\" fill=\"var(--ink)\">pediculado</text></svg>",
+     "legenda": "Localização dos miomas (submucoso sangra mais)"
+    }
+   ],
+   "fonte": "FEBRASGO — Miomatose uterina (Protocolo 2021) / FIGO Leiomyoma Subclassification System (2018) / ACOG Practice Bulletin 228 (2021)",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "mast-01",
+   "tipo": "flash",
+   "area": "Obstetrícia",
+   "tema": "Parto e puerpério",
+   "sub": "Puerpério — mastite e complicações",
+   "frente": "Mastite puerperal: agente e conduta",
+   "verso": "**Staphylococcus aureus.**\n**Manter a amamentação + antibiótico (cefalexina).**\n\nJunto:\n- Esvaziar bem a mama, analgésico, compressa.\n- Corrigir a pega.",
+   "macete": "Mastite: \"Mama vazia cura; Staphylo pede cefalexina\".",
+   "pegadinha": "Suspender a amamentação PIORA (estase de leite).",
+   "uerj": "VIV 2026: conduta terapêutica na mastite puerperal.",
+   "prio": "alta",
+   "contexto": "**Mastite puerperal = inflamação/infecção da mama na lactação, quase sempre por Staphylococcus aureus, ligada a fissura mamilar e esvaziamento inadequado.**\n\nFatores de risco:\n- Fissuras mamilares, ingurgitamento, pega incorreta, mamadas espaçadas\n- Mais comum entre a 2ª e a 6ª semana pós-parto\n\nClínica:\n- Área da mama dolorosa, quente e vermelha (em cunha), em geral unilateral\n- Febre, calafrios, mal-estar\n- Ingurgitamento → bilateral, sem febre alta (diferencial)\n\nTratamento:\n- **MANTER a amamentação** (inclusive na mama afetada) → esvaziar bem é parte do tratamento\n- Analgésico/AINE, compressa, corrigir a pega\n- **Antibiótico** se não melhorar em 12–24 h ou se sintomas importantes → **cefalexina** (ou amoxicilina-clavulanato) por 10–14 dias\n- Suspeita de MRSA → sulfametoxazol-trimetoprima ou clindamicina\n\nAbscesso mamário:\n- Massa flutuante que não melhora com antibiótico → USG\n- Drenagem (punção aspirativa guiada ou incisão) + antibiótico\n- Amamentação continua na outra mama (e na afetada, se a incisão estiver longe da aréola)\n\nPuerpério (lembrar):\n- Imediato → até o 10º dia; tardio → 11º ao 42º; remoto → após o 42º\n- Lóquios → rubra → serosa → alba\n- Endometrite puerperal → febre + útero doloroso + lóquio fétido → clindamicina + gentamicina\n\nO que mais cai no Vila Verde:\n- VIV 2026 → conduta na mastite puerperal: manter amamentação + antibiótico antiestafilocócico.",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 184\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><rect x=\"10\" y=\"8\" width=\"320\" height=\"30\" rx=\"9\" fill=\"var(--wine)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"170.0\" y=\"26.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--card)\">Mama dolorosa, vermelha, febre (lactante)</text><line x1=\"170\" y1=\"38\" x2=\"170\" y2=\"50\" stroke=\"var(--rose)\"/><rect x=\"20\" y=\"50\" width=\"300\" height=\"34\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"170.0\" y=\"70.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Manter amamentação + esvaziar + analgesia</text><line x1=\"170\" y1=\"84\" x2=\"170\" y2=\"96\" stroke=\"var(--rose)\"/><rect x=\"20\" y=\"96\" width=\"300\" height=\"34\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"170.0\" y=\"116.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Sem melhora em 12–24 h → cefalexina 10–14 dias</text><line x1=\"170\" y1=\"130\" x2=\"170\" y2=\"142\" stroke=\"var(--rose)\"/><rect x=\"20\" y=\"142\" width=\"300\" height=\"34\" rx=\"9\" fill=\"var(--wine)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"170.0\" y=\"162.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--card)\">Massa flutuante → USG → drenar abscesso</text></svg>",
+     "legenda": "Mastite puerperal: conduta em degraus"
+    }
+   ],
+   "fonte": "MS — Saúde da criança: aleitamento materno (Cadernos de AB nº 23, 2015) / Academy of Breastfeeding Medicine Protocol #36 — Mastitis Spectrum (2022) / FEBRASGO",
+   "add": "2026-10-28",
+   "visual": {
+    "tipo": "lista",
+    "itens": [
+     "!Manter amamentação",
+     "Esvaziar a mama afetada",
+     "Cefalexina 10–14 dias",
+     "MRSA → SMX-TMP ou clindamicina"
+    ]
+   }
+  },
+  {
+   "id": "mast-02",
+   "tipo": "flash",
+   "area": "Obstetrícia",
+   "tema": "Parto e puerpério",
+   "sub": "Puerpério — mastite e complicações",
+   "frente": "Mastite × ingurgitamento × abscesso",
+   "verso": "**Mastite → unilateral com febre.**\n**Ingurgitamento → bilateral sem febre alta.**\n**Abscesso → massa flutuante que não melhora.**\n\nAbscesso:\n- USG + drenagem + antibiótico.",
+   "macete": "\"Duas mamas cheias = ingurgitamento; uma vermelha com febre = mastite\".",
+   "visual": {
+    "tipo": "tabela",
+    "cab": [
+     "",
+     "Ingurgitamento",
+     "Mastite",
+     "Abscesso"
+    ],
+    "linhas": [
+     [
+      "Lado",
+      "Bilateral",
+      "Unilateral",
+      "Unilateral"
+     ],
+     [
+      "Febre",
+      "Baixa/ausente",
+      "Sim",
+      "Sim"
+     ],
+     [
+      "Conduta",
+      "Esvaziar",
+      "ATB + amamentar",
+      "Drenar + ATB"
+     ]
+    ]
+   },
+   "pegadinha": "Abscesso NÃO contraindica amamentar na outra mama.",
+   "prio": "media",
+   "contexto": "**Mastite puerperal = inflamação/infecção da mama na lactação, quase sempre por Staphylococcus aureus, ligada a fissura mamilar e esvaziamento inadequado.**\n\nFatores de risco:\n- Fissuras mamilares, ingurgitamento, pega incorreta, mamadas espaçadas\n- Mais comum entre a 2ª e a 6ª semana pós-parto\n\nClínica:\n- Área da mama dolorosa, quente e vermelha (em cunha), em geral unilateral\n- Febre, calafrios, mal-estar\n- Ingurgitamento → bilateral, sem febre alta (diferencial)\n\nTratamento:\n- **MANTER a amamentação** (inclusive na mama afetada) → esvaziar bem é parte do tratamento\n- Analgésico/AINE, compressa, corrigir a pega\n- **Antibiótico** se não melhorar em 12–24 h ou se sintomas importantes → **cefalexina** (ou amoxicilina-clavulanato) por 10–14 dias\n- Suspeita de MRSA → sulfametoxazol-trimetoprima ou clindamicina\n\nAbscesso mamário:\n- Massa flutuante que não melhora com antibiótico → USG\n- Drenagem (punção aspirativa guiada ou incisão) + antibiótico\n- Amamentação continua na outra mama (e na afetada, se a incisão estiver longe da aréola)\n\nPuerpério (lembrar):\n- Imediato → até o 10º dia; tardio → 11º ao 42º; remoto → após o 42º\n- Lóquios → rubra → serosa → alba\n- Endometrite puerperal → febre + útero doloroso + lóquio fétido → clindamicina + gentamicina\n\nO que mais cai no Vila Verde:\n- VIV 2026 → conduta na mastite puerperal: manter amamentação + antibiótico antiestafilocócico.",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 184\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><rect x=\"10\" y=\"8\" width=\"320\" height=\"30\" rx=\"9\" fill=\"var(--wine)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"170.0\" y=\"26.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--card)\">Mama dolorosa, vermelha, febre (lactante)</text><line x1=\"170\" y1=\"38\" x2=\"170\" y2=\"50\" stroke=\"var(--rose)\"/><rect x=\"20\" y=\"50\" width=\"300\" height=\"34\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"170.0\" y=\"70.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Manter amamentação + esvaziar + analgesia</text><line x1=\"170\" y1=\"84\" x2=\"170\" y2=\"96\" stroke=\"var(--rose)\"/><rect x=\"20\" y=\"96\" width=\"300\" height=\"34\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"170.0\" y=\"116.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Sem melhora em 12–24 h → cefalexina 10–14 dias</text><line x1=\"170\" y1=\"130\" x2=\"170\" y2=\"142\" stroke=\"var(--rose)\"/><rect x=\"20\" y=\"142\" width=\"300\" height=\"34\" rx=\"9\" fill=\"var(--wine)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"170.0\" y=\"162.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--card)\">Massa flutuante → USG → drenar abscesso</text></svg>",
+     "legenda": "Mastite puerperal: conduta em degraus"
+    }
+   ],
+   "fonte": "MS — Saúde da criança: aleitamento materno (Cadernos de AB nº 23, 2015) / Academy of Breastfeeding Medicine Protocol #36 — Mastitis Spectrum (2022) / FEBRASGO",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "mast-q1",
+   "tipo": "quiz",
+   "area": "Obstetrícia",
+   "tema": "Parto e puerpério",
+   "sub": "Puerpério — mastite e complicações",
+   "frente": "Puérpera de 3 semanas, amamentando, com febre de 38,8 °C e área quente e eritematosa no quadrante superior externo da mama direita, sem flutuação. A conduta é:",
+   "opcoes": [
+    "Manter a amamentação, analgésico e cefalexina.",
+    "Suspender a amamentação até a resolução.",
+    "Drenagem cirúrgica imediata.",
+    "Suspender a lactação com cabergolina."
+   ],
+   "certa": 0,
+   "comentarios": [
+    "Correta.",
+    "Errada: piora a estase.",
+    "Sem abscesso.",
+    "Errada."
+   ],
+   "macete": "\"Amamenta e trata\".",
+   "pegadinha": "Drenagem só com abscesso (flutuação/USG).",
+   "uerj": "Baseado na VIV 2026 (Q44).",
+   "prio": "alta",
+   "contexto": "**Mastite puerperal = inflamação/infecção da mama na lactação, quase sempre por Staphylococcus aureus, ligada a fissura mamilar e esvaziamento inadequado.**\n\nFatores de risco:\n- Fissuras mamilares, ingurgitamento, pega incorreta, mamadas espaçadas\n- Mais comum entre a 2ª e a 6ª semana pós-parto\n\nClínica:\n- Área da mama dolorosa, quente e vermelha (em cunha), em geral unilateral\n- Febre, calafrios, mal-estar\n- Ingurgitamento → bilateral, sem febre alta (diferencial)\n\nTratamento:\n- **MANTER a amamentação** (inclusive na mama afetada) → esvaziar bem é parte do tratamento\n- Analgésico/AINE, compressa, corrigir a pega\n- **Antibiótico** se não melhorar em 12–24 h ou se sintomas importantes → **cefalexina** (ou amoxicilina-clavulanato) por 10–14 dias\n- Suspeita de MRSA → sulfametoxazol-trimetoprima ou clindamicina\n\nAbscesso mamário:\n- Massa flutuante que não melhora com antibiótico → USG\n- Drenagem (punção aspirativa guiada ou incisão) + antibiótico\n- Amamentação continua na outra mama (e na afetada, se a incisão estiver longe da aréola)\n\nPuerpério (lembrar):\n- Imediato → até o 10º dia; tardio → 11º ao 42º; remoto → após o 42º\n- Lóquios → rubra → serosa → alba\n- Endometrite puerperal → febre + útero doloroso + lóquio fétido → clindamicina + gentamicina\n\nO que mais cai no Vila Verde:\n- VIV 2026 → conduta na mastite puerperal: manter amamentação + antibiótico antiestafilocócico.",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 184\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><rect x=\"10\" y=\"8\" width=\"320\" height=\"30\" rx=\"9\" fill=\"var(--wine)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"170.0\" y=\"26.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--card)\">Mama dolorosa, vermelha, febre (lactante)</text><line x1=\"170\" y1=\"38\" x2=\"170\" y2=\"50\" stroke=\"var(--rose)\"/><rect x=\"20\" y=\"50\" width=\"300\" height=\"34\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"170.0\" y=\"70.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Manter amamentação + esvaziar + analgesia</text><line x1=\"170\" y1=\"84\" x2=\"170\" y2=\"96\" stroke=\"var(--rose)\"/><rect x=\"20\" y=\"96\" width=\"300\" height=\"34\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"170.0\" y=\"116.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Sem melhora em 12–24 h → cefalexina 10–14 dias</text><line x1=\"170\" y1=\"130\" x2=\"170\" y2=\"142\" stroke=\"var(--rose)\"/><rect x=\"20\" y=\"142\" width=\"300\" height=\"34\" rx=\"9\" fill=\"var(--wine)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"170.0\" y=\"162.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--card)\">Massa flutuante → USG → drenar abscesso</text></svg>",
+     "legenda": "Mastite puerperal: conduta em degraus"
+    }
+   ],
+   "fonte": "MS — Saúde da criança: aleitamento materno (Cadernos de AB nº 23, 2015) / Academy of Breastfeeding Medicine Protocol #36 — Mastitis Spectrum (2022) / FEBRASGO",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "mast-d1",
+   "tipo": "digitar",
+   "area": "Obstetrícia",
+   "tema": "Parto e puerpério",
+   "sub": "Puerpério — mastite e complicações",
+   "frente": "Qual o principal agente da mastite puerperal?",
+   "verso": "**Staphylococcus aureus.**",
+   "resposta": "Staphylococcus aureus",
+   "aceitas": [
+    "s. aureus",
+    "staphylococcus",
+    "estafilococo",
+    "s aureus",
+    "staphylococcus aureus"
+   ],
+   "macete": "Mastite = Staphylo.",
+   "prio": "alta",
+   "contexto": "**Mastite puerperal = inflamação/infecção da mama na lactação, quase sempre por Staphylococcus aureus, ligada a fissura mamilar e esvaziamento inadequado.**\n\nFatores de risco:\n- Fissuras mamilares, ingurgitamento, pega incorreta, mamadas espaçadas\n- Mais comum entre a 2ª e a 6ª semana pós-parto\n\nClínica:\n- Área da mama dolorosa, quente e vermelha (em cunha), em geral unilateral\n- Febre, calafrios, mal-estar\n- Ingurgitamento → bilateral, sem febre alta (diferencial)\n\nTratamento:\n- **MANTER a amamentação** (inclusive na mama afetada) → esvaziar bem é parte do tratamento\n- Analgésico/AINE, compressa, corrigir a pega\n- **Antibiótico** se não melhorar em 12–24 h ou se sintomas importantes → **cefalexina** (ou amoxicilina-clavulanato) por 10–14 dias\n- Suspeita de MRSA → sulfametoxazol-trimetoprima ou clindamicina\n\nAbscesso mamário:\n- Massa flutuante que não melhora com antibiótico → USG\n- Drenagem (punção aspirativa guiada ou incisão) + antibiótico\n- Amamentação continua na outra mama (e na afetada, se a incisão estiver longe da aréola)\n\nPuerpério (lembrar):\n- Imediato → até o 10º dia; tardio → 11º ao 42º; remoto → após o 42º\n- Lóquios → rubra → serosa → alba\n- Endometrite puerperal → febre + útero doloroso + lóquio fétido → clindamicina + gentamicina\n\nO que mais cai no Vila Verde:\n- VIV 2026 → conduta na mastite puerperal: manter amamentação + antibiótico antiestafilocócico.",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 184\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><rect x=\"10\" y=\"8\" width=\"320\" height=\"30\" rx=\"9\" fill=\"var(--wine)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"170.0\" y=\"26.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--card)\">Mama dolorosa, vermelha, febre (lactante)</text><line x1=\"170\" y1=\"38\" x2=\"170\" y2=\"50\" stroke=\"var(--rose)\"/><rect x=\"20\" y=\"50\" width=\"300\" height=\"34\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"170.0\" y=\"70.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Manter amamentação + esvaziar + analgesia</text><line x1=\"170\" y1=\"84\" x2=\"170\" y2=\"96\" stroke=\"var(--rose)\"/><rect x=\"20\" y=\"96\" width=\"300\" height=\"34\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"170.0\" y=\"116.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Sem melhora em 12–24 h → cefalexina 10–14 dias</text><line x1=\"170\" y1=\"130\" x2=\"170\" y2=\"142\" stroke=\"var(--rose)\"/><rect x=\"20\" y=\"142\" width=\"300\" height=\"34\" rx=\"9\" fill=\"var(--wine)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"170.0\" y=\"162.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--card)\">Massa flutuante → USG → drenar abscesso</text></svg>",
+     "legenda": "Mastite puerperal: conduta em degraus"
+    }
+   ],
+   "fonte": "MS — Saúde da criança: aleitamento materno (Cadernos de AB nº 23, 2015) / Academy of Breastfeeding Medicine Protocol #36 — Mastitis Spectrum (2022) / FEBRASGO",
+   "add": "2026-10-28"
+  },
+  {
+   "id": "mast-d2",
+   "tipo": "digitar",
+   "area": "Obstetrícia",
+   "tema": "Parto e puerpério",
+   "sub": "Puerpério — mastite e complicações",
+   "frente": "Na mastite puerperal, a amamentação deve ser suspensa?",
+   "verso": "**Não; deve ser mantida.**",
+   "resposta": "Não",
+   "aceitas": [
+    "nao",
+    "não",
+    "manter",
+    "não deve"
+   ],
+   "macete": "Mama vazia cura.",
+   "prio": "media",
+   "contexto": "**Mastite puerperal = inflamação/infecção da mama na lactação, quase sempre por Staphylococcus aureus, ligada a fissura mamilar e esvaziamento inadequado.**\n\nFatores de risco:\n- Fissuras mamilares, ingurgitamento, pega incorreta, mamadas espaçadas\n- Mais comum entre a 2ª e a 6ª semana pós-parto\n\nClínica:\n- Área da mama dolorosa, quente e vermelha (em cunha), em geral unilateral\n- Febre, calafrios, mal-estar\n- Ingurgitamento → bilateral, sem febre alta (diferencial)\n\nTratamento:\n- **MANTER a amamentação** (inclusive na mama afetada) → esvaziar bem é parte do tratamento\n- Analgésico/AINE, compressa, corrigir a pega\n- **Antibiótico** se não melhorar em 12–24 h ou se sintomas importantes → **cefalexina** (ou amoxicilina-clavulanato) por 10–14 dias\n- Suspeita de MRSA → sulfametoxazol-trimetoprima ou clindamicina\n\nAbscesso mamário:\n- Massa flutuante que não melhora com antibiótico → USG\n- Drenagem (punção aspirativa guiada ou incisão) + antibiótico\n- Amamentação continua na outra mama (e na afetada, se a incisão estiver longe da aréola)\n\nPuerpério (lembrar):\n- Imediato → até o 10º dia; tardio → 11º ao 42º; remoto → após o 42º\n- Lóquios → rubra → serosa → alba\n- Endometrite puerperal → febre + útero doloroso + lóquio fétido → clindamicina + gentamicina\n\nO que mais cai no Vila Verde:\n- VIV 2026 → conduta na mastite puerperal: manter amamentação + antibiótico antiestafilocócico.",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 184\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><rect x=\"10\" y=\"8\" width=\"320\" height=\"30\" rx=\"9\" fill=\"var(--wine)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"170.0\" y=\"26.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--card)\">Mama dolorosa, vermelha, febre (lactante)</text><line x1=\"170\" y1=\"38\" x2=\"170\" y2=\"50\" stroke=\"var(--rose)\"/><rect x=\"20\" y=\"50\" width=\"300\" height=\"34\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"170.0\" y=\"70.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Manter amamentação + esvaziar + analgesia</text><line x1=\"170\" y1=\"84\" x2=\"170\" y2=\"96\" stroke=\"var(--rose)\"/><rect x=\"20\" y=\"96\" width=\"300\" height=\"34\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"170.0\" y=\"116.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Sem melhora em 12–24 h → cefalexina 10–14 dias</text><line x1=\"170\" y1=\"130\" x2=\"170\" y2=\"142\" stroke=\"var(--rose)\"/><rect x=\"20\" y=\"142\" width=\"300\" height=\"34\" rx=\"9\" fill=\"var(--wine)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"170.0\" y=\"162.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--card)\">Massa flutuante → USG → drenar abscesso</text></svg>",
+     "legenda": "Mastite puerperal: conduta em degraus"
+    }
+   ],
+   "fonte": "MS — Saúde da criança: aleitamento materno (Cadernos de AB nº 23, 2015) / Academy of Breastfeeding Medicine Protocol #36 — Mastitis Spectrum (2022) / FEBRASGO",
+   "add": "2026-10-28"
   }
  ],
  "rev": 0
