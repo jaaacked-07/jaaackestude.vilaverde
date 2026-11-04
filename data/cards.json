@@ -39587,7 +39587,8 @@
       ],
       "fonte": "SBP — Sistematização do atendimento ao RN com suspeita de cardiopatia congênita (2022) / Tratado de Pediatria SBP 5ª ed. / Nelson Textbook of Pediatrics 22ª ed.",
       "add": "2026-10-28",
-      "fav": true
+      "fav": true,
+      "minha": "@@nota|0|Obstrutivas esquerdas críticas (coarctação crítica, hipoplas\nExemplo (acho q é isso):\nAo bloquear a saída da aorta, o sangue \"acumula\" e passa pelo canal aberto\n"
     },
     {
       "id": "ccg-d2",
@@ -75673,5 +75674,5 @@
       "add": "2026-11-04"
     }
   ],
-  "rev": 1793817299331
+  "rev": 1793817414566
 }
