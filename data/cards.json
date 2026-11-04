@@ -70134,6 +70134,2091 @@
    ],
    "fonte": "ACC/AHA Perioperative Cardiovascular Guideline (2024) / ASA Physical Status Classification (2020) / ASA Practice Guidelines for Preoperative Fasting (2023) / SBC — Diretriz de Avaliação Perioperatória (2024)",
    "add": "2026-11-04"
+  },
+  {
+   "area": "Pediatria",
+   "tema": "Pneumologia pediátrica",
+   "sub": "Bronquiolite viral aguda",
+   "id": "bqv-01",
+   "tipo": "flash",
+   "prio": "alta",
+   "frente": "Bronquiolite viral aguda: tratamento",
+   "verso": "Raciocínio:\n- A obstrução é por edema, muco e restos celulares, não por broncoespasmo → broncodilatador e corticoide não funcionam.\n- É viral e autolimitada → o tratamento é manter oxigenação e hidratação até passar.\n\n**Suporte: O₂ se SatO₂ < 90–92%, hidratação e aspiração nasal.**\n\nNão usar de rotina:\n- Broncodilatador\n- Corticoide\n- Antibiótico",
+   "macete": "\"Bronquiolite: Oxigênio, Água e Paciência\".",
+   "pegadinha": "Corticoide não tem benefício na bronquiolite (diferente da asma e do crupe).",
+   "uerj": "Cobra o agente e o tratamento de suporte, com distratores de broncodilatador e corticoide.",
+   "contexto": "**Bronquiolite viral aguda = infecção viral das pequenas vias aéreas (bronquíolos) em lactentes, com obstrução por edema, muco e células descamadas.**\n\nEtiologia e epidemiologia:\n- **Vírus sincicial respiratório (VSR)** → principal agente; também rinovírus, metapneumovírus\n- **< 2 anos**, pico em < 6 meses; outono-inverno\n- **1º episódio de sibilância** do lactente\n\nClínica:\n- Pródromo de coriza e febre baixa → em 2–3 dias: taquipneia, tiragem, **sibilos e crepitações difusos**\n- Apneia em < 2 meses e prematuros\n- Pico no 3º–5º dia; tosse pode durar semanas\n\nDiagnóstico:\n- **Clínico**; RX e exames só se dúvida ou gravidade\n\nInternação:\n- SatO₂ < 90–92%, desconforto importante, apneia, recusa alimentar/desidratação, idade < 3 meses ou prematuro, cardiopatia, doença pulmonar crônica\n\nTratamento (suporte):\n- **O₂ se SatO₂ < 90–92%**, hidratação, aspiração nasal, cabeceira elevada\n- Cânula nasal de alto fluxo / CPAP se falência\n- **NÃO usar de rotina** → broncodilatador, corticoide, antibiótico, fisioterapia respiratória\n- Salina hipertônica 3% → só em internados (benefício discutível)\n\nPrevenção:\n- Higiene das mãos, aleitamento materno, evitar tabagismo passivo\n- **Anticorpo monoclonal anti-VSR** (palivizumabe; nirsevimabe) para prematuros e cardiopatas/pneumopatas de risco\n- Vacina VSR na gestante (protege o lactente nos primeiros meses)\n\nPegadas:\n- Sibilância recorrente depois da bronquiolite é comum (não é asma automaticamente)\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: agente (VSR), tratamento de suporte e o que NÃO usar.",
+   "ctxvisual": [
+    {
+     "tipo": "vs",
+     "a": {
+      "t": "Fazer",
+      "itens": [
+       "O₂ se SatO₂ < 90–92%",
+       "Hidratação",
+       "Aspiração nasal",
+       "Alto fluxo/CPAP se grave"
+      ]
+     },
+     "b": {
+      "t": "Não fazer de rotina",
+      "itens": [
+       "Broncodilatador",
+       "Corticoide",
+       "Antibiótico",
+       "Fisioterapia respiratória"
+      ]
+     }
+    }
+   ],
+   "fonte": "SBP — Diretrizes para o manejo da infecção causada pelo VSR (2017/2024) / AAP Clinical Practice Guideline: Bronchiolitis (2014) / NICE NG9 (2021)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Pediatria",
+   "tema": "Pneumologia pediátrica",
+   "sub": "Bronquiolite viral aguda",
+   "id": "bqv-02",
+   "tipo": "flash",
+   "prio": "alta",
+   "frente": "Bronquiolite: perfil típico e principal agente",
+   "verso": "Raciocínio:\n- O bronquíolo do lactente é muito fino: pouco edema já obstrui → sibilos e taquipneia.\n\n**VSR.**\n**Lactente < 2 anos (pico < 6 meses), 1º episódio de sibilância.**\n\nQuadro:\n- Coriza e febre baixa → taquipneia, sibilos e crepitações.\n\nDiagnóstico:\n- Clínico.",
+   "macete": "\"VSR = Vírus do Sibilo no Recém-chegado\".",
+   "pegadinha": "Apneia pode ser a 1ª manifestação em < 2 meses.",
+   "uerj": "Cobra o agente e o tratamento de suporte, com distratores de broncodilatador e corticoide.",
+   "contexto": "**Bronquiolite viral aguda = infecção viral das pequenas vias aéreas (bronquíolos) em lactentes, com obstrução por edema, muco e células descamadas.**\n\nEtiologia e epidemiologia:\n- **Vírus sincicial respiratório (VSR)** → principal agente; também rinovírus, metapneumovírus\n- **< 2 anos**, pico em < 6 meses; outono-inverno\n- **1º episódio de sibilância** do lactente\n\nClínica:\n- Pródromo de coriza e febre baixa → em 2–3 dias: taquipneia, tiragem, **sibilos e crepitações difusos**\n- Apneia em < 2 meses e prematuros\n- Pico no 3º–5º dia; tosse pode durar semanas\n\nDiagnóstico:\n- **Clínico**; RX e exames só se dúvida ou gravidade\n\nInternação:\n- SatO₂ < 90–92%, desconforto importante, apneia, recusa alimentar/desidratação, idade < 3 meses ou prematuro, cardiopatia, doença pulmonar crônica\n\nTratamento (suporte):\n- **O₂ se SatO₂ < 90–92%**, hidratação, aspiração nasal, cabeceira elevada\n- Cânula nasal de alto fluxo / CPAP se falência\n- **NÃO usar de rotina** → broncodilatador, corticoide, antibiótico, fisioterapia respiratória\n- Salina hipertônica 3% → só em internados (benefício discutível)\n\nPrevenção:\n- Higiene das mãos, aleitamento materno, evitar tabagismo passivo\n- **Anticorpo monoclonal anti-VSR** (palivizumabe; nirsevimabe) para prematuros e cardiopatas/pneumopatas de risco\n- Vacina VSR na gestante (protege o lactente nos primeiros meses)\n\nPegadas:\n- Sibilância recorrente depois da bronquiolite é comum (não é asma automaticamente)\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: agente (VSR), tratamento de suporte e o que NÃO usar.",
+   "ctxvisual": [
+    {
+     "tipo": "vs",
+     "a": {
+      "t": "Fazer",
+      "itens": [
+       "O₂ se SatO₂ < 90–92%",
+       "Hidratação",
+       "Aspiração nasal",
+       "Alto fluxo/CPAP se grave"
+      ]
+     },
+     "b": {
+      "t": "Não fazer de rotina",
+      "itens": [
+       "Broncodilatador",
+       "Corticoide",
+       "Antibiótico",
+       "Fisioterapia respiratória"
+      ]
+     }
+    }
+   ],
+   "fonte": "SBP — Diretrizes para o manejo da infecção causada pelo VSR (2017/2024) / AAP Clinical Practice Guideline: Bronchiolitis (2014) / NICE NG9 (2021)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Pediatria",
+   "tema": "Pneumologia pediátrica",
+   "sub": "Bronquiolite viral aguda",
+   "tipo": "quiz",
+   "frente": "Sobre a bronquiolite viral aguda, analise: I. O vírus sincicial respiratório é o principal agente. II. O corticoide sistêmico reduz o tempo de internação e deve ser usado de rotina. III. O diagnóstico é clínico. Está(ão) correta(s):",
+   "opcoes": [
+    "Apenas I e II.",
+    "Apenas I e III.",
+    "Apenas II e III.",
+    "I, II e III."
+   ],
+   "certa": 1,
+   "comentarios": [
+    "II é falsa.",
+    "Correta. II é falsa: corticoide não tem benefício na bronquiolite.",
+    "II é falsa.",
+    "II é falsa."
+   ],
+   "id": "bqv-q1",
+   "prio": "alta",
+   "macete": "\"VSR, clínica, sem corticoide\".",
+   "pegadinha": "Corticoide é do crupe, não da bronquiolite.",
+   "uerj": "Cobra o agente e o tratamento de suporte, com distratores de broncodilatador e corticoide.",
+   "contexto": "**Bronquiolite viral aguda = infecção viral das pequenas vias aéreas (bronquíolos) em lactentes, com obstrução por edema, muco e células descamadas.**\n\nEtiologia e epidemiologia:\n- **Vírus sincicial respiratório (VSR)** → principal agente; também rinovírus, metapneumovírus\n- **< 2 anos**, pico em < 6 meses; outono-inverno\n- **1º episódio de sibilância** do lactente\n\nClínica:\n- Pródromo de coriza e febre baixa → em 2–3 dias: taquipneia, tiragem, **sibilos e crepitações difusos**\n- Apneia em < 2 meses e prematuros\n- Pico no 3º–5º dia; tosse pode durar semanas\n\nDiagnóstico:\n- **Clínico**; RX e exames só se dúvida ou gravidade\n\nInternação:\n- SatO₂ < 90–92%, desconforto importante, apneia, recusa alimentar/desidratação, idade < 3 meses ou prematuro, cardiopatia, doença pulmonar crônica\n\nTratamento (suporte):\n- **O₂ se SatO₂ < 90–92%**, hidratação, aspiração nasal, cabeceira elevada\n- Cânula nasal de alto fluxo / CPAP se falência\n- **NÃO usar de rotina** → broncodilatador, corticoide, antibiótico, fisioterapia respiratória\n- Salina hipertônica 3% → só em internados (benefício discutível)\n\nPrevenção:\n- Higiene das mãos, aleitamento materno, evitar tabagismo passivo\n- **Anticorpo monoclonal anti-VSR** (palivizumabe; nirsevimabe) para prematuros e cardiopatas/pneumopatas de risco\n- Vacina VSR na gestante (protege o lactente nos primeiros meses)\n\nPegadas:\n- Sibilância recorrente depois da bronquiolite é comum (não é asma automaticamente)\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: agente (VSR), tratamento de suporte e o que NÃO usar.",
+   "ctxvisual": [
+    {
+     "tipo": "vs",
+     "a": {
+      "t": "Fazer",
+      "itens": [
+       "O₂ se SatO₂ < 90–92%",
+       "Hidratação",
+       "Aspiração nasal",
+       "Alto fluxo/CPAP se grave"
+      ]
+     },
+     "b": {
+      "t": "Não fazer de rotina",
+      "itens": [
+       "Broncodilatador",
+       "Corticoide",
+       "Antibiótico",
+       "Fisioterapia respiratória"
+      ]
+     }
+    }
+   ],
+   "fonte": "SBP — Diretrizes para o manejo da infecção causada pelo VSR (2017/2024) / AAP Clinical Practice Guideline: Bronchiolitis (2014) / NICE NG9 (2021)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Pediatria",
+   "tema": "Pneumologia pediátrica",
+   "sub": "Bronquiolite viral aguda",
+   "id": "bqv-d1",
+   "tipo": "digitar",
+   "prio": "alta",
+   "frente": "Qual o principal agente da bronquiolite viral aguda?",
+   "verso": "**Vírus sincicial respiratório (VSR).**",
+   "resposta": "VSR",
+   "aceitas": [
+    "vsr",
+    "virus sincicial respiratorio",
+    "vírus sincicial respiratório",
+    "sincicial"
+   ],
+   "macete": "VSR.",
+   "uerj": "Cobra o agente e o tratamento de suporte, com distratores de broncodilatador e corticoide.",
+   "contexto": "**Bronquiolite viral aguda = infecção viral das pequenas vias aéreas (bronquíolos) em lactentes, com obstrução por edema, muco e células descamadas.**\n\nEtiologia e epidemiologia:\n- **Vírus sincicial respiratório (VSR)** → principal agente; também rinovírus, metapneumovírus\n- **< 2 anos**, pico em < 6 meses; outono-inverno\n- **1º episódio de sibilância** do lactente\n\nClínica:\n- Pródromo de coriza e febre baixa → em 2–3 dias: taquipneia, tiragem, **sibilos e crepitações difusos**\n- Apneia em < 2 meses e prematuros\n- Pico no 3º–5º dia; tosse pode durar semanas\n\nDiagnóstico:\n- **Clínico**; RX e exames só se dúvida ou gravidade\n\nInternação:\n- SatO₂ < 90–92%, desconforto importante, apneia, recusa alimentar/desidratação, idade < 3 meses ou prematuro, cardiopatia, doença pulmonar crônica\n\nTratamento (suporte):\n- **O₂ se SatO₂ < 90–92%**, hidratação, aspiração nasal, cabeceira elevada\n- Cânula nasal de alto fluxo / CPAP se falência\n- **NÃO usar de rotina** → broncodilatador, corticoide, antibiótico, fisioterapia respiratória\n- Salina hipertônica 3% → só em internados (benefício discutível)\n\nPrevenção:\n- Higiene das mãos, aleitamento materno, evitar tabagismo passivo\n- **Anticorpo monoclonal anti-VSR** (palivizumabe; nirsevimabe) para prematuros e cardiopatas/pneumopatas de risco\n- Vacina VSR na gestante (protege o lactente nos primeiros meses)\n\nPegadas:\n- Sibilância recorrente depois da bronquiolite é comum (não é asma automaticamente)\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: agente (VSR), tratamento de suporte e o que NÃO usar.",
+   "ctxvisual": [
+    {
+     "tipo": "vs",
+     "a": {
+      "t": "Fazer",
+      "itens": [
+       "O₂ se SatO₂ < 90–92%",
+       "Hidratação",
+       "Aspiração nasal",
+       "Alto fluxo/CPAP se grave"
+      ]
+     },
+     "b": {
+      "t": "Não fazer de rotina",
+      "itens": [
+       "Broncodilatador",
+       "Corticoide",
+       "Antibiótico",
+       "Fisioterapia respiratória"
+      ]
+     }
+    }
+   ],
+   "fonte": "SBP — Diretrizes para o manejo da infecção causada pelo VSR (2017/2024) / AAP Clinical Practice Guideline: Bronchiolitis (2014) / NICE NG9 (2021)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Pediatria",
+   "tema": "Pneumologia pediátrica",
+   "sub": "Bronquiolite viral aguda",
+   "id": "bqv-d2",
+   "tipo": "digitar",
+   "prio": "media",
+   "frente": "Abaixo de qual saturação se oferece O₂ na bronquiolite (limite mais usado)?",
+   "verso": "**SatO₂ < 90–92%.**\n\n- AAP usa 90%; muitos serviços usam 92%.",
+   "resposta": "90%",
+   "aceitas": [
+    "90",
+    "92",
+    "92%",
+    "90%",
+    "90-92%",
+    "90 a 92"
+   ],
+   "macete": "Abaixo de 90–92 → O₂.",
+   "uerj": "Cobra o agente e o tratamento de suporte, com distratores de broncodilatador e corticoide.",
+   "contexto": "**Bronquiolite viral aguda = infecção viral das pequenas vias aéreas (bronquíolos) em lactentes, com obstrução por edema, muco e células descamadas.**\n\nEtiologia e epidemiologia:\n- **Vírus sincicial respiratório (VSR)** → principal agente; também rinovírus, metapneumovírus\n- **< 2 anos**, pico em < 6 meses; outono-inverno\n- **1º episódio de sibilância** do lactente\n\nClínica:\n- Pródromo de coriza e febre baixa → em 2–3 dias: taquipneia, tiragem, **sibilos e crepitações difusos**\n- Apneia em < 2 meses e prematuros\n- Pico no 3º–5º dia; tosse pode durar semanas\n\nDiagnóstico:\n- **Clínico**; RX e exames só se dúvida ou gravidade\n\nInternação:\n- SatO₂ < 90–92%, desconforto importante, apneia, recusa alimentar/desidratação, idade < 3 meses ou prematuro, cardiopatia, doença pulmonar crônica\n\nTratamento (suporte):\n- **O₂ se SatO₂ < 90–92%**, hidratação, aspiração nasal, cabeceira elevada\n- Cânula nasal de alto fluxo / CPAP se falência\n- **NÃO usar de rotina** → broncodilatador, corticoide, antibiótico, fisioterapia respiratória\n- Salina hipertônica 3% → só em internados (benefício discutível)\n\nPrevenção:\n- Higiene das mãos, aleitamento materno, evitar tabagismo passivo\n- **Anticorpo monoclonal anti-VSR** (palivizumabe; nirsevimabe) para prematuros e cardiopatas/pneumopatas de risco\n- Vacina VSR na gestante (protege o lactente nos primeiros meses)\n\nPegadas:\n- Sibilância recorrente depois da bronquiolite é comum (não é asma automaticamente)\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: agente (VSR), tratamento de suporte e o que NÃO usar.",
+   "ctxvisual": [
+    {
+     "tipo": "vs",
+     "a": {
+      "t": "Fazer",
+      "itens": [
+       "O₂ se SatO₂ < 90–92%",
+       "Hidratação",
+       "Aspiração nasal",
+       "Alto fluxo/CPAP se grave"
+      ]
+     },
+     "b": {
+      "t": "Não fazer de rotina",
+      "itens": [
+       "Broncodilatador",
+       "Corticoide",
+       "Antibiótico",
+       "Fisioterapia respiratória"
+      ]
+     }
+    }
+   ],
+   "fonte": "SBP — Diretrizes para o manejo da infecção causada pelo VSR (2017/2024) / AAP Clinical Practice Guideline: Bronchiolitis (2014) / NICE NG9 (2021)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Pediatria",
+   "tema": "Gastroenterologia pediátrica",
+   "sub": "Diarreia aguda e desidratação — planos A, B e C",
+   "id": "dia-01",
+   "tipo": "flash",
+   "prio": "alta",
+   "frente": "Diarreia aguda: como escolher o plano A, B ou C?",
+   "verso": "Raciocínio:\n- Quanto mais líquido perdido, mais sinais aparecem: primeiro sede e irritação, depois letargia e pulso fraco.\n- A criança que ainda bebe pode se reidratar pela boca; a letárgica não.\n\n**A → sem desidratação: casa.**\n**B → desidratação: SRO na unidade.**\n**C → desidratação grave: venoso.**",
+   "macete": "\"A = Ambulatório (casa); B = Boca na unidade; C = Cateter (veia)\".",
+   "pegadinha": "Sede intensa é do plano B; bebe mal ou não bebe é do plano C.",
+   "visual": {
+    "tipo": "tabela",
+    "crit": true,
+    "cab": [
+     "Planos MS (desidratação)",
+     "Critério",
+     "Conduta"
+    ],
+    "linhas": [
+     [
+      "Plano A",
+      "Sem desidratação: alerta, olhos normais, bebe normal, prega volta rápido",
+      "Casa: mais líquidos + SRO após cada evacuação + zinco + sinais de alerta"
+     ],
+     [
+      "Plano B",
+      "Desidratação (≥ 2 sinais): irritado, olhos fundos, sede intensa, prega volta lentamente",
+      "TRO na unidade: SRO 50–100 mL/kg em 4–6 h; reavaliar"
+     ],
+     [
+      "Plano C",
+      "Desidratação grave (≥ 2 sinais): letárgico, bebe mal ou não bebe, prega muito lenta, pulso fraco",
+      "EV: < 5 anos SF 0,9% 20 mL/kg em 30 min (repetir até hidratar) · ≥ 5 anos SF 30 mL/kg em 30 min + RL 70 mL/kg em 2 h 30"
+     ]
+    ]
+   },
+   "uerj": "Cobra a classificação em planos com a conduta, o zinco e o uso restrito de antibiótico.",
+   "contexto": "**Diarreia aguda = ≥ 3 evacuações líquidas/amolecidas em 24 h, por até 14 dias; o risco principal é a desidratação.**\n\nEtiologia:\n- **Rotavírus** (mais comum em lactentes, reduzido pela vacina), norovírus\n- Bactérias → *E. coli*, *Shigella*, *Salmonella*, *Campylobacter*\n- Disenteria (sangue nas fezes) → *Shigella* é a principal\n\nClassificação:\n- **Aguda aquosa** → a maioria\n- **Disenteria** → com sangue\n- **Persistente** → ≥ 14 dias\n\nAvaliação da hidratação:\n- Estado geral, olhos, lágrimas, sede, sinal da prega, pulso, enchimento capilar → define o **plano A, B ou C** (tabela do contexto)\n\nTratamento:\n- **Terapia de reidratação oral (SRO)** é a base (Planos A e B)\n- **Zinco por 10–14 dias** → 10 mg/dia em < 6 meses e 20 mg/dia em ≥ 6 meses (reduz duração e recorrência)\n- **Manter a alimentação** e o aleitamento (não fazer jejum nem diluir o leite)\n- Plano C → reidratação EV; iniciar SRO assim que conseguir beber\n- Falha da TRO no plano B (vômitos persistentes, perda de peso) → gastróclise (sonda) ou EV\n\nAntibiótico:\n- Só na **disenteria com comprometimento do estado geral**, cólera grave ou imunodeprimidos\n- MS → ciprofloxacino (azitromicina e ceftriaxona como alternativas)\n\nNão usar:\n- Antidiarreicos e antiespasmódicos (loperamida contraindicada em crianças)\n\nPrevenção:\n- Vacina rotavírus (2 e 4 meses), aleitamento, saneamento, higiene\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: classificar e escolher o plano, zinco e quando dar antibiótico.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "Planos MS (desidratação)",
+      "Critério",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "Plano A",
+       "Sem desidratação: alerta, olhos normais, bebe normal, prega volta rápido",
+       "Casa: mais líquidos + SRO após cada evacuação + zinco + sinais de alerta"
+      ],
+      [
+       "Plano B",
+       "Desidratação (≥ 2 sinais): irritado, olhos fundos, sede intensa, prega volta lentamente",
+       "TRO na unidade: SRO 50–100 mL/kg em 4–6 h; reavaliar"
+      ],
+      [
+       "Plano C",
+       "Desidratação grave (≥ 2 sinais): letárgico, bebe mal ou não bebe, prega muito lenta, pulso fraco",
+       "EV: < 5 anos SF 0,9% 20 mL/kg em 30 min (repetir até hidratar) · ≥ 5 anos SF 30 mL/kg em 30 min + RL 70 mL/kg em 2 h 30"
+      ]
+     ]
+    }
+   ],
+   "fonte": "Ministério da Saúde — Manejo do paciente com diarreia (cartaz, 2023) / OMS — The treatment of diarrhoea (2005) / SBP — Diarreia aguda (2017)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Pediatria",
+   "tema": "Gastroenterologia pediátrica",
+   "sub": "Diarreia aguda e desidratação — planos A, B e C",
+   "id": "dia-02",
+   "tipo": "flash",
+   "prio": "alta",
+   "frente": "Diarreia aguda na criança: quando usar antibiótico e qual suplemento dar?",
+   "verso": "Raciocínio:\n- A maioria é viral e autolimitada → antibiótico não ajuda e pode piorar.\n- O zinco ajuda a regenerar a mucosa intestinal → diarreia mais curta e menos recorrência.\n\n**Zinco por 10–14 dias para todas.**\n**Antibiótico só na disenteria com comprometimento do estado geral.**\n\nZinco:\n- < 6 meses → 10 mg/dia.\n- ≥ 6 meses → 20 mg/dia.",
+   "macete": "\"Zinco para todos, antibiótico para o sangue grave\".",
+   "pegadinha": "Não suspender o leite nem a alimentação.",
+   "uerj": "Cobra a classificação em planos com a conduta, o zinco e o uso restrito de antibiótico.",
+   "contexto": "**Diarreia aguda = ≥ 3 evacuações líquidas/amolecidas em 24 h, por até 14 dias; o risco principal é a desidratação.**\n\nEtiologia:\n- **Rotavírus** (mais comum em lactentes, reduzido pela vacina), norovírus\n- Bactérias → *E. coli*, *Shigella*, *Salmonella*, *Campylobacter*\n- Disenteria (sangue nas fezes) → *Shigella* é a principal\n\nClassificação:\n- **Aguda aquosa** → a maioria\n- **Disenteria** → com sangue\n- **Persistente** → ≥ 14 dias\n\nAvaliação da hidratação:\n- Estado geral, olhos, lágrimas, sede, sinal da prega, pulso, enchimento capilar → define o **plano A, B ou C** (tabela do contexto)\n\nTratamento:\n- **Terapia de reidratação oral (SRO)** é a base (Planos A e B)\n- **Zinco por 10–14 dias** → 10 mg/dia em < 6 meses e 20 mg/dia em ≥ 6 meses (reduz duração e recorrência)\n- **Manter a alimentação** e o aleitamento (não fazer jejum nem diluir o leite)\n- Plano C → reidratação EV; iniciar SRO assim que conseguir beber\n- Falha da TRO no plano B (vômitos persistentes, perda de peso) → gastróclise (sonda) ou EV\n\nAntibiótico:\n- Só na **disenteria com comprometimento do estado geral**, cólera grave ou imunodeprimidos\n- MS → ciprofloxacino (azitromicina e ceftriaxona como alternativas)\n\nNão usar:\n- Antidiarreicos e antiespasmódicos (loperamida contraindicada em crianças)\n\nPrevenção:\n- Vacina rotavírus (2 e 4 meses), aleitamento, saneamento, higiene\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: classificar e escolher o plano, zinco e quando dar antibiótico.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "Planos MS (desidratação)",
+      "Critério",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "Plano A",
+       "Sem desidratação: alerta, olhos normais, bebe normal, prega volta rápido",
+       "Casa: mais líquidos + SRO após cada evacuação + zinco + sinais de alerta"
+      ],
+      [
+       "Plano B",
+       "Desidratação (≥ 2 sinais): irritado, olhos fundos, sede intensa, prega volta lentamente",
+       "TRO na unidade: SRO 50–100 mL/kg em 4–6 h; reavaliar"
+      ],
+      [
+       "Plano C",
+       "Desidratação grave (≥ 2 sinais): letárgico, bebe mal ou não bebe, prega muito lenta, pulso fraco",
+       "EV: < 5 anos SF 0,9% 20 mL/kg em 30 min (repetir até hidratar) · ≥ 5 anos SF 30 mL/kg em 30 min + RL 70 mL/kg em 2 h 30"
+      ]
+     ]
+    }
+   ],
+   "fonte": "Ministério da Saúde — Manejo do paciente com diarreia (cartaz, 2023) / OMS — The treatment of diarrhoea (2005) / SBP — Diarreia aguda (2017)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Pediatria",
+   "tema": "Gastroenterologia pediátrica",
+   "sub": "Diarreia aguda e desidratação — planos A, B e C",
+   "tipo": "quiz",
+   "frente": "Sobre a diarreia aguda na infância, analise: I. Criança letárgica, que não consegue beber, deve receber hidratação venosa (Plano C). II. O zinco é indicado por 10 a 14 dias. III. A loperamida é recomendada para reduzir o número de evacuações. Está(ão) correta(s):",
+   "opcoes": [
+    "Apenas I e II.",
+    "Apenas I e III.",
+    "Apenas II e III.",
+    "I, II e III."
+   ],
+   "certa": 0,
+   "comentarios": [
+    "Correta. III é falsa: antidiarreicos são contraindicados em crianças.",
+    "III é falsa.",
+    "III é falsa.",
+    "III é falsa."
+   ],
+   "id": "dia-q1",
+   "prio": "alta",
+   "macete": "\"Letárgico = Linha venosa\".",
+   "pegadinha": "Antidiarreico é contraindicado.",
+   "uerj": "Cobra a classificação em planos com a conduta, o zinco e o uso restrito de antibiótico.",
+   "contexto": "**Diarreia aguda = ≥ 3 evacuações líquidas/amolecidas em 24 h, por até 14 dias; o risco principal é a desidratação.**\n\nEtiologia:\n- **Rotavírus** (mais comum em lactentes, reduzido pela vacina), norovírus\n- Bactérias → *E. coli*, *Shigella*, *Salmonella*, *Campylobacter*\n- Disenteria (sangue nas fezes) → *Shigella* é a principal\n\nClassificação:\n- **Aguda aquosa** → a maioria\n- **Disenteria** → com sangue\n- **Persistente** → ≥ 14 dias\n\nAvaliação da hidratação:\n- Estado geral, olhos, lágrimas, sede, sinal da prega, pulso, enchimento capilar → define o **plano A, B ou C** (tabela do contexto)\n\nTratamento:\n- **Terapia de reidratação oral (SRO)** é a base (Planos A e B)\n- **Zinco por 10–14 dias** → 10 mg/dia em < 6 meses e 20 mg/dia em ≥ 6 meses (reduz duração e recorrência)\n- **Manter a alimentação** e o aleitamento (não fazer jejum nem diluir o leite)\n- Plano C → reidratação EV; iniciar SRO assim que conseguir beber\n- Falha da TRO no plano B (vômitos persistentes, perda de peso) → gastróclise (sonda) ou EV\n\nAntibiótico:\n- Só na **disenteria com comprometimento do estado geral**, cólera grave ou imunodeprimidos\n- MS → ciprofloxacino (azitromicina e ceftriaxona como alternativas)\n\nNão usar:\n- Antidiarreicos e antiespasmódicos (loperamida contraindicada em crianças)\n\nPrevenção:\n- Vacina rotavírus (2 e 4 meses), aleitamento, saneamento, higiene\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: classificar e escolher o plano, zinco e quando dar antibiótico.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "Planos MS (desidratação)",
+      "Critério",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "Plano A",
+       "Sem desidratação: alerta, olhos normais, bebe normal, prega volta rápido",
+       "Casa: mais líquidos + SRO após cada evacuação + zinco + sinais de alerta"
+      ],
+      [
+       "Plano B",
+       "Desidratação (≥ 2 sinais): irritado, olhos fundos, sede intensa, prega volta lentamente",
+       "TRO na unidade: SRO 50–100 mL/kg em 4–6 h; reavaliar"
+      ],
+      [
+       "Plano C",
+       "Desidratação grave (≥ 2 sinais): letárgico, bebe mal ou não bebe, prega muito lenta, pulso fraco",
+       "EV: < 5 anos SF 0,9% 20 mL/kg em 30 min (repetir até hidratar) · ≥ 5 anos SF 30 mL/kg em 30 min + RL 70 mL/kg em 2 h 30"
+      ]
+     ]
+    }
+   ],
+   "fonte": "Ministério da Saúde — Manejo do paciente com diarreia (cartaz, 2023) / OMS — The treatment of diarrhoea (2005) / SBP — Diarreia aguda (2017)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Pediatria",
+   "tema": "Gastroenterologia pediátrica",
+   "sub": "Diarreia aguda e desidratação — planos A, B e C",
+   "id": "dia-d1",
+   "tipo": "digitar",
+   "prio": "alta",
+   "frente": "Por quantos dias se dá zinco na diarreia aguda da criança?",
+   "verso": "**10 a 14 dias.**",
+   "resposta": "10 a 14 dias",
+   "aceitas": [
+    "10-14",
+    "10 a 14",
+    "10 a 14 dias",
+    "14 dias",
+    "10 dias"
+   ],
+   "macete": "Zinco: 10–14 dias.",
+   "uerj": "Cobra a classificação em planos com a conduta, o zinco e o uso restrito de antibiótico.",
+   "contexto": "**Diarreia aguda = ≥ 3 evacuações líquidas/amolecidas em 24 h, por até 14 dias; o risco principal é a desidratação.**\n\nEtiologia:\n- **Rotavírus** (mais comum em lactentes, reduzido pela vacina), norovírus\n- Bactérias → *E. coli*, *Shigella*, *Salmonella*, *Campylobacter*\n- Disenteria (sangue nas fezes) → *Shigella* é a principal\n\nClassificação:\n- **Aguda aquosa** → a maioria\n- **Disenteria** → com sangue\n- **Persistente** → ≥ 14 dias\n\nAvaliação da hidratação:\n- Estado geral, olhos, lágrimas, sede, sinal da prega, pulso, enchimento capilar → define o **plano A, B ou C** (tabela do contexto)\n\nTratamento:\n- **Terapia de reidratação oral (SRO)** é a base (Planos A e B)\n- **Zinco por 10–14 dias** → 10 mg/dia em < 6 meses e 20 mg/dia em ≥ 6 meses (reduz duração e recorrência)\n- **Manter a alimentação** e o aleitamento (não fazer jejum nem diluir o leite)\n- Plano C → reidratação EV; iniciar SRO assim que conseguir beber\n- Falha da TRO no plano B (vômitos persistentes, perda de peso) → gastróclise (sonda) ou EV\n\nAntibiótico:\n- Só na **disenteria com comprometimento do estado geral**, cólera grave ou imunodeprimidos\n- MS → ciprofloxacino (azitromicina e ceftriaxona como alternativas)\n\nNão usar:\n- Antidiarreicos e antiespasmódicos (loperamida contraindicada em crianças)\n\nPrevenção:\n- Vacina rotavírus (2 e 4 meses), aleitamento, saneamento, higiene\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: classificar e escolher o plano, zinco e quando dar antibiótico.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "Planos MS (desidratação)",
+      "Critério",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "Plano A",
+       "Sem desidratação: alerta, olhos normais, bebe normal, prega volta rápido",
+       "Casa: mais líquidos + SRO após cada evacuação + zinco + sinais de alerta"
+      ],
+      [
+       "Plano B",
+       "Desidratação (≥ 2 sinais): irritado, olhos fundos, sede intensa, prega volta lentamente",
+       "TRO na unidade: SRO 50–100 mL/kg em 4–6 h; reavaliar"
+      ],
+      [
+       "Plano C",
+       "Desidratação grave (≥ 2 sinais): letárgico, bebe mal ou não bebe, prega muito lenta, pulso fraco",
+       "EV: < 5 anos SF 0,9% 20 mL/kg em 30 min (repetir até hidratar) · ≥ 5 anos SF 30 mL/kg em 30 min + RL 70 mL/kg em 2 h 30"
+      ]
+     ]
+    }
+   ],
+   "fonte": "Ministério da Saúde — Manejo do paciente com diarreia (cartaz, 2023) / OMS — The treatment of diarrhoea (2005) / SBP — Diarreia aguda (2017)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Pediatria",
+   "tema": "Gastroenterologia pediátrica",
+   "sub": "Diarreia aguda e desidratação — planos A, B e C",
+   "id": "dia-d2",
+   "tipo": "digitar",
+   "prio": "media",
+   "frente": "Qual volume de SRO no Plano B (por kg, em 4–6 h)?",
+   "verso": "**50–100 mL/kg.**",
+   "resposta": "50 a 100 mL/kg",
+   "aceitas": [
+    "50-100",
+    "50 a 100",
+    "50-100 ml/kg",
+    "75 ml/kg",
+    "50 a 100 ml/kg"
+   ],
+   "macete": "Plano B: 50–100 por quilo.",
+   "uerj": "Cobra a classificação em planos com a conduta, o zinco e o uso restrito de antibiótico.",
+   "contexto": "**Diarreia aguda = ≥ 3 evacuações líquidas/amolecidas em 24 h, por até 14 dias; o risco principal é a desidratação.**\n\nEtiologia:\n- **Rotavírus** (mais comum em lactentes, reduzido pela vacina), norovírus\n- Bactérias → *E. coli*, *Shigella*, *Salmonella*, *Campylobacter*\n- Disenteria (sangue nas fezes) → *Shigella* é a principal\n\nClassificação:\n- **Aguda aquosa** → a maioria\n- **Disenteria** → com sangue\n- **Persistente** → ≥ 14 dias\n\nAvaliação da hidratação:\n- Estado geral, olhos, lágrimas, sede, sinal da prega, pulso, enchimento capilar → define o **plano A, B ou C** (tabela do contexto)\n\nTratamento:\n- **Terapia de reidratação oral (SRO)** é a base (Planos A e B)\n- **Zinco por 10–14 dias** → 10 mg/dia em < 6 meses e 20 mg/dia em ≥ 6 meses (reduz duração e recorrência)\n- **Manter a alimentação** e o aleitamento (não fazer jejum nem diluir o leite)\n- Plano C → reidratação EV; iniciar SRO assim que conseguir beber\n- Falha da TRO no plano B (vômitos persistentes, perda de peso) → gastróclise (sonda) ou EV\n\nAntibiótico:\n- Só na **disenteria com comprometimento do estado geral**, cólera grave ou imunodeprimidos\n- MS → ciprofloxacino (azitromicina e ceftriaxona como alternativas)\n\nNão usar:\n- Antidiarreicos e antiespasmódicos (loperamida contraindicada em crianças)\n\nPrevenção:\n- Vacina rotavírus (2 e 4 meses), aleitamento, saneamento, higiene\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: classificar e escolher o plano, zinco e quando dar antibiótico.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "Planos MS (desidratação)",
+      "Critério",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "Plano A",
+       "Sem desidratação: alerta, olhos normais, bebe normal, prega volta rápido",
+       "Casa: mais líquidos + SRO após cada evacuação + zinco + sinais de alerta"
+      ],
+      [
+       "Plano B",
+       "Desidratação (≥ 2 sinais): irritado, olhos fundos, sede intensa, prega volta lentamente",
+       "TRO na unidade: SRO 50–100 mL/kg em 4–6 h; reavaliar"
+      ],
+      [
+       "Plano C",
+       "Desidratação grave (≥ 2 sinais): letárgico, bebe mal ou não bebe, prega muito lenta, pulso fraco",
+       "EV: < 5 anos SF 0,9% 20 mL/kg em 30 min (repetir até hidratar) · ≥ 5 anos SF 30 mL/kg em 30 min + RL 70 mL/kg em 2 h 30"
+      ]
+     ]
+    }
+   ],
+   "fonte": "Ministério da Saúde — Manejo do paciente com diarreia (cartaz, 2023) / OMS — The treatment of diarrhoea (2005) / SBP — Diarreia aguda (2017)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Pediatria",
+   "tema": "Neonatologia",
+   "sub": "Sepse neonatal",
+   "id": "sepn-01",
+   "tipo": "flash",
+   "prio": "alta",
+   "frente": "Sepse neonatal precoce × tardia: agentes e tratamento",
+   "verso": "Raciocínio:\n- A precoce vem da mãe (canal de parto) → germes da flora genital.\n- A tardia vem do hospital (cateter, UTI) → germes da pele e hospitalares.\n\n**Precoce → GBS e E. coli → ampicilina + gentamicina.**\n**Tardia → estafilo coagulase-negativo → oxacilina/vancomicina + aminoglicosídeo.**",
+   "macete": "\"Precoce = Parto (mãe); Tardia = Tubo (cateter)\".",
+   "pegadinha": "Ceftriaxona é evitada no RN (desloca bilirrubina; precipita com cálcio).",
+   "uerj": "Cobra agentes da sepse precoce × tardia e o esquema empírico.",
+   "contexto": "**Sepse neonatal = infecção sistêmica no RN, dividida pelo momento de início: precoce (materna, ≤ 48–72 h) e tardia (hospitalar/comunitária, > 48–72 h).**\n\nSepse precoce (≤ 48–72 h):\n- Transmissão vertical (canal de parto, líquido infectado)\n- Agentes → **estreptococo do grupo B (GBS)** e **E. coli**; Listeria\n- Fatores de risco → **bolsa rota > 18 h**, corioamnionite/febre materna, colonização por GBS sem profilaxia adequada, prematuridade, ITU materna\n\nSepse tardia (> 48–72 h):\n- Ambiente hospitalar (UTI, cateteres, ventilação)\n- Agentes → **estafilococo coagulase-negativo** (mais comum), *S. aureus*, gram-negativos, Candida\n\nClínica (inespecífica):\n- Instabilidade térmica (hipotermia é comum), apneia, desconforto respiratório, má perfusão, letargia, recusa alimentar, distensão abdominal, hipo/hiperglicemia, icterícia\n\nDiagnóstico:\n- **Hemocultura** → padrão-ouro (antes do antibiótico)\n- Hemograma (relação imaturos/totais ≥ 0,2), PCR seriada (bom valor preditivo negativo)\n- Líquor → em suspeita clínica forte, hemocultura positiva ou sinais neurológicos\n\nTratamento empírico:\n- **Precoce → ampicilina + gentamicina**\n- **Tardia → oxacilina (ou vancomicina, se MRSA/coagulase-negativo) + aminoglicosídeo** ou cefalosporina conforme a CCIH\n- Meningite → ampicilina + cefotaxima (ceftriaxona evitada no RN: desloca bilirrubina, precipita com cálcio)\n\nPrevenção:\n- **Rastreio de GBS (swab vaginal e retal) com 35–37 semanas** e profilaxia intraparto com penicilina/ampicilina\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: precoce × tardia (agentes) e esquema empírico.",
+   "ctxvisual": [
+    {
+     "tipo": "vs",
+     "a": {
+      "t": "Precoce (≤ 48–72 h)",
+      "itens": [
+       "Vertical (materna)",
+       "GBS e E. coli",
+       "Bolsa rota > 18 h, corioamnionite",
+       "Ampicilina + gentamicina"
+      ]
+     },
+     "b": {
+      "t": "Tardia (> 48–72 h)",
+      "itens": [
+       "Hospitalar",
+       "Estafilo coagulase-negativo",
+       "Cateter, UTI, prematuro",
+       "Oxacilina/vancomicina + aminoglicosídeo"
+      ]
+     }
+    }
+   ],
+   "fonte": "Ministério da Saúde — Atenção à Saúde do Recém-Nascido vol. 2 (2014) / SBP — Diagnóstico e tratamento da sepse neonatal / AAP — Management of Neonates ≥ 35 wk with suspected early-onset sepsis (2018)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Pediatria",
+   "tema": "Neonatologia",
+   "sub": "Sepse neonatal",
+   "id": "sepn-02",
+   "tipo": "flash",
+   "prio": "media",
+   "frente": "Sepse neonatal precoce: fatores de risco maternos",
+   "verso": "Raciocínio:\n- Quanto mais tempo a bolsa fica rota, mais bactérias da vagina sobem para o líquido e o feto.\n\n**Bolsa rota > 18 h.**\n**Corioamnionite / febre materna.**\n**GBS positivo sem profilaxia adequada.**\n**Prematuridade.**\n\nPrevenção:\n- Rastreio de GBS com 35–37 semanas.\n- Penicilina intraparto ≥ 4 h antes do parto.",
+   "macete": "\"18 h de bolsa rota = alerta\".",
+   "pegadinha": "Profilaxia adequada = antibiótico ≥ 4 h antes do parto.",
+   "uerj": "Cobra agentes da sepse precoce × tardia e o esquema empírico.",
+   "contexto": "**Sepse neonatal = infecção sistêmica no RN, dividida pelo momento de início: precoce (materna, ≤ 48–72 h) e tardia (hospitalar/comunitária, > 48–72 h).**\n\nSepse precoce (≤ 48–72 h):\n- Transmissão vertical (canal de parto, líquido infectado)\n- Agentes → **estreptococo do grupo B (GBS)** e **E. coli**; Listeria\n- Fatores de risco → **bolsa rota > 18 h**, corioamnionite/febre materna, colonização por GBS sem profilaxia adequada, prematuridade, ITU materna\n\nSepse tardia (> 48–72 h):\n- Ambiente hospitalar (UTI, cateteres, ventilação)\n- Agentes → **estafilococo coagulase-negativo** (mais comum), *S. aureus*, gram-negativos, Candida\n\nClínica (inespecífica):\n- Instabilidade térmica (hipotermia é comum), apneia, desconforto respiratório, má perfusão, letargia, recusa alimentar, distensão abdominal, hipo/hiperglicemia, icterícia\n\nDiagnóstico:\n- **Hemocultura** → padrão-ouro (antes do antibiótico)\n- Hemograma (relação imaturos/totais ≥ 0,2), PCR seriada (bom valor preditivo negativo)\n- Líquor → em suspeita clínica forte, hemocultura positiva ou sinais neurológicos\n\nTratamento empírico:\n- **Precoce → ampicilina + gentamicina**\n- **Tardia → oxacilina (ou vancomicina, se MRSA/coagulase-negativo) + aminoglicosídeo** ou cefalosporina conforme a CCIH\n- Meningite → ampicilina + cefotaxima (ceftriaxona evitada no RN: desloca bilirrubina, precipita com cálcio)\n\nPrevenção:\n- **Rastreio de GBS (swab vaginal e retal) com 35–37 semanas** e profilaxia intraparto com penicilina/ampicilina\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: precoce × tardia (agentes) e esquema empírico.",
+   "ctxvisual": [
+    {
+     "tipo": "vs",
+     "a": {
+      "t": "Precoce (≤ 48–72 h)",
+      "itens": [
+       "Vertical (materna)",
+       "GBS e E. coli",
+       "Bolsa rota > 18 h, corioamnionite",
+       "Ampicilina + gentamicina"
+      ]
+     },
+     "b": {
+      "t": "Tardia (> 48–72 h)",
+      "itens": [
+       "Hospitalar",
+       "Estafilo coagulase-negativo",
+       "Cateter, UTI, prematuro",
+       "Oxacilina/vancomicina + aminoglicosídeo"
+      ]
+     }
+    }
+   ],
+   "fonte": "Ministério da Saúde — Atenção à Saúde do Recém-Nascido vol. 2 (2014) / SBP — Diagnóstico e tratamento da sepse neonatal / AAP — Management of Neonates ≥ 35 wk with suspected early-onset sepsis (2018)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Pediatria",
+   "tema": "Neonatologia",
+   "sub": "Sepse neonatal",
+   "tipo": "quiz",
+   "frente": "Sobre a sepse neonatal, analise: I. A sepse precoce é causada principalmente por estreptococo do grupo B e E. coli. II. O estafilococo coagulase-negativo é o agente mais comum da sepse tardia. III. A hemocultura não tem papel no diagnóstico. Está(ão) correta(s):",
+   "opcoes": [
+    "Apenas I e II.",
+    "Apenas I e III.",
+    "Apenas II e III.",
+    "I, II e III."
+   ],
+   "certa": 0,
+   "comentarios": [
+    "Correta. III é falsa: hemocultura é o padrão-ouro.",
+    "III é falsa.",
+    "III é falsa.",
+    "III é falsa."
+   ],
+   "id": "sepn-q1",
+   "prio": "alta",
+   "macete": "\"Precoce = GBS; Tardia = coagulase-negativo\".",
+   "pegadinha": "Hemocultura é padrão-ouro.",
+   "uerj": "Cobra agentes da sepse precoce × tardia e o esquema empírico.",
+   "contexto": "**Sepse neonatal = infecção sistêmica no RN, dividida pelo momento de início: precoce (materna, ≤ 48–72 h) e tardia (hospitalar/comunitária, > 48–72 h).**\n\nSepse precoce (≤ 48–72 h):\n- Transmissão vertical (canal de parto, líquido infectado)\n- Agentes → **estreptococo do grupo B (GBS)** e **E. coli**; Listeria\n- Fatores de risco → **bolsa rota > 18 h**, corioamnionite/febre materna, colonização por GBS sem profilaxia adequada, prematuridade, ITU materna\n\nSepse tardia (> 48–72 h):\n- Ambiente hospitalar (UTI, cateteres, ventilação)\n- Agentes → **estafilococo coagulase-negativo** (mais comum), *S. aureus*, gram-negativos, Candida\n\nClínica (inespecífica):\n- Instabilidade térmica (hipotermia é comum), apneia, desconforto respiratório, má perfusão, letargia, recusa alimentar, distensão abdominal, hipo/hiperglicemia, icterícia\n\nDiagnóstico:\n- **Hemocultura** → padrão-ouro (antes do antibiótico)\n- Hemograma (relação imaturos/totais ≥ 0,2), PCR seriada (bom valor preditivo negativo)\n- Líquor → em suspeita clínica forte, hemocultura positiva ou sinais neurológicos\n\nTratamento empírico:\n- **Precoce → ampicilina + gentamicina**\n- **Tardia → oxacilina (ou vancomicina, se MRSA/coagulase-negativo) + aminoglicosídeo** ou cefalosporina conforme a CCIH\n- Meningite → ampicilina + cefotaxima (ceftriaxona evitada no RN: desloca bilirrubina, precipita com cálcio)\n\nPrevenção:\n- **Rastreio de GBS (swab vaginal e retal) com 35–37 semanas** e profilaxia intraparto com penicilina/ampicilina\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: precoce × tardia (agentes) e esquema empírico.",
+   "ctxvisual": [
+    {
+     "tipo": "vs",
+     "a": {
+      "t": "Precoce (≤ 48–72 h)",
+      "itens": [
+       "Vertical (materna)",
+       "GBS e E. coli",
+       "Bolsa rota > 18 h, corioamnionite",
+       "Ampicilina + gentamicina"
+      ]
+     },
+     "b": {
+      "t": "Tardia (> 48–72 h)",
+      "itens": [
+       "Hospitalar",
+       "Estafilo coagulase-negativo",
+       "Cateter, UTI, prematuro",
+       "Oxacilina/vancomicina + aminoglicosídeo"
+      ]
+     }
+    }
+   ],
+   "fonte": "Ministério da Saúde — Atenção à Saúde do Recém-Nascido vol. 2 (2014) / SBP — Diagnóstico e tratamento da sepse neonatal / AAP — Management of Neonates ≥ 35 wk with suspected early-onset sepsis (2018)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Pediatria",
+   "tema": "Neonatologia",
+   "sub": "Sepse neonatal",
+   "id": "sepn-d1",
+   "tipo": "digitar",
+   "prio": "alta",
+   "frente": "Qual o esquema empírico da sepse neonatal precoce?",
+   "verso": "**Ampicilina + gentamicina.**",
+   "resposta": "Ampicilina + gentamicina",
+   "aceitas": [
+    "ampicilina e gentamicina",
+    "ampicilina + gentamicina",
+    "ampi + genta",
+    "ampicilina gentamicina"
+   ],
+   "macete": "\"Ampi-Genta\".",
+   "uerj": "Cobra agentes da sepse precoce × tardia e o esquema empírico.",
+   "contexto": "**Sepse neonatal = infecção sistêmica no RN, dividida pelo momento de início: precoce (materna, ≤ 48–72 h) e tardia (hospitalar/comunitária, > 48–72 h).**\n\nSepse precoce (≤ 48–72 h):\n- Transmissão vertical (canal de parto, líquido infectado)\n- Agentes → **estreptococo do grupo B (GBS)** e **E. coli**; Listeria\n- Fatores de risco → **bolsa rota > 18 h**, corioamnionite/febre materna, colonização por GBS sem profilaxia adequada, prematuridade, ITU materna\n\nSepse tardia (> 48–72 h):\n- Ambiente hospitalar (UTI, cateteres, ventilação)\n- Agentes → **estafilococo coagulase-negativo** (mais comum), *S. aureus*, gram-negativos, Candida\n\nClínica (inespecífica):\n- Instabilidade térmica (hipotermia é comum), apneia, desconforto respiratório, má perfusão, letargia, recusa alimentar, distensão abdominal, hipo/hiperglicemia, icterícia\n\nDiagnóstico:\n- **Hemocultura** → padrão-ouro (antes do antibiótico)\n- Hemograma (relação imaturos/totais ≥ 0,2), PCR seriada (bom valor preditivo negativo)\n- Líquor → em suspeita clínica forte, hemocultura positiva ou sinais neurológicos\n\nTratamento empírico:\n- **Precoce → ampicilina + gentamicina**\n- **Tardia → oxacilina (ou vancomicina, se MRSA/coagulase-negativo) + aminoglicosídeo** ou cefalosporina conforme a CCIH\n- Meningite → ampicilina + cefotaxima (ceftriaxona evitada no RN: desloca bilirrubina, precipita com cálcio)\n\nPrevenção:\n- **Rastreio de GBS (swab vaginal e retal) com 35–37 semanas** e profilaxia intraparto com penicilina/ampicilina\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: precoce × tardia (agentes) e esquema empírico.",
+   "ctxvisual": [
+    {
+     "tipo": "vs",
+     "a": {
+      "t": "Precoce (≤ 48–72 h)",
+      "itens": [
+       "Vertical (materna)",
+       "GBS e E. coli",
+       "Bolsa rota > 18 h, corioamnionite",
+       "Ampicilina + gentamicina"
+      ]
+     },
+     "b": {
+      "t": "Tardia (> 48–72 h)",
+      "itens": [
+       "Hospitalar",
+       "Estafilo coagulase-negativo",
+       "Cateter, UTI, prematuro",
+       "Oxacilina/vancomicina + aminoglicosídeo"
+      ]
+     }
+    }
+   ],
+   "fonte": "Ministério da Saúde — Atenção à Saúde do Recém-Nascido vol. 2 (2014) / SBP — Diagnóstico e tratamento da sepse neonatal / AAP — Management of Neonates ≥ 35 wk with suspected early-onset sepsis (2018)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Pediatria",
+   "tema": "Neonatologia",
+   "sub": "Sepse neonatal",
+   "id": "sepn-d2",
+   "tipo": "digitar",
+   "prio": "media",
+   "frente": "Bolsa rota há mais de quantas horas é fator de risco para sepse precoce?",
+   "verso": "**18 horas.**",
+   "resposta": "18 h",
+   "aceitas": [
+    "18",
+    "18h",
+    "18 horas"
+   ],
+   "macete": "18 h.",
+   "uerj": "Cobra agentes da sepse precoce × tardia e o esquema empírico.",
+   "contexto": "**Sepse neonatal = infecção sistêmica no RN, dividida pelo momento de início: precoce (materna, ≤ 48–72 h) e tardia (hospitalar/comunitária, > 48–72 h).**\n\nSepse precoce (≤ 48–72 h):\n- Transmissão vertical (canal de parto, líquido infectado)\n- Agentes → **estreptococo do grupo B (GBS)** e **E. coli**; Listeria\n- Fatores de risco → **bolsa rota > 18 h**, corioamnionite/febre materna, colonização por GBS sem profilaxia adequada, prematuridade, ITU materna\n\nSepse tardia (> 48–72 h):\n- Ambiente hospitalar (UTI, cateteres, ventilação)\n- Agentes → **estafilococo coagulase-negativo** (mais comum), *S. aureus*, gram-negativos, Candida\n\nClínica (inespecífica):\n- Instabilidade térmica (hipotermia é comum), apneia, desconforto respiratório, má perfusão, letargia, recusa alimentar, distensão abdominal, hipo/hiperglicemia, icterícia\n\nDiagnóstico:\n- **Hemocultura** → padrão-ouro (antes do antibiótico)\n- Hemograma (relação imaturos/totais ≥ 0,2), PCR seriada (bom valor preditivo negativo)\n- Líquor → em suspeita clínica forte, hemocultura positiva ou sinais neurológicos\n\nTratamento empírico:\n- **Precoce → ampicilina + gentamicina**\n- **Tardia → oxacilina (ou vancomicina, se MRSA/coagulase-negativo) + aminoglicosídeo** ou cefalosporina conforme a CCIH\n- Meningite → ampicilina + cefotaxima (ceftriaxona evitada no RN: desloca bilirrubina, precipita com cálcio)\n\nPrevenção:\n- **Rastreio de GBS (swab vaginal e retal) com 35–37 semanas** e profilaxia intraparto com penicilina/ampicilina\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: precoce × tardia (agentes) e esquema empírico.",
+   "ctxvisual": [
+    {
+     "tipo": "vs",
+     "a": {
+      "t": "Precoce (≤ 48–72 h)",
+      "itens": [
+       "Vertical (materna)",
+       "GBS e E. coli",
+       "Bolsa rota > 18 h, corioamnionite",
+       "Ampicilina + gentamicina"
+      ]
+     },
+     "b": {
+      "t": "Tardia (> 48–72 h)",
+      "itens": [
+       "Hospitalar",
+       "Estafilo coagulase-negativo",
+       "Cateter, UTI, prematuro",
+       "Oxacilina/vancomicina + aminoglicosídeo"
+      ]
+     }
+    }
+   ],
+   "fonte": "Ministério da Saúde — Atenção à Saúde do Recém-Nascido vol. 2 (2014) / SBP — Diagnóstico e tratamento da sepse neonatal / AAP — Management of Neonates ≥ 35 wk with suspected early-onset sepsis (2018)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Pediatria",
+   "tema": "Pneumologia pediátrica",
+   "sub": "Laringotraqueíte viral (crupe) e epiglotite",
+   "id": "crp-01",
+   "tipo": "flash",
+   "prio": "alta",
+   "frente": "Crupe viral: tratamento",
+   "verso": "Raciocínio:\n- O problema é o edema da região subglótica (a parte mais estreita da via aérea da criança).\n- O corticoide reduz o edema em horas; a adrenalina contrai os vasos da mucosa na hora, mas o efeito passa.\n\n**Dexametasona dose única para todos.**\n**Adrenalina nebulizada se estridor em repouso.**\n\nApós adrenalina:\n- Observar 2–4 h (efeito rebote).",
+   "macete": "\"Crupe: Dexa para todos, Adrenalina para quem chia parado\".",
+   "pegadinha": "Crupe leve também recebe dexametasona.",
+   "uerj": "Cobra a diferença crupe × epiglotite e a dexametasona no crupe.",
+   "contexto": "**Crupe (laringotraqueobronquite viral) = inflamação da laringe e região subglótica que estreita a via aérea superior; epiglotite = infecção bacteriana grave da epiglote.**\n\nCrupe viral:\n- **Parainfluenza** (principal); 6 meses a 3 anos\n- Pródromo de coriza → **tosse ladrante (\"de cachorro\")**, **rouquidão** e **estridor inspiratório**, pior à noite\n- Diagnóstico clínico; RX (se feito) → **sinal da torre/ponta de lápis** (estreitamento subglótico)\n- Gravidade → estridor em repouso, tiragem, agitação/letargia, cianose\n\nTratamento do crupe:\n- **Dexametasona dose única (0,15–0,6 mg/kg VO/IM) para TODOS**, inclusive leves\n- **Nebulização com adrenalina** → estridor em repouso / moderado a grave; **observar 2–4 h** (efeito rebote)\n- O₂ se hipoxemia; manter a criança calma no colo\n- Antibiótico não\n\nEpiglotite:\n- *Haemophilus influenzae* tipo b (rara após a vacina); hoje também estreptococo, estafilococo\n- 2–7 anos; **início súbito, febre alta, toxemia**\n- **4 Ds** → disfagia, disfonia (\"voz abafada\"), drooling (sialorreia), desconforto respiratório\n- **Posição do tripé**, sem tosse ladrante\n- RX lateral → **sinal do polegar**\n- Conduta → **não examinar a orofaringe nem deitar a criança**; via aérea definitiva em centro cirúrgico com equipe pronta para traqueostomia; **ceftriaxona**\n\nDiferenciais:\n- Traqueíte bacteriana (crupe que piora com febre alta e toxemia), corpo estranho, abscesso retrofaríngeo\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: crupe × epiglotite e dexametasona para todos.",
+   "ctxvisual": [
+    {
+     "tipo": "vs",
+     "a": {
+      "t": "Crupe viral",
+      "itens": [
+       "Parainfluenza",
+       "6 m–3 anos, início gradual",
+       "Tosse ladrante, rouquidão",
+       "Sinal da torre",
+       "Dexametasona ± adrenalina"
+      ]
+     },
+     "b": {
+      "t": "Epiglotite",
+      "itens": [
+       "H. influenzae b",
+       "Súbita, febre alta, toxemia",
+       "Sialorreia, tripé, voz abafada",
+       "Sinal do polegar",
+       "Via aérea no centro cirúrgico + ceftriaxona"
+      ]
+     }
+    }
+   ],
+   "fonte": "SBP — Tratado de Pediatria 5ª ed. (2022) / Nelson Textbook of Pediatrics 22ª ed. / Cochrane — Glucocorticoids for croup (2023)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Pediatria",
+   "tema": "Pneumologia pediátrica",
+   "sub": "Laringotraqueíte viral (crupe) e epiglotite",
+   "id": "crp-02",
+   "tipo": "flash",
+   "prio": "alta",
+   "frente": "Epiglotite: quadro e conduta",
+   "verso": "Raciocínio:\n- A epiglote inchada pode fechar a laringe de vez com o choro ou com o abaixador de língua.\n- Por isso não se manipula: a via aérea é garantida em ambiente controlado.\n\n**Criança toxemiada em posição do tripé.**\n**Não examinar a orofaringe.**\n**Via aérea no centro cirúrgico + ceftriaxona.**\n\nQuadro:\n- Febre alta súbita.\n- Sialorreia e voz abafada.\n\nRX lateral:\n- Sinal do polegar.",
+   "macete": "\"Epiglotite: 4 Ds e tripé; não toque na garganta\".",
+   "pegadinha": "Epiglotite não tem tosse ladrante.",
+   "uerj": "Cobra a diferença crupe × epiglotite e a dexametasona no crupe.",
+   "contexto": "**Crupe (laringotraqueobronquite viral) = inflamação da laringe e região subglótica que estreita a via aérea superior; epiglotite = infecção bacteriana grave da epiglote.**\n\nCrupe viral:\n- **Parainfluenza** (principal); 6 meses a 3 anos\n- Pródromo de coriza → **tosse ladrante (\"de cachorro\")**, **rouquidão** e **estridor inspiratório**, pior à noite\n- Diagnóstico clínico; RX (se feito) → **sinal da torre/ponta de lápis** (estreitamento subglótico)\n- Gravidade → estridor em repouso, tiragem, agitação/letargia, cianose\n\nTratamento do crupe:\n- **Dexametasona dose única (0,15–0,6 mg/kg VO/IM) para TODOS**, inclusive leves\n- **Nebulização com adrenalina** → estridor em repouso / moderado a grave; **observar 2–4 h** (efeito rebote)\n- O₂ se hipoxemia; manter a criança calma no colo\n- Antibiótico não\n\nEpiglotite:\n- *Haemophilus influenzae* tipo b (rara após a vacina); hoje também estreptococo, estafilococo\n- 2–7 anos; **início súbito, febre alta, toxemia**\n- **4 Ds** → disfagia, disfonia (\"voz abafada\"), drooling (sialorreia), desconforto respiratório\n- **Posição do tripé**, sem tosse ladrante\n- RX lateral → **sinal do polegar**\n- Conduta → **não examinar a orofaringe nem deitar a criança**; via aérea definitiva em centro cirúrgico com equipe pronta para traqueostomia; **ceftriaxona**\n\nDiferenciais:\n- Traqueíte bacteriana (crupe que piora com febre alta e toxemia), corpo estranho, abscesso retrofaríngeo\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: crupe × epiglotite e dexametasona para todos.",
+   "ctxvisual": [
+    {
+     "tipo": "vs",
+     "a": {
+      "t": "Crupe viral",
+      "itens": [
+       "Parainfluenza",
+       "6 m–3 anos, início gradual",
+       "Tosse ladrante, rouquidão",
+       "Sinal da torre",
+       "Dexametasona ± adrenalina"
+      ]
+     },
+     "b": {
+      "t": "Epiglotite",
+      "itens": [
+       "H. influenzae b",
+       "Súbita, febre alta, toxemia",
+       "Sialorreia, tripé, voz abafada",
+       "Sinal do polegar",
+       "Via aérea no centro cirúrgico + ceftriaxona"
+      ]
+     }
+    }
+   ],
+   "fonte": "SBP — Tratado de Pediatria 5ª ed. (2022) / Nelson Textbook of Pediatrics 22ª ed. / Cochrane — Glucocorticoids for croup (2023)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Pediatria",
+   "tema": "Pneumologia pediátrica",
+   "sub": "Laringotraqueíte viral (crupe) e epiglotite",
+   "tipo": "quiz",
+   "frente": "Sobre crupe e epiglotite, analise: I. O crupe viral é causado principalmente pelo parainfluenza. II. Na epiglotite, deve-se examinar a orofaringe com abaixador de língua para confirmar o diagnóstico. III. A dexametasona é indicada mesmo no crupe leve. Está(ão) correta(s):",
+   "opcoes": [
+    "Apenas I e II.",
+    "Apenas I e III.",
+    "Apenas II e III.",
+    "I, II e III."
+   ],
+   "certa": 1,
+   "comentarios": [
+    "II é falsa.",
+    "Correta. II é falsa: manipular a orofaringe pode precipitar obstrução total.",
+    "II é falsa.",
+    "II é falsa."
+   ],
+   "id": "crp-q1",
+   "prio": "alta",
+   "macete": "\"Epiglote não se toca\".",
+   "pegadinha": "Não examinar a orofaringe na epiglotite.",
+   "uerj": "Cobra a diferença crupe × epiglotite e a dexametasona no crupe.",
+   "contexto": "**Crupe (laringotraqueobronquite viral) = inflamação da laringe e região subglótica que estreita a via aérea superior; epiglotite = infecção bacteriana grave da epiglote.**\n\nCrupe viral:\n- **Parainfluenza** (principal); 6 meses a 3 anos\n- Pródromo de coriza → **tosse ladrante (\"de cachorro\")**, **rouquidão** e **estridor inspiratório**, pior à noite\n- Diagnóstico clínico; RX (se feito) → **sinal da torre/ponta de lápis** (estreitamento subglótico)\n- Gravidade → estridor em repouso, tiragem, agitação/letargia, cianose\n\nTratamento do crupe:\n- **Dexametasona dose única (0,15–0,6 mg/kg VO/IM) para TODOS**, inclusive leves\n- **Nebulização com adrenalina** → estridor em repouso / moderado a grave; **observar 2–4 h** (efeito rebote)\n- O₂ se hipoxemia; manter a criança calma no colo\n- Antibiótico não\n\nEpiglotite:\n- *Haemophilus influenzae* tipo b (rara após a vacina); hoje também estreptococo, estafilococo\n- 2–7 anos; **início súbito, febre alta, toxemia**\n- **4 Ds** → disfagia, disfonia (\"voz abafada\"), drooling (sialorreia), desconforto respiratório\n- **Posição do tripé**, sem tosse ladrante\n- RX lateral → **sinal do polegar**\n- Conduta → **não examinar a orofaringe nem deitar a criança**; via aérea definitiva em centro cirúrgico com equipe pronta para traqueostomia; **ceftriaxona**\n\nDiferenciais:\n- Traqueíte bacteriana (crupe que piora com febre alta e toxemia), corpo estranho, abscesso retrofaríngeo\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: crupe × epiglotite e dexametasona para todos.",
+   "ctxvisual": [
+    {
+     "tipo": "vs",
+     "a": {
+      "t": "Crupe viral",
+      "itens": [
+       "Parainfluenza",
+       "6 m–3 anos, início gradual",
+       "Tosse ladrante, rouquidão",
+       "Sinal da torre",
+       "Dexametasona ± adrenalina"
+      ]
+     },
+     "b": {
+      "t": "Epiglotite",
+      "itens": [
+       "H. influenzae b",
+       "Súbita, febre alta, toxemia",
+       "Sialorreia, tripé, voz abafada",
+       "Sinal do polegar",
+       "Via aérea no centro cirúrgico + ceftriaxona"
+      ]
+     }
+    }
+   ],
+   "fonte": "SBP — Tratado de Pediatria 5ª ed. (2022) / Nelson Textbook of Pediatrics 22ª ed. / Cochrane — Glucocorticoids for croup (2023)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Pediatria",
+   "tema": "Pneumologia pediátrica",
+   "sub": "Laringotraqueíte viral (crupe) e epiglotite",
+   "id": "crp-d1",
+   "tipo": "digitar",
+   "prio": "alta",
+   "frente": "Qual o principal agente do crupe viral?",
+   "verso": "**Parainfluenza.**",
+   "resposta": "Parainfluenza",
+   "aceitas": [
+    "parainfluenza",
+    "vírus parainfluenza",
+    "virus parainfluenza"
+   ],
+   "macete": "Crupe = Parainfluenza.",
+   "uerj": "Cobra a diferença crupe × epiglotite e a dexametasona no crupe.",
+   "contexto": "**Crupe (laringotraqueobronquite viral) = inflamação da laringe e região subglótica que estreita a via aérea superior; epiglotite = infecção bacteriana grave da epiglote.**\n\nCrupe viral:\n- **Parainfluenza** (principal); 6 meses a 3 anos\n- Pródromo de coriza → **tosse ladrante (\"de cachorro\")**, **rouquidão** e **estridor inspiratório**, pior à noite\n- Diagnóstico clínico; RX (se feito) → **sinal da torre/ponta de lápis** (estreitamento subglótico)\n- Gravidade → estridor em repouso, tiragem, agitação/letargia, cianose\n\nTratamento do crupe:\n- **Dexametasona dose única (0,15–0,6 mg/kg VO/IM) para TODOS**, inclusive leves\n- **Nebulização com adrenalina** → estridor em repouso / moderado a grave; **observar 2–4 h** (efeito rebote)\n- O₂ se hipoxemia; manter a criança calma no colo\n- Antibiótico não\n\nEpiglotite:\n- *Haemophilus influenzae* tipo b (rara após a vacina); hoje também estreptococo, estafilococo\n- 2–7 anos; **início súbito, febre alta, toxemia**\n- **4 Ds** → disfagia, disfonia (\"voz abafada\"), drooling (sialorreia), desconforto respiratório\n- **Posição do tripé**, sem tosse ladrante\n- RX lateral → **sinal do polegar**\n- Conduta → **não examinar a orofaringe nem deitar a criança**; via aérea definitiva em centro cirúrgico com equipe pronta para traqueostomia; **ceftriaxona**\n\nDiferenciais:\n- Traqueíte bacteriana (crupe que piora com febre alta e toxemia), corpo estranho, abscesso retrofaríngeo\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: crupe × epiglotite e dexametasona para todos.",
+   "ctxvisual": [
+    {
+     "tipo": "vs",
+     "a": {
+      "t": "Crupe viral",
+      "itens": [
+       "Parainfluenza",
+       "6 m–3 anos, início gradual",
+       "Tosse ladrante, rouquidão",
+       "Sinal da torre",
+       "Dexametasona ± adrenalina"
+      ]
+     },
+     "b": {
+      "t": "Epiglotite",
+      "itens": [
+       "H. influenzae b",
+       "Súbita, febre alta, toxemia",
+       "Sialorreia, tripé, voz abafada",
+       "Sinal do polegar",
+       "Via aérea no centro cirúrgico + ceftriaxona"
+      ]
+     }
+    }
+   ],
+   "fonte": "SBP — Tratado de Pediatria 5ª ed. (2022) / Nelson Textbook of Pediatrics 22ª ed. / Cochrane — Glucocorticoids for croup (2023)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Pediatria",
+   "tema": "Pneumologia pediátrica",
+   "sub": "Laringotraqueíte viral (crupe) e epiglotite",
+   "id": "crp-d2",
+   "tipo": "digitar",
+   "prio": "media",
+   "frente": "Qual sinal radiológico (RX lateral) da epiglotite?",
+   "verso": "**Sinal do polegar.**\n\n- Crupe → sinal da torre (AP).",
+   "resposta": "Sinal do polegar",
+   "aceitas": [
+    "polegar",
+    "sinal do polegar",
+    "thumb sign"
+   ],
+   "macete": "Epiglote inchada = polegar.",
+   "uerj": "Cobra a diferença crupe × epiglotite e a dexametasona no crupe.",
+   "contexto": "**Crupe (laringotraqueobronquite viral) = inflamação da laringe e região subglótica que estreita a via aérea superior; epiglotite = infecção bacteriana grave da epiglote.**\n\nCrupe viral:\n- **Parainfluenza** (principal); 6 meses a 3 anos\n- Pródromo de coriza → **tosse ladrante (\"de cachorro\")**, **rouquidão** e **estridor inspiratório**, pior à noite\n- Diagnóstico clínico; RX (se feito) → **sinal da torre/ponta de lápis** (estreitamento subglótico)\n- Gravidade → estridor em repouso, tiragem, agitação/letargia, cianose\n\nTratamento do crupe:\n- **Dexametasona dose única (0,15–0,6 mg/kg VO/IM) para TODOS**, inclusive leves\n- **Nebulização com adrenalina** → estridor em repouso / moderado a grave; **observar 2–4 h** (efeito rebote)\n- O₂ se hipoxemia; manter a criança calma no colo\n- Antibiótico não\n\nEpiglotite:\n- *Haemophilus influenzae* tipo b (rara após a vacina); hoje também estreptococo, estafilococo\n- 2–7 anos; **início súbito, febre alta, toxemia**\n- **4 Ds** → disfagia, disfonia (\"voz abafada\"), drooling (sialorreia), desconforto respiratório\n- **Posição do tripé**, sem tosse ladrante\n- RX lateral → **sinal do polegar**\n- Conduta → **não examinar a orofaringe nem deitar a criança**; via aérea definitiva em centro cirúrgico com equipe pronta para traqueostomia; **ceftriaxona**\n\nDiferenciais:\n- Traqueíte bacteriana (crupe que piora com febre alta e toxemia), corpo estranho, abscesso retrofaríngeo\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: crupe × epiglotite e dexametasona para todos.",
+   "ctxvisual": [
+    {
+     "tipo": "vs",
+     "a": {
+      "t": "Crupe viral",
+      "itens": [
+       "Parainfluenza",
+       "6 m–3 anos, início gradual",
+       "Tosse ladrante, rouquidão",
+       "Sinal da torre",
+       "Dexametasona ± adrenalina"
+      ]
+     },
+     "b": {
+      "t": "Epiglotite",
+      "itens": [
+       "H. influenzae b",
+       "Súbita, febre alta, toxemia",
+       "Sialorreia, tripé, voz abafada",
+       "Sinal do polegar",
+       "Via aérea no centro cirúrgico + ceftriaxona"
+      ]
+     }
+    }
+   ],
+   "fonte": "SBP — Tratado de Pediatria 5ª ed. (2022) / Nelson Textbook of Pediatrics 22ª ed. / Cochrane — Glucocorticoids for croup (2023)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Pediatria",
+   "tema": "Neonatologia",
+   "sub": "Triagem neonatal — testes do pezinho, orelhinha, olhinho e coraçãozinho",
+   "id": "trn-01",
+   "tipo": "flash",
+   "prio": "alta",
+   "frente": "Teste do pezinho: quando coletar e quais doenças triar?",
+   "verso": "Raciocínio:\n- Antes de 48 h de amamentação, a fenilalanina ainda não subiu e o TSH tem pico fisiológico → falsos resultados.\n- Depois do 5º dia, atrasa o tratamento de doenças que lesam o cérebro.\n\n**Entre o 3º e o 5º dia de vida.**\n\n**Doenças:**\n- Fenilcetonúria\n- Hipotireoidismo congênito\n- Doença falciforme\n- Fibrose cística\n- Hiperplasia adrenal congênita\n- Deficiência de biotinidase",
+   "macete": "\"3 a 5 dias: Fenil, Tireoide, Foice, Fibrose, Adrenal, Biotina\".",
+   "pegadinha": "Hipotireoidismo congênito: tratar até 2 semanas de vida.",
+   "uerj": "Cobra quando coletar, quais doenças triar e o que torna o teste do coraçãozinho alterado.",
+   "contexto": "**Triagem neonatal = conjunto de testes feitos em todos os RN para detectar cedo doenças graves e tratáveis, antes dos sintomas.**\n\nTeste do pezinho (PNTN):\n- Coleta entre o **3º e o 5º dia de vida** (após 48 h de amamentação)\n- Doenças do programa → **fenilcetonúria, hipotireoidismo congênito, doença falciforme e outras hemoglobinopatias, fibrose cística, hiperplasia adrenal congênita, deficiência de biotinidase** (e toxoplasmose congênita em parte dos estados)\n- Lei 14.154/2021 → ampliação gradual para ~50 doenças em etapas\n- **Hipotireoidismo congênito** → causa evitável de deficiência intelectual; TSH alto → **levotiroxina o mais cedo possível (idealmente até 2 semanas de vida)**\n- Fibrose cística → tripsinogênio imunorreativo (IRT) alto → confirmar com **teste do suor**\n- Fenilcetonúria → dieta pobre em fenilalanina\n\nTeste do coraçãozinho (oximetria de pulso):\n- Entre **24 e 48 h** de vida, em RN ≥ 35 semanas\n- Medir **membro superior direito e um membro inferior**\n- Normal → SatO₂ ≥ 95% e diferença < 3%\n- Alterado → repetir em 1 h; persistiu → **ecocardiograma** (triagem de cardiopatia crítica)\n\nTeste da orelhinha (triagem auditiva):\n- **Emissões otoacústicas (EOA)**; com indicador de risco → **PEATE (BERA)**\n- Idealmente antes da alta, até 30 dias de vida; meta \"1-3-6\" (triar até 1 mês, diagnosticar até 3, intervir até 6)\n\nTeste do olhinho (reflexo vermelho):\n- Detecta catarata congênita, glaucoma, retinoblastoma\n- Reflexo ausente/assimétrico/branco (leucocoria) → oftalmologista com urgência\n\nTeste da linguinha:\n- Protocolo de Bristol; anquiloglossia que prejudica a amamentação → frenotomia\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: doenças do teste do pezinho, idade da coleta e regras do teste do coraçãozinho.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "cab": [
+      "Teste",
+      "Quando",
+      "O que detecta"
+     ],
+     "linhas": [
+      [
+       "Pezinho",
+       "3º–5º dia",
+       "Fenilcetonúria, hipotireoidismo, falciforme, FC, HAC, biotinidase"
+      ],
+      [
+       "Coraçãozinho",
+       "24–48 h",
+       "Cardiopatia congênita crítica"
+      ],
+      [
+       "Orelhinha",
+       "Antes da alta (até 30 dias)",
+       "Perda auditiva"
+      ],
+      [
+       "Olhinho",
+       "Na maternidade e nas consultas",
+       "Catarata, glaucoma, retinoblastoma"
+      ],
+      [
+       "Linguinha",
+       "Na maternidade",
+       "Anquiloglossia"
+      ]
+     ]
+    }
+   ],
+   "fonte": "Ministério da Saúde — Triagem Neonatal Biológica: manual técnico (2016) / Lei 14.154/2021 / SBP — Teste do coraçãozinho (2022) / MS — Diretrizes de Atenção da Triagem Auditiva Neonatal (2012)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Pediatria",
+   "tema": "Neonatologia",
+   "sub": "Triagem neonatal — testes do pezinho, orelhinha, olhinho e coraçãozinho",
+   "id": "trn-02",
+   "tipo": "flash",
+   "prio": "alta",
+   "frente": "Teste do coraçãozinho: como fazer e quando é alterado?",
+   "verso": "Raciocínio:\n- Em cardiopatias dependentes do canal arterial, sangue pouco oxigenado vai para as pernas → o pé satura menos que a mão direita.\n\n**Oximetria em membro superior direito e um membro inferior, com 24–48 h.**\n**Alterado → SatO₂ < 95% ou diferença ≥ 3%.**\n\nConduta:\n- Repetir em 1 h; persistiu → ecocardiograma.",
+   "macete": "\"95 e 3: abaixo de 95 ou diferença de 3 → eco\".",
+   "pegadinha": "Mede-se a mão DIREITA (pré-ductal), não a esquerda.",
+   "uerj": "Cobra quando coletar, quais doenças triar e o que torna o teste do coraçãozinho alterado.",
+   "contexto": "**Triagem neonatal = conjunto de testes feitos em todos os RN para detectar cedo doenças graves e tratáveis, antes dos sintomas.**\n\nTeste do pezinho (PNTN):\n- Coleta entre o **3º e o 5º dia de vida** (após 48 h de amamentação)\n- Doenças do programa → **fenilcetonúria, hipotireoidismo congênito, doença falciforme e outras hemoglobinopatias, fibrose cística, hiperplasia adrenal congênita, deficiência de biotinidase** (e toxoplasmose congênita em parte dos estados)\n- Lei 14.154/2021 → ampliação gradual para ~50 doenças em etapas\n- **Hipotireoidismo congênito** → causa evitável de deficiência intelectual; TSH alto → **levotiroxina o mais cedo possível (idealmente até 2 semanas de vida)**\n- Fibrose cística → tripsinogênio imunorreativo (IRT) alto → confirmar com **teste do suor**\n- Fenilcetonúria → dieta pobre em fenilalanina\n\nTeste do coraçãozinho (oximetria de pulso):\n- Entre **24 e 48 h** de vida, em RN ≥ 35 semanas\n- Medir **membro superior direito e um membro inferior**\n- Normal → SatO₂ ≥ 95% e diferença < 3%\n- Alterado → repetir em 1 h; persistiu → **ecocardiograma** (triagem de cardiopatia crítica)\n\nTeste da orelhinha (triagem auditiva):\n- **Emissões otoacústicas (EOA)**; com indicador de risco → **PEATE (BERA)**\n- Idealmente antes da alta, até 30 dias de vida; meta \"1-3-6\" (triar até 1 mês, diagnosticar até 3, intervir até 6)\n\nTeste do olhinho (reflexo vermelho):\n- Detecta catarata congênita, glaucoma, retinoblastoma\n- Reflexo ausente/assimétrico/branco (leucocoria) → oftalmologista com urgência\n\nTeste da linguinha:\n- Protocolo de Bristol; anquiloglossia que prejudica a amamentação → frenotomia\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: doenças do teste do pezinho, idade da coleta e regras do teste do coraçãozinho.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "cab": [
+      "Teste",
+      "Quando",
+      "O que detecta"
+     ],
+     "linhas": [
+      [
+       "Pezinho",
+       "3º–5º dia",
+       "Fenilcetonúria, hipotireoidismo, falciforme, FC, HAC, biotinidase"
+      ],
+      [
+       "Coraçãozinho",
+       "24–48 h",
+       "Cardiopatia congênita crítica"
+      ],
+      [
+       "Orelhinha",
+       "Antes da alta (até 30 dias)",
+       "Perda auditiva"
+      ],
+      [
+       "Olhinho",
+       "Na maternidade e nas consultas",
+       "Catarata, glaucoma, retinoblastoma"
+      ],
+      [
+       "Linguinha",
+       "Na maternidade",
+       "Anquiloglossia"
+      ]
+     ]
+    }
+   ],
+   "fonte": "Ministério da Saúde — Triagem Neonatal Biológica: manual técnico (2016) / Lei 14.154/2021 / SBP — Teste do coraçãozinho (2022) / MS — Diretrizes de Atenção da Triagem Auditiva Neonatal (2012)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Pediatria",
+   "tema": "Neonatologia",
+   "sub": "Triagem neonatal — testes do pezinho, orelhinha, olhinho e coraçãozinho",
+   "tipo": "quiz",
+   "frente": "Sobre a triagem neonatal, analise: I. O teste do pezinho deve ser coletado entre o 3º e o 5º dia de vida. II. O teste do coraçãozinho é alterado quando a diferença entre membro superior direito e membro inferior é ≥ 3%. III. A triagem auditiva com emissões otoacústicas detecta catarata congênita. Está(ão) correta(s):",
+   "opcoes": [
+    "Apenas I e II.",
+    "Apenas I e III.",
+    "Apenas II e III.",
+    "I, II e III."
+   ],
+   "certa": 0,
+   "comentarios": [
+    "Correta. III é falsa: catarata é detectada pelo teste do olhinho (reflexo vermelho).",
+    "III é falsa.",
+    "III é falsa.",
+    "III é falsa."
+   ],
+   "id": "trn-q1",
+   "prio": "alta",
+   "macete": "\"Olhinho vê catarata; orelhinha ouve\".",
+   "pegadinha": "Não trocar os testes.",
+   "uerj": "Cobra quando coletar, quais doenças triar e o que torna o teste do coraçãozinho alterado.",
+   "contexto": "**Triagem neonatal = conjunto de testes feitos em todos os RN para detectar cedo doenças graves e tratáveis, antes dos sintomas.**\n\nTeste do pezinho (PNTN):\n- Coleta entre o **3º e o 5º dia de vida** (após 48 h de amamentação)\n- Doenças do programa → **fenilcetonúria, hipotireoidismo congênito, doença falciforme e outras hemoglobinopatias, fibrose cística, hiperplasia adrenal congênita, deficiência de biotinidase** (e toxoplasmose congênita em parte dos estados)\n- Lei 14.154/2021 → ampliação gradual para ~50 doenças em etapas\n- **Hipotireoidismo congênito** → causa evitável de deficiência intelectual; TSH alto → **levotiroxina o mais cedo possível (idealmente até 2 semanas de vida)**\n- Fibrose cística → tripsinogênio imunorreativo (IRT) alto → confirmar com **teste do suor**\n- Fenilcetonúria → dieta pobre em fenilalanina\n\nTeste do coraçãozinho (oximetria de pulso):\n- Entre **24 e 48 h** de vida, em RN ≥ 35 semanas\n- Medir **membro superior direito e um membro inferior**\n- Normal → SatO₂ ≥ 95% e diferença < 3%\n- Alterado → repetir em 1 h; persistiu → **ecocardiograma** (triagem de cardiopatia crítica)\n\nTeste da orelhinha (triagem auditiva):\n- **Emissões otoacústicas (EOA)**; com indicador de risco → **PEATE (BERA)**\n- Idealmente antes da alta, até 30 dias de vida; meta \"1-3-6\" (triar até 1 mês, diagnosticar até 3, intervir até 6)\n\nTeste do olhinho (reflexo vermelho):\n- Detecta catarata congênita, glaucoma, retinoblastoma\n- Reflexo ausente/assimétrico/branco (leucocoria) → oftalmologista com urgência\n\nTeste da linguinha:\n- Protocolo de Bristol; anquiloglossia que prejudica a amamentação → frenotomia\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: doenças do teste do pezinho, idade da coleta e regras do teste do coraçãozinho.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "cab": [
+      "Teste",
+      "Quando",
+      "O que detecta"
+     ],
+     "linhas": [
+      [
+       "Pezinho",
+       "3º–5º dia",
+       "Fenilcetonúria, hipotireoidismo, falciforme, FC, HAC, biotinidase"
+      ],
+      [
+       "Coraçãozinho",
+       "24–48 h",
+       "Cardiopatia congênita crítica"
+      ],
+      [
+       "Orelhinha",
+       "Antes da alta (até 30 dias)",
+       "Perda auditiva"
+      ],
+      [
+       "Olhinho",
+       "Na maternidade e nas consultas",
+       "Catarata, glaucoma, retinoblastoma"
+      ],
+      [
+       "Linguinha",
+       "Na maternidade",
+       "Anquiloglossia"
+      ]
+     ]
+    }
+   ],
+   "fonte": "Ministério da Saúde — Triagem Neonatal Biológica: manual técnico (2016) / Lei 14.154/2021 / SBP — Teste do coraçãozinho (2022) / MS — Diretrizes de Atenção da Triagem Auditiva Neonatal (2012)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Pediatria",
+   "tema": "Neonatologia",
+   "sub": "Triagem neonatal — testes do pezinho, orelhinha, olhinho e coraçãozinho",
+   "id": "trn-d1",
+   "tipo": "digitar",
+   "prio": "alta",
+   "frente": "Entre quais dias de vida se coleta o teste do pezinho?",
+   "verso": "**3º ao 5º dia.**",
+   "resposta": "3º ao 5º dia",
+   "aceitas": [
+    "3 a 5",
+    "3-5",
+    "3º ao 5º",
+    "3 ao 5",
+    "3 a 5 dias",
+    "terceiro ao quinto"
+   ],
+   "macete": "3 a 5.",
+   "uerj": "Cobra quando coletar, quais doenças triar e o que torna o teste do coraçãozinho alterado.",
+   "contexto": "**Triagem neonatal = conjunto de testes feitos em todos os RN para detectar cedo doenças graves e tratáveis, antes dos sintomas.**\n\nTeste do pezinho (PNTN):\n- Coleta entre o **3º e o 5º dia de vida** (após 48 h de amamentação)\n- Doenças do programa → **fenilcetonúria, hipotireoidismo congênito, doença falciforme e outras hemoglobinopatias, fibrose cística, hiperplasia adrenal congênita, deficiência de biotinidase** (e toxoplasmose congênita em parte dos estados)\n- Lei 14.154/2021 → ampliação gradual para ~50 doenças em etapas\n- **Hipotireoidismo congênito** → causa evitável de deficiência intelectual; TSH alto → **levotiroxina o mais cedo possível (idealmente até 2 semanas de vida)**\n- Fibrose cística → tripsinogênio imunorreativo (IRT) alto → confirmar com **teste do suor**\n- Fenilcetonúria → dieta pobre em fenilalanina\n\nTeste do coraçãozinho (oximetria de pulso):\n- Entre **24 e 48 h** de vida, em RN ≥ 35 semanas\n- Medir **membro superior direito e um membro inferior**\n- Normal → SatO₂ ≥ 95% e diferença < 3%\n- Alterado → repetir em 1 h; persistiu → **ecocardiograma** (triagem de cardiopatia crítica)\n\nTeste da orelhinha (triagem auditiva):\n- **Emissões otoacústicas (EOA)**; com indicador de risco → **PEATE (BERA)**\n- Idealmente antes da alta, até 30 dias de vida; meta \"1-3-6\" (triar até 1 mês, diagnosticar até 3, intervir até 6)\n\nTeste do olhinho (reflexo vermelho):\n- Detecta catarata congênita, glaucoma, retinoblastoma\n- Reflexo ausente/assimétrico/branco (leucocoria) → oftalmologista com urgência\n\nTeste da linguinha:\n- Protocolo de Bristol; anquiloglossia que prejudica a amamentação → frenotomia\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: doenças do teste do pezinho, idade da coleta e regras do teste do coraçãozinho.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "cab": [
+      "Teste",
+      "Quando",
+      "O que detecta"
+     ],
+     "linhas": [
+      [
+       "Pezinho",
+       "3º–5º dia",
+       "Fenilcetonúria, hipotireoidismo, falciforme, FC, HAC, biotinidase"
+      ],
+      [
+       "Coraçãozinho",
+       "24–48 h",
+       "Cardiopatia congênita crítica"
+      ],
+      [
+       "Orelhinha",
+       "Antes da alta (até 30 dias)",
+       "Perda auditiva"
+      ],
+      [
+       "Olhinho",
+       "Na maternidade e nas consultas",
+       "Catarata, glaucoma, retinoblastoma"
+      ],
+      [
+       "Linguinha",
+       "Na maternidade",
+       "Anquiloglossia"
+      ]
+     ]
+    }
+   ],
+   "fonte": "Ministério da Saúde — Triagem Neonatal Biológica: manual técnico (2016) / Lei 14.154/2021 / SBP — Teste do coraçãozinho (2022) / MS — Diretrizes de Atenção da Triagem Auditiva Neonatal (2012)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Pediatria",
+   "tema": "Neonatologia",
+   "sub": "Triagem neonatal — testes do pezinho, orelhinha, olhinho e coraçãozinho",
+   "id": "trn-d2",
+   "tipo": "digitar",
+   "prio": "media",
+   "frente": "Qual exame confirma fibrose cística após triagem alterada?",
+   "verso": "**Teste do suor (cloreto no suor).**",
+   "resposta": "Teste do suor",
+   "aceitas": [
+    "teste do suor",
+    "cloreto no suor",
+    "suor"
+   ],
+   "macete": "Fibrose cística → suor salgado.",
+   "uerj": "Cobra quando coletar, quais doenças triar e o que torna o teste do coraçãozinho alterado.",
+   "contexto": "**Triagem neonatal = conjunto de testes feitos em todos os RN para detectar cedo doenças graves e tratáveis, antes dos sintomas.**\n\nTeste do pezinho (PNTN):\n- Coleta entre o **3º e o 5º dia de vida** (após 48 h de amamentação)\n- Doenças do programa → **fenilcetonúria, hipotireoidismo congênito, doença falciforme e outras hemoglobinopatias, fibrose cística, hiperplasia adrenal congênita, deficiência de biotinidase** (e toxoplasmose congênita em parte dos estados)\n- Lei 14.154/2021 → ampliação gradual para ~50 doenças em etapas\n- **Hipotireoidismo congênito** → causa evitável de deficiência intelectual; TSH alto → **levotiroxina o mais cedo possível (idealmente até 2 semanas de vida)**\n- Fibrose cística → tripsinogênio imunorreativo (IRT) alto → confirmar com **teste do suor**\n- Fenilcetonúria → dieta pobre em fenilalanina\n\nTeste do coraçãozinho (oximetria de pulso):\n- Entre **24 e 48 h** de vida, em RN ≥ 35 semanas\n- Medir **membro superior direito e um membro inferior**\n- Normal → SatO₂ ≥ 95% e diferença < 3%\n- Alterado → repetir em 1 h; persistiu → **ecocardiograma** (triagem de cardiopatia crítica)\n\nTeste da orelhinha (triagem auditiva):\n- **Emissões otoacústicas (EOA)**; com indicador de risco → **PEATE (BERA)**\n- Idealmente antes da alta, até 30 dias de vida; meta \"1-3-6\" (triar até 1 mês, diagnosticar até 3, intervir até 6)\n\nTeste do olhinho (reflexo vermelho):\n- Detecta catarata congênita, glaucoma, retinoblastoma\n- Reflexo ausente/assimétrico/branco (leucocoria) → oftalmologista com urgência\n\nTeste da linguinha:\n- Protocolo de Bristol; anquiloglossia que prejudica a amamentação → frenotomia\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: doenças do teste do pezinho, idade da coleta e regras do teste do coraçãozinho.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "cab": [
+      "Teste",
+      "Quando",
+      "O que detecta"
+     ],
+     "linhas": [
+      [
+       "Pezinho",
+       "3º–5º dia",
+       "Fenilcetonúria, hipotireoidismo, falciforme, FC, HAC, biotinidase"
+      ],
+      [
+       "Coraçãozinho",
+       "24–48 h",
+       "Cardiopatia congênita crítica"
+      ],
+      [
+       "Orelhinha",
+       "Antes da alta (até 30 dias)",
+       "Perda auditiva"
+      ],
+      [
+       "Olhinho",
+       "Na maternidade e nas consultas",
+       "Catarata, glaucoma, retinoblastoma"
+      ],
+      [
+       "Linguinha",
+       "Na maternidade",
+       "Anquiloglossia"
+      ]
+     ]
+    }
+   ],
+   "fonte": "Ministério da Saúde — Triagem Neonatal Biológica: manual técnico (2016) / Lei 14.154/2021 / SBP — Teste do coraçãozinho (2022) / MS — Diretrizes de Atenção da Triagem Auditiva Neonatal (2012)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Pediatria",
+   "tema": "Infectologia pediátrica",
+   "sub": "Meningites — bacteriana, viral e tuberculosa",
+   "id": "men-01",
+   "tipo": "flash",
+   "prio": "alta",
+   "frente": "Líquor: meningite bacteriana × viral × tuberculosa",
+   "verso": "Raciocínio:\n- Bactérias atraem neutrófilos e consomem glicose → glicose muito baixa e proteína alta.\n- Vírus atraem linfócitos e não consomem glicose → glicose normal.\n- TB é crônica: linfócitos, glicose baixa e proteína muito alta.\n\n**Bacteriana → neutrófilos, glicose baixa.**\n**Viral → linfócitos, glicose normal.**\n**TB → linfócitos e proteína muito alta.**",
+   "macete": "\"Bactéria come açúcar; vírus não\".",
+   "pegadinha": "No início da viral pode haver predomínio de neutrófilos (repetir punção ajuda).",
+   "visual": {
+    "tipo": "tabela",
+    "cab": [
+     "Líquor",
+     "Células",
+     "Glicose",
+     "Proteína"
+    ],
+    "linhas": [
+     [
+      "Normal",
+      "< 5 (linfócitos)",
+      "≈ 2/3 da sérica",
+      "< 40"
+     ],
+     [
+      "Bacteriana",
+      "!Centenas a milhares · neutrófilos",
+      "!Muito baixa",
+      "!Alta"
+     ],
+     [
+      "Viral",
+      "Dezenas a centenas · linfócitos",
+      "Normal",
+      "Normal ou pouco alta"
+     ],
+     [
+      "Tuberculosa",
+      "Linfócitos",
+      "!Baixa",
+      "!Muito alta · ADA alta"
+     ],
+     [
+      "Fúngica (criptococo)",
+      "Linfócitos",
+      "Baixa",
+      "Alta · tinta da China"
+     ]
+    ]
+   },
+   "uerj": "Cobra o líquor, o antibiótico por idade e a quimioprofilaxia dos contatos.",
+   "contexto": "**Meningite = inflamação das meninges, com bactérias (emergência médica), vírus (mais comum, benigna) ou TB/fungos (subaguda).**\n\nClínica:\n- **Febre, cefaleia, rigidez de nuca, vômitos, alteração da consciência**\n- Sinais meníngeos → **Kernig** e **Brudzinski**\n- Lactente → irritabilidade, abaulamento de fontanela, recusa alimentar (rigidez de nuca muitas vezes ausente)\n- **Petéquias/púrpura** → meningococo (meningococcemia)\n\nAgentes por idade:\n- **RN (< 1 mês)** → GBS, E. coli, Listeria\n- **Criança e adulto** → **pneumococo** (mais comum), **meningococo**, Hib (raro após vacina)\n- **> 50 anos, imunossuprimido, gestante** → acrescentar Listeria\n\nDiagnóstico:\n- **Punção lombar** (tabela do líquor no contexto) + hemocultura\n- **TC antes da punção** se → déficit focal, papiledema, convulsão recente, rebaixamento importante, imunossupressão\n- Nunca atrasar o antibiótico pela TC\n\nTratamento empírico:\n- **RN** → ampicilina + cefotaxima (ou gentamicina)\n- **Criança/adulto** → **ceftriaxona** (± vancomicina se pneumococo resistente)\n- **> 50 anos** → ceftriaxona + **ampicilina** (Listeria)\n- **Dexametasona** antes ou junto com a 1ª dose do antibiótico (reduz surdez/sequelas; benefício maior no pneumococo e Hib)\n\nSaúde pública:\n- **Notificação compulsória imediata** (meningites e doença meningocócica)\n- **Quimioprofilaxia dos contatos íntimos** (meningococo e Hib) → **rifampicina** (alternativas: ceftriaxona, ciprofloxacino)\n- Isolamento respiratório por gotículas nas primeiras 24 h de antibiótico (meningococo)\n\nComplicações:\n- Surdez neurossensorial (a mais comum), hidrocefalia, convulsões, abscesso, SIADH, Waterhouse-Friderichsen (meningococo)\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: líquor bacteriana × viral × TB, antibiótico por idade, dexametasona e quimioprofilaxia.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "cab": [
+      "Líquor",
+      "Células",
+      "Glicose",
+      "Proteína"
+     ],
+     "linhas": [
+      [
+       "Normal",
+       "< 5 (linfócitos)",
+       "≈ 2/3 da sérica",
+       "< 40"
+      ],
+      [
+       "Bacteriana",
+       "!Centenas a milhares · neutrófilos",
+       "!Muito baixa",
+       "!Alta"
+      ],
+      [
+       "Viral",
+       "Dezenas a centenas · linfócitos",
+       "Normal",
+       "Normal ou pouco alta"
+      ],
+      [
+       "Tuberculosa",
+       "Linfócitos",
+       "!Baixa",
+       "!Muito alta · ADA alta"
+      ],
+      [
+       "Fúngica (criptococo)",
+       "Linfócitos",
+       "Baixa",
+       "Alta · tinta da China"
+      ]
+     ]
+    }
+   ],
+   "fonte": "Ministério da Saúde — Guia de Vigilância em Saúde 6ª ed. (2024) / IDSA Bacterial Meningitis Guideline / ESCMID (2016) / SBP — Meningites bacterianas",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Pediatria",
+   "tema": "Infectologia pediátrica",
+   "sub": "Meningites — bacteriana, viral e tuberculosa",
+   "id": "men-02",
+   "tipo": "flash",
+   "prio": "alta",
+   "frente": "Meningite bacteriana: tratamento empírico e medidas para contatos",
+   "verso": "Raciocínio:\n- O antibiótico depende de quem causa em cada idade: no RN a flora do parto; depois pneumococo e meningococo; no idoso também Listeria.\n- A dexametasona reduz a inflamação causada pela lise bacteriana → menos surdez e sequela.\n\n**Criança/adulto → ceftriaxona.**\n**RN → ampicilina + cefotaxima.**\n**> 50 anos → ceftriaxona + ampicilina.**\n\nJunto:\n- Dexametasona antes ou com a 1ª dose.\n\nContatos (meningococo e Hib):\n- Quimioprofilaxia com rifampicina.\n- Notificação imediata.",
+   "macete": "\"Listeria nos extremos: RN e > 50 → ampicilina\".",
+   "pegadinha": "Cefalosporina não cobre Listeria.",
+   "uerj": "Cobra o líquor, o antibiótico por idade e a quimioprofilaxia dos contatos.",
+   "contexto": "**Meningite = inflamação das meninges, com bactérias (emergência médica), vírus (mais comum, benigna) ou TB/fungos (subaguda).**\n\nClínica:\n- **Febre, cefaleia, rigidez de nuca, vômitos, alteração da consciência**\n- Sinais meníngeos → **Kernig** e **Brudzinski**\n- Lactente → irritabilidade, abaulamento de fontanela, recusa alimentar (rigidez de nuca muitas vezes ausente)\n- **Petéquias/púrpura** → meningococo (meningococcemia)\n\nAgentes por idade:\n- **RN (< 1 mês)** → GBS, E. coli, Listeria\n- **Criança e adulto** → **pneumococo** (mais comum), **meningococo**, Hib (raro após vacina)\n- **> 50 anos, imunossuprimido, gestante** → acrescentar Listeria\n\nDiagnóstico:\n- **Punção lombar** (tabela do líquor no contexto) + hemocultura\n- **TC antes da punção** se → déficit focal, papiledema, convulsão recente, rebaixamento importante, imunossupressão\n- Nunca atrasar o antibiótico pela TC\n\nTratamento empírico:\n- **RN** → ampicilina + cefotaxima (ou gentamicina)\n- **Criança/adulto** → **ceftriaxona** (± vancomicina se pneumococo resistente)\n- **> 50 anos** → ceftriaxona + **ampicilina** (Listeria)\n- **Dexametasona** antes ou junto com a 1ª dose do antibiótico (reduz surdez/sequelas; benefício maior no pneumococo e Hib)\n\nSaúde pública:\n- **Notificação compulsória imediata** (meningites e doença meningocócica)\n- **Quimioprofilaxia dos contatos íntimos** (meningococo e Hib) → **rifampicina** (alternativas: ceftriaxona, ciprofloxacino)\n- Isolamento respiratório por gotículas nas primeiras 24 h de antibiótico (meningococo)\n\nComplicações:\n- Surdez neurossensorial (a mais comum), hidrocefalia, convulsões, abscesso, SIADH, Waterhouse-Friderichsen (meningococo)\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: líquor bacteriana × viral × TB, antibiótico por idade, dexametasona e quimioprofilaxia.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "cab": [
+      "Líquor",
+      "Células",
+      "Glicose",
+      "Proteína"
+     ],
+     "linhas": [
+      [
+       "Normal",
+       "< 5 (linfócitos)",
+       "≈ 2/3 da sérica",
+       "< 40"
+      ],
+      [
+       "Bacteriana",
+       "!Centenas a milhares · neutrófilos",
+       "!Muito baixa",
+       "!Alta"
+      ],
+      [
+       "Viral",
+       "Dezenas a centenas · linfócitos",
+       "Normal",
+       "Normal ou pouco alta"
+      ],
+      [
+       "Tuberculosa",
+       "Linfócitos",
+       "!Baixa",
+       "!Muito alta · ADA alta"
+      ],
+      [
+       "Fúngica (criptococo)",
+       "Linfócitos",
+       "Baixa",
+       "Alta · tinta da China"
+      ]
+     ]
+    }
+   ],
+   "fonte": "Ministério da Saúde — Guia de Vigilância em Saúde 6ª ed. (2024) / IDSA Bacterial Meningitis Guideline / ESCMID (2016) / SBP — Meningites bacterianas",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Pediatria",
+   "tema": "Infectologia pediátrica",
+   "sub": "Meningites — bacteriana, viral e tuberculosa",
+   "tipo": "quiz",
+   "frente": "Sobre a meningite bacteriana, analise: I. O líquor mostra predomínio de neutrófilos e glicose baixa. II. Em maiores de 50 anos, acrescenta-se ampicilina para cobrir Listeria. III. Os contatos íntimos de meningite meningocócica não precisam de quimioprofilaxia. Está(ão) correta(s):",
+   "opcoes": [
+    "Apenas I e III.",
+    "Apenas II e III.",
+    "I, II e III.",
+    "Apenas I e II."
+   ],
+   "certa": 3,
+   "comentarios": [
+    "III é falsa.",
+    "III é falsa.",
+    "III é falsa.",
+    "Correta. III é falsa: contatos íntimos recebem rifampicina."
+   ],
+   "id": "men-q1",
+   "prio": "alta",
+   "macete": "\"Meningococo: rifampicina para quem dorme junto\".",
+   "pegadinha": "Contato íntimo faz quimioprofilaxia.",
+   "uerj": "Cobra o líquor, o antibiótico por idade e a quimioprofilaxia dos contatos.",
+   "contexto": "**Meningite = inflamação das meninges, com bactérias (emergência médica), vírus (mais comum, benigna) ou TB/fungos (subaguda).**\n\nClínica:\n- **Febre, cefaleia, rigidez de nuca, vômitos, alteração da consciência**\n- Sinais meníngeos → **Kernig** e **Brudzinski**\n- Lactente → irritabilidade, abaulamento de fontanela, recusa alimentar (rigidez de nuca muitas vezes ausente)\n- **Petéquias/púrpura** → meningococo (meningococcemia)\n\nAgentes por idade:\n- **RN (< 1 mês)** → GBS, E. coli, Listeria\n- **Criança e adulto** → **pneumococo** (mais comum), **meningococo**, Hib (raro após vacina)\n- **> 50 anos, imunossuprimido, gestante** → acrescentar Listeria\n\nDiagnóstico:\n- **Punção lombar** (tabela do líquor no contexto) + hemocultura\n- **TC antes da punção** se → déficit focal, papiledema, convulsão recente, rebaixamento importante, imunossupressão\n- Nunca atrasar o antibiótico pela TC\n\nTratamento empírico:\n- **RN** → ampicilina + cefotaxima (ou gentamicina)\n- **Criança/adulto** → **ceftriaxona** (± vancomicina se pneumococo resistente)\n- **> 50 anos** → ceftriaxona + **ampicilina** (Listeria)\n- **Dexametasona** antes ou junto com a 1ª dose do antibiótico (reduz surdez/sequelas; benefício maior no pneumococo e Hib)\n\nSaúde pública:\n- **Notificação compulsória imediata** (meningites e doença meningocócica)\n- **Quimioprofilaxia dos contatos íntimos** (meningococo e Hib) → **rifampicina** (alternativas: ceftriaxona, ciprofloxacino)\n- Isolamento respiratório por gotículas nas primeiras 24 h de antibiótico (meningococo)\n\nComplicações:\n- Surdez neurossensorial (a mais comum), hidrocefalia, convulsões, abscesso, SIADH, Waterhouse-Friderichsen (meningococo)\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: líquor bacteriana × viral × TB, antibiótico por idade, dexametasona e quimioprofilaxia.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "cab": [
+      "Líquor",
+      "Células",
+      "Glicose",
+      "Proteína"
+     ],
+     "linhas": [
+      [
+       "Normal",
+       "< 5 (linfócitos)",
+       "≈ 2/3 da sérica",
+       "< 40"
+      ],
+      [
+       "Bacteriana",
+       "!Centenas a milhares · neutrófilos",
+       "!Muito baixa",
+       "!Alta"
+      ],
+      [
+       "Viral",
+       "Dezenas a centenas · linfócitos",
+       "Normal",
+       "Normal ou pouco alta"
+      ],
+      [
+       "Tuberculosa",
+       "Linfócitos",
+       "!Baixa",
+       "!Muito alta · ADA alta"
+      ],
+      [
+       "Fúngica (criptococo)",
+       "Linfócitos",
+       "Baixa",
+       "Alta · tinta da China"
+      ]
+     ]
+    }
+   ],
+   "fonte": "Ministério da Saúde — Guia de Vigilância em Saúde 6ª ed. (2024) / IDSA Bacterial Meningitis Guideline / ESCMID (2016) / SBP — Meningites bacterianas",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Pediatria",
+   "tema": "Infectologia pediátrica",
+   "sub": "Meningites — bacteriana, viral e tuberculosa",
+   "id": "men-d1",
+   "tipo": "digitar",
+   "prio": "alta",
+   "frente": "Qual a droga da quimioprofilaxia dos contatos de doença meningocócica?",
+   "verso": "**Rifampicina.**\n\n- Alternativas: ceftriaxona, ciprofloxacino.",
+   "resposta": "Rifampicina",
+   "aceitas": [
+    "rifampicina"
+   ],
+   "macete": "Contato → Rifampicina.",
+   "uerj": "Cobra o líquor, o antibiótico por idade e a quimioprofilaxia dos contatos.",
+   "contexto": "**Meningite = inflamação das meninges, com bactérias (emergência médica), vírus (mais comum, benigna) ou TB/fungos (subaguda).**\n\nClínica:\n- **Febre, cefaleia, rigidez de nuca, vômitos, alteração da consciência**\n- Sinais meníngeos → **Kernig** e **Brudzinski**\n- Lactente → irritabilidade, abaulamento de fontanela, recusa alimentar (rigidez de nuca muitas vezes ausente)\n- **Petéquias/púrpura** → meningococo (meningococcemia)\n\nAgentes por idade:\n- **RN (< 1 mês)** → GBS, E. coli, Listeria\n- **Criança e adulto** → **pneumococo** (mais comum), **meningococo**, Hib (raro após vacina)\n- **> 50 anos, imunossuprimido, gestante** → acrescentar Listeria\n\nDiagnóstico:\n- **Punção lombar** (tabela do líquor no contexto) + hemocultura\n- **TC antes da punção** se → déficit focal, papiledema, convulsão recente, rebaixamento importante, imunossupressão\n- Nunca atrasar o antibiótico pela TC\n\nTratamento empírico:\n- **RN** → ampicilina + cefotaxima (ou gentamicina)\n- **Criança/adulto** → **ceftriaxona** (± vancomicina se pneumococo resistente)\n- **> 50 anos** → ceftriaxona + **ampicilina** (Listeria)\n- **Dexametasona** antes ou junto com a 1ª dose do antibiótico (reduz surdez/sequelas; benefício maior no pneumococo e Hib)\n\nSaúde pública:\n- **Notificação compulsória imediata** (meningites e doença meningocócica)\n- **Quimioprofilaxia dos contatos íntimos** (meningococo e Hib) → **rifampicina** (alternativas: ceftriaxona, ciprofloxacino)\n- Isolamento respiratório por gotículas nas primeiras 24 h de antibiótico (meningococo)\n\nComplicações:\n- Surdez neurossensorial (a mais comum), hidrocefalia, convulsões, abscesso, SIADH, Waterhouse-Friderichsen (meningococo)\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: líquor bacteriana × viral × TB, antibiótico por idade, dexametasona e quimioprofilaxia.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "cab": [
+      "Líquor",
+      "Células",
+      "Glicose",
+      "Proteína"
+     ],
+     "linhas": [
+      [
+       "Normal",
+       "< 5 (linfócitos)",
+       "≈ 2/3 da sérica",
+       "< 40"
+      ],
+      [
+       "Bacteriana",
+       "!Centenas a milhares · neutrófilos",
+       "!Muito baixa",
+       "!Alta"
+      ],
+      [
+       "Viral",
+       "Dezenas a centenas · linfócitos",
+       "Normal",
+       "Normal ou pouco alta"
+      ],
+      [
+       "Tuberculosa",
+       "Linfócitos",
+       "!Baixa",
+       "!Muito alta · ADA alta"
+      ],
+      [
+       "Fúngica (criptococo)",
+       "Linfócitos",
+       "Baixa",
+       "Alta · tinta da China"
+      ]
+     ]
+    }
+   ],
+   "fonte": "Ministério da Saúde — Guia de Vigilância em Saúde 6ª ed. (2024) / IDSA Bacterial Meningitis Guideline / ESCMID (2016) / SBP — Meningites bacterianas",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Pediatria",
+   "tema": "Infectologia pediátrica",
+   "sub": "Meningites — bacteriana, viral e tuberculosa",
+   "id": "men-d2",
+   "tipo": "digitar",
+   "prio": "alta",
+   "frente": "Qual o agente mais comum de meningite bacteriana no adulto?",
+   "verso": "**Pneumococo (Streptococcus pneumoniae).**",
+   "resposta": "Pneumococo",
+   "aceitas": [
+    "pneumococo",
+    "streptococcus pneumoniae",
+    "s. pneumoniae",
+    "s pneumoniae"
+   ],
+   "macete": "Adulto → pneumococo.",
+   "uerj": "Cobra o líquor, o antibiótico por idade e a quimioprofilaxia dos contatos.",
+   "contexto": "**Meningite = inflamação das meninges, com bactérias (emergência médica), vírus (mais comum, benigna) ou TB/fungos (subaguda).**\n\nClínica:\n- **Febre, cefaleia, rigidez de nuca, vômitos, alteração da consciência**\n- Sinais meníngeos → **Kernig** e **Brudzinski**\n- Lactente → irritabilidade, abaulamento de fontanela, recusa alimentar (rigidez de nuca muitas vezes ausente)\n- **Petéquias/púrpura** → meningococo (meningococcemia)\n\nAgentes por idade:\n- **RN (< 1 mês)** → GBS, E. coli, Listeria\n- **Criança e adulto** → **pneumococo** (mais comum), **meningococo**, Hib (raro após vacina)\n- **> 50 anos, imunossuprimido, gestante** → acrescentar Listeria\n\nDiagnóstico:\n- **Punção lombar** (tabela do líquor no contexto) + hemocultura\n- **TC antes da punção** se → déficit focal, papiledema, convulsão recente, rebaixamento importante, imunossupressão\n- Nunca atrasar o antibiótico pela TC\n\nTratamento empírico:\n- **RN** → ampicilina + cefotaxima (ou gentamicina)\n- **Criança/adulto** → **ceftriaxona** (± vancomicina se pneumococo resistente)\n- **> 50 anos** → ceftriaxona + **ampicilina** (Listeria)\n- **Dexametasona** antes ou junto com a 1ª dose do antibiótico (reduz surdez/sequelas; benefício maior no pneumococo e Hib)\n\nSaúde pública:\n- **Notificação compulsória imediata** (meningites e doença meningocócica)\n- **Quimioprofilaxia dos contatos íntimos** (meningococo e Hib) → **rifampicina** (alternativas: ceftriaxona, ciprofloxacino)\n- Isolamento respiratório por gotículas nas primeiras 24 h de antibiótico (meningococo)\n\nComplicações:\n- Surdez neurossensorial (a mais comum), hidrocefalia, convulsões, abscesso, SIADH, Waterhouse-Friderichsen (meningococo)\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: líquor bacteriana × viral × TB, antibiótico por idade, dexametasona e quimioprofilaxia.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "cab": [
+      "Líquor",
+      "Células",
+      "Glicose",
+      "Proteína"
+     ],
+     "linhas": [
+      [
+       "Normal",
+       "< 5 (linfócitos)",
+       "≈ 2/3 da sérica",
+       "< 40"
+      ],
+      [
+       "Bacteriana",
+       "!Centenas a milhares · neutrófilos",
+       "!Muito baixa",
+       "!Alta"
+      ],
+      [
+       "Viral",
+       "Dezenas a centenas · linfócitos",
+       "Normal",
+       "Normal ou pouco alta"
+      ],
+      [
+       "Tuberculosa",
+       "Linfócitos",
+       "!Baixa",
+       "!Muito alta · ADA alta"
+      ],
+      [
+       "Fúngica (criptococo)",
+       "Linfócitos",
+       "Baixa",
+       "Alta · tinta da China"
+      ]
+     ]
+    }
+   ],
+   "fonte": "Ministério da Saúde — Guia de Vigilância em Saúde 6ª ed. (2024) / IDSA Bacterial Meningitis Guideline / ESCMID (2016) / SBP — Meningites bacterianas",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Pediatria",
+   "tema": "Nefrologia pediátrica",
+   "sub": "Síndrome nefrítica — glomerulonefrite pós-estreptocócica",
+   "id": "gnpe-01",
+   "tipo": "flash",
+   "prio": "alta",
+   "frente": "GNPE: latência e exames típicos",
+   "verso": "Raciocínio:\n- A lesão não é a bactéria no rim: são anticorpos contra o estreptococo que formam imunocomplexos → levam semanas para se formar (latência).\n- Os imunocomplexos ativam o complemento → C3 consumido (baixo).\n\n**Latência: 1–3 semanas após faringite e 3–6 após impetigo.**\n**C3 baixo, que normaliza em até 8 semanas.**\n\nOutros:\n- ASLO (faringite) ou anti-DNase B (pele).\n- Hematúria dismórfica e cilindros hemáticos.",
+   "macete": "\"Garganta 2 semanas, pele 4; C3 volta em 8\".",
+   "pegadinha": "C3 baixo por > 8 semanas → não é GNPE típica: biopsiar.",
+   "uerj": "Cobra latência, C3 baixo transitório e as indicações de biópsia.",
+   "contexto": "**Síndrome nefrítica = inflamação glomerular que causa hematúria, edema, hipertensão e oligúria; a causa clássica na infância é a glomerulonefrite pós-estreptocócica (GNPE).**\n\nSíndrome nefrítica:\n- **Hematúria** (urina \"cor de coca-cola\", dismorfismo eritrocitário, cilindros hemáticos)\n- **Edema** (periorbitário, matinal), **hipertensão**, **oligúria**\n- Proteinúria em geral < nefrótica\n\nGNPE:\n- **Estreptococo beta-hemolítico do grupo A** (cepas nefritogênicas)\n- **Latência** → **1–3 semanas após faringite** e **3–6 semanas após impetigo**\n- Idade escolar (5–12 anos)\n- Mecanismo → imunocomplexos depositados no glomérulo; **ativação do complemento pela via alternativa**\n\nExames:\n- **C3 baixo** (normaliza em **até 8 semanas**)\n- ASLO alta (faringite) ou anti-DNase B (pele)\n- Urina → hematúria dismórfica e cilindros hemáticos\n- Biópsia → **não é necessária no caso típico**; histologia: proliferação difusa com \"corcovas\" (humps) subepiteliais\n\nIndicações de biópsia (atípico):\n- C3 baixo por > 8 semanas\n- Função renal em piora rápida / oligúria prolongada\n- Proteinúria nefrótica\n- Hematúria macroscópica persistente\n\nTratamento (suporte):\n- **Restrição de sal e água**, **diurético de alça (furosemida)**, anti-hipertensivo se necessário\n- Antibiótico (penicilina) → para erradicar o estreptococo e reduzir a transmissão; **não muda o curso da GN**\n- Complicações → encefalopatia hipertensiva, congestão/edema agudo de pulmão, hipercalemia\n\nPrognóstico:\n- Excelente na criança; hematúria microscópica pode durar até 1–2 anos\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: latência, C3 baixo transitório e quando biopsiar.",
+   "ctxvisual": [
+    {
+     "tipo": "fluxo",
+     "passos": [
+      "Faringite (1–3 sem) ou impetigo (3–6 sem) por estreptococo A",
+      "Imunocomplexos no glomérulo → consumo de C3",
+      "Hematúria + edema + HAS + oligúria",
+      "Suporte: sal/água, furosemida",
+      "C3 normaliza em até 8 semanas"
+     ]
+    }
+   ],
+   "fonte": "SBP — Tratado de Pediatria 5ª ed. (2022) / Nelson Textbook of Pediatrics 22ª ed. / KDIGO Glomerular Diseases (2021)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Pediatria",
+   "tema": "Nefrologia pediátrica",
+   "sub": "Síndrome nefrítica — glomerulonefrite pós-estreptocócica",
+   "id": "gnpe-02",
+   "tipo": "flash",
+   "prio": "alta",
+   "frente": "GNPE: tratamento",
+   "verso": "Raciocínio:\n- O glomérulo inflamado filtra menos → o corpo retém sal e água → edema e hipertensão.\n- Por isso o tratamento é tirar sal e água (restrição + diurético).\n\n**Restrição de sal e água + furosemida.**\n\nAntibiótico:\n- Erradica o estreptococo.\n- Não altera a evolução da glomerulonefrite.",
+   "macete": "\"Nefrítica: tira sal, tira água, dá furosemida\".",
+   "pegadinha": "Corticoide não é indicado na GNPE típica.",
+   "uerj": "Cobra latência, C3 baixo transitório e as indicações de biópsia.",
+   "contexto": "**Síndrome nefrítica = inflamação glomerular que causa hematúria, edema, hipertensão e oligúria; a causa clássica na infância é a glomerulonefrite pós-estreptocócica (GNPE).**\n\nSíndrome nefrítica:\n- **Hematúria** (urina \"cor de coca-cola\", dismorfismo eritrocitário, cilindros hemáticos)\n- **Edema** (periorbitário, matinal), **hipertensão**, **oligúria**\n- Proteinúria em geral < nefrótica\n\nGNPE:\n- **Estreptococo beta-hemolítico do grupo A** (cepas nefritogênicas)\n- **Latência** → **1–3 semanas após faringite** e **3–6 semanas após impetigo**\n- Idade escolar (5–12 anos)\n- Mecanismo → imunocomplexos depositados no glomérulo; **ativação do complemento pela via alternativa**\n\nExames:\n- **C3 baixo** (normaliza em **até 8 semanas**)\n- ASLO alta (faringite) ou anti-DNase B (pele)\n- Urina → hematúria dismórfica e cilindros hemáticos\n- Biópsia → **não é necessária no caso típico**; histologia: proliferação difusa com \"corcovas\" (humps) subepiteliais\n\nIndicações de biópsia (atípico):\n- C3 baixo por > 8 semanas\n- Função renal em piora rápida / oligúria prolongada\n- Proteinúria nefrótica\n- Hematúria macroscópica persistente\n\nTratamento (suporte):\n- **Restrição de sal e água**, **diurético de alça (furosemida)**, anti-hipertensivo se necessário\n- Antibiótico (penicilina) → para erradicar o estreptococo e reduzir a transmissão; **não muda o curso da GN**\n- Complicações → encefalopatia hipertensiva, congestão/edema agudo de pulmão, hipercalemia\n\nPrognóstico:\n- Excelente na criança; hematúria microscópica pode durar até 1–2 anos\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: latência, C3 baixo transitório e quando biopsiar.",
+   "ctxvisual": [
+    {
+     "tipo": "fluxo",
+     "passos": [
+      "Faringite (1–3 sem) ou impetigo (3–6 sem) por estreptococo A",
+      "Imunocomplexos no glomérulo → consumo de C3",
+      "Hematúria + edema + HAS + oligúria",
+      "Suporte: sal/água, furosemida",
+      "C3 normaliza em até 8 semanas"
+     ]
+    }
+   ],
+   "fonte": "SBP — Tratado de Pediatria 5ª ed. (2022) / Nelson Textbook of Pediatrics 22ª ed. / KDIGO Glomerular Diseases (2021)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Pediatria",
+   "tema": "Nefrologia pediátrica",
+   "sub": "Síndrome nefrítica — glomerulonefrite pós-estreptocócica",
+   "tipo": "quiz",
+   "frente": "Sobre a glomerulonefrite pós-estreptocócica, analise: I. O complemento C3 encontra-se baixo e normaliza em até 8 semanas. II. A biópsia renal está indicada em todos os casos. III. O tratamento inclui restrição de sódio e diurético de alça. Está(ão) correta(s):",
+   "opcoes": [
+    "Apenas I e II.",
+    "Apenas II e III.",
+    "Apenas I e III.",
+    "I, II e III."
+   ],
+   "certa": 2,
+   "comentarios": [
+    "II é falsa.",
+    "II é falsa.",
+    "Correta. II é falsa: biópsia só nos casos atípicos.",
+    "II é falsa."
+   ],
+   "id": "gnpe-q1",
+   "prio": "alta",
+   "macete": "\"GNPE típica não se biopsia\".",
+   "pegadinha": "Biópsia só se atípica.",
+   "uerj": "Cobra latência, C3 baixo transitório e as indicações de biópsia.",
+   "contexto": "**Síndrome nefrítica = inflamação glomerular que causa hematúria, edema, hipertensão e oligúria; a causa clássica na infância é a glomerulonefrite pós-estreptocócica (GNPE).**\n\nSíndrome nefrítica:\n- **Hematúria** (urina \"cor de coca-cola\", dismorfismo eritrocitário, cilindros hemáticos)\n- **Edema** (periorbitário, matinal), **hipertensão**, **oligúria**\n- Proteinúria em geral < nefrótica\n\nGNPE:\n- **Estreptococo beta-hemolítico do grupo A** (cepas nefritogênicas)\n- **Latência** → **1–3 semanas após faringite** e **3–6 semanas após impetigo**\n- Idade escolar (5–12 anos)\n- Mecanismo → imunocomplexos depositados no glomérulo; **ativação do complemento pela via alternativa**\n\nExames:\n- **C3 baixo** (normaliza em **até 8 semanas**)\n- ASLO alta (faringite) ou anti-DNase B (pele)\n- Urina → hematúria dismórfica e cilindros hemáticos\n- Biópsia → **não é necessária no caso típico**; histologia: proliferação difusa com \"corcovas\" (humps) subepiteliais\n\nIndicações de biópsia (atípico):\n- C3 baixo por > 8 semanas\n- Função renal em piora rápida / oligúria prolongada\n- Proteinúria nefrótica\n- Hematúria macroscópica persistente\n\nTratamento (suporte):\n- **Restrição de sal e água**, **diurético de alça (furosemida)**, anti-hipertensivo se necessário\n- Antibiótico (penicilina) → para erradicar o estreptococo e reduzir a transmissão; **não muda o curso da GN**\n- Complicações → encefalopatia hipertensiva, congestão/edema agudo de pulmão, hipercalemia\n\nPrognóstico:\n- Excelente na criança; hematúria microscópica pode durar até 1–2 anos\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: latência, C3 baixo transitório e quando biopsiar.",
+   "ctxvisual": [
+    {
+     "tipo": "fluxo",
+     "passos": [
+      "Faringite (1–3 sem) ou impetigo (3–6 sem) por estreptococo A",
+      "Imunocomplexos no glomérulo → consumo de C3",
+      "Hematúria + edema + HAS + oligúria",
+      "Suporte: sal/água, furosemida",
+      "C3 normaliza em até 8 semanas"
+     ]
+    }
+   ],
+   "fonte": "SBP — Tratado de Pediatria 5ª ed. (2022) / Nelson Textbook of Pediatrics 22ª ed. / KDIGO Glomerular Diseases (2021)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Pediatria",
+   "tema": "Nefrologia pediátrica",
+   "sub": "Síndrome nefrítica — glomerulonefrite pós-estreptocócica",
+   "id": "gnpe-d1",
+   "tipo": "digitar",
+   "prio": "alta",
+   "frente": "Em até quantas semanas o C3 normaliza na GNPE?",
+   "verso": "**8 semanas.**",
+   "resposta": "8 semanas",
+   "aceitas": [
+    "8",
+    "8 semanas",
+    "oito semanas"
+   ],
+   "macete": "C3 volta em 8.",
+   "uerj": "Cobra latência, C3 baixo transitório e as indicações de biópsia.",
+   "contexto": "**Síndrome nefrítica = inflamação glomerular que causa hematúria, edema, hipertensão e oligúria; a causa clássica na infância é a glomerulonefrite pós-estreptocócica (GNPE).**\n\nSíndrome nefrítica:\n- **Hematúria** (urina \"cor de coca-cola\", dismorfismo eritrocitário, cilindros hemáticos)\n- **Edema** (periorbitário, matinal), **hipertensão**, **oligúria**\n- Proteinúria em geral < nefrótica\n\nGNPE:\n- **Estreptococo beta-hemolítico do grupo A** (cepas nefritogênicas)\n- **Latência** → **1–3 semanas após faringite** e **3–6 semanas após impetigo**\n- Idade escolar (5–12 anos)\n- Mecanismo → imunocomplexos depositados no glomérulo; **ativação do complemento pela via alternativa**\n\nExames:\n- **C3 baixo** (normaliza em **até 8 semanas**)\n- ASLO alta (faringite) ou anti-DNase B (pele)\n- Urina → hematúria dismórfica e cilindros hemáticos\n- Biópsia → **não é necessária no caso típico**; histologia: proliferação difusa com \"corcovas\" (humps) subepiteliais\n\nIndicações de biópsia (atípico):\n- C3 baixo por > 8 semanas\n- Função renal em piora rápida / oligúria prolongada\n- Proteinúria nefrótica\n- Hematúria macroscópica persistente\n\nTratamento (suporte):\n- **Restrição de sal e água**, **diurético de alça (furosemida)**, anti-hipertensivo se necessário\n- Antibiótico (penicilina) → para erradicar o estreptococo e reduzir a transmissão; **não muda o curso da GN**\n- Complicações → encefalopatia hipertensiva, congestão/edema agudo de pulmão, hipercalemia\n\nPrognóstico:\n- Excelente na criança; hematúria microscópica pode durar até 1–2 anos\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: latência, C3 baixo transitório e quando biopsiar.",
+   "ctxvisual": [
+    {
+     "tipo": "fluxo",
+     "passos": [
+      "Faringite (1–3 sem) ou impetigo (3–6 sem) por estreptococo A",
+      "Imunocomplexos no glomérulo → consumo de C3",
+      "Hematúria + edema + HAS + oligúria",
+      "Suporte: sal/água, furosemida",
+      "C3 normaliza em até 8 semanas"
+     ]
+    }
+   ],
+   "fonte": "SBP — Tratado de Pediatria 5ª ed. (2022) / Nelson Textbook of Pediatrics 22ª ed. / KDIGO Glomerular Diseases (2021)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Pediatria",
+   "tema": "Nefrologia pediátrica",
+   "sub": "Síndrome nefrítica — glomerulonefrite pós-estreptocócica",
+   "id": "gnpe-d2",
+   "tipo": "digitar",
+   "prio": "media",
+   "frente": "Qual anticorpo sugere GNPE após impetigo?",
+   "verso": "**Anti-DNase B.**\n\n- Após faringite → ASLO.",
+   "resposta": "Anti-DNase B",
+   "aceitas": [
+    "anti-dnase b",
+    "anti dnase b",
+    "antidnase b",
+    "anti-dnase"
+   ],
+   "macete": "Pele → DNase; garganta → ASLO.",
+   "uerj": "Cobra latência, C3 baixo transitório e as indicações de biópsia.",
+   "contexto": "**Síndrome nefrítica = inflamação glomerular que causa hematúria, edema, hipertensão e oligúria; a causa clássica na infância é a glomerulonefrite pós-estreptocócica (GNPE).**\n\nSíndrome nefrítica:\n- **Hematúria** (urina \"cor de coca-cola\", dismorfismo eritrocitário, cilindros hemáticos)\n- **Edema** (periorbitário, matinal), **hipertensão**, **oligúria**\n- Proteinúria em geral < nefrótica\n\nGNPE:\n- **Estreptococo beta-hemolítico do grupo A** (cepas nefritogênicas)\n- **Latência** → **1–3 semanas após faringite** e **3–6 semanas após impetigo**\n- Idade escolar (5–12 anos)\n- Mecanismo → imunocomplexos depositados no glomérulo; **ativação do complemento pela via alternativa**\n\nExames:\n- **C3 baixo** (normaliza em **até 8 semanas**)\n- ASLO alta (faringite) ou anti-DNase B (pele)\n- Urina → hematúria dismórfica e cilindros hemáticos\n- Biópsia → **não é necessária no caso típico**; histologia: proliferação difusa com \"corcovas\" (humps) subepiteliais\n\nIndicações de biópsia (atípico):\n- C3 baixo por > 8 semanas\n- Função renal em piora rápida / oligúria prolongada\n- Proteinúria nefrótica\n- Hematúria macroscópica persistente\n\nTratamento (suporte):\n- **Restrição de sal e água**, **diurético de alça (furosemida)**, anti-hipertensivo se necessário\n- Antibiótico (penicilina) → para erradicar o estreptococo e reduzir a transmissão; **não muda o curso da GN**\n- Complicações → encefalopatia hipertensiva, congestão/edema agudo de pulmão, hipercalemia\n\nPrognóstico:\n- Excelente na criança; hematúria microscópica pode durar até 1–2 anos\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: latência, C3 baixo transitório e quando biopsiar.",
+   "ctxvisual": [
+    {
+     "tipo": "fluxo",
+     "passos": [
+      "Faringite (1–3 sem) ou impetigo (3–6 sem) por estreptococo A",
+      "Imunocomplexos no glomérulo → consumo de C3",
+      "Hematúria + edema + HAS + oligúria",
+      "Suporte: sal/água, furosemida",
+      "C3 normaliza em até 8 semanas"
+     ]
+    }
+   ],
+   "fonte": "SBP — Tratado de Pediatria 5ª ed. (2022) / Nelson Textbook of Pediatrics 22ª ed. / KDIGO Glomerular Diseases (2021)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Pediatria",
+   "tema": "Nutrologia pediátrica",
+   "sub": "Desnutrição e obesidade infantil",
+   "id": "dsn-01",
+   "tipo": "flash",
+   "prio": "alta",
+   "frente": "Marasmo × kwashiorkor",
+   "verso": "Raciocínio:\n- No marasmo falta tudo (calorias): o corpo consome gordura e músculo, mas mantém a albumina → sem edema.\n- No kwashiorkor falta proteína: albumina baixa → a água sai dos vasos → edema e fígado gorduroso.\n\n**Marasmo → emagrecimento extremo, sem edema.**\n**Kwashiorkor → edema (falta proteína).**",
+   "macete": "\"Kwashiorkor = inchado (K de Kilo de água); Marasmo = Magro\".",
+   "pegadinha": "O edema do kwashiorkor pode mascarar a perda de peso.",
+   "visual": {
+    "tipo": "vs",
+    "a": {
+     "t": "Marasmo",
+     "itens": [
+      "Déficit calórico",
+      "Sem edema",
+      "\"Face de velho\"",
+      "Apetite preservado"
+     ]
+    },
+    "b": {
+     "t": "Kwashiorkor",
+     "itens": [
+      "Déficit proteico",
+      "Edema",
+      "Sinal da bandeira, dermatose",
+      "Hepatomegalia, apatia"
+     ]
+    }
+   },
+   "uerj": "Cobra marasmo × kwashiorkor, os passos da desnutrição grave e o escore Z.",
+   "contexto": "**Desnutrição e obesidade são os dois extremos do estado nutricional; na criança, ambos são avaliados pelas curvas da OMS em escore Z.**\n\nAvaliação (curvas OMS):\n- **Peso/estatura ou IMC/idade** → classifica magreza e excesso de peso\n- **Estatura/idade < −2 escores Z** → baixa estatura (desnutrição crônica)\n- Faixas de IMC/idade → tabela do contexto (diferem em < 5 e ≥ 5 anos)\n\nDesnutrição grave — formas:\n- **Marasmo** → déficit calórico global: emagrecimento extremo, \"face de velho\", sem edema, apetite preservado\n- **Kwashiorkor** → déficit proteico: **edema** (hipoalbuminemia), lesões de pele e cabelo (sinal da bandeira), hepatomegalia (esteatose), apatia\n- Kwashiorkor-marasmático → misto\n\nTratamento da desnutrição grave (OMS — 10 passos):\n- Estabilização → tratar/prevenir **hipoglicemia, hipotermia, desidratação** (ReSoMal; evitar EV salvo choque), distúrbios eletrolíticos, **infecção (antibiótico para todos)**, micronutrientes\n- **Ferro só na fase de reabilitação** (no início piora infecção e radicais livres)\n- Alimentação cautelosa (F-75) → depois F-100 (recuperação)\n- Risco da **síndrome de realimentação** → hipofosfatemia, hipocalemia, hipomagnesemia\n\nObesidade infantil:\n- Causas → quase sempre exógena (dieta e sedentarismo)\n- Sinais de causa endócrina/genética → **baixa estatura** com obesidade, atraso do desenvolvimento, dismorfias\n- Comorbidades → acantose nigricans (resistência insulínica), DM2, dislipidemia, HAS, esteatose, apneia, epifisiólise, alterações ortopédicas\n- Tratamento → mudança de hábitos da família, atividade física, reduzir telas e ultraprocessados; drogas e cirurgia só em adolescentes selecionados\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: marasmo × kwashiorkor, ferro só na reabilitação e classificação pelo escore Z.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "IMC/idade (OMS)",
+      "Critério",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "Magreza acentuada",
+       "< −3 escores Z",
+       "Desnutrição grave: estabilizar (10 passos)"
+      ],
+      [
+       "Magreza",
+       "≥ −3 e < −2",
+       "Investigar causa, recuperação nutricional"
+      ],
+      [
+       "Eutrofia",
+       "≥ −2 e ≤ +1",
+       "Acompanhar"
+      ],
+      [
+       "< 5 anos: risco de sobrepeso / ≥ 5 anos: sobrepeso",
+       "> +1 e ≤ +2",
+       "Orientar hábitos"
+      ],
+      [
+       "< 5 anos: sobrepeso / ≥ 5 anos: obesidade",
+       "> +2 e ≤ +3",
+       "Intervenção nutricional e atividade física"
+      ],
+      [
+       "< 5 anos: obesidade / ≥ 5 anos: obesidade grave",
+       "> +3",
+       "Investigar comorbidades; equipe multiprofissional"
+      ]
+     ]
+    }
+   ],
+   "fonte": "Ministério da Saúde — Manual de atendimento da criança com desnutrição grave (2005) / OMS — Curvas de crescimento (2006/2007) / SBP — Manual de orientação: Obesidade na infância e adolescência 3ª ed. (2019)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Pediatria",
+   "tema": "Nutrologia pediátrica",
+   "sub": "Desnutrição e obesidade infantil",
+   "id": "dsn-02",
+   "tipo": "flash",
+   "prio": "media",
+   "frente": "Desnutrição grave: princípios do tratamento inicial",
+   "verso": "Raciocínio:\n- A criança desnutrida tem reservas mínimas: hipoglicemia, hipotermia e infecção matam primeiro.\n- O ferro livre no início alimenta bactérias e gera radicais livres → só depois.\n\n**Estabilizar primeiro:**\n- Hipoglicemia\n- Hipotermia\n- Desidratação\n- Infecção\n**Ferro só na fase de reabilitação.**\n\nAlimentação:\n- Começar devagar (F-75) → risco de síndrome de realimentação.",
+   "macete": "\"Primeiro aquece, adoça e trata; ferro só depois\".",
+   "pegadinha": "Antibiótico é dado a todos os desnutridos graves, mesmo sem sinal de infecção.",
+   "uerj": "Cobra marasmo × kwashiorkor, os passos da desnutrição grave e o escore Z.",
+   "contexto": "**Desnutrição e obesidade são os dois extremos do estado nutricional; na criança, ambos são avaliados pelas curvas da OMS em escore Z.**\n\nAvaliação (curvas OMS):\n- **Peso/estatura ou IMC/idade** → classifica magreza e excesso de peso\n- **Estatura/idade < −2 escores Z** → baixa estatura (desnutrição crônica)\n- Faixas de IMC/idade → tabela do contexto (diferem em < 5 e ≥ 5 anos)\n\nDesnutrição grave — formas:\n- **Marasmo** → déficit calórico global: emagrecimento extremo, \"face de velho\", sem edema, apetite preservado\n- **Kwashiorkor** → déficit proteico: **edema** (hipoalbuminemia), lesões de pele e cabelo (sinal da bandeira), hepatomegalia (esteatose), apatia\n- Kwashiorkor-marasmático → misto\n\nTratamento da desnutrição grave (OMS — 10 passos):\n- Estabilização → tratar/prevenir **hipoglicemia, hipotermia, desidratação** (ReSoMal; evitar EV salvo choque), distúrbios eletrolíticos, **infecção (antibiótico para todos)**, micronutrientes\n- **Ferro só na fase de reabilitação** (no início piora infecção e radicais livres)\n- Alimentação cautelosa (F-75) → depois F-100 (recuperação)\n- Risco da **síndrome de realimentação** → hipofosfatemia, hipocalemia, hipomagnesemia\n\nObesidade infantil:\n- Causas → quase sempre exógena (dieta e sedentarismo)\n- Sinais de causa endócrina/genética → **baixa estatura** com obesidade, atraso do desenvolvimento, dismorfias\n- Comorbidades → acantose nigricans (resistência insulínica), DM2, dislipidemia, HAS, esteatose, apneia, epifisiólise, alterações ortopédicas\n- Tratamento → mudança de hábitos da família, atividade física, reduzir telas e ultraprocessados; drogas e cirurgia só em adolescentes selecionados\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: marasmo × kwashiorkor, ferro só na reabilitação e classificação pelo escore Z.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "IMC/idade (OMS)",
+      "Critério",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "Magreza acentuada",
+       "< −3 escores Z",
+       "Desnutrição grave: estabilizar (10 passos)"
+      ],
+      [
+       "Magreza",
+       "≥ −3 e < −2",
+       "Investigar causa, recuperação nutricional"
+      ],
+      [
+       "Eutrofia",
+       "≥ −2 e ≤ +1",
+       "Acompanhar"
+      ],
+      [
+       "< 5 anos: risco de sobrepeso / ≥ 5 anos: sobrepeso",
+       "> +1 e ≤ +2",
+       "Orientar hábitos"
+      ],
+      [
+       "< 5 anos: sobrepeso / ≥ 5 anos: obesidade",
+       "> +2 e ≤ +3",
+       "Intervenção nutricional e atividade física"
+      ],
+      [
+       "< 5 anos: obesidade / ≥ 5 anos: obesidade grave",
+       "> +3",
+       "Investigar comorbidades; equipe multiprofissional"
+      ]
+     ]
+    }
+   ],
+   "fonte": "Ministério da Saúde — Manual de atendimento da criança com desnutrição grave (2005) / OMS — Curvas de crescimento (2006/2007) / SBP — Manual de orientação: Obesidade na infância e adolescência 3ª ed. (2019)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Pediatria",
+   "tema": "Nutrologia pediátrica",
+   "sub": "Desnutrição e obesidade infantil",
+   "tipo": "quiz",
+   "frente": "Sobre o estado nutricional na infância, analise: I. O kwashiorkor caracteriza-se por edema e hipoalbuminemia. II. O ferro deve ser iniciado na fase de estabilização da desnutrição grave. III. Em crianças ≥ 5 anos, IMC/idade > +2 escores Z indica obesidade. Está(ão) correta(s):",
+   "opcoes": [
+    "Apenas I e II.",
+    "Apenas I e III.",
+    "Apenas II e III.",
+    "I, II e III."
+   ],
+   "certa": 1,
+   "comentarios": [
+    "II é falsa.",
+    "Correta. II é falsa: ferro só na fase de reabilitação.",
+    "II é falsa.",
+    "II é falsa."
+   ],
+   "id": "dsn-q1",
+   "prio": "alta",
+   "macete": "\"Ferro espera a criança se estabilizar\".",
+   "pegadinha": "Ferro precoce é erro.",
+   "uerj": "Cobra marasmo × kwashiorkor, os passos da desnutrição grave e o escore Z.",
+   "contexto": "**Desnutrição e obesidade são os dois extremos do estado nutricional; na criança, ambos são avaliados pelas curvas da OMS em escore Z.**\n\nAvaliação (curvas OMS):\n- **Peso/estatura ou IMC/idade** → classifica magreza e excesso de peso\n- **Estatura/idade < −2 escores Z** → baixa estatura (desnutrição crônica)\n- Faixas de IMC/idade → tabela do contexto (diferem em < 5 e ≥ 5 anos)\n\nDesnutrição grave — formas:\n- **Marasmo** → déficit calórico global: emagrecimento extremo, \"face de velho\", sem edema, apetite preservado\n- **Kwashiorkor** → déficit proteico: **edema** (hipoalbuminemia), lesões de pele e cabelo (sinal da bandeira), hepatomegalia (esteatose), apatia\n- Kwashiorkor-marasmático → misto\n\nTratamento da desnutrição grave (OMS — 10 passos):\n- Estabilização → tratar/prevenir **hipoglicemia, hipotermia, desidratação** (ReSoMal; evitar EV salvo choque), distúrbios eletrolíticos, **infecção (antibiótico para todos)**, micronutrientes\n- **Ferro só na fase de reabilitação** (no início piora infecção e radicais livres)\n- Alimentação cautelosa (F-75) → depois F-100 (recuperação)\n- Risco da **síndrome de realimentação** → hipofosfatemia, hipocalemia, hipomagnesemia\n\nObesidade infantil:\n- Causas → quase sempre exógena (dieta e sedentarismo)\n- Sinais de causa endócrina/genética → **baixa estatura** com obesidade, atraso do desenvolvimento, dismorfias\n- Comorbidades → acantose nigricans (resistência insulínica), DM2, dislipidemia, HAS, esteatose, apneia, epifisiólise, alterações ortopédicas\n- Tratamento → mudança de hábitos da família, atividade física, reduzir telas e ultraprocessados; drogas e cirurgia só em adolescentes selecionados\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: marasmo × kwashiorkor, ferro só na reabilitação e classificação pelo escore Z.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "IMC/idade (OMS)",
+      "Critério",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "Magreza acentuada",
+       "< −3 escores Z",
+       "Desnutrição grave: estabilizar (10 passos)"
+      ],
+      [
+       "Magreza",
+       "≥ −3 e < −2",
+       "Investigar causa, recuperação nutricional"
+      ],
+      [
+       "Eutrofia",
+       "≥ −2 e ≤ +1",
+       "Acompanhar"
+      ],
+      [
+       "< 5 anos: risco de sobrepeso / ≥ 5 anos: sobrepeso",
+       "> +1 e ≤ +2",
+       "Orientar hábitos"
+      ],
+      [
+       "< 5 anos: sobrepeso / ≥ 5 anos: obesidade",
+       "> +2 e ≤ +3",
+       "Intervenção nutricional e atividade física"
+      ],
+      [
+       "< 5 anos: obesidade / ≥ 5 anos: obesidade grave",
+       "> +3",
+       "Investigar comorbidades; equipe multiprofissional"
+      ]
+     ]
+    }
+   ],
+   "fonte": "Ministério da Saúde — Manual de atendimento da criança com desnutrição grave (2005) / OMS — Curvas de crescimento (2006/2007) / SBP — Manual de orientação: Obesidade na infância e adolescência 3ª ed. (2019)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Pediatria",
+   "tema": "Nutrologia pediátrica",
+   "sub": "Desnutrição e obesidade infantil",
+   "id": "dsn-d1",
+   "tipo": "digitar",
+   "prio": "media",
+   "frente": "Qual forma de desnutrição grave cursa com edema?",
+   "verso": "**Kwashiorkor.**",
+   "resposta": "Kwashiorkor",
+   "aceitas": [
+    "kwashiorkor",
+    "kwashiorcor"
+   ],
+   "macete": "K = inchado.",
+   "uerj": "Cobra marasmo × kwashiorkor, os passos da desnutrição grave e o escore Z.",
+   "contexto": "**Desnutrição e obesidade são os dois extremos do estado nutricional; na criança, ambos são avaliados pelas curvas da OMS em escore Z.**\n\nAvaliação (curvas OMS):\n- **Peso/estatura ou IMC/idade** → classifica magreza e excesso de peso\n- **Estatura/idade < −2 escores Z** → baixa estatura (desnutrição crônica)\n- Faixas de IMC/idade → tabela do contexto (diferem em < 5 e ≥ 5 anos)\n\nDesnutrição grave — formas:\n- **Marasmo** → déficit calórico global: emagrecimento extremo, \"face de velho\", sem edema, apetite preservado\n- **Kwashiorkor** → déficit proteico: **edema** (hipoalbuminemia), lesões de pele e cabelo (sinal da bandeira), hepatomegalia (esteatose), apatia\n- Kwashiorkor-marasmático → misto\n\nTratamento da desnutrição grave (OMS — 10 passos):\n- Estabilização → tratar/prevenir **hipoglicemia, hipotermia, desidratação** (ReSoMal; evitar EV salvo choque), distúrbios eletrolíticos, **infecção (antibiótico para todos)**, micronutrientes\n- **Ferro só na fase de reabilitação** (no início piora infecção e radicais livres)\n- Alimentação cautelosa (F-75) → depois F-100 (recuperação)\n- Risco da **síndrome de realimentação** → hipofosfatemia, hipocalemia, hipomagnesemia\n\nObesidade infantil:\n- Causas → quase sempre exógena (dieta e sedentarismo)\n- Sinais de causa endócrina/genética → **baixa estatura** com obesidade, atraso do desenvolvimento, dismorfias\n- Comorbidades → acantose nigricans (resistência insulínica), DM2, dislipidemia, HAS, esteatose, apneia, epifisiólise, alterações ortopédicas\n- Tratamento → mudança de hábitos da família, atividade física, reduzir telas e ultraprocessados; drogas e cirurgia só em adolescentes selecionados\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: marasmo × kwashiorkor, ferro só na reabilitação e classificação pelo escore Z.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "IMC/idade (OMS)",
+      "Critério",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "Magreza acentuada",
+       "< −3 escores Z",
+       "Desnutrição grave: estabilizar (10 passos)"
+      ],
+      [
+       "Magreza",
+       "≥ −3 e < −2",
+       "Investigar causa, recuperação nutricional"
+      ],
+      [
+       "Eutrofia",
+       "≥ −2 e ≤ +1",
+       "Acompanhar"
+      ],
+      [
+       "< 5 anos: risco de sobrepeso / ≥ 5 anos: sobrepeso",
+       "> +1 e ≤ +2",
+       "Orientar hábitos"
+      ],
+      [
+       "< 5 anos: sobrepeso / ≥ 5 anos: obesidade",
+       "> +2 e ≤ +3",
+       "Intervenção nutricional e atividade física"
+      ],
+      [
+       "< 5 anos: obesidade / ≥ 5 anos: obesidade grave",
+       "> +3",
+       "Investigar comorbidades; equipe multiprofissional"
+      ]
+     ]
+    }
+   ],
+   "fonte": "Ministério da Saúde — Manual de atendimento da criança com desnutrição grave (2005) / OMS — Curvas de crescimento (2006/2007) / SBP — Manual de orientação: Obesidade na infância e adolescência 3ª ed. (2019)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Pediatria",
+   "tema": "Nutrologia pediátrica",
+   "sub": "Desnutrição e obesidade infantil",
+   "id": "dsn-d2",
+   "tipo": "digitar",
+   "prio": "media",
+   "frente": "Qual distúrbio eletrolítico marca a síndrome de realimentação?",
+   "verso": "**Hipofosfatemia.**\n\n- Também hipocalemia e hipomagnesemia.",
+   "resposta": "Hipofosfatemia",
+   "aceitas": [
+    "hipofosfatemia",
+    "fosforo baixo",
+    "fósforo baixo"
+   ],
+   "macete": "Realimentação rouba o fósforo.",
+   "uerj": "Cobra marasmo × kwashiorkor, os passos da desnutrição grave e o escore Z.",
+   "contexto": "**Desnutrição e obesidade são os dois extremos do estado nutricional; na criança, ambos são avaliados pelas curvas da OMS em escore Z.**\n\nAvaliação (curvas OMS):\n- **Peso/estatura ou IMC/idade** → classifica magreza e excesso de peso\n- **Estatura/idade < −2 escores Z** → baixa estatura (desnutrição crônica)\n- Faixas de IMC/idade → tabela do contexto (diferem em < 5 e ≥ 5 anos)\n\nDesnutrição grave — formas:\n- **Marasmo** → déficit calórico global: emagrecimento extremo, \"face de velho\", sem edema, apetite preservado\n- **Kwashiorkor** → déficit proteico: **edema** (hipoalbuminemia), lesões de pele e cabelo (sinal da bandeira), hepatomegalia (esteatose), apatia\n- Kwashiorkor-marasmático → misto\n\nTratamento da desnutrição grave (OMS — 10 passos):\n- Estabilização → tratar/prevenir **hipoglicemia, hipotermia, desidratação** (ReSoMal; evitar EV salvo choque), distúrbios eletrolíticos, **infecção (antibiótico para todos)**, micronutrientes\n- **Ferro só na fase de reabilitação** (no início piora infecção e radicais livres)\n- Alimentação cautelosa (F-75) → depois F-100 (recuperação)\n- Risco da **síndrome de realimentação** → hipofosfatemia, hipocalemia, hipomagnesemia\n\nObesidade infantil:\n- Causas → quase sempre exógena (dieta e sedentarismo)\n- Sinais de causa endócrina/genética → **baixa estatura** com obesidade, atraso do desenvolvimento, dismorfias\n- Comorbidades → acantose nigricans (resistência insulínica), DM2, dislipidemia, HAS, esteatose, apneia, epifisiólise, alterações ortopédicas\n- Tratamento → mudança de hábitos da família, atividade física, reduzir telas e ultraprocessados; drogas e cirurgia só em adolescentes selecionados\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: marasmo × kwashiorkor, ferro só na reabilitação e classificação pelo escore Z.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "IMC/idade (OMS)",
+      "Critério",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "Magreza acentuada",
+       "< −3 escores Z",
+       "Desnutrição grave: estabilizar (10 passos)"
+      ],
+      [
+       "Magreza",
+       "≥ −3 e < −2",
+       "Investigar causa, recuperação nutricional"
+      ],
+      [
+       "Eutrofia",
+       "≥ −2 e ≤ +1",
+       "Acompanhar"
+      ],
+      [
+       "< 5 anos: risco de sobrepeso / ≥ 5 anos: sobrepeso",
+       "> +1 e ≤ +2",
+       "Orientar hábitos"
+      ],
+      [
+       "< 5 anos: sobrepeso / ≥ 5 anos: obesidade",
+       "> +2 e ≤ +3",
+       "Intervenção nutricional e atividade física"
+      ],
+      [
+       "< 5 anos: obesidade / ≥ 5 anos: obesidade grave",
+       "> +3",
+       "Investigar comorbidades; equipe multiprofissional"
+      ]
+     ]
+    }
+   ],
+   "fonte": "Ministério da Saúde — Manual de atendimento da criança com desnutrição grave (2005) / OMS — Curvas de crescimento (2006/2007) / SBP — Manual de orientação: Obesidade na infância e adolescência 3ª ed. (2019)",
+   "add": "2026-11-04"
   }
  ],
  "rev": 1793814207548

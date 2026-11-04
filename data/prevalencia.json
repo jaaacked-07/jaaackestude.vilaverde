@@ -1827,6 +1827,70 @@
    "temas": "",
    "area": "Cirurgia",
    "tema": "Perioperatório"
+  },
+  "Bronquiolite viral aguda": {
+   "q": 0,
+   "pond": 0,
+   "fontes": {},
+   "temas": "",
+   "area": "Pediatria",
+   "tema": "Pneumologia pediátrica"
+  },
+  "Diarreia aguda e desidratação — planos A, B e C": {
+   "q": 0,
+   "pond": 0,
+   "fontes": {},
+   "temas": "",
+   "area": "Pediatria",
+   "tema": "Gastroenterologia pediátrica"
+  },
+  "Sepse neonatal": {
+   "q": 0,
+   "pond": 0,
+   "fontes": {},
+   "temas": "",
+   "area": "Pediatria",
+   "tema": "Neonatologia"
+  },
+  "Laringotraqueíte viral (crupe) e epiglotite": {
+   "q": 0,
+   "pond": 0,
+   "fontes": {},
+   "temas": "",
+   "area": "Pediatria",
+   "tema": "Pneumologia pediátrica"
+  },
+  "Triagem neonatal — testes do pezinho, orelhinha, olhinho e coraçãozinho": {
+   "q": 0,
+   "pond": 0,
+   "fontes": {},
+   "temas": "",
+   "area": "Pediatria",
+   "tema": "Neonatologia"
+  },
+  "Meningites — bacteriana, viral e tuberculosa": {
+   "q": 0,
+   "pond": 0,
+   "fontes": {},
+   "temas": "",
+   "area": "Pediatria",
+   "tema": "Infectologia pediátrica"
+  },
+  "Síndrome nefrítica — glomerulonefrite pós-estreptocócica": {
+   "q": 0,
+   "pond": 0,
+   "fontes": {},
+   "temas": "",
+   "area": "Pediatria",
+   "tema": "Nefrologia pediátrica"
+  },
+  "Desnutrição e obesidade infantil": {
+   "q": 0,
+   "pond": 0,
+   "fontes": {},
+   "temas": "",
+   "area": "Pediatria",
+   "tema": "Nutrologia pediátrica"
   }
  }
 }
