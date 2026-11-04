@@ -1891,6 +1891,70 @@
    "temas": "",
    "area": "Pediatria",
    "tema": "Nutrologia pediátrica"
+  },
+  "Abortamento e doença trofoblástica gestacional": {
+   "q": 0,
+   "pond": 0,
+   "fontes": {},
+   "temas": "",
+   "area": "Obstetrícia",
+   "tema": "Hemorragias da gestação"
+  },
+  "Rotura prematura das membranas ovulares (RPMO)": {
+   "q": 0,
+   "pond": 0,
+   "fontes": {},
+   "temas": "",
+   "area": "Obstetrícia",
+   "tema": "Prematuridade e RPMO"
+  },
+  "Aloimunização Rh e doença hemolítica perinatal": {
+   "q": 0,
+   "pond": 0,
+   "fontes": {},
+   "temas": "",
+   "area": "Obstetrícia",
+   "tema": "Pré-natal"
+  },
+  "Infecção urinária na gestação": {
+   "q": 0,
+   "pond": 0,
+   "fontes": {},
+   "temas": "",
+   "area": "Obstetrícia",
+   "tema": "Pré-natal"
+  },
+  "Câncer de endométrio": {
+   "q": 0,
+   "pond": 0,
+   "fontes": {},
+   "temas": "",
+   "area": "Ginecologia",
+   "tema": "Oncologia ginecológica"
+  },
+  "Síndrome dos ovários policísticos (SOP)": {
+   "q": 0,
+   "pond": 0,
+   "fontes": {},
+   "temas": "",
+   "area": "Ginecologia",
+   "tema": "Endocrinologia ginecológica"
+  },
+  "Amenorreia secundária": {
+   "q": 0,
+   "pond": 0,
+   "fontes": {},
+   "temas": "",
+   "area": "Ginecologia",
+   "tema": "Endocrinologia ginecológica"
+  },
+  "Prolapso genital (distopias)": {
+   "q": 0,
+   "pond": 0,
+   "fontes": {},
+   "temas": "",
+   "area": "Ginecologia",
+   "tema": "Uroginecologia"
   }
  }
 }

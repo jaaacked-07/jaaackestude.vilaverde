@@ -72219,6 +72219,2157 @@
    ],
    "fonte": "Ministério da Saúde — Manual de atendimento da criança com desnutrição grave (2005) / OMS — Curvas de crescimento (2006/2007) / SBP — Manual de orientação: Obesidade na infância e adolescência 3ª ed. (2019)",
    "add": "2026-11-04"
+  },
+  {
+   "area": "Obstetrícia",
+   "tema": "Hemorragias da gestação",
+   "sub": "Abortamento e doença trofoblástica gestacional",
+   "id": "abt-01",
+   "tipo": "flash",
+   "prio": "alta",
+   "frente": "Abortamento: como diferenciar as formas pelo exame?",
+   "verso": "Raciocínio:\n- O colo só se abre quando o útero já está expulsando → colo aberto = não há como manter a gestação.\n- Com colo fechado, a USG decide: embrião vivo (ameaça), morto (retido) ou útero vazio (completo).\n\n**Colo fechado + embrião vivo → ameaça.**\n**Colo aberto → inevitável ou incompleto.**\n**Colo fechado + embrião morto → retido.**\n**Colo fechado + útero vazio → completo.**",
+   "macete": "\"Colo aberto = não tem volta\".",
+   "pegadinha": "Na ameaça de abortamento, o repouso absoluto e a progesterona de rotina não mudam o desfecho.",
+   "visual": {
+    "tipo": "tabela",
+    "crit": true,
+    "cab": [
+     "Abortamento (formas)",
+     "Critério",
+     "Conduta"
+    ],
+    "linhas": [
+     [
+      "Ameaça",
+      "Sangramento leve, colo fechado, embrião vivo",
+      "Expectante, analgesia, repouso relativo"
+     ],
+     [
+      "Inevitável",
+      "Colo aberto, sangramento e cólica intensos",
+      "Esvaziamento uterino"
+     ],
+     [
+      "Incompleto",
+      "Colo aberto, restos ovulares (endométrio > 15 mm)",
+      "AMIU (≤ 12 sem) ou curetagem; misoprostol"
+     ],
+     [
+      "Completo",
+      "Colo fechado, útero vazio após expulsão",
+      "Expectante (confirmar queda do hCG)"
+     ],
+     [
+      "Retido",
+      "Colo fechado, embrião sem BCF / saco vazio",
+      "Misoprostol ou esvaziamento"
+     ],
+     [
+      "Infectado",
+      "Febre, dor, secreção fétida (manipulação)",
+      "Antibiótico (clindamicina + gentamicina) + esvaziamento"
+     ]
+    ]
+   },
+   "uerj": "Cobra a forma de abortamento pelo colo e a USG, mola completa × parcial e o seguimento com hCG.",
+   "contexto": "**Abortamento = interrupção da gestação antes de 20–22 semanas ou com feto < 500 g; doença trofoblástica gestacional = proliferação anormal do trofoblasto (mola hidatiforme e neoplasias).**\n\nAbortamento — causas:\n- **Alterações cromossômicas** → principal causa no 1º trimestre (trissomias)\n- Outras → síndrome antifosfolípide, malformações uterinas, insuficiência istmocervical, endocrinopatias, infecções\n\nAbortamento — formas:\n- Ameaça, inevitável, incompleto, completo, retido e infectado (tabela do contexto)\n- O que separa → **colo aberto ou fechado** e se há embrião vivo/restos\n\nEsvaziamento:\n- **AMIU** (aspiração manual intrauterina) → preferida até 12 semanas\n- Curetagem uterina; **misoprostol** para preparo do colo ou tratamento clínico\n- Acima de 12 semanas → misoprostol para expulsão e depois curetagem se necessário\n- **Rh negativo não sensibilizada → imunoglobulina anti-D**\n\nAbortamento de repetição:\n- ≥ 3 perdas consecutivas (investigar a partir de 2)\n- Investigar → cariótipo do casal, SAF, útero (histeroscopia/USG 3D), TSH\n- **Insuficiência istmocervical** → perdas no 2º trimestre, **indolores**, com dilatação do colo → **cerclagem com 12–16 semanas**\n\nMola hidatiforme:\n- **Completa** → **46,XX** (só cromossomos paternos), **sem embrião**, maior risco de malignizar (15–20%)\n- **Parcial** → **triploide (69,XXY)**, com feto/partes fetais, risco menor (1–5%)\n- Clínica → sangramento, **útero maior que a idade gestacional**, hiperêmese, **pré-eclâmpsia antes de 20 semanas**, hipertireoidismo, cistos tecaluteínicos\n- USG → \"flocos de neve\" / cacho de uva; **hCG muito elevado**\n- Tratamento → **vácuo-aspiração uterina**\n- Seguimento → **hCG semanal até 3 negativos seguidos**, depois mensal; **contracepção** durante o seguimento (ACO é permitido)\n\nNeoplasia trofoblástica gestacional (pós-molar):\n- hCG em **platô** (4 dosagens em 3 semanas) ou em **elevação** (3 dosagens em 2 semanas) ou ainda positivo após 6 meses\n- Tratamento → **quimioterapia (metotrexato** no baixo risco); altíssima taxa de cura\n- Metástase mais comum → pulmão\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: formas de abortamento pelo colo, mola completa × parcial e seguimento com hCG.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "Abortamento (formas)",
+      "Critério",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "Ameaça",
+       "Sangramento leve, colo fechado, embrião vivo",
+       "Expectante, analgesia, repouso relativo"
+      ],
+      [
+       "Inevitável",
+       "Colo aberto, sangramento e cólica intensos",
+       "Esvaziamento uterino"
+      ],
+      [
+       "Incompleto",
+       "Colo aberto, restos ovulares (endométrio > 15 mm)",
+       "AMIU (≤ 12 sem) ou curetagem; misoprostol"
+      ],
+      [
+       "Completo",
+       "Colo fechado, útero vazio após expulsão",
+       "Expectante (confirmar queda do hCG)"
+      ],
+      [
+       "Retido",
+       "Colo fechado, embrião sem BCF / saco vazio",
+       "Misoprostol ou esvaziamento"
+      ],
+      [
+       "Infectado",
+       "Febre, dor, secreção fétida (manipulação)",
+       "Antibiótico (clindamicina + gentamicina) + esvaziamento"
+      ]
+     ]
+    }
+   ],
+   "fonte": "Ministério da Saúde — Atenção humanizada ao abortamento (2011) / FEBRASGO — Protocolos: Abortamento (2021) e Doença trofoblástica gestacional (2021) / FIGO Cancer Report (2021)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Obstetrícia",
+   "tema": "Hemorragias da gestação",
+   "sub": "Abortamento e doença trofoblástica gestacional",
+   "id": "abt-02",
+   "tipo": "flash",
+   "prio": "alta",
+   "frente": "Mola completa × parcial",
+   "verso": "Raciocínio:\n- Na completa, um óvulo sem material genético é fecundado → só DNA paterno → não forma embrião e o trofoblasto prolifera muito.\n- Na parcial, dois espermatozoides fecundam um óvulo normal → triploide → há feto, mas inviável.\n\n**Completa → 46,XX paterno e sem embrião.**\n**Parcial → triploide e com feto.**\n\nRisco de neoplasia:\n- Completa → 15–20%.\n- Parcial → 1–5%.\n\nSeguimento:\n- hCG semanal até 3 negativos seguidos, depois mensal.\n- Contracepção durante o seguimento.",
+   "macete": "\"Completa = Cromossomos do pai, nada de feto\".",
+   "pegadinha": "Pré-eclâmpsia antes de 20 semanas → pensar em mola.",
+   "uerj": "Cobra a forma de abortamento pelo colo e a USG, mola completa × parcial e o seguimento com hCG.",
+   "contexto": "**Abortamento = interrupção da gestação antes de 20–22 semanas ou com feto < 500 g; doença trofoblástica gestacional = proliferação anormal do trofoblasto (mola hidatiforme e neoplasias).**\n\nAbortamento — causas:\n- **Alterações cromossômicas** → principal causa no 1º trimestre (trissomias)\n- Outras → síndrome antifosfolípide, malformações uterinas, insuficiência istmocervical, endocrinopatias, infecções\n\nAbortamento — formas:\n- Ameaça, inevitável, incompleto, completo, retido e infectado (tabela do contexto)\n- O que separa → **colo aberto ou fechado** e se há embrião vivo/restos\n\nEsvaziamento:\n- **AMIU** (aspiração manual intrauterina) → preferida até 12 semanas\n- Curetagem uterina; **misoprostol** para preparo do colo ou tratamento clínico\n- Acima de 12 semanas → misoprostol para expulsão e depois curetagem se necessário\n- **Rh negativo não sensibilizada → imunoglobulina anti-D**\n\nAbortamento de repetição:\n- ≥ 3 perdas consecutivas (investigar a partir de 2)\n- Investigar → cariótipo do casal, SAF, útero (histeroscopia/USG 3D), TSH\n- **Insuficiência istmocervical** → perdas no 2º trimestre, **indolores**, com dilatação do colo → **cerclagem com 12–16 semanas**\n\nMola hidatiforme:\n- **Completa** → **46,XX** (só cromossomos paternos), **sem embrião**, maior risco de malignizar (15–20%)\n- **Parcial** → **triploide (69,XXY)**, com feto/partes fetais, risco menor (1–5%)\n- Clínica → sangramento, **útero maior que a idade gestacional**, hiperêmese, **pré-eclâmpsia antes de 20 semanas**, hipertireoidismo, cistos tecaluteínicos\n- USG → \"flocos de neve\" / cacho de uva; **hCG muito elevado**\n- Tratamento → **vácuo-aspiração uterina**\n- Seguimento → **hCG semanal até 3 negativos seguidos**, depois mensal; **contracepção** durante o seguimento (ACO é permitido)\n\nNeoplasia trofoblástica gestacional (pós-molar):\n- hCG em **platô** (4 dosagens em 3 semanas) ou em **elevação** (3 dosagens em 2 semanas) ou ainda positivo após 6 meses\n- Tratamento → **quimioterapia (metotrexato** no baixo risco); altíssima taxa de cura\n- Metástase mais comum → pulmão\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: formas de abortamento pelo colo, mola completa × parcial e seguimento com hCG.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "Abortamento (formas)",
+      "Critério",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "Ameaça",
+       "Sangramento leve, colo fechado, embrião vivo",
+       "Expectante, analgesia, repouso relativo"
+      ],
+      [
+       "Inevitável",
+       "Colo aberto, sangramento e cólica intensos",
+       "Esvaziamento uterino"
+      ],
+      [
+       "Incompleto",
+       "Colo aberto, restos ovulares (endométrio > 15 mm)",
+       "AMIU (≤ 12 sem) ou curetagem; misoprostol"
+      ],
+      [
+       "Completo",
+       "Colo fechado, útero vazio após expulsão",
+       "Expectante (confirmar queda do hCG)"
+      ],
+      [
+       "Retido",
+       "Colo fechado, embrião sem BCF / saco vazio",
+       "Misoprostol ou esvaziamento"
+      ],
+      [
+       "Infectado",
+       "Febre, dor, secreção fétida (manipulação)",
+       "Antibiótico (clindamicina + gentamicina) + esvaziamento"
+      ]
+     ]
+    }
+   ],
+   "fonte": "Ministério da Saúde — Atenção humanizada ao abortamento (2011) / FEBRASGO — Protocolos: Abortamento (2021) e Doença trofoblástica gestacional (2021) / FIGO Cancer Report (2021)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Obstetrícia",
+   "tema": "Hemorragias da gestação",
+   "sub": "Abortamento e doença trofoblástica gestacional",
+   "tipo": "quiz",
+   "frente": "Sobre abortamento e doença trofoblástica, analise: I. No abortamento incompleto, o colo uterino está aberto. II. A mola hidatiforme completa tem cariótipo triploide e presença de feto. III. A insuficiência istmocervical causa perdas indolores no 2º trimestre e é tratada com cerclagem. Está(ão) correta(s):",
+   "opcoes": [
+    "Apenas I e II.",
+    "Apenas I e III.",
+    "Apenas II e III.",
+    "I, II e III."
+   ],
+   "certa": 1,
+   "comentarios": [
+    "II é falsa.",
+    "Correta. II é falsa: a mola completa é 46,XX (paterna) e sem embrião; triploide com feto é a parcial.",
+    "II é falsa.",
+    "II é falsa."
+   ],
+   "id": "abt-q1",
+   "prio": "alta",
+   "macete": "\"Parcial tem Partes fetais\".",
+   "pegadinha": "Completa não tem feto.",
+   "uerj": "Cobra a forma de abortamento pelo colo e a USG, mola completa × parcial e o seguimento com hCG.",
+   "contexto": "**Abortamento = interrupção da gestação antes de 20–22 semanas ou com feto < 500 g; doença trofoblástica gestacional = proliferação anormal do trofoblasto (mola hidatiforme e neoplasias).**\n\nAbortamento — causas:\n- **Alterações cromossômicas** → principal causa no 1º trimestre (trissomias)\n- Outras → síndrome antifosfolípide, malformações uterinas, insuficiência istmocervical, endocrinopatias, infecções\n\nAbortamento — formas:\n- Ameaça, inevitável, incompleto, completo, retido e infectado (tabela do contexto)\n- O que separa → **colo aberto ou fechado** e se há embrião vivo/restos\n\nEsvaziamento:\n- **AMIU** (aspiração manual intrauterina) → preferida até 12 semanas\n- Curetagem uterina; **misoprostol** para preparo do colo ou tratamento clínico\n- Acima de 12 semanas → misoprostol para expulsão e depois curetagem se necessário\n- **Rh negativo não sensibilizada → imunoglobulina anti-D**\n\nAbortamento de repetição:\n- ≥ 3 perdas consecutivas (investigar a partir de 2)\n- Investigar → cariótipo do casal, SAF, útero (histeroscopia/USG 3D), TSH\n- **Insuficiência istmocervical** → perdas no 2º trimestre, **indolores**, com dilatação do colo → **cerclagem com 12–16 semanas**\n\nMola hidatiforme:\n- **Completa** → **46,XX** (só cromossomos paternos), **sem embrião**, maior risco de malignizar (15–20%)\n- **Parcial** → **triploide (69,XXY)**, com feto/partes fetais, risco menor (1–5%)\n- Clínica → sangramento, **útero maior que a idade gestacional**, hiperêmese, **pré-eclâmpsia antes de 20 semanas**, hipertireoidismo, cistos tecaluteínicos\n- USG → \"flocos de neve\" / cacho de uva; **hCG muito elevado**\n- Tratamento → **vácuo-aspiração uterina**\n- Seguimento → **hCG semanal até 3 negativos seguidos**, depois mensal; **contracepção** durante o seguimento (ACO é permitido)\n\nNeoplasia trofoblástica gestacional (pós-molar):\n- hCG em **platô** (4 dosagens em 3 semanas) ou em **elevação** (3 dosagens em 2 semanas) ou ainda positivo após 6 meses\n- Tratamento → **quimioterapia (metotrexato** no baixo risco); altíssima taxa de cura\n- Metástase mais comum → pulmão\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: formas de abortamento pelo colo, mola completa × parcial e seguimento com hCG.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "Abortamento (formas)",
+      "Critério",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "Ameaça",
+       "Sangramento leve, colo fechado, embrião vivo",
+       "Expectante, analgesia, repouso relativo"
+      ],
+      [
+       "Inevitável",
+       "Colo aberto, sangramento e cólica intensos",
+       "Esvaziamento uterino"
+      ],
+      [
+       "Incompleto",
+       "Colo aberto, restos ovulares (endométrio > 15 mm)",
+       "AMIU (≤ 12 sem) ou curetagem; misoprostol"
+      ],
+      [
+       "Completo",
+       "Colo fechado, útero vazio após expulsão",
+       "Expectante (confirmar queda do hCG)"
+      ],
+      [
+       "Retido",
+       "Colo fechado, embrião sem BCF / saco vazio",
+       "Misoprostol ou esvaziamento"
+      ],
+      [
+       "Infectado",
+       "Febre, dor, secreção fétida (manipulação)",
+       "Antibiótico (clindamicina + gentamicina) + esvaziamento"
+      ]
+     ]
+    }
+   ],
+   "fonte": "Ministério da Saúde — Atenção humanizada ao abortamento (2011) / FEBRASGO — Protocolos: Abortamento (2021) e Doença trofoblástica gestacional (2021) / FIGO Cancer Report (2021)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Obstetrícia",
+   "tema": "Hemorragias da gestação",
+   "sub": "Abortamento e doença trofoblástica gestacional",
+   "id": "abt-d1",
+   "tipo": "digitar",
+   "prio": "alta",
+   "frente": "Qual o método preferido de esvaziamento uterino até 12 semanas?",
+   "verso": "**AMIU (aspiração manual intrauterina).**",
+   "resposta": "AMIU",
+   "aceitas": [
+    "amiu",
+    "aspiração manual intrauterina",
+    "aspiracao manual intrauterina",
+    "aspiração"
+   ],
+   "macete": "Até 12 semanas → AMIU.",
+   "uerj": "Cobra a forma de abortamento pelo colo e a USG, mola completa × parcial e o seguimento com hCG.",
+   "contexto": "**Abortamento = interrupção da gestação antes de 20–22 semanas ou com feto < 500 g; doença trofoblástica gestacional = proliferação anormal do trofoblasto (mola hidatiforme e neoplasias).**\n\nAbortamento — causas:\n- **Alterações cromossômicas** → principal causa no 1º trimestre (trissomias)\n- Outras → síndrome antifosfolípide, malformações uterinas, insuficiência istmocervical, endocrinopatias, infecções\n\nAbortamento — formas:\n- Ameaça, inevitável, incompleto, completo, retido e infectado (tabela do contexto)\n- O que separa → **colo aberto ou fechado** e se há embrião vivo/restos\n\nEsvaziamento:\n- **AMIU** (aspiração manual intrauterina) → preferida até 12 semanas\n- Curetagem uterina; **misoprostol** para preparo do colo ou tratamento clínico\n- Acima de 12 semanas → misoprostol para expulsão e depois curetagem se necessário\n- **Rh negativo não sensibilizada → imunoglobulina anti-D**\n\nAbortamento de repetição:\n- ≥ 3 perdas consecutivas (investigar a partir de 2)\n- Investigar → cariótipo do casal, SAF, útero (histeroscopia/USG 3D), TSH\n- **Insuficiência istmocervical** → perdas no 2º trimestre, **indolores**, com dilatação do colo → **cerclagem com 12–16 semanas**\n\nMola hidatiforme:\n- **Completa** → **46,XX** (só cromossomos paternos), **sem embrião**, maior risco de malignizar (15–20%)\n- **Parcial** → **triploide (69,XXY)**, com feto/partes fetais, risco menor (1–5%)\n- Clínica → sangramento, **útero maior que a idade gestacional**, hiperêmese, **pré-eclâmpsia antes de 20 semanas**, hipertireoidismo, cistos tecaluteínicos\n- USG → \"flocos de neve\" / cacho de uva; **hCG muito elevado**\n- Tratamento → **vácuo-aspiração uterina**\n- Seguimento → **hCG semanal até 3 negativos seguidos**, depois mensal; **contracepção** durante o seguimento (ACO é permitido)\n\nNeoplasia trofoblástica gestacional (pós-molar):\n- hCG em **platô** (4 dosagens em 3 semanas) ou em **elevação** (3 dosagens em 2 semanas) ou ainda positivo após 6 meses\n- Tratamento → **quimioterapia (metotrexato** no baixo risco); altíssima taxa de cura\n- Metástase mais comum → pulmão\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: formas de abortamento pelo colo, mola completa × parcial e seguimento com hCG.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "Abortamento (formas)",
+      "Critério",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "Ameaça",
+       "Sangramento leve, colo fechado, embrião vivo",
+       "Expectante, analgesia, repouso relativo"
+      ],
+      [
+       "Inevitável",
+       "Colo aberto, sangramento e cólica intensos",
+       "Esvaziamento uterino"
+      ],
+      [
+       "Incompleto",
+       "Colo aberto, restos ovulares (endométrio > 15 mm)",
+       "AMIU (≤ 12 sem) ou curetagem; misoprostol"
+      ],
+      [
+       "Completo",
+       "Colo fechado, útero vazio após expulsão",
+       "Expectante (confirmar queda do hCG)"
+      ],
+      [
+       "Retido",
+       "Colo fechado, embrião sem BCF / saco vazio",
+       "Misoprostol ou esvaziamento"
+      ],
+      [
+       "Infectado",
+       "Febre, dor, secreção fétida (manipulação)",
+       "Antibiótico (clindamicina + gentamicina) + esvaziamento"
+      ]
+     ]
+    }
+   ],
+   "fonte": "Ministério da Saúde — Atenção humanizada ao abortamento (2011) / FEBRASGO — Protocolos: Abortamento (2021) e Doença trofoblástica gestacional (2021) / FIGO Cancer Report (2021)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Obstetrícia",
+   "tema": "Hemorragias da gestação",
+   "sub": "Abortamento e doença trofoblástica gestacional",
+   "id": "abt-d2",
+   "tipo": "digitar",
+   "prio": "media",
+   "frente": "Com quantas semanas se faz a cerclagem eletiva na insuficiência istmocervical?",
+   "verso": "**12 a 16 semanas.**",
+   "resposta": "12 a 16 semanas",
+   "aceitas": [
+    "12-16",
+    "12 a 16",
+    "12 a 16 semanas",
+    "14",
+    "12-16 semanas"
+   ],
+   "macete": "Cerclagem: 12–16.",
+   "uerj": "Cobra a forma de abortamento pelo colo e a USG, mola completa × parcial e o seguimento com hCG.",
+   "contexto": "**Abortamento = interrupção da gestação antes de 20–22 semanas ou com feto < 500 g; doença trofoblástica gestacional = proliferação anormal do trofoblasto (mola hidatiforme e neoplasias).**\n\nAbortamento — causas:\n- **Alterações cromossômicas** → principal causa no 1º trimestre (trissomias)\n- Outras → síndrome antifosfolípide, malformações uterinas, insuficiência istmocervical, endocrinopatias, infecções\n\nAbortamento — formas:\n- Ameaça, inevitável, incompleto, completo, retido e infectado (tabela do contexto)\n- O que separa → **colo aberto ou fechado** e se há embrião vivo/restos\n\nEsvaziamento:\n- **AMIU** (aspiração manual intrauterina) → preferida até 12 semanas\n- Curetagem uterina; **misoprostol** para preparo do colo ou tratamento clínico\n- Acima de 12 semanas → misoprostol para expulsão e depois curetagem se necessário\n- **Rh negativo não sensibilizada → imunoglobulina anti-D**\n\nAbortamento de repetição:\n- ≥ 3 perdas consecutivas (investigar a partir de 2)\n- Investigar → cariótipo do casal, SAF, útero (histeroscopia/USG 3D), TSH\n- **Insuficiência istmocervical** → perdas no 2º trimestre, **indolores**, com dilatação do colo → **cerclagem com 12–16 semanas**\n\nMola hidatiforme:\n- **Completa** → **46,XX** (só cromossomos paternos), **sem embrião**, maior risco de malignizar (15–20%)\n- **Parcial** → **triploide (69,XXY)**, com feto/partes fetais, risco menor (1–5%)\n- Clínica → sangramento, **útero maior que a idade gestacional**, hiperêmese, **pré-eclâmpsia antes de 20 semanas**, hipertireoidismo, cistos tecaluteínicos\n- USG → \"flocos de neve\" / cacho de uva; **hCG muito elevado**\n- Tratamento → **vácuo-aspiração uterina**\n- Seguimento → **hCG semanal até 3 negativos seguidos**, depois mensal; **contracepção** durante o seguimento (ACO é permitido)\n\nNeoplasia trofoblástica gestacional (pós-molar):\n- hCG em **platô** (4 dosagens em 3 semanas) ou em **elevação** (3 dosagens em 2 semanas) ou ainda positivo após 6 meses\n- Tratamento → **quimioterapia (metotrexato** no baixo risco); altíssima taxa de cura\n- Metástase mais comum → pulmão\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: formas de abortamento pelo colo, mola completa × parcial e seguimento com hCG.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "Abortamento (formas)",
+      "Critério",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "Ameaça",
+       "Sangramento leve, colo fechado, embrião vivo",
+       "Expectante, analgesia, repouso relativo"
+      ],
+      [
+       "Inevitável",
+       "Colo aberto, sangramento e cólica intensos",
+       "Esvaziamento uterino"
+      ],
+      [
+       "Incompleto",
+       "Colo aberto, restos ovulares (endométrio > 15 mm)",
+       "AMIU (≤ 12 sem) ou curetagem; misoprostol"
+      ],
+      [
+       "Completo",
+       "Colo fechado, útero vazio após expulsão",
+       "Expectante (confirmar queda do hCG)"
+      ],
+      [
+       "Retido",
+       "Colo fechado, embrião sem BCF / saco vazio",
+       "Misoprostol ou esvaziamento"
+      ],
+      [
+       "Infectado",
+       "Febre, dor, secreção fétida (manipulação)",
+       "Antibiótico (clindamicina + gentamicina) + esvaziamento"
+      ]
+     ]
+    }
+   ],
+   "fonte": "Ministério da Saúde — Atenção humanizada ao abortamento (2011) / FEBRASGO — Protocolos: Abortamento (2021) e Doença trofoblástica gestacional (2021) / FIGO Cancer Report (2021)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Obstetrícia",
+   "tema": "Prematuridade e RPMO",
+   "sub": "Rotura prematura das membranas ovulares (RPMO)",
+   "id": "rpm-01",
+   "tipo": "flash",
+   "prio": "alta",
+   "frente": "RPMO pré-termo de 24 a 33 semanas: conduta",
+   "verso": "Raciocínio:\n- Nascer muito prematuro é mais perigoso que esperar → ganha-se tempo com vigilância.\n- O corticoide amadurece o pulmão; o antibiótico prolonga a latência e reduz infecção.\n\n**Conduta expectante internada.**\n\n**Fazer:**\n- Corticoide (betametasona)\n- Antibiótico de latência\n- Sulfato de magnésio se < 32 semanas e parto iminente\n\nNão fazer:\n- Tocólise.",
+   "macete": "\"RPMO pré-termo: CAM — Corticoide, Antibiótico, Magnésio\".",
+   "pegadinha": "Corioamnionite muda tudo: resolução em qualquer idade gestacional.",
+   "uerj": "Cobra diagnóstico pelo especular e a conduta por idade gestacional.",
+   "contexto": "**RPMO = rotura das membranas antes do início do trabalho de parto; pré-termo quando antes de 37 semanas.**\n\nFatores de risco:\n- Infecção (vaginose, ITU, cervicite), RPMO prévia, tabagismo, polidrâmnio, gemelaridade, colo curto, sangramento\n\nDiagnóstico:\n- **Clínico** → perda de líquido + **exame especular** mostrando líquido saindo pelo orifício do colo (manobra de Valsalva)\n- **Evitar toque vaginal** (aumenta infecção), salvo trabalho de parto\n- Testes auxiliares → pH vaginal alcalino (nitrazina), cristalização \"em folha de samambaia\", PAMG-1/IGFBP-1 (testes imunocromatográficos)\n- USG → oligoâmnio reforça, mas não confirma\n\nComplicações:\n- **Corioamnionite**, prematuridade, prolapso de cordão, descolamento de placenta, hipoplasia pulmonar (RPMO muito precoce)\n\nConduta por idade gestacional:\n- **≥ 37 semanas** → resolução (indução ou cesárea por indicação obstétrica)\n- **34 a 36 semanas** → resolução da gestação na maioria dos protocolos (expectante até 37 é aceitável em casos selecionados)\n- **24 a 33 semanas** → **conduta expectante** com internação:\n  - **Corticoide** (betametasona 12 mg IM, 2 doses com 24 h)\n  - **Antibiótico de latência** (ampicilina EV 48 h → amoxicilina 5 dias + azitromicina dose única)\n  - **Sulfato de magnésio** para neuroproteção se < 32 semanas e parto iminente\n  - Profilaxia de GBS no trabalho de parto\n  - **Tocolíticos não**\n- **< 24 semanas** → individualizar com a família (prognóstico ruim)\n\nCorioamnionite:\n- Febre + taquicardia materna/fetal, útero doloroso, líquido fétido, leucocitose\n- **Antibiótico + resolução da gestação, em qualquer idade gestacional** (via vaginal preferida)\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: diagnóstico pelo especular, conduta por idade gestacional e corioamnionite.",
+   "ctxvisual": [
+    {
+     "tipo": "fluxo",
+     "passos": [
+      "RPMO confirmada (exame especular)",
+      "Corioamnionite? → antibiótico + resolução",
+      [
+       "≥ 34 sem → resolução",
+       "24–33 sem → expectante: corticoide + ATB de latência ± MgSO₄",
+       "< 24 sem → individualizar"
+      ]
+     ]
+    }
+   ],
+   "fonte": "FEBRASGO — Protocolo Rotura prematura das membranas ovulares (2021) / ACOG Practice Bulletin 217: PROM (2020) / Ministério da Saúde — Manual de Gestação de Alto Risco (2022)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Obstetrícia",
+   "tema": "Prematuridade e RPMO",
+   "sub": "Rotura prematura das membranas ovulares (RPMO)",
+   "id": "rpm-02",
+   "tipo": "flash",
+   "prio": "alta",
+   "frente": "RPMO: como confirmar o diagnóstico?",
+   "verso": "Raciocínio:\n- Ver o líquido saindo pelo colo é a prova direta.\n- O toque leva bactérias da vagina para dentro → aumenta corioamnionite.\n\n**Exame especular com saída de líquido pelo orifício do colo.**\n**Evitar toque vaginal.**\n\nTestes auxiliares:\n- pH alcalino (nitrazina)\n- Cristalização em folha de samambaia\n- PAMG-1",
+   "macete": "\"Espéculo vê; dedo infecta\".",
+   "pegadinha": "Oligoâmnio na USG reforça, mas não confirma RPMO.",
+   "uerj": "Cobra diagnóstico pelo especular e a conduta por idade gestacional.",
+   "contexto": "**RPMO = rotura das membranas antes do início do trabalho de parto; pré-termo quando antes de 37 semanas.**\n\nFatores de risco:\n- Infecção (vaginose, ITU, cervicite), RPMO prévia, tabagismo, polidrâmnio, gemelaridade, colo curto, sangramento\n\nDiagnóstico:\n- **Clínico** → perda de líquido + **exame especular** mostrando líquido saindo pelo orifício do colo (manobra de Valsalva)\n- **Evitar toque vaginal** (aumenta infecção), salvo trabalho de parto\n- Testes auxiliares → pH vaginal alcalino (nitrazina), cristalização \"em folha de samambaia\", PAMG-1/IGFBP-1 (testes imunocromatográficos)\n- USG → oligoâmnio reforça, mas não confirma\n\nComplicações:\n- **Corioamnionite**, prematuridade, prolapso de cordão, descolamento de placenta, hipoplasia pulmonar (RPMO muito precoce)\n\nConduta por idade gestacional:\n- **≥ 37 semanas** → resolução (indução ou cesárea por indicação obstétrica)\n- **34 a 36 semanas** → resolução da gestação na maioria dos protocolos (expectante até 37 é aceitável em casos selecionados)\n- **24 a 33 semanas** → **conduta expectante** com internação:\n  - **Corticoide** (betametasona 12 mg IM, 2 doses com 24 h)\n  - **Antibiótico de latência** (ampicilina EV 48 h → amoxicilina 5 dias + azitromicina dose única)\n  - **Sulfato de magnésio** para neuroproteção se < 32 semanas e parto iminente\n  - Profilaxia de GBS no trabalho de parto\n  - **Tocolíticos não**\n- **< 24 semanas** → individualizar com a família (prognóstico ruim)\n\nCorioamnionite:\n- Febre + taquicardia materna/fetal, útero doloroso, líquido fétido, leucocitose\n- **Antibiótico + resolução da gestação, em qualquer idade gestacional** (via vaginal preferida)\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: diagnóstico pelo especular, conduta por idade gestacional e corioamnionite.",
+   "ctxvisual": [
+    {
+     "tipo": "fluxo",
+     "passos": [
+      "RPMO confirmada (exame especular)",
+      "Corioamnionite? → antibiótico + resolução",
+      [
+       "≥ 34 sem → resolução",
+       "24–33 sem → expectante: corticoide + ATB de latência ± MgSO₄",
+       "< 24 sem → individualizar"
+      ]
+     ]
+    }
+   ],
+   "fonte": "FEBRASGO — Protocolo Rotura prematura das membranas ovulares (2021) / ACOG Practice Bulletin 217: PROM (2020) / Ministério da Saúde — Manual de Gestação de Alto Risco (2022)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Obstetrícia",
+   "tema": "Prematuridade e RPMO",
+   "sub": "Rotura prematura das membranas ovulares (RPMO)",
+   "tipo": "quiz",
+   "frente": "Sobre a rotura prematura de membranas, analise: I. O exame especular é o principal método diagnóstico. II. Na RPMO com 30 semanas sem infecção, indica-se tocólise e parto imediato. III. Na corioamnionite, indica-se antibiótico e resolução da gestação independentemente da idade gestacional. Está(ão) correta(s):",
+   "opcoes": [
+    "Apenas I e II.",
+    "Apenas II e III.",
+    "Apenas I e III.",
+    "I, II e III."
+   ],
+   "certa": 2,
+   "comentarios": [
+    "II é falsa.",
+    "II é falsa.",
+    "Correta. II é falsa: com 30 semanas, conduta expectante com corticoide e antibiótico; tocólise não.",
+    "II é falsa."
+   ],
+   "id": "rpm-q1",
+   "prio": "alta",
+   "macete": "\"Infectou, tira; não infectou e é prematuro, espera\".",
+   "pegadinha": "Não se usa tocolítico na RPMO.",
+   "uerj": "Cobra diagnóstico pelo especular e a conduta por idade gestacional.",
+   "contexto": "**RPMO = rotura das membranas antes do início do trabalho de parto; pré-termo quando antes de 37 semanas.**\n\nFatores de risco:\n- Infecção (vaginose, ITU, cervicite), RPMO prévia, tabagismo, polidrâmnio, gemelaridade, colo curto, sangramento\n\nDiagnóstico:\n- **Clínico** → perda de líquido + **exame especular** mostrando líquido saindo pelo orifício do colo (manobra de Valsalva)\n- **Evitar toque vaginal** (aumenta infecção), salvo trabalho de parto\n- Testes auxiliares → pH vaginal alcalino (nitrazina), cristalização \"em folha de samambaia\", PAMG-1/IGFBP-1 (testes imunocromatográficos)\n- USG → oligoâmnio reforça, mas não confirma\n\nComplicações:\n- **Corioamnionite**, prematuridade, prolapso de cordão, descolamento de placenta, hipoplasia pulmonar (RPMO muito precoce)\n\nConduta por idade gestacional:\n- **≥ 37 semanas** → resolução (indução ou cesárea por indicação obstétrica)\n- **34 a 36 semanas** → resolução da gestação na maioria dos protocolos (expectante até 37 é aceitável em casos selecionados)\n- **24 a 33 semanas** → **conduta expectante** com internação:\n  - **Corticoide** (betametasona 12 mg IM, 2 doses com 24 h)\n  - **Antibiótico de latência** (ampicilina EV 48 h → amoxicilina 5 dias + azitromicina dose única)\n  - **Sulfato de magnésio** para neuroproteção se < 32 semanas e parto iminente\n  - Profilaxia de GBS no trabalho de parto\n  - **Tocolíticos não**\n- **< 24 semanas** → individualizar com a família (prognóstico ruim)\n\nCorioamnionite:\n- Febre + taquicardia materna/fetal, útero doloroso, líquido fétido, leucocitose\n- **Antibiótico + resolução da gestação, em qualquer idade gestacional** (via vaginal preferida)\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: diagnóstico pelo especular, conduta por idade gestacional e corioamnionite.",
+   "ctxvisual": [
+    {
+     "tipo": "fluxo",
+     "passos": [
+      "RPMO confirmada (exame especular)",
+      "Corioamnionite? → antibiótico + resolução",
+      [
+       "≥ 34 sem → resolução",
+       "24–33 sem → expectante: corticoide + ATB de latência ± MgSO₄",
+       "< 24 sem → individualizar"
+      ]
+     ]
+    }
+   ],
+   "fonte": "FEBRASGO — Protocolo Rotura prematura das membranas ovulares (2021) / ACOG Practice Bulletin 217: PROM (2020) / Ministério da Saúde — Manual de Gestação de Alto Risco (2022)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Obstetrícia",
+   "tema": "Prematuridade e RPMO",
+   "sub": "Rotura prematura das membranas ovulares (RPMO)",
+   "id": "rpm-d1",
+   "tipo": "digitar",
+   "prio": "alta",
+   "frente": "Até qual idade gestacional se faz conduta expectante na RPMO sem infecção (limite superior)?",
+   "verso": "**34 semanas.**\n\n- ≥ 34 semanas → resolução (na maioria dos protocolos).",
+   "resposta": "34 semanas",
+   "aceitas": [
+    "34",
+    "34 semanas",
+    "33 semanas e 6 dias",
+    "34s"
+   ],
+   "macete": "Abaixo de 34 espera.",
+   "uerj": "Cobra diagnóstico pelo especular e a conduta por idade gestacional.",
+   "contexto": "**RPMO = rotura das membranas antes do início do trabalho de parto; pré-termo quando antes de 37 semanas.**\n\nFatores de risco:\n- Infecção (vaginose, ITU, cervicite), RPMO prévia, tabagismo, polidrâmnio, gemelaridade, colo curto, sangramento\n\nDiagnóstico:\n- **Clínico** → perda de líquido + **exame especular** mostrando líquido saindo pelo orifício do colo (manobra de Valsalva)\n- **Evitar toque vaginal** (aumenta infecção), salvo trabalho de parto\n- Testes auxiliares → pH vaginal alcalino (nitrazina), cristalização \"em folha de samambaia\", PAMG-1/IGFBP-1 (testes imunocromatográficos)\n- USG → oligoâmnio reforça, mas não confirma\n\nComplicações:\n- **Corioamnionite**, prematuridade, prolapso de cordão, descolamento de placenta, hipoplasia pulmonar (RPMO muito precoce)\n\nConduta por idade gestacional:\n- **≥ 37 semanas** → resolução (indução ou cesárea por indicação obstétrica)\n- **34 a 36 semanas** → resolução da gestação na maioria dos protocolos (expectante até 37 é aceitável em casos selecionados)\n- **24 a 33 semanas** → **conduta expectante** com internação:\n  - **Corticoide** (betametasona 12 mg IM, 2 doses com 24 h)\n  - **Antibiótico de latência** (ampicilina EV 48 h → amoxicilina 5 dias + azitromicina dose única)\n  - **Sulfato de magnésio** para neuroproteção se < 32 semanas e parto iminente\n  - Profilaxia de GBS no trabalho de parto\n  - **Tocolíticos não**\n- **< 24 semanas** → individualizar com a família (prognóstico ruim)\n\nCorioamnionite:\n- Febre + taquicardia materna/fetal, útero doloroso, líquido fétido, leucocitose\n- **Antibiótico + resolução da gestação, em qualquer idade gestacional** (via vaginal preferida)\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: diagnóstico pelo especular, conduta por idade gestacional e corioamnionite.",
+   "ctxvisual": [
+    {
+     "tipo": "fluxo",
+     "passos": [
+      "RPMO confirmada (exame especular)",
+      "Corioamnionite? → antibiótico + resolução",
+      [
+       "≥ 34 sem → resolução",
+       "24–33 sem → expectante: corticoide + ATB de latência ± MgSO₄",
+       "< 24 sem → individualizar"
+      ]
+     ]
+    }
+   ],
+   "fonte": "FEBRASGO — Protocolo Rotura prematura das membranas ovulares (2021) / ACOG Practice Bulletin 217: PROM (2020) / Ministério da Saúde — Manual de Gestação de Alto Risco (2022)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Obstetrícia",
+   "tema": "Prematuridade e RPMO",
+   "sub": "Rotura prematura das membranas ovulares (RPMO)",
+   "id": "rpm-d2",
+   "tipo": "digitar",
+   "prio": "media",
+   "frente": "Qual droga se dá para neuroproteção fetal antes de 32 semanas?",
+   "verso": "**Sulfato de magnésio.**",
+   "resposta": "Sulfato de magnésio",
+   "aceitas": [
+    "sulfato de magnesio",
+    "sulfato de magnésio",
+    "mgso4",
+    "magnésio",
+    "magnesio"
+   ],
+   "macete": "< 32 semanas → magnésio protege o cérebro.",
+   "uerj": "Cobra diagnóstico pelo especular e a conduta por idade gestacional.",
+   "contexto": "**RPMO = rotura das membranas antes do início do trabalho de parto; pré-termo quando antes de 37 semanas.**\n\nFatores de risco:\n- Infecção (vaginose, ITU, cervicite), RPMO prévia, tabagismo, polidrâmnio, gemelaridade, colo curto, sangramento\n\nDiagnóstico:\n- **Clínico** → perda de líquido + **exame especular** mostrando líquido saindo pelo orifício do colo (manobra de Valsalva)\n- **Evitar toque vaginal** (aumenta infecção), salvo trabalho de parto\n- Testes auxiliares → pH vaginal alcalino (nitrazina), cristalização \"em folha de samambaia\", PAMG-1/IGFBP-1 (testes imunocromatográficos)\n- USG → oligoâmnio reforça, mas não confirma\n\nComplicações:\n- **Corioamnionite**, prematuridade, prolapso de cordão, descolamento de placenta, hipoplasia pulmonar (RPMO muito precoce)\n\nConduta por idade gestacional:\n- **≥ 37 semanas** → resolução (indução ou cesárea por indicação obstétrica)\n- **34 a 36 semanas** → resolução da gestação na maioria dos protocolos (expectante até 37 é aceitável em casos selecionados)\n- **24 a 33 semanas** → **conduta expectante** com internação:\n  - **Corticoide** (betametasona 12 mg IM, 2 doses com 24 h)\n  - **Antibiótico de latência** (ampicilina EV 48 h → amoxicilina 5 dias + azitromicina dose única)\n  - **Sulfato de magnésio** para neuroproteção se < 32 semanas e parto iminente\n  - Profilaxia de GBS no trabalho de parto\n  - **Tocolíticos não**\n- **< 24 semanas** → individualizar com a família (prognóstico ruim)\n\nCorioamnionite:\n- Febre + taquicardia materna/fetal, útero doloroso, líquido fétido, leucocitose\n- **Antibiótico + resolução da gestação, em qualquer idade gestacional** (via vaginal preferida)\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: diagnóstico pelo especular, conduta por idade gestacional e corioamnionite.",
+   "ctxvisual": [
+    {
+     "tipo": "fluxo",
+     "passos": [
+      "RPMO confirmada (exame especular)",
+      "Corioamnionite? → antibiótico + resolução",
+      [
+       "≥ 34 sem → resolução",
+       "24–33 sem → expectante: corticoide + ATB de latência ± MgSO₄",
+       "< 24 sem → individualizar"
+      ]
+     ]
+    }
+   ],
+   "fonte": "FEBRASGO — Protocolo Rotura prematura das membranas ovulares (2021) / ACOG Practice Bulletin 217: PROM (2020) / Ministério da Saúde — Manual de Gestação de Alto Risco (2022)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Obstetrícia",
+   "tema": "Pré-natal",
+   "sub": "Aloimunização Rh e doença hemolítica perinatal",
+   "id": "rh-01",
+   "tipo": "flash",
+   "prio": "alta",
+   "frente": "Gestante Rh negativo não sensibilizada: quando dar imunoglobulina anti-D?",
+   "verso": "Raciocínio:\n- A imunoglobulina destrói as hemácias fetais que passaram para a mãe antes que o sistema imune materno as reconheça.\n- Por isso só funciona antes da sensibilização (Coombs indireto negativo).\n\n**Com 28 semanas.**\n**Até 72 h após o parto (RN Rh positivo).**\n**Após qualquer evento de sangramento ou procedimento.**\n\nEventos:\n- Abortamento, ectópica, mola\n- Amniocentese, versão externa, trauma",
+   "macete": "\"28 semanas e 72 horas\".",
+   "pegadinha": "Coombs indireto positivo → imunoglobulina não serve mais.",
+   "uerj": "Cobra quando aplicar a imunoglobulina anti-D e o Doppler da ACM.",
+   "contexto": "**Aloimunização Rh = produção de anticorpos anti-D pela gestante Rh negativo exposta a hemácias Rh positivo; os anticorpos IgG cruzam a placenta e destroem as hemácias fetais (doença hemolítica perinatal).**\n\nFisiopatologia:\n- Sensibilização em parto, abortamento, ectópica, mola, sangramento, trauma, procedimento invasivo, transfusão\n- 1ª gestação raramente afetada (resposta IgM); nas seguintes, IgG → **anemia fetal**, hidropisia, icterícia grave no RN\n\nRastreamento:\n- **Tipagem ABO-Rh** na 1ª consulta\n- Gestante Rh negativo (parceiro Rh positivo ou desconhecido) → **Coombs indireto**\n- Coombs indireto negativo → repetir (mensal a partir de 24 semanas ou com 28 semanas, conforme o protocolo)\n\nPrevenção (imunoglobulina anti-D 300 mcg IM):\n- **Com 28 semanas** em Rh negativo não sensibilizada (quando disponível)\n- **Até 72 h após o parto** se RN Rh positivo (Coombs direto do RN negativo)\n- Após abortamento, ectópica, mola, sangramento, amniocentese, versão externa, trauma abdominal\n- Hemorragia feto-materna grande → teste de Kleihauer-Betke para ajustar a dose\n\nGestante já sensibilizada (Coombs indireto positivo):\n- **Não adianta mais a imunoglobulina**\n- Título ≥ 1:16 (crítico; alguns usam 1:8) → **Doppler da artéria cerebral média** (pico de velocidade sistólica > 1,5 MoM = anemia fetal moderada/grave)\n- Anemia grave → **cordocentese e transfusão intrauterina**\n- Resolução programada conforme a gravidade\n\nRN:\n- Coombs direto positivo, anemia, icterícia precoce → fototerapia, exsanguineotransfusão\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: quando dar imunoglobulina anti-D e o Doppler de ACM na gestante sensibilizada.",
+   "ctxvisual": [
+    {
+     "tipo": "fluxo",
+     "passos": [
+      "Gestante Rh negativo → Coombs indireto",
+      [
+       "Negativo (não sensibilizada) → repetir + anti-D com 28 sem e até 72 h pós-parto",
+       "Positivo (sensibilizada) → título → Doppler da ACM → transfusão intrauterina se anemia grave"
+      ]
+     ]
+    }
+   ],
+   "fonte": "Ministério da Saúde — Manual de Gestação de Alto Risco (2022) / FEBRASGO — Protocolo Aloimunização Rh (2021) / ACOG Practice Bulletin 181 (2017)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Obstetrícia",
+   "tema": "Pré-natal",
+   "sub": "Aloimunização Rh e doença hemolítica perinatal",
+   "id": "rh-02",
+   "tipo": "flash",
+   "prio": "alta",
+   "frente": "Gestante Rh sensibilizada: como avaliar anemia fetal?",
+   "verso": "Raciocínio:\n- O feto anêmico tem sangue menos viscoso e débito cardíaco maior → o sangue corre mais rápido na artéria cerebral média.\n\n**Doppler da artéria cerebral média.**\n**Pico sistólico > 1,5 MoM → anemia moderada/grave.**\n\nConduta:\n- Cordocentese e transfusão intrauterina.",
+   "macete": "\"Sangue ralo corre mais: ACM acelerada = anemia\".",
+   "pegadinha": "O Doppler substituiu a amniocentese seriada (espectrofotometria).",
+   "uerj": "Cobra quando aplicar a imunoglobulina anti-D e o Doppler da ACM.",
+   "contexto": "**Aloimunização Rh = produção de anticorpos anti-D pela gestante Rh negativo exposta a hemácias Rh positivo; os anticorpos IgG cruzam a placenta e destroem as hemácias fetais (doença hemolítica perinatal).**\n\nFisiopatologia:\n- Sensibilização em parto, abortamento, ectópica, mola, sangramento, trauma, procedimento invasivo, transfusão\n- 1ª gestação raramente afetada (resposta IgM); nas seguintes, IgG → **anemia fetal**, hidropisia, icterícia grave no RN\n\nRastreamento:\n- **Tipagem ABO-Rh** na 1ª consulta\n- Gestante Rh negativo (parceiro Rh positivo ou desconhecido) → **Coombs indireto**\n- Coombs indireto negativo → repetir (mensal a partir de 24 semanas ou com 28 semanas, conforme o protocolo)\n\nPrevenção (imunoglobulina anti-D 300 mcg IM):\n- **Com 28 semanas** em Rh negativo não sensibilizada (quando disponível)\n- **Até 72 h após o parto** se RN Rh positivo (Coombs direto do RN negativo)\n- Após abortamento, ectópica, mola, sangramento, amniocentese, versão externa, trauma abdominal\n- Hemorragia feto-materna grande → teste de Kleihauer-Betke para ajustar a dose\n\nGestante já sensibilizada (Coombs indireto positivo):\n- **Não adianta mais a imunoglobulina**\n- Título ≥ 1:16 (crítico; alguns usam 1:8) → **Doppler da artéria cerebral média** (pico de velocidade sistólica > 1,5 MoM = anemia fetal moderada/grave)\n- Anemia grave → **cordocentese e transfusão intrauterina**\n- Resolução programada conforme a gravidade\n\nRN:\n- Coombs direto positivo, anemia, icterícia precoce → fototerapia, exsanguineotransfusão\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: quando dar imunoglobulina anti-D e o Doppler de ACM na gestante sensibilizada.",
+   "ctxvisual": [
+    {
+     "tipo": "fluxo",
+     "passos": [
+      "Gestante Rh negativo → Coombs indireto",
+      [
+       "Negativo (não sensibilizada) → repetir + anti-D com 28 sem e até 72 h pós-parto",
+       "Positivo (sensibilizada) → título → Doppler da ACM → transfusão intrauterina se anemia grave"
+      ]
+     ]
+    }
+   ],
+   "fonte": "Ministério da Saúde — Manual de Gestação de Alto Risco (2022) / FEBRASGO — Protocolo Aloimunização Rh (2021) / ACOG Practice Bulletin 181 (2017)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Obstetrícia",
+   "tema": "Pré-natal",
+   "sub": "Aloimunização Rh e doença hemolítica perinatal",
+   "tipo": "quiz",
+   "frente": "Sobre a aloimunização Rh, analise: I. A imunoglobulina anti-D deve ser administrada até 72 horas após o parto de RN Rh positivo. II. Gestante com Coombs indireto positivo deve receber imunoglobulina anti-D para evitar a doença. III. O Doppler da artéria cerebral média avalia anemia fetal. Está(ão) correta(s):",
+   "opcoes": [
+    "Apenas I e II.",
+    "Apenas II e III.",
+    "I, II e III.",
+    "Apenas I e III."
+   ],
+   "certa": 3,
+   "comentarios": [
+    "II é falsa.",
+    "II é falsa.",
+    "II é falsa.",
+    "Correta. II é falsa: sensibilizada não se beneficia mais da imunoglobulina."
+   ],
+   "id": "rh-q1",
+   "prio": "alta",
+   "macete": "\"Imunoglobulina previne, não cura\".",
+   "pegadinha": "Já sensibilizada: só vigilância e Doppler.",
+   "uerj": "Cobra quando aplicar a imunoglobulina anti-D e o Doppler da ACM.",
+   "contexto": "**Aloimunização Rh = produção de anticorpos anti-D pela gestante Rh negativo exposta a hemácias Rh positivo; os anticorpos IgG cruzam a placenta e destroem as hemácias fetais (doença hemolítica perinatal).**\n\nFisiopatologia:\n- Sensibilização em parto, abortamento, ectópica, mola, sangramento, trauma, procedimento invasivo, transfusão\n- 1ª gestação raramente afetada (resposta IgM); nas seguintes, IgG → **anemia fetal**, hidropisia, icterícia grave no RN\n\nRastreamento:\n- **Tipagem ABO-Rh** na 1ª consulta\n- Gestante Rh negativo (parceiro Rh positivo ou desconhecido) → **Coombs indireto**\n- Coombs indireto negativo → repetir (mensal a partir de 24 semanas ou com 28 semanas, conforme o protocolo)\n\nPrevenção (imunoglobulina anti-D 300 mcg IM):\n- **Com 28 semanas** em Rh negativo não sensibilizada (quando disponível)\n- **Até 72 h após o parto** se RN Rh positivo (Coombs direto do RN negativo)\n- Após abortamento, ectópica, mola, sangramento, amniocentese, versão externa, trauma abdominal\n- Hemorragia feto-materna grande → teste de Kleihauer-Betke para ajustar a dose\n\nGestante já sensibilizada (Coombs indireto positivo):\n- **Não adianta mais a imunoglobulina**\n- Título ≥ 1:16 (crítico; alguns usam 1:8) → **Doppler da artéria cerebral média** (pico de velocidade sistólica > 1,5 MoM = anemia fetal moderada/grave)\n- Anemia grave → **cordocentese e transfusão intrauterina**\n- Resolução programada conforme a gravidade\n\nRN:\n- Coombs direto positivo, anemia, icterícia precoce → fototerapia, exsanguineotransfusão\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: quando dar imunoglobulina anti-D e o Doppler de ACM na gestante sensibilizada.",
+   "ctxvisual": [
+    {
+     "tipo": "fluxo",
+     "passos": [
+      "Gestante Rh negativo → Coombs indireto",
+      [
+       "Negativo (não sensibilizada) → repetir + anti-D com 28 sem e até 72 h pós-parto",
+       "Positivo (sensibilizada) → título → Doppler da ACM → transfusão intrauterina se anemia grave"
+      ]
+     ]
+    }
+   ],
+   "fonte": "Ministério da Saúde — Manual de Gestação de Alto Risco (2022) / FEBRASGO — Protocolo Aloimunização Rh (2021) / ACOG Practice Bulletin 181 (2017)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Obstetrícia",
+   "tema": "Pré-natal",
+   "sub": "Aloimunização Rh e doença hemolítica perinatal",
+   "id": "rh-d1",
+   "tipo": "digitar",
+   "prio": "alta",
+   "frente": "Em até quantas horas após o parto se aplica a imunoglobulina anti-D?",
+   "verso": "**72 horas.**",
+   "resposta": "72 h",
+   "aceitas": [
+    "72",
+    "72h",
+    "72 horas",
+    "3 dias"
+   ],
+   "macete": "72 horas.",
+   "uerj": "Cobra quando aplicar a imunoglobulina anti-D e o Doppler da ACM.",
+   "contexto": "**Aloimunização Rh = produção de anticorpos anti-D pela gestante Rh negativo exposta a hemácias Rh positivo; os anticorpos IgG cruzam a placenta e destroem as hemácias fetais (doença hemolítica perinatal).**\n\nFisiopatologia:\n- Sensibilização em parto, abortamento, ectópica, mola, sangramento, trauma, procedimento invasivo, transfusão\n- 1ª gestação raramente afetada (resposta IgM); nas seguintes, IgG → **anemia fetal**, hidropisia, icterícia grave no RN\n\nRastreamento:\n- **Tipagem ABO-Rh** na 1ª consulta\n- Gestante Rh negativo (parceiro Rh positivo ou desconhecido) → **Coombs indireto**\n- Coombs indireto negativo → repetir (mensal a partir de 24 semanas ou com 28 semanas, conforme o protocolo)\n\nPrevenção (imunoglobulina anti-D 300 mcg IM):\n- **Com 28 semanas** em Rh negativo não sensibilizada (quando disponível)\n- **Até 72 h após o parto** se RN Rh positivo (Coombs direto do RN negativo)\n- Após abortamento, ectópica, mola, sangramento, amniocentese, versão externa, trauma abdominal\n- Hemorragia feto-materna grande → teste de Kleihauer-Betke para ajustar a dose\n\nGestante já sensibilizada (Coombs indireto positivo):\n- **Não adianta mais a imunoglobulina**\n- Título ≥ 1:16 (crítico; alguns usam 1:8) → **Doppler da artéria cerebral média** (pico de velocidade sistólica > 1,5 MoM = anemia fetal moderada/grave)\n- Anemia grave → **cordocentese e transfusão intrauterina**\n- Resolução programada conforme a gravidade\n\nRN:\n- Coombs direto positivo, anemia, icterícia precoce → fototerapia, exsanguineotransfusão\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: quando dar imunoglobulina anti-D e o Doppler de ACM na gestante sensibilizada.",
+   "ctxvisual": [
+    {
+     "tipo": "fluxo",
+     "passos": [
+      "Gestante Rh negativo → Coombs indireto",
+      [
+       "Negativo (não sensibilizada) → repetir + anti-D com 28 sem e até 72 h pós-parto",
+       "Positivo (sensibilizada) → título → Doppler da ACM → transfusão intrauterina se anemia grave"
+      ]
+     ]
+    }
+   ],
+   "fonte": "Ministério da Saúde — Manual de Gestação de Alto Risco (2022) / FEBRASGO — Protocolo Aloimunização Rh (2021) / ACOG Practice Bulletin 181 (2017)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Obstetrícia",
+   "tema": "Pré-natal",
+   "sub": "Aloimunização Rh e doença hemolítica perinatal",
+   "id": "rh-d2",
+   "tipo": "digitar",
+   "prio": "media",
+   "frente": "Qual exame rastreia sensibilização na gestante Rh negativo?",
+   "verso": "**Coombs indireto.**",
+   "resposta": "Coombs indireto",
+   "aceitas": [
+    "coombs indireto",
+    "teste de coombs indireto",
+    "ci"
+   ],
+   "macete": "Mãe → indireto; RN → direto.",
+   "uerj": "Cobra quando aplicar a imunoglobulina anti-D e o Doppler da ACM.",
+   "contexto": "**Aloimunização Rh = produção de anticorpos anti-D pela gestante Rh negativo exposta a hemácias Rh positivo; os anticorpos IgG cruzam a placenta e destroem as hemácias fetais (doença hemolítica perinatal).**\n\nFisiopatologia:\n- Sensibilização em parto, abortamento, ectópica, mola, sangramento, trauma, procedimento invasivo, transfusão\n- 1ª gestação raramente afetada (resposta IgM); nas seguintes, IgG → **anemia fetal**, hidropisia, icterícia grave no RN\n\nRastreamento:\n- **Tipagem ABO-Rh** na 1ª consulta\n- Gestante Rh negativo (parceiro Rh positivo ou desconhecido) → **Coombs indireto**\n- Coombs indireto negativo → repetir (mensal a partir de 24 semanas ou com 28 semanas, conforme o protocolo)\n\nPrevenção (imunoglobulina anti-D 300 mcg IM):\n- **Com 28 semanas** em Rh negativo não sensibilizada (quando disponível)\n- **Até 72 h após o parto** se RN Rh positivo (Coombs direto do RN negativo)\n- Após abortamento, ectópica, mola, sangramento, amniocentese, versão externa, trauma abdominal\n- Hemorragia feto-materna grande → teste de Kleihauer-Betke para ajustar a dose\n\nGestante já sensibilizada (Coombs indireto positivo):\n- **Não adianta mais a imunoglobulina**\n- Título ≥ 1:16 (crítico; alguns usam 1:8) → **Doppler da artéria cerebral média** (pico de velocidade sistólica > 1,5 MoM = anemia fetal moderada/grave)\n- Anemia grave → **cordocentese e transfusão intrauterina**\n- Resolução programada conforme a gravidade\n\nRN:\n- Coombs direto positivo, anemia, icterícia precoce → fototerapia, exsanguineotransfusão\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: quando dar imunoglobulina anti-D e o Doppler de ACM na gestante sensibilizada.",
+   "ctxvisual": [
+    {
+     "tipo": "fluxo",
+     "passos": [
+      "Gestante Rh negativo → Coombs indireto",
+      [
+       "Negativo (não sensibilizada) → repetir + anti-D com 28 sem e até 72 h pós-parto",
+       "Positivo (sensibilizada) → título → Doppler da ACM → transfusão intrauterina se anemia grave"
+      ]
+     ]
+    }
+   ],
+   "fonte": "Ministério da Saúde — Manual de Gestação de Alto Risco (2022) / FEBRASGO — Protocolo Aloimunização Rh (2021) / ACOG Practice Bulletin 181 (2017)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Obstetrícia",
+   "tema": "Pré-natal",
+   "sub": "Infecção urinária na gestação",
+   "id": "itug-01",
+   "tipo": "flash",
+   "prio": "alta",
+   "frente": "Bacteriúria assintomática na gestação: conduta",
+   "verso": "Raciocínio:\n- A progesterona dilata ureteres e reduz o peristaltismo → a urina fica parada e a bactéria sobe ao rim.\n- Por isso, na gestante, bactéria na urina sem sintoma vira pielonefrite com frequência.\n\n**Tratar sempre.**\n**Urocultura de controle após o tratamento.**\n\nAntibióticos:\n- Cefalexina, amoxicilina, nitrofurantoína ou fosfomicina.",
+   "macete": "\"Na grávida, bactéria na urina sempre se trata\".",
+   "pegadinha": "Fora da gestação, bacteriúria assintomática em geral NÃO se trata.",
+   "uerj": "Cobra tratar a bacteriúria assintomática, drogas seguras e pielonefrite internada.",
+   "contexto": "**ITU na gestação = bacteriúria assintomática, cistite ou pielonefrite; a gestação favorece a infecção alta (progesterona dilata ureteres e reduz o peristaltismo; útero comprime o ureter).**\n\nBacteriúria assintomática:\n- ≥ 100.000 UFC/mL de um mesmo germe sem sintomas\n- **Rastrear com urocultura no pré-natal (1º trimestre; MS repete no 3º)**\n- **Tratar SEMPRE** → sem tratamento, risco de pielonefrite, prematuridade e baixo peso\n\nAgentes:\n- **E. coli** (principal), Klebsiella, Proteus, *Staphylococcus saprophyticus*, enterococo\n- GBS na urina → tratar e fazer profilaxia intraparto (não precisa swab com 35–37 semanas)\n\nAntibióticos seguros:\n- **Cefalexina**, **amoxicilina**/amoxicilina-clavulanato, **nitrofurantoína** (evitar no termo e na deficiência de G6PD), **fosfomicina** dose única\n- **Evitar** → quinolonas, tetraciclinas; sulfametoxazol-trimetoprima no 1º trimestre (antifolato) e no fim da gestação (kernicterus)\n- **Urocultura de controle** 1–2 semanas após o tratamento\n\nCistite:\n- Disúria, polaciúria, urgência; tratar (de preferência guiado por cultura) como a bacteriúria\n\nPielonefrite:\n- Febre, calafrios, dor lombar, Giordano positivo, náuseas\n- **Internação + antibiótico EV (ceftriaxona ou cefazolina)**; trocar para VO após 48 h afebril; total 10–14 dias\n- Complicações → sepse, insuficiência respiratória, trabalho de parto prematuro\n\nITU de repetição (≥ 2 episódios ou 1 pielonefrite):\n- **Profilaxia até o fim da gestação** (nitrofurantoína 100 mg ou cefalexina 500 mg à noite)\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: tratar toda bacteriúria assintomática, drogas seguras e pielonefrite com internação.",
+   "ctxvisual": [
+    {
+     "tipo": "vs",
+     "a": {
+      "t": "Pode usar",
+      "itens": [
+       "Cefalexina",
+       "Amoxicilina (± clavulanato)",
+       "Nitrofurantoína (exceto termo/G6PD)",
+       "Fosfomicina"
+      ]
+     },
+     "b": {
+      "t": "Evitar",
+      "itens": [
+       "Quinolonas",
+       "Tetraciclinas",
+       "Sulfa-trimetoprima no 1º tri e no fim",
+       "Aminoglicosídeo (exceto se necessário)"
+      ]
+     }
+    }
+   ],
+   "fonte": "Ministério da Saúde — Manual de Gestação de Alto Risco (2022) / FEBRASGO — Protocolo Infecção do trato urinário na gestação (2021) / IDSA — Asymptomatic Bacteriuria (2019)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Obstetrícia",
+   "tema": "Pré-natal",
+   "sub": "Infecção urinária na gestação",
+   "id": "itug-02",
+   "tipo": "flash",
+   "prio": "alta",
+   "frente": "Pielonefrite na gestação: conduta",
+   "verso": "Raciocínio:\n- A gestante com pielonefrite evolui mais para sepse e lesão pulmonar, e a febre e as endotoxinas provocam contrações.\n\n**Internação + antibiótico EV (ceftriaxona ou cefazolina).**\n\nDepois:\n- VO após 48 h afebril, total 10–14 dias.\n- Profilaxia até o fim da gestação.",
+   "macete": "\"Grávida com pielo: internar, sempre\".",
+   "pegadinha": "Quinolona é contraindicada na gestação.",
+   "uerj": "Cobra tratar a bacteriúria assintomática, drogas seguras e pielonefrite internada.",
+   "contexto": "**ITU na gestação = bacteriúria assintomática, cistite ou pielonefrite; a gestação favorece a infecção alta (progesterona dilata ureteres e reduz o peristaltismo; útero comprime o ureter).**\n\nBacteriúria assintomática:\n- ≥ 100.000 UFC/mL de um mesmo germe sem sintomas\n- **Rastrear com urocultura no pré-natal (1º trimestre; MS repete no 3º)**\n- **Tratar SEMPRE** → sem tratamento, risco de pielonefrite, prematuridade e baixo peso\n\nAgentes:\n- **E. coli** (principal), Klebsiella, Proteus, *Staphylococcus saprophyticus*, enterococo\n- GBS na urina → tratar e fazer profilaxia intraparto (não precisa swab com 35–37 semanas)\n\nAntibióticos seguros:\n- **Cefalexina**, **amoxicilina**/amoxicilina-clavulanato, **nitrofurantoína** (evitar no termo e na deficiência de G6PD), **fosfomicina** dose única\n- **Evitar** → quinolonas, tetraciclinas; sulfametoxazol-trimetoprima no 1º trimestre (antifolato) e no fim da gestação (kernicterus)\n- **Urocultura de controle** 1–2 semanas após o tratamento\n\nCistite:\n- Disúria, polaciúria, urgência; tratar (de preferência guiado por cultura) como a bacteriúria\n\nPielonefrite:\n- Febre, calafrios, dor lombar, Giordano positivo, náuseas\n- **Internação + antibiótico EV (ceftriaxona ou cefazolina)**; trocar para VO após 48 h afebril; total 10–14 dias\n- Complicações → sepse, insuficiência respiratória, trabalho de parto prematuro\n\nITU de repetição (≥ 2 episódios ou 1 pielonefrite):\n- **Profilaxia até o fim da gestação** (nitrofurantoína 100 mg ou cefalexina 500 mg à noite)\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: tratar toda bacteriúria assintomática, drogas seguras e pielonefrite com internação.",
+   "ctxvisual": [
+    {
+     "tipo": "vs",
+     "a": {
+      "t": "Pode usar",
+      "itens": [
+       "Cefalexina",
+       "Amoxicilina (± clavulanato)",
+       "Nitrofurantoína (exceto termo/G6PD)",
+       "Fosfomicina"
+      ]
+     },
+     "b": {
+      "t": "Evitar",
+      "itens": [
+       "Quinolonas",
+       "Tetraciclinas",
+       "Sulfa-trimetoprima no 1º tri e no fim",
+       "Aminoglicosídeo (exceto se necessário)"
+      ]
+     }
+    }
+   ],
+   "fonte": "Ministério da Saúde — Manual de Gestação de Alto Risco (2022) / FEBRASGO — Protocolo Infecção do trato urinário na gestação (2021) / IDSA — Asymptomatic Bacteriuria (2019)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Obstetrícia",
+   "tema": "Pré-natal",
+   "sub": "Infecção urinária na gestação",
+   "tipo": "quiz",
+   "frente": "Sobre infecção urinária na gestação, analise: I. A bacteriúria assintomática deve ser tratada. II. O ciprofloxacino é a droga de escolha. III. A pielonefrite exige internação e antibiótico endovenoso. Está(ão) correta(s):",
+   "opcoes": [
+    "Apenas I e III.",
+    "Apenas I e II.",
+    "Apenas II e III.",
+    "I, II e III."
+   ],
+   "certa": 0,
+   "comentarios": [
+    "Correta. II é falsa: quinolonas são evitadas na gestação.",
+    "II é falsa.",
+    "II é falsa.",
+    "II é falsa."
+   ],
+   "id": "itug-q1",
+   "prio": "alta",
+   "macete": "\"Grávida: nada de quinolona\".",
+   "pegadinha": "Quinolona é distrator clássico.",
+   "uerj": "Cobra tratar a bacteriúria assintomática, drogas seguras e pielonefrite internada.",
+   "contexto": "**ITU na gestação = bacteriúria assintomática, cistite ou pielonefrite; a gestação favorece a infecção alta (progesterona dilata ureteres e reduz o peristaltismo; útero comprime o ureter).**\n\nBacteriúria assintomática:\n- ≥ 100.000 UFC/mL de um mesmo germe sem sintomas\n- **Rastrear com urocultura no pré-natal (1º trimestre; MS repete no 3º)**\n- **Tratar SEMPRE** → sem tratamento, risco de pielonefrite, prematuridade e baixo peso\n\nAgentes:\n- **E. coli** (principal), Klebsiella, Proteus, *Staphylococcus saprophyticus*, enterococo\n- GBS na urina → tratar e fazer profilaxia intraparto (não precisa swab com 35–37 semanas)\n\nAntibióticos seguros:\n- **Cefalexina**, **amoxicilina**/amoxicilina-clavulanato, **nitrofurantoína** (evitar no termo e na deficiência de G6PD), **fosfomicina** dose única\n- **Evitar** → quinolonas, tetraciclinas; sulfametoxazol-trimetoprima no 1º trimestre (antifolato) e no fim da gestação (kernicterus)\n- **Urocultura de controle** 1–2 semanas após o tratamento\n\nCistite:\n- Disúria, polaciúria, urgência; tratar (de preferência guiado por cultura) como a bacteriúria\n\nPielonefrite:\n- Febre, calafrios, dor lombar, Giordano positivo, náuseas\n- **Internação + antibiótico EV (ceftriaxona ou cefazolina)**; trocar para VO após 48 h afebril; total 10–14 dias\n- Complicações → sepse, insuficiência respiratória, trabalho de parto prematuro\n\nITU de repetição (≥ 2 episódios ou 1 pielonefrite):\n- **Profilaxia até o fim da gestação** (nitrofurantoína 100 mg ou cefalexina 500 mg à noite)\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: tratar toda bacteriúria assintomática, drogas seguras e pielonefrite com internação.",
+   "ctxvisual": [
+    {
+     "tipo": "vs",
+     "a": {
+      "t": "Pode usar",
+      "itens": [
+       "Cefalexina",
+       "Amoxicilina (± clavulanato)",
+       "Nitrofurantoína (exceto termo/G6PD)",
+       "Fosfomicina"
+      ]
+     },
+     "b": {
+      "t": "Evitar",
+      "itens": [
+       "Quinolonas",
+       "Tetraciclinas",
+       "Sulfa-trimetoprima no 1º tri e no fim",
+       "Aminoglicosídeo (exceto se necessário)"
+      ]
+     }
+    }
+   ],
+   "fonte": "Ministério da Saúde — Manual de Gestação de Alto Risco (2022) / FEBRASGO — Protocolo Infecção do trato urinário na gestação (2021) / IDSA — Asymptomatic Bacteriuria (2019)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Obstetrícia",
+   "tema": "Pré-natal",
+   "sub": "Infecção urinária na gestação",
+   "id": "itug-d1",
+   "tipo": "digitar",
+   "prio": "media",
+   "frente": "Qual o principal agente de ITU na gestação?",
+   "verso": "**Escherichia coli.**",
+   "resposta": "E. coli",
+   "aceitas": [
+    "e. coli",
+    "e coli",
+    "escherichia coli",
+    "ecoli"
+   ],
+   "macete": "ITU → E. coli.",
+   "uerj": "Cobra tratar a bacteriúria assintomática, drogas seguras e pielonefrite internada.",
+   "contexto": "**ITU na gestação = bacteriúria assintomática, cistite ou pielonefrite; a gestação favorece a infecção alta (progesterona dilata ureteres e reduz o peristaltismo; útero comprime o ureter).**\n\nBacteriúria assintomática:\n- ≥ 100.000 UFC/mL de um mesmo germe sem sintomas\n- **Rastrear com urocultura no pré-natal (1º trimestre; MS repete no 3º)**\n- **Tratar SEMPRE** → sem tratamento, risco de pielonefrite, prematuridade e baixo peso\n\nAgentes:\n- **E. coli** (principal), Klebsiella, Proteus, *Staphylococcus saprophyticus*, enterococo\n- GBS na urina → tratar e fazer profilaxia intraparto (não precisa swab com 35–37 semanas)\n\nAntibióticos seguros:\n- **Cefalexina**, **amoxicilina**/amoxicilina-clavulanato, **nitrofurantoína** (evitar no termo e na deficiência de G6PD), **fosfomicina** dose única\n- **Evitar** → quinolonas, tetraciclinas; sulfametoxazol-trimetoprima no 1º trimestre (antifolato) e no fim da gestação (kernicterus)\n- **Urocultura de controle** 1–2 semanas após o tratamento\n\nCistite:\n- Disúria, polaciúria, urgência; tratar (de preferência guiado por cultura) como a bacteriúria\n\nPielonefrite:\n- Febre, calafrios, dor lombar, Giordano positivo, náuseas\n- **Internação + antibiótico EV (ceftriaxona ou cefazolina)**; trocar para VO após 48 h afebril; total 10–14 dias\n- Complicações → sepse, insuficiência respiratória, trabalho de parto prematuro\n\nITU de repetição (≥ 2 episódios ou 1 pielonefrite):\n- **Profilaxia até o fim da gestação** (nitrofurantoína 100 mg ou cefalexina 500 mg à noite)\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: tratar toda bacteriúria assintomática, drogas seguras e pielonefrite com internação.",
+   "ctxvisual": [
+    {
+     "tipo": "vs",
+     "a": {
+      "t": "Pode usar",
+      "itens": [
+       "Cefalexina",
+       "Amoxicilina (± clavulanato)",
+       "Nitrofurantoína (exceto termo/G6PD)",
+       "Fosfomicina"
+      ]
+     },
+     "b": {
+      "t": "Evitar",
+      "itens": [
+       "Quinolonas",
+       "Tetraciclinas",
+       "Sulfa-trimetoprima no 1º tri e no fim",
+       "Aminoglicosídeo (exceto se necessário)"
+      ]
+     }
+    }
+   ],
+   "fonte": "Ministério da Saúde — Manual de Gestação de Alto Risco (2022) / FEBRASGO — Protocolo Infecção do trato urinário na gestação (2021) / IDSA — Asymptomatic Bacteriuria (2019)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Obstetrícia",
+   "tema": "Pré-natal",
+   "sub": "Infecção urinária na gestação",
+   "id": "itug-d2",
+   "tipo": "digitar",
+   "prio": "media",
+   "frente": "Qual exame rastreia bacteriúria assintomática no pré-natal?",
+   "verso": "**Urocultura.**",
+   "resposta": "Urocultura",
+   "aceitas": [
+    "urocultura",
+    "cultura de urina"
+   ],
+   "macete": "Rastreio = cultura, não EAS.",
+   "uerj": "Cobra tratar a bacteriúria assintomática, drogas seguras e pielonefrite internada.",
+   "contexto": "**ITU na gestação = bacteriúria assintomática, cistite ou pielonefrite; a gestação favorece a infecção alta (progesterona dilata ureteres e reduz o peristaltismo; útero comprime o ureter).**\n\nBacteriúria assintomática:\n- ≥ 100.000 UFC/mL de um mesmo germe sem sintomas\n- **Rastrear com urocultura no pré-natal (1º trimestre; MS repete no 3º)**\n- **Tratar SEMPRE** → sem tratamento, risco de pielonefrite, prematuridade e baixo peso\n\nAgentes:\n- **E. coli** (principal), Klebsiella, Proteus, *Staphylococcus saprophyticus*, enterococo\n- GBS na urina → tratar e fazer profilaxia intraparto (não precisa swab com 35–37 semanas)\n\nAntibióticos seguros:\n- **Cefalexina**, **amoxicilina**/amoxicilina-clavulanato, **nitrofurantoína** (evitar no termo e na deficiência de G6PD), **fosfomicina** dose única\n- **Evitar** → quinolonas, tetraciclinas; sulfametoxazol-trimetoprima no 1º trimestre (antifolato) e no fim da gestação (kernicterus)\n- **Urocultura de controle** 1–2 semanas após o tratamento\n\nCistite:\n- Disúria, polaciúria, urgência; tratar (de preferência guiado por cultura) como a bacteriúria\n\nPielonefrite:\n- Febre, calafrios, dor lombar, Giordano positivo, náuseas\n- **Internação + antibiótico EV (ceftriaxona ou cefazolina)**; trocar para VO após 48 h afebril; total 10–14 dias\n- Complicações → sepse, insuficiência respiratória, trabalho de parto prematuro\n\nITU de repetição (≥ 2 episódios ou 1 pielonefrite):\n- **Profilaxia até o fim da gestação** (nitrofurantoína 100 mg ou cefalexina 500 mg à noite)\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: tratar toda bacteriúria assintomática, drogas seguras e pielonefrite com internação.",
+   "ctxvisual": [
+    {
+     "tipo": "vs",
+     "a": {
+      "t": "Pode usar",
+      "itens": [
+       "Cefalexina",
+       "Amoxicilina (± clavulanato)",
+       "Nitrofurantoína (exceto termo/G6PD)",
+       "Fosfomicina"
+      ]
+     },
+     "b": {
+      "t": "Evitar",
+      "itens": [
+       "Quinolonas",
+       "Tetraciclinas",
+       "Sulfa-trimetoprima no 1º tri e no fim",
+       "Aminoglicosídeo (exceto se necessário)"
+      ]
+     }
+    }
+   ],
+   "fonte": "Ministério da Saúde — Manual de Gestação de Alto Risco (2022) / FEBRASGO — Protocolo Infecção do trato urinário na gestação (2021) / IDSA — Asymptomatic Bacteriuria (2019)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Ginecologia",
+   "tema": "Oncologia ginecológica",
+   "sub": "Câncer de endométrio",
+   "id": "end-01",
+   "tipo": "flash",
+   "prio": "alta",
+   "frente": "Sangramento pós-menopausa: como investigar?",
+   "verso": "Raciocínio:\n- Após a menopausa, sem estrogênio, o endométrio deve ser fino (atrófico).\n- Endométrio espesso indica estímulo ou proliferação → precisa de biópsia.\n\n**USG transvaginal.**\n**Endométrio > 4 mm → histeroscopia com biópsia.**\n\nPadrão-ouro:\n- Histeroscopia com biópsia dirigida.",
+   "macete": "\"Menopausa + sangue + > 4 mm = biópsia\".",
+   "pegadinha": "Sangramento persistente exige biópsia mesmo com endométrio fino.",
+   "uerj": "Cobra fatores de risco ligados ao estrogênio e investigação do sangramento pós-menopausa.",
+   "contexto": "**Câncer de endométrio = neoplasia maligna do revestimento do útero; câncer ginecológico mais comum em países desenvolvidos, típico da pós-menopausa.**\n\nTipos:\n- **Tipo I (endometrioide)** → ~80%, **dependente de estrogênio**, precedido de hiperplasia, bom prognóstico\n- **Tipo II (seroso, células claras)** → não hormonal, mulher mais velha, endométrio atrófico, agressivo\n- Classificação molecular atual (POLE, deficiência de reparo/MMR, p53, sem perfil específico) entrou na FIGO 2023\n\nFatores de risco (estrogênio sem oposição da progesterona):\n- **Obesidade** (principal), nuliparidade, menarca precoce/menopausa tardia, **anovulação crônica (SOP)**, **tamoxifeno**, **terapia só com estrogênio** em mulher com útero, DM, HAS\n- **Síndrome de Lynch** (risco ao longo da vida de até 60%)\n- Protetores → **anticoncepcional combinado**, DIU de levonorgestrel, tabagismo (não se recomenda)\n\nClínica:\n- **Sangramento pós-menopausa** (90%) → sempre investigar\n\nInvestigação:\n- **USG transvaginal** → endométrio **> 4 mm** na pós-menopausa sem TH → biópsia\n- **Histeroscopia com biópsia dirigida** → padrão-ouro; biópsia aspirativa (Pipelle) é alternativa\n- Não existe rastreamento populacional\n\nEstadiamento:\n- **Cirúrgico** (FIGO 2009 na tabela; FIGO 2023 acrescentou tipo histológico e perfil molecular)\n\nTratamento:\n- **Histerectomia total + salpingo-ooforectomia bilateral** + estadiamento linfonodal (linfonodo sentinela)\n- Adjuvância conforme risco → braquiterapia vaginal, radioterapia pélvica, quimioterapia\n- Jovem que deseja gestar, tumor inicial bem diferenciado → progestágeno (DIU de levonorgestrel) com vigilância\n\nHiperplasia endometrial:\n- **Sem atipia** → progestágeno (DIU de levonorgestrel)\n- **Com atipia** → histerectomia (alto risco de câncer associado)\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: fatores de risco ligados ao estrogênio, conduta no sangramento pós-menopausa e endométrio > 4 mm.",
+   "ctxvisual": [
+    {
+     "tipo": "fluxo",
+     "passos": [
+      "Sangramento pós-menopausa",
+      "USG transvaginal",
+      [
+       "Endométrio ≤ 4 mm → baixo risco (acompanhar; investigar se persistir)",
+       "Endométrio > 4 mm → histeroscopia com biópsia"
+      ]
+     ]
+    },
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "FIGO 2009 (endométrio)",
+      "Critério",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "IA",
+       "Restrito ao corpo, invade < 50% do miométrio",
+       "Histerectomia total + salpingo-ooforectomia bilateral (± linfonodo sentinela)"
+      ],
+      [
+       "IB",
+       "Invade ≥ 50% do miométrio",
+       "Cirurgia + estadiamento linfonodal; braquiterapia conforme risco"
+      ],
+      [
+       "II",
+       "Invade o estroma do colo",
+       "Cirurgia + radioterapia adjuvante"
+      ],
+      [
+       "IIIA / IIIB",
+       "Serosa ou anexos / vagina ou paramétrio",
+       "Cirurgia + quimioterapia ± radioterapia"
+      ],
+      [
+       "IIIC",
+       "Linfonodos pélvicos (C1) ou para-aórticos (C2)",
+       "Cirurgia + quimioterapia ± radioterapia"
+      ],
+      [
+       "IVA / IVB",
+       "Mucosa de bexiga ou reto / metástase à distância",
+       "Tratamento sistêmico; cirurgia citorredutora selecionada"
+      ]
+     ]
+    }
+   ],
+   "fonte": "FEBRASGO — Protocolo Câncer de endométrio (2021) / FIGO Staging of Endometrial Cancer (2009 e 2023) / NCCN Uterine Neoplasms (2025) / INCA (2023)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Ginecologia",
+   "tema": "Oncologia ginecológica",
+   "sub": "Câncer de endométrio",
+   "id": "end-02",
+   "tipo": "flash",
+   "prio": "alta",
+   "frente": "Câncer de endométrio: principais fatores de risco",
+   "verso": "Raciocínio:\n- O estrogênio faz o endométrio proliferar; a progesterona freia e descama.\n- Tudo o que dá estrogênio sem progesterona aumenta o risco do tipo endometrioide.\n\n**Estrogênio sem oposição da progesterona.**\n\n**Exemplos:**\n- Obesidade (o tecido adiposo produz estrona)\n- Anovulação crônica (SOP)\n- Tamoxifeno\n- Estrogênio isolado com útero\n- Síndrome de Lynch\n\nProtege:\n- Anticoncepcional combinado e DIU de levonorgestrel.",
+   "macete": "\"Gorda, nulípara, anovulatória e diabética\" (perfil clássico).",
+   "pegadinha": "Tamoxifeno protege a mama, mas estimula o endométrio.",
+   "visual": {
+    "tipo": "tabela",
+    "crit": true,
+    "cab": [
+     "FIGO 2009 (endométrio)",
+     "Critério",
+     "Conduta"
+    ],
+    "linhas": [
+     [
+      "IA",
+      "Restrito ao corpo, invade < 50% do miométrio",
+      "Histerectomia total + salpingo-ooforectomia bilateral (± linfonodo sentinela)"
+     ],
+     [
+      "IB",
+      "Invade ≥ 50% do miométrio",
+      "Cirurgia + estadiamento linfonodal; braquiterapia conforme risco"
+     ],
+     [
+      "II",
+      "Invade o estroma do colo",
+      "Cirurgia + radioterapia adjuvante"
+     ],
+     [
+      "IIIA / IIIB",
+      "Serosa ou anexos / vagina ou paramétrio",
+      "Cirurgia + quimioterapia ± radioterapia"
+     ],
+     [
+      "IIIC",
+      "Linfonodos pélvicos (C1) ou para-aórticos (C2)",
+      "Cirurgia + quimioterapia ± radioterapia"
+     ],
+     [
+      "IVA / IVB",
+      "Mucosa de bexiga ou reto / metástase à distância",
+      "Tratamento sistêmico; cirurgia citorredutora selecionada"
+     ]
+    ]
+   },
+   "uerj": "Cobra fatores de risco ligados ao estrogênio e investigação do sangramento pós-menopausa.",
+   "contexto": "**Câncer de endométrio = neoplasia maligna do revestimento do útero; câncer ginecológico mais comum em países desenvolvidos, típico da pós-menopausa.**\n\nTipos:\n- **Tipo I (endometrioide)** → ~80%, **dependente de estrogênio**, precedido de hiperplasia, bom prognóstico\n- **Tipo II (seroso, células claras)** → não hormonal, mulher mais velha, endométrio atrófico, agressivo\n- Classificação molecular atual (POLE, deficiência de reparo/MMR, p53, sem perfil específico) entrou na FIGO 2023\n\nFatores de risco (estrogênio sem oposição da progesterona):\n- **Obesidade** (principal), nuliparidade, menarca precoce/menopausa tardia, **anovulação crônica (SOP)**, **tamoxifeno**, **terapia só com estrogênio** em mulher com útero, DM, HAS\n- **Síndrome de Lynch** (risco ao longo da vida de até 60%)\n- Protetores → **anticoncepcional combinado**, DIU de levonorgestrel, tabagismo (não se recomenda)\n\nClínica:\n- **Sangramento pós-menopausa** (90%) → sempre investigar\n\nInvestigação:\n- **USG transvaginal** → endométrio **> 4 mm** na pós-menopausa sem TH → biópsia\n- **Histeroscopia com biópsia dirigida** → padrão-ouro; biópsia aspirativa (Pipelle) é alternativa\n- Não existe rastreamento populacional\n\nEstadiamento:\n- **Cirúrgico** (FIGO 2009 na tabela; FIGO 2023 acrescentou tipo histológico e perfil molecular)\n\nTratamento:\n- **Histerectomia total + salpingo-ooforectomia bilateral** + estadiamento linfonodal (linfonodo sentinela)\n- Adjuvância conforme risco → braquiterapia vaginal, radioterapia pélvica, quimioterapia\n- Jovem que deseja gestar, tumor inicial bem diferenciado → progestágeno (DIU de levonorgestrel) com vigilância\n\nHiperplasia endometrial:\n- **Sem atipia** → progestágeno (DIU de levonorgestrel)\n- **Com atipia** → histerectomia (alto risco de câncer associado)\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: fatores de risco ligados ao estrogênio, conduta no sangramento pós-menopausa e endométrio > 4 mm.",
+   "ctxvisual": [
+    {
+     "tipo": "fluxo",
+     "passos": [
+      "Sangramento pós-menopausa",
+      "USG transvaginal",
+      [
+       "Endométrio ≤ 4 mm → baixo risco (acompanhar; investigar se persistir)",
+       "Endométrio > 4 mm → histeroscopia com biópsia"
+      ]
+     ]
+    },
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "FIGO 2009 (endométrio)",
+      "Critério",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "IA",
+       "Restrito ao corpo, invade < 50% do miométrio",
+       "Histerectomia total + salpingo-ooforectomia bilateral (± linfonodo sentinela)"
+      ],
+      [
+       "IB",
+       "Invade ≥ 50% do miométrio",
+       "Cirurgia + estadiamento linfonodal; braquiterapia conforme risco"
+      ],
+      [
+       "II",
+       "Invade o estroma do colo",
+       "Cirurgia + radioterapia adjuvante"
+      ],
+      [
+       "IIIA / IIIB",
+       "Serosa ou anexos / vagina ou paramétrio",
+       "Cirurgia + quimioterapia ± radioterapia"
+      ],
+      [
+       "IIIC",
+       "Linfonodos pélvicos (C1) ou para-aórticos (C2)",
+       "Cirurgia + quimioterapia ± radioterapia"
+      ],
+      [
+       "IVA / IVB",
+       "Mucosa de bexiga ou reto / metástase à distância",
+       "Tratamento sistêmico; cirurgia citorredutora selecionada"
+      ]
+     ]
+    }
+   ],
+   "fonte": "FEBRASGO — Protocolo Câncer de endométrio (2021) / FIGO Staging of Endometrial Cancer (2009 e 2023) / NCCN Uterine Neoplasms (2025) / INCA (2023)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Ginecologia",
+   "tema": "Oncologia ginecológica",
+   "sub": "Câncer de endométrio",
+   "tipo": "quiz",
+   "frente": "Sobre o câncer de endométrio, analise: I. A obesidade é fator de risco por aumento da produção periférica de estrogênio. II. O anticoncepcional oral combinado aumenta o risco. III. O estadiamento é cirúrgico. Está(ão) correta(s):",
+   "opcoes": [
+    "Apenas I e II.",
+    "Apenas II e III.",
+    "Apenas I e III.",
+    "I, II e III."
+   ],
+   "certa": 2,
+   "comentarios": [
+    "II é falsa.",
+    "II é falsa.",
+    "Correta. II é falsa: o ACO combinado é protetor.",
+    "II é falsa."
+   ],
+   "id": "end-q1",
+   "prio": "alta",
+   "macete": "\"Progesterona protege o endométrio\".",
+   "pegadinha": "ACO combinado protege.",
+   "uerj": "Cobra fatores de risco ligados ao estrogênio e investigação do sangramento pós-menopausa.",
+   "contexto": "**Câncer de endométrio = neoplasia maligna do revestimento do útero; câncer ginecológico mais comum em países desenvolvidos, típico da pós-menopausa.**\n\nTipos:\n- **Tipo I (endometrioide)** → ~80%, **dependente de estrogênio**, precedido de hiperplasia, bom prognóstico\n- **Tipo II (seroso, células claras)** → não hormonal, mulher mais velha, endométrio atrófico, agressivo\n- Classificação molecular atual (POLE, deficiência de reparo/MMR, p53, sem perfil específico) entrou na FIGO 2023\n\nFatores de risco (estrogênio sem oposição da progesterona):\n- **Obesidade** (principal), nuliparidade, menarca precoce/menopausa tardia, **anovulação crônica (SOP)**, **tamoxifeno**, **terapia só com estrogênio** em mulher com útero, DM, HAS\n- **Síndrome de Lynch** (risco ao longo da vida de até 60%)\n- Protetores → **anticoncepcional combinado**, DIU de levonorgestrel, tabagismo (não se recomenda)\n\nClínica:\n- **Sangramento pós-menopausa** (90%) → sempre investigar\n\nInvestigação:\n- **USG transvaginal** → endométrio **> 4 mm** na pós-menopausa sem TH → biópsia\n- **Histeroscopia com biópsia dirigida** → padrão-ouro; biópsia aspirativa (Pipelle) é alternativa\n- Não existe rastreamento populacional\n\nEstadiamento:\n- **Cirúrgico** (FIGO 2009 na tabela; FIGO 2023 acrescentou tipo histológico e perfil molecular)\n\nTratamento:\n- **Histerectomia total + salpingo-ooforectomia bilateral** + estadiamento linfonodal (linfonodo sentinela)\n- Adjuvância conforme risco → braquiterapia vaginal, radioterapia pélvica, quimioterapia\n- Jovem que deseja gestar, tumor inicial bem diferenciado → progestágeno (DIU de levonorgestrel) com vigilância\n\nHiperplasia endometrial:\n- **Sem atipia** → progestágeno (DIU de levonorgestrel)\n- **Com atipia** → histerectomia (alto risco de câncer associado)\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: fatores de risco ligados ao estrogênio, conduta no sangramento pós-menopausa e endométrio > 4 mm.",
+   "ctxvisual": [
+    {
+     "tipo": "fluxo",
+     "passos": [
+      "Sangramento pós-menopausa",
+      "USG transvaginal",
+      [
+       "Endométrio ≤ 4 mm → baixo risco (acompanhar; investigar se persistir)",
+       "Endométrio > 4 mm → histeroscopia com biópsia"
+      ]
+     ]
+    },
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "FIGO 2009 (endométrio)",
+      "Critério",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "IA",
+       "Restrito ao corpo, invade < 50% do miométrio",
+       "Histerectomia total + salpingo-ooforectomia bilateral (± linfonodo sentinela)"
+      ],
+      [
+       "IB",
+       "Invade ≥ 50% do miométrio",
+       "Cirurgia + estadiamento linfonodal; braquiterapia conforme risco"
+      ],
+      [
+       "II",
+       "Invade o estroma do colo",
+       "Cirurgia + radioterapia adjuvante"
+      ],
+      [
+       "IIIA / IIIB",
+       "Serosa ou anexos / vagina ou paramétrio",
+       "Cirurgia + quimioterapia ± radioterapia"
+      ],
+      [
+       "IIIC",
+       "Linfonodos pélvicos (C1) ou para-aórticos (C2)",
+       "Cirurgia + quimioterapia ± radioterapia"
+      ],
+      [
+       "IVA / IVB",
+       "Mucosa de bexiga ou reto / metástase à distância",
+       "Tratamento sistêmico; cirurgia citorredutora selecionada"
+      ]
+     ]
+    }
+   ],
+   "fonte": "FEBRASGO — Protocolo Câncer de endométrio (2021) / FIGO Staging of Endometrial Cancer (2009 e 2023) / NCCN Uterine Neoplasms (2025) / INCA (2023)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Ginecologia",
+   "tema": "Oncologia ginecológica",
+   "sub": "Câncer de endométrio",
+   "id": "end-d1",
+   "tipo": "digitar",
+   "prio": "alta",
+   "frente": "Qual espessura endometrial na pós-menopausa indica biópsia?",
+   "verso": "**> 4 mm.**",
+   "resposta": "4 mm",
+   "aceitas": [
+    "4",
+    "4mm",
+    "> 4 mm",
+    "maior que 4 mm",
+    "acima de 4 mm"
+   ],
+   "macete": "Mais de 4.",
+   "uerj": "Cobra fatores de risco ligados ao estrogênio e investigação do sangramento pós-menopausa.",
+   "contexto": "**Câncer de endométrio = neoplasia maligna do revestimento do útero; câncer ginecológico mais comum em países desenvolvidos, típico da pós-menopausa.**\n\nTipos:\n- **Tipo I (endometrioide)** → ~80%, **dependente de estrogênio**, precedido de hiperplasia, bom prognóstico\n- **Tipo II (seroso, células claras)** → não hormonal, mulher mais velha, endométrio atrófico, agressivo\n- Classificação molecular atual (POLE, deficiência de reparo/MMR, p53, sem perfil específico) entrou na FIGO 2023\n\nFatores de risco (estrogênio sem oposição da progesterona):\n- **Obesidade** (principal), nuliparidade, menarca precoce/menopausa tardia, **anovulação crônica (SOP)**, **tamoxifeno**, **terapia só com estrogênio** em mulher com útero, DM, HAS\n- **Síndrome de Lynch** (risco ao longo da vida de até 60%)\n- Protetores → **anticoncepcional combinado**, DIU de levonorgestrel, tabagismo (não se recomenda)\n\nClínica:\n- **Sangramento pós-menopausa** (90%) → sempre investigar\n\nInvestigação:\n- **USG transvaginal** → endométrio **> 4 mm** na pós-menopausa sem TH → biópsia\n- **Histeroscopia com biópsia dirigida** → padrão-ouro; biópsia aspirativa (Pipelle) é alternativa\n- Não existe rastreamento populacional\n\nEstadiamento:\n- **Cirúrgico** (FIGO 2009 na tabela; FIGO 2023 acrescentou tipo histológico e perfil molecular)\n\nTratamento:\n- **Histerectomia total + salpingo-ooforectomia bilateral** + estadiamento linfonodal (linfonodo sentinela)\n- Adjuvância conforme risco → braquiterapia vaginal, radioterapia pélvica, quimioterapia\n- Jovem que deseja gestar, tumor inicial bem diferenciado → progestágeno (DIU de levonorgestrel) com vigilância\n\nHiperplasia endometrial:\n- **Sem atipia** → progestágeno (DIU de levonorgestrel)\n- **Com atipia** → histerectomia (alto risco de câncer associado)\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: fatores de risco ligados ao estrogênio, conduta no sangramento pós-menopausa e endométrio > 4 mm.",
+   "ctxvisual": [
+    {
+     "tipo": "fluxo",
+     "passos": [
+      "Sangramento pós-menopausa",
+      "USG transvaginal",
+      [
+       "Endométrio ≤ 4 mm → baixo risco (acompanhar; investigar se persistir)",
+       "Endométrio > 4 mm → histeroscopia com biópsia"
+      ]
+     ]
+    },
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "FIGO 2009 (endométrio)",
+      "Critério",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "IA",
+       "Restrito ao corpo, invade < 50% do miométrio",
+       "Histerectomia total + salpingo-ooforectomia bilateral (± linfonodo sentinela)"
+      ],
+      [
+       "IB",
+       "Invade ≥ 50% do miométrio",
+       "Cirurgia + estadiamento linfonodal; braquiterapia conforme risco"
+      ],
+      [
+       "II",
+       "Invade o estroma do colo",
+       "Cirurgia + radioterapia adjuvante"
+      ],
+      [
+       "IIIA / IIIB",
+       "Serosa ou anexos / vagina ou paramétrio",
+       "Cirurgia + quimioterapia ± radioterapia"
+      ],
+      [
+       "IIIC",
+       "Linfonodos pélvicos (C1) ou para-aórticos (C2)",
+       "Cirurgia + quimioterapia ± radioterapia"
+      ],
+      [
+       "IVA / IVB",
+       "Mucosa de bexiga ou reto / metástase à distância",
+       "Tratamento sistêmico; cirurgia citorredutora selecionada"
+      ]
+     ]
+    }
+   ],
+   "fonte": "FEBRASGO — Protocolo Câncer de endométrio (2021) / FIGO Staging of Endometrial Cancer (2009 e 2023) / NCCN Uterine Neoplasms (2025) / INCA (2023)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Ginecologia",
+   "tema": "Oncologia ginecológica",
+   "sub": "Câncer de endométrio",
+   "id": "end-d2",
+   "tipo": "digitar",
+   "prio": "media",
+   "frente": "Qual o exame padrão-ouro para diagnóstico do câncer de endométrio?",
+   "verso": "**Histeroscopia com biópsia.**",
+   "resposta": "Histeroscopia com biópsia",
+   "aceitas": [
+    "histeroscopia",
+    "histeroscopia com biópsia",
+    "histeroscopia com biopsia"
+   ],
+   "macete": "Ver e biopsiar = histeroscopia.",
+   "uerj": "Cobra fatores de risco ligados ao estrogênio e investigação do sangramento pós-menopausa.",
+   "contexto": "**Câncer de endométrio = neoplasia maligna do revestimento do útero; câncer ginecológico mais comum em países desenvolvidos, típico da pós-menopausa.**\n\nTipos:\n- **Tipo I (endometrioide)** → ~80%, **dependente de estrogênio**, precedido de hiperplasia, bom prognóstico\n- **Tipo II (seroso, células claras)** → não hormonal, mulher mais velha, endométrio atrófico, agressivo\n- Classificação molecular atual (POLE, deficiência de reparo/MMR, p53, sem perfil específico) entrou na FIGO 2023\n\nFatores de risco (estrogênio sem oposição da progesterona):\n- **Obesidade** (principal), nuliparidade, menarca precoce/menopausa tardia, **anovulação crônica (SOP)**, **tamoxifeno**, **terapia só com estrogênio** em mulher com útero, DM, HAS\n- **Síndrome de Lynch** (risco ao longo da vida de até 60%)\n- Protetores → **anticoncepcional combinado**, DIU de levonorgestrel, tabagismo (não se recomenda)\n\nClínica:\n- **Sangramento pós-menopausa** (90%) → sempre investigar\n\nInvestigação:\n- **USG transvaginal** → endométrio **> 4 mm** na pós-menopausa sem TH → biópsia\n- **Histeroscopia com biópsia dirigida** → padrão-ouro; biópsia aspirativa (Pipelle) é alternativa\n- Não existe rastreamento populacional\n\nEstadiamento:\n- **Cirúrgico** (FIGO 2009 na tabela; FIGO 2023 acrescentou tipo histológico e perfil molecular)\n\nTratamento:\n- **Histerectomia total + salpingo-ooforectomia bilateral** + estadiamento linfonodal (linfonodo sentinela)\n- Adjuvância conforme risco → braquiterapia vaginal, radioterapia pélvica, quimioterapia\n- Jovem que deseja gestar, tumor inicial bem diferenciado → progestágeno (DIU de levonorgestrel) com vigilância\n\nHiperplasia endometrial:\n- **Sem atipia** → progestágeno (DIU de levonorgestrel)\n- **Com atipia** → histerectomia (alto risco de câncer associado)\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: fatores de risco ligados ao estrogênio, conduta no sangramento pós-menopausa e endométrio > 4 mm.",
+   "ctxvisual": [
+    {
+     "tipo": "fluxo",
+     "passos": [
+      "Sangramento pós-menopausa",
+      "USG transvaginal",
+      [
+       "Endométrio ≤ 4 mm → baixo risco (acompanhar; investigar se persistir)",
+       "Endométrio > 4 mm → histeroscopia com biópsia"
+      ]
+     ]
+    },
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "FIGO 2009 (endométrio)",
+      "Critério",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "IA",
+       "Restrito ao corpo, invade < 50% do miométrio",
+       "Histerectomia total + salpingo-ooforectomia bilateral (± linfonodo sentinela)"
+      ],
+      [
+       "IB",
+       "Invade ≥ 50% do miométrio",
+       "Cirurgia + estadiamento linfonodal; braquiterapia conforme risco"
+      ],
+      [
+       "II",
+       "Invade o estroma do colo",
+       "Cirurgia + radioterapia adjuvante"
+      ],
+      [
+       "IIIA / IIIB",
+       "Serosa ou anexos / vagina ou paramétrio",
+       "Cirurgia + quimioterapia ± radioterapia"
+      ],
+      [
+       "IIIC",
+       "Linfonodos pélvicos (C1) ou para-aórticos (C2)",
+       "Cirurgia + quimioterapia ± radioterapia"
+      ],
+      [
+       "IVA / IVB",
+       "Mucosa de bexiga ou reto / metástase à distância",
+       "Tratamento sistêmico; cirurgia citorredutora selecionada"
+      ]
+     ]
+    }
+   ],
+   "fonte": "FEBRASGO — Protocolo Câncer de endométrio (2021) / FIGO Staging of Endometrial Cancer (2009 e 2023) / NCCN Uterine Neoplasms (2025) / INCA (2023)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Ginecologia",
+   "tema": "Endocrinologia ginecológica",
+   "sub": "Síndrome dos ovários policísticos (SOP)",
+   "id": "sop-01",
+   "tipo": "flash",
+   "prio": "alta",
+   "frente": "SOP: critérios diagnósticos (Rotterdam)",
+   "verso": "Raciocínio:\n- A SOP é diagnóstico de exclusão: outras doenças também causam anovulação e androgênio alto.\n- Por isso, além de 2 critérios, é preciso afastar tireoide, prolactina e adrenal.\n\n**2 de 3:**\n- Oligo/anovulação\n- Hiperandrogenismo clínico ou laboratorial\n- Ovários policísticos na USG\n\nExcluir:\n- Gravidez, TSH, prolactina, 17-OH-progesterona.",
+   "macete": "\"Rotterdam = 2 de 3: Ciclo, Cabelo (hirsutismo), Cistos\".",
+   "pegadinha": "Na adolescente, a USG não entra no diagnóstico.",
+   "uerj": "Cobra Rotterdam, os diagnósticos a excluir e o tratamento por objetivo.",
+   "contexto": "**SOP = distúrbio endócrino-metabólico com anovulação crônica e hiperandrogenismo; endocrinopatia mais comum da mulher em idade reprodutiva.**\n\nFisiopatologia:\n- **Resistência à insulina e hiperinsulinemia** → estimulam a produção de androgênios pela teca e reduzem a SHBG\n- **LH alto em relação ao FSH** → mais androgênio; folículos não amadurecem → anovulação\n- Estrogênio sem oposição da progesterona → **hiperplasia e câncer de endométrio**\n\nDiagnóstico (Rotterdam — 2 de 3):\n- **Oligo/anovulação** (ciclos irregulares)\n- **Hiperandrogenismo** clínico (hirsutismo, acne, alopecia) ou laboratorial\n- **Ovários policísticos na USG** (≥ 20 folículos por ovário ou volume ≥ 10 mL) — ou AMH elevado no adulto (diretriz 2023)\n- Em adolescentes (< 8 anos de menarca) → precisa de irregularidade + hiperandrogenismo; USG não entra\n\nExcluir antes:\n- **Gravidez, hipotireoidismo (TSH), hiperprolactinemia, hiperplasia adrenal congênita não clássica (17-OH-progesterona)**, tumor produtor de androgênio (virilização rápida, testosterona muito alta), Cushing\n\nRiscos associados:\n- DM2, dislipidemia, síndrome metabólica, esteatose, apneia do sono, depressão/ansiedade, câncer de endométrio, infertilidade\n\nTratamento:\n- **Mudança de estilo de vida / perda de peso** → 1ª linha (perda de 5–10% já restaura ovulação)\n- **Anticoncepcional combinado** → regula ciclo, protege endométrio, reduz hirsutismo e acne\n- Antiandrogênio (espironolactona) associado ao ACO para hirsutismo\n- **Metformina** → resistência insulínica/alterações metabólicas\n- **Infertilidade → letrozol** (1ª linha atual; clomifeno alternativa), depois gonadotrofinas/FIV\n- Quem não quer ACO → progestágeno cíclico ou DIU de levonorgestrel para proteger o endométrio\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: critérios de Rotterdam, exames para excluir e tratamento conforme o objetivo.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "Rotterdam (SOP)",
+      "Critério",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "Oligo/anovulação",
+       "Ciclos irregulares (> 35 dias ou < 8 por ano)",
+       "ACO ou progestágeno para proteger o endométrio"
+      ],
+      [
+       "Hiperandrogenismo",
+       "Hirsutismo, acne, alopecia ou testosterona alta",
+       "ACO ± espironolactona"
+      ],
+      [
+       "Morfologia policística",
+       "≥ 20 folículos por ovário ou volume ≥ 10 mL (ou AMH alto)",
+       "Não usar em adolescente"
+      ],
+      [
+       "Diagnóstico",
+       "2 de 3 critérios + excluir outras causas",
+       "Estilo de vida + tratar conforme o objetivo (ciclo, pele, fertilidade)"
+      ]
+     ]
+    }
+   ],
+   "fonte": "International Evidence-based Guideline for PCOS (2023) / FEBRASGO — Protocolo SOP (2023) / Rotterdam ESHRE/ASRM Consensus (2003)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Ginecologia",
+   "tema": "Endocrinologia ginecológica",
+   "sub": "Síndrome dos ovários policísticos (SOP)",
+   "id": "sop-02",
+   "tipo": "flash",
+   "prio": "alta",
+   "frente": "SOP: tratamento conforme o objetivo",
+   "verso": "Raciocínio:\n- A resistência à insulina alimenta todo o ciclo → perder peso melhora ovulação e androgênio.\n- O ACO dá progesterona (protege o endométrio) e reduz o LH e o androgênio livre.\n\n**1ª linha para todas → perda de peso.**\n**Ciclo e hirsutismo → ACO combinado.**\n**Quer engravidar → letrozol.**\n\nOutros:\n- Metformina → alteração metabólica.\n- Espironolactona → hirsutismo (com ACO).",
+   "macete": "\"Peso para todas; pílula para pele e ciclo; letrozol para o bebê\".",
+   "pegadinha": "Letrozol substituiu o clomifeno como 1ª linha na indução da ovulação.",
+   "uerj": "Cobra Rotterdam, os diagnósticos a excluir e o tratamento por objetivo.",
+   "contexto": "**SOP = distúrbio endócrino-metabólico com anovulação crônica e hiperandrogenismo; endocrinopatia mais comum da mulher em idade reprodutiva.**\n\nFisiopatologia:\n- **Resistência à insulina e hiperinsulinemia** → estimulam a produção de androgênios pela teca e reduzem a SHBG\n- **LH alto em relação ao FSH** → mais androgênio; folículos não amadurecem → anovulação\n- Estrogênio sem oposição da progesterona → **hiperplasia e câncer de endométrio**\n\nDiagnóstico (Rotterdam — 2 de 3):\n- **Oligo/anovulação** (ciclos irregulares)\n- **Hiperandrogenismo** clínico (hirsutismo, acne, alopecia) ou laboratorial\n- **Ovários policísticos na USG** (≥ 20 folículos por ovário ou volume ≥ 10 mL) — ou AMH elevado no adulto (diretriz 2023)\n- Em adolescentes (< 8 anos de menarca) → precisa de irregularidade + hiperandrogenismo; USG não entra\n\nExcluir antes:\n- **Gravidez, hipotireoidismo (TSH), hiperprolactinemia, hiperplasia adrenal congênita não clássica (17-OH-progesterona)**, tumor produtor de androgênio (virilização rápida, testosterona muito alta), Cushing\n\nRiscos associados:\n- DM2, dislipidemia, síndrome metabólica, esteatose, apneia do sono, depressão/ansiedade, câncer de endométrio, infertilidade\n\nTratamento:\n- **Mudança de estilo de vida / perda de peso** → 1ª linha (perda de 5–10% já restaura ovulação)\n- **Anticoncepcional combinado** → regula ciclo, protege endométrio, reduz hirsutismo e acne\n- Antiandrogênio (espironolactona) associado ao ACO para hirsutismo\n- **Metformina** → resistência insulínica/alterações metabólicas\n- **Infertilidade → letrozol** (1ª linha atual; clomifeno alternativa), depois gonadotrofinas/FIV\n- Quem não quer ACO → progestágeno cíclico ou DIU de levonorgestrel para proteger o endométrio\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: critérios de Rotterdam, exames para excluir e tratamento conforme o objetivo.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "Rotterdam (SOP)",
+      "Critério",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "Oligo/anovulação",
+       "Ciclos irregulares (> 35 dias ou < 8 por ano)",
+       "ACO ou progestágeno para proteger o endométrio"
+      ],
+      [
+       "Hiperandrogenismo",
+       "Hirsutismo, acne, alopecia ou testosterona alta",
+       "ACO ± espironolactona"
+      ],
+      [
+       "Morfologia policística",
+       "≥ 20 folículos por ovário ou volume ≥ 10 mL (ou AMH alto)",
+       "Não usar em adolescente"
+      ],
+      [
+       "Diagnóstico",
+       "2 de 3 critérios + excluir outras causas",
+       "Estilo de vida + tratar conforme o objetivo (ciclo, pele, fertilidade)"
+      ]
+     ]
+    }
+   ],
+   "fonte": "International Evidence-based Guideline for PCOS (2023) / FEBRASGO — Protocolo SOP (2023) / Rotterdam ESHRE/ASRM Consensus (2003)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Ginecologia",
+   "tema": "Endocrinologia ginecológica",
+   "sub": "Síndrome dos ovários policísticos (SOP)",
+   "tipo": "quiz",
+   "frente": "Sobre a síndrome dos ovários policísticos, analise: I. O diagnóstico exige 2 de 3 critérios de Rotterdam, após exclusão de outras causas. II. A mudança de estilo de vida é a primeira linha de tratamento. III. A presença de ovários policísticos à USG é obrigatória para o diagnóstico. Está(ão) correta(s):",
+   "opcoes": [
+    "Apenas I e II.",
+    "Apenas I e III.",
+    "Apenas II e III.",
+    "I, II e III."
+   ],
+   "certa": 0,
+   "comentarios": [
+    "Correta. III é falsa: bastam 2 de 3 critérios; a USG pode faltar.",
+    "III é falsa.",
+    "III é falsa.",
+    "III é falsa."
+   ],
+   "id": "sop-q1",
+   "prio": "alta",
+   "macete": "\"Dois de três, sem obrigatório\".",
+   "pegadinha": "USG não é obrigatória.",
+   "uerj": "Cobra Rotterdam, os diagnósticos a excluir e o tratamento por objetivo.",
+   "contexto": "**SOP = distúrbio endócrino-metabólico com anovulação crônica e hiperandrogenismo; endocrinopatia mais comum da mulher em idade reprodutiva.**\n\nFisiopatologia:\n- **Resistência à insulina e hiperinsulinemia** → estimulam a produção de androgênios pela teca e reduzem a SHBG\n- **LH alto em relação ao FSH** → mais androgênio; folículos não amadurecem → anovulação\n- Estrogênio sem oposição da progesterona → **hiperplasia e câncer de endométrio**\n\nDiagnóstico (Rotterdam — 2 de 3):\n- **Oligo/anovulação** (ciclos irregulares)\n- **Hiperandrogenismo** clínico (hirsutismo, acne, alopecia) ou laboratorial\n- **Ovários policísticos na USG** (≥ 20 folículos por ovário ou volume ≥ 10 mL) — ou AMH elevado no adulto (diretriz 2023)\n- Em adolescentes (< 8 anos de menarca) → precisa de irregularidade + hiperandrogenismo; USG não entra\n\nExcluir antes:\n- **Gravidez, hipotireoidismo (TSH), hiperprolactinemia, hiperplasia adrenal congênita não clássica (17-OH-progesterona)**, tumor produtor de androgênio (virilização rápida, testosterona muito alta), Cushing\n\nRiscos associados:\n- DM2, dislipidemia, síndrome metabólica, esteatose, apneia do sono, depressão/ansiedade, câncer de endométrio, infertilidade\n\nTratamento:\n- **Mudança de estilo de vida / perda de peso** → 1ª linha (perda de 5–10% já restaura ovulação)\n- **Anticoncepcional combinado** → regula ciclo, protege endométrio, reduz hirsutismo e acne\n- Antiandrogênio (espironolactona) associado ao ACO para hirsutismo\n- **Metformina** → resistência insulínica/alterações metabólicas\n- **Infertilidade → letrozol** (1ª linha atual; clomifeno alternativa), depois gonadotrofinas/FIV\n- Quem não quer ACO → progestágeno cíclico ou DIU de levonorgestrel para proteger o endométrio\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: critérios de Rotterdam, exames para excluir e tratamento conforme o objetivo.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "Rotterdam (SOP)",
+      "Critério",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "Oligo/anovulação",
+       "Ciclos irregulares (> 35 dias ou < 8 por ano)",
+       "ACO ou progestágeno para proteger o endométrio"
+      ],
+      [
+       "Hiperandrogenismo",
+       "Hirsutismo, acne, alopecia ou testosterona alta",
+       "ACO ± espironolactona"
+      ],
+      [
+       "Morfologia policística",
+       "≥ 20 folículos por ovário ou volume ≥ 10 mL (ou AMH alto)",
+       "Não usar em adolescente"
+      ],
+      [
+       "Diagnóstico",
+       "2 de 3 critérios + excluir outras causas",
+       "Estilo de vida + tratar conforme o objetivo (ciclo, pele, fertilidade)"
+      ]
+     ]
+    }
+   ],
+   "fonte": "International Evidence-based Guideline for PCOS (2023) / FEBRASGO — Protocolo SOP (2023) / Rotterdam ESHRE/ASRM Consensus (2003)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Ginecologia",
+   "tema": "Endocrinologia ginecológica",
+   "sub": "Síndrome dos ovários policísticos (SOP)",
+   "id": "sop-d1",
+   "tipo": "digitar",
+   "prio": "alta",
+   "frente": "Qual a droga de 1ª linha para induzir ovulação na SOP?",
+   "verso": "**Letrozol.**\n\n- Alternativa: clomifeno.",
+   "resposta": "Letrozol",
+   "aceitas": [
+    "letrozol",
+    "letrozole"
+   ],
+   "macete": "Letrozol = bebê na SOP.",
+   "uerj": "Cobra Rotterdam, os diagnósticos a excluir e o tratamento por objetivo.",
+   "contexto": "**SOP = distúrbio endócrino-metabólico com anovulação crônica e hiperandrogenismo; endocrinopatia mais comum da mulher em idade reprodutiva.**\n\nFisiopatologia:\n- **Resistência à insulina e hiperinsulinemia** → estimulam a produção de androgênios pela teca e reduzem a SHBG\n- **LH alto em relação ao FSH** → mais androgênio; folículos não amadurecem → anovulação\n- Estrogênio sem oposição da progesterona → **hiperplasia e câncer de endométrio**\n\nDiagnóstico (Rotterdam — 2 de 3):\n- **Oligo/anovulação** (ciclos irregulares)\n- **Hiperandrogenismo** clínico (hirsutismo, acne, alopecia) ou laboratorial\n- **Ovários policísticos na USG** (≥ 20 folículos por ovário ou volume ≥ 10 mL) — ou AMH elevado no adulto (diretriz 2023)\n- Em adolescentes (< 8 anos de menarca) → precisa de irregularidade + hiperandrogenismo; USG não entra\n\nExcluir antes:\n- **Gravidez, hipotireoidismo (TSH), hiperprolactinemia, hiperplasia adrenal congênita não clássica (17-OH-progesterona)**, tumor produtor de androgênio (virilização rápida, testosterona muito alta), Cushing\n\nRiscos associados:\n- DM2, dislipidemia, síndrome metabólica, esteatose, apneia do sono, depressão/ansiedade, câncer de endométrio, infertilidade\n\nTratamento:\n- **Mudança de estilo de vida / perda de peso** → 1ª linha (perda de 5–10% já restaura ovulação)\n- **Anticoncepcional combinado** → regula ciclo, protege endométrio, reduz hirsutismo e acne\n- Antiandrogênio (espironolactona) associado ao ACO para hirsutismo\n- **Metformina** → resistência insulínica/alterações metabólicas\n- **Infertilidade → letrozol** (1ª linha atual; clomifeno alternativa), depois gonadotrofinas/FIV\n- Quem não quer ACO → progestágeno cíclico ou DIU de levonorgestrel para proteger o endométrio\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: critérios de Rotterdam, exames para excluir e tratamento conforme o objetivo.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "Rotterdam (SOP)",
+      "Critério",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "Oligo/anovulação",
+       "Ciclos irregulares (> 35 dias ou < 8 por ano)",
+       "ACO ou progestágeno para proteger o endométrio"
+      ],
+      [
+       "Hiperandrogenismo",
+       "Hirsutismo, acne, alopecia ou testosterona alta",
+       "ACO ± espironolactona"
+      ],
+      [
+       "Morfologia policística",
+       "≥ 20 folículos por ovário ou volume ≥ 10 mL (ou AMH alto)",
+       "Não usar em adolescente"
+      ],
+      [
+       "Diagnóstico",
+       "2 de 3 critérios + excluir outras causas",
+       "Estilo de vida + tratar conforme o objetivo (ciclo, pele, fertilidade)"
+      ]
+     ]
+    }
+   ],
+   "fonte": "International Evidence-based Guideline for PCOS (2023) / FEBRASGO — Protocolo SOP (2023) / Rotterdam ESHRE/ASRM Consensus (2003)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Ginecologia",
+   "tema": "Endocrinologia ginecológica",
+   "sub": "Síndrome dos ovários policísticos (SOP)",
+   "id": "sop-d2",
+   "tipo": "digitar",
+   "prio": "media",
+   "frente": "Qual hormônio dosar para excluir hiperplasia adrenal congênita não clássica?",
+   "verso": "**17-OH-progesterona.**",
+   "resposta": "17-OH-progesterona",
+   "aceitas": [
+    "17-oh-progesterona",
+    "17 oh progesterona",
+    "17-hidroxiprogesterona",
+    "17ohp",
+    "17-ohp"
+   ],
+   "macete": "Adrenal → 17-OH.",
+   "uerj": "Cobra Rotterdam, os diagnósticos a excluir e o tratamento por objetivo.",
+   "contexto": "**SOP = distúrbio endócrino-metabólico com anovulação crônica e hiperandrogenismo; endocrinopatia mais comum da mulher em idade reprodutiva.**\n\nFisiopatologia:\n- **Resistência à insulina e hiperinsulinemia** → estimulam a produção de androgênios pela teca e reduzem a SHBG\n- **LH alto em relação ao FSH** → mais androgênio; folículos não amadurecem → anovulação\n- Estrogênio sem oposição da progesterona → **hiperplasia e câncer de endométrio**\n\nDiagnóstico (Rotterdam — 2 de 3):\n- **Oligo/anovulação** (ciclos irregulares)\n- **Hiperandrogenismo** clínico (hirsutismo, acne, alopecia) ou laboratorial\n- **Ovários policísticos na USG** (≥ 20 folículos por ovário ou volume ≥ 10 mL) — ou AMH elevado no adulto (diretriz 2023)\n- Em adolescentes (< 8 anos de menarca) → precisa de irregularidade + hiperandrogenismo; USG não entra\n\nExcluir antes:\n- **Gravidez, hipotireoidismo (TSH), hiperprolactinemia, hiperplasia adrenal congênita não clássica (17-OH-progesterona)**, tumor produtor de androgênio (virilização rápida, testosterona muito alta), Cushing\n\nRiscos associados:\n- DM2, dislipidemia, síndrome metabólica, esteatose, apneia do sono, depressão/ansiedade, câncer de endométrio, infertilidade\n\nTratamento:\n- **Mudança de estilo de vida / perda de peso** → 1ª linha (perda de 5–10% já restaura ovulação)\n- **Anticoncepcional combinado** → regula ciclo, protege endométrio, reduz hirsutismo e acne\n- Antiandrogênio (espironolactona) associado ao ACO para hirsutismo\n- **Metformina** → resistência insulínica/alterações metabólicas\n- **Infertilidade → letrozol** (1ª linha atual; clomifeno alternativa), depois gonadotrofinas/FIV\n- Quem não quer ACO → progestágeno cíclico ou DIU de levonorgestrel para proteger o endométrio\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: critérios de Rotterdam, exames para excluir e tratamento conforme o objetivo.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "Rotterdam (SOP)",
+      "Critério",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "Oligo/anovulação",
+       "Ciclos irregulares (> 35 dias ou < 8 por ano)",
+       "ACO ou progestágeno para proteger o endométrio"
+      ],
+      [
+       "Hiperandrogenismo",
+       "Hirsutismo, acne, alopecia ou testosterona alta",
+       "ACO ± espironolactona"
+      ],
+      [
+       "Morfologia policística",
+       "≥ 20 folículos por ovário ou volume ≥ 10 mL (ou AMH alto)",
+       "Não usar em adolescente"
+      ],
+      [
+       "Diagnóstico",
+       "2 de 3 critérios + excluir outras causas",
+       "Estilo de vida + tratar conforme o objetivo (ciclo, pele, fertilidade)"
+      ]
+     ]
+    }
+   ],
+   "fonte": "International Evidence-based Guideline for PCOS (2023) / FEBRASGO — Protocolo SOP (2023) / Rotterdam ESHRE/ASRM Consensus (2003)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Ginecologia",
+   "tema": "Endocrinologia ginecológica",
+   "sub": "Amenorreia secundária",
+   "id": "ams-01",
+   "tipo": "flash",
+   "prio": "alta",
+   "frente": "Amenorreia secundária: interpretação do teste da progesterona",
+   "verso": "Raciocínio:\n- A progesterona só faz o endométrio descamar se ele já foi preparado pelo estrogênio.\n- Sangrar prova que há estrogênio, útero e saída livres → o problema é não ovular.\n- Sem sangrar mesmo com estrogênio + progesterona → o útero não responde.\n\n**Sangrou → anovulação (SOP).**\n**Não sangrou com E + P → útero (Asherman).**\n**Sangrou só com E + P → FSH decide (alto = ovário; baixo = hipotálamo/hipófise).**",
+   "macete": "\"Progesterona sozinha testa o estrogênio; E+P testa o útero; FSH testa o ovário\".",
+   "pegadinha": "Sempre excluir gravidez antes de qualquer teste.",
+   "uerj": "Cobra a sequência da investigação (beta-hCG → TSH/prolactina → progesterona → FSH).",
+   "contexto": "**Amenorreia secundária = ausência de menstruação por 3 meses em quem tinha ciclos regulares ou por 6 meses em quem tinha ciclos irregulares.**\n\n1º passo sempre:\n- **Excluir gravidez (beta-hCG)**\n\nInvestigação inicial:\n- **TSH** e **prolactina** (e FSH, LH, estradiol; androgênios se hiperandrogenismo)\n\nCompartimentos e causas:\n- **Útero (compartimento I)** → **síndrome de Asherman** (sinéquias após curetagem/infecção) → histeroscopia\n- **Ovário (II)** → **SOP** (mais comum), **insuficiência ovariana prematura** (< 40 anos, FSH alto)\n- **Hipófise (III)** → **prolactinoma/hiperprolactinemia**, **síndrome de Sheehan** (necrose hipofisária após hemorragia pós-parto: 1º sinal = falha na lactação)\n- **Hipotálamo (IV)** → **amenorreia hipotalâmica funcional** (estresse, exercício intenso, baixo peso, transtornos alimentares)\n\nTeste de progesterona (raciocínio clássico):\n- Medroxiprogesterona 10 mg por 7–10 dias\n- **Sangrou** → havia estrogênio e o útero funciona → **anovulação** (ex.: SOP)\n- **Não sangrou** → estrogênio + progesterona:\n  - **Não sangrou** → causa **uterina** (Asherman)\n  - **Sangrou** → falta estrogênio → dosar **FSH**:\n    - **FSH alto** → **ovariana** (insuficiência ovariana)\n    - **FSH baixo/normal** → **hipotálamo/hipófise** (RM de sela se indicado)\n\nTratamento conforme a causa:\n- Asherman → lise histeroscópica das sinéquias\n- Insuficiência ovariana → terapia hormonal até a idade da menopausa (protege osso e coração)\n- Hipotalâmica → recuperar peso, reduzir exercício/estresse; repor estrogênio\n- Prolactinoma → agonista dopaminérgico (cabergolina)\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: excluir gravidez primeiro, sequência do teste de progesterona e Sheehan/Asherman.",
+   "ctxvisual": [
+    {
+     "tipo": "fluxo",
+     "passos": [
+      "Beta-hCG negativo → TSH e prolactina normais",
+      "Teste da progesterona",
+      [
+       "Sangrou → anovulação (SOP)",
+       "Não sangrou → estrogênio + progesterona"
+      ],
+      [
+       "Não sangrou → útero (Asherman)",
+       "Sangrou → FSH"
+      ],
+      [
+       "FSH alto → ovário (IOP)",
+       "FSH baixo/normal → hipotálamo/hipófise"
+      ]
+     ]
+    }
+   ],
+   "fonte": "FEBRASGO — Protocolo Amenorreia (2021) / ASRM — Current evaluation of amenorrhea (2008/2024) / Speroff's Clinical Gynecologic Endocrinology 9ª ed.",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Ginecologia",
+   "tema": "Endocrinologia ginecológica",
+   "sub": "Amenorreia secundária",
+   "id": "ams-02",
+   "tipo": "flash",
+   "prio": "media",
+   "frente": "Síndrome de Sheehan × síndrome de Asherman",
+   "verso": "Raciocínio:\n- Na gestação a hipófise cresce e fica vulnerável → hemorragia pós-parto com choque causa necrose dela.\n- A curetagem agressiva retira a camada basal do endométrio → cicatrizes (sinéquias).\n\n**Sheehan → necrose hipofisária após hemorragia pós-parto.**\n**Asherman → sinéquias uterinas após curetagem.**\n\nSheehan:\n- 1º sinal → não consegue amamentar.\n\nAsherman:\n- Diagnóstico e tratamento → histeroscopia.",
+   "macete": "\"Sheehan = Sangrou e a hipófise Sumiu; Asherman = Aderência\".",
+   "pegadinha": "No Sheehan, a falha da lactação vem antes da amenorreia.",
+   "uerj": "Cobra a sequência da investigação (beta-hCG → TSH/prolactina → progesterona → FSH).",
+   "contexto": "**Amenorreia secundária = ausência de menstruação por 3 meses em quem tinha ciclos regulares ou por 6 meses em quem tinha ciclos irregulares.**\n\n1º passo sempre:\n- **Excluir gravidez (beta-hCG)**\n\nInvestigação inicial:\n- **TSH** e **prolactina** (e FSH, LH, estradiol; androgênios se hiperandrogenismo)\n\nCompartimentos e causas:\n- **Útero (compartimento I)** → **síndrome de Asherman** (sinéquias após curetagem/infecção) → histeroscopia\n- **Ovário (II)** → **SOP** (mais comum), **insuficiência ovariana prematura** (< 40 anos, FSH alto)\n- **Hipófise (III)** → **prolactinoma/hiperprolactinemia**, **síndrome de Sheehan** (necrose hipofisária após hemorragia pós-parto: 1º sinal = falha na lactação)\n- **Hipotálamo (IV)** → **amenorreia hipotalâmica funcional** (estresse, exercício intenso, baixo peso, transtornos alimentares)\n\nTeste de progesterona (raciocínio clássico):\n- Medroxiprogesterona 10 mg por 7–10 dias\n- **Sangrou** → havia estrogênio e o útero funciona → **anovulação** (ex.: SOP)\n- **Não sangrou** → estrogênio + progesterona:\n  - **Não sangrou** → causa **uterina** (Asherman)\n  - **Sangrou** → falta estrogênio → dosar **FSH**:\n    - **FSH alto** → **ovariana** (insuficiência ovariana)\n    - **FSH baixo/normal** → **hipotálamo/hipófise** (RM de sela se indicado)\n\nTratamento conforme a causa:\n- Asherman → lise histeroscópica das sinéquias\n- Insuficiência ovariana → terapia hormonal até a idade da menopausa (protege osso e coração)\n- Hipotalâmica → recuperar peso, reduzir exercício/estresse; repor estrogênio\n- Prolactinoma → agonista dopaminérgico (cabergolina)\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: excluir gravidez primeiro, sequência do teste de progesterona e Sheehan/Asherman.",
+   "ctxvisual": [
+    {
+     "tipo": "fluxo",
+     "passos": [
+      "Beta-hCG negativo → TSH e prolactina normais",
+      "Teste da progesterona",
+      [
+       "Sangrou → anovulação (SOP)",
+       "Não sangrou → estrogênio + progesterona"
+      ],
+      [
+       "Não sangrou → útero (Asherman)",
+       "Sangrou → FSH"
+      ],
+      [
+       "FSH alto → ovário (IOP)",
+       "FSH baixo/normal → hipotálamo/hipófise"
+      ]
+     ]
+    }
+   ],
+   "fonte": "FEBRASGO — Protocolo Amenorreia (2021) / ASRM — Current evaluation of amenorrhea (2008/2024) / Speroff's Clinical Gynecologic Endocrinology 9ª ed.",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Ginecologia",
+   "tema": "Endocrinologia ginecológica",
+   "sub": "Amenorreia secundária",
+   "tipo": "quiz",
+   "frente": "Sobre amenorreia secundária, analise: I. O primeiro exame a ser solicitado é o beta-hCG. II. Ausência de sangramento após estrogênio + progesterona sugere causa uterina. III. FSH elevado indica causa hipotalâmica. Está(ão) correta(s):",
+   "opcoes": [
+    "Apenas I e III.",
+    "Apenas I e II.",
+    "Apenas II e III.",
+    "I, II e III."
+   ],
+   "certa": 1,
+   "comentarios": [
+    "III é falsa.",
+    "Correta. III é falsa: FSH alto indica falência ovariana; hipotalâmica tem FSH baixo/normal.",
+    "III é falsa.",
+    "III é falsa."
+   ],
+   "id": "ams-q1",
+   "prio": "alta",
+   "base": "- Ovário falha → falta estrogênio e inibina → a hipófise aumenta o FSH (retroalimentação negativa perdida).\n- Hipotálamo/hipófise falha → não há estímulo → FSH baixo ou normal.",
+   "macete": "\"FSH alto = ovário cansado\".",
+   "pegadinha": "FSH alto não é hipotálamo.",
+   "visual": {
+    "tipo": "fluxo",
+    "base": true,
+    "passos": [
+     "Hipotálamo (GnRH)",
+     "Hipófise (FSH/LH)",
+     "Ovário (estrogênio + inibina)",
+     [
+      "Ovário falha → FSH ALTO",
+      "Hipotálamo/hipófise falha → FSH BAIXO"
+     ]
+    ]
+   },
+   "uerj": "Cobra a sequência da investigação (beta-hCG → TSH/prolactina → progesterona → FSH).",
+   "contexto": "**Amenorreia secundária = ausência de menstruação por 3 meses em quem tinha ciclos regulares ou por 6 meses em quem tinha ciclos irregulares.**\n\n1º passo sempre:\n- **Excluir gravidez (beta-hCG)**\n\nInvestigação inicial:\n- **TSH** e **prolactina** (e FSH, LH, estradiol; androgênios se hiperandrogenismo)\n\nCompartimentos e causas:\n- **Útero (compartimento I)** → **síndrome de Asherman** (sinéquias após curetagem/infecção) → histeroscopia\n- **Ovário (II)** → **SOP** (mais comum), **insuficiência ovariana prematura** (< 40 anos, FSH alto)\n- **Hipófise (III)** → **prolactinoma/hiperprolactinemia**, **síndrome de Sheehan** (necrose hipofisária após hemorragia pós-parto: 1º sinal = falha na lactação)\n- **Hipotálamo (IV)** → **amenorreia hipotalâmica funcional** (estresse, exercício intenso, baixo peso, transtornos alimentares)\n\nTeste de progesterona (raciocínio clássico):\n- Medroxiprogesterona 10 mg por 7–10 dias\n- **Sangrou** → havia estrogênio e o útero funciona → **anovulação** (ex.: SOP)\n- **Não sangrou** → estrogênio + progesterona:\n  - **Não sangrou** → causa **uterina** (Asherman)\n  - **Sangrou** → falta estrogênio → dosar **FSH**:\n    - **FSH alto** → **ovariana** (insuficiência ovariana)\n    - **FSH baixo/normal** → **hipotálamo/hipófise** (RM de sela se indicado)\n\nTratamento conforme a causa:\n- Asherman → lise histeroscópica das sinéquias\n- Insuficiência ovariana → terapia hormonal até a idade da menopausa (protege osso e coração)\n- Hipotalâmica → recuperar peso, reduzir exercício/estresse; repor estrogênio\n- Prolactinoma → agonista dopaminérgico (cabergolina)\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: excluir gravidez primeiro, sequência do teste de progesterona e Sheehan/Asherman.",
+   "ctxvisual": [
+    {
+     "tipo": "fluxo",
+     "passos": [
+      "Beta-hCG negativo → TSH e prolactina normais",
+      "Teste da progesterona",
+      [
+       "Sangrou → anovulação (SOP)",
+       "Não sangrou → estrogênio + progesterona"
+      ],
+      [
+       "Não sangrou → útero (Asherman)",
+       "Sangrou → FSH"
+      ],
+      [
+       "FSH alto → ovário (IOP)",
+       "FSH baixo/normal → hipotálamo/hipófise"
+      ]
+     ]
+    }
+   ],
+   "fonte": "FEBRASGO — Protocolo Amenorreia (2021) / ASRM — Current evaluation of amenorrhea (2008/2024) / Speroff's Clinical Gynecologic Endocrinology 9ª ed.",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Ginecologia",
+   "tema": "Endocrinologia ginecológica",
+   "sub": "Amenorreia secundária",
+   "id": "ams-d1",
+   "tipo": "digitar",
+   "prio": "alta",
+   "frente": "Qual o primeiro exame na investigação de amenorreia secundária?",
+   "verso": "**Beta-hCG.**",
+   "resposta": "Beta-hCG",
+   "aceitas": [
+    "beta hcg",
+    "beta-hcg",
+    "bhcg",
+    "hcg",
+    "teste de gravidez"
+   ],
+   "macete": "Amenorreia = gravidez até prova contrária.",
+   "uerj": "Cobra a sequência da investigação (beta-hCG → TSH/prolactina → progesterona → FSH).",
+   "contexto": "**Amenorreia secundária = ausência de menstruação por 3 meses em quem tinha ciclos regulares ou por 6 meses em quem tinha ciclos irregulares.**\n\n1º passo sempre:\n- **Excluir gravidez (beta-hCG)**\n\nInvestigação inicial:\n- **TSH** e **prolactina** (e FSH, LH, estradiol; androgênios se hiperandrogenismo)\n\nCompartimentos e causas:\n- **Útero (compartimento I)** → **síndrome de Asherman** (sinéquias após curetagem/infecção) → histeroscopia\n- **Ovário (II)** → **SOP** (mais comum), **insuficiência ovariana prematura** (< 40 anos, FSH alto)\n- **Hipófise (III)** → **prolactinoma/hiperprolactinemia**, **síndrome de Sheehan** (necrose hipofisária após hemorragia pós-parto: 1º sinal = falha na lactação)\n- **Hipotálamo (IV)** → **amenorreia hipotalâmica funcional** (estresse, exercício intenso, baixo peso, transtornos alimentares)\n\nTeste de progesterona (raciocínio clássico):\n- Medroxiprogesterona 10 mg por 7–10 dias\n- **Sangrou** → havia estrogênio e o útero funciona → **anovulação** (ex.: SOP)\n- **Não sangrou** → estrogênio + progesterona:\n  - **Não sangrou** → causa **uterina** (Asherman)\n  - **Sangrou** → falta estrogênio → dosar **FSH**:\n    - **FSH alto** → **ovariana** (insuficiência ovariana)\n    - **FSH baixo/normal** → **hipotálamo/hipófise** (RM de sela se indicado)\n\nTratamento conforme a causa:\n- Asherman → lise histeroscópica das sinéquias\n- Insuficiência ovariana → terapia hormonal até a idade da menopausa (protege osso e coração)\n- Hipotalâmica → recuperar peso, reduzir exercício/estresse; repor estrogênio\n- Prolactinoma → agonista dopaminérgico (cabergolina)\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: excluir gravidez primeiro, sequência do teste de progesterona e Sheehan/Asherman.",
+   "ctxvisual": [
+    {
+     "tipo": "fluxo",
+     "passos": [
+      "Beta-hCG negativo → TSH e prolactina normais",
+      "Teste da progesterona",
+      [
+       "Sangrou → anovulação (SOP)",
+       "Não sangrou → estrogênio + progesterona"
+      ],
+      [
+       "Não sangrou → útero (Asherman)",
+       "Sangrou → FSH"
+      ],
+      [
+       "FSH alto → ovário (IOP)",
+       "FSH baixo/normal → hipotálamo/hipófise"
+      ]
+     ]
+    }
+   ],
+   "fonte": "FEBRASGO — Protocolo Amenorreia (2021) / ASRM — Current evaluation of amenorrhea (2008/2024) / Speroff's Clinical Gynecologic Endocrinology 9ª ed.",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Ginecologia",
+   "tema": "Endocrinologia ginecológica",
+   "sub": "Amenorreia secundária",
+   "id": "ams-d2",
+   "tipo": "digitar",
+   "prio": "media",
+   "frente": "Sinéquias uterinas após curetagem: qual síndrome?",
+   "verso": "**Síndrome de Asherman.**",
+   "resposta": "Asherman",
+   "aceitas": [
+    "asherman",
+    "síndrome de asherman",
+    "sindrome de asherman"
+   ],
+   "macete": "Asherman = aderência.",
+   "uerj": "Cobra a sequência da investigação (beta-hCG → TSH/prolactina → progesterona → FSH).",
+   "contexto": "**Amenorreia secundária = ausência de menstruação por 3 meses em quem tinha ciclos regulares ou por 6 meses em quem tinha ciclos irregulares.**\n\n1º passo sempre:\n- **Excluir gravidez (beta-hCG)**\n\nInvestigação inicial:\n- **TSH** e **prolactina** (e FSH, LH, estradiol; androgênios se hiperandrogenismo)\n\nCompartimentos e causas:\n- **Útero (compartimento I)** → **síndrome de Asherman** (sinéquias após curetagem/infecção) → histeroscopia\n- **Ovário (II)** → **SOP** (mais comum), **insuficiência ovariana prematura** (< 40 anos, FSH alto)\n- **Hipófise (III)** → **prolactinoma/hiperprolactinemia**, **síndrome de Sheehan** (necrose hipofisária após hemorragia pós-parto: 1º sinal = falha na lactação)\n- **Hipotálamo (IV)** → **amenorreia hipotalâmica funcional** (estresse, exercício intenso, baixo peso, transtornos alimentares)\n\nTeste de progesterona (raciocínio clássico):\n- Medroxiprogesterona 10 mg por 7–10 dias\n- **Sangrou** → havia estrogênio e o útero funciona → **anovulação** (ex.: SOP)\n- **Não sangrou** → estrogênio + progesterona:\n  - **Não sangrou** → causa **uterina** (Asherman)\n  - **Sangrou** → falta estrogênio → dosar **FSH**:\n    - **FSH alto** → **ovariana** (insuficiência ovariana)\n    - **FSH baixo/normal** → **hipotálamo/hipófise** (RM de sela se indicado)\n\nTratamento conforme a causa:\n- Asherman → lise histeroscópica das sinéquias\n- Insuficiência ovariana → terapia hormonal até a idade da menopausa (protege osso e coração)\n- Hipotalâmica → recuperar peso, reduzir exercício/estresse; repor estrogênio\n- Prolactinoma → agonista dopaminérgico (cabergolina)\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: excluir gravidez primeiro, sequência do teste de progesterona e Sheehan/Asherman.",
+   "ctxvisual": [
+    {
+     "tipo": "fluxo",
+     "passos": [
+      "Beta-hCG negativo → TSH e prolactina normais",
+      "Teste da progesterona",
+      [
+       "Sangrou → anovulação (SOP)",
+       "Não sangrou → estrogênio + progesterona"
+      ],
+      [
+       "Não sangrou → útero (Asherman)",
+       "Sangrou → FSH"
+      ],
+      [
+       "FSH alto → ovário (IOP)",
+       "FSH baixo/normal → hipotálamo/hipófise"
+      ]
+     ]
+    }
+   ],
+   "fonte": "FEBRASGO — Protocolo Amenorreia (2021) / ASRM — Current evaluation of amenorrhea (2008/2024) / Speroff's Clinical Gynecologic Endocrinology 9ª ed.",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Ginecologia",
+   "tema": "Uroginecologia",
+   "sub": "Prolapso genital (distopias)",
+   "id": "pop-01",
+   "tipo": "flash",
+   "prio": "alta",
+   "frente": "Prolapso genital: estadiamento POP-Q",
+   "verso": "Raciocínio:\n- O POP-Q usa o hímen como ponto zero: acima = negativo, abaixo = positivo.\n- O estádio é definido pelo ponto que mais desce.\n\n**I → > 1 cm acima do hímen.**\n**II → até 1 cm acima ou abaixo do hímen.**\n**III → > 1 cm abaixo, sem eversão total.**\n**IV → eversão completa.**",
+   "macete": "\"Hímen é o zero: II mora no hímen (±1 cm)\".",
+   "pegadinha": "A referência do POP-Q é o hímen, não o introito ou o colo.",
+   "visual": {
+    "tipo": "tabela",
+    "crit": true,
+    "cab": [
+     "POP-Q (estadiamento)",
+     "Critério",
+     "Conduta"
+    ],
+    "linhas": [
+     [
+      "Estádio 0",
+      "Sem prolapso",
+      "—"
+     ],
+     [
+      "Estádio I",
+      "Ponto mais distal > 1 cm ACIMA do hímen",
+      "Expectante / fisioterapia pélvica"
+     ],
+     [
+      "Estádio II",
+      "Ponto mais distal entre 1 cm acima e 1 cm abaixo do hímen",
+      "Sintomático: fisioterapia, pessário ou cirurgia"
+     ],
+     [
+      "Estádio III",
+      "> 1 cm abaixo do hímen, sem eversão completa",
+      "Pessário ou cirurgia"
+     ],
+     [
+      "Estádio IV",
+      "Eversão completa da vagina / prolapso total",
+      "Cirurgia (ou pessário/colpocleise em idosa)"
+     ]
+    ]
+   },
+   "uerj": "Cobra POP-Q, fatores de risco e conduta conforme sintomas.",
+   "contexto": "**Prolapso genital = descida de órgãos pélvicos pela vagina por falha das estruturas de sustentação (músculo levantador do ânus, fáscia endopélvica e ligamentos).**\n\nFatores de risco:\n- **Parto vaginal / multiparidade** (principal), idade, menopausa (hipoestrogenismo), obesidade\n- Aumento crônico da pressão abdominal → tosse crônica, constipação, esforço físico\n- Doenças do colágeno, histerectomia prévia (prolapso de cúpula)\n\nCompartimentos:\n- **Anterior** → cistocele (o mais comum)\n- **Apical** → prolapso uterino ou de cúpula vaginal\n- **Posterior** → retocele, enterocele\n\nClínica:\n- Sensação de \"bola na vagina\", peso pélvico que piora em pé e no fim do dia\n- Sintomas urinários (dificuldade de esvaziar, incontinência oculta), evacuatórios (digitação vaginal para evacuar) e sexuais\n\nClassificação:\n- **POP-Q** → pontos medidos em relação ao **hímen** (referência zero), estádios 0 a IV (tabela do contexto)\n\nTratamento:\n- **Assintomático → expectante**\n- Conservador → **fisioterapia do assoalho pélvico**, perda de peso, tratar constipação/tosse, **estrogênio vaginal** (atrofia)\n- **Pessário** → quem não quer ou não pode operar\n- Cirurgia → **colporrafia anterior** (cistocele), **colporrafia posterior** (retocele), **histerectomia vaginal** / fixação apical (sacroespinhal, sacrocolpopexia)\n- **Colpocleise** → idosa sem vida sexual e alto risco cirúrgico\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: POP-Q (referência no hímen), fatores de risco e conduta conforme sintomas.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "POP-Q (estadiamento)",
+      "Critério",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "Estádio 0",
+       "Sem prolapso",
+       "—"
+      ],
+      [
+       "Estádio I",
+       "Ponto mais distal > 1 cm ACIMA do hímen",
+       "Expectante / fisioterapia pélvica"
+      ],
+      [
+       "Estádio II",
+       "Ponto mais distal entre 1 cm acima e 1 cm abaixo do hímen",
+       "Sintomático: fisioterapia, pessário ou cirurgia"
+      ],
+      [
+       "Estádio III",
+       "> 1 cm abaixo do hímen, sem eversão completa",
+       "Pessário ou cirurgia"
+      ],
+      [
+       "Estádio IV",
+       "Eversão completa da vagina / prolapso total",
+       "Cirurgia (ou pessário/colpocleise em idosa)"
+      ]
+     ]
+    }
+   ],
+   "fonte": "FEBRASGO — Protocolo Prolapso genital (2021) / ICS/IUGA — Terminology for female pelvic organ prolapse (2016) / Bump RC — POP-Q (1996)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Ginecologia",
+   "tema": "Uroginecologia",
+   "sub": "Prolapso genital (distopias)",
+   "id": "pop-02",
+   "tipo": "flash",
+   "prio": "alta",
+   "frente": "Prolapso genital: quando e como tratar?",
+   "verso": "Raciocínio:\n- O prolapso não é perigoso por si: trata-se o sintoma e a qualidade de vida.\n\n**Assintomático → expectante.**\n**Sintomático → fisioterapia, pessário ou cirurgia.**\n\nCirurgias:\n- Cistocele → colporrafia anterior.\n- Retocele → colporrafia posterior.\n- Idosa sem vida sexual → colpocleise.",
+   "macete": "\"Não incomoda, não opera\".",
+   "pegadinha": "O compartimento mais acometido é o anterior (cistocele).",
+   "uerj": "Cobra POP-Q, fatores de risco e conduta conforme sintomas.",
+   "contexto": "**Prolapso genital = descida de órgãos pélvicos pela vagina por falha das estruturas de sustentação (músculo levantador do ânus, fáscia endopélvica e ligamentos).**\n\nFatores de risco:\n- **Parto vaginal / multiparidade** (principal), idade, menopausa (hipoestrogenismo), obesidade\n- Aumento crônico da pressão abdominal → tosse crônica, constipação, esforço físico\n- Doenças do colágeno, histerectomia prévia (prolapso de cúpula)\n\nCompartimentos:\n- **Anterior** → cistocele (o mais comum)\n- **Apical** → prolapso uterino ou de cúpula vaginal\n- **Posterior** → retocele, enterocele\n\nClínica:\n- Sensação de \"bola na vagina\", peso pélvico que piora em pé e no fim do dia\n- Sintomas urinários (dificuldade de esvaziar, incontinência oculta), evacuatórios (digitação vaginal para evacuar) e sexuais\n\nClassificação:\n- **POP-Q** → pontos medidos em relação ao **hímen** (referência zero), estádios 0 a IV (tabela do contexto)\n\nTratamento:\n- **Assintomático → expectante**\n- Conservador → **fisioterapia do assoalho pélvico**, perda de peso, tratar constipação/tosse, **estrogênio vaginal** (atrofia)\n- **Pessário** → quem não quer ou não pode operar\n- Cirurgia → **colporrafia anterior** (cistocele), **colporrafia posterior** (retocele), **histerectomia vaginal** / fixação apical (sacroespinhal, sacrocolpopexia)\n- **Colpocleise** → idosa sem vida sexual e alto risco cirúrgico\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: POP-Q (referência no hímen), fatores de risco e conduta conforme sintomas.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "POP-Q (estadiamento)",
+      "Critério",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "Estádio 0",
+       "Sem prolapso",
+       "—"
+      ],
+      [
+       "Estádio I",
+       "Ponto mais distal > 1 cm ACIMA do hímen",
+       "Expectante / fisioterapia pélvica"
+      ],
+      [
+       "Estádio II",
+       "Ponto mais distal entre 1 cm acima e 1 cm abaixo do hímen",
+       "Sintomático: fisioterapia, pessário ou cirurgia"
+      ],
+      [
+       "Estádio III",
+       "> 1 cm abaixo do hímen, sem eversão completa",
+       "Pessário ou cirurgia"
+      ],
+      [
+       "Estádio IV",
+       "Eversão completa da vagina / prolapso total",
+       "Cirurgia (ou pessário/colpocleise em idosa)"
+      ]
+     ]
+    }
+   ],
+   "fonte": "FEBRASGO — Protocolo Prolapso genital (2021) / ICS/IUGA — Terminology for female pelvic organ prolapse (2016) / Bump RC — POP-Q (1996)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Ginecologia",
+   "tema": "Uroginecologia",
+   "sub": "Prolapso genital (distopias)",
+   "tipo": "quiz",
+   "frente": "Sobre o prolapso genital, analise: I. O parto vaginal é o principal fator de risco. II. No POP-Q, a referência é o hímen. III. Todo prolapso estádio II deve ser operado, mesmo assintomático. Está(ão) correta(s):",
+   "opcoes": [
+    "Apenas I e III.",
+    "Apenas II e III.",
+    "I, II e III.",
+    "Apenas I e II."
+   ],
+   "certa": 3,
+   "comentarios": [
+    "III é falsa.",
+    "III é falsa.",
+    "III é falsa.",
+    "Correta. III é falsa: assintomático → expectante."
+   ],
+   "id": "pop-q1",
+   "prio": "alta",
+   "macete": "\"Trata-se o sintoma, não o estádio\".",
+   "pegadinha": "Prolapso assintomático não se opera.",
+   "uerj": "Cobra POP-Q, fatores de risco e conduta conforme sintomas.",
+   "contexto": "**Prolapso genital = descida de órgãos pélvicos pela vagina por falha das estruturas de sustentação (músculo levantador do ânus, fáscia endopélvica e ligamentos).**\n\nFatores de risco:\n- **Parto vaginal / multiparidade** (principal), idade, menopausa (hipoestrogenismo), obesidade\n- Aumento crônico da pressão abdominal → tosse crônica, constipação, esforço físico\n- Doenças do colágeno, histerectomia prévia (prolapso de cúpula)\n\nCompartimentos:\n- **Anterior** → cistocele (o mais comum)\n- **Apical** → prolapso uterino ou de cúpula vaginal\n- **Posterior** → retocele, enterocele\n\nClínica:\n- Sensação de \"bola na vagina\", peso pélvico que piora em pé e no fim do dia\n- Sintomas urinários (dificuldade de esvaziar, incontinência oculta), evacuatórios (digitação vaginal para evacuar) e sexuais\n\nClassificação:\n- **POP-Q** → pontos medidos em relação ao **hímen** (referência zero), estádios 0 a IV (tabela do contexto)\n\nTratamento:\n- **Assintomático → expectante**\n- Conservador → **fisioterapia do assoalho pélvico**, perda de peso, tratar constipação/tosse, **estrogênio vaginal** (atrofia)\n- **Pessário** → quem não quer ou não pode operar\n- Cirurgia → **colporrafia anterior** (cistocele), **colporrafia posterior** (retocele), **histerectomia vaginal** / fixação apical (sacroespinhal, sacrocolpopexia)\n- **Colpocleise** → idosa sem vida sexual e alto risco cirúrgico\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: POP-Q (referência no hímen), fatores de risco e conduta conforme sintomas.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "POP-Q (estadiamento)",
+      "Critério",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "Estádio 0",
+       "Sem prolapso",
+       "—"
+      ],
+      [
+       "Estádio I",
+       "Ponto mais distal > 1 cm ACIMA do hímen",
+       "Expectante / fisioterapia pélvica"
+      ],
+      [
+       "Estádio II",
+       "Ponto mais distal entre 1 cm acima e 1 cm abaixo do hímen",
+       "Sintomático: fisioterapia, pessário ou cirurgia"
+      ],
+      [
+       "Estádio III",
+       "> 1 cm abaixo do hímen, sem eversão completa",
+       "Pessário ou cirurgia"
+      ],
+      [
+       "Estádio IV",
+       "Eversão completa da vagina / prolapso total",
+       "Cirurgia (ou pessário/colpocleise em idosa)"
+      ]
+     ]
+    }
+   ],
+   "fonte": "FEBRASGO — Protocolo Prolapso genital (2021) / ICS/IUGA — Terminology for female pelvic organ prolapse (2016) / Bump RC — POP-Q (1996)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Ginecologia",
+   "tema": "Uroginecologia",
+   "sub": "Prolapso genital (distopias)",
+   "id": "pop-d1",
+   "tipo": "digitar",
+   "prio": "media",
+   "frente": "Qual o ponto de referência (zero) do POP-Q?",
+   "verso": "**Hímen.**",
+   "resposta": "Hímen",
+   "aceitas": [
+    "himen",
+    "hímen",
+    "carúncula himenal"
+   ],
+   "macete": "Hímen = zero.",
+   "uerj": "Cobra POP-Q, fatores de risco e conduta conforme sintomas.",
+   "contexto": "**Prolapso genital = descida de órgãos pélvicos pela vagina por falha das estruturas de sustentação (músculo levantador do ânus, fáscia endopélvica e ligamentos).**\n\nFatores de risco:\n- **Parto vaginal / multiparidade** (principal), idade, menopausa (hipoestrogenismo), obesidade\n- Aumento crônico da pressão abdominal → tosse crônica, constipação, esforço físico\n- Doenças do colágeno, histerectomia prévia (prolapso de cúpula)\n\nCompartimentos:\n- **Anterior** → cistocele (o mais comum)\n- **Apical** → prolapso uterino ou de cúpula vaginal\n- **Posterior** → retocele, enterocele\n\nClínica:\n- Sensação de \"bola na vagina\", peso pélvico que piora em pé e no fim do dia\n- Sintomas urinários (dificuldade de esvaziar, incontinência oculta), evacuatórios (digitação vaginal para evacuar) e sexuais\n\nClassificação:\n- **POP-Q** → pontos medidos em relação ao **hímen** (referência zero), estádios 0 a IV (tabela do contexto)\n\nTratamento:\n- **Assintomático → expectante**\n- Conservador → **fisioterapia do assoalho pélvico**, perda de peso, tratar constipação/tosse, **estrogênio vaginal** (atrofia)\n- **Pessário** → quem não quer ou não pode operar\n- Cirurgia → **colporrafia anterior** (cistocele), **colporrafia posterior** (retocele), **histerectomia vaginal** / fixação apical (sacroespinhal, sacrocolpopexia)\n- **Colpocleise** → idosa sem vida sexual e alto risco cirúrgico\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: POP-Q (referência no hímen), fatores de risco e conduta conforme sintomas.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "POP-Q (estadiamento)",
+      "Critério",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "Estádio 0",
+       "Sem prolapso",
+       "—"
+      ],
+      [
+       "Estádio I",
+       "Ponto mais distal > 1 cm ACIMA do hímen",
+       "Expectante / fisioterapia pélvica"
+      ],
+      [
+       "Estádio II",
+       "Ponto mais distal entre 1 cm acima e 1 cm abaixo do hímen",
+       "Sintomático: fisioterapia, pessário ou cirurgia"
+      ],
+      [
+       "Estádio III",
+       "> 1 cm abaixo do hímen, sem eversão completa",
+       "Pessário ou cirurgia"
+      ],
+      [
+       "Estádio IV",
+       "Eversão completa da vagina / prolapso total",
+       "Cirurgia (ou pessário/colpocleise em idosa)"
+      ]
+     ]
+    }
+   ],
+   "fonte": "FEBRASGO — Protocolo Prolapso genital (2021) / ICS/IUGA — Terminology for female pelvic organ prolapse (2016) / Bump RC — POP-Q (1996)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Ginecologia",
+   "tema": "Uroginecologia",
+   "sub": "Prolapso genital (distopias)",
+   "id": "pop-d2",
+   "tipo": "digitar",
+   "prio": "media",
+   "frente": "Qual a cirurgia obliterativa da vagina para idosas sem vida sexual?",
+   "verso": "**Colpocleise.**",
+   "resposta": "Colpocleise",
+   "aceitas": [
+    "colpocleise",
+    "colpocleisis",
+    "cirurgia de lefort",
+    "lefort"
+   ],
+   "macete": "Cleise = fechar.",
+   "uerj": "Cobra POP-Q, fatores de risco e conduta conforme sintomas.",
+   "contexto": "**Prolapso genital = descida de órgãos pélvicos pela vagina por falha das estruturas de sustentação (músculo levantador do ânus, fáscia endopélvica e ligamentos).**\n\nFatores de risco:\n- **Parto vaginal / multiparidade** (principal), idade, menopausa (hipoestrogenismo), obesidade\n- Aumento crônico da pressão abdominal → tosse crônica, constipação, esforço físico\n- Doenças do colágeno, histerectomia prévia (prolapso de cúpula)\n\nCompartimentos:\n- **Anterior** → cistocele (o mais comum)\n- **Apical** → prolapso uterino ou de cúpula vaginal\n- **Posterior** → retocele, enterocele\n\nClínica:\n- Sensação de \"bola na vagina\", peso pélvico que piora em pé e no fim do dia\n- Sintomas urinários (dificuldade de esvaziar, incontinência oculta), evacuatórios (digitação vaginal para evacuar) e sexuais\n\nClassificação:\n- **POP-Q** → pontos medidos em relação ao **hímen** (referência zero), estádios 0 a IV (tabela do contexto)\n\nTratamento:\n- **Assintomático → expectante**\n- Conservador → **fisioterapia do assoalho pélvico**, perda de peso, tratar constipação/tosse, **estrogênio vaginal** (atrofia)\n- **Pessário** → quem não quer ou não pode operar\n- Cirurgia → **colporrafia anterior** (cistocele), **colporrafia posterior** (retocele), **histerectomia vaginal** / fixação apical (sacroespinhal, sacrocolpopexia)\n- **Colpocleise** → idosa sem vida sexual e alto risco cirúrgico\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: POP-Q (referência no hímen), fatores de risco e conduta conforme sintomas.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "POP-Q (estadiamento)",
+      "Critério",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "Estádio 0",
+       "Sem prolapso",
+       "—"
+      ],
+      [
+       "Estádio I",
+       "Ponto mais distal > 1 cm ACIMA do hímen",
+       "Expectante / fisioterapia pélvica"
+      ],
+      [
+       "Estádio II",
+       "Ponto mais distal entre 1 cm acima e 1 cm abaixo do hímen",
+       "Sintomático: fisioterapia, pessário ou cirurgia"
+      ],
+      [
+       "Estádio III",
+       "> 1 cm abaixo do hímen, sem eversão completa",
+       "Pessário ou cirurgia"
+      ],
+      [
+       "Estádio IV",
+       "Eversão completa da vagina / prolapso total",
+       "Cirurgia (ou pessário/colpocleise em idosa)"
+      ]
+     ]
+    }
+   ],
+   "fonte": "FEBRASGO — Protocolo Prolapso genital (2021) / ICS/IUGA — Terminology for female pelvic organ prolapse (2016) / Bump RC — POP-Q (1996)",
+   "add": "2026-11-04"
   }
  ],
  "rev": 1793814207548
