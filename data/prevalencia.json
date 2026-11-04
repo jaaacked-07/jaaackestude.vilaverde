@@ -1707,6 +1707,62 @@
    "temas": "",
    "area": "Clínica Médica",
    "tema": "Infectologia"
+  },
+  "Sepse e choque séptico": {
+   "q": 0,
+   "pond": 0,
+   "fontes": {},
+   "temas": "",
+   "area": "Clínica Médica",
+   "tema": "Infectologia"
+  },
+  "Doença inflamatória intestinal — Crohn e retocolite ulcerativa": {
+   "q": 0,
+   "pond": 0,
+   "fontes": {},
+   "temas": "",
+   "area": "Clínica Médica",
+   "tema": "Gastroenterologia"
+  },
+  "Artrite reumatoide": {
+   "q": 0,
+   "pond": 0,
+   "fontes": {},
+   "temas": "",
+   "area": "Clínica Médica",
+   "tema": "Reumatologia"
+  },
+  "Gota e artrite por cristais": {
+   "q": 0,
+   "pond": 0,
+   "fontes": {},
+   "temas": "",
+   "area": "Clínica Médica",
+   "tema": "Reumatologia"
+  },
+  "Diabetes mellitus — tratamento do DM2 e complicações crônicas": {
+   "q": 0,
+   "pond": 0,
+   "fontes": {},
+   "temas": "",
+   "area": "Clínica Médica",
+   "tema": "Endocrinologia"
+  },
+  "Derrame pleural": {
+   "q": 0,
+   "pond": 0,
+   "fontes": {},
+   "temas": "",
+   "area": "Clínica Médica",
+   "tema": "Pneumologia"
+  },
+  "Trombose venosa profunda e anticoagulação": {
+   "q": 0,
+   "pond": 0,
+   "fontes": {},
+   "temas": "",
+   "area": "Clínica Médica",
+   "tema": "Hematologia"
   }
  }
 }
