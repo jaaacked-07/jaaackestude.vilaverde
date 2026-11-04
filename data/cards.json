@@ -63403,6 +63403,1896 @@
    ],
    "fonte": "ESVS Clinical Practice Guidelines on the Management of Diseases of the Mesenteric Arteries and Veins (2017, atualização 2025) / WSES Guidelines — Acute Mesenteric Ischemia (2022) / Sabiston Textbook of Surgery 21ª ed.",
    "add": "2026-11-04"
+  },
+  {
+   "area": "Clínica Médica",
+   "tema": "Cardiologia",
+   "sub": "Síndrome coronariana aguda — IAM com e sem supra de ST",
+   "id": "sca-01",
+   "tipo": "flash",
+   "prio": "alta",
+   "frente": "IAM com supra de ST: como reperfundir e em quanto tempo?",
+   "verso": "Raciocínio:\n- No supra de ST a coronária está totalmente ocluída: cada minuto sem fluxo é músculo que morre.\n- Abrir a artéria por cateter é mais eficaz; o trombolítico é a saída quando o cateter vai demorar.\n\n**Angioplastia primária se porta-balão ≤ 90 min (≤ 120 min com transferência).**\n**Senão → fibrinolítico com porta-agulha ≤ 30 min.**\n\nJanela:\n- Até 12 h do início dos sintomas.\n\nDepois do fibrinolítico:\n- Transferir para cateterismo em 2–24 h.",
+   "macete": "\"Balão em 90, agulha em 30\".",
+   "pegadinha": "IAM SEM supra não recebe fibrinolítico.",
+   "uerj": "Costuma cobrar a escolha entre angioplastia e fibrinolítico pelo tempo.",
+   "contexto": "**Síndrome coronariana aguda (SCA) = isquemia miocárdica aguda por ruptura de placa aterosclerótica com trombose; inclui angina instável, IAM sem supra de ST e IAM com supra de ST.**\n\nClassificação:\n- **IAM com supra de ST (IAMCSST)** → oclusão total da coronária → supra de ST em ≥ 2 derivações contíguas (ou BRE novo)\n- **IAM sem supra (IAMSSST)** → oclusão parcial; troponina ELEVADA\n- **Angina instável** → mesmo quadro sem elevação de troponina\n\nClínica:\n- Dor torácica em aperto, > 20 min, irradiada para braço esquerdo/mandíbula, com sudorese e náusea\n- Idoso, diabético e mulher → quadro atípico (dispneia, mal-estar)\n\nDiagnóstico:\n- **ECG em até 10 min** da chegada\n- Troponina (curva em 0 e 1–3 h); é o marcador de escolha\n- Paredes → inferior (DII, DIII, aVF → coronária direita), anterior (V1–V4 → descendente anterior), lateral (DI, aVL, V5–V6 → circunflexa)\n\nTratamento inicial (todos):\n- **AAS 150–300 mg mastigado** + 2º antiagregante (inibidor de P2Y12: clopidogrel, ticagrelor ou prasugrel)\n- Anticoagulante (heparina), estatina de alta potência\n- Nitrato se dor (não usar se PAS < 90, IAM de VD ou inibidor de PDE-5 recente)\n- O₂ só se SatO₂ < 90%; morfina só para dor refratária\n\nIAM com supra — reperfusão (até 12 h dos sintomas):\n- **Angioplastia primária** → preferida se porta-balão ≤ 90 min (até 120 min se transferência)\n- **Fibrinolítico** (tenecteplase, alteplase, estreptoquinase) → se a angioplastia demorar > 120 min; porta-agulha ≤ 30 min\n- Após fibrinólise → transferir para cateterismo em 2–24 h\n\nIAM sem supra:\n- Estratificar risco (troponina, alteração dinâmica do ECG, instabilidade) → cateterismo precoce (< 24 h) no alto risco; imediato (< 2 h) se instável\n- **Fibrinolítico NÃO é indicado**\n\nComplicações:\n- Arritmias (FV é a principal causa de morte precoce), choque cardiogênico, IC\n- Mecânicas (3º–7º dia) → ruptura de músculo papilar (insuficiência mitral aguda), CIV, ruptura de parede livre (tamponamento)\n- IAM de VD (inferior) → hipotensão com pulmão limpo → volume; evitar nitrato\n\nAlta:\n- AAS + P2Y12 por 12 meses, betabloqueador, IECA, estatina de alta potência, reabilitação\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: reperfusão (angioplastia × fibrinolítico), contraindicações ao nitrato e fibrinolítico só no IAM COM supra.",
+   "ctxvisual": [
+    {
+     "tipo": "fluxo",
+     "passos": [
+      "Dor torácica → ECG em 10 min",
+      [
+       "Supra de ST → reperfusão já",
+       "Sem supra → troponina + risco"
+      ],
+      [
+       "Angioplastia ≤ 90–120 min",
+       "Senão fibrinolítico ≤ 30 min"
+      ]
+     ]
+    },
+    {
+     "tipo": "tabela",
+     "cab": [
+      "Parede",
+      "Derivações",
+      "Artéria"
+     ],
+     "linhas": [
+      [
+       "Inferior",
+       "DII, DIII, aVF",
+       "Coronária direita"
+      ],
+      [
+       "Anterior",
+       "V1–V4",
+       "Descendente anterior"
+      ],
+      [
+       "Lateral",
+       "DI, aVL, V5–V6",
+       "Circunflexa"
+      ]
+     ]
+    }
+   ],
+   "fonte": "SBC — Diretriz de IAM com supra de ST (2015, atualização 2021) / ESC Guidelines for ACS (2023) / AHA/ACC STEMI 2025",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Clínica Médica",
+   "tema": "Cardiologia",
+   "sub": "Síndrome coronariana aguda — IAM com e sem supra de ST",
+   "id": "sca-02",
+   "tipo": "flash",
+   "prio": "alta",
+   "frente": "Quando NÃO dar nitrato na síndrome coronariana aguda?",
+   "verso": "Raciocínio:\n- O nitrato dilata as veias e reduz a pré-carga.\n- Se o coração depende do enchimento (VD infartado, hipotensão), a pressão despenca.\n\n**PAS < 90 mmHg.**\n**IAM de ventrículo direito.**\n**Uso de inibidor de PDE-5 (sildenafila 24 h; tadalafila 48 h).**\n\nIAM de VD:\n- IAM inferior + hipotensão + jugular túrgida + pulmão limpo.\n- Conduta → volume.",
+   "macete": "\"Hipotenso, VD ou Viagra: sem nitrato\".",
+   "pegadinha": "Pedir V3R e V4R no IAM inferior para ver o VD.",
+   "visual": {
+    "tipo": "vs",
+    "a": {
+     "t": "IAM de VE (anterior)",
+     "itens": [
+      "Congestão pulmonar",
+      "Nitrato e diurético ajudam"
+     ]
+    },
+    "b": {
+     "t": "IAM de VD (inferior)",
+     "itens": [
+      "Pulmão limpo + jugular cheia",
+      "Volume; evitar nitrato"
+     ]
+    }
+   },
+   "contexto": "**Síndrome coronariana aguda (SCA) = isquemia miocárdica aguda por ruptura de placa aterosclerótica com trombose; inclui angina instável, IAM sem supra de ST e IAM com supra de ST.**\n\nClassificação:\n- **IAM com supra de ST (IAMCSST)** → oclusão total da coronária → supra de ST em ≥ 2 derivações contíguas (ou BRE novo)\n- **IAM sem supra (IAMSSST)** → oclusão parcial; troponina ELEVADA\n- **Angina instável** → mesmo quadro sem elevação de troponina\n\nClínica:\n- Dor torácica em aperto, > 20 min, irradiada para braço esquerdo/mandíbula, com sudorese e náusea\n- Idoso, diabético e mulher → quadro atípico (dispneia, mal-estar)\n\nDiagnóstico:\n- **ECG em até 10 min** da chegada\n- Troponina (curva em 0 e 1–3 h); é o marcador de escolha\n- Paredes → inferior (DII, DIII, aVF → coronária direita), anterior (V1–V4 → descendente anterior), lateral (DI, aVL, V5–V6 → circunflexa)\n\nTratamento inicial (todos):\n- **AAS 150–300 mg mastigado** + 2º antiagregante (inibidor de P2Y12: clopidogrel, ticagrelor ou prasugrel)\n- Anticoagulante (heparina), estatina de alta potência\n- Nitrato se dor (não usar se PAS < 90, IAM de VD ou inibidor de PDE-5 recente)\n- O₂ só se SatO₂ < 90%; morfina só para dor refratária\n\nIAM com supra — reperfusão (até 12 h dos sintomas):\n- **Angioplastia primária** → preferida se porta-balão ≤ 90 min (até 120 min se transferência)\n- **Fibrinolítico** (tenecteplase, alteplase, estreptoquinase) → se a angioplastia demorar > 120 min; porta-agulha ≤ 30 min\n- Após fibrinólise → transferir para cateterismo em 2–24 h\n\nIAM sem supra:\n- Estratificar risco (troponina, alteração dinâmica do ECG, instabilidade) → cateterismo precoce (< 24 h) no alto risco; imediato (< 2 h) se instável\n- **Fibrinolítico NÃO é indicado**\n\nComplicações:\n- Arritmias (FV é a principal causa de morte precoce), choque cardiogênico, IC\n- Mecânicas (3º–7º dia) → ruptura de músculo papilar (insuficiência mitral aguda), CIV, ruptura de parede livre (tamponamento)\n- IAM de VD (inferior) → hipotensão com pulmão limpo → volume; evitar nitrato\n\nAlta:\n- AAS + P2Y12 por 12 meses, betabloqueador, IECA, estatina de alta potência, reabilitação\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: reperfusão (angioplastia × fibrinolítico), contraindicações ao nitrato e fibrinolítico só no IAM COM supra.",
+   "ctxvisual": [
+    {
+     "tipo": "fluxo",
+     "passos": [
+      "Dor torácica → ECG em 10 min",
+      [
+       "Supra de ST → reperfusão já",
+       "Sem supra → troponina + risco"
+      ],
+      [
+       "Angioplastia ≤ 90–120 min",
+       "Senão fibrinolítico ≤ 30 min"
+      ]
+     ]
+    },
+    {
+     "tipo": "tabela",
+     "cab": [
+      "Parede",
+      "Derivações",
+      "Artéria"
+     ],
+     "linhas": [
+      [
+       "Inferior",
+       "DII, DIII, aVF",
+       "Coronária direita"
+      ],
+      [
+       "Anterior",
+       "V1–V4",
+       "Descendente anterior"
+      ],
+      [
+       "Lateral",
+       "DI, aVL, V5–V6",
+       "Circunflexa"
+      ]
+     ]
+    }
+   ],
+   "fonte": "SBC — Diretriz de IAM com supra de ST (2015, atualização 2021) / ESC Guidelines for ACS (2023) / AHA/ACC STEMI 2025",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Clínica Médica",
+   "tema": "Cardiologia",
+   "sub": "Síndrome coronariana aguda — IAM com e sem supra de ST",
+   "tipo": "quiz",
+   "frente": "Sobre a síndrome coronariana aguda, analise: I. O ECG deve ser feito em até 10 minutos da chegada. II. O fibrinolítico está indicado no IAM sem supra de ST com troponina elevada. III. Oxigênio deve ser dado a todos os pacientes, mesmo com SatO₂ normal. Está(ão) correta(s):",
+   "opcoes": [
+    "Apenas I e II.",
+    "Apenas I e III.",
+    "Apenas II e III.",
+    "Apenas I."
+   ],
+   "certa": 3,
+   "comentarios": [
+    "II é falsa.",
+    "III é falsa.",
+    "II e III são falsas.",
+    "Correta. II é falsa (fibrinolítico só no supra); III é falsa (O₂ só se SatO₂ < 90%)."
+   ],
+   "id": "sca-q1",
+   "prio": "alta",
+   "base": "- O ECG decide se há oclusão total (supra) e a urgência de reperfundir.\n- No IAM sem supra o trombo não oclui tudo: fibrinolítico não traz benefício e aumenta sangramento.\n- O₂ em quem não está hipoxêmico causa vasoconstrição coronária e não ajuda.",
+   "macete": "\"ECG em 10; trombolítico só no supra; O₂ só se < 90\".",
+   "pegadinha": "O₂ de rotina não é mais indicado.",
+   "contexto": "**Síndrome coronariana aguda (SCA) = isquemia miocárdica aguda por ruptura de placa aterosclerótica com trombose; inclui angina instável, IAM sem supra de ST e IAM com supra de ST.**\n\nClassificação:\n- **IAM com supra de ST (IAMCSST)** → oclusão total da coronária → supra de ST em ≥ 2 derivações contíguas (ou BRE novo)\n- **IAM sem supra (IAMSSST)** → oclusão parcial; troponina ELEVADA\n- **Angina instável** → mesmo quadro sem elevação de troponina\n\nClínica:\n- Dor torácica em aperto, > 20 min, irradiada para braço esquerdo/mandíbula, com sudorese e náusea\n- Idoso, diabético e mulher → quadro atípico (dispneia, mal-estar)\n\nDiagnóstico:\n- **ECG em até 10 min** da chegada\n- Troponina (curva em 0 e 1–3 h); é o marcador de escolha\n- Paredes → inferior (DII, DIII, aVF → coronária direita), anterior (V1–V4 → descendente anterior), lateral (DI, aVL, V5–V6 → circunflexa)\n\nTratamento inicial (todos):\n- **AAS 150–300 mg mastigado** + 2º antiagregante (inibidor de P2Y12: clopidogrel, ticagrelor ou prasugrel)\n- Anticoagulante (heparina), estatina de alta potência\n- Nitrato se dor (não usar se PAS < 90, IAM de VD ou inibidor de PDE-5 recente)\n- O₂ só se SatO₂ < 90%; morfina só para dor refratária\n\nIAM com supra — reperfusão (até 12 h dos sintomas):\n- **Angioplastia primária** → preferida se porta-balão ≤ 90 min (até 120 min se transferência)\n- **Fibrinolítico** (tenecteplase, alteplase, estreptoquinase) → se a angioplastia demorar > 120 min; porta-agulha ≤ 30 min\n- Após fibrinólise → transferir para cateterismo em 2–24 h\n\nIAM sem supra:\n- Estratificar risco (troponina, alteração dinâmica do ECG, instabilidade) → cateterismo precoce (< 24 h) no alto risco; imediato (< 2 h) se instável\n- **Fibrinolítico NÃO é indicado**\n\nComplicações:\n- Arritmias (FV é a principal causa de morte precoce), choque cardiogênico, IC\n- Mecânicas (3º–7º dia) → ruptura de músculo papilar (insuficiência mitral aguda), CIV, ruptura de parede livre (tamponamento)\n- IAM de VD (inferior) → hipotensão com pulmão limpo → volume; evitar nitrato\n\nAlta:\n- AAS + P2Y12 por 12 meses, betabloqueador, IECA, estatina de alta potência, reabilitação\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: reperfusão (angioplastia × fibrinolítico), contraindicações ao nitrato e fibrinolítico só no IAM COM supra.",
+   "ctxvisual": [
+    {
+     "tipo": "fluxo",
+     "passos": [
+      "Dor torácica → ECG em 10 min",
+      [
+       "Supra de ST → reperfusão já",
+       "Sem supra → troponina + risco"
+      ],
+      [
+       "Angioplastia ≤ 90–120 min",
+       "Senão fibrinolítico ≤ 30 min"
+      ]
+     ]
+    },
+    {
+     "tipo": "tabela",
+     "cab": [
+      "Parede",
+      "Derivações",
+      "Artéria"
+     ],
+     "linhas": [
+      [
+       "Inferior",
+       "DII, DIII, aVF",
+       "Coronária direita"
+      ],
+      [
+       "Anterior",
+       "V1–V4",
+       "Descendente anterior"
+      ],
+      [
+       "Lateral",
+       "DI, aVL, V5–V6",
+       "Circunflexa"
+      ]
+     ]
+    }
+   ],
+   "fonte": "SBC — Diretriz de IAM com supra de ST (2015, atualização 2021) / ESC Guidelines for ACS (2023) / AHA/ACC STEMI 2025",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Clínica Médica",
+   "tema": "Cardiologia",
+   "sub": "Síndrome coronariana aguda — IAM com e sem supra de ST",
+   "id": "sca-d1",
+   "tipo": "digitar",
+   "prio": "alta",
+   "frente": "Qual o marcador de escolha para diagnosticar IAM?",
+   "verso": "**Troponina.**\n\n- Sobe em 3–6 h; dosar na chegada e repetir em 1–3 h.",
+   "resposta": "Troponina",
+   "aceitas": [
+    "troponina",
+    "troponina i",
+    "troponina t",
+    "troponina ultrassensível"
+   ],
+   "macete": "Troponina = \"tropa\" do infarto.",
+   "contexto": "**Síndrome coronariana aguda (SCA) = isquemia miocárdica aguda por ruptura de placa aterosclerótica com trombose; inclui angina instável, IAM sem supra de ST e IAM com supra de ST.**\n\nClassificação:\n- **IAM com supra de ST (IAMCSST)** → oclusão total da coronária → supra de ST em ≥ 2 derivações contíguas (ou BRE novo)\n- **IAM sem supra (IAMSSST)** → oclusão parcial; troponina ELEVADA\n- **Angina instável** → mesmo quadro sem elevação de troponina\n\nClínica:\n- Dor torácica em aperto, > 20 min, irradiada para braço esquerdo/mandíbula, com sudorese e náusea\n- Idoso, diabético e mulher → quadro atípico (dispneia, mal-estar)\n\nDiagnóstico:\n- **ECG em até 10 min** da chegada\n- Troponina (curva em 0 e 1–3 h); é o marcador de escolha\n- Paredes → inferior (DII, DIII, aVF → coronária direita), anterior (V1–V4 → descendente anterior), lateral (DI, aVL, V5–V6 → circunflexa)\n\nTratamento inicial (todos):\n- **AAS 150–300 mg mastigado** + 2º antiagregante (inibidor de P2Y12: clopidogrel, ticagrelor ou prasugrel)\n- Anticoagulante (heparina), estatina de alta potência\n- Nitrato se dor (não usar se PAS < 90, IAM de VD ou inibidor de PDE-5 recente)\n- O₂ só se SatO₂ < 90%; morfina só para dor refratária\n\nIAM com supra — reperfusão (até 12 h dos sintomas):\n- **Angioplastia primária** → preferida se porta-balão ≤ 90 min (até 120 min se transferência)\n- **Fibrinolítico** (tenecteplase, alteplase, estreptoquinase) → se a angioplastia demorar > 120 min; porta-agulha ≤ 30 min\n- Após fibrinólise → transferir para cateterismo em 2–24 h\n\nIAM sem supra:\n- Estratificar risco (troponina, alteração dinâmica do ECG, instabilidade) → cateterismo precoce (< 24 h) no alto risco; imediato (< 2 h) se instável\n- **Fibrinolítico NÃO é indicado**\n\nComplicações:\n- Arritmias (FV é a principal causa de morte precoce), choque cardiogênico, IC\n- Mecânicas (3º–7º dia) → ruptura de músculo papilar (insuficiência mitral aguda), CIV, ruptura de parede livre (tamponamento)\n- IAM de VD (inferior) → hipotensão com pulmão limpo → volume; evitar nitrato\n\nAlta:\n- AAS + P2Y12 por 12 meses, betabloqueador, IECA, estatina de alta potência, reabilitação\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: reperfusão (angioplastia × fibrinolítico), contraindicações ao nitrato e fibrinolítico só no IAM COM supra.",
+   "ctxvisual": [
+    {
+     "tipo": "fluxo",
+     "passos": [
+      "Dor torácica → ECG em 10 min",
+      [
+       "Supra de ST → reperfusão já",
+       "Sem supra → troponina + risco"
+      ],
+      [
+       "Angioplastia ≤ 90–120 min",
+       "Senão fibrinolítico ≤ 30 min"
+      ]
+     ]
+    },
+    {
+     "tipo": "tabela",
+     "cab": [
+      "Parede",
+      "Derivações",
+      "Artéria"
+     ],
+     "linhas": [
+      [
+       "Inferior",
+       "DII, DIII, aVF",
+       "Coronária direita"
+      ],
+      [
+       "Anterior",
+       "V1–V4",
+       "Descendente anterior"
+      ],
+      [
+       "Lateral",
+       "DI, aVL, V5–V6",
+       "Circunflexa"
+      ]
+     ]
+    }
+   ],
+   "fonte": "SBC — Diretriz de IAM com supra de ST (2015, atualização 2021) / ESC Guidelines for ACS (2023) / AHA/ACC STEMI 2025",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Clínica Médica",
+   "tema": "Cardiologia",
+   "sub": "Síndrome coronariana aguda — IAM com e sem supra de ST",
+   "id": "sca-d2",
+   "tipo": "digitar",
+   "prio": "alta",
+   "frente": "Qual a coronária geralmente ocluída no IAM de parede inferior?",
+   "verso": "**Coronária direita.**\n\n- Derivações DII, DIII e aVF.",
+   "resposta": "Coronária direita",
+   "aceitas": [
+    "coronaria direita",
+    "cd",
+    "direita",
+    "artéria coronária direita"
+   ],
+   "macete": "Inferior → Direita.",
+   "contexto": "**Síndrome coronariana aguda (SCA) = isquemia miocárdica aguda por ruptura de placa aterosclerótica com trombose; inclui angina instável, IAM sem supra de ST e IAM com supra de ST.**\n\nClassificação:\n- **IAM com supra de ST (IAMCSST)** → oclusão total da coronária → supra de ST em ≥ 2 derivações contíguas (ou BRE novo)\n- **IAM sem supra (IAMSSST)** → oclusão parcial; troponina ELEVADA\n- **Angina instável** → mesmo quadro sem elevação de troponina\n\nClínica:\n- Dor torácica em aperto, > 20 min, irradiada para braço esquerdo/mandíbula, com sudorese e náusea\n- Idoso, diabético e mulher → quadro atípico (dispneia, mal-estar)\n\nDiagnóstico:\n- **ECG em até 10 min** da chegada\n- Troponina (curva em 0 e 1–3 h); é o marcador de escolha\n- Paredes → inferior (DII, DIII, aVF → coronária direita), anterior (V1–V4 → descendente anterior), lateral (DI, aVL, V5–V6 → circunflexa)\n\nTratamento inicial (todos):\n- **AAS 150–300 mg mastigado** + 2º antiagregante (inibidor de P2Y12: clopidogrel, ticagrelor ou prasugrel)\n- Anticoagulante (heparina), estatina de alta potência\n- Nitrato se dor (não usar se PAS < 90, IAM de VD ou inibidor de PDE-5 recente)\n- O₂ só se SatO₂ < 90%; morfina só para dor refratária\n\nIAM com supra — reperfusão (até 12 h dos sintomas):\n- **Angioplastia primária** → preferida se porta-balão ≤ 90 min (até 120 min se transferência)\n- **Fibrinolítico** (tenecteplase, alteplase, estreptoquinase) → se a angioplastia demorar > 120 min; porta-agulha ≤ 30 min\n- Após fibrinólise → transferir para cateterismo em 2–24 h\n\nIAM sem supra:\n- Estratificar risco (troponina, alteração dinâmica do ECG, instabilidade) → cateterismo precoce (< 24 h) no alto risco; imediato (< 2 h) se instável\n- **Fibrinolítico NÃO é indicado**\n\nComplicações:\n- Arritmias (FV é a principal causa de morte precoce), choque cardiogênico, IC\n- Mecânicas (3º–7º dia) → ruptura de músculo papilar (insuficiência mitral aguda), CIV, ruptura de parede livre (tamponamento)\n- IAM de VD (inferior) → hipotensão com pulmão limpo → volume; evitar nitrato\n\nAlta:\n- AAS + P2Y12 por 12 meses, betabloqueador, IECA, estatina de alta potência, reabilitação\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: reperfusão (angioplastia × fibrinolítico), contraindicações ao nitrato e fibrinolítico só no IAM COM supra.",
+   "ctxvisual": [
+    {
+     "tipo": "fluxo",
+     "passos": [
+      "Dor torácica → ECG em 10 min",
+      [
+       "Supra de ST → reperfusão já",
+       "Sem supra → troponina + risco"
+      ],
+      [
+       "Angioplastia ≤ 90–120 min",
+       "Senão fibrinolítico ≤ 30 min"
+      ]
+     ]
+    },
+    {
+     "tipo": "tabela",
+     "cab": [
+      "Parede",
+      "Derivações",
+      "Artéria"
+     ],
+     "linhas": [
+      [
+       "Inferior",
+       "DII, DIII, aVF",
+       "Coronária direita"
+      ],
+      [
+       "Anterior",
+       "V1–V4",
+       "Descendente anterior"
+      ],
+      [
+       "Lateral",
+       "DI, aVL, V5–V6",
+       "Circunflexa"
+      ]
+     ]
+    }
+   ],
+   "fonte": "SBC — Diretriz de IAM com supra de ST (2015, atualização 2021) / ESC Guidelines for ACS (2023) / AHA/ACC STEMI 2025",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Clínica Médica",
+   "tema": "Cardiologia",
+   "sub": "Fibrilação atrial e taquiarritmias",
+   "id": "fa-01",
+   "tipo": "flash",
+   "prio": "alta",
+   "frente": "FA há mais de 48 horas, estável: o que fazer antes de cardioverter?",
+   "verso": "Raciocínio:\n- Depois de ~48 h com o átrio parado, já pode haver trombo no apêndice atrial esquerdo.\n- Ao voltar a contrair (cardioversão), o átrio pode soltar esse trombo → AVC.\n\n**Anticoagular 3 semanas antes OU ecotransesofágico sem trombo.**\n**Manter anticoagulação por 4 semanas depois.**\n\nFA < 48 h:\n- Pode cardioverter (com anticoagulação).\n\nInstável:\n- Cardioversão elétrica imediata, independentemente do tempo.",
+   "macete": "\"48 horas = 3 semanas antes e 4 depois\".",
+   "pegadinha": "A instabilidade passa por cima da regra das 48 h.",
+   "contexto": "**Fibrilação atrial (FA) = arritmia sustentada mais comum: atividade elétrica atrial desorganizada, sem contração efetiva do átrio, com ritmo ventricular irregularmente irregular.**\n\nECG da FA:\n- RR irregular, ausência de onda P, ondas f na linha de base\n\nPor que importa:\n- Sangue parado no átrio (sobretudo no apêndice atrial esquerdo) → trombo → **AVC embólico**\n- FC alta → IC (taquicardiomiopatia)\n\nCausas e fatores:\n- Idade, HAS, valvopatia mitral, IC, hipertireoidismo, álcool (\"holiday heart\"), apneia do sono, pós-operatório\n\nConduta inicial:\n- **Instável** (hipotensão, dor anginosa, EAP, rebaixamento) → **cardioversão elétrica sincronizada**\n- **Estável** → controlar a frequência (betabloqueador, diltiazem/verapamil; digoxina na IC) e decidir ritmo × frequência\n\nCardioversão eletiva (estável):\n- FA < 48 h → pode cardioverter (com anticoagulação)\n- FA ≥ 48 h ou tempo desconhecido → anticoagular 3 semanas antes OU ecocardiograma transesofágico sem trombo; manter 4 semanas depois\n\nAnticoagulação crônica:\n- Decidida pelo escore CHA₂DS₂-VASc (tabela do contexto)\n- Homem ≥ 2 ou mulher ≥ 3 → anticoagular; 1 (homem)/2 (mulher) → considerar\n- **DOAC** (apixabana, rivaroxabana, dabigatrana) preferidos\n- **Varfarina obrigatória** → estenose mitral moderada/grave ou prótese mecânica\n- AAS NÃO substitui anticoagulação\n\nOutras taquiarritmias:\n- **Flutter atrial** → ondas F \"em dente de serra\" (DII, DIII, aVF), FC ~150; mesmo manejo de anticoagulação da FA\n- **TSV (reentrada nodal)** → QRS estreito regular ~180; manobra vagal → adenosina → (instável: cardioversão)\n- **Taquicardia ventricular** → QRS largo; com pulso estável → amiodarona; instável → cardioversão; sem pulso → desfibrilação (ACLS)\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: conduta na FA instável, regra das 48 h e CHA₂DS₂-VASc.",
+   "ctxvisual": [
+    {
+     "tipo": "fluxo",
+     "passos": [
+      "Taquiarritmia",
+      [
+       "Instável → cardioversão elétrica sincronizada",
+       "Estável → QRS estreito ou largo?"
+      ],
+      [
+       "Estreito irregular → FA: controlar FC + anticoagular",
+       "Estreito regular → manobra vagal, adenosina",
+       "Largo → amiodarona (TV)"
+      ]
+     ]
+    },
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "CHA₂DS₂-VASc",
+      "Critério",
+      "Pontos / conduta"
+     ],
+     "linhas": [
+      [
+       "C",
+       "IC ou disfunção de VE",
+       "1 ponto"
+      ],
+      [
+       "H",
+       "Hipertensão",
+       "1 ponto"
+      ],
+      [
+       "A₂",
+       "Idade ≥ 75 anos",
+       "2 pontos"
+      ],
+      [
+       "D",
+       "Diabetes",
+       "1 ponto"
+      ],
+      [
+       "S₂",
+       "AVC, AIT ou embolia prévia",
+       "2 pontos"
+      ],
+      [
+       "V",
+       "Doença vascular (IAM, DAP, placa aórtica)",
+       "1 ponto"
+      ],
+      [
+       "A",
+       "Idade 65–74 anos",
+       "1 ponto"
+      ],
+      [
+       "Sc",
+       "Sexo feminino",
+       "1 ponto"
+      ],
+      [
+       "Total 0 (H) / 1 (M)",
+       "Baixo risco",
+       "Não anticoagular"
+      ],
+      [
+       "Total 1 (H) / 2 (M)",
+       "Intermediário",
+       "Considerar anticoagular"
+      ],
+      [
+       "Total ≥ 2 (H) / ≥ 3 (M)",
+       "Alto risco",
+       "Anticoagular (DOAC preferido)"
+      ]
+     ]
+    }
+   ],
+   "fonte": "SBC — Diretriz Brasileira de Fibrilação Atrial (2016, atualização 2024) / ESC Guidelines for AF (2024) / AHA ACLS (2020)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Clínica Médica",
+   "tema": "Cardiologia",
+   "sub": "Fibrilação atrial e taquiarritmias",
+   "id": "fa-02",
+   "tipo": "flash",
+   "prio": "alta",
+   "frente": "CHA₂DS₂-VASc: quando anticoagular e com quê?",
+   "verso": "Raciocínio:\n- Cada item aumenta o risco de formar trombo no átrio e embolizar para o cérebro.\n- O benefício da anticoagulação só supera o risco de sangrar a partir de certo escore.\n\n**Homem ≥ 2 ou mulher ≥ 3 → anticoagular.**\n**DOAC é preferido à varfarina.**\n\nVarfarina obrigatória:\n- Estenose mitral moderada/grave.\n- Prótese valvar mecânica.\n\nAAS:\n- Não serve para prevenir AVC na FA.",
+   "macete": "\"Dois no homem, três na mulher\" (o sexo feminino já vale 1).",
+   "pegadinha": "DOAC é contraindicado na prótese mecânica.",
+   "contexto": "**Fibrilação atrial (FA) = arritmia sustentada mais comum: atividade elétrica atrial desorganizada, sem contração efetiva do átrio, com ritmo ventricular irregularmente irregular.**\n\nECG da FA:\n- RR irregular, ausência de onda P, ondas f na linha de base\n\nPor que importa:\n- Sangue parado no átrio (sobretudo no apêndice atrial esquerdo) → trombo → **AVC embólico**\n- FC alta → IC (taquicardiomiopatia)\n\nCausas e fatores:\n- Idade, HAS, valvopatia mitral, IC, hipertireoidismo, álcool (\"holiday heart\"), apneia do sono, pós-operatório\n\nConduta inicial:\n- **Instável** (hipotensão, dor anginosa, EAP, rebaixamento) → **cardioversão elétrica sincronizada**\n- **Estável** → controlar a frequência (betabloqueador, diltiazem/verapamil; digoxina na IC) e decidir ritmo × frequência\n\nCardioversão eletiva (estável):\n- FA < 48 h → pode cardioverter (com anticoagulação)\n- FA ≥ 48 h ou tempo desconhecido → anticoagular 3 semanas antes OU ecocardiograma transesofágico sem trombo; manter 4 semanas depois\n\nAnticoagulação crônica:\n- Decidida pelo escore CHA₂DS₂-VASc (tabela do contexto)\n- Homem ≥ 2 ou mulher ≥ 3 → anticoagular; 1 (homem)/2 (mulher) → considerar\n- **DOAC** (apixabana, rivaroxabana, dabigatrana) preferidos\n- **Varfarina obrigatória** → estenose mitral moderada/grave ou prótese mecânica\n- AAS NÃO substitui anticoagulação\n\nOutras taquiarritmias:\n- **Flutter atrial** → ondas F \"em dente de serra\" (DII, DIII, aVF), FC ~150; mesmo manejo de anticoagulação da FA\n- **TSV (reentrada nodal)** → QRS estreito regular ~180; manobra vagal → adenosina → (instável: cardioversão)\n- **Taquicardia ventricular** → QRS largo; com pulso estável → amiodarona; instável → cardioversão; sem pulso → desfibrilação (ACLS)\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: conduta na FA instável, regra das 48 h e CHA₂DS₂-VASc.",
+   "ctxvisual": [
+    {
+     "tipo": "fluxo",
+     "passos": [
+      "Taquiarritmia",
+      [
+       "Instável → cardioversão elétrica sincronizada",
+       "Estável → QRS estreito ou largo?"
+      ],
+      [
+       "Estreito irregular → FA: controlar FC + anticoagular",
+       "Estreito regular → manobra vagal, adenosina",
+       "Largo → amiodarona (TV)"
+      ]
+     ]
+    },
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "CHA₂DS₂-VASc",
+      "Critério",
+      "Pontos / conduta"
+     ],
+     "linhas": [
+      [
+       "C",
+       "IC ou disfunção de VE",
+       "1 ponto"
+      ],
+      [
+       "H",
+       "Hipertensão",
+       "1 ponto"
+      ],
+      [
+       "A₂",
+       "Idade ≥ 75 anos",
+       "2 pontos"
+      ],
+      [
+       "D",
+       "Diabetes",
+       "1 ponto"
+      ],
+      [
+       "S₂",
+       "AVC, AIT ou embolia prévia",
+       "2 pontos"
+      ],
+      [
+       "V",
+       "Doença vascular (IAM, DAP, placa aórtica)",
+       "1 ponto"
+      ],
+      [
+       "A",
+       "Idade 65–74 anos",
+       "1 ponto"
+      ],
+      [
+       "Sc",
+       "Sexo feminino",
+       "1 ponto"
+      ],
+      [
+       "Total 0 (H) / 1 (M)",
+       "Baixo risco",
+       "Não anticoagular"
+      ],
+      [
+       "Total 1 (H) / 2 (M)",
+       "Intermediário",
+       "Considerar anticoagular"
+      ],
+      [
+       "Total ≥ 2 (H) / ≥ 3 (M)",
+       "Alto risco",
+       "Anticoagular (DOAC preferido)"
+      ]
+     ]
+    }
+   ],
+   "fonte": "SBC — Diretriz Brasileira de Fibrilação Atrial (2016, atualização 2024) / ESC Guidelines for AF (2024) / AHA ACLS (2020)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Clínica Médica",
+   "tema": "Cardiologia",
+   "sub": "Fibrilação atrial e taquiarritmias",
+   "tipo": "quiz",
+   "frente": "Sobre a fibrilação atrial, analise: I. Paciente instável deve ser submetido a cardioversão elétrica sincronizada. II. O AAS é alternativa adequada à anticoagulação para prevenir AVC. III. Na estenose mitral moderada a grave, o anticoagulante indicado é a varfarina. Está(ão) correta(s):",
+   "opcoes": [
+    "Apenas I e II.",
+    "Apenas I e III.",
+    "Apenas II e III.",
+    "I, II e III."
+   ],
+   "certa": 1,
+   "comentarios": [
+    "II é falsa.",
+    "Correta. II é falsa: AAS não previne AVC na FA de forma adequada.",
+    "II é falsa.",
+    "II é falsa."
+   ],
+   "id": "fa-q1",
+   "prio": "alta",
+   "base": "- Instável = o coração não está mantendo a perfusão → resolver o ritmo na hora (choque).\n- O trombo da FA é de estase (vermelho, de fibrina) → precisa de anticoagulante, não de antiagregante.\n- Os DOAC não foram estudados na estenose mitral reumática → varfarina.",
+   "macete": "\"Instável = choque; trombo de estase = anticoagulante\".",
+   "pegadinha": "AAS não substitui anticoagulante.",
+   "contexto": "**Fibrilação atrial (FA) = arritmia sustentada mais comum: atividade elétrica atrial desorganizada, sem contração efetiva do átrio, com ritmo ventricular irregularmente irregular.**\n\nECG da FA:\n- RR irregular, ausência de onda P, ondas f na linha de base\n\nPor que importa:\n- Sangue parado no átrio (sobretudo no apêndice atrial esquerdo) → trombo → **AVC embólico**\n- FC alta → IC (taquicardiomiopatia)\n\nCausas e fatores:\n- Idade, HAS, valvopatia mitral, IC, hipertireoidismo, álcool (\"holiday heart\"), apneia do sono, pós-operatório\n\nConduta inicial:\n- **Instável** (hipotensão, dor anginosa, EAP, rebaixamento) → **cardioversão elétrica sincronizada**\n- **Estável** → controlar a frequência (betabloqueador, diltiazem/verapamil; digoxina na IC) e decidir ritmo × frequência\n\nCardioversão eletiva (estável):\n- FA < 48 h → pode cardioverter (com anticoagulação)\n- FA ≥ 48 h ou tempo desconhecido → anticoagular 3 semanas antes OU ecocardiograma transesofágico sem trombo; manter 4 semanas depois\n\nAnticoagulação crônica:\n- Decidida pelo escore CHA₂DS₂-VASc (tabela do contexto)\n- Homem ≥ 2 ou mulher ≥ 3 → anticoagular; 1 (homem)/2 (mulher) → considerar\n- **DOAC** (apixabana, rivaroxabana, dabigatrana) preferidos\n- **Varfarina obrigatória** → estenose mitral moderada/grave ou prótese mecânica\n- AAS NÃO substitui anticoagulação\n\nOutras taquiarritmias:\n- **Flutter atrial** → ondas F \"em dente de serra\" (DII, DIII, aVF), FC ~150; mesmo manejo de anticoagulação da FA\n- **TSV (reentrada nodal)** → QRS estreito regular ~180; manobra vagal → adenosina → (instável: cardioversão)\n- **Taquicardia ventricular** → QRS largo; com pulso estável → amiodarona; instável → cardioversão; sem pulso → desfibrilação (ACLS)\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: conduta na FA instável, regra das 48 h e CHA₂DS₂-VASc.",
+   "ctxvisual": [
+    {
+     "tipo": "fluxo",
+     "passos": [
+      "Taquiarritmia",
+      [
+       "Instável → cardioversão elétrica sincronizada",
+       "Estável → QRS estreito ou largo?"
+      ],
+      [
+       "Estreito irregular → FA: controlar FC + anticoagular",
+       "Estreito regular → manobra vagal, adenosina",
+       "Largo → amiodarona (TV)"
+      ]
+     ]
+    },
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "CHA₂DS₂-VASc",
+      "Critério",
+      "Pontos / conduta"
+     ],
+     "linhas": [
+      [
+       "C",
+       "IC ou disfunção de VE",
+       "1 ponto"
+      ],
+      [
+       "H",
+       "Hipertensão",
+       "1 ponto"
+      ],
+      [
+       "A₂",
+       "Idade ≥ 75 anos",
+       "2 pontos"
+      ],
+      [
+       "D",
+       "Diabetes",
+       "1 ponto"
+      ],
+      [
+       "S₂",
+       "AVC, AIT ou embolia prévia",
+       "2 pontos"
+      ],
+      [
+       "V",
+       "Doença vascular (IAM, DAP, placa aórtica)",
+       "1 ponto"
+      ],
+      [
+       "A",
+       "Idade 65–74 anos",
+       "1 ponto"
+      ],
+      [
+       "Sc",
+       "Sexo feminino",
+       "1 ponto"
+      ],
+      [
+       "Total 0 (H) / 1 (M)",
+       "Baixo risco",
+       "Não anticoagular"
+      ],
+      [
+       "Total 1 (H) / 2 (M)",
+       "Intermediário",
+       "Considerar anticoagular"
+      ],
+      [
+       "Total ≥ 2 (H) / ≥ 3 (M)",
+       "Alto risco",
+       "Anticoagular (DOAC preferido)"
+      ]
+     ]
+    }
+   ],
+   "fonte": "SBC — Diretriz Brasileira de Fibrilação Atrial (2016, atualização 2024) / ESC Guidelines for AF (2024) / AHA ACLS (2020)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Clínica Médica",
+   "tema": "Cardiologia",
+   "sub": "Fibrilação atrial e taquiarritmias",
+   "id": "fa-d1",
+   "tipo": "digitar",
+   "prio": "alta",
+   "frente": "Qual o tratamento da FA com instabilidade hemodinâmica?",
+   "verso": "**Cardioversão elétrica sincronizada.**",
+   "resposta": "Cardioversão elétrica",
+   "aceitas": [
+    "cardioversão elétrica sincronizada",
+    "cardioversao eletrica",
+    "cardioversão",
+    "cve"
+   ],
+   "macete": "Instável → choque sincronizado.",
+   "contexto": "**Fibrilação atrial (FA) = arritmia sustentada mais comum: atividade elétrica atrial desorganizada, sem contração efetiva do átrio, com ritmo ventricular irregularmente irregular.**\n\nECG da FA:\n- RR irregular, ausência de onda P, ondas f na linha de base\n\nPor que importa:\n- Sangue parado no átrio (sobretudo no apêndice atrial esquerdo) → trombo → **AVC embólico**\n- FC alta → IC (taquicardiomiopatia)\n\nCausas e fatores:\n- Idade, HAS, valvopatia mitral, IC, hipertireoidismo, álcool (\"holiday heart\"), apneia do sono, pós-operatório\n\nConduta inicial:\n- **Instável** (hipotensão, dor anginosa, EAP, rebaixamento) → **cardioversão elétrica sincronizada**\n- **Estável** → controlar a frequência (betabloqueador, diltiazem/verapamil; digoxina na IC) e decidir ritmo × frequência\n\nCardioversão eletiva (estável):\n- FA < 48 h → pode cardioverter (com anticoagulação)\n- FA ≥ 48 h ou tempo desconhecido → anticoagular 3 semanas antes OU ecocardiograma transesofágico sem trombo; manter 4 semanas depois\n\nAnticoagulação crônica:\n- Decidida pelo escore CHA₂DS₂-VASc (tabela do contexto)\n- Homem ≥ 2 ou mulher ≥ 3 → anticoagular; 1 (homem)/2 (mulher) → considerar\n- **DOAC** (apixabana, rivaroxabana, dabigatrana) preferidos\n- **Varfarina obrigatória** → estenose mitral moderada/grave ou prótese mecânica\n- AAS NÃO substitui anticoagulação\n\nOutras taquiarritmias:\n- **Flutter atrial** → ondas F \"em dente de serra\" (DII, DIII, aVF), FC ~150; mesmo manejo de anticoagulação da FA\n- **TSV (reentrada nodal)** → QRS estreito regular ~180; manobra vagal → adenosina → (instável: cardioversão)\n- **Taquicardia ventricular** → QRS largo; com pulso estável → amiodarona; instável → cardioversão; sem pulso → desfibrilação (ACLS)\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: conduta na FA instável, regra das 48 h e CHA₂DS₂-VASc.",
+   "ctxvisual": [
+    {
+     "tipo": "fluxo",
+     "passos": [
+      "Taquiarritmia",
+      [
+       "Instável → cardioversão elétrica sincronizada",
+       "Estável → QRS estreito ou largo?"
+      ],
+      [
+       "Estreito irregular → FA: controlar FC + anticoagular",
+       "Estreito regular → manobra vagal, adenosina",
+       "Largo → amiodarona (TV)"
+      ]
+     ]
+    },
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "CHA₂DS₂-VASc",
+      "Critério",
+      "Pontos / conduta"
+     ],
+     "linhas": [
+      [
+       "C",
+       "IC ou disfunção de VE",
+       "1 ponto"
+      ],
+      [
+       "H",
+       "Hipertensão",
+       "1 ponto"
+      ],
+      [
+       "A₂",
+       "Idade ≥ 75 anos",
+       "2 pontos"
+      ],
+      [
+       "D",
+       "Diabetes",
+       "1 ponto"
+      ],
+      [
+       "S₂",
+       "AVC, AIT ou embolia prévia",
+       "2 pontos"
+      ],
+      [
+       "V",
+       "Doença vascular (IAM, DAP, placa aórtica)",
+       "1 ponto"
+      ],
+      [
+       "A",
+       "Idade 65–74 anos",
+       "1 ponto"
+      ],
+      [
+       "Sc",
+       "Sexo feminino",
+       "1 ponto"
+      ],
+      [
+       "Total 0 (H) / 1 (M)",
+       "Baixo risco",
+       "Não anticoagular"
+      ],
+      [
+       "Total 1 (H) / 2 (M)",
+       "Intermediário",
+       "Considerar anticoagular"
+      ],
+      [
+       "Total ≥ 2 (H) / ≥ 3 (M)",
+       "Alto risco",
+       "Anticoagular (DOAC preferido)"
+      ]
+     ]
+    }
+   ],
+   "fonte": "SBC — Diretriz Brasileira de Fibrilação Atrial (2016, atualização 2024) / ESC Guidelines for AF (2024) / AHA ACLS (2020)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Clínica Médica",
+   "tema": "Cardiologia",
+   "sub": "Fibrilação atrial e taquiarritmias",
+   "id": "fa-d2",
+   "tipo": "digitar",
+   "prio": "media",
+   "frente": "Qual droga se usa na TSV estável após falhar a manobra vagal?",
+   "verso": "**Adenosina** (6 mg EV rápido, depois 12 mg).\n\nRaciocínio:\n- Bloqueia o nó AV por segundos e interrompe a reentrada.",
+   "resposta": "Adenosina",
+   "aceitas": [
+    "adenosina"
+   ],
+   "macete": "TSV → Adenosina (\"apaga e reinicia\").",
+   "contexto": "**Fibrilação atrial (FA) = arritmia sustentada mais comum: atividade elétrica atrial desorganizada, sem contração efetiva do átrio, com ritmo ventricular irregularmente irregular.**\n\nECG da FA:\n- RR irregular, ausência de onda P, ondas f na linha de base\n\nPor que importa:\n- Sangue parado no átrio (sobretudo no apêndice atrial esquerdo) → trombo → **AVC embólico**\n- FC alta → IC (taquicardiomiopatia)\n\nCausas e fatores:\n- Idade, HAS, valvopatia mitral, IC, hipertireoidismo, álcool (\"holiday heart\"), apneia do sono, pós-operatório\n\nConduta inicial:\n- **Instável** (hipotensão, dor anginosa, EAP, rebaixamento) → **cardioversão elétrica sincronizada**\n- **Estável** → controlar a frequência (betabloqueador, diltiazem/verapamil; digoxina na IC) e decidir ritmo × frequência\n\nCardioversão eletiva (estável):\n- FA < 48 h → pode cardioverter (com anticoagulação)\n- FA ≥ 48 h ou tempo desconhecido → anticoagular 3 semanas antes OU ecocardiograma transesofágico sem trombo; manter 4 semanas depois\n\nAnticoagulação crônica:\n- Decidida pelo escore CHA₂DS₂-VASc (tabela do contexto)\n- Homem ≥ 2 ou mulher ≥ 3 → anticoagular; 1 (homem)/2 (mulher) → considerar\n- **DOAC** (apixabana, rivaroxabana, dabigatrana) preferidos\n- **Varfarina obrigatória** → estenose mitral moderada/grave ou prótese mecânica\n- AAS NÃO substitui anticoagulação\n\nOutras taquiarritmias:\n- **Flutter atrial** → ondas F \"em dente de serra\" (DII, DIII, aVF), FC ~150; mesmo manejo de anticoagulação da FA\n- **TSV (reentrada nodal)** → QRS estreito regular ~180; manobra vagal → adenosina → (instável: cardioversão)\n- **Taquicardia ventricular** → QRS largo; com pulso estável → amiodarona; instável → cardioversão; sem pulso → desfibrilação (ACLS)\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: conduta na FA instável, regra das 48 h e CHA₂DS₂-VASc.",
+   "ctxvisual": [
+    {
+     "tipo": "fluxo",
+     "passos": [
+      "Taquiarritmia",
+      [
+       "Instável → cardioversão elétrica sincronizada",
+       "Estável → QRS estreito ou largo?"
+      ],
+      [
+       "Estreito irregular → FA: controlar FC + anticoagular",
+       "Estreito regular → manobra vagal, adenosina",
+       "Largo → amiodarona (TV)"
+      ]
+     ]
+    },
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "CHA₂DS₂-VASc",
+      "Critério",
+      "Pontos / conduta"
+     ],
+     "linhas": [
+      [
+       "C",
+       "IC ou disfunção de VE",
+       "1 ponto"
+      ],
+      [
+       "H",
+       "Hipertensão",
+       "1 ponto"
+      ],
+      [
+       "A₂",
+       "Idade ≥ 75 anos",
+       "2 pontos"
+      ],
+      [
+       "D",
+       "Diabetes",
+       "1 ponto"
+      ],
+      [
+       "S₂",
+       "AVC, AIT ou embolia prévia",
+       "2 pontos"
+      ],
+      [
+       "V",
+       "Doença vascular (IAM, DAP, placa aórtica)",
+       "1 ponto"
+      ],
+      [
+       "A",
+       "Idade 65–74 anos",
+       "1 ponto"
+      ],
+      [
+       "Sc",
+       "Sexo feminino",
+       "1 ponto"
+      ],
+      [
+       "Total 0 (H) / 1 (M)",
+       "Baixo risco",
+       "Não anticoagular"
+      ],
+      [
+       "Total 1 (H) / 2 (M)",
+       "Intermediário",
+       "Considerar anticoagular"
+      ],
+      [
+       "Total ≥ 2 (H) / ≥ 3 (M)",
+       "Alto risco",
+       "Anticoagular (DOAC preferido)"
+      ]
+     ]
+    }
+   ],
+   "fonte": "SBC — Diretriz Brasileira de Fibrilação Atrial (2016, atualização 2024) / ESC Guidelines for AF (2024) / AHA ACLS (2020)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Clínica Médica",
+   "tema": "Cardiologia",
+   "sub": "Valvopatias",
+   "id": "val-01",
+   "tipo": "flash",
+   "prio": "alta",
+   "frente": "Estenose aórtica: tríade clínica e exame físico",
+   "verso": "Raciocínio:\n- A valva estreita obriga o VE a fazer força: hipertrofia e mais consumo de O₂ → angina.\n- O débito fica fixo: no esforço a PA não sobe → síncope.\n- O VE hipertrofiado fica rígido e depois falha → dispneia (IC).\n\n**Angina, síncope e dispneia.**\n\nExame:\n- Sopro sistólico ejetivo em foco aórtico, irradiado para carótidas.\n- Pulso parvus et tardus (fraco e atrasado).\n\nSintomas:\n- Indicam troca valvar (cirurgia ou TAVI).",
+   "macete": "\"ASD\": Angina, Síncope, Dispneia (em ordem de pior prognóstico: dispneia é o pior).",
+   "pegadinha": "Na estenose aórtica, a síncope é de esforço.",
+   "contexto": "**Valvopatias = doenças das valvas cardíacas que causam estenose (não abre) ou insuficiência (não fecha); no Brasil, a febre reumática ainda é causa importante, e no idoso predomina a degenerativa.**\n\nComo pensar o sopro:\n- **Sistólico** → estenose aórtica/pulmonar ou insuficiência mitral/tricúspide\n- **Diastólico** → estenose mitral/tricúspide ou insuficiência aórtica/pulmonar\n\nEstenose aórtica:\n- Causa → degenerativa (idoso), bicúspide (jovem), reumática\n- Tríade → **angina, síncope e dispneia** (IC); sintomas = mau prognóstico\n- Sopro sistólico ejetivo em foco aórtico, irradiado para carótidas; pulso parvus et tardus; B2 hipofonética\n- Tratamento → troca valvar (cirúrgica ou TAVI) quando sintomática ou grave com disfunção\n\nInsuficiência aórtica:\n- Sopro diastólico aspirativo em foco aórtico acessório\n- Pressão de pulso alargada → pulso em martelo d'água (Corrigan), sinal de Musset\n- Causas → dilatação da raiz (HAS, Marfan), endocardite, reumática\n\nEstenose mitral:\n- Quase sempre **reumática**; mais em mulheres\n- Ruflar diastólico em foco mitral + estalido de abertura + B1 hiperfonética\n- Átrio esquerdo grande → **FA** e embolia; hipertensão pulmonar; piora na gestação (taquicardia)\n- Tratamento → valvoplastia por balão (se anatomia favorável) ou cirurgia\n\nInsuficiência mitral:\n- Sopro holossistólico em foco mitral irradiado para axila\n- Aguda → ruptura de músculo papilar no IAM ou endocardite → EAP\n- Crônica → prolapso de valva mitral (causa mais comum em países desenvolvidos), reumática, dilatação do VE\n\nManobras:\n- Valsalva/ficar em pé → diminuem quase todos os sopros, exceto cardiomiopatia hipertrófica e prolapso mitral (aumentam)\n\nProfilaxia:\n- Febre reumática → profilaxia secundária com penicilina benzatina\n- Endocardite → só alto risco (prótese, endocardite prévia) antes de procedimento dentário\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: reconhecer a valvopatia pelo sopro e a tríade da estenose aórtica.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "cab": [
+      "Valvopatia",
+      "Sopro",
+      "Pista"
+     ],
+     "linhas": [
+      [
+       "Estenose aórtica",
+       "Sistólico ejetivo, foco aórtico → carótidas",
+       "Angina, síncope, dispneia"
+      ],
+      [
+       "Insuficiência aórtica",
+       "Diastólico aspirativo",
+       "Pulso em martelo d'água"
+      ],
+      [
+       "Estenose mitral",
+       "Ruflar diastólico + estalido",
+       "Reumática, FA, gestante"
+      ],
+      [
+       "Insuficiência mitral",
+       "Holossistólico → axila",
+       "Aguda no IAM (papilar)"
+      ]
+     ]
+    }
+   ],
+   "fonte": "SBC — Diretriz Brasileira de Valvopatias (2020) / ACC/AHA Valvular Heart Disease (2020) / Braunwald 12ª ed.",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Clínica Médica",
+   "tema": "Cardiologia",
+   "sub": "Valvopatias",
+   "id": "val-02",
+   "tipo": "flash",
+   "prio": "alta",
+   "frente": "Estenose mitral: causa principal e achados",
+   "verso": "Raciocínio:\n- A valva mitral estreita represa sangue no átrio esquerdo → átrio dilata → FA e trombo.\n- A pressão volta para o pulmão → congestão e hipertensão pulmonar.\n- Na gestação a FC sobe e encurta a diástole → enchimento piora → EAP.\n\n**Causa → febre reumática.**\n**Ruflar diastólico + estalido de abertura + B1 hiperfonética.**\n\nComplicações:\n- FA e embolia, hipertensão pulmonar, EAP na gestação.\n\nTratamento:\n- Betabloqueador (alonga a diástole), anticoagular se FA.\n- Valvoplastia por balão ou cirurgia.",
+   "macete": "\"Mitral estreita = Mulher, reuMática, ruflar\".",
+   "pegadinha": "Na estenose mitral com FA, o anticoagulante é a varfarina (não DOAC).",
+   "contexto": "**Valvopatias = doenças das valvas cardíacas que causam estenose (não abre) ou insuficiência (não fecha); no Brasil, a febre reumática ainda é causa importante, e no idoso predomina a degenerativa.**\n\nComo pensar o sopro:\n- **Sistólico** → estenose aórtica/pulmonar ou insuficiência mitral/tricúspide\n- **Diastólico** → estenose mitral/tricúspide ou insuficiência aórtica/pulmonar\n\nEstenose aórtica:\n- Causa → degenerativa (idoso), bicúspide (jovem), reumática\n- Tríade → **angina, síncope e dispneia** (IC); sintomas = mau prognóstico\n- Sopro sistólico ejetivo em foco aórtico, irradiado para carótidas; pulso parvus et tardus; B2 hipofonética\n- Tratamento → troca valvar (cirúrgica ou TAVI) quando sintomática ou grave com disfunção\n\nInsuficiência aórtica:\n- Sopro diastólico aspirativo em foco aórtico acessório\n- Pressão de pulso alargada → pulso em martelo d'água (Corrigan), sinal de Musset\n- Causas → dilatação da raiz (HAS, Marfan), endocardite, reumática\n\nEstenose mitral:\n- Quase sempre **reumática**; mais em mulheres\n- Ruflar diastólico em foco mitral + estalido de abertura + B1 hiperfonética\n- Átrio esquerdo grande → **FA** e embolia; hipertensão pulmonar; piora na gestação (taquicardia)\n- Tratamento → valvoplastia por balão (se anatomia favorável) ou cirurgia\n\nInsuficiência mitral:\n- Sopro holossistólico em foco mitral irradiado para axila\n- Aguda → ruptura de músculo papilar no IAM ou endocardite → EAP\n- Crônica → prolapso de valva mitral (causa mais comum em países desenvolvidos), reumática, dilatação do VE\n\nManobras:\n- Valsalva/ficar em pé → diminuem quase todos os sopros, exceto cardiomiopatia hipertrófica e prolapso mitral (aumentam)\n\nProfilaxia:\n- Febre reumática → profilaxia secundária com penicilina benzatina\n- Endocardite → só alto risco (prótese, endocardite prévia) antes de procedimento dentário\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: reconhecer a valvopatia pelo sopro e a tríade da estenose aórtica.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "cab": [
+      "Valvopatia",
+      "Sopro",
+      "Pista"
+     ],
+     "linhas": [
+      [
+       "Estenose aórtica",
+       "Sistólico ejetivo, foco aórtico → carótidas",
+       "Angina, síncope, dispneia"
+      ],
+      [
+       "Insuficiência aórtica",
+       "Diastólico aspirativo",
+       "Pulso em martelo d'água"
+      ],
+      [
+       "Estenose mitral",
+       "Ruflar diastólico + estalido",
+       "Reumática, FA, gestante"
+      ],
+      [
+       "Insuficiência mitral",
+       "Holossistólico → axila",
+       "Aguda no IAM (papilar)"
+      ]
+     ]
+    }
+   ],
+   "fonte": "SBC — Diretriz Brasileira de Valvopatias (2020) / ACC/AHA Valvular Heart Disease (2020) / Braunwald 12ª ed.",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Clínica Médica",
+   "tema": "Cardiologia",
+   "sub": "Valvopatias",
+   "tipo": "quiz",
+   "frente": "Sobre as valvopatias, analise: I. A insuficiência mitral produz sopro holossistólico irradiado para a axila. II. O pulso em martelo d'água é típico da estenose aórtica. III. A estenose mitral tem como principal causa a febre reumática. Está(ão) correta(s):",
+   "opcoes": [
+    "Apenas I e III.",
+    "Apenas I e II.",
+    "Apenas II e III.",
+    "I, II e III."
+   ],
+   "certa": 0,
+   "comentarios": [
+    "Correta. II é falsa: martelo d'água é da insuficiência aórtica (pressão de pulso alargada).",
+    "II é falsa.",
+    "II é falsa.",
+    "II é falsa."
+   ],
+   "id": "val-q1",
+   "prio": "alta",
+   "base": "- Na insuficiência mitral o sangue volta ao átrio durante toda a sístole → sopro holossistólico.\n- Na insuficiência aórtica o sangue volta ao VE na diástole → pressão diastólica cai e a de pulso alarga → pulso amplo e rápido.\n- A estenose aórtica dá pulso fraco e atrasado (parvus et tardus).",
+   "macete": "\"Martelo bate forte = aorta vazando\".",
+   "pegadinha": "Estenose aórtica = pulso fraco.",
+   "contexto": "**Valvopatias = doenças das valvas cardíacas que causam estenose (não abre) ou insuficiência (não fecha); no Brasil, a febre reumática ainda é causa importante, e no idoso predomina a degenerativa.**\n\nComo pensar o sopro:\n- **Sistólico** → estenose aórtica/pulmonar ou insuficiência mitral/tricúspide\n- **Diastólico** → estenose mitral/tricúspide ou insuficiência aórtica/pulmonar\n\nEstenose aórtica:\n- Causa → degenerativa (idoso), bicúspide (jovem), reumática\n- Tríade → **angina, síncope e dispneia** (IC); sintomas = mau prognóstico\n- Sopro sistólico ejetivo em foco aórtico, irradiado para carótidas; pulso parvus et tardus; B2 hipofonética\n- Tratamento → troca valvar (cirúrgica ou TAVI) quando sintomática ou grave com disfunção\n\nInsuficiência aórtica:\n- Sopro diastólico aspirativo em foco aórtico acessório\n- Pressão de pulso alargada → pulso em martelo d'água (Corrigan), sinal de Musset\n- Causas → dilatação da raiz (HAS, Marfan), endocardite, reumática\n\nEstenose mitral:\n- Quase sempre **reumática**; mais em mulheres\n- Ruflar diastólico em foco mitral + estalido de abertura + B1 hiperfonética\n- Átrio esquerdo grande → **FA** e embolia; hipertensão pulmonar; piora na gestação (taquicardia)\n- Tratamento → valvoplastia por balão (se anatomia favorável) ou cirurgia\n\nInsuficiência mitral:\n- Sopro holossistólico em foco mitral irradiado para axila\n- Aguda → ruptura de músculo papilar no IAM ou endocardite → EAP\n- Crônica → prolapso de valva mitral (causa mais comum em países desenvolvidos), reumática, dilatação do VE\n\nManobras:\n- Valsalva/ficar em pé → diminuem quase todos os sopros, exceto cardiomiopatia hipertrófica e prolapso mitral (aumentam)\n\nProfilaxia:\n- Febre reumática → profilaxia secundária com penicilina benzatina\n- Endocardite → só alto risco (prótese, endocardite prévia) antes de procedimento dentário\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: reconhecer a valvopatia pelo sopro e a tríade da estenose aórtica.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "cab": [
+      "Valvopatia",
+      "Sopro",
+      "Pista"
+     ],
+     "linhas": [
+      [
+       "Estenose aórtica",
+       "Sistólico ejetivo, foco aórtico → carótidas",
+       "Angina, síncope, dispneia"
+      ],
+      [
+       "Insuficiência aórtica",
+       "Diastólico aspirativo",
+       "Pulso em martelo d'água"
+      ],
+      [
+       "Estenose mitral",
+       "Ruflar diastólico + estalido",
+       "Reumática, FA, gestante"
+      ],
+      [
+       "Insuficiência mitral",
+       "Holossistólico → axila",
+       "Aguda no IAM (papilar)"
+      ]
+     ]
+    }
+   ],
+   "fonte": "SBC — Diretriz Brasileira de Valvopatias (2020) / ACC/AHA Valvular Heart Disease (2020) / Braunwald 12ª ed.",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Clínica Médica",
+   "tema": "Cardiologia",
+   "sub": "Valvopatias",
+   "id": "val-d1",
+   "tipo": "digitar",
+   "prio": "media",
+   "frente": "Qual o sopro típico da estenose mitral?",
+   "verso": "**Ruflar diastólico** (com estalido de abertura).",
+   "resposta": "Ruflar diastólico",
+   "aceitas": [
+    "ruflar diastolico",
+    "ruflar",
+    "sopro diastólico em ruflar"
+   ],
+   "macete": "Mitral estreita → ruflar.",
+   "contexto": "**Valvopatias = doenças das valvas cardíacas que causam estenose (não abre) ou insuficiência (não fecha); no Brasil, a febre reumática ainda é causa importante, e no idoso predomina a degenerativa.**\n\nComo pensar o sopro:\n- **Sistólico** → estenose aórtica/pulmonar ou insuficiência mitral/tricúspide\n- **Diastólico** → estenose mitral/tricúspide ou insuficiência aórtica/pulmonar\n\nEstenose aórtica:\n- Causa → degenerativa (idoso), bicúspide (jovem), reumática\n- Tríade → **angina, síncope e dispneia** (IC); sintomas = mau prognóstico\n- Sopro sistólico ejetivo em foco aórtico, irradiado para carótidas; pulso parvus et tardus; B2 hipofonética\n- Tratamento → troca valvar (cirúrgica ou TAVI) quando sintomática ou grave com disfunção\n\nInsuficiência aórtica:\n- Sopro diastólico aspirativo em foco aórtico acessório\n- Pressão de pulso alargada → pulso em martelo d'água (Corrigan), sinal de Musset\n- Causas → dilatação da raiz (HAS, Marfan), endocardite, reumática\n\nEstenose mitral:\n- Quase sempre **reumática**; mais em mulheres\n- Ruflar diastólico em foco mitral + estalido de abertura + B1 hiperfonética\n- Átrio esquerdo grande → **FA** e embolia; hipertensão pulmonar; piora na gestação (taquicardia)\n- Tratamento → valvoplastia por balão (se anatomia favorável) ou cirurgia\n\nInsuficiência mitral:\n- Sopro holossistólico em foco mitral irradiado para axila\n- Aguda → ruptura de músculo papilar no IAM ou endocardite → EAP\n- Crônica → prolapso de valva mitral (causa mais comum em países desenvolvidos), reumática, dilatação do VE\n\nManobras:\n- Valsalva/ficar em pé → diminuem quase todos os sopros, exceto cardiomiopatia hipertrófica e prolapso mitral (aumentam)\n\nProfilaxia:\n- Febre reumática → profilaxia secundária com penicilina benzatina\n- Endocardite → só alto risco (prótese, endocardite prévia) antes de procedimento dentário\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: reconhecer a valvopatia pelo sopro e a tríade da estenose aórtica.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "cab": [
+      "Valvopatia",
+      "Sopro",
+      "Pista"
+     ],
+     "linhas": [
+      [
+       "Estenose aórtica",
+       "Sistólico ejetivo, foco aórtico → carótidas",
+       "Angina, síncope, dispneia"
+      ],
+      [
+       "Insuficiência aórtica",
+       "Diastólico aspirativo",
+       "Pulso em martelo d'água"
+      ],
+      [
+       "Estenose mitral",
+       "Ruflar diastólico + estalido",
+       "Reumática, FA, gestante"
+      ],
+      [
+       "Insuficiência mitral",
+       "Holossistólico → axila",
+       "Aguda no IAM (papilar)"
+      ]
+     ]
+    }
+   ],
+   "fonte": "SBC — Diretriz Brasileira de Valvopatias (2020) / ACC/AHA Valvular Heart Disease (2020) / Braunwald 12ª ed.",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Clínica Médica",
+   "tema": "Cardiologia",
+   "sub": "Valvopatias",
+   "id": "val-d2",
+   "tipo": "digitar",
+   "prio": "media",
+   "frente": "Qual a causa mais comum de estenose aórtica no idoso?",
+   "verso": "**Degenerativa (calcificação).**\n\n- No jovem → valva bicúspide.",
+   "resposta": "Degenerativa",
+   "aceitas": [
+    "calcificação",
+    "degenerativa calcífica",
+    "degenerativa",
+    "calcificada"
+   ],
+   "macete": "Idoso calcifica.",
+   "contexto": "**Valvopatias = doenças das valvas cardíacas que causam estenose (não abre) ou insuficiência (não fecha); no Brasil, a febre reumática ainda é causa importante, e no idoso predomina a degenerativa.**\n\nComo pensar o sopro:\n- **Sistólico** → estenose aórtica/pulmonar ou insuficiência mitral/tricúspide\n- **Diastólico** → estenose mitral/tricúspide ou insuficiência aórtica/pulmonar\n\nEstenose aórtica:\n- Causa → degenerativa (idoso), bicúspide (jovem), reumática\n- Tríade → **angina, síncope e dispneia** (IC); sintomas = mau prognóstico\n- Sopro sistólico ejetivo em foco aórtico, irradiado para carótidas; pulso parvus et tardus; B2 hipofonética\n- Tratamento → troca valvar (cirúrgica ou TAVI) quando sintomática ou grave com disfunção\n\nInsuficiência aórtica:\n- Sopro diastólico aspirativo em foco aórtico acessório\n- Pressão de pulso alargada → pulso em martelo d'água (Corrigan), sinal de Musset\n- Causas → dilatação da raiz (HAS, Marfan), endocardite, reumática\n\nEstenose mitral:\n- Quase sempre **reumática**; mais em mulheres\n- Ruflar diastólico em foco mitral + estalido de abertura + B1 hiperfonética\n- Átrio esquerdo grande → **FA** e embolia; hipertensão pulmonar; piora na gestação (taquicardia)\n- Tratamento → valvoplastia por balão (se anatomia favorável) ou cirurgia\n\nInsuficiência mitral:\n- Sopro holossistólico em foco mitral irradiado para axila\n- Aguda → ruptura de músculo papilar no IAM ou endocardite → EAP\n- Crônica → prolapso de valva mitral (causa mais comum em países desenvolvidos), reumática, dilatação do VE\n\nManobras:\n- Valsalva/ficar em pé → diminuem quase todos os sopros, exceto cardiomiopatia hipertrófica e prolapso mitral (aumentam)\n\nProfilaxia:\n- Febre reumática → profilaxia secundária com penicilina benzatina\n- Endocardite → só alto risco (prótese, endocardite prévia) antes de procedimento dentário\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: reconhecer a valvopatia pelo sopro e a tríade da estenose aórtica.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "cab": [
+      "Valvopatia",
+      "Sopro",
+      "Pista"
+     ],
+     "linhas": [
+      [
+       "Estenose aórtica",
+       "Sistólico ejetivo, foco aórtico → carótidas",
+       "Angina, síncope, dispneia"
+      ],
+      [
+       "Insuficiência aórtica",
+       "Diastólico aspirativo",
+       "Pulso em martelo d'água"
+      ],
+      [
+       "Estenose mitral",
+       "Ruflar diastólico + estalido",
+       "Reumática, FA, gestante"
+      ],
+      [
+       "Insuficiência mitral",
+       "Holossistólico → axila",
+       "Aguda no IAM (papilar)"
+      ]
+     ]
+    }
+   ],
+   "fonte": "SBC — Diretriz Brasileira de Valvopatias (2020) / ACC/AHA Valvular Heart Disease (2020) / Braunwald 12ª ed.",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Clínica Médica",
+   "tema": "Cardiologia",
+   "sub": "Parada cardiorrespiratória — suporte avançado de vida (ACLS)",
+   "id": "pcra-01",
+   "tipo": "flash",
+   "prio": "alta",
+   "frente": "FV/TV sem pulso: sequência de choque e drogas",
+   "verso": "Raciocínio:\n- Na FV o coração treme sem bombear: só o choque reorganiza a atividade elétrica.\n- A adrenalina aumenta a pressão de perfusão coronária durante a RCP; a amiodarona estabiliza a membrana para o choque funcionar.\n\n**Choque o quanto antes → RCP 2 min.**\n**Adrenalina 1 mg após o 2º choque (a cada 3–5 min).**\n**Amiodarona 300 mg após o 3º choque; depois 150 mg.**\n\nCarga:\n- Bifásico 120–200 J; monofásico 360 J.",
+   "macete": "\"Choque, choque + Adrenalina, choque + Amiodarona\".",
+   "pegadinha": "Não checar pulso logo após o choque: volta para a RCP imediatamente.",
+   "contexto": "**Parada cardiorrespiratória (PCR) = cessação da atividade mecânica do coração: inconsciência, sem respiração normal e sem pulso central; a sobrevida depende de compressões de qualidade e desfibrilação precoce.**\n\nReconhecer:\n- Não responde + não respira (ou gasping) + sem pulso carotídeo (checar em até 10 s)\n\nRCP de alta qualidade:\n- **100–120 compressões/min**, profundidade **5–6 cm**, retorno total do tórax\n- Mínimas interrupções (< 10 s); trocar quem comprime a cada 2 min\n- Sem via aérea avançada → **30:2**; com via aérea avançada → 1 ventilação a cada 6 s, compressão contínua\n\nRitmos chocáveis (FV e TV sem pulso):\n- **Desfibrilação** assim que possível (bifásico 120–200 J; monofásico 360 J) → RCP 2 min\n- **Adrenalina 1 mg EV/IO a cada 3–5 min** (após o 2º choque)\n- **Amiodarona 300 mg** (após o 3º choque), depois 150 mg; alternativa lidocaína\n\nRitmos não chocáveis (AESP e assistolia):\n- RCP + **adrenalina 1 mg o mais cedo possível**, a cada 3–5 min\n- Assistolia → confirmar em mais de uma derivação (protocolo da linha reta)\n- Procurar e tratar as causas reversíveis (5H e 5T)\n\nCausas reversíveis (5H e 5T):\n- **H** → hipovolemia, hipóxia, H⁺ (acidose), hipo/hipercalemia, hipotermia\n- **T** → tensão no tórax (pneumotórax hipertensivo), tamponamento, toxinas, trombose pulmonar (TEP), trombose coronária (IAM)\n\nApós o retorno da circulação (RCE):\n- Manter SatO₂ 92–98%, PAM ≥ 65, ECG (cateterismo se supra)\n- Controle de temperatura (evitar febre; manter ≤ 37,5 °C)\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: ritmos chocáveis × não chocáveis, doses de adrenalina e amiodarona, qualidade da RCP.",
+   "ctxvisual": [
+    {
+     "tipo": "fluxo",
+     "passos": [
+      "PCR → RCP 30:2 + monitor",
+      [
+       "FV / TV sem pulso → CHOQUE",
+       "AESP / assistolia → sem choque"
+      ],
+      [
+       "Choque → RCP 2 min → adrenalina após 2º choque → amiodarona após 3º",
+       "Adrenalina já + 5H e 5T"
+      ]
+     ]
+    }
+   ],
+   "fonte": "AHA — Guidelines for CPR and ECC (2020, atualização 2025) / SBC — Atualização da Diretriz de RCP (2019)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Clínica Médica",
+   "tema": "Cardiologia",
+   "sub": "Parada cardiorrespiratória — suporte avançado de vida (ACLS)",
+   "id": "pcra-02",
+   "tipo": "flash",
+   "prio": "alta",
+   "frente": "AESP e assistolia: conduta e causas a procurar",
+   "verso": "Raciocínio:\n- Não há arritmia para \"resetar\" com choque: a causa costuma ser algo que parou o coração (hipóxia, TEP, tamponamento).\n- Sem tratar a causa, o coração não volta.\n\n**Sem choque.**\n**RCP + adrenalina 1 mg o mais cedo possível.**\n**Buscar 5H e 5T.**\n\n5H:\n- Hipovolemia, hipóxia, H⁺, hipo/hipercalemia, hipotermia\n\n5T:\n- Tensão no tórax, tamponamento, toxinas, TEP, trombose coronária",
+   "macete": "\"Linha reta não leva choque\".",
+   "pegadinha": "Assistolia: confirmar em mais de uma derivação e checar cabos e ganho.",
+   "visual": {
+    "tipo": "grupos",
+    "grupos": [
+     {
+      "t": "5H",
+      "itens": [
+       "Hipovolemia",
+       "Hipóxia",
+       "H⁺ (acidose)",
+       "Hipo/hipercalemia",
+       "Hipotermia"
+      ]
+     },
+     {
+      "t": "5T",
+      "itens": [
+       "Tensão no tórax",
+       "Tamponamento",
+       "Toxinas",
+       "Trombose pulmonar",
+       "Trombose coronária"
+      ]
+     }
+    ]
+   },
+   "contexto": "**Parada cardiorrespiratória (PCR) = cessação da atividade mecânica do coração: inconsciência, sem respiração normal e sem pulso central; a sobrevida depende de compressões de qualidade e desfibrilação precoce.**\n\nReconhecer:\n- Não responde + não respira (ou gasping) + sem pulso carotídeo (checar em até 10 s)\n\nRCP de alta qualidade:\n- **100–120 compressões/min**, profundidade **5–6 cm**, retorno total do tórax\n- Mínimas interrupções (< 10 s); trocar quem comprime a cada 2 min\n- Sem via aérea avançada → **30:2**; com via aérea avançada → 1 ventilação a cada 6 s, compressão contínua\n\nRitmos chocáveis (FV e TV sem pulso):\n- **Desfibrilação** assim que possível (bifásico 120–200 J; monofásico 360 J) → RCP 2 min\n- **Adrenalina 1 mg EV/IO a cada 3–5 min** (após o 2º choque)\n- **Amiodarona 300 mg** (após o 3º choque), depois 150 mg; alternativa lidocaína\n\nRitmos não chocáveis (AESP e assistolia):\n- RCP + **adrenalina 1 mg o mais cedo possível**, a cada 3–5 min\n- Assistolia → confirmar em mais de uma derivação (protocolo da linha reta)\n- Procurar e tratar as causas reversíveis (5H e 5T)\n\nCausas reversíveis (5H e 5T):\n- **H** → hipovolemia, hipóxia, H⁺ (acidose), hipo/hipercalemia, hipotermia\n- **T** → tensão no tórax (pneumotórax hipertensivo), tamponamento, toxinas, trombose pulmonar (TEP), trombose coronária (IAM)\n\nApós o retorno da circulação (RCE):\n- Manter SatO₂ 92–98%, PAM ≥ 65, ECG (cateterismo se supra)\n- Controle de temperatura (evitar febre; manter ≤ 37,5 °C)\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: ritmos chocáveis × não chocáveis, doses de adrenalina e amiodarona, qualidade da RCP.",
+   "ctxvisual": [
+    {
+     "tipo": "fluxo",
+     "passos": [
+      "PCR → RCP 30:2 + monitor",
+      [
+       "FV / TV sem pulso → CHOQUE",
+       "AESP / assistolia → sem choque"
+      ],
+      [
+       "Choque → RCP 2 min → adrenalina após 2º choque → amiodarona após 3º",
+       "Adrenalina já + 5H e 5T"
+      ]
+     ]
+    }
+   ],
+   "fonte": "AHA — Guidelines for CPR and ECC (2020, atualização 2025) / SBC — Atualização da Diretriz de RCP (2019)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Clínica Médica",
+   "tema": "Cardiologia",
+   "sub": "Parada cardiorrespiratória — suporte avançado de vida (ACLS)",
+   "tipo": "quiz",
+   "frente": "Sobre a RCP no adulto, analise: I. As compressões devem ter frequência de 100 a 120 por minuto e profundidade de 5 a 6 cm. II. Na assistolia, a desfibrilação é a primeira medida. III. Sem via aérea avançada, a relação compressão-ventilação é 30:2. Está(ão) correta(s):",
+   "opcoes": [
+    "Apenas I e II.",
+    "Apenas II e III.",
+    "Apenas I e III.",
+    "I, II e III."
+   ],
+   "certa": 2,
+   "comentarios": [
+    "II é falsa.",
+    "II é falsa.",
+    "Correta. II é falsa: assistolia não é ritmo chocável.",
+    "II é falsa."
+   ],
+   "id": "pcra-q1",
+   "prio": "alta",
+   "base": "- Compressões rápidas e fundas geram fluxo para cérebro e coração.\n- O choque só funciona em atividade elétrica caótica (FV/TV); na assistolia não há o que reorganizar.\n- 30:2 prioriza as compressões, que são o que mantém o fluxo.",
+   "macete": "\"100–120, 5–6 cm, 30:2\".",
+   "pegadinha": "Assistolia não leva choque.",
+   "contexto": "**Parada cardiorrespiratória (PCR) = cessação da atividade mecânica do coração: inconsciência, sem respiração normal e sem pulso central; a sobrevida depende de compressões de qualidade e desfibrilação precoce.**\n\nReconhecer:\n- Não responde + não respira (ou gasping) + sem pulso carotídeo (checar em até 10 s)\n\nRCP de alta qualidade:\n- **100–120 compressões/min**, profundidade **5–6 cm**, retorno total do tórax\n- Mínimas interrupções (< 10 s); trocar quem comprime a cada 2 min\n- Sem via aérea avançada → **30:2**; com via aérea avançada → 1 ventilação a cada 6 s, compressão contínua\n\nRitmos chocáveis (FV e TV sem pulso):\n- **Desfibrilação** assim que possível (bifásico 120–200 J; monofásico 360 J) → RCP 2 min\n- **Adrenalina 1 mg EV/IO a cada 3–5 min** (após o 2º choque)\n- **Amiodarona 300 mg** (após o 3º choque), depois 150 mg; alternativa lidocaína\n\nRitmos não chocáveis (AESP e assistolia):\n- RCP + **adrenalina 1 mg o mais cedo possível**, a cada 3–5 min\n- Assistolia → confirmar em mais de uma derivação (protocolo da linha reta)\n- Procurar e tratar as causas reversíveis (5H e 5T)\n\nCausas reversíveis (5H e 5T):\n- **H** → hipovolemia, hipóxia, H⁺ (acidose), hipo/hipercalemia, hipotermia\n- **T** → tensão no tórax (pneumotórax hipertensivo), tamponamento, toxinas, trombose pulmonar (TEP), trombose coronária (IAM)\n\nApós o retorno da circulação (RCE):\n- Manter SatO₂ 92–98%, PAM ≥ 65, ECG (cateterismo se supra)\n- Controle de temperatura (evitar febre; manter ≤ 37,5 °C)\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: ritmos chocáveis × não chocáveis, doses de adrenalina e amiodarona, qualidade da RCP.",
+   "ctxvisual": [
+    {
+     "tipo": "fluxo",
+     "passos": [
+      "PCR → RCP 30:2 + monitor",
+      [
+       "FV / TV sem pulso → CHOQUE",
+       "AESP / assistolia → sem choque"
+      ],
+      [
+       "Choque → RCP 2 min → adrenalina após 2º choque → amiodarona após 3º",
+       "Adrenalina já + 5H e 5T"
+      ]
+     ]
+    }
+   ],
+   "fonte": "AHA — Guidelines for CPR and ECC (2020, atualização 2025) / SBC — Atualização da Diretriz de RCP (2019)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Clínica Médica",
+   "tema": "Cardiologia",
+   "sub": "Parada cardiorrespiratória — suporte avançado de vida (ACLS)",
+   "id": "pcra-d1",
+   "tipo": "digitar",
+   "prio": "alta",
+   "frente": "Qual a dose de adrenalina na PCR do adulto?",
+   "verso": "**1 mg EV/IO a cada 3–5 minutos.**",
+   "resposta": "1 mg",
+   "aceitas": [
+    "1mg",
+    "1 mg ev",
+    "1"
+   ],
+   "macete": "\"Um de adrenalina a cada 3–5\".",
+   "contexto": "**Parada cardiorrespiratória (PCR) = cessação da atividade mecânica do coração: inconsciência, sem respiração normal e sem pulso central; a sobrevida depende de compressões de qualidade e desfibrilação precoce.**\n\nReconhecer:\n- Não responde + não respira (ou gasping) + sem pulso carotídeo (checar em até 10 s)\n\nRCP de alta qualidade:\n- **100–120 compressões/min**, profundidade **5–6 cm**, retorno total do tórax\n- Mínimas interrupções (< 10 s); trocar quem comprime a cada 2 min\n- Sem via aérea avançada → **30:2**; com via aérea avançada → 1 ventilação a cada 6 s, compressão contínua\n\nRitmos chocáveis (FV e TV sem pulso):\n- **Desfibrilação** assim que possível (bifásico 120–200 J; monofásico 360 J) → RCP 2 min\n- **Adrenalina 1 mg EV/IO a cada 3–5 min** (após o 2º choque)\n- **Amiodarona 300 mg** (após o 3º choque), depois 150 mg; alternativa lidocaína\n\nRitmos não chocáveis (AESP e assistolia):\n- RCP + **adrenalina 1 mg o mais cedo possível**, a cada 3–5 min\n- Assistolia → confirmar em mais de uma derivação (protocolo da linha reta)\n- Procurar e tratar as causas reversíveis (5H e 5T)\n\nCausas reversíveis (5H e 5T):\n- **H** → hipovolemia, hipóxia, H⁺ (acidose), hipo/hipercalemia, hipotermia\n- **T** → tensão no tórax (pneumotórax hipertensivo), tamponamento, toxinas, trombose pulmonar (TEP), trombose coronária (IAM)\n\nApós o retorno da circulação (RCE):\n- Manter SatO₂ 92–98%, PAM ≥ 65, ECG (cateterismo se supra)\n- Controle de temperatura (evitar febre; manter ≤ 37,5 °C)\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: ritmos chocáveis × não chocáveis, doses de adrenalina e amiodarona, qualidade da RCP.",
+   "ctxvisual": [
+    {
+     "tipo": "fluxo",
+     "passos": [
+      "PCR → RCP 30:2 + monitor",
+      [
+       "FV / TV sem pulso → CHOQUE",
+       "AESP / assistolia → sem choque"
+      ],
+      [
+       "Choque → RCP 2 min → adrenalina após 2º choque → amiodarona após 3º",
+       "Adrenalina já + 5H e 5T"
+      ]
+     ]
+    }
+   ],
+   "fonte": "AHA — Guidelines for CPR and ECC (2020, atualização 2025) / SBC — Atualização da Diretriz de RCP (2019)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Clínica Médica",
+   "tema": "Cardiologia",
+   "sub": "Parada cardiorrespiratória — suporte avançado de vida (ACLS)",
+   "id": "pcra-d2",
+   "tipo": "digitar",
+   "prio": "alta",
+   "frente": "Qual a primeira dose de amiodarona na FV refratária?",
+   "verso": "**300 mg EV** (depois 150 mg).",
+   "resposta": "300 mg",
+   "aceitas": [
+    "300",
+    "300mg"
+   ],
+   "macete": "\"Amio 300, depois 150\".",
+   "contexto": "**Parada cardiorrespiratória (PCR) = cessação da atividade mecânica do coração: inconsciência, sem respiração normal e sem pulso central; a sobrevida depende de compressões de qualidade e desfibrilação precoce.**\n\nReconhecer:\n- Não responde + não respira (ou gasping) + sem pulso carotídeo (checar em até 10 s)\n\nRCP de alta qualidade:\n- **100–120 compressões/min**, profundidade **5–6 cm**, retorno total do tórax\n- Mínimas interrupções (< 10 s); trocar quem comprime a cada 2 min\n- Sem via aérea avançada → **30:2**; com via aérea avançada → 1 ventilação a cada 6 s, compressão contínua\n\nRitmos chocáveis (FV e TV sem pulso):\n- **Desfibrilação** assim que possível (bifásico 120–200 J; monofásico 360 J) → RCP 2 min\n- **Adrenalina 1 mg EV/IO a cada 3–5 min** (após o 2º choque)\n- **Amiodarona 300 mg** (após o 3º choque), depois 150 mg; alternativa lidocaína\n\nRitmos não chocáveis (AESP e assistolia):\n- RCP + **adrenalina 1 mg o mais cedo possível**, a cada 3–5 min\n- Assistolia → confirmar em mais de uma derivação (protocolo da linha reta)\n- Procurar e tratar as causas reversíveis (5H e 5T)\n\nCausas reversíveis (5H e 5T):\n- **H** → hipovolemia, hipóxia, H⁺ (acidose), hipo/hipercalemia, hipotermia\n- **T** → tensão no tórax (pneumotórax hipertensivo), tamponamento, toxinas, trombose pulmonar (TEP), trombose coronária (IAM)\n\nApós o retorno da circulação (RCE):\n- Manter SatO₂ 92–98%, PAM ≥ 65, ECG (cateterismo se supra)\n- Controle de temperatura (evitar febre; manter ≤ 37,5 °C)\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: ritmos chocáveis × não chocáveis, doses de adrenalina e amiodarona, qualidade da RCP.",
+   "ctxvisual": [
+    {
+     "tipo": "fluxo",
+     "passos": [
+      "PCR → RCP 30:2 + monitor",
+      [
+       "FV / TV sem pulso → CHOQUE",
+       "AESP / assistolia → sem choque"
+      ],
+      [
+       "Choque → RCP 2 min → adrenalina após 2º choque → amiodarona após 3º",
+       "Adrenalina já + 5H e 5T"
+      ]
+     ]
+    }
+   ],
+   "fonte": "AHA — Guidelines for CPR and ECC (2020, atualização 2025) / SBC — Atualização da Diretriz de RCP (2019)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Clínica Médica",
+   "tema": "Pneumologia",
+   "sub": "Asma",
+   "id": "asm-01",
+   "tipo": "flash",
+   "prio": "alta",
+   "frente": "Por que o SABA isolado não é mais recomendado na asma?",
+   "verso": "Raciocínio:\n- A asma é inflamatória: o broncodilatador alivia o sintoma, mas não trata a inflamação.\n- Usar só SABA mascara a piora e aumenta crise grave e morte.\n\n**Todo asmático precisa de corticoide inalatório.**\n**Alívio preferido → budesonida-formoterol sob demanda.**\n\nEtapas 1–2 (GINA 2024):\n- Budesonida-formoterol sob demanda.\n- Alternativa → CI dose baixa diária + SABA.",
+   "macete": "\"Asma é inflamação: sem corticoide, não trata\".",
+   "pegadinha": "Formoterol (não salmeterol) pode ser usado como alívio, pelo início rápido.",
+   "contexto": "**Asma = doença inflamatória crônica das vias aéreas, com hiper-responsividade brônquica e obstrução variável e reversível do fluxo aéreo.**\n\nClínica:\n- Sibilância, dispneia, aperto no peito e tosse, com piora noturna/madrugada e por gatilhos (alérgenos, frio, exercício, infecção viral)\n- Atopia pessoal/familiar (rinite, dermatite)\n\nDiagnóstico:\n- **Espirometria** → obstrução (VEF₁/CVF reduzida) com resposta ao broncodilatador (↑ VEF₁ ≥ 12% e ≥ 200 mL)\n- Variabilidade do pico de fluxo; teste de broncoprovocação se espirometria normal\n\nControle (GINA):\n- Avaliar sintomas diurnos, despertares, uso de alívio e limitação de atividade nas últimas 4 semanas → controlada, parcialmente controlada ou não controlada\n\nTratamento de manutenção (GINA 2024):\n- **Não usar SABA isolado** (aumenta exacerbação grave e morte)\n- Etapas 1–2 → **budesonida-formoterol** sob demanda (preferida) ou CI dose baixa + SABA\n- Etapa 3 → CI dose baixa + LABA (manutenção e alívio com budesonida-formoterol)\n- Etapa 4 → CI dose média + LABA\n- Etapa 5 → encaminhar; LAMA, biológicos (anti-IgE, anti-IL-5), CI dose alta\n- Rever técnica inalatória e adesão antes de subir de etapa\n\nCrise asmática:\n- **SABA inalatório repetido** (salbutamol 4–10 jatos a cada 20 min na 1ª hora) ± ipratrópio\n- **Corticoide sistêmico** precoce (prednisona 40–50 mg por 5–7 dias)\n- O₂ para SatO₂ 93–95%\n- Grave/refratária → **sulfato de magnésio EV**\n- Sinais de gravidade → fala em palavras, uso de musculatura acessória, SatO₂ < 90%, tórax silencioso, confusão, PaCO₂ normal/alta (fadiga)\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: SABA isolado não é mais recomendado, conduta na crise e sinais de gravidade.",
+   "ctxvisual": [
+    {
+     "tipo": "fluxo",
+     "passos": [
+      "Crise asmática",
+      "SABA a cada 20 min (1 h) + corticoide sistêmico + O₂ 93–95%",
+      [
+       "Melhorou → alta com CI + plano",
+       "Grave/refratária → MgSO₄ EV, internar"
+      ],
+      "Tórax silencioso, confusão, PaCO₂ normal/alta → UTI"
+     ]
+    }
+   ],
+   "fonte": "GINA — Global Strategy for Asthma Management (2024) / SBPT — Recomendações para o manejo da asma (2020)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Clínica Médica",
+   "tema": "Pneumologia",
+   "sub": "Asma",
+   "id": "asm-02",
+   "tipo": "flash",
+   "prio": "alta",
+   "frente": "Crise asmática: tratamento e sinais de gravidade",
+   "verso": "Raciocínio:\n- Na crise há broncoespasmo (alivia com SABA) e inflamação (só melhora com corticoide, em horas).\n- PaCO₂ normal na crise é mau sinal: o paciente devia estar hiperventilando e está cansando.\n\n**SABA a cada 20 min na 1ª hora + corticoide sistêmico + O₂ (93–95%).**\n**Grave/refratária → sulfato de magnésio EV.**\n\nGravidade:\n- Fala só palavras, musculatura acessória.\n- SatO₂ < 90%, tórax silencioso.\n- Confusão, PaCO₂ normal ou alta.",
+   "macete": "\"Tórax silencioso grita gravidade\".",
+   "pegadinha": "Sibilo que some com piora clínica = pouco ar passando (não é melhora).",
+   "contexto": "**Asma = doença inflamatória crônica das vias aéreas, com hiper-responsividade brônquica e obstrução variável e reversível do fluxo aéreo.**\n\nClínica:\n- Sibilância, dispneia, aperto no peito e tosse, com piora noturna/madrugada e por gatilhos (alérgenos, frio, exercício, infecção viral)\n- Atopia pessoal/familiar (rinite, dermatite)\n\nDiagnóstico:\n- **Espirometria** → obstrução (VEF₁/CVF reduzida) com resposta ao broncodilatador (↑ VEF₁ ≥ 12% e ≥ 200 mL)\n- Variabilidade do pico de fluxo; teste de broncoprovocação se espirometria normal\n\nControle (GINA):\n- Avaliar sintomas diurnos, despertares, uso de alívio e limitação de atividade nas últimas 4 semanas → controlada, parcialmente controlada ou não controlada\n\nTratamento de manutenção (GINA 2024):\n- **Não usar SABA isolado** (aumenta exacerbação grave e morte)\n- Etapas 1–2 → **budesonida-formoterol** sob demanda (preferida) ou CI dose baixa + SABA\n- Etapa 3 → CI dose baixa + LABA (manutenção e alívio com budesonida-formoterol)\n- Etapa 4 → CI dose média + LABA\n- Etapa 5 → encaminhar; LAMA, biológicos (anti-IgE, anti-IL-5), CI dose alta\n- Rever técnica inalatória e adesão antes de subir de etapa\n\nCrise asmática:\n- **SABA inalatório repetido** (salbutamol 4–10 jatos a cada 20 min na 1ª hora) ± ipratrópio\n- **Corticoide sistêmico** precoce (prednisona 40–50 mg por 5–7 dias)\n- O₂ para SatO₂ 93–95%\n- Grave/refratária → **sulfato de magnésio EV**\n- Sinais de gravidade → fala em palavras, uso de musculatura acessória, SatO₂ < 90%, tórax silencioso, confusão, PaCO₂ normal/alta (fadiga)\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: SABA isolado não é mais recomendado, conduta na crise e sinais de gravidade.",
+   "ctxvisual": [
+    {
+     "tipo": "fluxo",
+     "passos": [
+      "Crise asmática",
+      "SABA a cada 20 min (1 h) + corticoide sistêmico + O₂ 93–95%",
+      [
+       "Melhorou → alta com CI + plano",
+       "Grave/refratária → MgSO₄ EV, internar"
+      ],
+      "Tórax silencioso, confusão, PaCO₂ normal/alta → UTI"
+     ]
+    }
+   ],
+   "fonte": "GINA — Global Strategy for Asthma Management (2024) / SBPT — Recomendações para o manejo da asma (2020)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Clínica Médica",
+   "tema": "Pneumologia",
+   "sub": "Asma",
+   "tipo": "quiz",
+   "frente": "Sobre a asma, analise: I. A espirometria mostra obstrução com resposta ao broncodilatador. II. O tratamento de manutenção mais indicado nas etapas iniciais é o SABA isolado. III. O sulfato de magnésio EV pode ser usado na crise grave. Está(ão) correta(s):",
+   "opcoes": [
+    "Apenas I e II.",
+    "Apenas II e III.",
+    "I, II e III.",
+    "Apenas I e III."
+   ],
+   "certa": 3,
+   "comentarios": [
+    "II é falsa.",
+    "II é falsa.",
+    "II é falsa.",
+    "Correta. II é falsa: SABA isolado não é mais recomendado."
+   ],
+   "id": "asm-q1",
+   "prio": "alta",
+   "base": "- A obstrução da asma é reversível: o broncodilatador abre a via aérea → VEF₁ sobe.\n- O magnésio relaxa a musculatura brônquica (bloqueia cálcio).",
+   "macete": "\"Asma reverte; DPOC não\".",
+   "pegadinha": "SABA isolado saiu das recomendações.",
+   "contexto": "**Asma = doença inflamatória crônica das vias aéreas, com hiper-responsividade brônquica e obstrução variável e reversível do fluxo aéreo.**\n\nClínica:\n- Sibilância, dispneia, aperto no peito e tosse, com piora noturna/madrugada e por gatilhos (alérgenos, frio, exercício, infecção viral)\n- Atopia pessoal/familiar (rinite, dermatite)\n\nDiagnóstico:\n- **Espirometria** → obstrução (VEF₁/CVF reduzida) com resposta ao broncodilatador (↑ VEF₁ ≥ 12% e ≥ 200 mL)\n- Variabilidade do pico de fluxo; teste de broncoprovocação se espirometria normal\n\nControle (GINA):\n- Avaliar sintomas diurnos, despertares, uso de alívio e limitação de atividade nas últimas 4 semanas → controlada, parcialmente controlada ou não controlada\n\nTratamento de manutenção (GINA 2024):\n- **Não usar SABA isolado** (aumenta exacerbação grave e morte)\n- Etapas 1–2 → **budesonida-formoterol** sob demanda (preferida) ou CI dose baixa + SABA\n- Etapa 3 → CI dose baixa + LABA (manutenção e alívio com budesonida-formoterol)\n- Etapa 4 → CI dose média + LABA\n- Etapa 5 → encaminhar; LAMA, biológicos (anti-IgE, anti-IL-5), CI dose alta\n- Rever técnica inalatória e adesão antes de subir de etapa\n\nCrise asmática:\n- **SABA inalatório repetido** (salbutamol 4–10 jatos a cada 20 min na 1ª hora) ± ipratrópio\n- **Corticoide sistêmico** precoce (prednisona 40–50 mg por 5–7 dias)\n- O₂ para SatO₂ 93–95%\n- Grave/refratária → **sulfato de magnésio EV**\n- Sinais de gravidade → fala em palavras, uso de musculatura acessória, SatO₂ < 90%, tórax silencioso, confusão, PaCO₂ normal/alta (fadiga)\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: SABA isolado não é mais recomendado, conduta na crise e sinais de gravidade.",
+   "ctxvisual": [
+    {
+     "tipo": "fluxo",
+     "passos": [
+      "Crise asmática",
+      "SABA a cada 20 min (1 h) + corticoide sistêmico + O₂ 93–95%",
+      [
+       "Melhorou → alta com CI + plano",
+       "Grave/refratária → MgSO₄ EV, internar"
+      ],
+      "Tórax silencioso, confusão, PaCO₂ normal/alta → UTI"
+     ]
+    }
+   ],
+   "fonte": "GINA — Global Strategy for Asthma Management (2024) / SBPT — Recomendações para o manejo da asma (2020)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Clínica Médica",
+   "tema": "Pneumologia",
+   "sub": "Asma",
+   "id": "asm-d1",
+   "tipo": "digitar",
+   "prio": "media",
+   "frente": "Qual o aumento de VEF₁ que define resposta ao broncodilatador?",
+   "verso": "**≥ 12% e ≥ 200 mL.**",
+   "resposta": "12% e 200 mL",
+   "aceitas": [
+    "12%",
+    "12",
+    "12% e 200ml",
+    "12 e 200"
+   ],
+   "macete": "\"12 e 200\".",
+   "contexto": "**Asma = doença inflamatória crônica das vias aéreas, com hiper-responsividade brônquica e obstrução variável e reversível do fluxo aéreo.**\n\nClínica:\n- Sibilância, dispneia, aperto no peito e tosse, com piora noturna/madrugada e por gatilhos (alérgenos, frio, exercício, infecção viral)\n- Atopia pessoal/familiar (rinite, dermatite)\n\nDiagnóstico:\n- **Espirometria** → obstrução (VEF₁/CVF reduzida) com resposta ao broncodilatador (↑ VEF₁ ≥ 12% e ≥ 200 mL)\n- Variabilidade do pico de fluxo; teste de broncoprovocação se espirometria normal\n\nControle (GINA):\n- Avaliar sintomas diurnos, despertares, uso de alívio e limitação de atividade nas últimas 4 semanas → controlada, parcialmente controlada ou não controlada\n\nTratamento de manutenção (GINA 2024):\n- **Não usar SABA isolado** (aumenta exacerbação grave e morte)\n- Etapas 1–2 → **budesonida-formoterol** sob demanda (preferida) ou CI dose baixa + SABA\n- Etapa 3 → CI dose baixa + LABA (manutenção e alívio com budesonida-formoterol)\n- Etapa 4 → CI dose média + LABA\n- Etapa 5 → encaminhar; LAMA, biológicos (anti-IgE, anti-IL-5), CI dose alta\n- Rever técnica inalatória e adesão antes de subir de etapa\n\nCrise asmática:\n- **SABA inalatório repetido** (salbutamol 4–10 jatos a cada 20 min na 1ª hora) ± ipratrópio\n- **Corticoide sistêmico** precoce (prednisona 40–50 mg por 5–7 dias)\n- O₂ para SatO₂ 93–95%\n- Grave/refratária → **sulfato de magnésio EV**\n- Sinais de gravidade → fala em palavras, uso de musculatura acessória, SatO₂ < 90%, tórax silencioso, confusão, PaCO₂ normal/alta (fadiga)\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: SABA isolado não é mais recomendado, conduta na crise e sinais de gravidade.",
+   "ctxvisual": [
+    {
+     "tipo": "fluxo",
+     "passos": [
+      "Crise asmática",
+      "SABA a cada 20 min (1 h) + corticoide sistêmico + O₂ 93–95%",
+      [
+       "Melhorou → alta com CI + plano",
+       "Grave/refratária → MgSO₄ EV, internar"
+      ],
+      "Tórax silencioso, confusão, PaCO₂ normal/alta → UTI"
+     ]
+    }
+   ],
+   "fonte": "GINA — Global Strategy for Asthma Management (2024) / SBPT — Recomendações para o manejo da asma (2020)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Clínica Médica",
+   "tema": "Pneumologia",
+   "sub": "Asma",
+   "id": "asm-d2",
+   "tipo": "digitar",
+   "prio": "media",
+   "frente": "Qual droga EV se usa na crise asmática grave refratária?",
+   "verso": "**Sulfato de magnésio.**",
+   "resposta": "Sulfato de magnésio",
+   "aceitas": [
+    "sulfato de magnesio",
+    "magnésio",
+    "mgso4",
+    "sulfato de magnésio"
+   ],
+   "macete": "Magnésio relaxa o brônquio.",
+   "contexto": "**Asma = doença inflamatória crônica das vias aéreas, com hiper-responsividade brônquica e obstrução variável e reversível do fluxo aéreo.**\n\nClínica:\n- Sibilância, dispneia, aperto no peito e tosse, com piora noturna/madrugada e por gatilhos (alérgenos, frio, exercício, infecção viral)\n- Atopia pessoal/familiar (rinite, dermatite)\n\nDiagnóstico:\n- **Espirometria** → obstrução (VEF₁/CVF reduzida) com resposta ao broncodilatador (↑ VEF₁ ≥ 12% e ≥ 200 mL)\n- Variabilidade do pico de fluxo; teste de broncoprovocação se espirometria normal\n\nControle (GINA):\n- Avaliar sintomas diurnos, despertares, uso de alívio e limitação de atividade nas últimas 4 semanas → controlada, parcialmente controlada ou não controlada\n\nTratamento de manutenção (GINA 2024):\n- **Não usar SABA isolado** (aumenta exacerbação grave e morte)\n- Etapas 1–2 → **budesonida-formoterol** sob demanda (preferida) ou CI dose baixa + SABA\n- Etapa 3 → CI dose baixa + LABA (manutenção e alívio com budesonida-formoterol)\n- Etapa 4 → CI dose média + LABA\n- Etapa 5 → encaminhar; LAMA, biológicos (anti-IgE, anti-IL-5), CI dose alta\n- Rever técnica inalatória e adesão antes de subir de etapa\n\nCrise asmática:\n- **SABA inalatório repetido** (salbutamol 4–10 jatos a cada 20 min na 1ª hora) ± ipratrópio\n- **Corticoide sistêmico** precoce (prednisona 40–50 mg por 5–7 dias)\n- O₂ para SatO₂ 93–95%\n- Grave/refratária → **sulfato de magnésio EV**\n- Sinais de gravidade → fala em palavras, uso de musculatura acessória, SatO₂ < 90%, tórax silencioso, confusão, PaCO₂ normal/alta (fadiga)\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: SABA isolado não é mais recomendado, conduta na crise e sinais de gravidade.",
+   "ctxvisual": [
+    {
+     "tipo": "fluxo",
+     "passos": [
+      "Crise asmática",
+      "SABA a cada 20 min (1 h) + corticoide sistêmico + O₂ 93–95%",
+      [
+       "Melhorou → alta com CI + plano",
+       "Grave/refratária → MgSO₄ EV, internar"
+      ],
+      "Tórax silencioso, confusão, PaCO₂ normal/alta → UTI"
+     ]
+    }
+   ],
+   "fonte": "GINA — Global Strategy for Asthma Management (2024) / SBPT — Recomendações para o manejo da asma (2020)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Clínica Médica",
+   "tema": "Nefrologia",
+   "sub": "Lesão renal aguda",
+   "id": "lra-01",
+   "tipo": "flash",
+   "prio": "alta",
+   "frente": "LRA pré-renal × necrose tubular aguda: como diferenciar?",
+   "verso": "Raciocínio:\n- No pré-renal o rim está bom e com pouco sangue: segura sódio e água ao máximo.\n- Na NTA o túbulo está lesado: não consegue reabsorver sódio nem concentrar a urina.\n\n**Pré-renal → FeNa < 1%, Na urinário < 20.**\n**NTA → FeNa > 2%, Na urinário > 40.**\n\nOutros achados da NTA:\n- Cilindros granulosos (\"marrom-barrentos\").\n- Urina isostenúrica.\n\nCom diurético:\n- Usar fração de excreção de ureia (< 35% = pré-renal).",
+   "macete": "\"Pré-renal Poupa sódio\" (FeNa Pequena).",
+   "pegadinha": "Diurético eleva a FeNa e confunde: use a FeUreia.",
+   "visual": {
+    "tipo": "tabela",
+    "cab": [
+     "",
+     "Pré-renal",
+     "NTA"
+    ],
+    "linhas": [
+     [
+      "FeNa",
+      "< 1%",
+      "> 2%"
+     ],
+     [
+      "Na urinário",
+      "< 20",
+      "> 40"
+     ],
+     [
+      "Osm urinária",
+      "> 500",
+      "< 350"
+     ],
+     [
+      "Sedimento",
+      "Normal",
+      "Cilindros granulosos"
+     ]
+    ]
+   },
+   "contexto": "**Lesão renal aguda (LRA) = queda abrupta da função renal (horas a dias), com aumento da creatinina e/ou redução da diurese.**\n\nDefinição (KDIGO):\n- Creatinina ↑ ≥ 0,3 mg/dL em 48 h, OU ↑ ≥ 1,5× o basal em 7 dias, OU diurese < 0,5 mL/kg/h por 6 h\n- Estágios 1 a 3 pela creatinina e diurese (tabela do contexto)\n\nCausas:\n- **Pré-renal** (a mais comum) → hipovolemia, IC, cirrose, sepse, AINE/IECA → rim estruturalmente normal\n- **Renal (intrínseca)** → **necrose tubular aguda** (isquemia prolongada, aminoglicosídeo, contraste, rabdomiólise) — a causa intrínseca mais comum; glomerulonefrites; nefrite intersticial (drogas: AINE, penicilinas, IBP)\n- **Pós-renal** → obstrução (hiperplasia prostática, cálculos bilaterais, tumor pélvico)\n\nPré-renal × NTA:\n- Pré-renal → rim poupa sódio: **FeNa < 1%**, Na urinário < 20, urina concentrada, ureia/creatinina > 40, sedimento normal\n- NTA → túbulo lesado não reabsorve: **FeNa > 2%**, Na urinário > 40, urina isostenúrica, cilindros granulosos (\"marrom-barrentos\")\n- Diurético altera a FeNa → usar fração de excreção de ureia (< 35% = pré-renal)\n\nAvaliação:\n- USG renal (afastar obstrução), urina I, eletrólitos, gasometria\n\nTratamento:\n- Tratar a causa: volume no pré-renal, desobstruir no pós-renal, suspender nefrotóxicos\n- Ajustar doses; evitar hipervolemia\n\nIndicações de diálise de urgência (AEIOU):\n- **A**cidose grave refratária\n- **E**letrólitos → hipercalemia refratária\n- **I**ntoxicação (lítio, metanol, salicilato)\n- **O**verload → hipervolemia/EAP refratário\n- **U**remia → encefalopatia, pericardite, sangramento\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: pré-renal × NTA pela FeNa e as indicações de diálise.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "KDIGO (LRA)",
+      "Critério",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "Estágio 1",
+       "Cr 1,5–1,9× basal ou ↑ ≥ 0,3; diurese < 0,5 mL/kg/h por 6–12 h",
+       "Tratar causa, suspender nefrotóxicos"
+      ],
+      [
+       "Estágio 2",
+       "Cr 2,0–2,9× basal; diurese < 0,5 por ≥ 12 h",
+       "Idem + monitorar de perto"
+      ],
+      [
+       "Estágio 3",
+       "Cr ≥ 3× ou ≥ 4 mg/dL ou diálise; diurese < 0,3 por ≥ 24 h ou anúria ≥ 12 h",
+       "Avaliar diálise (AEIOU)"
+      ]
+     ]
+    }
+   ],
+   "fonte": "KDIGO Clinical Practice Guideline for Acute Kidney Injury (2012) / Brenner & Rector's The Kidney 11ª ed.",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Clínica Médica",
+   "tema": "Nefrologia",
+   "sub": "Lesão renal aguda",
+   "id": "lra-02",
+   "tipo": "flash",
+   "prio": "alta",
+   "frente": "Indicações de diálise de urgência na LRA",
+   "verso": "Raciocínio:\n- Diálise de urgência entra quando uma complicação ameaça a vida e não responde ao tratamento clínico.\n\n**AEIOU:**\n- Acidose grave refratária\n- Eletrólitos (hipercalemia refratária)\n- Intoxicação (lítio, metanol, salicilato)\n- Overload (EAP refratário)\n- Uremia (encefalopatia, pericardite, sangramento)",
+   "macete": "\"AEIOU\" — as vogais da diálise.",
+   "pegadinha": "Creatinina alta sozinha não indica diálise de urgência.",
+   "contexto": "**Lesão renal aguda (LRA) = queda abrupta da função renal (horas a dias), com aumento da creatinina e/ou redução da diurese.**\n\nDefinição (KDIGO):\n- Creatinina ↑ ≥ 0,3 mg/dL em 48 h, OU ↑ ≥ 1,5× o basal em 7 dias, OU diurese < 0,5 mL/kg/h por 6 h\n- Estágios 1 a 3 pela creatinina e diurese (tabela do contexto)\n\nCausas:\n- **Pré-renal** (a mais comum) → hipovolemia, IC, cirrose, sepse, AINE/IECA → rim estruturalmente normal\n- **Renal (intrínseca)** → **necrose tubular aguda** (isquemia prolongada, aminoglicosídeo, contraste, rabdomiólise) — a causa intrínseca mais comum; glomerulonefrites; nefrite intersticial (drogas: AINE, penicilinas, IBP)\n- **Pós-renal** → obstrução (hiperplasia prostática, cálculos bilaterais, tumor pélvico)\n\nPré-renal × NTA:\n- Pré-renal → rim poupa sódio: **FeNa < 1%**, Na urinário < 20, urina concentrada, ureia/creatinina > 40, sedimento normal\n- NTA → túbulo lesado não reabsorve: **FeNa > 2%**, Na urinário > 40, urina isostenúrica, cilindros granulosos (\"marrom-barrentos\")\n- Diurético altera a FeNa → usar fração de excreção de ureia (< 35% = pré-renal)\n\nAvaliação:\n- USG renal (afastar obstrução), urina I, eletrólitos, gasometria\n\nTratamento:\n- Tratar a causa: volume no pré-renal, desobstruir no pós-renal, suspender nefrotóxicos\n- Ajustar doses; evitar hipervolemia\n\nIndicações de diálise de urgência (AEIOU):\n- **A**cidose grave refratária\n- **E**letrólitos → hipercalemia refratária\n- **I**ntoxicação (lítio, metanol, salicilato)\n- **O**verload → hipervolemia/EAP refratário\n- **U**remia → encefalopatia, pericardite, sangramento\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: pré-renal × NTA pela FeNa e as indicações de diálise.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "KDIGO (LRA)",
+      "Critério",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "Estágio 1",
+       "Cr 1,5–1,9× basal ou ↑ ≥ 0,3; diurese < 0,5 mL/kg/h por 6–12 h",
+       "Tratar causa, suspender nefrotóxicos"
+      ],
+      [
+       "Estágio 2",
+       "Cr 2,0–2,9× basal; diurese < 0,5 por ≥ 12 h",
+       "Idem + monitorar de perto"
+      ],
+      [
+       "Estágio 3",
+       "Cr ≥ 3× ou ≥ 4 mg/dL ou diálise; diurese < 0,3 por ≥ 24 h ou anúria ≥ 12 h",
+       "Avaliar diálise (AEIOU)"
+      ]
+     ]
+    }
+   ],
+   "fonte": "KDIGO Clinical Practice Guideline for Acute Kidney Injury (2012) / Brenner & Rector's The Kidney 11ª ed.",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Clínica Médica",
+   "tema": "Nefrologia",
+   "sub": "Lesão renal aguda",
+   "tipo": "quiz",
+   "frente": "Sobre a lesão renal aguda, analise: I. A causa mais comum é pré-renal. II. Na necrose tubular aguda a fração de excreção de sódio costuma ser menor que 1%. III. A USG renal ajuda a afastar causa pós-renal. Está(ão) correta(s):",
+   "opcoes": [
+    "Apenas I e II.",
+    "Apenas I e III.",
+    "Apenas II e III.",
+    "I, II e III."
+   ],
+   "certa": 1,
+   "comentarios": [
+    "II é falsa.",
+    "Correta. II é falsa: na NTA a FeNa é > 2%.",
+    "II é falsa.",
+    "II é falsa."
+   ],
+   "id": "lra-q1",
+   "prio": "alta",
+   "base": "- Hipovolemia e baixo débito são muito frequentes → pré-renal é a causa nº 1.\n- Túbulo lesado perde sódio → FeNa alta.\n- Obstrução dilata o sistema coletor → hidronefrose visível na USG.",
+   "macete": "\"Pré-renal Pouco sódio; NTA Muito sódio\".",
+   "pegadinha": "FeNa < 1% é pré-renal.",
+   "contexto": "**Lesão renal aguda (LRA) = queda abrupta da função renal (horas a dias), com aumento da creatinina e/ou redução da diurese.**\n\nDefinição (KDIGO):\n- Creatinina ↑ ≥ 0,3 mg/dL em 48 h, OU ↑ ≥ 1,5× o basal em 7 dias, OU diurese < 0,5 mL/kg/h por 6 h\n- Estágios 1 a 3 pela creatinina e diurese (tabela do contexto)\n\nCausas:\n- **Pré-renal** (a mais comum) → hipovolemia, IC, cirrose, sepse, AINE/IECA → rim estruturalmente normal\n- **Renal (intrínseca)** → **necrose tubular aguda** (isquemia prolongada, aminoglicosídeo, contraste, rabdomiólise) — a causa intrínseca mais comum; glomerulonefrites; nefrite intersticial (drogas: AINE, penicilinas, IBP)\n- **Pós-renal** → obstrução (hiperplasia prostática, cálculos bilaterais, tumor pélvico)\n\nPré-renal × NTA:\n- Pré-renal → rim poupa sódio: **FeNa < 1%**, Na urinário < 20, urina concentrada, ureia/creatinina > 40, sedimento normal\n- NTA → túbulo lesado não reabsorve: **FeNa > 2%**, Na urinário > 40, urina isostenúrica, cilindros granulosos (\"marrom-barrentos\")\n- Diurético altera a FeNa → usar fração de excreção de ureia (< 35% = pré-renal)\n\nAvaliação:\n- USG renal (afastar obstrução), urina I, eletrólitos, gasometria\n\nTratamento:\n- Tratar a causa: volume no pré-renal, desobstruir no pós-renal, suspender nefrotóxicos\n- Ajustar doses; evitar hipervolemia\n\nIndicações de diálise de urgência (AEIOU):\n- **A**cidose grave refratária\n- **E**letrólitos → hipercalemia refratária\n- **I**ntoxicação (lítio, metanol, salicilato)\n- **O**verload → hipervolemia/EAP refratário\n- **U**remia → encefalopatia, pericardite, sangramento\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: pré-renal × NTA pela FeNa e as indicações de diálise.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "KDIGO (LRA)",
+      "Critério",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "Estágio 1",
+       "Cr 1,5–1,9× basal ou ↑ ≥ 0,3; diurese < 0,5 mL/kg/h por 6–12 h",
+       "Tratar causa, suspender nefrotóxicos"
+      ],
+      [
+       "Estágio 2",
+       "Cr 2,0–2,9× basal; diurese < 0,5 por ≥ 12 h",
+       "Idem + monitorar de perto"
+      ],
+      [
+       "Estágio 3",
+       "Cr ≥ 3× ou ≥ 4 mg/dL ou diálise; diurese < 0,3 por ≥ 24 h ou anúria ≥ 12 h",
+       "Avaliar diálise (AEIOU)"
+      ]
+     ]
+    }
+   ],
+   "fonte": "KDIGO Clinical Practice Guideline for Acute Kidney Injury (2012) / Brenner & Rector's The Kidney 11ª ed.",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Clínica Médica",
+   "tema": "Nefrologia",
+   "sub": "Lesão renal aguda",
+   "id": "lra-d1",
+   "tipo": "digitar",
+   "prio": "alta",
+   "frente": "Qual a causa intrínseca mais comum de LRA?",
+   "verso": "**Necrose tubular aguda.**\n\n- Isquemia prolongada ou nefrotóxicos.",
+   "resposta": "Necrose tubular aguda",
+   "aceitas": [
+    "nta",
+    "necrose tubular aguda",
+    "necrose tubular"
+   ],
+   "macete": "Intrínseca = NTA.",
+   "contexto": "**Lesão renal aguda (LRA) = queda abrupta da função renal (horas a dias), com aumento da creatinina e/ou redução da diurese.**\n\nDefinição (KDIGO):\n- Creatinina ↑ ≥ 0,3 mg/dL em 48 h, OU ↑ ≥ 1,5× o basal em 7 dias, OU diurese < 0,5 mL/kg/h por 6 h\n- Estágios 1 a 3 pela creatinina e diurese (tabela do contexto)\n\nCausas:\n- **Pré-renal** (a mais comum) → hipovolemia, IC, cirrose, sepse, AINE/IECA → rim estruturalmente normal\n- **Renal (intrínseca)** → **necrose tubular aguda** (isquemia prolongada, aminoglicosídeo, contraste, rabdomiólise) — a causa intrínseca mais comum; glomerulonefrites; nefrite intersticial (drogas: AINE, penicilinas, IBP)\n- **Pós-renal** → obstrução (hiperplasia prostática, cálculos bilaterais, tumor pélvico)\n\nPré-renal × NTA:\n- Pré-renal → rim poupa sódio: **FeNa < 1%**, Na urinário < 20, urina concentrada, ureia/creatinina > 40, sedimento normal\n- NTA → túbulo lesado não reabsorve: **FeNa > 2%**, Na urinário > 40, urina isostenúrica, cilindros granulosos (\"marrom-barrentos\")\n- Diurético altera a FeNa → usar fração de excreção de ureia (< 35% = pré-renal)\n\nAvaliação:\n- USG renal (afastar obstrução), urina I, eletrólitos, gasometria\n\nTratamento:\n- Tratar a causa: volume no pré-renal, desobstruir no pós-renal, suspender nefrotóxicos\n- Ajustar doses; evitar hipervolemia\n\nIndicações de diálise de urgência (AEIOU):\n- **A**cidose grave refratária\n- **E**letrólitos → hipercalemia refratária\n- **I**ntoxicação (lítio, metanol, salicilato)\n- **O**verload → hipervolemia/EAP refratário\n- **U**remia → encefalopatia, pericardite, sangramento\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: pré-renal × NTA pela FeNa e as indicações de diálise.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "KDIGO (LRA)",
+      "Critério",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "Estágio 1",
+       "Cr 1,5–1,9× basal ou ↑ ≥ 0,3; diurese < 0,5 mL/kg/h por 6–12 h",
+       "Tratar causa, suspender nefrotóxicos"
+      ],
+      [
+       "Estágio 2",
+       "Cr 2,0–2,9× basal; diurese < 0,5 por ≥ 12 h",
+       "Idem + monitorar de perto"
+      ],
+      [
+       "Estágio 3",
+       "Cr ≥ 3× ou ≥ 4 mg/dL ou diálise; diurese < 0,3 por ≥ 24 h ou anúria ≥ 12 h",
+       "Avaliar diálise (AEIOU)"
+      ]
+     ]
+    }
+   ],
+   "fonte": "KDIGO Clinical Practice Guideline for Acute Kidney Injury (2012) / Brenner & Rector's The Kidney 11ª ed.",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Clínica Médica",
+   "tema": "Nefrologia",
+   "sub": "Lesão renal aguda",
+   "id": "lra-d2",
+   "tipo": "digitar",
+   "prio": "media",
+   "frente": "Qual valor de FeNa sugere LRA pré-renal?",
+   "verso": "**< 1%.**",
+   "resposta": "< 1%",
+   "aceitas": [
+    "1%",
+    "menor que 1%",
+    "<1%",
+    "1",
+    "menor que 1"
+   ],
+   "macete": "Pré-renal → Pequena (< 1).",
+   "contexto": "**Lesão renal aguda (LRA) = queda abrupta da função renal (horas a dias), com aumento da creatinina e/ou redução da diurese.**\n\nDefinição (KDIGO):\n- Creatinina ↑ ≥ 0,3 mg/dL em 48 h, OU ↑ ≥ 1,5× o basal em 7 dias, OU diurese < 0,5 mL/kg/h por 6 h\n- Estágios 1 a 3 pela creatinina e diurese (tabela do contexto)\n\nCausas:\n- **Pré-renal** (a mais comum) → hipovolemia, IC, cirrose, sepse, AINE/IECA → rim estruturalmente normal\n- **Renal (intrínseca)** → **necrose tubular aguda** (isquemia prolongada, aminoglicosídeo, contraste, rabdomiólise) — a causa intrínseca mais comum; glomerulonefrites; nefrite intersticial (drogas: AINE, penicilinas, IBP)\n- **Pós-renal** → obstrução (hiperplasia prostática, cálculos bilaterais, tumor pélvico)\n\nPré-renal × NTA:\n- Pré-renal → rim poupa sódio: **FeNa < 1%**, Na urinário < 20, urina concentrada, ureia/creatinina > 40, sedimento normal\n- NTA → túbulo lesado não reabsorve: **FeNa > 2%**, Na urinário > 40, urina isostenúrica, cilindros granulosos (\"marrom-barrentos\")\n- Diurético altera a FeNa → usar fração de excreção de ureia (< 35% = pré-renal)\n\nAvaliação:\n- USG renal (afastar obstrução), urina I, eletrólitos, gasometria\n\nTratamento:\n- Tratar a causa: volume no pré-renal, desobstruir no pós-renal, suspender nefrotóxicos\n- Ajustar doses; evitar hipervolemia\n\nIndicações de diálise de urgência (AEIOU):\n- **A**cidose grave refratária\n- **E**letrólitos → hipercalemia refratária\n- **I**ntoxicação (lítio, metanol, salicilato)\n- **O**verload → hipervolemia/EAP refratário\n- **U**remia → encefalopatia, pericardite, sangramento\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: pré-renal × NTA pela FeNa e as indicações de diálise.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "KDIGO (LRA)",
+      "Critério",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "Estágio 1",
+       "Cr 1,5–1,9× basal ou ↑ ≥ 0,3; diurese < 0,5 mL/kg/h por 6–12 h",
+       "Tratar causa, suspender nefrotóxicos"
+      ],
+      [
+       "Estágio 2",
+       "Cr 2,0–2,9× basal; diurese < 0,5 por ≥ 12 h",
+       "Idem + monitorar de perto"
+      ],
+      [
+       "Estágio 3",
+       "Cr ≥ 3× ou ≥ 4 mg/dL ou diálise; diurese < 0,3 por ≥ 24 h ou anúria ≥ 12 h",
+       "Avaliar diálise (AEIOU)"
+      ]
+     ]
+    }
+   ],
+   "fonte": "KDIGO Clinical Practice Guideline for Acute Kidney Injury (2012) / Brenner & Rector's The Kidney 11ª ed.",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Clínica Médica",
+   "tema": "Infectologia",
+   "sub": "HIV/aids — diagnóstico, tratamento e profilaxias",
+   "id": "hiv-01",
+   "tipo": "flash",
+   "prio": "alta",
+   "frente": "Profilaxia pós-exposição ao HIV (PEP): prazo, esquema e duração",
+   "verso": "Raciocínio:\n- Nas primeiras horas o vírus ainda está se instalando nas células locais.\n- Bloquear a replicação logo cedo impede que a infecção se estabeleça.\n\n**Até 72 h da exposição (quanto antes, melhor).**\n**TDF + 3TC + DTG por 28 dias.**\n\nSeguimento:\n- Testar HIV na hora, com 30 e com 90 dias.\n- Avaliar também sífilis, hepatites B e C e gravidez.",
+   "macete": "\"72 horas, 28 dias, 3 drogas\".",
+   "pegadinha": "Depois de 72 h a PEP não é indicada.",
+   "contexto": "**HIV = retrovírus que infecta linfócitos T CD4+; sem tratamento, a queda do CD4 leva à aids (imunodeficiência com infecções oportunistas e neoplasias).**\n\nHistória natural:\n- Infecção aguda (síndrome retroviral) → 2–4 semanas: febre, faringite, linfonodos, exantema\n- Latência clínica (anos) → CD4 cai ~50–100/ano\n- Aids → CD4 < 200 ou doença definidora (pneumocistose, neurotoxoplasmose, criptococose, TB extrapulmonar, sarcoma de Kaposi, candidíase esofágica)\n\nDiagnóstico (MS):\n- **Dois testes rápidos** de fabricantes diferentes reagentes (fluxograma)\n- Ou imunoensaio (4ª geração) + teste molecular (carga viral)\n- Janela imunológica ~30 dias (4ª geração)\n\nTratamento (PCDT 2024):\n- **TARV para todos**, independentemente do CD4, o mais cedo possível\n- Esquema inicial preferencial → **tenofovir (TDF) + lamivudina (3TC) + dolutegravir (DTG)**\n- Objetivo → carga viral indetectável (indetectável = intransmissível)\n- Com TB → começar o tratamento da TB e iniciar TARV em até 2 semanas (exceto meningite tuberculosa/criptocócica: adiar 4–6 semanas)\n\nProfilaxias de infecções oportunistas:\n- **CD4 < 200** → sulfametoxazol-trimetoprima (pneumocistose; também toxoplasmose se CD4 < 100 e IgG+)\n- ILTB → tratar (ver baralho de tuberculose)\n\nPrevenção:\n- **PrEP** → TDF + entricitabina diária (ou sob demanda em homens que fazem sexo com homens), para populações de risco\n- **PEP** → até **72 h** da exposição, por **28 dias**: TDF + 3TC + DTG\n- Gestante → TARV, carga viral no 3º trimestre, AZT intraparto se carga viral > 1.000 ou desconhecida; não amamentar\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: prazos da PEP, TARV inicial e CD4 que indica profilaxia.",
+   "ctxvisual": [
+    {
+     "tipo": "fluxo",
+     "passos": [
+      "Exposição de risco",
+      "PEP em até 72 h (ideal 2 h)",
+      "TDF + 3TC + DTG por 28 dias",
+      "Testar HIV na hora, com 30 e 90 dias"
+     ]
+    }
+   ],
+   "fonte": "Ministério da Saúde — PCDT para Manejo da Infecção pelo HIV em Adultos (2024) / PCDT PEP (2024) / PCDT PrEP (2025)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Clínica Médica",
+   "tema": "Infectologia",
+   "sub": "HIV/aids — diagnóstico, tratamento e profilaxias",
+   "id": "hiv-02",
+   "tipo": "flash",
+   "prio": "alta",
+   "frente": "Quando iniciar a TARV e qual o esquema inicial?",
+   "verso": "Raciocínio:\n- Mesmo com CD4 alto, o vírus replica e inflama o organismo.\n- Tratar cedo protege o sistema imune e zera a transmissão (indetectável = intransmissível).\n\n**TARV para todos, logo após o diagnóstico.**\n**Esquema → TDF + 3TC + DTG.**\n\nCom tuberculose:\n- Iniciar TARV em até 2 semanas do tratamento da TB.\n- Meningite (TB ou criptococo) → adiar 4–6 semanas.",
+   "macete": "\"Diagnosticou, tratou: TDF + 3TC + DTG\".",
+   "pegadinha": "Não se espera o CD4 cair para começar a TARV.",
+   "contexto": "**HIV = retrovírus que infecta linfócitos T CD4+; sem tratamento, a queda do CD4 leva à aids (imunodeficiência com infecções oportunistas e neoplasias).**\n\nHistória natural:\n- Infecção aguda (síndrome retroviral) → 2–4 semanas: febre, faringite, linfonodos, exantema\n- Latência clínica (anos) → CD4 cai ~50–100/ano\n- Aids → CD4 < 200 ou doença definidora (pneumocistose, neurotoxoplasmose, criptococose, TB extrapulmonar, sarcoma de Kaposi, candidíase esofágica)\n\nDiagnóstico (MS):\n- **Dois testes rápidos** de fabricantes diferentes reagentes (fluxograma)\n- Ou imunoensaio (4ª geração) + teste molecular (carga viral)\n- Janela imunológica ~30 dias (4ª geração)\n\nTratamento (PCDT 2024):\n- **TARV para todos**, independentemente do CD4, o mais cedo possível\n- Esquema inicial preferencial → **tenofovir (TDF) + lamivudina (3TC) + dolutegravir (DTG)**\n- Objetivo → carga viral indetectável (indetectável = intransmissível)\n- Com TB → começar o tratamento da TB e iniciar TARV em até 2 semanas (exceto meningite tuberculosa/criptocócica: adiar 4–6 semanas)\n\nProfilaxias de infecções oportunistas:\n- **CD4 < 200** → sulfametoxazol-trimetoprima (pneumocistose; também toxoplasmose se CD4 < 100 e IgG+)\n- ILTB → tratar (ver baralho de tuberculose)\n\nPrevenção:\n- **PrEP** → TDF + entricitabina diária (ou sob demanda em homens que fazem sexo com homens), para populações de risco\n- **PEP** → até **72 h** da exposição, por **28 dias**: TDF + 3TC + DTG\n- Gestante → TARV, carga viral no 3º trimestre, AZT intraparto se carga viral > 1.000 ou desconhecida; não amamentar\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: prazos da PEP, TARV inicial e CD4 que indica profilaxia.",
+   "ctxvisual": [
+    {
+     "tipo": "fluxo",
+     "passos": [
+      "Exposição de risco",
+      "PEP em até 72 h (ideal 2 h)",
+      "TDF + 3TC + DTG por 28 dias",
+      "Testar HIV na hora, com 30 e 90 dias"
+     ]
+    }
+   ],
+   "fonte": "Ministério da Saúde — PCDT para Manejo da Infecção pelo HIV em Adultos (2024) / PCDT PEP (2024) / PCDT PrEP (2025)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Clínica Médica",
+   "tema": "Infectologia",
+   "sub": "HIV/aids — diagnóstico, tratamento e profilaxias",
+   "tipo": "quiz",
+   "frente": "Sobre a infecção pelo HIV, analise: I. A profilaxia para pneumocistose com sulfametoxazol-trimetoprima é indicada com CD4 < 200. II. A PEP pode ser iniciada até 7 dias após a exposição. III. A TARV é indicada para todas as pessoas vivendo com HIV, independentemente do CD4. Está(ão) correta(s):",
+   "opcoes": [
+    "Apenas I e II.",
+    "Apenas I e III.",
+    "Apenas II e III.",
+    "I, II e III."
+   ],
+   "certa": 1,
+   "comentarios": [
+    "II é falsa.",
+    "Correta. II é falsa: a PEP é até 72 h.",
+    "II é falsa.",
+    "II é falsa."
+   ],
+   "id": "hiv-q1",
+   "prio": "alta",
+   "base": "- Abaixo de 200 CD4 o risco de pneumocistose sobe muito → SMX-TMP previne.\n- A PEP só funciona antes de o vírus se estabelecer → janela de 72 h.",
+   "macete": "\"200 = Bactrim; 72 h = PEP\".",
+   "pegadinha": "PEP depois de 72 h não é indicada.",
+   "contexto": "**HIV = retrovírus que infecta linfócitos T CD4+; sem tratamento, a queda do CD4 leva à aids (imunodeficiência com infecções oportunistas e neoplasias).**\n\nHistória natural:\n- Infecção aguda (síndrome retroviral) → 2–4 semanas: febre, faringite, linfonodos, exantema\n- Latência clínica (anos) → CD4 cai ~50–100/ano\n- Aids → CD4 < 200 ou doença definidora (pneumocistose, neurotoxoplasmose, criptococose, TB extrapulmonar, sarcoma de Kaposi, candidíase esofágica)\n\nDiagnóstico (MS):\n- **Dois testes rápidos** de fabricantes diferentes reagentes (fluxograma)\n- Ou imunoensaio (4ª geração) + teste molecular (carga viral)\n- Janela imunológica ~30 dias (4ª geração)\n\nTratamento (PCDT 2024):\n- **TARV para todos**, independentemente do CD4, o mais cedo possível\n- Esquema inicial preferencial → **tenofovir (TDF) + lamivudina (3TC) + dolutegravir (DTG)**\n- Objetivo → carga viral indetectável (indetectável = intransmissível)\n- Com TB → começar o tratamento da TB e iniciar TARV em até 2 semanas (exceto meningite tuberculosa/criptocócica: adiar 4–6 semanas)\n\nProfilaxias de infecções oportunistas:\n- **CD4 < 200** → sulfametoxazol-trimetoprima (pneumocistose; também toxoplasmose se CD4 < 100 e IgG+)\n- ILTB → tratar (ver baralho de tuberculose)\n\nPrevenção:\n- **PrEP** → TDF + entricitabina diária (ou sob demanda em homens que fazem sexo com homens), para populações de risco\n- **PEP** → até **72 h** da exposição, por **28 dias**: TDF + 3TC + DTG\n- Gestante → TARV, carga viral no 3º trimestre, AZT intraparto se carga viral > 1.000 ou desconhecida; não amamentar\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: prazos da PEP, TARV inicial e CD4 que indica profilaxia.",
+   "ctxvisual": [
+    {
+     "tipo": "fluxo",
+     "passos": [
+      "Exposição de risco",
+      "PEP em até 72 h (ideal 2 h)",
+      "TDF + 3TC + DTG por 28 dias",
+      "Testar HIV na hora, com 30 e 90 dias"
+     ]
+    }
+   ],
+   "fonte": "Ministério da Saúde — PCDT para Manejo da Infecção pelo HIV em Adultos (2024) / PCDT PEP (2024) / PCDT PrEP (2025)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Clínica Médica",
+   "tema": "Infectologia",
+   "sub": "HIV/aids — diagnóstico, tratamento e profilaxias",
+   "id": "hiv-d1",
+   "tipo": "digitar",
+   "prio": "alta",
+   "frente": "Por quantos dias se mantém a PEP ao HIV?",
+   "verso": "**28 dias.**",
+   "resposta": "28 dias",
+   "aceitas": [
+    "28",
+    "vinte e oito dias",
+    "4 semanas"
+   ],
+   "macete": "PEP = 28 dias.",
+   "contexto": "**HIV = retrovírus que infecta linfócitos T CD4+; sem tratamento, a queda do CD4 leva à aids (imunodeficiência com infecções oportunistas e neoplasias).**\n\nHistória natural:\n- Infecção aguda (síndrome retroviral) → 2–4 semanas: febre, faringite, linfonodos, exantema\n- Latência clínica (anos) → CD4 cai ~50–100/ano\n- Aids → CD4 < 200 ou doença definidora (pneumocistose, neurotoxoplasmose, criptococose, TB extrapulmonar, sarcoma de Kaposi, candidíase esofágica)\n\nDiagnóstico (MS):\n- **Dois testes rápidos** de fabricantes diferentes reagentes (fluxograma)\n- Ou imunoensaio (4ª geração) + teste molecular (carga viral)\n- Janela imunológica ~30 dias (4ª geração)\n\nTratamento (PCDT 2024):\n- **TARV para todos**, independentemente do CD4, o mais cedo possível\n- Esquema inicial preferencial → **tenofovir (TDF) + lamivudina (3TC) + dolutegravir (DTG)**\n- Objetivo → carga viral indetectável (indetectável = intransmissível)\n- Com TB → começar o tratamento da TB e iniciar TARV em até 2 semanas (exceto meningite tuberculosa/criptocócica: adiar 4–6 semanas)\n\nProfilaxias de infecções oportunistas:\n- **CD4 < 200** → sulfametoxazol-trimetoprima (pneumocistose; também toxoplasmose se CD4 < 100 e IgG+)\n- ILTB → tratar (ver baralho de tuberculose)\n\nPrevenção:\n- **PrEP** → TDF + entricitabina diária (ou sob demanda em homens que fazem sexo com homens), para populações de risco\n- **PEP** → até **72 h** da exposição, por **28 dias**: TDF + 3TC + DTG\n- Gestante → TARV, carga viral no 3º trimestre, AZT intraparto se carga viral > 1.000 ou desconhecida; não amamentar\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: prazos da PEP, TARV inicial e CD4 que indica profilaxia.",
+   "ctxvisual": [
+    {
+     "tipo": "fluxo",
+     "passos": [
+      "Exposição de risco",
+      "PEP em até 72 h (ideal 2 h)",
+      "TDF + 3TC + DTG por 28 dias",
+      "Testar HIV na hora, com 30 e 90 dias"
+     ]
+    }
+   ],
+   "fonte": "Ministério da Saúde — PCDT para Manejo da Infecção pelo HIV em Adultos (2024) / PCDT PEP (2024) / PCDT PrEP (2025)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Clínica Médica",
+   "tema": "Infectologia",
+   "sub": "HIV/aids — diagnóstico, tratamento e profilaxias",
+   "id": "hiv-d2",
+   "tipo": "digitar",
+   "prio": "alta",
+   "frente": "Abaixo de qual contagem de CD4 se indica profilaxia para pneumocistose?",
+   "verso": "**200 células/mm³.**",
+   "resposta": "200",
+   "aceitas": [
+    "200 células",
+    "cd4 < 200",
+    "200/mm3",
+    "< 200"
+   ],
+   "macete": "\"200 = Bactrim\".",
+   "contexto": "**HIV = retrovírus que infecta linfócitos T CD4+; sem tratamento, a queda do CD4 leva à aids (imunodeficiência com infecções oportunistas e neoplasias).**\n\nHistória natural:\n- Infecção aguda (síndrome retroviral) → 2–4 semanas: febre, faringite, linfonodos, exantema\n- Latência clínica (anos) → CD4 cai ~50–100/ano\n- Aids → CD4 < 200 ou doença definidora (pneumocistose, neurotoxoplasmose, criptococose, TB extrapulmonar, sarcoma de Kaposi, candidíase esofágica)\n\nDiagnóstico (MS):\n- **Dois testes rápidos** de fabricantes diferentes reagentes (fluxograma)\n- Ou imunoensaio (4ª geração) + teste molecular (carga viral)\n- Janela imunológica ~30 dias (4ª geração)\n\nTratamento (PCDT 2024):\n- **TARV para todos**, independentemente do CD4, o mais cedo possível\n- Esquema inicial preferencial → **tenofovir (TDF) + lamivudina (3TC) + dolutegravir (DTG)**\n- Objetivo → carga viral indetectável (indetectável = intransmissível)\n- Com TB → começar o tratamento da TB e iniciar TARV em até 2 semanas (exceto meningite tuberculosa/criptocócica: adiar 4–6 semanas)\n\nProfilaxias de infecções oportunistas:\n- **CD4 < 200** → sulfametoxazol-trimetoprima (pneumocistose; também toxoplasmose se CD4 < 100 e IgG+)\n- ILTB → tratar (ver baralho de tuberculose)\n\nPrevenção:\n- **PrEP** → TDF + entricitabina diária (ou sob demanda em homens que fazem sexo com homens), para populações de risco\n- **PEP** → até **72 h** da exposição, por **28 dias**: TDF + 3TC + DTG\n- Gestante → TARV, carga viral no 3º trimestre, AZT intraparto se carga viral > 1.000 ou desconhecida; não amamentar\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: prazos da PEP, TARV inicial e CD4 que indica profilaxia.",
+   "ctxvisual": [
+    {
+     "tipo": "fluxo",
+     "passos": [
+      "Exposição de risco",
+      "PEP em até 72 h (ideal 2 h)",
+      "TDF + 3TC + DTG por 28 dias",
+      "Testar HIV na hora, com 30 e 90 dias"
+     ]
+    }
+   ],
+   "fonte": "Ministério da Saúde — PCDT para Manejo da Infecção pelo HIV em Adultos (2024) / PCDT PEP (2024) / PCDT PrEP (2025)",
+   "add": "2026-11-04"
   }
  ],
  "rev": 1793813611678

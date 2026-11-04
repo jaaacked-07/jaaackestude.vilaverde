@@ -1651,6 +1651,62 @@
     "VV 2024": 1
    },
    "temas": "Condiloma plano (sífilis secundária) (VV 2024 Q64)"
+  },
+  "Síndrome coronariana aguda — IAM com e sem supra de ST": {
+   "q": 0,
+   "pond": 0,
+   "fontes": {},
+   "temas": "",
+   "area": "Clínica Médica",
+   "tema": "Cardiologia"
+  },
+  "Fibrilação atrial e taquiarritmias": {
+   "q": 0,
+   "pond": 0,
+   "fontes": {},
+   "temas": "",
+   "area": "Clínica Médica",
+   "tema": "Cardiologia"
+  },
+  "Valvopatias": {
+   "q": 0,
+   "pond": 0,
+   "fontes": {},
+   "temas": "",
+   "area": "Clínica Médica",
+   "tema": "Cardiologia"
+  },
+  "Parada cardiorrespiratória — suporte avançado de vida (ACLS)": {
+   "q": 0,
+   "pond": 0,
+   "fontes": {},
+   "temas": "",
+   "area": "Clínica Médica",
+   "tema": "Cardiologia"
+  },
+  "Asma": {
+   "q": 0,
+   "pond": 0,
+   "fontes": {},
+   "temas": "",
+   "area": "Clínica Médica",
+   "tema": "Pneumologia"
+  },
+  "Lesão renal aguda": {
+   "q": 0,
+   "pond": 0,
+   "fontes": {},
+   "temas": "",
+   "area": "Clínica Médica",
+   "tema": "Nefrologia"
+  },
+  "HIV/aids — diagnóstico, tratamento e profilaxias": {
+   "q": 0,
+   "pond": 0,
+   "fontes": {},
+   "temas": "",
+   "area": "Clínica Médica",
+   "tema": "Infectologia"
   }
  }
 }
