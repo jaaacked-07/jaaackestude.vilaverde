@@ -132,6 +132,15 @@ html:has(body>.sess),html:has(body>.sess) body{overflow:hidden!important;height:
 .opt.ok{background:var(--ok-soft)}.opt.ok .k{background:var(--ok);border-color:var(--ok);color:#fff}
 .opt.bad{background:var(--bad-soft)}.opt.bad .k{background:var(--bad);border-color:var(--bad);color:#fff}
 .opt[disabled]{cursor:default}
+.opt.sel{background:var(--wine-soft);box-shadow:inset 0 0 0 1.5px var(--wine)}.opt.sel .k{background:var(--wine);border-color:var(--wine);color:#fff}
+.smtm{font-size:13px;font-weight:600;font-variant-numeric:tabular-nums;color:var(--ink);min-width:52px;text-align:right}.smtm.pouco{color:var(--bad)}
+.smgr{font-size:12.5px;font-weight:600;color:var(--wine);background:var(--wine-soft);border-radius:9px;padding:6px 9px}
+.smnav{display:flex;gap:8px}.smnav .btn{margin:0;width:auto;padding:15px 12px}.smnav .btn.ghost{flex:0 0 auto;min-width:56px}.smnav .btn:last-child{flex:1}.smfl.on{color:#D9A441;border-color:#D9A441}
+.smgd{display:grid;grid-template-columns:repeat(auto-fill,minmax(40px,1fr));gap:6px;max-height:50vh;overflow-y:auto}.smgd button{height:38px;border-radius:9px;border:1.5px solid var(--line);font-size:13px;font-variant-numeric:tabular-nums;color:var(--mute);position:relative}
+.smgd button.r{background:var(--wine-soft);color:var(--wine);border-color:transparent;font-weight:600}.smgd button.m::after{content:'⚑';position:absolute;top:-3px;right:1px;font-size:10px;color:#D9A441}.smgd button.at{outline:2px solid var(--wine);outline-offset:1px}
+.smres{text-align:center;padding:10px 0}.smbig{font-size:54px;font-weight:600;letter-spacing:-.03em;font-variant-numeric:tabular-nums;line-height:1.1}.smcut{display:inline-block;margin-top:10px;padding:6px 12px;border-radius:999px;font-size:13.5px;font-weight:600}.smcut.ok{background:var(--ok-soft);color:var(--ok)}.smcut.bad{background:var(--bad-soft);color:var(--bad)}
+.opt .ot{flex:1;min-width:0}.opt .rk{flex:none;align-self:center;width:30px;height:30px;margin:-4px -6px -4px 0;border-radius:50%;display:grid;place-items:center;color:var(--mute);font-size:15px;opacity:.55}.opt .rk:active{background:var(--line)}
+.opt.risc .ot>.tx0{text-decoration:line-through;text-decoration-thickness:1.5px;color:var(--mute)}.opt.risc .k{opacity:.4}.opt.risc .rk{opacity:1;color:var(--bad)}
 
 /* visuals */
 .vis{margin-top:18px}
@@ -422,6 +431,7 @@ details.sent summary{cursor:pointer;color:var(--mute);font-size:14px;margin-top:
 #lbx .lbx{position:fixed;top:max(12px,env(safe-area-inset-top));right:14px;width:42px;height:42px;border-radius:50%;background:rgba(255,255,255,.16);color:#fff;font-size:26px;line-height:1;border:0}
 /* Material */
 .mtop{display:flex;align-items:center;gap:10px;margin:-6px 0 14px}.mtop .b{flex:1;height:6px;border-radius:4px;background:var(--line);overflow:hidden}.mtop .b i{display:block;height:100%;background:var(--ok)}.mtop .v{font-size:13px;color:var(--mute)}
+.pri{flex:none;display:inline-flex;align-items:center;gap:4px;font-size:10.5px;font-weight:600;border-radius:999px;padding:2px 7px 2px 5px;margin-left:6px;color:#c62828;background:rgba(198,40,40,.1);white-space:nowrap}.pri i{width:7px;height:7px;border-radius:50%;background:#e53935;flex:none}.pri.media{color:#c2185b;background:rgba(229,57,53,.06)}.pri.media i{background:#ef9a9a}.pri.baixa{color:var(--mute);background:transparent;border:1px solid rgba(229,57,53,.35)}.pri.baixa i{background:transparent;border:1.5px solid #e57373}
 .rowi .pc{font-size:12px;color:var(--mute);flex:none;min-width:38px;text-align:right}.rowi .pc.cheio{color:var(--ok);font-weight:600}
 .rowi.mt2 .tx{white-space:normal}
 .rowi .mck{flex:none;width:28px;height:28px;border-radius:50%;border:1.6px solid var(--line);color:transparent;font-size:15px;line-height:25px;text-align:center;background:var(--card)}
@@ -567,7 +577,7 @@ const DEV=(()=>{try{let d=localStorage.getItem(LS+'.dev');if(!d){d=Math.random()
 function fixS(){ (S.notas||[]).forEach(n=>(n.imgs||[]).forEach(im=>{ if(im&&im.path&&im.local) delete im.local; }));S.srs=S.srs||{}; S.xp=S.xp||0; S.streak=S.streak||{n:0,last:null}; S.notas=S.notas||[]; S.extra=S.extra||[]; S.plan=S.plan||null; S.fav=S.fav||{}; S.minha=S.minha||{}; S.ren=S.ren||{tema:{},sub:{}}; S.ren.area=S.ren.area||{}; S.edit=S.edit||{}; S.oculto=S.oculto||{}; migrarRet();
   S.xpDev=S.xpDev||{}; if(S.xp&&!Object.keys(S.xpDev).length) S.xpDev[DEV]=S.xp;
   S.dias=S.dias||{}; if(S.streak&&S.streak.last&&!Object.keys(S.dias).length) for(let i=0;i<S.streak.n;i++) S.dias[addD(S.streak.last,-i)]=1;
-  S.notasDel=S.notasDel||{}; S.sim=S.sim||[]; S.simDel=S.simDel||{}; S.decks=S.decks||[]; S.decksDel=S.decksDel||{}; S.marks=S.marks||{}; S.lido=S.lido||{};
+  S.notasDel=S.notasDel||{}; S.sim=S.sim||[]; S.simq=S.simq||{}; S.simDel=S.simDel||{}; S.decks=S.decks||[]; S.decksDel=S.decksDel||{}; S.marks=S.marks||{}; S.lido=S.lido||{};
   if(typeof recalc==='function') recalc();}
 fixS();
 /* se o armazenamento do aparelho lotar (fotos em cache), libera o cache de fotos e tenta de novo — o progresso nunca deixa de ser salvo */
@@ -1099,6 +1109,7 @@ function pEstudar(){
     <p class="mute small" style="margin-top:-10px;margin-bottom:16px">Monte seu baralho — o que você estudar aqui também entra na revisão programada.</p>
     ${(h=>h?h+'<div style="height:14px"></div>':'')(retLista())}
     ${!vesperaAtiva()&&filaVespera().length?`<div class="linkrow" style="justify-content:flex-start;margin:-6px 0 12px"><button class="link vespb">🌙 Modo véspera (${filaVespera().length}) — revisão final, sem novos</button></div>`:''}
+    <button class="btn ghost" id="simB" style="margin:0 0 14px">📝 Simulado estilo prova${S.simAt&&!S.simAt.off&&S.simAt.ids?' · continuar':''}</button>
     <button class="sel" id="sT"><span class="sl">Temas</span><span class="sv">${esc(temaTxt)}</span><span class="ch">▾</span></button>
     <button class="sel" id="sF"><span class="sl">Quais cards</span><span class="sv">${FILTROS[DECK.filtro]}</span><span class="ch">▾</span></button>
     <button class="sel" id="sP"><span class="sl">Prioridade</span><span class="sv">${PRIOS[DECK.prio]}</span><span class="ch">▾</span></button>
@@ -1111,7 +1122,7 @@ function pEstudar(){
     <div id="lst">${arvoreHTML(lista,ABERTO,{tile,pen:true,forcar:!!nb,vazios:nb?[]:[...S.decks,...fixasVazias()]})}</div>
     ${ocultos?`<div class="linkrow"><button class="link" id="oc">cards ocultos (${ocultos})</button></div>`:''}
   </div>`;
-  $('#sT').onclick=escolherTemas;
+  $('#sT').onclick=escolherTemas; $('#simB').onclick=simuMenu;
   $('#sP').onclick=()=>escolha('Prioridade',Object.keys(PRIOS).map(k=>({v:k,t:PRIOS[k]})),DECK.prio,v=>{DECK.prio=v; try{localStorage.setItem(LS+'.dprio',v)}catch(e){} pEstudar()});
   $('#sF').onclick=()=>escolha('Quais cards',Object.keys(FILTROS).map(k=>({v:k,t:FILTROS[k]})),DECK.filtro,v=>{DECK.filtro=v;pEstudar()});
   $('#sQ').onclick=()=>escolha('Quantos cards',[{v:'10',t:'10'},{v:'20',t:'20'},{v:'30',t:'30'},{v:'0',t:'Todos'}],String(DECK.qtd),v=>{DECK.qtd=+v;pEstudar()});
@@ -1123,7 +1134,7 @@ function pEstudar(){
   const oc=$('#oc'); if(oc) oc.onclick=verOcultos;
 }
 /* ===== Material: o contexto (resumão) de cada baralho para ler antes dos cards ===== */
-const MAT={busca:''}, ABERTO_M=new Set();
+const MAT={busca:'',prio:(()=>{try{return localStorage.getItem(LS+'.mprio')||''}catch(e){return ''}})()}, ABERTO_M=new Set();
 const matChave=c=>ctxKey(c);
 /* conta como lido: ela marcou ✓, ou (se nunca marcou/desmarcou) o contexto já tem anotação ou marca-texto dela */
 function matAnot(c){ const k=matChave(c), n=S.marks['an:'+k], m=S.marks[k];
@@ -1137,24 +1148,34 @@ function matItens(){ const m=new Map(); CARDS.forEach(c0=>{ const k=kSub(c0); if
   return [...m.values()]; }
 function pMaterial(){
   const todos=matItens(), nb=norm(MAT.busca.trim());
-  const lista=nb?todos.filter(x=>norm(x.area+' '+x.tema+' '+x.sub+' '+x.contexto).includes(nb)):todos;
+  /* prioridade da matéria = soma do que os baralhos dela caem no Vila Verde (pond) */
+  const PM={}; todos.forEach(x=>{ const k=x.area+'|'+x.tema; PM[k]=(PM[k]||0)+qUERJ(x); });
+  const pmNiv=v=>v>=6?'alta':v>=3?'media':'baixa', nivM=(a,t)=>pmNiv(PM[a+'|'+t]||0), NOMEP={alta:'alta',media:'intermediária',baixa:'baixa'};
+  const priB=n=>`<span class="pri ${n}" title="Prioridade ${NOMEP[n]} (quanto cai no Vila Verde)"><i></i>${NOMEP[n]}</span>`;
+  let lista=nb?todos.filter(x=>norm(x.area+' '+x.tema+' '+x.sub+' '+x.contexto).includes(nb)):todos;
+  if(MAT.prio) lista=lista.filter(x=>nivM(x.area,x.tema)===MAT.prio);
+  const ordM=a=>(t1,t2)=>(PM[a+'|'+t2]||0)-(PM[a+'|'+t1]||0)||abc(t1,t2);
   const pc=xs=>{ const n=xs.filter(matLido).length; return {n,t:xs.length,p:xs.length?Math.round(n/xs.length*100):0}; };
   const g=pc(todos), A={};
   lista.forEach(x=>{ ((A[x.area]=A[x.area]||{})[x.tema]=A[x.area][x.tema]||[]).push(x); });
-  const forcar=!!nb, cel=o=>`<span class="pc ${o.p===100?'cheio':''}" title="${o.n} de ${o.t} lidos">${o.p}%</span>`;
+  const forcar=!!nb||!!MAT.prio, cel=o=>`<span class="pc ${o.p===100?'cheio':''}" title="${o.n} de ${o.t} lidos">${o.p}%</span>`;
   const linhas=Object.keys(A).sort(abc).map(a=>{ const ka='a:'+a, oa=forcar||ABERTO_M.has(ka), xa=todos.filter(x=>x.area===a);
-    return `<div class="rowi ${oa?'op':''}" role="button" data-k="${esc(ka)}"><span class="chv">▶</span><span class="tx">${esc(a)}</span>${cel(pc(xa))}</div>`+(oa?Object.keys(A[a]).sort(abc).map(t=>{
+    return `<div class="rowi ${oa?'op':''}" role="button" data-k="${esc(ka)}"><span class="chv">▶</span><span class="tx">${esc(a)}</span>${cel(pc(xa))}</div>`+(oa?Object.keys(A[a]).sort(ordM(a)).map(t=>{
       const km='m:'+a+'|'+t, om=forcar||ABERTO_M.has(km), xm=todos.filter(x=>x.area===a&&x.tema===t);
-      return `<div class="rowi lv1 ${om?'op':''}" role="button" data-k="${esc(km)}"><span class="chv">▶</span><span class="tx">${esc(t)}</span>${cel(pc(xm))}</div>`+(om?A[a][t].sort((p,q)=>abc(p.sub,q.sub)).map(x=>{ const l=matLido(x);
+      return `<div class="rowi lv1 ${om?'op':''}" role="button" data-k="${esc(km)}"><span class="chv">▶</span><span class="tx">${esc(t)}</span>${cel(pc(xm))}${priB(nivM(a,t))}</div>`+(om?A[a][t].sort((p,q)=>qUERJ(q)-qUERJ(p)||abc(p.sub,q.sub)).map(x=>{ const l=matLido(x);
         return `<div class="rowi lv2 mt2 ${l?'lido':''}" role="button" data-mat="${esc(x.id)}"><span class="tx">${esc(x.sub)}</span><span class="mck" role="button" data-mck="${esc(x.id)}" aria-label="${l?'Desmarcar como lido':'Marcar como lido'}" title="${l?'Lido — toque para desmarcar':'Marcar como lido'}">✓</span></div>`; }).join(''):''); }).join(''):''); }).join('');
   $('#app').innerHTML=`<div class="wrap">
     <h2 class="serif">Material</h2>
     <p class="mute small" style="margin-top:-10px;margin-bottom:12px">O resumão de cada tema para ler antes dos cards. Toque no ✓ quando terminar.</p>
     <div class="mtop"><span class="b"><i style="width:${g.p}%"></i></span><span class="v">${g.n} de ${g.t} temas lidos · ${g.p}%</span></div>
     <input class="srch" id="ms" placeholder="Buscar tema ou palavra do resumo…" value="${esc(MAT.busca)}">
+    <div class="seg" id="mprio" title="Prioridade = quanto a matéria cai no Vila Verde">${[['','Todas'],['alta','Alta'],['media','Intermediária'],['baixa','Baixa']].map(([v,t])=>`<button class="${MAT.prio===v?'on':''}" data-p="${v}">${t}</button>`).join('')}</div>
+    ${MAT.prio?(n=>n?`<button class="btn ghost" id="mest" style="margin:0 0 12px">Estudar matérias de prioridade ${NOMEP[MAT.prio]} · ${Math.min(30,n)} cards</button>`:'')(CARDS.filter(c=>nivM(c.area,c.tema)===MAT.prio).length):''}
     <div id="lstM">${linhas?'<div class="rows">'+linhas+'</div>':'<p class="mute small">Nada encontrado.</p>'}</div>
   </div>`;
   const ms=$('#ms'); ms.oninput=()=>{ MAT.busca=ms.value; const p=ms.selectionStart; pMaterial(); const m2=$('#ms'); m2.focus(); m2.setSelectionRange(p,p); };
+  const me=$('#mest'); if(me) me.onclick=()=>sessao(CARDS.filter(c=>nivM(c.area,c.tema)===MAT.prio).sort((a,b)=>prioridade(b)-prioridade(a)).slice(0,30).map(c=>c.id),'livre',null,'Matérias de prioridade '+NOMEP[MAT.prio]);
+  $('#mprio').onclick=e=>{ const b=e.target.closest('[data-p]'); if(!b) return; MAT.prio=b.dataset.p; try{localStorage.setItem(LS+'.mprio',MAT.prio)}catch(_){} pMaterial(); };
   $('#lstM').onclick=e=>{
     const ck=e.target.closest('[data-mck]'); if(ck){ e.stopPropagation(); const x=todos.find(y=>y.id===ck.dataset.mck); if(x){ const on=matAlternar(x); toast(on?'Lido ✓':'Desmarcado'); pMaterial(); } return; }
     const it=e.target.closest('[data-mat]'); if(it){ const x=todos.find(y=>y.id===it.dataset.mat); if(x) abrirMat(x); return; }
@@ -1730,7 +1751,7 @@ async function syncNotas(){
 /* ===== Sincronizar progresso entre aparelhos ===== */
 const GH_PROG=GH_API.replace('notas.json','progresso.json');
 const notasSync=()=>S.notas.map(n=>n.imgs?{...n,imgs:n.imgs.filter(i=>i.path).map(i=>({path:i.path}))}:n);
-const progSnap=()=>({marks:S.marks,decks:S.decks,decksDel:S.decksDel,sim:S.sim,simDel:S.simDel,srs:S.srs,xpDev:S.xpDev,dias:S.dias,notas:notasSync(),notasDel:S.notasDel,plan:S.plan,hoje:S.hoje,extra:S.extra,rets:S.rets,retsDel:S.retsDel,lido:S.lido});
+const progSnap=()=>({marks:S.marks,decks:S.decks,decksDel:S.decksDel,sim:S.sim,simDel:S.simDel,simq:S.simq,simAt:S.simAt||null,srs:S.srs,xpDev:S.xpDev,dias:S.dias,notas:notasSync(),notasDel:S.notasDel,plan:S.plan,hoje:S.hoje,extra:S.extra,rets:S.rets,retsDel:S.retsDel,lido:S.lido});
 function mergeProg(R){
   if(!R) return false; const antes=JSON.stringify(progSnap());
   for(const id in R.srs||{}){const a=S.srs[id],b=R.srs[id]; if(!a||(b.t||0)>(a.t||0)) S.srs[id]=b;}
@@ -1745,6 +1766,8 @@ function mergeProg(R){
   if(R.hoje){ if(!S.hoje||R.hoje.date>S.hoje.date) S.hoje=R.hoje; else if(R.hoje.date===S.hoje.date) S.hoje.ids=[...new Set([...S.hoje.ids,...R.hoje.ids])]; }
   if(R.plan&&R.plan.v>=2){ if(!S.plan||!(S.plan.v>=2)||R.plan.date>S.plan.date) S.plan=R.plan;
     else if(R.plan.date===S.plan.date){ S.plan.ids=[...new Set([...S.plan.ids,...R.plan.ids])]; S.plan.done=[...new Set([...S.plan.done,...R.plan.done])]; S.plan.nv=Math.max(S.plan.nv||0,R.plan.nv||0); S.plan.v=Math.max(S.plan.v||2,R.plan.v||2);} }
+  for(const k in R.simq||{}) S.simq[k]=Math.max(S.simq[k]||0,R.simq[k]);
+  if(R.simAt&&(R.simAt.u||0)>((S.simAt&&S.simAt.u)||0)&&!SIMU) S.simAt=R.simAt;
   Object.assign(S.retsDel,R.retsDel||{});
   if(R.ret&&R.ret.fila&&R.ret.fila.length){ const id=R.ret.t0||R.ret.t; if(!S.retsDel[id]&&!S.rets.some(x=>x.id===id)) S.rets.push({...R.ret,id}); }
   { const m={}; [...S.rets,...(R.rets||[])].forEach(x=>{ const o=m[x.id]; if(!o||(x.t||0)>(o.t||0)) m[x.id]=x; }); S.rets=Object.values(m).filter(x=>!S.retsDel[x.id]); }
@@ -1878,6 +1901,114 @@ async function addImgsRasc(files){
   setRascImgs(a); pAnotar(); toast('Imagem anexada');
 }
 
+/* ===== Simulado estilo prova (Selecting): 3 formatos, sem correção na hora, cronômetro, resultado por área ===== */
+const SIMF={completo:{t:'Completo',n:20,min:240,d:'100 questões · 4 h'},mini:{t:'Mini',n:5,min:60,d:'25 questões · 1 h'},area:{t:'Por área',n:20,min:48,d:'20 questões de uma área · 48 min'}};
+const SIM_ORD=['CM','CIR','GO','PED','PREV'];
+let SIMU=null, SIMTK=null;
+const simPool=g=>CARDS.filter(c=>c.tipo==='quiz'&&c.opcoes&&c.opcoes.length>=2&&grupoDe(c)===g);
+function simEscolher(g,n){
+  const q=S.simq||{};
+  /* menos usadas em simulado primeiro, depois as nunca vistas; sorteio com peso pelo que cai no Vila Verde */
+  const L=simPool(g).map(c=>({c,k:(q[c.id]||0)*100+(S.srs[c.id]?10:0)-Math.min(9,pesoUERJ(c)/3)-Math.random()*8})).sort((a,b)=>a.k-b.k).slice(0,n).map(x=>x.c);
+  return L.sort(()=>Math.random()-.5).map(c=>c.id);
+}
+function simuMenu(){
+  const cont=S.simAt&&!S.simAt.off&&S.simAt.ids?S.simAt:null;
+  const tot=SIM_ORD.map(g=>simPool(g).length);
+  folha(`<div class="serif" style="font-size:21px;margin-bottom:4px">Simulado estilo prova</div>
+    <p class="mute small" style="margin:0 0 12px">Como na Selecting: 5 áreas por igual, sem correção na hora, com cronômetro. Os erros entram na sua revisão.</p>
+    ${cont?`<button class="opi" data-sm="cont"><span><b>▶ Continuar simulado</b><br><span class="mute small">${SIMF[cont.fmt].t} · ${Object.keys(cont.resp||{}).length}/${cont.ids.length} respondidas</span></span></button>`:''}
+    ${['completo','mini','area'].map(k=>`<button class="opi" data-sm="${k}"><span><b>${SIMF[k].t}</b><br><span class="mute small">${SIMF[k].d}</span></span></button>`).join('')}
+    <p class="mute small" style="margin-top:10px">Banco: ${SIM_ORD.map((g,i)=>g+' '+tot[i]).join(' · ')} questões</p>`);
+  document.querySelectorAll('[data-sm]').forEach(b=>b.onclick=async()=>{ const k=b.dataset.sm; fecharFolha();
+    if(k==='cont') return simuAbrir(cont);
+    if(cont&&!(await confirmar('Já existe um simulado em andamento. Começar outro e descartar aquele?','Começar novo'))) return;
+    if(k==='area') return escolha('Qual área?',SIM_ORD.map(g=>({v:g,t:GN[g]})),'',g=>simuNovo('area',g));
+    simuNovo(k); });
+}
+function simuNovo(fmt,g){
+  const F=SIMF[fmt], gs=fmt==='area'?[g]:SIM_ORD, ids=gs.flatMap(x=>simEscolher(x,F.n));
+  if(!ids.length) return toast('Sem questões para esse simulado');
+  simuAbrir({fmt,g:g||null,ids,resp:{},marc:[],i:0,rest:F.min*60*1000*ids.length/(F.n*gs.length),t0:Date.now(),u:Date.now()});
+}
+function simuSalvar(){ if(!SIMU) return; SIMU.rest=Math.max(0,SIMU.fim-Date.now()); SIMU.u=Date.now(); const {fim,...x}=SIMU; S.simAt=x; save(); }
+function simuAbrir(st){
+  SIMU={...st,resp:{...(st.resp||{})},marc:[...(st.marc||[])]}; SIMU.fim=Date.now()+(SIMU.rest||0);
+  const el=document.createElement('div'); el.className='sess'; el.id='simu';
+  el.innerHTML=`<div class="sbar"><button class="x" id="smx" aria-label="Sair (salva)" title="Sair — o simulado fica salvo"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+    <div class="prog"><i id="smp"></i></div><span class="smtm" id="smt"></span><button class="smgr" id="smg">Questões</button></div>
+    <div class="sbody" id="smb"><div class="wrap" id="smw"></div></div>
+    <div class="sfoot"><div class="in smnav"><button class="btn ghost" id="sma">←</button><button class="btn ghost smfl" id="smf">⚑</button><button class="btn" id="smn">Próxima →</button></div></div>`;
+  document.body.appendChild(el); document.body.style.overflow='hidden'; document.documentElement.style.overflow='hidden';
+  $('#smx').onclick=()=>{ simuSalvar(); simuFechar(); toast('Simulado salvo — continue quando quiser'); };
+  $('#smg').onclick=simuGrade;
+  $('#sma').onclick=()=>{ if(SIMU.i>0){ SIMU.i--; simuQ(); } };
+  $('#smf').onclick=()=>{ const id=SIMU.ids[SIMU.i], k=SIMU.marc.indexOf(id); k<0?SIMU.marc.push(id):SIMU.marc.splice(k,1); simuQ(); };
+  $('#smn').onclick=()=>{ if(SIMU.i<SIMU.ids.length-1){ SIMU.i++; simuQ(); } else simuGrade(); };
+  clearInterval(SIMTK); SIMTK=setInterval(simuTick,1000); simuTick(); simuQ();
+}
+function simuFechar(){ clearInterval(SIMTK); SIMU=null; const e=$('#simu'); if(e) e.remove(); document.body.style.overflow=''; document.documentElement.style.overflow=''; render(); }
+function simuTick(){ if(!SIMU) return; const r=Math.max(0,SIMU.fim-Date.now()), m=Math.floor(r/60000), h=Math.floor(m/60), t=$('#smt');
+  if(t){ t.textContent=(h?h+'h':'')+String(m%60).padStart(h?2:1,'0')+':'+String(Math.floor(r/1000)%60).padStart(2,'0'); t.classList.toggle('pouco',r<5*60000); }
+  if(r<=0){ toast('⏰ Tempo esgotado — simulado entregue'); simuEntregar(); }
+  else if(Date.now()-(SIMU.u||0)>20000) simuSalvar(); }
+function simuQ(){
+  const id=SIMU.ids[SIMU.i], c=BYID[id], esc0=SIMU.resp[id];
+  $('#smp').style.width=(Object.keys(SIMU.resp).length/SIMU.ids.length*100)+'%';
+  $('#smw').innerHTML=`<div class="tag">Questão ${SIMU.i+1} de ${SIMU.ids.length} · ${esc(GN[grupoDe(c)]||c.area)}${SIMU.marc.includes(id)?' · ⚑ marcada':''}</div>${frenteHTML(c)}
+    <div class="opts">${c.opcoes.map((o,i)=>`<button class="opt ${esc0===i?'sel':''} ${(SIMU.risc||{})[id+'_'+i]?'risc':''}" data-i="${i}"><span class="k">${'ABCDE'[i]}</span><span class="ot"><span class="tx0">${esc(o)}</span></span>${RISCA}</button>`).join('')}</div>`;
+  $('#smb').scrollTop=0;
+  document.querySelectorAll('#smw .opt').forEach(b=>b.onclick=e=>{ const i=+b.dataset.i;
+    if(e.target.closest('.rk')){ e.stopPropagation(); SIMU.risc=SIMU.risc||{}; const k=id+'_'+i; SIMU.risc[k]=!SIMU.risc[k]; if(SIMU.risc[k]&&SIMU.resp[id]===i) delete SIMU.resp[id]; return simuQ(); }
+    if(SIMU.resp[id]===i) delete SIMU.resp[id]; else SIMU.resp[id]=i; vib(8); simuQ(); });
+  $('#smf').classList.toggle('on',SIMU.marc.includes(id)); $('#sma').disabled=SIMU.i===0;
+  $('#smn').textContent=SIMU.i<SIMU.ids.length-1?'Próxima →':'Revisar e entregar';
+}
+function simuGrade(){
+  const n=SIMU.ids.length, r=Object.keys(SIMU.resp).length;
+  folha(`<div class="serif" style="font-size:21px;margin-bottom:4px">Questões</div>
+    <p class="mute small" style="margin:0 0 10px">${r} de ${n} respondidas · ${SIMU.marc.length} marcadas ⚑ · toque para ir</p>
+    <div class="smgd">${SIMU.ids.map((id,i)=>`<button class="${SIMU.resp[id]!=null?'r':''} ${SIMU.marc.includes(id)?'m':''} ${i===SIMU.i?'at':''}" data-q="${i}">${i+1}</button>`).join('')}</div>
+    <button class="btn" id="sme" style="margin-top:14px">Entregar simulado</button>`);
+  document.querySelectorAll('[data-q]').forEach(b=>b.onclick=()=>{ SIMU.i=+b.dataset.q; fecharFolha(); simuQ(); });
+  $('#sme').onclick=async()=>{ const f=n-r; fecharFolha(); if(f&&!(await confirmar(`${f} questão(ões) em branco contam como erro. Entregar mesmo assim?`,'Entregar'))) return; simuEntregar(); };
+}
+function simuEntregar(){
+  if(!SIMU) return; clearInterval(SIMTK);
+  const st=SIMU, F=SIMF[st.fmt], ar={}; let ac=0;
+  st.ids.forEach(id=>{ const c=BYID[id]; if(!c) return; const g=grupoDe(c), ok=st.resp[id]===c.certa; ar[g]=ar[g]||[0,0]; ar[g][1]++; if(ok){ ar[g][0]++; ac++; }
+    rating(id,ok?2:0); S.simq[id]=(S.simq[id]||0)+1; });
+  const usado=Math.round((F.min*60000*st.ids.length/(F.n*(st.fmt==='area'?1:5))-Math.max(0,st.fim-Date.now()))/60000), id=Date.now();
+  S.sim.push({id,nome:`Simulado ${F.t}${st.g?' '+st.g:''} - ${dBR(hoje())}`,d:hoje(),tot:st.ids.length,ac,utot:0,uac:0,u:id,app:1,ar,min:usado,...(st.g?{area:GN[st.g]}:{})});
+  S.simAt={u:Date.now(),off:true}; save(); syncProg();
+  simuResultado(st,ar,ac,usado);
+}
+function simuResultado(st,ar,ac,usado){
+  const n=st.ids.length, p=Math.round(ac/n*100), cor=v=>v<50?'var(--bad)':v<70?'#D9A441':'var(--ok)', erradas=st.ids.filter(id=>BYID[id]&&st.resp[id]!==BYID[id].certa);
+  $('#smw').innerHTML=`<div class="smres"><div class="tag">Resultado · ${SIMF[st.fmt].t}${st.g?' · '+esc(GN[st.g]):''}</div>
+    <div class="smbig" style="color:${cor(p)}">${p}%</div><div class="mute">${ac} de ${n} acertos · ${usado} min</div>
+    <div class="smcut ${p>=50?'ok':'bad'}">${p>=50?'✓ Acima do corte de 50%':'✗ Abaixo do corte de 50% (eliminaria)'}</div></div>
+    <div class="pnls" style="margin-top:18px">${SIM_ORD.filter(g=>ar[g]).map(g=>{ const [a,t]=ar[g], v=Math.round(a/t*100);
+      return `<div class="pnl"><div class="pnt"><b>${GN[g]}</b><span>${a}/${t} · ${v}%</span></div><div class="pnb"><i style="width:${v}%;background:${cor(v)}"></i><s title="corte: 50%"></s></div></div>`; }).join('')}</div>
+    <p class="mute small" style="margin-top:14px">${erradas.length?`As ${erradas.length} que você errou (ou deixou em branco) já entraram na revisão como cards fracos.`:'Gabaritou! 🎉'}</p>`;
+  $('#smp').style.width='100%'; $('#smt').textContent=''; $('#smg').style.visibility='hidden';
+  const nav=document.querySelector('#simu .smnav');
+  nav.innerHTML=`${erradas.length?`<button class="btn ghost" id="smrv">Ver erros · ${erradas.length}</button>`:''}<button class="btn" id="smok">Fechar</button>`;
+  $('#smok').onclick=simuFechar; $('#smx').onclick=simuFechar;
+  const rv=$('#smrv'); if(rv) rv.onclick=()=>simuRevisar(st,erradas,0);
+}
+function simuRevisar(st,L,k){
+  const id=L[k], c=BYID[id], m=st.resp[id];
+  $('#smw').innerHTML=`<div class="tag">Erro ${k+1} de ${L.length} · ${esc(GN[grupoDe(c)]||c.area)} · ${esc(c.sub)}</div>${frenteHTML(c)}
+    <div class="opts">${c.opcoes.map((o,i)=>`<div class="opt ${i===c.certa?'ok':i===m?'bad':''}"><span class="k">${'ABCDE'[i]}</span><span class="ot"><span class="tx0">${esc(o)}</span><span class="c">${inlBr((c.comentarios||[])[i]||'')}</span></span></div>`).join('')}</div>
+    ${m==null?'<p class="mute small">Você deixou em branco.</p>':''}${macHTML(c)}<div class="ans">${ctxHTML(c)}</div>${extrasUERJ(c)}`;
+  $('#smb').scrollTop=0; aplicarZonas&&aplicarZonas();
+  const nav=document.querySelector('#simu .smnav');
+  nav.innerHTML=`<button class="btn ghost" id="smra">←</button><button class="btn" id="smrn">${k<L.length-1?'Próximo erro →':'Fechar'}</button>`;
+  $('#smra').disabled=k===0; $('#smra').onclick=()=>simuRevisar(st,L,k-1);
+  $('#smrn').onclick=()=>k<L.length-1?simuRevisar(st,L,k+1):simuFechar();
+}
+
 /* ===== Porcentagem (simulados) ===== */
 const pc=(a,t)=>t?Math.round(a/t*100):null;
 const dBR=d=>d.split('-').reverse().map((x,i)=>i===2?x.slice(2):x).join('/');
@@ -1909,7 +2040,8 @@ function pPct(){
   $('#app').innerHTML=`<div class="wrap">
     <h2 class="serif">Porcentagem</h2>
     ${grafico(L)}
-    <button class="btn" id="addS">Adicionar simulado</button>
+    <button class="btn" id="simA">📝 Fazer simulado no app</button>
+    <button class="btn ghost" id="addS" style="margin-top:10px">Adicionar simulado feito fora</button>
     ${L.length?`<button class="btn ghost" id="verS" style="margin-top:10px">${VER_SIM?'Ocultar simulados':'Ver simulados · '+L.length}</button>`:''}
     ${L.length&&VER_SIM?`<div class="simgrid">${L.slice().reverse().map(x=>`<button class="simtile ${x.area?'c2':''}" data-sid="${x.id}">
       <div class="nmw"><div class="nm">${esc(x.nome)}</div>${x.area?`<div class="nm2">${esc(x.area)}</div>`:''}</div>
@@ -1919,7 +2051,7 @@ function pPct(){
     ${painelHTML()}
     ${mapaHTML()}
   </div>`;
-  ligarMapa(); ligarPainel();
+  ligarMapa(); ligarPainel(); $('#simA').onclick=simuMenu;
   const vs=$('#verS'); if(vs) vs.onclick=()=>{VER_SIM=!VER_SIM; pPct();};
   $('#addS').onclick=()=>{
     const nums=S.sim.map(x=>+((x.nome.match(/^Simulado (\d+)/)||[])[1]||0));
@@ -2170,10 +2302,14 @@ const czPlano=(t,n)=>plano(String(t||'').replace(CZ_RE,(m,k,ans,dica)=>+k===n?'[
 function ioHTML(c,rev){
   return `<div class="io"><img src="${esc(imgSrc(c.img))}" alt="">${(c.rects||[]).map((r,i)=>`<div class="ior ${rev?'rev':'iot'}" ${rev?'':'data-iop role="button"'} style="left:${r.x}%;top:${r.y}%;width:${r.w}%;height:${r.h}%">${rev?'':i+1}</div>`).join('')}</div>`;
 }
+/* questão de afirmativas (I, II, III): cada afirmativa numa linha, como na prova */
+function afirmFmt(c){ let t=String(c.frente||''); if(c.tipo!=='quiz'||!/\sI\.\s.+\sII\.\s/.test(t)||t.includes('\n')) return t;
+  t=t.replace(/\s(I|II|III|IV|V)\.\s/g,(m,r)=>'\n**'+r+'.** ');
+  return t.replace(/\s((?:Est[áa]|Est[ãa]o|S[ãa]o|É|Assinale|Quais|Qual)[^\n]*)$/,'\n$1'); }
 function frenteHTML(c){
   if(c.tipo==='cloze') return `<div class="q czq" id="fq">${clozeHTML(c.texto,c.n,false)}</div>`;
   if(c.tipo==='io') return `<div id="fq"><div class="q serif">${inlBr(c.perg||'O que está oculto?')}</div>${ioHTML(c,false)}</div>`;
-  return `<div class="q serif">${inlBr(c.frente)}</div>${c.fvis?visual(c.fvis):''}`;
+  return `<div class="q serif">${inlBr(afirmFmt(c))}</div>${c.fvis?visual(c.fvis):''}`;
 }
 /* resposta principal (1º bloco, sem tópicos/rótulo) em destaque; o resto é explicação */
 /* bloco "Raciocínio:" no início do verso (+ esquemas "base":true) → aparece no TOPO do contexto do tema; ao virar, a 1ª coisa é a resposta curta */
@@ -2469,6 +2605,9 @@ function barra(){
   $('#pg').style.width=(t?f/t*100:0)+'%'; $('#pc').textContent=f+'/'+t;
   $('#cb').textContent=SS.combo>=3?'×'+SS.combo:'';
 }
+/* riscar alternativa (como na prova): toque no ✕ à direita; não marca a resposta */
+const RISCA=`<span class="rk" role="button" aria-label="Riscar alternativa" title="Riscar alternativa">✕</span>`;
+function riscar(e,b){ if(!e.target.closest('.rk')) return false; e.stopPropagation(); e.preventDefault(); if(!b.disabled) b.classList.toggle('risc'); return true; }
 function proximoCard(){
   barra(); const vb=$('#svt'); if(vb) vb.classList.toggle('hide',!(SS.hist&&SS.hist.length));
   if(!SS.fila.length) return fim();
@@ -2477,9 +2616,9 @@ function proximoCard(){
   const w=$('#sw'), f=$('#sf');
   w.innerHTML=tagHTML(c)+frenteHTML(c)+`<div id="ar"></div>`; w.dataset.an=c.id; delete w.dataset.av;
   if(c.tipo==='quiz'){
-    $('#ar').innerHTML=`<div class="opts">${c.opcoes.map((o,i)=>`<button class="opt" data-i="${i}"><span class="k">${'ABCDE'[i]}</span><span>${esc(o)}<span class="c hide">${inlBr((c.comentarios||[])[i]||'')}</span></span></button>`).join('')}</div>`;
+    $('#ar').innerHTML=`<div class="opts">${c.opcoes.map((o,i)=>`<button class="opt" data-i="${i}"><span class="k">${'ABCDE'[i]}</span><span class="ot"><span class="tx0">${esc(o)}</span><span class="c hide">${inlBr((c.comentarios||[])[i]||'')}</span></span>${RISCA}</button>`).join('')}</div>`;
     f.innerHTML='';
-    document.querySelectorAll('.opt').forEach(b=>b.onclick=()=>{
+    document.querySelectorAll('.opt').forEach(b=>b.onclick=e=>{ if(riscar(e,b)) return;
       const i=+b.dataset.i, ok=i===c.certa;
       document.querySelectorAll('.opt').forEach((x,j)=>{x.disabled=true;x.querySelector('.c').classList.remove('hide');if(j===c.certa)x.classList.add('ok');else if(j===i)x.classList.add('bad')});
       vib(ok?12:[20,40,20]);
