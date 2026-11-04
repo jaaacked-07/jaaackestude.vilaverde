@@ -84688,6 +84688,1592 @@
    ],
    "fonte": "MS — Política Nacional de Saúde do Trabalhador e da Trabalhadora (Portaria 1.823/2012) / Lista de Doenças Relacionadas ao Trabalho (Portaria GM/MS 1.999/2023) / Lei 8.080/1990, art. 6º",
    "add": "2026-11-04"
+  },
+  {
+   "area": "Clínica Médica",
+   "tema": "Cardiologia",
+   "sub": "Valvopatias",
+   "id": "bq-cm-031",
+   "tipo": "quiz",
+   "frente": "Idoso com síncope aos esforços, angina e dispneia. Ao exame, sopro sistólico ejetivo em foco aórtico irradiado para carótidas, com pulso parvus et tardus. Qual o diagnóstico?",
+   "opcoes": [
+    "Insuficiência mitral",
+    "Insuficiência aórtica",
+    "Estenose aórtica",
+    "Estenose mitral"
+   ],
+   "certa": 2,
+   "comentarios": [
+    "IM: sopro holossistólico em foco mitral irradiado para axila.",
+    "IAo: sopro diastólico, pulso em martelo d'água.",
+    "Correta. Tríade angina-síncope-dispneia + sopro ejetivo aórtico + pulso parvus et tardus = EAo; sintomática → troca valvar.",
+    "EM: ruflar diastólico, estalido de abertura."
+   ],
+   "macete": "\"EAo: Angina, Síncope, Dispneia — SAD\".",
+   "prio": "alta",
+   "banco": true,
+   "pegadinha": "Sintomática: sobrevida cai muito sem troca valvar (cirúrgica ou TAVI).",
+   "contexto": "**Valvopatias = doenças das valvas cardíacas que causam estenose (não abre) ou insuficiência (não fecha); no Brasil, a febre reumática ainda é causa importante, e no idoso predomina a degenerativa.**\n\nComo pensar o sopro:\n- **Sistólico** → estenose aórtica/pulmonar ou insuficiência mitral/tricúspide\n- **Diastólico** → estenose mitral/tricúspide ou insuficiência aórtica/pulmonar\n\nEstenose aórtica:\n- Causa → degenerativa (idoso), bicúspide (jovem), reumática\n- Tríade → **angina, síncope e dispneia** (IC); sintomas = mau prognóstico\n- Sopro sistólico ejetivo em foco aórtico, irradiado para carótidas; pulso parvus et tardus; B2 hipofonética\n- Tratamento → troca valvar (cirúrgica ou TAVI) quando sintomática ou grave com disfunção\n\nInsuficiência aórtica:\n- Sopro diastólico aspirativo em foco aórtico acessório\n- Pressão de pulso alargada → pulso em martelo d'água (Corrigan), sinal de Musset\n- Causas → dilatação da raiz (HAS, Marfan), endocardite, reumática\n\nEstenose mitral:\n- Quase sempre **reumática**; mais em mulheres\n- Ruflar diastólico em foco mitral + estalido de abertura + B1 hiperfonética\n- Átrio esquerdo grande → **FA** e embolia; hipertensão pulmonar; piora na gestação (taquicardia)\n- Tratamento → valvoplastia por balão (se anatomia favorável) ou cirurgia\n\nInsuficiência mitral:\n- Sopro holossistólico em foco mitral irradiado para axila\n- Aguda → ruptura de músculo papilar no IAM ou endocardite → EAP\n- Crônica → prolapso de valva mitral (causa mais comum em países desenvolvidos), reumática, dilatação do VE\n\nManobras:\n- Valsalva/ficar em pé → diminuem quase todos os sopros, exceto cardiomiopatia hipertrófica e prolapso mitral (aumentam)\n\nProfilaxia:\n- Febre reumática → profilaxia secundária com penicilina benzatina\n- Endocardite → só alto risco (prótese, endocardite prévia) antes de procedimento dentário\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: reconhecer a valvopatia pelo sopro e a tríade da estenose aórtica.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "cab": [
+      "Valvopatia",
+      "Sopro",
+      "Pista"
+     ],
+     "linhas": [
+      [
+       "Estenose aórtica",
+       "Sistólico ejetivo, foco aórtico → carótidas",
+       "Angina, síncope, dispneia"
+      ],
+      [
+       "Insuficiência aórtica",
+       "Diastólico aspirativo",
+       "Pulso em martelo d'água"
+      ],
+      [
+       "Estenose mitral",
+       "Ruflar diastólico + estalido",
+       "Reumática, FA, gestante"
+      ],
+      [
+       "Insuficiência mitral",
+       "Holossistólico → axila",
+       "Aguda no IAM (papilar)"
+      ]
+     ]
+    }
+   ],
+   "fonte": "SBC — Diretriz Brasileira de Valvopatias (2020) / ACC/AHA Valvular Heart Disease (2020) / Braunwald 12ª ed.",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Clínica Médica",
+   "tema": "Cardiologia",
+   "sub": "Parada cardiorrespiratória — suporte avançado de vida (ACLS)",
+   "id": "bq-cm-032",
+   "tipo": "quiz",
+   "frente": "Paciente em PCR com ritmo de assistolia confirmada. Qual a conduta?",
+   "opcoes": [
+    "RCP de alta qualidade e adrenalina 1 mg a cada 3–5 minutos, sem choque",
+    "Desfibrilação imediata",
+    "Amiodarona 300 mg",
+    "Atropina 1 mg"
+   ],
+   "certa": 0,
+   "comentarios": [
+    "Correta. Assistolia/AESP = ritmos não chocáveis → RCP + adrenalina o mais cedo possível + buscar causas (5H/5T).",
+    "Choque é para FV/TV sem pulso.",
+    "Amiodarona é para FV/TV refratária.",
+    "Atropina saiu do algoritmo de PCR."
+   ],
+   "macete": "\"Linha reta não leva choque\".",
+   "prio": "alta",
+   "banco": true,
+   "pegadinha": "Confirmar assistolia: checar cabos, ganho e mudar a derivação (protocolo da linha reta).",
+   "contexto": "**Parada cardiorrespiratória (PCR) = cessação da atividade mecânica do coração: inconsciência, sem respiração normal e sem pulso central; a sobrevida depende de compressões de qualidade e desfibrilação precoce.**\n\nReconhecer:\n- Não responde + não respira (ou gasping) + sem pulso carotídeo (checar em até 10 s)\n\nRCP de alta qualidade:\n- **100–120 compressões/min**, profundidade **5–6 cm**, retorno total do tórax\n- Mínimas interrupções (< 10 s); trocar quem comprime a cada 2 min\n- Sem via aérea avançada → **30:2**; com via aérea avançada → 1 ventilação a cada 6 s, compressão contínua\n\nRitmos chocáveis (FV e TV sem pulso):\n- **Desfibrilação** assim que possível (bifásico 120–200 J; monofásico 360 J) → RCP 2 min\n- **Adrenalina 1 mg EV/IO a cada 3–5 min** (após o 2º choque)\n- **Amiodarona 300 mg** (após o 3º choque), depois 150 mg; alternativa lidocaína\n\nRitmos não chocáveis (AESP e assistolia):\n- RCP + **adrenalina 1 mg o mais cedo possível**, a cada 3–5 min\n- Assistolia → confirmar em mais de uma derivação (protocolo da linha reta)\n- Procurar e tratar as causas reversíveis (5H e 5T)\n\nCausas reversíveis (5H e 5T):\n- **H** → hipovolemia, hipóxia, H⁺ (acidose), hipo/hipercalemia, hipotermia\n- **T** → tensão no tórax (pneumotórax hipertensivo), tamponamento, toxinas, trombose pulmonar (TEP), trombose coronária (IAM)\n\nApós o retorno da circulação (RCE):\n- Manter SatO₂ 92–98%, PAM ≥ 65, ECG (cateterismo se supra)\n- Controle de temperatura (evitar febre; manter ≤ 37,5 °C)\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: ritmos chocáveis × não chocáveis, doses de adrenalina e amiodarona, qualidade da RCP.",
+   "ctxvisual": [
+    {
+     "tipo": "fluxo",
+     "passos": [
+      "PCR → RCP 30:2 + monitor",
+      [
+       "FV / TV sem pulso → CHOQUE",
+       "AESP / assistolia → sem choque"
+      ],
+      [
+       "Choque → RCP 2 min → adrenalina após 2º choque → amiodarona após 3º",
+       "Adrenalina já + 5H e 5T"
+      ]
+     ]
+    }
+   ],
+   "fonte": "AHA — Guidelines for CPR and ECC (2020, atualização 2025) / SBC — Atualização da Diretriz de RCP (2019)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Clínica Médica",
+   "tema": "Nefrologia",
+   "sub": "Lesão renal aguda",
+   "tipo": "quiz",
+   "frente": "Sobre a lesão renal aguda (LRA), analise: I. Pelo KDIGO, aumento de creatinina ≥ 0,3 mg/dL em 48 horas define LRA. II. Na LRA pré-renal, a fração de excreção de sódio costuma ser < 1%. III. Hipercalemia refratária, acidose grave refratária e congestão refratária são indicações de diálise de urgência. Está(ão) correta(s):",
+   "opcoes": [
+    "Apenas I e II.",
+    "Apenas I e III.",
+    "Apenas II e III.",
+    "I, II e III."
+   ],
+   "certa": 3,
+   "comentarios": [
+    "Errada. Todas corretas: KDIGO usa creatinina (≥ 0,3 em 48 h ou ≥ 1,5× em 7 dias) ou diurese (< 0,5 mL/kg/h por 6 h); rim pré-renal está íntegro e poupa sódio; indicações de diálise: AEIOU (acidose, eletrólitos, intoxicação, overload, uremia).",
+    "Errada. Todas corretas: KDIGO usa creatinina (≥ 0,3 em 48 h ou ≥ 1,5× em 7 dias) ou diurese (< 0,5 mL/kg/h por 6 h); rim pré-renal está íntegro e poupa sódio; indicações de diálise: AEIOU (acidose, eletrólitos, intoxicação, overload, uremia).",
+    "Errada. Todas corretas: KDIGO usa creatinina (≥ 0,3 em 48 h ou ≥ 1,5× em 7 dias) ou diurese (< 0,5 mL/kg/h por 6 h); rim pré-renal está íntegro e poupa sódio; indicações de diálise: AEIOU (acidose, eletrólitos, intoxicação, overload, uremia).",
+    "Correta. Todas corretas: KDIGO usa creatinina (≥ 0,3 em 48 h ou ≥ 1,5× em 7 dias) ou diurese (< 0,5 mL/kg/h por 6 h); rim pré-renal está íntegro e poupa sódio; indicações de diálise: AEIOU (acidose, eletrólitos, intoxicação, overload, uremia)."
+   ],
+   "id": "bq-cm-033",
+   "prio": "alta",
+   "macete": "\"Diálise de urgência: AEIOU\".",
+   "banco": true,
+   "contexto": "**Lesão renal aguda (LRA) = queda abrupta da função renal (horas a dias), com aumento da creatinina e/ou redução da diurese.**\n\nDefinição (KDIGO):\n- Creatinina ↑ ≥ 0,3 mg/dL em 48 h, OU ↑ ≥ 1,5× o basal em 7 dias, OU diurese < 0,5 mL/kg/h por 6 h\n- Estágios 1 a 3 pela creatinina e diurese (tabela do contexto)\n\nCausas:\n- **Pré-renal** (a mais comum) → hipovolemia, IC, cirrose, sepse, AINE/IECA → rim estruturalmente normal\n- **Renal (intrínseca)** → **necrose tubular aguda** (isquemia prolongada, aminoglicosídeo, contraste, rabdomiólise) — a causa intrínseca mais comum; glomerulonefrites; nefrite intersticial (drogas: AINE, penicilinas, IBP)\n- **Pós-renal** → obstrução (hiperplasia prostática, cálculos bilaterais, tumor pélvico)\n\nPré-renal × NTA:\n- Pré-renal → rim poupa sódio: **FeNa < 1%**, Na urinário < 20, urina concentrada, ureia/creatinina > 40, sedimento normal\n- NTA → túbulo lesado não reabsorve: **FeNa > 2%**, Na urinário > 40, urina isostenúrica, cilindros granulosos (\"marrom-barrentos\")\n- Diurético altera a FeNa → usar fração de excreção de ureia (< 35% = pré-renal)\n\nAvaliação:\n- USG renal (afastar obstrução), urina I, eletrólitos, gasometria\n\nTratamento:\n- Tratar a causa: volume no pré-renal, desobstruir no pós-renal, suspender nefrotóxicos\n- Ajustar doses; evitar hipervolemia\n\nIndicações de diálise de urgência (AEIOU):\n- **A**cidose grave refratária\n- **E**letrólitos → hipercalemia refratária\n- **I**ntoxicação (lítio, metanol, salicilato)\n- **O**verload → hipervolemia/EAP refratário\n- **U**remia → encefalopatia, pericardite, sangramento\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: pré-renal × NTA pela FeNa e as indicações de diálise.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "KDIGO (LRA)",
+      "Critério",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "Estágio 1",
+       "Cr 1,5–1,9× basal ou ↑ ≥ 0,3; diurese < 0,5 mL/kg/h por 6–12 h",
+       "Tratar causa, suspender nefrotóxicos"
+      ],
+      [
+       "Estágio 2",
+       "Cr 2,0–2,9× basal; diurese < 0,5 por ≥ 12 h",
+       "Idem + monitorar de perto"
+      ],
+      [
+       "Estágio 3",
+       "Cr ≥ 3× ou ≥ 4 mg/dL ou diálise; diurese < 0,3 por ≥ 24 h ou anúria ≥ 12 h",
+       "Avaliar diálise (AEIOU)"
+      ]
+     ]
+    }
+   ],
+   "fonte": "KDIGO Clinical Practice Guideline for Acute Kidney Injury (2012) / Brenner & Rector's The Kidney 11ª ed.",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Clínica Médica",
+   "tema": "Hematologia",
+   "sub": "Câncer Hematológico",
+   "id": "bq-cm-034",
+   "tipo": "quiz",
+   "frente": "Paciente com leucocitose de 120.000/mm³ com desvio à esquerda escalonado, basofilia e esplenomegalia volumosa. A citogenética mostra t(9;22). Qual o diagnóstico e o tratamento?",
+   "opcoes": [
+    "Leucemia linfoide crônica; observação",
+    "Leucemia mieloide crônica; inibidor de tirosina-quinase (imatinibe)",
+    "Leucemia mieloide aguda; quimioterapia de indução",
+    "Mielofibrose; esplenectomia"
+   ],
+   "certa": 1,
+   "comentarios": [
+    "LLC: linfocitose madura em idoso, células borradas.",
+    "Correta. Cromossomo Filadélfia (BCR-ABL) → imatinibe.",
+    "LMA: blastos > 20%, bastonetes de Auer.",
+    "Mielofibrose: dacriócitos, medula seca."
+   ],
+   "macete": "\"Filadélfia = LMC = imatinibe\".",
+   "prio": "alta",
+   "banco": true,
+   "contexto": "**Câncer hematológico = neoplasias das células do sangue e da medula: leucemias, linfomas e discrasias de plasmócitos (mieloma múltiplo).**\n\nMieloma múltiplo — o que é:\n- Neoplasia de plasmócitos clonais na medula óssea\n- Produz imunoglobulina monoclonal (componente M) ou só cadeia leve\n- Idoso (> 60 anos), mais em negros\n- Precursor → gamopatia monoclonal de significado indeterminado (MGUS)\n\nClínica (CRAB / \"CARO\"):\n- **Cálcio alto** → destruição óssea; PTH suprimido\n- **Anemia** → normocítica, ocupação medular\n- **Rim** → cadeias leves lesam o túbulo\n- **Osso** → lesões líticas, lombalgia, fratura patológica\n- Infecções de repetição (hipogamaglobulinemia funcional)\n\nLaboratório:\n- VHS muito alta e hemácias em \"rouleaux\"\n- Proteína total alta com albumina baixa → inversão albumina/globulina\n- Eletroforese de proteínas → pico monoclonal estreito (gama)\n- Imunofixação sérica e urinária + cadeias leves livres (kappa/lambda)\n- Proteinúria de Bence-Jones → a fita urinária NÃO detecta (só albumina)\n\nRim do mieloma:\n- Nefropatia por cilindros (cast nephropathy) → a mais comum\n- Síndrome de Fanconi (túbulo proximal) → glicosúria, aminoacidúria, fosfatúria, ATR tipo 2\n- Hipercalcemia, desidratação, AINE e contraste pioram\n\nDiagnóstico (IMWG):\n- Plasmócitos clonais ≥ 10% na medula (ou plasmocitoma) + ≥ 1 evento definidor (ver card)\n- Imagem → TC de corpo inteiro de baixa dose, PET-CT ou RM (mais sensível); RX de esqueleto não é mais o padrão\n- Lesão lítica não capta na cintilografia óssea (osteoclasto puro)\n\nTratamento:\n- Elegível a transplante → indução (bortezomibe + lenalidomida + dexametasona ± daratumumabe) + TMO autólogo\n- Não elegível → esquema sem transplante (ex.: daratumumabe + lenalidomida + dexametasona)\n- Bisfosfonato (zoledronato) ou denosumabe para o osso\n- Hipercalcemia → soro fisiológico + bisfosfonato\n\nOutros cânceres hematológicos (resumo):\n- **Leucemia aguda** → blastos ≥ 20%, citopenias; LMA com bastonete de Auer\n- **LLC** → idoso com linfocitose e manchas de Gumprecht\n- **LMC** → leucocitose com desvio, esplenomegalia, BCR-ABL\n- **Linfoma de Hodgkin** → adulto jovem, Reed-Sternberg, sintomas B\n\nO que mais cai no Vila Verde:\n- VV 2025 (Q10) → síndrome mielodisplásica\n- VV 2025 (Q11) → LMC: cromossomo Filadélfia e inibidor de tirosina-quinase\n- Idoso com anemia, dor óssea, hipercalcemia e inversão A/G → mieloma",
+   "ctxvisual": [
+    {
+     "tipo": "fluxo",
+     "passos": [
+      "Pico monoclonal na eletroforese",
+      "Mielograma + cadeias leves livres + imagem (TC/PET/RM)",
+      [
+       "Plasmócitos < 10% e pico < 3 g/dL, sem CRAB → MGUS (só seguir)",
+       "Plasmócitos ≥ 10% ou pico ≥ 3 g/dL, sem CRAB → mieloma latente (seguir)",
+       "Plasmócitos ≥ 10% + CRAB ou SLiM → mieloma múltiplo (tratar)"
+      ]
+     ]
+    },
+    {
+     "tipo": "tabela",
+     "cab": [
+      "Mieloma (IMWG)",
+      "Critério",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "!Base",
+       "Plasmócitos clonais ≥ 10% na medula (ou plasmocitoma) + ≥ 1 evento definidor",
+       ""
+      ],
+      [
+       "C",
+       "Cálcio > 11 mg/dL (ou > 1 acima do normal)",
+       ""
+      ],
+      [
+       "R",
+       "Creatinina > 2 ou ClCr < 40",
+       ""
+      ],
+      [
+       "A",
+       "Hb < 10 (ou 2 abaixo do normal)",
+       ""
+      ],
+      [
+       "B",
+       "≥ 1 lesão lítica (RX, TC ou PET)",
+       ""
+      ],
+      [
+       "S (sixty)",
+       "Plasmócitos ≥ 60%",
+       ""
+      ],
+      [
+       "Li",
+       "Relação de cadeias leves livres ≥ 100",
+       ""
+      ],
+      [
+       "M (MRI)",
+       "> 1 lesão focal ≥ 5 mm na RM",
+       ""
+      ],
+      [
+       "!Mieloma",
+       "Base + CRAB ou SLiM",
+       "!Tratar (indução ± TMO autólogo) + bisfosfonato"
+      ],
+      [
+       "Mieloma latente",
+       "Plasmócitos ≥ 10% ou pico ≥ 3 g/dL, sem CRAB/SLiM",
+       "Observar"
+      ],
+      [
+       "MGUS",
+       "Plasmócitos < 10% e pico < 3 g/dL, sem CRAB",
+       "Só seguir"
+      ]
+     ],
+     "crit": true
+    }
+   ],
+   "fonte": "IMWG — critérios diagnósticos de mieloma (Rajkumar, Lancet Oncol 2014); NCCN Multiple Myeloma 2025",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Clínica Médica",
+   "tema": "Neurologia",
+   "sub": "Cefaleia e vertigem — sinais de alarme, enxaqueca e VPPB",
+   "id": "bq-cm-035",
+   "tipo": "quiz",
+   "frente": "Qual das características abaixo é sinal de alarme em cefaleia, indicando neuroimagem?",
+   "opcoes": [
+    "Cefaleia pulsátil unilateral com fotofobia, recorrente há anos",
+    "Cefaleia súbita, a \"pior da vida\", atingindo a intensidade máxima em segundos",
+    "Cefaleia em aperto bilateral, no fim do dia",
+    "Melhora com analgésico comum"
+   ],
+   "certa": 1,
+   "comentarios": [
+    "Padrão de enxaqueca típica.",
+    "Correta. Cefaleia em trovoada → afastar hemorragia subaracnoide (TC; se normal, punção lombar).",
+    "Cefaleia tensional.",
+    "Não é sinal de alarme."
+   ],
+   "macete": "\"SNOOP: Sistêmico, Neurológico, Onset súbito, Older, Padrão mudou\".",
+   "prio": "alta",
+   "banco": true,
+   "contexto": "**Cefaleia e vertigem: primeiro procurar sinais de alarme de causa secundária; sem eles, tratar a causa primária pelo padrão clínico.**\n\nCefaleia em trovoada (súbita, máxima em < 1 min):\n- Pensar em hemorragia subaracnoide\n- TC de crânio sem contraste imediata\n- TC normal → punção lombar (xantocromia, hemácias que não clareiam)\n\nEnxaqueca:\n- Unilateral, pulsátil, moderada a forte, piora com atividade\n- Náusea, fotofobia e fonofobia; 4–72 h\n- Aura → sintoma visual reversível que dura até 60 min\n- Crise → AINE, dipirona ou paracetamol; triptano nas moderadas/fortes; antiemético (metoclopramida)\n- Triptano contraindicado → doença coronariana, HAS não controlada, AVC prévio\n- Profilaxia (≥ 4 crises/mês ou incapacitantes) → propranolol, amitriptilina, topiramato, flunarizina, valproato\n- Enxaqueca com aura → evitar contraceptivo combinado (risco de AVC)\n- Uso de analgésico ≥ 10–15 dias/mês → cefaleia por uso excessivo de medicação\n\nOutras primárias:\n- **Tensional** → bilateral, em aperto, leve a moderada, sem náusea\n- **Salvas** → homem, dor orbitária unilateral intensa de 15–180 min, lacrimejamento, rinorreia, ptose\n  - Crise → O₂ 100% ou sumatriptano SC; profilaxia → verapamil\n\nArterite temporal:\n- > 50 anos, cefaleia nova, claudicação da mandíbula, VHS/PCR altos\n- Prednisona IMEDIATA (antes da biópsia) → risco de amaurose\n\nVertigem:\n- **VPPB** → episódios de segundos ao mudar a posição da cabeça\n  - Diagnóstico → Dix-Hallpike (nistagmo com latência, que fatiga)\n  - Tratamento → manobra de Epley; remédio não é rotina\n- **Neurite vestibular** → vertigem contínua por dias, pós-viral, sem perda auditiva\n- **Ménière** → crises de horas + hipoacusia flutuante + zumbido + plenitude aural\n- **Síndrome vestibular aguda** (vertigem contínua) → HINTS separa periférica de central (ver quadro)\n  - HINTS com sinal central → AVC de fossa posterior; HINTS supera a RM nas primeiras 48 h\n\nO que mais cai no Vila Verde:\n- VIV 2026 (Q67) → sinais de alarme indicam neuroimagem\n- VV 2025 (Q20) → cefaleia crônica diária\n- Cefaleia súbita \"a pior da vida\" → TC sem contraste; se normal, punção lombar\n- VPPB → Dix-Hallpike para diagnosticar, Epley para tratar",
+   "ctxvisual": {
+    "tipo": "grupos",
+    "grupos": [
+     {
+      "t": "Vertigem PERIFÉRICA",
+      "itens": [
+       "Início com mudança de posição (VPPB) ou contínua sem déficit (neurite)",
+       "Nistagmo horizontal-torcional, unidirecional, inibe com fixação",
+       "Head impulse ALTERADO (sacada corretiva)",
+       "Sem outros déficits neurológicos"
+      ]
+     },
+     {
+      "t": "Vertigem CENTRAL (AVC de fossa posterior)",
+      "itens": [
+       "Head impulse NORMAL na vertigem contínua",
+       "Nistagmo que muda de direção ou vertical",
+       "Skew (desalinhamento vertical) presente",
+       "Ataxia de tronco, disartria, diplopia"
+      ]
+     },
+     {
+      "t": "Cefaleia: sinais de alarme (SNOOP)",
+      "itens": [
+       "Sistêmico: febre, câncer, HIV, perda de peso",
+       "Neurológico: déficit focal, papiledema, confusão",
+       "Onset súbito (trovoada) → HSA",
+       "Older: início após 50 anos",
+       "Padrão novo/progressivo, posicional, piora com Valsalva, gestação"
+      ]
+     }
+    ]
+   },
+   "fonte": "International Classification of Headache Disorders (ICHD-3); Consenso da Sociedade Brasileira de Cefaleia; AAN/Bárány Society — vertigem e HINTS",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Clínica Médica",
+   "tema": "Nefrologia",
+   "sub": "Infecção urinária no adulto e pielonefrite",
+   "id": "bq-cm-036",
+   "tipo": "quiz",
+   "frente": "Mulher de 28 anos, não gestante, com disúria e polaciúria há 2 dias, sem febre ou dor lombar. Qual a conduta?",
+   "opcoes": [
+    "Urocultura obrigatória antes de qualquer tratamento",
+    "Ciprofloxacino por 14 dias",
+    "Internação para antibiótico EV",
+    "Tratamento empírico sem urocultura (fosfomicina dose única ou nitrofurantoína por 5 dias)"
+   ],
+   "certa": 3,
+   "comentarios": [
+    "Urocultura é para complicada, recorrente, gestante, homem.",
+    "Quinolona é poupada para pielonefrite; 14 dias é excessivo.",
+    "Cistite é ambulatorial.",
+    "Correta. Cistite não complicada em mulher jovem: diagnóstico clínico, sem necessidade de urocultura."
+   ],
+   "macete": "\"Cistite simples: trata pela clínica\".",
+   "prio": "alta",
+   "banco": true,
+   "contexto": "**ITU no adulto = cistite (bexiga, sem febre) ou pielonefrite (rim, com febre e dor lombar); a E. coli causa a grande maioria.**\n\nMicrobiologia:\n- **E. coli uropatogênica** → 75–95% das cistites\n- Fatores de virulência → adesinas fimbriais (fímbria P e tipo 1) e não fimbriais, sideróforos, toxinas (hemolisina)\n- Outros → Staphylococcus saprophyticus (mulher jovem), Klebsiella, Proteus (cálculo de estruvita)\n\nCistite:\n- Disúria, polaciúria, urgência, dor suprapúbica, às vezes hematúria\n- **Sem febre e sem dor lombar** (febre, náusea e vômitos sugerem pielonefrite)\n- Mulher jovem não gestante com quadro típico → diagnóstico clínico, sem urocultura obrigatória\n- Tratamento → nitrofurantoína 5 dias ou fosfomicina 3 g dose única; SMX-TMP 3 dias se resistência local < 20%\n- Evitar quinolona na cistite simples (reservar)\n\nUrocultura:\n- Clássico → ≥ 10⁵ UFC/mL em jato médio\n- Em sintomática pode-se aceitar contagens menores; sonda vesical ≥ 10³\n\nPielonefrite:\n- Febre, calafrios, dor lombar, Giordano positivo, náuseas/vômitos\n- Ambulatorial (estável, tolera VO) → ciprofloxacino 7 dias (se resistência < 10%) ou ceftriaxona inicial\n- Internar → sepse, vômitos, gestante, obstrução, imunossupressão\n- Pielonefrite que não melhora em 48–72 h → imagem (abscesso, obstrução)\n\nPielonefrite enfisematosa:\n- Gás no parênquima renal; ~90% em **diabéticos** mal controlados (ou obstrução)\n- Diagnóstico → TC\n- Tratamento → antibiótico EV + drenagem percutânea; nefrectomia nos graves\n\nBacteriúria assintomática:\n- Tratar só gestante e antes de procedimento urológico com sangramento\n\nO que mais cai no Vila Verde:\n- VIV 2026 → pielonefrite enfisematosa no diabético: diagnóstico e conduta.\n- VV 2024 → fatores de virulência da E. coli uropatogênica (adesinas, sideróforos, toxinas); distratores: urocultura ≥ 1.000 e cistite com febre.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "ITU",
+      "Critério",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "Cistite não complicada",
+       "Disúria, polaciúria, sem febre",
+       "Nitrofurantoína 5 dias ou fosfomicina dose única"
+      ],
+      [
+       "Pielonefrite leve",
+       "Febre, dor lombar, tolera VO",
+       "Ciprofloxacino 7 dias (ou ceftriaxona inicial)"
+      ],
+      [
+       "Pielonefrite grave",
+       "Sepse, vômitos, gestante, obstrução",
+       "Internar + antibiótico EV"
+      ],
+      [
+       "Pielonefrite enfisematosa",
+       "Diabético, gás no parênquima na TC",
+       "ATB EV + drenagem percutânea ± nefrectomia"
+      ],
+      [
+       "Bacteriúria assintomática",
+       "Urocultura + sem sintomas",
+       "Tratar só gestante / pré-procedimento urológico"
+      ]
+     ]
+    }
+   ],
+   "fonte": "IDSA — Uncomplicated cystitis and pyelonephritis in women (2011, atualização 2025) / EAU Guidelines on Urological Infections (2024) / SBI/FEBRASGO — ITU",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Cirurgia",
+   "tema": "Esôfago e estômago",
+   "sub": "Doença do refluxo gastroesofágico e hérnia de hiato",
+   "id": "bq-cir-031",
+   "tipo": "quiz",
+   "frente": "Homem de 52 anos com pirose há anos e disfagia progressiva recente com perda de peso. Qual a conduta?",
+   "opcoes": [
+    "Endoscopia digestiva alta",
+    "Teste terapêutico com IBP por 8 semanas",
+    "pHmetria de 24 horas",
+    "Fundoplicatura de Nissen"
+   ],
+   "certa": 0,
+   "comentarios": [
+    "Correta. Disfagia e perda de peso são sinais de alarme → EDA (afastar estenose, Barrett, câncer).",
+    "Teste só sem sinais de alarme.",
+    "pHmetria não é o 1º exame com alarme.",
+    "Precisa de investigação antes."
+   ],
+   "macete": "\"Alarme toca → câmera\".",
+   "prio": "alta",
+   "banco": true,
+   "contexto": "**DRGE = refluxo do conteúdo gástrico que causa sintomas incômodos ou complicações (esofagite, estenose, Barrett).**\n\nFisiopatologia:\n- Relaxamentos transitórios do esfíncter esofágico inferior, hipotonia do EEI, hérnia de hiato, obesidade, gestação\n\nClínica:\n- **Típica** → pirose e regurgitação\n- **Atípica (extraesofágica)** → tosse crônica, asma, rouquidão/laringite, pigarro, erosão dentária, dor torácica\n\nDiagnóstico:\n- Sintomas típicos sem alarme → **teste terapêutico com IBP** (8 semanas)\n- **EDA** → sinais de alarme (disfagia, odinofagia, emagrecimento, anemia, sangramento, vômitos), idade > 40–45 anos, refratários\n- Esofagite → **classificação de Los Angeles** (A a D; C e D confirmam DRGE)\n- **pHmetria de 24 h (ou impedâncio-pHmetria)** → padrão-ouro para refluxo; antes da cirurgia\n- Manometria → antes da fundoplicatura (afasta distúrbio motor como acalasia)\n\nTratamento:\n- Medidas → perder peso, elevar cabeceira, evitar comer 2–3 h antes de deitar\n- **IBP** em jejum por 8 semanas; depois menor dose eficaz ou sob demanda\n- **Cirurgia (fundoplicatura de Nissen, 360°)** → refratário, intolerância/desejo de não usar IBP, complicações, hérnia grande\n\nComplicações:\n- Estenose péptica, úlcera, sangramento\n- **Esôfago de Barrett** → **metaplasia intestinal** (epitélio colunar com células caliciformes) → risco de adenocarcinoma → EDA de vigilância\n\nHérnia de hiato:\n- **Tipo I (deslizamento)** → mais comum, associada à DRGE\n- **Tipo II (paraesofágica)** e III/IV → risco de volvo e estrangulamento → cirurgia mesmo se pouco sintomática\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: sinais de alarme para EDA, pHmetria como padrão-ouro e Barrett.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "Los Angeles (esofagite)",
+      "Critério",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "A",
+       "Erosões < 5 mm, sem confluir",
+       "IBP"
+      ],
+      [
+       "B",
+       "Erosão > 5 mm, sem confluir entre pregas",
+       "IBP"
+      ],
+      [
+       "C",
+       "Erosões confluentes < 75% da circunferência",
+       "IBP; confirma DRGE"
+      ],
+      [
+       "D",
+       "Erosões ≥ 75% da circunferência",
+       "IBP dose plena; nova EDA para afastar Barrett"
+      ]
+     ]
+    }
+   ],
+   "fonte": "Consenso Brasileiro de DRGE (FBG) / Lyon Consensus 2.0 (2023) / ACG Guideline for GERD (2022)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Cirurgia",
+   "tema": "Cirurgia vascular",
+   "sub": "Doença arterial periférica e aneurisma de aorta abdominal",
+   "id": "bq-cir-032",
+   "tipo": "quiz",
+   "frente": "Homem de 68 anos, ex-tabagista, com aneurisma de aorta abdominal infrarrenal de 4,2 cm, assintomático. Qual a conduta?",
+   "opcoes": [
+    "Correção endovascular imediata",
+    "Cirurgia aberta de urgência",
+    "Vigilância com USG periódico e controle de fatores de risco",
+    "Alta sem seguimento"
+   ],
+   "certa": 2,
+   "comentarios": [
+    "Risco do procedimento supera o de ruptura nesse tamanho.",
+    "Sem indicação.",
+    "Correta. AAA < 5,5 cm assintomático (homem) → seguimento; reparar se ≥ 5,5, crescimento > 1 cm/ano ou sintomas.",
+    "Precisa de vigilância."
+   ],
+   "macete": "\"Cinco e meio: hora do reparo\".",
+   "prio": "alta",
+   "banco": true,
+   "contexto": "**Doença arterial periférica (DAP) = aterosclerose das artérias dos membros inferiores, que reduz o fluxo; aneurisma de aorta abdominal (AAA) = dilatação ≥ 3 cm da aorta.**\n\nDAP — clínica:\n- **Claudicação intermitente** → dor na panturrilha ao caminhar que melhora com repouso\n- Isquemia crônica crítica → dor em repouso, úlcera, gangrena\n- Pulsos diminuídos, pele fina, rarefação de pelos\n\nDAP — diagnóstico:\n- **Índice tornozelo-braquial (ITB)** = PAS do tornozelo ÷ PAS do braço (tabela do contexto)\n- Doppler, angio-TC/angio-RM ou arteriografia para planejar revascularização\n\nDAP — tratamento:\n- **Parar de fumar**, exercício supervisionado, **antiagregante (AAS ou clopidogrel)**, **estatina de alta potência**, controle de PA e DM\n- Cilostazol → melhora a distância de marcha (contraindicado na IC)\n- Revascularização (angioplastia ou ponte) → isquemia crítica ou claudicação limitante refratária\n\nIsquemia arterial aguda:\n- **6 Ps** → dor (pain), palidez, ausência de pulso, parestesia, paralisia, pecilotermia (frio)\n- Embolia (FA, sem DAP prévia) × trombose (sobre placa)\n- Heparina imediata + revascularização (embolectomia com Fogarty)\n\nAAA:\n- Homem idoso tabagista; maioria assintomática (massa pulsátil)\n- **Rastreio** → USG uma vez em homens de 65–75 anos que já fumaram\n- **Cirurgia (aberta ou endovascular)** → diâmetro **≥ 5,5 cm** (≥ 5,0 cm na mulher), crescimento > 1 cm/ano ou sintomático\n- Menor → vigilância com USG e controle dos fatores de risco\n- **Roto** → dor abdominal/lombar + hipotensão + massa pulsátil → cirurgia imediata (hipotensão permissiva)\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: ITB, conduta clínica da claudicação e indicação de cirurgia no AAA.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "ITB",
+      "Critério",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "> 1,3–1,4",
+       "Artéria incompressível (calcificada: DM, DRC)",
+       "Não confiável → índice hálux-braquial / Doppler"
+      ],
+      [
+       "1,0–1,3",
+       "Normal",
+       "—"
+      ],
+      [
+       "0,91–0,99",
+       "Limítrofe",
+       "Controle de fatores de risco"
+      ],
+      [
+       "≤ 0,9",
+       "DAP",
+       "Antiagregante + estatina + parar de fumar + exercício"
+      ],
+      [
+       "≤ 0,4",
+       "Isquemia grave / crítica",
+       "Revascularização"
+      ]
+     ]
+    }
+   ],
+   "fonte": "ESC/ESVS Guidelines on Peripheral Arterial and Aortic Diseases (2024) / SVS AAA Guidelines (2018) / SBACV",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Cirurgia",
+   "tema": "Oncologia cirúrgica",
+   "sub": "Melanoma e câncer de pele",
+   "id": "bq-cir-033",
+   "tipo": "quiz",
+   "frente": "Qual o principal fator prognóstico do melanoma cutâneo localizado?",
+   "opcoes": [
+    "Diâmetro da lesão",
+    "Cor da lesão",
+    "Espessura de Breslow",
+    "Idade do paciente"
+   ],
+   "certa": 2,
+   "comentarios": [
+    "Diâmetro faz parte do ABCDE, não é o principal prognóstico.",
+    "Critério clínico de suspeição.",
+    "Correta. A espessura (mm) do tumor é o principal fator prognóstico e guia a margem cirúrgica e a pesquisa de linfonodo sentinela.",
+    "Menos importante que a espessura."
+   ],
+   "macete": "\"Breslow mede a profundidade = mede o perigo\".",
+   "prio": "alta",
+   "banco": true,
+   "contexto": "**Melanoma = câncer dos melanócitos; o mais letal dos cânceres de pele, com prognóstico ditado pela espessura (Breslow) e pelos linfonodos.**\n\nFatores de risco:\n- Exposição solar intermitente e queimaduras na infância, pele clara, muitos nevos/nevos atípicos, história familiar, imunossupressão\n\nReconhecer (ABCDE):\n- **A**ssimetria, **B**ordas irregulares, **C**or variada, **D**iâmetro > 6 mm, **E**volução (mudança)\n- Sinal do \"patinho feio\" (lesão diferente das outras)\n\nCrescimento:\n- Começa como proliferação de melanócitos na camada basal\n- **Fase RADIAL (horizontal) primeiro** → depois **fase VERTICAL** (invade a derme, vasos → potencial metastático)\n\nTipos:\n- Extensivo superficial (o mais comum), nodular (cresce vertical, agressivo), lentigo maligno (face do idoso), acral lentiginoso (palmas/plantas; o mais comum em negros e asiáticos)\n\nPrognóstico:\n- **Metástase linfonodal** → principal fator de piora\n- **Espessura de Breslow** → o principal fator do tumor primário; depois ulceração, idade, local, sexo\n\nTratamento:\n- Biópsia EXCISIONAL com margem estreita (1–3 mm) para diagnóstico\n- Ampliação de margem conforme Breslow (tabela)\n- Biópsia do linfonodo sentinela → Breslow > 0,8 mm ou ulcerado\n- Avançado → imunoterapia (anti-PD-1), terapia-alvo (BRAF)\n\nO que mais cai no Vila Verde:\n- VV 2024 → V/F: linfonodo positivo e Breslow são os maiores fatores prognósticos (V); crescimento vertical antes do radial (F — é radial primeiro); 1–2 mm → margem de 1 cm aceitável, 2 cm preferível (V).",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "Breslow (melanoma)",
+      "Critério",
+      "Margem de ampliação"
+     ],
+     "linhas": [
+      [
+       "In situ",
+       "Sem invasão da derme",
+       "0,5–1 cm"
+      ],
+      [
+       "≤ 1 mm",
+       "Espessura até 1 mm",
+       "1 cm"
+      ],
+      [
+       "1–2 mm",
+       "Espessura 1,01–2 mm",
+       "1–2 cm (2 cm preferível)"
+      ],
+      [
+       "> 2 mm",
+       "Espessura acima de 2 mm",
+       "2 cm"
+      ],
+      [
+       "Linfonodo sentinela",
+       "Breslow > 0,8 mm ou ulceração",
+       "Pesquisar"
+      ]
+     ]
+    }
+   ],
+   "fonte": "NCCN Guidelines — Cutaneous Melanoma (2025) / SBD/SBCO — Consenso de melanoma / AJCC 8ª ed.",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Cirurgia",
+   "tema": "Pâncreas",
+   "sub": "Pancreatite crônica",
+   "id": "bq-cir-034",
+   "tipo": "quiz",
+   "frente": "Alcoolista com dor abdominal crônica, esteatorreia, diabetes e calcificações pancreáticas na TC. Qual o diagnóstico e o tratamento da insuficiência exócrina?",
+   "opcoes": [
+    "Pancreatite crônica; reposição de enzimas pancreáticas",
+    "Pancreatite aguda; jejum e hidratação",
+    "Câncer de pâncreas; Whipple",
+    "Doença celíaca; dieta sem glúten"
+   ],
+   "certa": 0,
+   "comentarios": [
+    "Correta. Tríade: calcificações + esteatorreia + diabetes; enzimas nas refeições.",
+    "Quadro crônico.",
+    "Calcificação difusa sugere pancreatite crônica.",
+    "Não explica calcificações e diabetes."
+   ],
+   "macete": "\"Calcificou + gordura nas fezes + diabetes = pâncreas cansado\".",
+   "prio": "media",
+   "banco": true,
+   "contexto": "**Pancreatite crônica = inflamação e fibrose progressivas e irreversíveis do pâncreas, com dor e perda das funções exócrina e endócrina.**\n\nCausas:\n- **Álcool** (a principal), tabagismo, genéticas, autoimune, obstrutiva, idiopática\n\nClínica:\n- **Dor abdominal** epigástrica que irradia para o dorso (sintoma principal), piora com alimentação\n- Insuficiência exócrina → **esteatorreia**, emagrecimento, déficit de vitaminas lipossolúveis\n- Insuficiência endócrina → **diabetes** (tipo 3c)\n- Tríade clássica → calcificações pancreáticas + esteatorreia + diabetes\n\nImagem:\n- TC → calcificações, atrofia, dilatação ductal; ducto \"em cadeia de lagos\" (estenoses e dilatações)\n- ColangioRM/USG endoscópica\n\nTratamento clínico:\n- Parar álcool e tabaco; analgesia escalonada\n- **Enzimas pancreáticas** (insuficiência exócrina); insulina\n- Endoscopia → cálculos/estenose do ducto principal\n\nCirurgia (dor refratária):\n- **Ducto principal DILATADO (≥ 7 mm) → derivação: Partington-Rochelle** (pancreatojejunostomia longitudinal latero-lateral)\n- Cabeça aumentada + ducto dilatado → Frey (ou Beger)\n- Doença na cabeça com ducto fino → ressecção (duodenopancreatectomia/Whipple)\n- Doença difusa com ducto fino → pancreatectomia total (± autotransplante de ilhotas) — exceção\n\nO que mais cai no Vila Verde:\n- VV 2024 → dor crônica, calcificações difusas e múltiplas estenoses do ducto principal (cadeia de lagos), sem massa: cirurgia de Partington-Rochelle.",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 158\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><path d=\"M30 90 C 60 60, 110 60, 150 80 C 200 105, 260 80, 320 70\" fill=\"none\" stroke=\"var(--rose)\" stroke-width=\"34\" stroke-linecap=\"round\" opacity=\".45\"/><path d=\"M40 88 Q 60 82 72 86 Q 84 92 96 84 Q 112 76 128 84 Q 144 92 160 86 Q 178 80 196 90 Q 214 98 232 88 Q 252 80 272 82 Q 292 84 312 74\" fill=\"none\" stroke=\"var(--wine)\" stroke-width=\"7\"/><circle cx=\"70\" cy=\"68\" r=\"3\" fill=\"var(--ink)\"/><circle cx=\"120\" cy=\"102\" r=\"3\" fill=\"var(--ink)\"/><circle cx=\"180\" cy=\"70\" r=\"3\" fill=\"var(--ink)\"/><circle cx=\"240\" cy=\"104\" r=\"3\" fill=\"var(--ink)\"/><circle cx=\"290\" cy=\"64\" r=\"3\" fill=\"var(--ink)\"/><text x=\"170\" y=\"134\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"600\" fill=\"var(--wine)\">Ducto em \"cadeia de lagos\" + calcificações</text><text x=\"170\" y=\"150\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--mute)\">Ducto dilatado → Partington-Rochelle</text></svg>",
+     "legenda": "Pancreatite crônica com ducto dilatado"
+    }
+   ],
+   "fonte": "American Pancreatic Association / Brazilian consensus on chronic pancreatitis (2017) / ESGE — Endoscopic treatment of chronic pancreatitis (2018) / Sabiston 21ª ed.",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Cirurgia",
+   "tema": "Esôfago e estômago",
+   "sub": "GIST — tumor estromal gastrointestinal",
+   "id": "bq-cir-035",
+   "tipo": "quiz",
+   "frente": "Tumor submucoso gástrico de 6 cm com imuno-histoquímica CD117 (c-KIT) positiva. Qual o diagnóstico e o tratamento sistêmico adjuvante, se indicado?",
+   "opcoes": [
+    "Adenocarcinoma; FOLFOX",
+    "Linfoma MALT; erradicação do H. pylori",
+    "Leiomioma; nenhuma",
+    "GIST; imatinibe"
+   ],
+   "certa": 3,
+   "comentarios": [
+    "Adenocarcinoma é epitelial, mucoso.",
+    "MALT é linfoide.",
+    "Leiomioma é desmina +, CD117 −.",
+    "Correta. GIST: células intersticiais de Cajal, c-KIT +; ressecção + imatinibe em risco alto."
+   ],
+   "macete": "\"GIST = KIT = imatinibe\".",
+   "prio": "media",
+   "banco": true,
+   "contexto": "**GIST (tumor estromal gastrointestinal) = tumor MESENQUIMAL mais comum do trato digestivo, originado das células intersticiais de Cajal, com mutação de KIT ou PDGFRA.**\n\nCaracterísticas:\n- Local mais comum → **estômago** (~60%), depois intestino delgado\n- Origem → células intersticiais de Cajal (marca-passo intestinal)\n- Imuno-histoquímica → **CD117 (KIT)** e **DOG1** positivos (CD34 frequente)\n- Mutação → KIT (maioria) ou PDGFRA\n\nClínica:\n- Muitas vezes achado incidental\n- Sangramento digestivo (HDA/anemia), massa, dor, saciedade precoce\n- Lesão SUBMUCOSA na endoscopia; biópsia por USG endoscópica\n\nDisseminação:\n- Hematogênica (fígado) e peritoneal; **raramente linfonodal**\n\nTratamento:\n- **Ressecção cirúrgica com margens livres (R0), SEM linfadenectomia de rotina**\n- Evitar romper a cápsula (piora o prognóstico)\n- **Imatinibe** (inibidor de tirosina-quinase) → adjuvante nos de alto risco, neoadjuvante nos grandes, e na doença metastática/irressecável\n- Risco de recorrência → tamanho, índice mitótico e localização (gástrico tem melhor prognóstico)\n\nO que mais cai no Vila Verde:\n- VIV 2026 → V/F sobre origem (células de Cajal), marcador (CD117) e tratamento (cirurgia R0 + imatinibe).",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "cab": [
+      "GIST",
+      "Lembrar"
+     ],
+     "linhas": [
+      [
+       "Origem",
+       "Células intersticiais de Cajal"
+      ],
+      [
+       "Local mais comum",
+       "!Estômago"
+      ],
+      [
+       "Marcador",
+       "!CD117 (KIT) e DOG1"
+      ],
+      [
+       "Disseminação",
+       "Fígado e peritônio (linfonodo raro)"
+      ],
+      [
+       "Cirurgia",
+       "Ressecção R0 sem linfadenectomia"
+      ],
+      [
+       "Droga-alvo",
+       "!Imatinibe"
+      ]
+     ]
+    }
+   ],
+   "fonte": "NCCN Guidelines — Gastrointestinal Stromal Tumors (2025) / ESMO-EURACAN-GENTURIS — GIST Clinical Practice Guidelines (2022) / INCA",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Cirurgia",
+   "tema": "Oncologia cirúrgica",
+   "sub": "Oncologia cirúrgica — biópsias e síndromes hereditárias",
+   "id": "bq-cir-036",
+   "tipo": "quiz",
+   "frente": "Ao biopsiar uma massa suspeita de sarcoma na coxa, como deve ser orientada a incisão da biópsia incisional?",
+   "opcoes": [
+    "Transversal, para melhor estética",
+    "Longitudinal, no eixo do membro, para ser ressecada na cirurgia definitiva",
+    "Em qualquer direção",
+    "Biópsia excisional com margens mínimas"
+   ],
+   "certa": 1,
+   "comentarios": [
+    "Dificulta a ressecção oncológica.",
+    "Correta. Incisão longitudinal facilita a ressecção em bloco do trajeto da biópsia.",
+    "A orientação importa.",
+    "Para sarcoma > 3–5 cm, biópsia incisional/core."
+   ],
+   "macete": "\"Biópsia de membro: corte no comprimento\".",
+   "prio": "baixa",
+   "banco": true,
+   "contexto": "**Princípios da cirurgia oncológica = obter diagnóstico histológico sem prejudicar a cirurgia definitiva, ressecar com margens livres e reconhecer as síndromes hereditárias de câncer.**\n\nTipos de biópsia:\n- **PAAF (punção aspirativa por agulha fina)** → citologia (não dá arquitetura); tireoide, linfonodo, cistos\n- **Core biopsy (agulha grossa)** → fragmento para histologia e imuno-histoquímica; preferida em mama e em muitos tumores sólidos\n- **Incisional** → retira um FRAGMENTO de lesões grandes\n  - Em membros → incisão LONGITUDINAL (no eixo do membro), para ser retirada em bloco na cirurgia definitiva\n- **Excisional** → retira TODA a lesão; lesões pequenas (ex.: melanoma com margem estreita de 1–3 mm)\n\nPrincípios técnicos:\n- O trajeto da biópsia deve ser ressecado junto com o tumor\n- Hemostasia rigorosa (hematoma espalha células tumorais)\n- Planejar a biópsia com quem fará a cirurgia definitiva (sarcomas)\n- Cirurgia definitiva → **margens livres (R0)** são prioridade; reconstrução vem depois\n\nSíndromes hereditárias de câncer:\n- **Li-Fraumeni** → mutação germinativa do **TP53**, autossômica dominante\n  - Tumores → sarcomas, câncer de mama precoce, tumores cerebrais, **carcinoma adrenocortical**, leucemias\n  - Carcinoma adrenocortical (ou de plexo coroide, ou rabdomiossarcoma embrionário) → indica teste de TP53 independentemente da história familiar (critérios de Chompret)\n  - Evitar radioterapia quando possível (induz novos tumores)\n- **BRCA1/BRCA2** → mama e ovário (próstata, pâncreas)\n- **Lynch** → colorretal sem polipose, endométrio, ovário (genes de reparo: MLH1, MSH2, MSH6, PMS2)\n- **PAF** → gene APC, centenas de pólipos colorretais\n\nO que mais cai no Vila Verde:\n- VV 2025 (2 questões) → biópsia incisional longitudinal em membro; carcinoma adrenocortical → pesquisar TP53 independentemente da história familiar.\n- Distratores: \"PAAF é o padrão para histologia de sarcoma\", \"excisional sempre antes\", \"margens não importam\".",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 204\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><rect x=\"130\" y=\"10\" width=\"80\" height=\"170\" rx=\"36\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\"/><text x=\"170\" y=\"196\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--mute)\">membro (eixo longitudinal)</text><ellipse cx=\"170\" cy=\"95\" rx=\"26\" ry=\"34\" fill=\"var(--wine)\" opacity=\".75\"/><text x=\"170\" y=\"99\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--card)\">tumor</text><line x1=\"158\" y1=\"62\" x2=\"158\" y2=\"128\" stroke=\"var(--ok)\" stroke-width=\"3\"/><text x=\"40\" y=\"96\" font-size=\"10\" font-weight=\"600\" fill=\"var(--ok)\">✓ longitudinal</text><line x1=\"214\" y1=\"150\" x2=\"270\" y2=\"150\" stroke=\"var(--bad)\" stroke-width=\"3\"/><text x=\"232\" y=\"170\" font-size=\"10\" font-weight=\"600\" fill=\"var(--bad)\">✗ transversa</text></svg>",
+     "legenda": "Biópsia em membro: incisão no eixo do membro, para ser ressecada em bloco depois"
+    }
+   ],
+   "fonte": "INCA — Bases da Oncologia Cirúrgica / NCCN Guidelines: Soft Tissue Sarcoma (2025) e Genetic/Familial High-Risk Assessment (2025) / Chompret criteria (revisados 2015)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Ginecologia",
+   "tema": "Infecções genitais",
+   "sub": "Úlceras genitais — sífilis, herpes, cancro mole, LGV e donovanose",
+   "id": "bq-go-031",
+   "tipo": "quiz",
+   "frente": "Paciente com úlcera genital única, indolor, de bordas endurecidas e fundo limpo, com linfonodo inguinal indolor. Qual o diagnóstico e o tratamento?",
+   "opcoes": [
+    "Herpes genital; aciclovir",
+    "Sífilis primária (cancro duro); penicilina benzatina 2,4 milhões UI dose única",
+    "Cancro mole; azitromicina",
+    "Donovanose; doxiciclina"
+   ],
+   "certa": 1,
+   "comentarios": [
+    "Herpes: vesículas e úlceras múltiplas, dolorosas.",
+    "Correta. Cancro duro: úlcera única, indolor, endurecida.",
+    "Cancro mole: úlceras múltiplas, dolorosas, fundo sujo.",
+    "Donovanose: úlcera crônica, indolor, vermelho vivo, sem linfonodo."
+   ],
+   "macete": "\"Duro e sem dor = sífilis; Mole e dói = Ducrey\".",
+   "prio": "alta",
+   "banco": true,
+   "contexto": "**Úlcera genital: pelo fluxograma do MS, sem sinais de herpes trata-se sífilis + cancro mole na mesma consulta; úlcera > 4 semanas pede biópsia e cobertura de donovanose.**\n\nFluxograma do Ministério da Saúde:\n- Anamnese, exame e testes rápidos (sífilis, HIV, hepatites)\n- Vesículas ou história de herpes → tratar herpes (aciclovir)\n- Sem sugestão de herpes → tratar sífilis + cancro mole juntos (benzilpenicilina benzatina + azitromicina)\n- Úlcera há > 4 semanas → biópsia + tratar donovanose\n- Sempre → tratar parcerias, oferecer testagem, preservativo, notificar sífilis\n\nDiferenças (ver quadro):\n- **Sífilis** → cancro duro único e indolor\n- **Cancro mole** → várias úlceras dolorosas e sujas, bubão que fistuliza por orifício único\n- **Herpes** → vesículas que viram úlceras rasas e dolorosas, recorrem\n- **LGV** → úlcera passa despercebida; destaque para o bubão com vários orifícios e o \"sinal do sulco\"\n- **Donovanose** → úlcera crônica, vermelha, friável, sem linfonodo verdadeiro; corpúsculos de Donovan na biópsia\n\nDetalhes de tratamento:\n- Herpes 1º episódio → aciclovir 7–10 dias; recorrências frequentes (≥ 6/ano) → supressão\n- Gestante com herpes ativo no parto → cesárea\n- LGV também causa proctite em HSH\n\nO que mais cai no Vila Verde:\n- VV 2024 (Q64) → condiloma plano (sífilis secundária)\n- Dolorosa e suja = cancro mole; indolor e limpa = sífilis\n- Sem vesículas → tratar sífilis e cancro mole ao mesmo tempo",
+   "ctxvisual": {
+    "tipo": "tabela",
+    "cab": [
+     "Doença (agente)",
+     "Úlcera",
+     "Linfonodo",
+     "Tratamento"
+    ],
+    "linhas": [
+     [
+      "Sífilis primária (T. pallidum)",
+      "Única, INDOLOR, base limpa e endurecida",
+      "Bilateral, indolor, não fistuliza",
+      "Benzilpenicilina benzatina 2,4 milhões UI IM"
+     ],
+     [
+      "Cancro mole (H. ducreyi)",
+      "Múltiplas, DOLOROSAS, fundo sujo, bordas irregulares",
+      "Unilateral, doloroso, fistuliza por 1 orifício",
+      "Azitromicina 1 g VO dose única (ou ceftriaxona)"
+     ],
+     [
+      "Herpes (HSV)",
+      "Vesículas agrupadas → úlceras rasas dolorosas, recorrentes",
+      "Bilateral, doloroso",
+      "Aciclovir"
+     ],
+     [
+      "LGV (C. trachomatis L1–L3)",
+      "Pequena, indolor, some rápido",
+      "Bubão que fistuliza por vários orifícios (\"bico de regador\")",
+      "Doxiciclina por 21 dias"
+     ],
+     [
+      "Donovanose (K. granulomatis)",
+      "Crônica, indolor, vermelho-carne, sangra fácil",
+      "Sem adenopatia verdadeira (pseudobubão)",
+      "Doxiciclina por 21 dias ou até cicatrizar"
+     ]
+    ]
+   },
+   "fonte": "Ministério da Saúde — PCDT Atenção Integral às Pessoas com IST (2022)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Ginecologia",
+   "tema": "Reprodução humana",
+   "sub": "Infertilidade e reserva ovariana",
+   "id": "bq-go-032",
+   "tipo": "quiz",
+   "frente": "Casal com infertilidade em que a histerossalpingografia mostra obstrução tubária bilateral. Qual o tratamento de escolha?",
+   "opcoes": [
+    "Indução da ovulação com coito programado",
+    "Inseminação intrauterina",
+    "Clomifeno",
+    "Fertilização in vitro"
+   ],
+   "certa": 3,
+   "comentarios": [
+    "Não resolve a obstrução.",
+    "Exige ao menos uma tuba pérvia.",
+    "Indutor de ovulação.",
+    "Correta. Obstrução tubária bilateral → FIV (o embrião é transferido direto ao útero)."
+   ],
+   "macete": "\"Sem tuba, o laboratório faz o trabalho dela\".",
+   "prio": "alta",
+   "banco": true,
+   "contexto": "**Infertilidade = 12 meses de relações regulares sem contracepção sem gestar (6 meses se ≥ 35 anos).**\n\nO que é:\n- Problema do casal: fator feminino, masculino ou os dois.\n- Principais fatores: ovulatório, tubário/peritoneal (endometriose), uterino, masculino e reserva ovariana.\n\nInvestigação básica do casal:\n- **Ovulação** → ciclos, progesterona na fase lútea, TSH e prolactina\n- **Tubas** → histerossalpingografia\n- **Masculino** → espermograma (sempre)\n- **Reserva ovariana** → marcadores abaixo\n\nReserva ovariana:\n- **AMH** → qualquer dia do ciclo; alto na SOP\n- **Contagem de folículos antrais** → USG no início do ciclo\n- **FSH** → 2º–4º dia\n- Predizem resposta à estimulação, não a fertilidade natural\n\nFatores de risco para reserva baixa:\n- Idade (o principal; queda acelerada após 35)\n- Menopausa precoce na mãe/irmã, tabagismo\n- Cirurgia ovariana (endometrioma), quimio/radioterapia, pré-mutação do FMR1\n\nEndometriose e fertilidade:\n- I–II → laparoscopia com excisão dos focos melhora a chance espontânea\n- III–IV ou idade avançada → FIV\n- Supressão hormonal não melhora a fertilidade\n\nO que mais cai no Vila Verde:\n- VIV 2026 (Q58) → obstrução tubária bilateral → FIV\n- Qual dado da história é fator de risco real (menopausa precoce materna sim; aborto prévio e anticoncepcional não)\n- AMH pode ser colhido em qualquer fase; FSH só no início do ciclo\n- Operar endometrioma reduz o AMH → não operar de rotina antes da FIV",
+   "ctxvisual": {
+    "tipo": "svg",
+    "svg": "<svg viewBox=\"0 0 340 198\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><line x1=\"35\" y1=\"15\" x2=\"35\" y2=\"160\" stroke=\"var(--mute)\"/><line x1=\"35\" y1=\"160\" x2=\"330\" y2=\"160\" stroke=\"var(--mute)\"/><path d=\"M35 30 C120 45 170 70 182 95 S281 150 330 156\" fill=\"none\" stroke=\"var(--wine)\" stroke-width=\"2.5\"/><text x=\"35\" y=\"175\" font-size=\"9\" font-weight=\"400\" fill=\"var(--mute)\" text-anchor=\"middle\">20</text><text x=\"84\" y=\"175\" font-size=\"9\" font-weight=\"400\" fill=\"var(--mute)\" text-anchor=\"middle\">25</text><text x=\"133\" y=\"175\" font-size=\"9\" font-weight=\"400\" fill=\"var(--mute)\" text-anchor=\"middle\">30</text><text x=\"182\" y=\"175\" font-size=\"9\" font-weight=\"400\" fill=\"var(--mute)\" text-anchor=\"middle\">35</text><text x=\"232\" y=\"175\" font-size=\"9\" font-weight=\"400\" fill=\"var(--mute)\" text-anchor=\"middle\">40</text><text x=\"281\" y=\"175\" font-size=\"9\" font-weight=\"400\" fill=\"var(--mute)\" text-anchor=\"middle\">45</text><text x=\"330\" y=\"175\" font-size=\"9\" font-weight=\"400\" fill=\"var(--mute)\" text-anchor=\"middle\">50</text><line x1=\"182\" y1=\"20\" x2=\"182\" y2=\"160\" stroke=\"var(--rose)\" stroke-dasharray=\"4 3\"/><text x=\"188\" y=\"30\" font-size=\"10\" font-weight=\"700\" fill=\"var(--wine)\" text-anchor=\"start\">35 anos: queda acelerada</text><text transform=\"rotate(-90 14 90)\" x=\"14\" y=\"90\" font-size=\"9\" font-weight=\"500\" fill=\"var(--mute)\" text-anchor=\"middle\">folículos / AMH</text><text x=\"185\" y=\"192\" font-size=\"9\" font-weight=\"400\" fill=\"var(--mute)\" text-anchor=\"middle\">idade (anos)</text></svg>",
+    "legenda": "Reserva ovariana cai com a idade, mais rápido depois dos 35."
+   },
+   "fonte": "FEBRASGO — Avaliação da reserva ovariana / ASRM Committee Opinion 2020 (Testing and interpreting measures of ovarian reserve)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Ginecologia",
+   "tema": "Climatério",
+   "sub": "Climatério — terapia hormonal",
+   "tipo": "quiz",
+   "frente": "Sobre a terapia hormonal no climatério, analise: I. O principal benefício é o alívio dos sintomas vasomotores. II. Está contraindicada em mulheres com história de câncer de mama. III. Deve ser iniciada preferencialmente após os 70 anos para prevenir doença cardiovascular. Está(ão) correta(s):",
+   "opcoes": [
+    "Apenas I e II.",
+    "Apenas I e III.",
+    "Apenas II e III.",
+    "I, II e III."
+   ],
+   "certa": 0,
+   "comentarios": [
+    "Correta. III é falsa: a \"janela de oportunidade\" é < 60 anos ou < 10 anos da menopausa; a TH não é indicada para prevenção cardiovascular.",
+    "Errada. III é falsa: a \"janela de oportunidade\" é < 60 anos ou < 10 anos da menopausa; a TH não é indicada para prevenção cardiovascular.",
+    "Errada. III é falsa: a \"janela de oportunidade\" é < 60 anos ou < 10 anos da menopausa; a TH não é indicada para prevenção cardiovascular.",
+    "Errada. III é falsa: a \"janela de oportunidade\" é < 60 anos ou < 10 anos da menopausa; a TH não é indicada para prevenção cardiovascular."
+   ],
+   "id": "bq-go-033",
+   "prio": "alta",
+   "macete": "\"TH: começa cedo, trata fogacho\".",
+   "banco": true,
+   "contexto": "**Terapia hormonal (TH) no climatério = reposição de estrogênio (± progestagênio) para tratar sintomas da menopausa; melhor benefício quando iniciada na \"janela de oportunidade\".**\n\nIndicações:\n- **Sintomas vasomotores moderados a graves** (fogachos, sudorese noturna) → principal indicação\n- Síndrome geniturinária (secura, dispareunia) → estrogênio VAGINAL local\n- Insuficiência ovariana prematura → repor até a idade natural da menopausa\n- Prevenção de osteoporose em mulher com sintomas e risco (não é indicação isolada de 1ª linha)\n\nJanela de oportunidade:\n- Iniciar antes dos 60 anos ou até 10 anos da menopausa → melhor relação risco-benefício\n\nComo prescrever:\n- **Com útero → estrogênio + PROGESTAGÊNIO** (proteção endometrial contra hiperplasia/câncer)\n- Sem útero (histerectomizada) → estrogênio isolado\n- Via transdérmica → menor risco de trombose (preferir em obesa, risco de TEV, hipertrigliceridemia, enxaqueca)\n- Tibolona → alternativa\n- Menor dose eficaz, tempo individualizado, reavaliação anual\n\nContraindicações:\n- Câncer de mama ou de endométrio\n- Sangramento vaginal não esclarecido\n- TEV atual ou prévio, AVC, doença coronariana\n- Doença hepática grave ativa\n- Porfiria, LES ativo, meningioma (progestagênio)\n\nAlternativas sem hormônio para fogachos:\n- ISRS/IRSN (paroxetina, venlafaxina), gabapentina, fezolinetanto\n\nO que mais cai no Vila Verde:\n- VIV 2026 → V/F sobre indicações da TH e proteção endometrial (progestagênio obrigatório em quem tem útero).",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 206\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><rect x=\"10\" y=\"8\" width=\"320\" height=\"30\" rx=\"9\" fill=\"var(--wine)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"170.0\" y=\"26.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--card)\">Mulher com sintomas vasomotores</text><line x1=\"170\" y1=\"38\" x2=\"170\" y2=\"50\" stroke=\"var(--rose)\"/><rect x=\"40\" y=\"50\" width=\"260\" height=\"30\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"170.0\" y=\"68.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">< 60 anos ou < 10 anos da menopausa?</text><line x1=\"90\" y1=\"80\" x2=\"90\" y2=\"94\" stroke=\"var(--rose)\"/><line x1=\"250\" y1=\"80\" x2=\"250\" y2=\"94\" stroke=\"var(--rose)\"/><rect x=\"10\" y=\"94\" width=\"160\" height=\"44\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"90.0\" y=\"115.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Tem útero</text><text x=\"90.0\" y=\"127.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">estrogênio + progestagênio</text><rect x=\"178\" y=\"94\" width=\"152\" height=\"44\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"254.0\" y=\"115.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Sem útero</text><text x=\"254.0\" y=\"127.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">estrogênio isolado</text><rect x=\"10\" y=\"146\" width=\"320\" height=\"34\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"170.0\" y=\"166.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Risco de TEV/obesidade → via transdérmica</text><text x=\"170\" y=\"198\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--mute)\">Contraindicada: câncer de mama/endométrio, TEV, AVC/IAM, sangramento sem causa</text></svg>",
+     "legenda": "Terapia hormonal: decisão rápida"
+    }
+   ],
+   "fonte": "FEBRASGO — Consenso de Terapia Hormonal no Climatério (2018, atualização 2024) / North American Menopause Society — Hormone Therapy Position Statement (2022) / SOBRAC",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Obstetrícia",
+   "tema": "Pré-natal",
+   "sub": "Infecção urinária na gestação",
+   "id": "bq-go-034",
+   "tipo": "quiz",
+   "frente": "Gestante de 20 semanas assintomática com urocultura mostrando 150.000 UFC/mL de E. coli. Qual a conduta?",
+   "opcoes": [
+    "Não tratar por ser assintomática",
+    "Ciprofloxacino por 3 dias",
+    "Tratar com antibiótico guiado pelo antibiograma (ex.: cefalexina) e repetir a urocultura após o tratamento",
+    "Repetir a urocultura no 3º trimestre e só tratar se houver sintomas"
+   ],
+   "certa": 2,
+   "comentarios": [
+    "Na gestante, trata.",
+    "Quinolona é evitada na gestação.",
+    "Correta. Bacteriúria assintomática na gestante sempre é tratada (risco de pielonefrite e parto prematuro).",
+    "Tratar agora."
+   ],
+   "macete": "\"Na grávida, bactéria na urina sempre se trata\".",
+   "prio": "alta",
+   "banco": true,
+   "contexto": "**ITU na gestação = bacteriúria assintomática, cistite ou pielonefrite; a gestação favorece a infecção alta (progesterona dilata ureteres e reduz o peristaltismo; útero comprime o ureter).**\n\nBacteriúria assintomática:\n- ≥ 100.000 UFC/mL de um mesmo germe sem sintomas\n- **Rastrear com urocultura no pré-natal (1º trimestre; MS repete no 3º)**\n- **Tratar SEMPRE** → sem tratamento, risco de pielonefrite, prematuridade e baixo peso\n\nAgentes:\n- **E. coli** (principal), Klebsiella, Proteus, *Staphylococcus saprophyticus*, enterococo\n- GBS na urina → tratar e fazer profilaxia intraparto (não precisa swab com 35–37 semanas)\n\nAntibióticos seguros:\n- **Cefalexina**, **amoxicilina**/amoxicilina-clavulanato, **nitrofurantoína** (evitar no termo e na deficiência de G6PD), **fosfomicina** dose única\n- **Evitar** → quinolonas, tetraciclinas; sulfametoxazol-trimetoprima no 1º trimestre (antifolato) e no fim da gestação (kernicterus)\n- **Urocultura de controle** 1–2 semanas após o tratamento\n\nCistite:\n- Disúria, polaciúria, urgência; tratar (de preferência guiado por cultura) como a bacteriúria\n\nPielonefrite:\n- Febre, calafrios, dor lombar, Giordano positivo, náuseas\n- **Internação + antibiótico EV (ceftriaxona ou cefazolina)**; trocar para VO após 48 h afebril; total 10–14 dias\n- Complicações → sepse, insuficiência respiratória, trabalho de parto prematuro\n\nITU de repetição (≥ 2 episódios ou 1 pielonefrite):\n- **Profilaxia até o fim da gestação** (nitrofurantoína 100 mg ou cefalexina 500 mg à noite)\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: tratar toda bacteriúria assintomática, drogas seguras e pielonefrite com internação.",
+   "ctxvisual": [
+    {
+     "tipo": "vs",
+     "a": {
+      "t": "Pode usar",
+      "itens": [
+       "Cefalexina",
+       "Amoxicilina (± clavulanato)",
+       "Nitrofurantoína (exceto termo/G6PD)",
+       "Fosfomicina"
+      ]
+     },
+     "b": {
+      "t": "Evitar",
+      "itens": [
+       "Quinolonas",
+       "Tetraciclinas",
+       "Sulfa-trimetoprima no 1º tri e no fim",
+       "Aminoglicosídeo (exceto se necessário)"
+      ]
+     }
+    }
+   ],
+   "fonte": "Ministério da Saúde — Manual de Gestação de Alto Risco (2022) / FEBRASGO — Protocolo Infecção do trato urinário na gestação (2021) / IDSA — Asymptomatic Bacteriuria (2019)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Obstetrícia",
+   "tema": "Prematuridade e RPMO",
+   "sub": "Prematuridade — prevenção e trabalho de parto prematuro",
+   "id": "bq-go-035",
+   "tipo": "quiz",
+   "frente": "Gestante de 31 semanas em trabalho de parto prematuro, sem contraindicação à inibição. Quais medidas estão indicadas?",
+   "opcoes": [
+    "Somente tocólise prolongada até 37 semanas",
+    "Cesárea imediata",
+    "Corticoide (betametasona), sulfato de magnésio para neuroproteção e tocólise (ex.: nifedipino)",
+    "Progesterona vaginal como tratamento do trabalho de parto ativo"
+   ],
+   "certa": 2,
+   "comentarios": [
+    "Tocólise visa 48 h; manutenção não traz benefício.",
+    "Sem indicação obstétrica.",
+    "Correta. < 34 s: corticoide; < 32 s: MgSO₄ neuroprotetor; tocólise por 48 h para completar o corticoide.",
+    "Progesterona é para prevenção (colo curto/história)."
+   ],
+   "macete": "\"< 34: corticoide; < 32: magnésio\".",
+   "prio": "alta",
+   "banco": true,
+   "contexto": "**Prematuridade = parto antes de 37 semanas; principal causa de morbimortalidade neonatal. O pré-natal busca reconhecer o risco e prevenir.**\n\nFatores de risco:\n- **Parto prematuro prévio** (o principal)\n- **Colo uterino curto** (≤ 25 mm na USG transvaginal entre 18 e 24 semanas)\n- Gestação múltipla, polidrâmnio, malformações uterinas\n- **Infecções** → ITU/bacteriúria, vaginose bacteriana (associada a parto prematuro E a rotura prematura de membranas)\n- Ausência de pré-natal, extremos de idade, tabagismo, baixo nível socioeconômico, sangramento\n\nPrevenção:\n- **Progesterona vaginal** → colo curto (≤ 25 mm) e/ou prematuridade prévia\n- Cerclagem → insuficiência istmocervical\n- Tratar bacteriúria assintomática\n\nTrabalho de parto prematuro (24–34 semanas):\n- Contrações regulares + modificação do colo\n- **Corticoide antenatal** → betametasona 12 mg IM, 2 doses com 24 h (maturação pulmonar)\n- **Tocólise** (nifedipina ou atosiban) por até 48 h → dá tempo para o corticoide\n- **Sulfato de magnésio** < 32 semanas → neuroproteção fetal\n- Profilaxia para estreptococo do grupo B se status desconhecido\n- Contraindicam tocólise → corioamnionite, sofrimento fetal, DPP, malformação letal, óbito fetal, pré-eclâmpsia grave\n\nO que mais cai no Vila Verde:\n- VV 2025 → prematuridade prévia aumenta o risco de novo parto pré-termo e ITU é fator de risco (correta); distratores: progesterona contraindicada no colo curto, vaginose sem relação com RPMO, falta de pré-natal sem relação.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "TPP (24–34 sem)",
+      "Critério",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "Corticoide",
+       "24–34 semanas com risco de parto em 7 dias",
+       "Betametasona 12 mg IM 2 doses (24/24 h)"
+      ],
+      [
+       "Tocólise",
+       "Sem contraindicação, até 34 semanas",
+       "Nifedipina ou atosiban por até 48 h"
+      ],
+      [
+       "Neuroproteção",
+       "< 32 semanas",
+       "Sulfato de magnésio"
+      ],
+      [
+       "Estreptococo B",
+       "Status desconhecido/positivo",
+       "Penicilina/ampicilina intraparto"
+      ]
+     ]
+    }
+   ],
+   "fonte": "MS — Manual de Gestação de Alto Risco (2022) / FEBRASGO — Prematuridade (Protocolo 2021) / ACOG Practice Bulletin 234 — Prediction and Prevention of Spontaneous Preterm Birth (2021)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Obstetrícia",
+   "tema": "Pré-natal",
+   "sub": "Diabetes mellitus gestacional",
+   "id": "bq-go-036",
+   "tipo": "quiz",
+   "frente": "Gestante com DMG em dieta e atividade física há 2 semanas mantém glicemias acima da meta. Qual o tratamento farmacológico de primeira escolha?",
+   "opcoes": [
+    "Insulina",
+    "Glibenclamida",
+    "Acarbose",
+    "Manter apenas a dieta até o parto"
+   ],
+   "certa": 0,
+   "comentarios": [
+    "Correta. Insulina é a 1ª escolha quando a MEV não atinge a meta (metformina é alternativa em situações específicas).",
+    "Sulfonilureia é evitada (hipoglicemia neonatal, macrossomia).",
+    "Não recomendada.",
+    "Hiperglicemia persistente deve ser tratada."
+   ],
+   "macete": "\"DMG fora da meta: insulina\".",
+   "prio": "alta",
+   "banco": true,
+   "pegadinha": "Metas: jejum < 95, 1 h pós < 140, 2 h pós < 120.",
+   "contexto": "**Diabetes gestacional: glicemia de jejum na 1ª consulta e TOTG 75 g com 24–28 semanas; basta um valor alterado (92/180/153).**\n\nDiagnóstico (Brasil):\n- Fluxograma no quadro\n- HbA1c ≥ 6,5% ou jejum ≥ 126 no início → diabetes prévio, não gestacional\n\nMetas glicêmicas:\n- Jejum < 95 mg/dL\n- 1 h pós-prandial < 140 mg/dL\n- 2 h pós-prandial < 120 mg/dL\n\nTratamento:\n- Dieta + atividade física → reavaliar em 1–2 semanas\n- Fora da meta → insulina (1ª escolha: NPH ± regular)\n- Metformina → alternativa quando não há adesão ou acesso à insulina (cruza a placenta)\n- Glibenclamida → não recomendada\n\nRepercussões fetais e neonatais:\n- Macrossomia, distocia de ombro, tocotraumatismo\n- Hipoglicemia neonatal (hiperinsulinismo fetal)\n- Hipocalcemia, policitemia, hiperbilirrubinemia, desconforto respiratório\n- Malformações → associadas ao diabetes PRÉVIO mal controlado na concepção, não ao DMG\n\nParto:\n- Só dieta e bem controlada → até 40+6 semanas\n- Com insulina → 38–39 semanas\n- Via obstétrica; considerar cesárea se peso fetal estimado ≥ 4.500 g\n\nPuerpério:\n- Suspender a insulina após o parto\n- TOTG 75 g com 6–12 semanas pós-parto\n- Risco alto de DM2 → rastrear a cada 1–3 anos; amamentação reduz o risco\n\nO que mais cai no Vila Verde:\n- VIV 2026 (Q41) → critérios do TOTG 75 g (92 / 180 / 153; um valor basta)\n- VV 2024 (Q69) → metas glicêmicas no DMG\n- VV 2024 (Q72) → rastreamento do DMG\n- Insulina é a 1ª escolha quando a dieta falha",
+   "ctxvisual": {
+    "tipo": "fluxo",
+    "passos": [
+     "1ª consulta: glicemia de jejum",
+     [
+      "≥ 126 → diabetes prévio (overt)",
+      "92–125 → diabetes gestacional",
+      "< 92 → TOTG 75 g com 24–28 semanas"
+     ],
+     "TOTG: jejum ≥ 92, 1 h ≥ 180 ou 2 h ≥ 153 (basta 1 valor) → DMG",
+     "Pós-parto: TOTG 75 g 6–12 semanas depois"
+    ]
+   },
+   "fonte": "Rastreamento e diagnóstico de DMG no Brasil (OPAS/MS/FEBRASGO/SBD 2017); Diretriz SBD 2024 — DM na gestação; ADA Standards 2025",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Pediatria",
+   "tema": "Neonatologia",
+   "sub": "Triagem neonatal — testes do pezinho, orelhinha, olhinho e coraçãozinho",
+   "id": "bq-ped-031",
+   "tipo": "quiz",
+   "frente": "RN de 30 horas de vida faz teste do coraçãozinho: SatO₂ de 96% no membro superior direito e 92% no membro inferior. Qual a conduta?",
+   "opcoes": [
+    "Normal, alta",
+    "Iniciar prostaglandina imediatamente",
+    "Repetir só na consulta de 7 dias",
+    "Repetir em 1 hora; se persistir, ecocardiograma"
+   ],
+   "certa": 3,
+   "comentarios": [
+    "Está alterado.",
+    "Antes, confirmar com repetição e eco (salvo instabilidade).",
+    "Deve ser repetido em 1 h.",
+    "Correta. Alterado se SatO₂ < 95% ou diferença ≥ 3%. Aqui: perna 92% (< 95) e diferença 4%."
+   ],
+   "macete": "\"95 e 3\".",
+   "prio": "alta",
+   "banco": true,
+   "contexto": "**Triagem neonatal = conjunto de testes feitos em todos os RN para detectar cedo doenças graves e tratáveis, antes dos sintomas.**\n\nTeste do pezinho (PNTN):\n- Coleta entre o **3º e o 5º dia de vida** (após 48 h de amamentação)\n- Doenças do programa → **fenilcetonúria, hipotireoidismo congênito, doença falciforme e outras hemoglobinopatias, fibrose cística, hiperplasia adrenal congênita, deficiência de biotinidase** (e toxoplasmose congênita em parte dos estados)\n- Lei 14.154/2021 → ampliação gradual para ~50 doenças em etapas\n- **Hipotireoidismo congênito** → causa evitável de deficiência intelectual; TSH alto → **levotiroxina o mais cedo possível (idealmente até 2 semanas de vida)**\n- Fibrose cística → tripsinogênio imunorreativo (IRT) alto → confirmar com **teste do suor**\n- Fenilcetonúria → dieta pobre em fenilalanina\n\nTeste do coraçãozinho (oximetria de pulso):\n- Entre **24 e 48 h** de vida, em RN ≥ 35 semanas\n- Medir **membro superior direito e um membro inferior**\n- Normal → SatO₂ ≥ 95% e diferença < 3%\n- Alterado → repetir em 1 h; persistiu → **ecocardiograma** (triagem de cardiopatia crítica)\n\nTeste da orelhinha (triagem auditiva):\n- **Emissões otoacústicas (EOA)**; com indicador de risco → **PEATE (BERA)**\n- Idealmente antes da alta, até 30 dias de vida; meta \"1-3-6\" (triar até 1 mês, diagnosticar até 3, intervir até 6)\n\nTeste do olhinho (reflexo vermelho):\n- Detecta catarata congênita, glaucoma, retinoblastoma\n- Reflexo ausente/assimétrico/branco (leucocoria) → oftalmologista com urgência\n\nTeste da linguinha:\n- Protocolo de Bristol; anquiloglossia que prejudica a amamentação → frenotomia\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: doenças do teste do pezinho, idade da coleta e regras do teste do coraçãozinho.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "cab": [
+      "Teste",
+      "Quando",
+      "O que detecta"
+     ],
+     "linhas": [
+      [
+       "Pezinho",
+       "3º–5º dia",
+       "Fenilcetonúria, hipotireoidismo, falciforme, FC, HAC, biotinidase"
+      ],
+      [
+       "Coraçãozinho",
+       "24–48 h",
+       "Cardiopatia congênita crítica"
+      ],
+      [
+       "Orelhinha",
+       "Antes da alta (até 30 dias)",
+       "Perda auditiva"
+      ],
+      [
+       "Olhinho",
+       "Na maternidade e nas consultas",
+       "Catarata, glaucoma, retinoblastoma"
+      ],
+      [
+       "Linguinha",
+       "Na maternidade",
+       "Anquiloglossia"
+      ]
+     ]
+    }
+   ],
+   "fonte": "Ministério da Saúde — Triagem Neonatal Biológica: manual técnico (2016) / Lei 14.154/2021 / SBP — Teste do coraçãozinho (2022) / MS — Diretrizes de Atenção da Triagem Auditiva Neonatal (2012)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Pediatria",
+   "tema": "Nutrologia pediátrica",
+   "sub": "Desnutrição e obesidade infantil",
+   "id": "bq-ped-032",
+   "tipo": "quiz",
+   "frente": "Criança de 2 anos com edema de membros inferiores, lesões de pele descamativas, cabelos finos e descoloridos e hepatomegalia. Qual a forma de desnutrição?",
+   "opcoes": [
+    "Marasmo",
+    "Kwashiorkor",
+    "Obesidade",
+    "Raquitismo"
+   ],
+   "certa": 1,
+   "comentarios": [
+    "Marasmo: emagrecimento extremo, sem edema.",
+    "Correta. Deficiência proteica → hipoalbuminemia → edema; esteatose → hepatomegalia.",
+    "Não.",
+    "Raquitismo: deficiência de vitamina D, alterações ósseas."
+   ],
+   "macete": "\"Kwashiorkor = inchado\".",
+   "prio": "alta",
+   "banco": true,
+   "contexto": "**Desnutrição e obesidade são os dois extremos do estado nutricional; na criança, ambos são avaliados pelas curvas da OMS em escore Z.**\n\nAvaliação (curvas OMS):\n- **Peso/estatura ou IMC/idade** → classifica magreza e excesso de peso\n- **Estatura/idade < −2 escores Z** → baixa estatura (desnutrição crônica)\n- Faixas de IMC/idade → tabela do contexto (diferem em < 5 e ≥ 5 anos)\n\nDesnutrição grave — formas:\n- **Marasmo** → déficit calórico global: emagrecimento extremo, \"face de velho\", sem edema, apetite preservado\n- **Kwashiorkor** → déficit proteico: **edema** (hipoalbuminemia), lesões de pele e cabelo (sinal da bandeira), hepatomegalia (esteatose), apatia\n- Kwashiorkor-marasmático → misto\n\nTratamento da desnutrição grave (OMS — 10 passos):\n- Estabilização → tratar/prevenir **hipoglicemia, hipotermia, desidratação** (ReSoMal; evitar EV salvo choque), distúrbios eletrolíticos, **infecção (antibiótico para todos)**, micronutrientes\n- **Ferro só na fase de reabilitação** (no início piora infecção e radicais livres)\n- Alimentação cautelosa (F-75) → depois F-100 (recuperação)\n- Risco da **síndrome de realimentação** → hipofosfatemia, hipocalemia, hipomagnesemia\n\nObesidade infantil:\n- Causas → quase sempre exógena (dieta e sedentarismo)\n- Sinais de causa endócrina/genética → **baixa estatura** com obesidade, atraso do desenvolvimento, dismorfias\n- Comorbidades → acantose nigricans (resistência insulínica), DM2, dislipidemia, HAS, esteatose, apneia, epifisiólise, alterações ortopédicas\n- Tratamento → mudança de hábitos da família, atividade física, reduzir telas e ultraprocessados; drogas e cirurgia só em adolescentes selecionados\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: marasmo × kwashiorkor, ferro só na reabilitação e classificação pelo escore Z.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "IMC/idade (OMS)",
+      "Critério",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "Magreza acentuada",
+       "< −3 escores Z",
+       "Desnutrição grave: estabilizar (10 passos)"
+      ],
+      [
+       "Magreza",
+       "≥ −3 e < −2",
+       "Investigar causa, recuperação nutricional"
+      ],
+      [
+       "Eutrofia",
+       "≥ −2 e ≤ +1",
+       "Acompanhar"
+      ],
+      [
+       "< 5 anos: risco de sobrepeso / ≥ 5 anos: sobrepeso",
+       "> +1 e ≤ +2",
+       "Orientar hábitos"
+      ],
+      [
+       "< 5 anos: sobrepeso / ≥ 5 anos: obesidade",
+       "> +2 e ≤ +3",
+       "Intervenção nutricional e atividade física"
+      ],
+      [
+       "< 5 anos: obesidade / ≥ 5 anos: obesidade grave",
+       "> +3",
+       "Investigar comorbidades; equipe multiprofissional"
+      ]
+     ]
+    }
+   ],
+   "fonte": "Ministério da Saúde — Manual de atendimento da criança com desnutrição grave (2005) / OMS — Curvas de crescimento (2006/2007) / SBP — Manual de orientação: Obesidade na infância e adolescência 3ª ed. (2019)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Pediatria",
+   "tema": "Nutrologia pediátrica",
+   "sub": "Anemia ferropriva e suplementação de ferro",
+   "tipo": "quiz",
+   "frente": "Sobre a anemia ferropriva na infância, analise: I. O leite de vaca integral antes de 1 ano é fator de risco. II. A ferritina baixa é o marcador mais precoce da deficiência de ferro. III. A suplementação profilática de ferro é indicada apenas para prematuros. Está(ão) correta(s):",
+   "opcoes": [
+    "Apenas I e III.",
+    "Apenas I e II.",
+    "Apenas II e III.",
+    "I, II e III."
+   ],
+   "certa": 1,
+   "comentarios": [
+    "Errada. III é falsa: SBP recomenda suplementação profilática para todos os lactentes (a termo a partir de 3–6 meses; prematuros e baixo peso a partir de 30 dias).",
+    "Correta. III é falsa: SBP recomenda suplementação profilática para todos os lactentes (a termo a partir de 3–6 meses; prematuros e baixo peso a partir de 30 dias).",
+    "Errada. III é falsa: SBP recomenda suplementação profilática para todos os lactentes (a termo a partir de 3–6 meses; prematuros e baixo peso a partir de 30 dias).",
+    "Errada. III é falsa: SBP recomenda suplementação profilática para todos os lactentes (a termo a partir de 3–6 meses; prematuros e baixo peso a partir de 30 dias)."
+   ],
+   "id": "bq-ped-033",
+   "prio": "alta",
+   "macete": "\"Ferritina cai primeiro, hemoglobina cai por último\".",
+   "banco": true,
+   "contexto": "**Anemia ferropriva = a anemia mais comum da infância (pico 6–24 meses).**\n\nPor que nessa idade:\n- Estoque do nascimento acaba por volta dos 6 meses\n- Crescimento rápido + dieta pobre em ferro (leite de vaca precoce)\n- Outros → prematuridade, baixo peso, perdas (parasitoses, sangramento)\n\nClínica:\n- Palidez, irritabilidade, inapetência, déficit de desenvolvimento\n- Pica (geofagia)\n\nPrevenção:\n- Clampeamento tardio do cordão, aleitamento materno\n- Evitar leite de vaca antes de 1 ano; alimentos ricos em ferro + vitamina C\n- Suplementação profilática (ver ilustração)\n  - Termo → ciclos com dose fixa\n  - Prematuro/baixo peso → mg/kg a partir de 30 dias\n- MS → profilaxia para todas as crianças de 6 a 24 meses\n\nDiagnóstico:\n- Hb baixa, microcitose (VCM ↓), RDW ↑, ferritina ↓\n- Ferritina é proteína de fase aguda → pode vir normal com inflamação\n\nTratamento:\n- 3–6 mg/kg/dia de ferro elementar por 3–6 meses (até repor estoque)\n- Longe das refeições/leite, com suco cítrico\n- Tratar a causa (parasitose, leite de vaca)\n\nResposta:\n- Reticulocitose em 5–10 dias\n- Hb sobe ≥ 1 g/dL em 30 dias\n- Sem resposta → adesão, perda oculta, má absorção (celíaca), diagnóstico errado (talassemia)\n\nO que mais cai no Vila Verde:\n- VV 2024 (Q39) → anemia da prematuridade\n- Esquema de profilaxia por idade/peso (MS × SBP)\n- Resposta esperada ao tratamento (reticulocitose em 5–10 dias)",
+   "ctxvisual": {
+    "tipo": "svg",
+    "svg": "<svg viewBox=\"0 0 340 100\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><text x=\"20\" y=\"90\" font-size=\"10\" font-weight=\"700\" fill=\"var(--ink)\" text-anchor=\"middle\">6 m</text><text x=\"120\" y=\"90\" font-size=\"10\" font-weight=\"700\" fill=\"var(--ink)\" text-anchor=\"middle\">9 m</text><text x=\"220\" y=\"90\" font-size=\"10\" font-weight=\"700\" fill=\"var(--ink)\" text-anchor=\"middle\">12 m</text><text x=\"320\" y=\"90\" font-size=\"10\" font-weight=\"700\" fill=\"var(--ink)\" text-anchor=\"middle\">15 m</text><rect x=\"20\" y=\"30\" width=\"100\" height=\"38\" rx=\"8\" fill=\"var(--wine)\"/><text x=\"70\" y=\"53\" font-size=\"10\" font-weight=\"700\" fill=\"var(--bg)\" text-anchor=\"middle\">1º ciclo</text><rect x=\"120\" y=\"30\" width=\"100\" height=\"38\" rx=\"8\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-dasharray=\"4 3\"/><text x=\"170\" y=\"53\" font-size=\"10\" font-weight=\"700\" fill=\"var(--mute)\" text-anchor=\"middle\">pausa</text><rect x=\"220\" y=\"30\" width=\"100\" height=\"38\" rx=\"8\" fill=\"var(--wine)\"/><text x=\"270\" y=\"53\" font-size=\"10\" font-weight=\"700\" fill=\"var(--bg)\" text-anchor=\"middle\">2º ciclo</text><text x=\"170\" y=\"18\" font-size=\"10\" font-weight=\"600\" fill=\"var(--mute)\" text-anchor=\"middle\">Termo saudável — 10 a 12,5 mg/dia de ferro elementar (SBP 2026)</text></svg>",
+    "legenda": "Profilaxia de ferro no lactente a termo (SBP 2026)."
+   },
+   "fonte": "SBP — Recomendações para o tratamento e prevenção da deficiência de ferro e anemia ferropriva em lactentes, atualização 2026 (mar/2026)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Pediatria",
+   "tema": "Infectologia pediátrica",
+   "sub": "Infecções congênitas (TORCH) e sífilis congênita",
+   "id": "bq-ped-034",
+   "tipo": "quiz",
+   "frente": "RN com microcefalia, calcificações periventriculares, perda auditiva e hepatoesplenomegalia com petéquias. Qual a infecção congênita mais provável?",
+   "opcoes": [
+    "Toxoplasmose",
+    "Rubéola",
+    "Sífilis",
+    "Citomegalovírus"
+   ],
+   "certa": 3,
+   "comentarios": [
+    "Toxo: calcificações DIFUSAS, hidrocefalia, coriorretinite.",
+    "Rubéola: catarata, cardiopatia (PCA), surdez.",
+    "Sífilis: rinite, pênfigo palmoplantar, lesões ósseas.",
+    "Correta. CMV: calcificações PERIventriculares, microcefalia, surdez neurossensorial (a infecção congênita mais comum)."
+   ],
+   "macete": "\"CMV = Calcificação em Volta dos ventrículos\".",
+   "prio": "alta",
+   "banco": true,
+   "contexto": "**Infecções congênitas = transmissão vertical (TORCH + sífilis + Zika) com quadro comum de RCIU, hepatoesplenomegalia, icterícia e plaquetopenia; o achado específico de SNC, olho, ouvido, pele ou osso define o agente.**\n\nO que é:\n- TORCH → Toxoplasmose, Outras (sífilis, varicela, parvovírus B19, Zika), Rubéola, CMV, Herpes\n- Quadro comum (não diferencia) → RCIU, hepatoesplenomegalia, icterícia, petéquias, microcefalia\n- RN sintomático com VDRL não reagente → investigar as outras infecções congênitas\n\nAchado-assinatura (ver esquema):\n- **CMV** → a mais comum; calcificação periventricular, surdez neurossensorial (principal causa não genética)\n- **Toxoplasmose** → tríade de Sabin: coriorretinite, hidrocefalia, calcificações difusas\n- **Rubéola** → tríade de Gregg: catarata, surdez, cardiopatia (PCA)\n- **Sífilis precoce** → rinite serossanguinolenta, pênfigo palmoplantar, osteocondrite (pseudoparalisia de Parrot)\n- **Sífilis tardia** (> 2 anos) → dentes de Hutchinson, ceratite intersticial, surdez, tíbia em sabre, nariz em sela\n- **Zika** → microcefalia grave, calcificação subcortical, artrogripose\n- **Herpes** → vesículas, ceratoconjuntivite, encefalite (adquirido no parto)\n- **Parvovírus B19** → anemia fetal grave e hidropisia\n\nSífilis congênita — diagnóstico:\n- VDRL do RN em sangue PERIFÉRICO (não de cordão), comparado ao materno\n- Teste treponêmico do RN não serve (IgG materna atravessa a placenta)\n- Mãe adequadamente tratada → penicilina benzatina, esquema completo para o estágio, iniciado até 30 dias antes do parto\n- Parceiro não tratado não torna mais o tratamento materno inadequado\n- Neurossífilis no RN → líquor com VDRL reagente, células > 25/mm³ ou proteína > 150 mg/dL\n\nSífilis congênita — tratamento:\n- **Penicilina cristalina** IV 50.000 UI/kg/dose 12/12 h (8/8 h após 7 dias de vida) por 10 dias → obrigatória na neurossífilis\n- **Penicilina procaína** IM 50.000 UI/kg 1×/dia por 10 dias → sem neurossífilis\n- **Penicilina benzatina** IM 50.000 UI/kg dose única → mãe não tratada + RN sem nenhuma alteração e VDRL não reagente\n\nSeguimento:\n- VDRL com 1, 3, 6, 12 e 18 meses (encerra após 2 não reagentes seguidos)\n- Avaliação auditiva, oftalmológica e do desenvolvimento\n- Sífilis congênita → notificação compulsória\n\nOutros tratamentos:\n- Toxoplasmose → sulfadiazina + pirimetamina + ácido folínico por 12 meses\n- CMV sintomático → valganciclovir oral por 6 meses\n- Herpes neonatal → aciclovir IV\n\nO que mais cai no Vila Verde:\n- VV 2025 (Q38) → sífilis congênita precoce\n- VV 2024 (Q24) → rubéola na gestação: diagnóstico fetal\n- Mãe não tratada ou inadequada → todo RN é sífilis congênita\n- Calcificação periventricular = CMV; difusa = toxo",
+   "ctxvisual": {
+    "tipo": "svg",
+    "svg": "<svg viewBox=\"0 0 340 158\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><text x=\"170\" y=\"14\" font-size=\"10.5\" text-anchor=\"middle\" fill=\"var(--wine)\" font-weight=\"700\">Onde ficam as calcificações no crânio</text><ellipse cx=\"57\" cy=\"78\" rx=\"48\" ry=\"40\" fill=\"var(--rose-soft)\" stroke=\"var(--line)\" stroke-width=\"1.5\"/><ellipse cx=\"48\" cy=\"78\" rx=\"11\" ry=\"16\" fill=\"var(--card)\" stroke=\"var(--mute)\"/><ellipse cx=\"66\" cy=\"78\" rx=\"11\" ry=\"16\" fill=\"var(--card)\" stroke=\"var(--mute)\"/><circle cx=\"29\" cy=\"64\" r=\"2.6\" fill=\"var(--wine)\"/><circle cx=\"79\" cy=\"56\" r=\"2.6\" fill=\"var(--wine)\"/><circle cx=\"87\" cy=\"88\" r=\"2.6\" fill=\"var(--wine)\"/><circle cx=\"37\" cy=\"98\" r=\"2.6\" fill=\"var(--wine)\"/><circle cx=\"57\" cy=\"50\" r=\"2.6\" fill=\"var(--wine)\"/><circle cx=\"23\" cy=\"82\" r=\"2.6\" fill=\"var(--wine)\"/><circle cx=\"69\" cy=\"102\" r=\"2.6\" fill=\"var(--wine)\"/><text x=\"57\" y=\"136\" font-size=\"10\" text-anchor=\"middle\" fill=\"var(--ink)\" font-weight=\"700\">Toxoplasmose</text><text x=\"57\" y=\"150\" font-size=\"9\" text-anchor=\"middle\" fill=\"var(--mute)\">difusas + hidrocefalia</text><ellipse cx=\"170\" cy=\"78\" rx=\"48\" ry=\"40\" fill=\"var(--rose-soft)\" stroke=\"var(--line)\" stroke-width=\"1.5\"/><ellipse cx=\"161\" cy=\"78\" rx=\"6\" ry=\"11\" fill=\"var(--card)\" stroke=\"var(--mute)\"/><ellipse cx=\"179\" cy=\"78\" rx=\"6\" ry=\"11\" fill=\"var(--card)\" stroke=\"var(--mute)\"/><circle cx=\"154\" cy=\"66\" r=\"2.6\" fill=\"var(--wine)\"/><circle cx=\"186\" cy=\"66\" r=\"2.6\" fill=\"var(--wine)\"/><circle cx=\"152\" cy=\"86\" r=\"2.6\" fill=\"var(--wine)\"/><circle cx=\"188\" cy=\"86\" r=\"2.6\" fill=\"var(--wine)\"/><circle cx=\"164\" cy=\"62\" r=\"2.6\" fill=\"var(--wine)\"/><circle cx=\"176\" cy=\"94\" r=\"2.6\" fill=\"var(--wine)\"/><text x=\"170\" y=\"136\" font-size=\"10\" text-anchor=\"middle\" fill=\"var(--ink)\" font-weight=\"700\">CMV</text><text x=\"170\" y=\"150\" font-size=\"9\" text-anchor=\"middle\" fill=\"var(--mute)\">periventriculares</text><ellipse cx=\"283\" cy=\"78\" rx=\"40\" ry=\"34\" fill=\"var(--rose-soft)\" stroke=\"var(--line)\" stroke-width=\"1.5\"/><ellipse cx=\"274\" cy=\"78\" rx=\"6\" ry=\"11\" fill=\"var(--card)\" stroke=\"var(--mute)\"/><ellipse cx=\"292\" cy=\"78\" rx=\"6\" ry=\"11\" fill=\"var(--card)\" stroke=\"var(--mute)\"/><circle cx=\"253\" cy=\"64\" r=\"2.6\" fill=\"var(--wine)\"/><circle cx=\"313\" cy=\"64\" r=\"2.6\" fill=\"var(--wine)\"/><circle cx=\"249\" cy=\"84\" r=\"2.6\" fill=\"var(--wine)\"/><circle cx=\"317\" cy=\"84\" r=\"2.6\" fill=\"var(--wine)\"/><circle cx=\"265\" cy=\"52\" r=\"2.6\" fill=\"var(--wine)\"/><circle cx=\"301\" cy=\"52\" r=\"2.6\" fill=\"var(--wine)\"/><circle cx=\"283\" cy=\"48\" r=\"2.6\" fill=\"var(--wine)\"/><text x=\"283\" y=\"136\" font-size=\"10\" text-anchor=\"middle\" fill=\"var(--ink)\" font-weight=\"700\">Zika</text><text x=\"283\" y=\"150\" font-size=\"9\" text-anchor=\"middle\" fill=\"var(--mute)\">subcorticais + microcefalia</text></svg>",
+    "legenda": "Esquema: pontos = calcificações. Toxo espalhada (com ventrículos dilatados), CMV em volta dos ventrículos, Zika na junção córtico-subcortical com crânio pequeno."
+   },
+   "fonte": "MS — PCDT para Prevenção da Transmissão Vertical de HIV, Sífilis e Hepatites Virais (2022); SBP — Tratado de Pediatria (5ª ed., 2021); Nelson Textbook of Pediatrics (22ª ed.)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Pediatria",
+   "tema": "Gastroenterologia pediátrica",
+   "sub": "Doença celíaca e diarreia crônica na criança",
+   "id": "bq-ped-035",
+   "tipo": "quiz",
+   "frente": "Criança de 2 anos com diarreia crônica, distensão abdominal, baixo ganho de peso e anemia ferropriva refratária. Qual o exame inicial de triagem para doença celíaca?",
+   "opcoes": [
+    "Antitransglutaminase IgA com dosagem de IgA total",
+    "Biópsia de intestino delgado antes da sorologia",
+    "Teste do suor",
+    "Retirar o glúten antes de investigar"
+   ],
+   "certa": 0,
+   "comentarios": [
+    "Correta. Anti-tTG IgA (+ IgA total, pois deficiência de IgA dá falso-negativo); confirmação por biópsia duodenal.",
+    "Biópsia confirma após sorologia positiva.",
+    "Suor é para fibrose cística.",
+    "Retirar antes dá falso-negativo."
+   ],
+   "macete": "\"Celíaca: tTG-IgA + IgA total, com glúten na dieta\".",
+   "prio": "alta",
+   "banco": true,
+   "contexto": "**Doença celíaca: enteropatia imunomediada pelo glúten; triagem com anti-transglutaminase IgA + IgA total, sempre com o glúten ainda na dieta.**\n\nO que é:\n- Reação imune ao glúten (trigo, centeio, cevada) em quem tem HLA-DQ2/DQ8\n- Atrofia das vilosidades → má absorção\n\nForma clássica:\n- 6 meses a 2 anos, semanas a meses após a introdução do glúten\n- Diarreia crônica, distensão abdominal, perda de peso, irritabilidade\n- Atrofia glútea (\"nádegas em bolsa de tabaco\"), hipotonia\n\nFormas não clássicas (mais comuns hoje):\n- Anemia ferropriva que não responde ao ferro oral\n- Baixa estatura e atraso puberal\n- Osteopenia, aumento de transaminases, aftas, defeito do esmalte dentário\n- Dermatite herpetiforme (vesículas pruriginosas em cotovelos e joelhos)\n\nGrupos de risco (rastrear mesmo sem sintoma):\n- DM1, síndrome de Down, Turner, Williams, tireoidite autoimune\n- Deficiência de IgA, parente de 1º grau com doença celíaca\n\nDiagnóstico:\n- Anti-transglutaminase IgA + IgA total (deficiência de IgA dá falso-negativo)\n- Exames sempre COM glúten na dieta (tirar antes negativa os exames)\n- Biópsia duodenal → linfócitos intraepiteliais, hiperplasia de criptas, atrofia vilositária\n- Criança com anti-tTG ≥ 10× o limite + EMA positivo em 2ª amostra → pode dispensar biópsia\n\nTratamento:\n- Dieta sem glúten por toda a vida (atenção à contaminação da aveia)\n- Corrigir ferro, folato, cálcio e vitamina D\n- Sorologia cai com a adesão → usada no seguimento\n\nDiarreia crônica na criança (≥ 14 dias):\n- Sangue e muco → DII, APLV, infecção\n- Esteatorreia → fibrose cística, doença celíaca\n- Pós-gastroenterite → intolerância secundária à lactose\n- Giardíase → diarreia, distensão, má absorção\n- Diarreia funcional → 1 a 4 anos, fezes com restos alimentares, crescimento NORMAL, excesso de suco\n\nO que mais cai no Vila Verde:\n- VV 2024 (Q34) → doença celíaca: autoimune desencadeada pelo glúten\n- Triagem → anti-transglutaminase IgA + dosagem de IgA total\n- Não retirar o glúten antes da investigação",
+   "ctxvisual": [
+    {
+     "tipo": "fluxo",
+     "passos": [
+      "Suspeita de doença celíaca (com glúten na dieta)",
+      "Anti-transglutaminase IgA + IgA total",
+      [
+       "IgA total baixa → usar anticorpos IgG (anti-tTG IgG ou anti-DGP IgG)",
+       "Anti-tTG positivo → biópsia duodenal (na criança: anti-tTG ≥ 10× o limite + EMA positivo em 2ª amostra dispensa a biópsia)"
+      ],
+      "Confirmada → dieta sem glúten por toda a vida e sorologia de controle"
+     ]
+    },
+    {
+     "tipo": "tabela",
+     "cab": [
+      "Marsh (biópsia duodenal)",
+      "Achado",
+      "Interpretação"
+     ],
+     "linhas": [
+      [
+       "0",
+       "Normal",
+       "Sem lesão"
+      ],
+      [
+       "1 (infiltrativa)",
+       "Linfócitos intraepiteliais > 25/100 enterócitos",
+       "Inespecífica (outras causas)"
+      ],
+      [
+       "2 (hiperplásica)",
+       "LIE + hiperplasia de criptas",
+       "!Compatível com celíaca (com sorologia +)"
+      ],
+      [
+       "3a",
+       "+ atrofia vilositária parcial",
+       "!Celíaca"
+      ],
+      [
+       "3b",
+       "+ atrofia subtotal",
+       "!Celíaca"
+      ],
+      [
+       "3c",
+       "+ atrofia total (mucosa plana)",
+       "!Celíaca"
+      ],
+      [
+       "!Conduta",
+       "Marsh 2–3 + sorologia positiva",
+       "!Dieta sem glúten por toda a vida"
+      ]
+     ],
+     "crit": true
+    }
+   ],
+   "fonte": "ESPGHAN 2020 Celiac Disease Guidelines; Sociedade Brasileira de Pediatria — Doença celíaca (2022); ACG 2023",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Pediatria",
+   "tema": "Crescimento e desenvolvimento",
+   "sub": "Transtorno do espectro autista (TEA)",
+   "id": "bq-ped-036",
+   "tipo": "quiz",
+   "frente": "Segundo a SBP, em qual idade deve ser aplicado o instrumento de rastreio M-CHAT para autismo na puericultura?",
+   "opcoes": [
+    "Ao nascer",
+    "Aos 6 meses",
+    "Entre 16 e 30 meses (idealmente aos 18 e 24 meses)",
+    "Somente após os 5 anos"
+   ],
+   "certa": 2,
+   "comentarios": [
+    "Não se rastreia TEA ao nascer.",
+    "Cedo demais para o M-CHAT.",
+    "Correta. M-CHAT-R/F: rastreio universal entre 16 e 30 meses.",
+    "Atrasa a intervenção."
+   ],
+   "macete": "\"M-CHAT: 18 e 24 meses\".",
+   "prio": "media",
+   "banco": true,
+   "contexto": "**Transtorno do espectro autista (TEA) = transtorno do neurodesenvolvimento com déficit persistente na comunicação/interação social e padrões restritos e repetitivos de comportamento, desde a primeira infância (DSM-5-TR).**\n\nEpidemiologia:\n- Prevalência em ALTA (~1 em 31–36 crianças nos EUA, CDC); mais em meninos (~4:1)\n- Fatores → genética (irmão com TEA), prematuridade, idade parental avançada; vacinas NÃO causam autismo\n\nSinais de alerta no lactente:\n- Não sorri socialmente, pouco contato visual, não responde ao nome (~9–12 meses)\n- Não aponta para mostrar (atenção compartilhada), não balbucia/gestos até 12 meses\n- Sem palavras aos 16 meses, sem frases de 2 palavras aos 24 meses\n- **Qualquer perda de linguagem ou habilidade social (regressão) em qualquer idade**\n- Atraso de marcos do DNPM, sobretudo de **comunicação, comportamento e socialização** → suspeitar de TEA\n\nRastreamento:\n- **SBP recomenda triagem universal com M-CHAT-R/F entre 18 e 24 meses** (além da vigilância com a Caderneta da Criança)\n  - M-CHAT-R → 20 itens; 0–2 pontos baixo risco; 3–7 risco moderado (aplicar a entrevista de seguimento); 8–20 alto risco (encaminhar já)\n- Lei 13.438/2017 → protocolo de avaliação de risco no desenvolvimento psíquico nos primeiros 18 meses (SUS)\n\nDiagnóstico:\n- **CLÍNICO** (critérios DSM-5-TR), por equipe; **não há exame ou biomarcador** que confirme\n- Avaliar audição (descartar surdez); considerar investigação genética (microarray, X frágil)\n- Classificar nível de suporte (1, 2, 3)\n\nComorbidades (COMUNS):\n- Deficiência intelectual, TDAH, epilepsia, ansiedade, distúrbios do sono, TGI, seletividade alimentar\n\nTratamento:\n- **Intervenção precoce e intensiva** (comportamental/ABA, fonoaudiologia, terapia ocupacional) → é o que muda o prognóstico\n- Não há remédio para os sintomas centrais\n- Irritabilidade/agressividade grave → **risperidona ou aripiprazol**\n\nO que mais cai no Vila Verde:\n- VV 2024 → lactente com atraso de marcos de comunicação, comportamento e socialização: suspeitar de TEA (correta); distratores: casos diminuindo e SBP não recomendar triagem, diagnóstico exigir biomarcador, comorbidades serem incomuns.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "DSM-5-TR (TEA)",
+      "Critério",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "A — Comunicação social (os 3)",
+       "Reciprocidade socioemocional, comunicação não verbal, relações",
+       "Avaliar com equipe; M-CHAT 18–24 m"
+      ],
+      [
+       "B — Restritos/repetitivos (≥ 2 de 4)",
+       "Estereotipias, rotinas rígidas, interesses fixos, hiper/hipossensibilidade",
+       "Intervenção precoce"
+      ],
+      [
+       "C — Início precoce",
+       "Desde o início do desenvolvimento",
+       "Não esperar idade escolar"
+      ],
+      [
+       "D — Prejuízo",
+       "Funcional (social, escolar)",
+       "Definir nível de suporte"
+      ],
+      [
+       "E — Não explicado",
+       "Por deficiência intelectual isolada",
+       "Avaliar audição e comorbidades"
+      ],
+      [
+       "Nível 1 / 2 / 3",
+       "Exige apoio / apoio substancial / apoio muito substancial",
+       "Intensidade das terapias"
+      ]
+     ]
+    }
+   ],
+   "fonte": "SBP — Manual de Orientação: Transtorno do Espectro do Autismo (2019; atualização 2024) / DSM-5-TR (APA, 2022) / Lei 13.438/2017 / CDC ADDM (2025)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Medicina Preventiva",
+   "tema": "Epidemiologia",
+   "sub": "Medidas de frequência — incidência e prevalência",
+   "id": "bq-prev-031",
+   "tipo": "quiz",
+   "frente": "Em uma festa, 120 pessoas comeram maionese e 48 tiveram gastroenterite nas 24 horas seguintes. Qual medida expressa esse dado?",
+   "opcoes": [
+    "Prevalência de 40%",
+    "Letalidade de 40%",
+    "Taxa de ataque de 40%",
+    "Densidade de incidência"
+   ],
+   "certa": 2,
+   "comentarios": [
+    "Prevalência = casos existentes num momento.",
+    "Letalidade = óbitos entre doentes.",
+    "Correta. Taxa de ataque = incidência acumulada em surto (casos/expostos) = 48/120.",
+    "Usa pessoa-tempo."
+   ],
+   "macete": "\"Surto: taxa de ataque\".",
+   "prio": "alta",
+   "banco": true,
+   "contexto": "**Medidas de frequência = como contar doença na população: prevalência (casos existentes) e incidência (casos novos), mais taxa de ataque, mortalidade e letalidade.**\n\nPrevalência:\n- **Casos EXISTENTES (novos + antigos) ÷ população**, em um momento (pontual) ou período\n- \"Fotografia\" → mede a carga da doença; útil para planejamento de serviços\n- **Prevalência ≈ incidência × duração da doença**\n- Aumenta com → maior duração (tratamento que prolonga a vida sem curar), mais casos novos, imigração de doentes\n- Diminui com → cura, morte rápida, emigração de doentes\n\nIncidência:\n- **Casos NOVOS ÷ população em risco**, em um período\n- \"Filme\" → mede o risco de adoecer; base dos estudos de coorte\n- Incidência acumulada (proporção) × densidade de incidência (casos ÷ pessoa-tempo)\n\nTaxa de ataque:\n- Incidência acumulada em uma população EXPOSTA em período curto → usada em **surtos** (escola, festa, empresa)\n- Taxa de ataque secundária → casos entre contatos dos casos primários\n\nMortalidade × letalidade:\n- **Mortalidade** → óbitos pela doença ÷ população total\n- **Letalidade** → óbitos pela doença ÷ doentes (mede a GRAVIDADE / virulência)\n\nO que mais cai no Vila Verde:\n- VIV 2026 → medida que expressa casos existentes (novos e antigos) em um momento = prevalência.\n- VV 2025 → frequência de doença em grupo exposto ao mesmo risco em área delimitada (surto) = taxa de ataque.",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 192\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><path d=\"M60 40 h220 v100 a20 20 0 0 1 -20 20 h-180 a20 20 0 0 1 -20 -20 Z\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\"/><rect x=\"60\" y=\"70\" width=\"220\" height=\"90\" fill=\"var(--wine)\" opacity=\".85\"/><text x=\"170\" y=\"122\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--card)\">PREVALÊNCIA (casos existentes)</text><path d=\"M150 6 v30\" stroke=\"var(--ok)\" stroke-width=\"3\"/><polygon points=\"144,32 156,32 150,42\" fill=\"var(--ok)\"/><text x=\"160\" y=\"22\" font-size=\"9.5\" fill=\"var(--ink)\">Incidência (casos novos) entra</text><path d=\"M90 162 v26\" stroke=\"var(--bad)\" stroke-width=\"3\"/><text x=\"98\" y=\"184\" font-size=\"9.5\" fill=\"var(--ink)\">Cura sai</text><path d=\"M250 162 v26\" stroke=\"var(--bad)\" stroke-width=\"3\"/><text x=\"258\" y=\"184\" font-size=\"9.5\" fill=\"var(--ink)\">Óbito sai</text></svg>",
+     "legenda": "A \"banheira\": incidência enche, cura e óbito esvaziam a prevalência"
+    }
+   ],
+   "fonte": "Rouquayrol — Epidemiologia & Saúde, 8ª ed. / Medronho — Epidemiologia, 2ª ed. / Fletcher — Epidemiologia Clínica, 5ª ed.",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Medicina Preventiva",
+   "tema": "Epidemiologia",
+   "sub": "Desenhos de estudo e medidas de associação",
+   "id": "bq-prev-032",
+   "tipo": "quiz",
+   "frente": "Para investigar a associação entre uma exposição e uma doença rara, com menor custo e tempo, o desenho mais adequado é:",
+   "opcoes": [
+    "Caso-controle",
+    "Coorte prospectiva",
+    "Ensaio clínico randomizado",
+    "Ecológico"
+   ],
+   "certa": 0,
+   "comentarios": [
+    "Correta. Doença rara → parte dos casos (eficiente); medida = odds ratio.",
+    "Exigiria acompanhar muita gente por muito tempo.",
+    "Não se randomiza exposição nociva; caro.",
+    "Ecológico usa dados agregados (falácia ecológica)."
+   ],
+   "macete": "\"Doença rara = caso-controle; exposição rara = coorte\".",
+   "prio": "alta",
+   "banco": true,
+   "contexto": "**Desenho de estudo: pergunte quem escolheu a exposição (ensaio × observacional) e de onde o estudo parte (desfecho = caso-controle; exposição = coorte).**\n\nObservacionais:\n- **Ecológico** → unidade é a população (países, cidades); gera hipótese; falácia ecológica\n- **Transversal** → exposição e desfecho medidos juntos; mede PREVALÊNCIA; não mostra temporalidade\n- **Caso-controle** → parte dos doentes (casos) e não doentes (controles) e busca a exposição passada\n  - Medida → odds ratio\n  - Bom para doença rara e de longa latência; rápido e barato\n  - Vieses → memória e seleção\n- **Coorte** → parte de expostos e não expostos e acompanha o surgimento da doença\n  - Mede INCIDÊNCIA → risco relativo, risco atribuível\n  - Prospectiva ou histórica (retrospectiva)\n  - Boa para exposição rara; problema → perda de seguimento\n\nEnsaio clínico randomizado:\n- O pesquisador aloca a intervenção\n- Randomização equilibra confundidores conhecidos e desconhecidos\n- Cegamento reduz viés de aferição\n- Análise por intenção de tratar mantém a randomização\n- Fases → I segurança (voluntários, poucos), II eficácia e dose, III comparação em larga escala (registro), IV pós-comercialização (farmacovigilância)\n\nHierarquia de evidência:\n- Revisão sistemática/metanálise de ECR > ECR > coorte > caso-controle > série de casos > opinião\n\nMedidas:\n- RR = incidência nos expostos ÷ incidência nos não expostos\n- RRA = incidência no controle − incidência no tratado\n- RRR = RRA ÷ incidência no controle\n- NNT = 1 ÷ RRA\n\nO que mais cai no Vila Verde:\n- VIV 2026 (Q6) → caso-controle → odds ratio\n- VIV 2026 (Q9) → ensaio clínico × coorte × caso-controle\n- VV 2025 (Q96) → reconhecer o caso-controle\n- Parte da exposição → coorte → risco relativo\n- NNT = 1 ÷ redução absoluta do risco",
+   "ctxvisual": {
+    "tipo": "fluxo",
+    "passos": [
+     "O pesquisador atribuiu a exposição?",
+     [
+      "Sim → ensaio clínico (randomizado = melhor)",
+      "Não → estudo observacional"
+     ],
+     "A unidade é uma população? → ecológico",
+     [
+      "Exposição e desfecho no mesmo momento → transversal (prevalência)",
+      "Parte do desfecho e olha a exposição passada → caso-controle (OR)",
+      "Parte da exposição e segue no tempo → coorte (RR)"
+     ]
+    ]
+   },
+   "fonte": "Medronho — Epidemiologia (2ª ed.); Rouquayrol — Epidemiologia & Saúde; CONSORT 2010",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Medicina Preventiva",
+   "tema": "Ética médica",
+   "sub": "Ética médica — sigilo, adolescente e aborto legal",
+   "tipo": "quiz",
+   "frente": "Sobre o atendimento ao adolescente, analise: I. O adolescente tem direito a atendimento sem a presença dos pais, respeitando sua autonomia. II. O sigilo pode ser quebrado em situações de risco à vida ou à saúde do adolescente ou de terceiros. III. O médico deve sempre informar aos pais todo o conteúdo da consulta. Está(ão) correta(s):",
+   "opcoes": [
+    "Apenas I e III.",
+    "Apenas II e III.",
+    "I, II e III.",
+    "Apenas I e II."
+   ],
+   "certa": 3,
+   "comentarios": [
+    "Errada. III é falsa: o sigilo é a regra (CEM art. 74), com exceções (risco de vida, abuso, gravidez de risco, uso de drogas com risco).",
+    "Errada. III é falsa: o sigilo é a regra (CEM art. 74), com exceções (risco de vida, abuso, gravidez de risco, uso de drogas com risco).",
+    "Errada. III é falsa: o sigilo é a regra (CEM art. 74), com exceções (risco de vida, abuso, gravidez de risco, uso de drogas com risco).",
+    "Correta. III é falsa: o sigilo é a regra (CEM art. 74), com exceções (risco de vida, abuso, gravidez de risco, uso de drogas com risco)."
+   ],
+   "id": "bq-prev-033",
+   "prio": "alta",
+   "macete": "\"Adolescente: sigilo é regra, risco é exceção\".",
+   "banco": true,
+   "contexto": "**Ética médica na prova = sigilo profissional (inclusive de criança e adolescente) e as situações de aborto permitidas por lei no Brasil.**\n\nSigilo médico (Código de Ética Médica, Res. CFM 2.217/2018):\n- **Art. 73** → proibido revelar fato conhecido no exercício da profissão, salvo **motivo justo, dever legal ou consentimento por escrito** do paciente\n- **Art. 74** → proibido revelar sigilo de criança/adolescente, **inclusive aos pais**, se o menor tiver capacidade de discernimento\n  - **EXCEÇÃO** → quando a não revelação puder acarretar **dano ao paciente** → pode/deve revelar aos responsáveis\n- Suspeita de maus-tratos/violência contra criança ou adolescente → notificação obrigatória ao Conselho Tutelar (ECA)\n- Doença de notificação compulsória → dever legal (não quebra ética)\n\nAtendimento do adolescente:\n- Pode ser atendido sozinho, com sigilo e privacidade\n- Sigilo cai diante de risco à vida/saúde (abuso, risco de suicídio, drogas com risco grave, gravidez de risco)\n\nAborto legal no Brasil:\n- **Risco de vida da gestante** (aborto necessário) → Código Penal, art. 128, I\n- **Gravidez resultante de estupro** → Código Penal, art. 128, II; não exige boletim de ocorrência nem autorização judicial; basta o consentimento da mulher (ou do representante legal)\n- **Anencefalia** → STF, ADPF 54 (2012)\n- Fora dessas situações (malformação não letal, gravidez indesejada) → não é permitido\n\nO que mais cai no Vila Verde:\n- VV 2025 → adolescente de 12 anos com risco à saúde pede sigilo: deve revelar aos pais, pois a não revelação pode causar dano.\n- VV 2024 → permissão legal de aborto: gravidez resultante de estupro (feto sem um braço, gravidez indesejada e pré-eclâmpsia são distratores).",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 170\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><rect x=\"10\" y=\"8\" width=\"320\" height=\"32\" rx=\"9\" fill=\"var(--wine)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"170.0\" y=\"27.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--card)\">Adolescente pede sigilo</text><line x1=\"170\" y1=\"40\" x2=\"170\" y2=\"52\" stroke=\"var(--rose)\"/><rect x=\"40\" y=\"52\" width=\"260\" height=\"32\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"170.0\" y=\"71.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Há risco de dano à saúde ou à vida?</text><line x1=\"90\" y1=\"84\" x2=\"90\" y2=\"98\" stroke=\"var(--rose)\"/><line x1=\"250\" y1=\"84\" x2=\"250\" y2=\"98\" stroke=\"var(--rose)\"/><rect x=\"10\" y=\"98\" width=\"160\" height=\"44\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"90.0\" y=\"119.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Não</text><text x=\"90.0\" y=\"131.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">manter o sigilo</text><rect x=\"178\" y=\"98\" width=\"152\" height=\"44\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"254.0\" y=\"119.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Sim</text><text x=\"254.0\" y=\"131.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">revelar aos responsáveis</text><text x=\"170\" y=\"162\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--mute)\">Maus-tratos → notificar o Conselho Tutelar (ECA)</text></svg>",
+     "legenda": "Sigilo do adolescente (art. 74 do Código de Ética Médica)"
+    },
+    {
+     "tipo": "tabela",
+     "cab": [
+      "Aborto legal",
+      "Base"
+     ],
+     "linhas": [
+      [
+       "Risco de vida da gestante",
+       "Código Penal, art. 128, I"
+      ],
+      [
+       "!Gravidez por estupro",
+       "Código Penal, art. 128, II"
+      ],
+      [
+       "Anencefalia",
+       "STF — ADPF 54 (2012)"
+      ]
+     ]
+    }
+   ],
+   "fonte": "CFM — Código de Ética Médica (Res. 2.217/2018) / Código Penal, art. 128 / STF — ADPF 54 (2012) / ECA (Lei 8.069/1990) / MS — Atenção humanizada ao abortamento (2011)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Medicina Preventiva",
+   "tema": "Epidemiologia",
+   "sub": "Indicadores demográficos e de saúde",
+   "id": "bq-prev-034",
+   "tipo": "quiz",
+   "frente": "A razão de mortalidade materna é calculada pelo número de óbitos maternos dividido por:",
+   "opcoes": [
+    "Mulheres em idade fértil",
+    "Nascidos vivos (× 100.000)",
+    "Total de óbitos femininos",
+    "Gestações"
+   ],
+   "certa": 1,
+   "comentarios": [
+    "Denominador é nascidos vivos.",
+    "Correta. RMM = óbitos maternos / NV × 100.000.",
+    "Seria mortalidade proporcional.",
+    "Gestações não são contadas de forma confiável."
+   ],
+   "macete": "\"Materna: por 100 mil nascidos vivos\".",
+   "prio": "alta",
+   "banco": true,
+   "pegadinha": "Óbito materno: na gestação ou até 42 dias após o término, por causa ligada à gravidez (tardio: 43 dias a 1 ano).",
+   "contexto": "**Indicadores demográficos e de saúde = medidas que descrevem a estrutura da população e seu nível de saúde (dependência, envelhecimento, fecundidade, mortalidade).**\n\nDemográficos:\n- **Razão de dependência** → (população 0–14 anos + ≥ 65 anos) ÷ população 15–64 anos × 100\n  - Mede o peso dos \"economicamente dependentes\" sobre a população em idade ativa\n- **Índice de envelhecimento** → idosos (≥ 60 ou ≥ 65) ÷ menores de 15 × 100\n- **Taxa de fecundidade total** → nº médio de filhos por mulher; reposição = 2,1 (Brasil ~1,6)\n- Esperança de vida ao nascer\n\nTransição demográfica:\n- Queda da mortalidade → depois queda da natalidade/fecundidade → envelhecimento\n- Pirâmide etária estreita na base e alarga no topo\n\nDe saúde:\n- **Mortalidade infantil** → óbitos < 1 ano ÷ nascidos vivos × 1.000\n  - Neonatal precoce (0–6 dias), tardia (7–27), pós-neonatal (28–364)\n- **Razão de mortalidade materna** → óbitos maternos ÷ nascidos vivos × 100.000\n- **Indicador de Swaroop-Uemura** → % de óbitos com ≥ 50 anos (quanto maior, melhor a saúde)\n- **Curva de Nelson de Moraes** (mortalidade proporcional) → tipo I (muito baixo) a IV (elevado nível de saúde, \"J\")\n\nO que mais cai no Vila Verde:\n- VV 2025 → razão de dependência = (jovens + idosos) ÷ população em idade ativa.",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 124\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><rect x=\"20\" y=\"30\" width=\"300\" height=\"60\" rx=\"10\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\"/><text x=\"170\" y=\"55\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--wine)\">(0–14 anos) + (≥ 65 anos)</text><line x1=\"40\" y1=\"64\" x2=\"300\" y2=\"64\" stroke=\"var(--ink)\"/><text x=\"170\" y=\"82\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">15–64 anos (idade ativa)</text><text x=\"170\" y=\"16\" text-anchor=\"middle\" font-size=\"10\" fill=\"var(--mute)\">Razão de dependência (× 100)</text><text x=\"170\" y=\"116\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--mute)\">Quanto maior, mais dependentes para cada pessoa em idade ativa</text></svg>",
+     "legenda": "Fórmula da razão de dependência"
+    }
+   ],
+   "fonte": "RIPSA — Indicadores Básicos para a Saúde no Brasil, 2ª ed. (2008) / IBGE / Rouquayrol — Epidemiologia & Saúde 8ª ed.",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Medicina Preventiva",
+   "tema": "SUS",
+   "sub": "Assistência social — PNAS e SUAS",
+   "id": "bq-prev-035",
+   "tipo": "quiz",
+   "frente": "O equipamento da assistência social responsável pela proteção social básica, que oferece o PAIF às famílias em situação de vulnerabilidade, é o:",
+   "opcoes": [
+    "CREAS",
+    "CRAS (Centro de Referência de Assistência Social)",
+    "CAPS",
+    "UBS"
+   ],
+   "certa": 1,
+   "comentarios": [
+    "CREAS = proteção social especial de média complexidade.",
+    "Correta. CRAS = proteção básica (prevenção); CREAS = proteção especial (direitos já violados).",
+    "CAPS é da saúde mental (SUS).",
+    "UBS é da saúde."
+   ],
+   "macete": "\"CRAS previne; CREAS atende a violação\".",
+   "prio": "media",
+   "banco": true,
+   "contexto": "**Assistência social (PNAS/SUAS) = política pública NÃO contributiva que integra a seguridade social com a saúde e a previdência; organizada em proteção social básica e especial.**\n\nBases legais:\n- Constituição 1988 (seguridade = saúde + previdência + assistência)\n- LOAS (Lei 8.742/1993); PNAS (2004); SUAS (Lei 12.435/2011)\n\nProteção social BÁSICA:\n- Objetivo → PREVENIR situações de risco e fortalecer vínculos familiares e comunitários\n- Equipamento → **CRAS** (porta de entrada), com o PAIF\n- Benefícios → BPC, programas de transferência de renda (CadÚnico)\n\nProteção social ESPECIAL (direitos já violados):\n- **Média complexidade** → vínculos familiares NÃO rompidos (violência, abuso, trabalho infantil, medidas socioeducativas em meio aberto) → **CREAS** (PAEFI)\n- **Alta complexidade** → vínculos ROMPIDOS → exige **acolhimento** (abrigos, casa-lar, república, família acolhedora)\n\nBPC (Benefício de Prestação Continuada):\n- 1 salário mínimo para idoso ≥ 65 anos ou pessoa com deficiência, com renda per capita ≤ 1/4 do salário mínimo\n- Não exige contribuição\n\nO que mais cai no Vila Verde:\n- VV 2025 → I (básica × especial) e II (básica previne e fortalece vínculos) corretas; III falsa (alta complexidade EXIGE acolhimento).",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 178\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><rect x=\"10\" y=\"8\" width=\"320\" height=\"30\" rx=\"9\" fill=\"var(--wine)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"170.0\" y=\"26.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--card)\">SUAS — proteção social</text><line x1=\"90\" y1=\"38\" x2=\"90\" y2=\"50\" stroke=\"var(--rose)\"/><line x1=\"250\" y1=\"38\" x2=\"250\" y2=\"50\" stroke=\"var(--rose)\"/><rect x=\"10\" y=\"50\" width=\"160\" height=\"52\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"90.0\" y=\"75.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Básica</text><text x=\"90.0\" y=\"87.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">CRAS: prevenir, vínculos</text><rect x=\"178\" y=\"50\" width=\"152\" height=\"52\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"254.0\" y=\"75.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Especial</text><text x=\"254.0\" y=\"87.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">direitos violados</text><line x1=\"214\" y1=\"102\" x2=\"214\" y2=\"114\" stroke=\"var(--rose)\"/><line x1=\"294\" y1=\"102\" x2=\"294\" y2=\"114\" stroke=\"var(--rose)\"/><rect x=\"140\" y=\"114\" width=\"110\" height=\"56\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"195.0\" y=\"141.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Média</text><text x=\"195.0\" y=\"153.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">CREAS; vínculo mantido</text><rect x=\"256\" y=\"114\" width=\"76\" height=\"56\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"294.0\" y=\"141.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">Alta</text><text x=\"294.0\" y=\"153.0\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">acolhimento</text></svg>",
+     "legenda": "Níveis de proteção do SUAS"
+    }
+   ],
+   "fonte": "Lei 8.742/1993 (LOAS) / PNAS (Resolução CNAS 145/2004) / Lei 12.435/2011 (SUAS) / Tipificação Nacional dos Serviços Socioassistenciais (2009)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Medicina Preventiva",
+   "tema": "Imunizações",
+   "sub": "Calendário vacinal (PNI) — criança, adulto e idoso",
+   "id": "bq-prev-036",
+   "tipo": "quiz",
+   "frente": "Qual vacina do calendário infantil é contraindicada em criança com imunodeficiência grave?",
+   "opcoes": [
+    "Hepatite B",
+    "Pneumocócica 10-valente",
+    "Influenza inativada",
+    "Vacinas de vírus vivos atenuados (ex.: tríplice viral, varicela, febre amarela)"
+   ],
+   "certa": 3,
+   "comentarios": [
+    "Recombinante, pode.",
+    "Conjugada inativada, pode e é recomendada.",
+    "Inativada, pode.",
+    "Correta. Vacinas vivas são contraindicadas em imunodeprimidos graves."
+   ],
+   "macete": "\"Imunodeprimido grave: vivo não\".",
+   "prio": "alta",
+   "banco": true,
+   "contexto": "**Calendário Nacional de Vacinação (PNI) = vacinas de rotina do SUS por idade; a prova cobra \"qual vacina em qual idade\" e particularidades de cada uma.**\n\nCriança (PNI, com as mudanças de 2024–2026):\n- **Ao nascer** → BCG + hepatite B (nas primeiras 12–24 h)\n- **2 meses** → penta (DTP + Hib + hepatite B), VIP, pneumocócica conjugada, rotavírus\n- **3 meses** → meningocócica C\n- **4 meses** → penta, VIP, pneumocócica, rotavírus\n- **5 meses** → meningocócica C\n- **6 meses** → penta, VIP\n- **9 meses** → febre amarela\n- **12 meses** → tríplice viral (SCR), pneumocócica (reforço), meningocócica ACWY (reforço, desde julho/2025)\n- **15 meses** → DTP, VIP (reforço; a VOP saiu do calendário em 2024), hepatite A, tetraviral (SCRV)\n- **4 anos** → DTP, febre amarela (reforço), varicela\n- **9 a 14 anos** → HPV em dose única (meninas e meninos, desde 2024)\n- **11 a 14 anos** → meningocócica ACWY\n- Influenza anual dos 6 meses aos 5 anos\n\nPneumocócica infantil:\n- Esquema 2 e 4 meses + reforço aos 12 meses\n- Desde 2026 o PNI vem substituindo a VPC10 pela **VPC20**, de forma gradual\n\nAdulto e gestante:\n- **dT** → 3 doses se não vacinado; reforço a cada 10 anos\n- **Hepatite B** → 3 doses (0, 1 e 6 meses) para todas as idades\n- **Tríplice viral** → 2 doses até 29 anos; 1 dose de 30 a 59 anos\n- **Febre amarela** → dose única a partir dos 5 anos (no idoso avaliar risco × benefício)\n- **Gestante** → dTpa a partir da 20ª semana em TODA gestação, influenza, hepatite B, COVID-19\n  - Vivas atenuadas (SCR, varicela, febre amarela) → evitar na gestação\n\nIdoso (60+):\n- dT a cada 10 anos, hepatite B, influenza anual, COVID-19, febre amarela (avaliar)\n- Pneumocócica no SUS → VPP23 para acamados/institucionalizados; VPC20 para ≥ 85 anos (desde setembro/2026)\n- SBIm (sociedades) → VPC20 em dose única para todo idoso ≥ 60 anos; herpes-zóster inativada e VSR na rede privada\n\nHepatite B (detalhe que cai):\n- Vacina recombinante (antígeno de superfície HBsAg produzido por DNA recombinante) → NÃO é vírus atenuado\n- Esquema 0, 1 e 6 meses\n\nVacinas vivas atenuadas (cuidado em imunodeprimido e gestante):\n- BCG, rotavírus, SCR, SCRV, varicela, febre amarela\n\nO que mais cai no Vila Verde:\n- VV 2024 (3 questões) → vacina dos 9 meses (febre amarela), 1ª dose aos 12 meses (tríplice viral), vacinas do calendário do idoso (dT, febre amarela, hepatite B).\n- VV 2025 → hepatite B: 3 doses (0-1-6), recombinante, não é atenuada.\n- VIV 2026 → pneumocócica no idoso de 65 anos sem vacinação prévia (recomendação das sociedades).",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 298\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><rect x=\"8\" y=\"10\" width=\"62\" height=\"22\" rx=\"6\" fill=\"var(--wine)\"/><text x=\"39\" y=\"25\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"600\" fill=\"var(--card)\">Ao nascer</text><text x=\"78\" y=\"25\" font-size=\"9.5\" fill=\"var(--ink)\">BCG + hepatite B</text><rect x=\"8\" y=\"36\" width=\"62\" height=\"22\" rx=\"6\" fill=\"var(--wine)\"/><text x=\"39\" y=\"51\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"600\" fill=\"var(--card)\">2 meses</text><text x=\"78\" y=\"51\" font-size=\"9.5\" fill=\"var(--ink)\">Penta + VIP + pneumo + rotavírus</text><rect x=\"8\" y=\"62\" width=\"62\" height=\"22\" rx=\"6\" fill=\"var(--wine)\"/><text x=\"39\" y=\"77\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"600\" fill=\"var(--card)\">3 meses</text><text x=\"78\" y=\"77\" font-size=\"9.5\" fill=\"var(--ink)\">Meningo C</text><rect x=\"8\" y=\"88\" width=\"62\" height=\"22\" rx=\"6\" fill=\"var(--wine)\"/><text x=\"39\" y=\"103\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"600\" fill=\"var(--card)\">4 meses</text><text x=\"78\" y=\"103\" font-size=\"9.5\" fill=\"var(--ink)\">Penta + VIP + pneumo + rotavírus</text><rect x=\"8\" y=\"114\" width=\"62\" height=\"22\" rx=\"6\" fill=\"var(--wine)\"/><text x=\"39\" y=\"129\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"600\" fill=\"var(--card)\">5 meses</text><text x=\"78\" y=\"129\" font-size=\"9.5\" fill=\"var(--ink)\">Meningo C</text><rect x=\"8\" y=\"140\" width=\"62\" height=\"22\" rx=\"6\" fill=\"var(--wine)\"/><text x=\"39\" y=\"155\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"600\" fill=\"var(--card)\">6 meses</text><text x=\"78\" y=\"155\" font-size=\"9.5\" fill=\"var(--ink)\">Penta + VIP</text><rect x=\"8\" y=\"166\" width=\"62\" height=\"22\" rx=\"6\" fill=\"var(--wine)\"/><text x=\"39\" y=\"181\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"600\" fill=\"var(--card)\">9 meses</text><text x=\"78\" y=\"181\" font-size=\"9.5\" fill=\"var(--ink)\">Febre amarela</text><rect x=\"8\" y=\"192\" width=\"62\" height=\"22\" rx=\"6\" fill=\"var(--wine)\"/><text x=\"39\" y=\"207\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"600\" fill=\"var(--card)\">12 meses</text><text x=\"78\" y=\"207\" font-size=\"9.5\" fill=\"var(--ink)\">Tríplice viral + pneumo + meningo ACWY</text><rect x=\"8\" y=\"218\" width=\"62\" height=\"22\" rx=\"6\" fill=\"var(--wine)\"/><text x=\"39\" y=\"233\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"600\" fill=\"var(--card)\">15 meses</text><text x=\"78\" y=\"233\" font-size=\"9.5\" fill=\"var(--ink)\">DTP + VIP + hepatite A + tetraviral</text><rect x=\"8\" y=\"244\" width=\"62\" height=\"22\" rx=\"6\" fill=\"var(--wine)\"/><text x=\"39\" y=\"259\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"600\" fill=\"var(--card)\">4 anos</text><text x=\"78\" y=\"259\" font-size=\"9.5\" fill=\"var(--ink)\">DTP + febre amarela + varicela</text><rect x=\"8\" y=\"270\" width=\"62\" height=\"22\" rx=\"6\" fill=\"var(--wine)\"/><text x=\"39\" y=\"285\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"600\" fill=\"var(--card)\">9–14 anos</text><text x=\"78\" y=\"285\" font-size=\"9.5\" fill=\"var(--ink)\">HPV dose única (+ ACWY 11–14)</text></svg>",
+     "legenda": "Calendário da criança no PNI (resumo por idade)"
+    }
+   ],
+   "fonte": "MS/PNI — Instrução Normativa do Calendário Nacional de Vacinação (2024) / NT MS substituição MenC → MenACWY no reforço (jul/2025) / NT Conjunta MS 310/2026 (VPC20 ≥ 85 anos) / NT SMSA-BH 020/2026 (VPC20 infantil) / Calendário SBIm do Idoso 2025/2026",
+   "add": "2026-11-04"
   }
  ],
  "rev": 1793817414566
