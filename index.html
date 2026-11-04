@@ -211,6 +211,9 @@ table.t{width:100%;table-layout:auto;overflow-wrap:break-word;word-break:normal;
 .ans ul.sub li{font-size:.95em;margin:3px 0}
 .ans ul.sub li::marker{content:"◦  ";color:var(--mute)}
 .ans ul{margin:6px 0 0;padding-left:20px}
+.pnls{display:flex;flex-direction:column;gap:12px}.pnt{display:flex;justify-content:space-between;gap:8px;font-size:14px;margin-bottom:5px}.pnt span{color:var(--mute);font-size:12.5px;text-align:right}
+.pnb{position:relative;height:10px;border-radius:6px;background:var(--line);overflow:visible}.pnb i{display:block;height:100%;border-radius:6px}.pnb s{position:absolute;left:50%;top:-4px;bottom:-4px;width:2px;background:var(--ink);opacity:.55}
+.pnfr{display:flex;flex-direction:column;gap:6px}.pnf{display:flex;justify-content:space-between;gap:10px;text-align:left;padding:10px 12px;border:1px solid var(--line);border-radius:12px;background:var(--card);color:var(--ink);font:inherit;font-size:14px;cursor:pointer}
 .base{border:1.5px solid var(--line);border-left:4px solid var(--rose);border-radius:12px;padding:10px 14px;margin-bottom:14px;background:var(--card)}
 .base .bt{font-size:12px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;color:var(--mute);margin-bottom:4px}
 .base ul{margin:2px 0 0}
@@ -1913,9 +1916,10 @@ function pPct(){
       <div class="blk"><div class="k">Simulado</div><div class="ln"><span class="fr">${x.tot?x.ac+'/'+x.tot:'—'}</span><span class="pc">${x.g!=null?x.g+'%':''}</span></div></div>
       <div class="blk"><div class="k">Vila Verde</div><div class="ln"><span class="fr">${x.utot?x.uac+'/'+x.utot:'—'}</span><span class="pc u">${x.u!=null?x.u+'%':''}</span></div></div>
     </button>`).join('')}</div>`:L.length?'':`<div class="empty"><div class="serif">Nenhum simulado ainda</div>Adicione o primeiro para acompanhar sua evolução.</div>`}
+    ${painelHTML()}
     ${mapaHTML()}
   </div>`;
-  ligarMapa();
+  ligarMapa(); ligarPainel();
   const vs=$('#verS'); if(vs) vs.onclick=()=>{VER_SIM=!VER_SIM; pPct();};
   $('#addS').onclick=()=>{
     const nums=S.sim.map(x=>+((x.nome.match(/^Simulado (\d+)/)||[])[1]||0));
@@ -1924,6 +1928,26 @@ function pPct(){
   };
   document.querySelectorAll('[data-sid]').forEach(b=>b.onclick=()=>editarSim(+b.dataset.sid));
 }
+/* ===== Painel das 5 áreas (como a prova: 20 questões cada; GO = Gineco + Obstetrícia) e baralhos mais fracos ===== */
+const GN={CM:'Clínica Médica',CIR:'Cirurgia',GO:'Ginecologia e Obstetrícia',PED:'Pediatria',PREV:'Medicina Preventiva'};
+function painelHTML(){
+  const G={}, D={};
+  CARDS.forEach(c=>{ const g=G[grupoDe(c)]=G[grupoDe(c)]||{n:0,vis:0,seen:0,wrong:0}, x=S.srs[c.id]; g.n++;
+    const d=D[kSub(c)]=D[kSub(c)]||{sub:c.sub,k:kSub(c),g:grupoDe(c),seen:0,wrong:0,fr:0};
+    if(x){ g.vis++; g.seen+=x.seen||0; g.wrong+=x.wrong||0; d.seen+=x.seen||0; d.wrong+=x.wrong||0; if(ehFraco(x)) d.fr++; } });
+  const pcA=o=>o.seen?Math.round((1-o.wrong/o.seen)*100):null, cor=v=>v==null?'var(--line)':v<50?'var(--bad)':v<70?'#D9A441':'var(--ok)';
+  const linhas=['CM','CIR','GO','PED','PREV'].filter(k=>G[k]).map(k=>{ const g=G[k], v=pcA(g);
+    return `<div class="pnl"><div class="pnt"><b>${GN[k]}</b><span>${v==null?'ainda sem respostas':v+'% de acerto'} · ${g.vis}/${g.n} vistos</span></div>
+      <div class="pnb"><i style="width:${v||0}%;background:${cor(v)}"></i><s title="corte da prova: 50%"></s></div></div>`; }).join('');
+  const fr=Object.values(D).filter(d=>d.seen>=5).map(d=>({...d,v:pcA(d)})).sort((a,b)=>a.v-b.v||b.fr-a.fr).slice(0,10);
+  return `<div class="sec" style="margin-top:30px">Painel das 5 áreas</div>
+  <p class="mute small" style="margin:-2px 0 10px">% de acerto nos cards de cada área da prova. A linha marca o corte de 50% (abaixo dele, elimina). Vermelho &lt; 50% · amarelo &lt; 70%.</p>
+  <div class="pnls">${linhas}</div>
+  ${fr.length?`<div class="sec" style="margin-top:22px">Baralhos em que você mais erra</div><p class="mute small" style="margin:-2px 0 10px">Com pelo menos 5 respostas. Toque para treinar o baralho.</p>
+  <div class="pnfr">${fr.map(d=>`<button class="pnf" data-pk="${esc(d.k)}"><span>${esc(d.sub)}</span><b style="color:${cor(d.v)}">${d.v}%</b></button>`).join('')}</div>`:''}`;
+}
+function ligarPainel(){ document.querySelectorAll('[data-pk]').forEach(b=>b.onclick=()=>{ const k=b.dataset.pk;
+  sessao(CARDS.filter(c=>kSub(c)===k).sort((a,b)=>prioridade(b)-prioridade(a)).slice(0,20).map(c=>c.id),'painel',null,'baralho fraco'); }); }
 /* ===== Mapa de matérias: onde você acerta e erra, cruzado com o que cai na banca ===== */
 function mapaDados(){
   const A={};

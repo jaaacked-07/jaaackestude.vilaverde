@@ -42,6 +42,9 @@ Publicado via GitHub Pages: https://jaaacked-07.github.io/jaaackestude.vilaverde
 13. **Prioridade (`prio`) em TODO card:** `"alta"` (tema que caiu no Vila Verde/Selecting ou é base das 5 áreas, fundamental, conduta/critério/1ª linha, pegadinha recorrente), `"media"` (relevante, menos recorrente) ou `"baixa"` (detalhe específico, pouco provável). O app usa isso no filtro 🎯 Essenciais, na fila do dia (prioridade baixa só entra depois) e no modo véspera. Card que repete o que outro card já cobra (mesmo conhecimento com outra frase) **não deve ser criado** — **exceto card de digitar**: ele pode repetir a resposta de outro card, porque o objetivo dele é fixar pela digitação .
 14. **Antes de commitar, rode `python3 tools/validar.py`.** Se aparecer qualquer ❌, corrija e rode de novo. **Nunca commite com erro.** Corrija também os ⚠️ quando der (principalmente card sem visual).
 
+15. **Tema INTEIRO, não só o que caiu (ela pediu).** A prova cobra o tema como um todo, não só o recorte que já caiu. O `contexto` do baralho é o resumão da matéria inteira (definição, fisiopatologia, clínica, diagnóstico, classificação, tratamento, complicações) e os cards cobrem os pontos clássicos do tema todo — o que já caiu entra com `prio: "alta"`, o resto clássico com `"media"` e detalhe raro com `"baixa"`. Use `data/prevalencia.json` só para priorizar, nunca para limitar.
+16. **Raciocínio em quiz também:** quiz não tem verso; quando o tema pedir raciocínio, use o campo `base` (texto em tópicos `- `), que o app mostra no topo do contexto como no flash.
+
 ## Rotina: transformar anotações em cards
 
 1. Ler `data/notas.json`. **Ignore as anotações com `"manual": true`** (ela já mandou pelo chat). Se não sobrar nenhuma pendente, **parar sem commitar nada**.
@@ -180,7 +183,7 @@ Escolha o formato pelo conteúdo: critérios/comparação de várias colunas →
 
 ## Como o app usa os cards (para entender as prioridades)
 
-- **Fila do dia:** todos os cards errados que venceram + **15 novos** + pelo menos 5 revisões, completando 20 (passa de 20 se houver muito erro).
+- **Fila do dia:** todos os cards errados que venceram + **novos calculados** (cards de prioridade alta/média ainda não vistos ÷ dias até a véspera, entre 15 e 30) + pelo menos 5 revisões. Cards de prioridade **baixa não entram na fila**: ficam no botão "Prioridade baixa" (para quando sobrar tempo) — por isso marque `prio` com cuidado.
 - **Prioridade:** quanto o baralho cai no Vila Verde (`pond` em `data/prevalencia.json`) + se o card está fraco + quantas vezes ela errou + favorito/marca-texto + atraso. Os baralhos são intercalados (não vêm 10 cards seguidos do mesmo tema).
 - **Equilíbrio das 5 áreas:** a fila do dia, as revisões e o modo véspera alternam CM → CIR → GO → PED → PREV (Ginecologia + Obstetrícia contam juntas). Por isso **todas as 5 áreas precisam ter cards** — se uma área ficar sem novos, avise a Jacke.
 - **Fraco** = errou ou marcou "Quase" e ainda não acertou 3× seguidas. **Sanguessuga** = errou 4 ou mais vezes.
