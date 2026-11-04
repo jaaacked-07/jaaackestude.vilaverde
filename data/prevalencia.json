@@ -1955,6 +1955,46 @@
    "temas": "",
    "area": "Ginecologia",
    "tema": "Uroginecologia"
+  },
+  "Sistemas de informação em saúde — SIM, SINASC, SINAN, SIH e SIA": {
+   "q": 0,
+   "pond": 0,
+   "fontes": {},
+   "temas": "",
+   "area": "Medicina Preventiva",
+   "tema": "Vigilância em Saúde"
+  },
+  "Transição demográfica e epidemiológica": {
+   "q": 0,
+   "pond": 0,
+   "fontes": {},
+   "temas": "",
+   "area": "Medicina Preventiva",
+   "tema": "Epidemiologia"
+  },
+  "História das políticas de saúde no Brasil": {
+   "q": 0,
+   "pond": 0,
+   "fontes": {},
+   "temas": "",
+   "area": "Medicina Preventiva",
+   "tema": "SUS"
+  },
+  "Violência — notificação e atendimento à violência sexual": {
+   "q": 0,
+   "pond": 0,
+   "fontes": {},
+   "temas": "",
+   "area": "Medicina Preventiva",
+   "tema": "Vigilância em Saúde"
+  },
+  "Redes de Atenção à Saúde (RAS) e regionalização": {
+   "q": 0,
+   "pond": 0,
+   "fontes": {},
+   "temas": "",
+   "area": "Medicina Preventiva",
+   "tema": "SUS"
   }
  }
 }

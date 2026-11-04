@@ -74370,6 +74370,1305 @@
    ],
    "fonte": "FEBRASGO — Protocolo Prolapso genital (2021) / ICS/IUGA — Terminology for female pelvic organ prolapse (2016) / Bump RC — POP-Q (1996)",
    "add": "2026-11-04"
+  },
+  {
+   "area": "Medicina Preventiva",
+   "tema": "Vigilância em Saúde",
+   "sub": "Sistemas de informação em saúde — SIM, SINASC, SINAN, SIH e SIA",
+   "id": "sis-01",
+   "tipo": "flash",
+   "prio": "alta",
+   "frente": "Declaração de Óbito: quem preenche em cada situação?",
+   "verso": "Raciocínio:\n- Quem conhece a causa da morte deve atestá-la.\n- Morte violenta é caso médico-legal → precisa de perícia (IML), não do médico assistente.\n\n**Natural com assistência → médico assistente.**\n**Natural sem assistência → SVO.**\n**Violenta ou suspeita → IML.**\n\nSem SVO na cidade:\n- Médico do serviço público mais próximo ou qualquer médico da localidade.",
+   "macete": "\"Natural com médico → médico; sem médico → SVO; Violenta → IML\".",
+   "pegadinha": "Paciente internado que morre por causa externa (ex.: trauma) vai para o IML.",
+   "uerj": "Cobra o documento-base de cada sistema e quem preenche a DO.",
+   "contexto": "**Sistemas de informação em saúde = bases nacionais do SUS que registram nascimentos, óbitos, agravos e produção de serviços; alimentam os indicadores e a vigilância.**\n\nSIM (mortalidade):\n- Documento → **Declaração de Óbito (DO)**, preenchida pelo **médico** (obrigação legal)\n- **3 vias** → branca (secretaria de saúde), amarela (família → cartório), rosa (arquivo da unidade/serviço)\n- Quem preenche:\n  - Morte natural com assistência → médico assistente (ou substituto/plantonista)\n  - Morte natural sem assistência → **SVO** (Serviço de Verificação de Óbito); sem SVO → médico do serviço público mais próximo ou qualquer médico da localidade\n  - **Morte violenta / causa externa (acidente, homicídio, suicídio, suspeita)** → **IML** (perito legista), mesmo se o paciente estava internado\n- **Causa básica** → a doença ou lesão que iniciou a cadeia que levou à morte (última linha preenchida da Parte I)\n\nSINASC (nascidos vivos):\n- Documento → **Declaração de Nascido Vivo (DNV)**, preenchida pelo profissional de saúde (ou parteira tradicional) que assistiu o parto\n- 3 vias → branca (secretaria), amarela (cartório), rosa (unidade de saúde)\n- Nascido vivo = qualquer sinal de vida, independentemente da idade gestacional; óbito fetal → DO (≥ 20 semanas ou ≥ 500 g ou ≥ 25 cm)\n\nSINAN (agravos de notificação):\n- **Ficha de notificação compulsória** e de investigação; base da vigilância epidemiológica\n- Alimentado pelas notificações imediatas (24 h) e semanais\n\nProdução de serviços:\n- **SIH** → internações (AIH); **SIA** → ambulatório (BPA/APAC)\n- Ambos têm finalidade administrativa/financeira (pagamento), com viés por subnotificação de quem não é SUS\n\nOutros:\n- SI-PNI (vacinas), SISVAN (vigilância alimentar e nutricional), SISAB/e-SUS APS (atenção primária), CNES (cadastro), DATASUS (gestor/disseminação)\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: documento-base de cada sistema, quem preenche a DO e as vias.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "cab": [
+      "Sistema",
+      "Documento-base",
+      "Para quê"
+     ],
+     "linhas": [
+      [
+       "SIM",
+       "Declaração de Óbito (DO)",
+       "Mortalidade"
+      ],
+      [
+       "SINASC",
+       "Declaração de Nascido Vivo (DNV)",
+       "Nascimentos"
+      ],
+      [
+       "SINAN",
+       "Ficha de notificação/investigação",
+       "Agravos de notificação compulsória"
+      ],
+      [
+       "SIH",
+       "AIH (Autorização de Internação Hospitalar)",
+       "Internações no SUS"
+      ],
+      [
+       "SIA",
+       "BPA / APAC",
+       "Atendimentos ambulatoriais"
+      ],
+      [
+       "SI-PNI",
+       "Registro de vacinação",
+       "Coberturas vacinais"
+      ],
+      [
+       "SISAB / e-SUS APS",
+       "Prontuário / CDS",
+       "Atenção primária (substituiu o SIAB)"
+      ],
+      [
+       "CNES",
+       "Cadastro",
+       "Estabelecimentos e profissionais"
+      ]
+     ]
+    }
+   ],
+   "fonte": "Ministério da Saúde — Declaração de Óbito: manual de instruções para preenchimento (2022) / Manual de instruções para preenchimento da DNV (2022) / Guia de Vigilância em Saúde 6ª ed. (2024)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Medicina Preventiva",
+   "tema": "Vigilância em Saúde",
+   "sub": "Sistemas de informação em saúde — SIM, SINASC, SINAN, SIH e SIA",
+   "id": "sis-02",
+   "tipo": "flash",
+   "prio": "alta",
+   "frente": "Qual o documento-base do SIM, SINASC, SINAN e SIH?",
+   "verso": "Raciocínio:\n- Cada sistema nasce de um formulário padronizado em todo o país → isso permite comparar indicadores.\n\n**SIM → Declaração de Óbito.**\n**SINASC → Declaração de Nascido Vivo.**\n**SINAN → ficha de notificação.**\n**SIH → AIH.**",
+   "macete": "\"SIM morre (DO), SINASC nasce (DNV), SINAN notifica, SIH interna\".",
+   "pegadinha": "SIH e SIA registram produção para pagamento, não doenças da população toda.",
+   "visual": {
+    "tipo": "tabela",
+    "cab": [
+     "Sistema",
+     "Documento-base",
+     "Para quê"
+    ],
+    "linhas": [
+     [
+      "SIM",
+      "Declaração de Óbito (DO)",
+      "Mortalidade"
+     ],
+     [
+      "SINASC",
+      "Declaração de Nascido Vivo (DNV)",
+      "Nascimentos"
+     ],
+     [
+      "SINAN",
+      "Ficha de notificação/investigação",
+      "Agravos de notificação compulsória"
+     ],
+     [
+      "SIH",
+      "AIH (Autorização de Internação Hospitalar)",
+      "Internações no SUS"
+     ],
+     [
+      "SIA",
+      "BPA / APAC",
+      "Atendimentos ambulatoriais"
+     ],
+     [
+      "SI-PNI",
+      "Registro de vacinação",
+      "Coberturas vacinais"
+     ],
+     [
+      "SISAB / e-SUS APS",
+      "Prontuário / CDS",
+      "Atenção primária (substituiu o SIAB)"
+     ],
+     [
+      "CNES",
+      "Cadastro",
+      "Estabelecimentos e profissionais"
+     ]
+    ]
+   },
+   "uerj": "Cobra o documento-base de cada sistema e quem preenche a DO.",
+   "contexto": "**Sistemas de informação em saúde = bases nacionais do SUS que registram nascimentos, óbitos, agravos e produção de serviços; alimentam os indicadores e a vigilância.**\n\nSIM (mortalidade):\n- Documento → **Declaração de Óbito (DO)**, preenchida pelo **médico** (obrigação legal)\n- **3 vias** → branca (secretaria de saúde), amarela (família → cartório), rosa (arquivo da unidade/serviço)\n- Quem preenche:\n  - Morte natural com assistência → médico assistente (ou substituto/plantonista)\n  - Morte natural sem assistência → **SVO** (Serviço de Verificação de Óbito); sem SVO → médico do serviço público mais próximo ou qualquer médico da localidade\n  - **Morte violenta / causa externa (acidente, homicídio, suicídio, suspeita)** → **IML** (perito legista), mesmo se o paciente estava internado\n- **Causa básica** → a doença ou lesão que iniciou a cadeia que levou à morte (última linha preenchida da Parte I)\n\nSINASC (nascidos vivos):\n- Documento → **Declaração de Nascido Vivo (DNV)**, preenchida pelo profissional de saúde (ou parteira tradicional) que assistiu o parto\n- 3 vias → branca (secretaria), amarela (cartório), rosa (unidade de saúde)\n- Nascido vivo = qualquer sinal de vida, independentemente da idade gestacional; óbito fetal → DO (≥ 20 semanas ou ≥ 500 g ou ≥ 25 cm)\n\nSINAN (agravos de notificação):\n- **Ficha de notificação compulsória** e de investigação; base da vigilância epidemiológica\n- Alimentado pelas notificações imediatas (24 h) e semanais\n\nProdução de serviços:\n- **SIH** → internações (AIH); **SIA** → ambulatório (BPA/APAC)\n- Ambos têm finalidade administrativa/financeira (pagamento), com viés por subnotificação de quem não é SUS\n\nOutros:\n- SI-PNI (vacinas), SISVAN (vigilância alimentar e nutricional), SISAB/e-SUS APS (atenção primária), CNES (cadastro), DATASUS (gestor/disseminação)\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: documento-base de cada sistema, quem preenche a DO e as vias.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "cab": [
+      "Sistema",
+      "Documento-base",
+      "Para quê"
+     ],
+     "linhas": [
+      [
+       "SIM",
+       "Declaração de Óbito (DO)",
+       "Mortalidade"
+      ],
+      [
+       "SINASC",
+       "Declaração de Nascido Vivo (DNV)",
+       "Nascimentos"
+      ],
+      [
+       "SINAN",
+       "Ficha de notificação/investigação",
+       "Agravos de notificação compulsória"
+      ],
+      [
+       "SIH",
+       "AIH (Autorização de Internação Hospitalar)",
+       "Internações no SUS"
+      ],
+      [
+       "SIA",
+       "BPA / APAC",
+       "Atendimentos ambulatoriais"
+      ],
+      [
+       "SI-PNI",
+       "Registro de vacinação",
+       "Coberturas vacinais"
+      ],
+      [
+       "SISAB / e-SUS APS",
+       "Prontuário / CDS",
+       "Atenção primária (substituiu o SIAB)"
+      ],
+      [
+       "CNES",
+       "Cadastro",
+       "Estabelecimentos e profissionais"
+      ]
+     ]
+    }
+   ],
+   "fonte": "Ministério da Saúde — Declaração de Óbito: manual de instruções para preenchimento (2022) / Manual de instruções para preenchimento da DNV (2022) / Guia de Vigilância em Saúde 6ª ed. (2024)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Medicina Preventiva",
+   "tema": "Vigilância em Saúde",
+   "sub": "Sistemas de informação em saúde — SIM, SINASC, SINAN, SIH e SIA",
+   "tipo": "quiz",
+   "frente": "Sobre os sistemas de informação em saúde, analise: I. O documento-base do SINASC é a Declaração de Nascido Vivo. II. Nas mortes violentas, a Declaração de Óbito é preenchida pelo médico assistente. III. O SINAN registra os agravos de notificação compulsória. Está(ão) correta(s):",
+   "opcoes": [
+    "Apenas I e II.",
+    "Apenas II e III.",
+    "Apenas I e III.",
+    "I, II e III."
+   ],
+   "certa": 2,
+   "comentarios": [
+    "II é falsa.",
+    "II é falsa.",
+    "Correta. II é falsa: morte violenta → IML (perito legista).",
+    "II é falsa."
+   ],
+   "id": "sis-q1",
+   "prio": "alta",
+   "macete": "\"Violência → IML\".",
+   "pegadinha": "Causa externa vai ao IML.",
+   "uerj": "Cobra o documento-base de cada sistema e quem preenche a DO.",
+   "contexto": "**Sistemas de informação em saúde = bases nacionais do SUS que registram nascimentos, óbitos, agravos e produção de serviços; alimentam os indicadores e a vigilância.**\n\nSIM (mortalidade):\n- Documento → **Declaração de Óbito (DO)**, preenchida pelo **médico** (obrigação legal)\n- **3 vias** → branca (secretaria de saúde), amarela (família → cartório), rosa (arquivo da unidade/serviço)\n- Quem preenche:\n  - Morte natural com assistência → médico assistente (ou substituto/plantonista)\n  - Morte natural sem assistência → **SVO** (Serviço de Verificação de Óbito); sem SVO → médico do serviço público mais próximo ou qualquer médico da localidade\n  - **Morte violenta / causa externa (acidente, homicídio, suicídio, suspeita)** → **IML** (perito legista), mesmo se o paciente estava internado\n- **Causa básica** → a doença ou lesão que iniciou a cadeia que levou à morte (última linha preenchida da Parte I)\n\nSINASC (nascidos vivos):\n- Documento → **Declaração de Nascido Vivo (DNV)**, preenchida pelo profissional de saúde (ou parteira tradicional) que assistiu o parto\n- 3 vias → branca (secretaria), amarela (cartório), rosa (unidade de saúde)\n- Nascido vivo = qualquer sinal de vida, independentemente da idade gestacional; óbito fetal → DO (≥ 20 semanas ou ≥ 500 g ou ≥ 25 cm)\n\nSINAN (agravos de notificação):\n- **Ficha de notificação compulsória** e de investigação; base da vigilância epidemiológica\n- Alimentado pelas notificações imediatas (24 h) e semanais\n\nProdução de serviços:\n- **SIH** → internações (AIH); **SIA** → ambulatório (BPA/APAC)\n- Ambos têm finalidade administrativa/financeira (pagamento), com viés por subnotificação de quem não é SUS\n\nOutros:\n- SI-PNI (vacinas), SISVAN (vigilância alimentar e nutricional), SISAB/e-SUS APS (atenção primária), CNES (cadastro), DATASUS (gestor/disseminação)\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: documento-base de cada sistema, quem preenche a DO e as vias.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "cab": [
+      "Sistema",
+      "Documento-base",
+      "Para quê"
+     ],
+     "linhas": [
+      [
+       "SIM",
+       "Declaração de Óbito (DO)",
+       "Mortalidade"
+      ],
+      [
+       "SINASC",
+       "Declaração de Nascido Vivo (DNV)",
+       "Nascimentos"
+      ],
+      [
+       "SINAN",
+       "Ficha de notificação/investigação",
+       "Agravos de notificação compulsória"
+      ],
+      [
+       "SIH",
+       "AIH (Autorização de Internação Hospitalar)",
+       "Internações no SUS"
+      ],
+      [
+       "SIA",
+       "BPA / APAC",
+       "Atendimentos ambulatoriais"
+      ],
+      [
+       "SI-PNI",
+       "Registro de vacinação",
+       "Coberturas vacinais"
+      ],
+      [
+       "SISAB / e-SUS APS",
+       "Prontuário / CDS",
+       "Atenção primária (substituiu o SIAB)"
+      ],
+      [
+       "CNES",
+       "Cadastro",
+       "Estabelecimentos e profissionais"
+      ]
+     ]
+    }
+   ],
+   "fonte": "Ministério da Saúde — Declaração de Óbito: manual de instruções para preenchimento (2022) / Manual de instruções para preenchimento da DNV (2022) / Guia de Vigilância em Saúde 6ª ed. (2024)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Medicina Preventiva",
+   "tema": "Vigilância em Saúde",
+   "sub": "Sistemas de informação em saúde — SIM, SINASC, SINAN, SIH e SIA",
+   "id": "sis-d1",
+   "tipo": "digitar",
+   "prio": "alta",
+   "frente": "Qual o documento-base do SIM?",
+   "verso": "**Declaração de Óbito (DO).**",
+   "resposta": "Declaração de Óbito",
+   "aceitas": [
+    "declaração de óbito",
+    "declaracao de obito",
+    "do",
+    "atestado de óbito"
+   ],
+   "macete": "SIM = DO.",
+   "uerj": "Cobra o documento-base de cada sistema e quem preenche a DO.",
+   "contexto": "**Sistemas de informação em saúde = bases nacionais do SUS que registram nascimentos, óbitos, agravos e produção de serviços; alimentam os indicadores e a vigilância.**\n\nSIM (mortalidade):\n- Documento → **Declaração de Óbito (DO)**, preenchida pelo **médico** (obrigação legal)\n- **3 vias** → branca (secretaria de saúde), amarela (família → cartório), rosa (arquivo da unidade/serviço)\n- Quem preenche:\n  - Morte natural com assistência → médico assistente (ou substituto/plantonista)\n  - Morte natural sem assistência → **SVO** (Serviço de Verificação de Óbito); sem SVO → médico do serviço público mais próximo ou qualquer médico da localidade\n  - **Morte violenta / causa externa (acidente, homicídio, suicídio, suspeita)** → **IML** (perito legista), mesmo se o paciente estava internado\n- **Causa básica** → a doença ou lesão que iniciou a cadeia que levou à morte (última linha preenchida da Parte I)\n\nSINASC (nascidos vivos):\n- Documento → **Declaração de Nascido Vivo (DNV)**, preenchida pelo profissional de saúde (ou parteira tradicional) que assistiu o parto\n- 3 vias → branca (secretaria), amarela (cartório), rosa (unidade de saúde)\n- Nascido vivo = qualquer sinal de vida, independentemente da idade gestacional; óbito fetal → DO (≥ 20 semanas ou ≥ 500 g ou ≥ 25 cm)\n\nSINAN (agravos de notificação):\n- **Ficha de notificação compulsória** e de investigação; base da vigilância epidemiológica\n- Alimentado pelas notificações imediatas (24 h) e semanais\n\nProdução de serviços:\n- **SIH** → internações (AIH); **SIA** → ambulatório (BPA/APAC)\n- Ambos têm finalidade administrativa/financeira (pagamento), com viés por subnotificação de quem não é SUS\n\nOutros:\n- SI-PNI (vacinas), SISVAN (vigilância alimentar e nutricional), SISAB/e-SUS APS (atenção primária), CNES (cadastro), DATASUS (gestor/disseminação)\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: documento-base de cada sistema, quem preenche a DO e as vias.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "cab": [
+      "Sistema",
+      "Documento-base",
+      "Para quê"
+     ],
+     "linhas": [
+      [
+       "SIM",
+       "Declaração de Óbito (DO)",
+       "Mortalidade"
+      ],
+      [
+       "SINASC",
+       "Declaração de Nascido Vivo (DNV)",
+       "Nascimentos"
+      ],
+      [
+       "SINAN",
+       "Ficha de notificação/investigação",
+       "Agravos de notificação compulsória"
+      ],
+      [
+       "SIH",
+       "AIH (Autorização de Internação Hospitalar)",
+       "Internações no SUS"
+      ],
+      [
+       "SIA",
+       "BPA / APAC",
+       "Atendimentos ambulatoriais"
+      ],
+      [
+       "SI-PNI",
+       "Registro de vacinação",
+       "Coberturas vacinais"
+      ],
+      [
+       "SISAB / e-SUS APS",
+       "Prontuário / CDS",
+       "Atenção primária (substituiu o SIAB)"
+      ],
+      [
+       "CNES",
+       "Cadastro",
+       "Estabelecimentos e profissionais"
+      ]
+     ]
+    }
+   ],
+   "fonte": "Ministério da Saúde — Declaração de Óbito: manual de instruções para preenchimento (2022) / Manual de instruções para preenchimento da DNV (2022) / Guia de Vigilância em Saúde 6ª ed. (2024)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Medicina Preventiva",
+   "tema": "Vigilância em Saúde",
+   "sub": "Sistemas de informação em saúde — SIM, SINASC, SINAN, SIH e SIA",
+   "id": "sis-d2",
+   "tipo": "digitar",
+   "prio": "media",
+   "frente": "Quem preenche a DO em morte natural sem assistência médica, onde existe o serviço?",
+   "verso": "**SVO (Serviço de Verificação de Óbito).**",
+   "resposta": "SVO",
+   "aceitas": [
+    "svo",
+    "serviço de verificação de óbito",
+    "servico de verificacao de obito"
+   ],
+   "macete": "Sem médico → SVO.",
+   "uerj": "Cobra o documento-base de cada sistema e quem preenche a DO.",
+   "contexto": "**Sistemas de informação em saúde = bases nacionais do SUS que registram nascimentos, óbitos, agravos e produção de serviços; alimentam os indicadores e a vigilância.**\n\nSIM (mortalidade):\n- Documento → **Declaração de Óbito (DO)**, preenchida pelo **médico** (obrigação legal)\n- **3 vias** → branca (secretaria de saúde), amarela (família → cartório), rosa (arquivo da unidade/serviço)\n- Quem preenche:\n  - Morte natural com assistência → médico assistente (ou substituto/plantonista)\n  - Morte natural sem assistência → **SVO** (Serviço de Verificação de Óbito); sem SVO → médico do serviço público mais próximo ou qualquer médico da localidade\n  - **Morte violenta / causa externa (acidente, homicídio, suicídio, suspeita)** → **IML** (perito legista), mesmo se o paciente estava internado\n- **Causa básica** → a doença ou lesão que iniciou a cadeia que levou à morte (última linha preenchida da Parte I)\n\nSINASC (nascidos vivos):\n- Documento → **Declaração de Nascido Vivo (DNV)**, preenchida pelo profissional de saúde (ou parteira tradicional) que assistiu o parto\n- 3 vias → branca (secretaria), amarela (cartório), rosa (unidade de saúde)\n- Nascido vivo = qualquer sinal de vida, independentemente da idade gestacional; óbito fetal → DO (≥ 20 semanas ou ≥ 500 g ou ≥ 25 cm)\n\nSINAN (agravos de notificação):\n- **Ficha de notificação compulsória** e de investigação; base da vigilância epidemiológica\n- Alimentado pelas notificações imediatas (24 h) e semanais\n\nProdução de serviços:\n- **SIH** → internações (AIH); **SIA** → ambulatório (BPA/APAC)\n- Ambos têm finalidade administrativa/financeira (pagamento), com viés por subnotificação de quem não é SUS\n\nOutros:\n- SI-PNI (vacinas), SISVAN (vigilância alimentar e nutricional), SISAB/e-SUS APS (atenção primária), CNES (cadastro), DATASUS (gestor/disseminação)\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: documento-base de cada sistema, quem preenche a DO e as vias.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "cab": [
+      "Sistema",
+      "Documento-base",
+      "Para quê"
+     ],
+     "linhas": [
+      [
+       "SIM",
+       "Declaração de Óbito (DO)",
+       "Mortalidade"
+      ],
+      [
+       "SINASC",
+       "Declaração de Nascido Vivo (DNV)",
+       "Nascimentos"
+      ],
+      [
+       "SINAN",
+       "Ficha de notificação/investigação",
+       "Agravos de notificação compulsória"
+      ],
+      [
+       "SIH",
+       "AIH (Autorização de Internação Hospitalar)",
+       "Internações no SUS"
+      ],
+      [
+       "SIA",
+       "BPA / APAC",
+       "Atendimentos ambulatoriais"
+      ],
+      [
+       "SI-PNI",
+       "Registro de vacinação",
+       "Coberturas vacinais"
+      ],
+      [
+       "SISAB / e-SUS APS",
+       "Prontuário / CDS",
+       "Atenção primária (substituiu o SIAB)"
+      ],
+      [
+       "CNES",
+       "Cadastro",
+       "Estabelecimentos e profissionais"
+      ]
+     ]
+    }
+   ],
+   "fonte": "Ministério da Saúde — Declaração de Óbito: manual de instruções para preenchimento (2022) / Manual de instruções para preenchimento da DNV (2022) / Guia de Vigilância em Saúde 6ª ed. (2024)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Medicina Preventiva",
+   "tema": "Epidemiologia",
+   "sub": "Transição demográfica e epidemiológica",
+   "id": "trd-01",
+   "tipo": "flash",
+   "prio": "alta",
+   "frente": "Transição demográfica: o que cai primeiro e o que acontece?",
+   "verso": "Raciocínio:\n- Saneamento, vacinas e antibióticos reduzem rápido a mortalidade, mas o comportamento reprodutivo muda devagar.\n- Enquanto os dois não se igualam, nascem muito mais do que morrem → a população explode.\n\n**Primeiro cai a mortalidade.**\n**Depois cai a natalidade.**\n\nResultado:\n- Explosão populacional na fase intermediária.\n- Envelhecimento no fim.",
+   "macete": "\"Morre-se menos antes de nascer-se menos\".",
+   "pegadinha": "O envelhecimento é causado principalmente pela queda da FECUNDIDADE.",
+   "uerj": "Cobra conceitos (contratransição, polarização, superposição) e a ordem da transição.",
+   "contexto": "**Transição demográfica = passagem de altas taxas de natalidade e mortalidade para taxas baixas, com envelhecimento da população; transição epidemiológica = troca do predomínio das doenças infecciosas pelas doenças crônicas não transmissíveis (DCNT) e causas externas.**\n\nFases da transição demográfica:\n- **1** → natalidade e mortalidade altas, crescimento lento\n- **2** → **mortalidade cai primeiro** (saneamento, vacinas, antibióticos) e natalidade segue alta → **explosão populacional**\n- **3** → natalidade cai (urbanização, mulher no mercado, contracepção) → crescimento desacelera\n- **4** → ambas baixas → população estável e **envelhecida**\n\nBrasil:\n- Transição rápida: queda acentuada da fecundidade desde os anos 1960–70; taxa de fecundidade total hoje **abaixo do nível de reposição (2,1)**\n- Pirâmide etária → base estreitando, topo alargando (\"pirâmide\" virando retângulo/barril)\n- Aumento da razão de dependência de idosos e do índice de envelhecimento\n\nTransição epidemiológica:\n- Infecciosas e mortalidade infantil caem → **DCNT** (cardiovascular, câncer, DM, DPOC) e **causas externas** sobem\n- Mortalidade desloca-se dos jovens para os idosos; morbidade predomina sobre mortalidade\n\nBrasil — modelo \"polarizado prolongado\":\n- **Superposição** → doenças infecciosas e crônicas ao mesmo tempo (**tripla carga**: infecciosas/carenciais, DCNT e causas externas)\n- **Contratransição** → reemergência de doenças (dengue, sífilis, sarampo, febre amarela)\n- **Transição prolongada** → indefinida, sem completar\n- **Polarização epidemiológica** → perfis diferentes entre regiões e classes sociais\n\nTransição nutricional:\n- Queda da desnutrição e aumento do **sobrepeso/obesidade** (ultraprocessados, sedentarismo)\n\nPrincipais causas de morte no Brasil:\n- Doenças do aparelho circulatório (1º), neoplasias (2º), causas externas (principal entre jovens, sobretudo homens)\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: o que cai primeiro (mortalidade), características do modelo brasileiro e conceitos (contratransição, polarização).",
+   "ctxvisual": [
+    {
+     "tipo": "fluxo",
+     "passos": [
+      "Fase 1: natalidade e mortalidade altas",
+      "Fase 2: mortalidade cai → explosão populacional",
+      "Fase 3: natalidade cai",
+      "Fase 4: ambas baixas → envelhecimento"
+     ]
+    }
+   ],
+   "fonte": "Omran AR — The epidemiologic transition (1971) / Frenk J et al. — modelo polarizado prolongado (1991) / IBGE — Censo Demográfico 2022 / Rouquayrol — Epidemiologia & Saúde 8ª ed.",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Medicina Preventiva",
+   "tema": "Epidemiologia",
+   "sub": "Transição demográfica e epidemiológica",
+   "id": "trd-02",
+   "tipo": "flash",
+   "prio": "alta",
+   "frente": "Transição epidemiológica no Brasil: características",
+   "verso": "Raciocínio:\n- O Brasil não trocou simplesmente infecciosas por crônicas: as duas convivem e algumas infecciosas voltaram.\n\n**Modelo polarizado prolongado.**\n\n**Características:**\n- Superposição (tripla carga de doenças)\n- Contratransição (reemergência de doenças)\n- Transição prolongada\n- Polarização entre regiões e classes",
+   "macete": "\"Brasil = SCPP: Superposição, Contratransição, Prolongada, Polarizada\".",
+   "pegadinha": "Dengue e sífilis em alta = contratransição.",
+   "uerj": "Cobra conceitos (contratransição, polarização, superposição) e a ordem da transição.",
+   "contexto": "**Transição demográfica = passagem de altas taxas de natalidade e mortalidade para taxas baixas, com envelhecimento da população; transição epidemiológica = troca do predomínio das doenças infecciosas pelas doenças crônicas não transmissíveis (DCNT) e causas externas.**\n\nFases da transição demográfica:\n- **1** → natalidade e mortalidade altas, crescimento lento\n- **2** → **mortalidade cai primeiro** (saneamento, vacinas, antibióticos) e natalidade segue alta → **explosão populacional**\n- **3** → natalidade cai (urbanização, mulher no mercado, contracepção) → crescimento desacelera\n- **4** → ambas baixas → população estável e **envelhecida**\n\nBrasil:\n- Transição rápida: queda acentuada da fecundidade desde os anos 1960–70; taxa de fecundidade total hoje **abaixo do nível de reposição (2,1)**\n- Pirâmide etária → base estreitando, topo alargando (\"pirâmide\" virando retângulo/barril)\n- Aumento da razão de dependência de idosos e do índice de envelhecimento\n\nTransição epidemiológica:\n- Infecciosas e mortalidade infantil caem → **DCNT** (cardiovascular, câncer, DM, DPOC) e **causas externas** sobem\n- Mortalidade desloca-se dos jovens para os idosos; morbidade predomina sobre mortalidade\n\nBrasil — modelo \"polarizado prolongado\":\n- **Superposição** → doenças infecciosas e crônicas ao mesmo tempo (**tripla carga**: infecciosas/carenciais, DCNT e causas externas)\n- **Contratransição** → reemergência de doenças (dengue, sífilis, sarampo, febre amarela)\n- **Transição prolongada** → indefinida, sem completar\n- **Polarização epidemiológica** → perfis diferentes entre regiões e classes sociais\n\nTransição nutricional:\n- Queda da desnutrição e aumento do **sobrepeso/obesidade** (ultraprocessados, sedentarismo)\n\nPrincipais causas de morte no Brasil:\n- Doenças do aparelho circulatório (1º), neoplasias (2º), causas externas (principal entre jovens, sobretudo homens)\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: o que cai primeiro (mortalidade), características do modelo brasileiro e conceitos (contratransição, polarização).",
+   "ctxvisual": [
+    {
+     "tipo": "fluxo",
+     "passos": [
+      "Fase 1: natalidade e mortalidade altas",
+      "Fase 2: mortalidade cai → explosão populacional",
+      "Fase 3: natalidade cai",
+      "Fase 4: ambas baixas → envelhecimento"
+     ]
+    }
+   ],
+   "fonte": "Omran AR — The epidemiologic transition (1971) / Frenk J et al. — modelo polarizado prolongado (1991) / IBGE — Censo Demográfico 2022 / Rouquayrol — Epidemiologia & Saúde 8ª ed.",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Medicina Preventiva",
+   "tema": "Epidemiologia",
+   "sub": "Transição demográfica e epidemiológica",
+   "tipo": "quiz",
+   "frente": "Sobre as transições demográfica e epidemiológica, analise: I. Na transição demográfica, a queda da mortalidade precede a queda da natalidade. II. O envelhecimento populacional se deve principalmente à redução da fecundidade. III. No Brasil, a transição epidemiológica foi completa, com eliminação das doenças infecciosas como problema de saúde pública. Está(ão) correta(s):",
+   "opcoes": [
+    "Apenas I e II.",
+    "Apenas I e III.",
+    "Apenas II e III.",
+    "I, II e III."
+   ],
+   "certa": 0,
+   "comentarios": [
+    "Correta. III é falsa: há superposição e contratransição (modelo polarizado prolongado).",
+    "III é falsa.",
+    "III é falsa.",
+    "III é falsa."
+   ],
+   "id": "trd-q1",
+   "prio": "alta",
+   "macete": "\"Brasil não completou a transição\".",
+   "pegadinha": "Superposição e contratransição.",
+   "uerj": "Cobra conceitos (contratransição, polarização, superposição) e a ordem da transição.",
+   "contexto": "**Transição demográfica = passagem de altas taxas de natalidade e mortalidade para taxas baixas, com envelhecimento da população; transição epidemiológica = troca do predomínio das doenças infecciosas pelas doenças crônicas não transmissíveis (DCNT) e causas externas.**\n\nFases da transição demográfica:\n- **1** → natalidade e mortalidade altas, crescimento lento\n- **2** → **mortalidade cai primeiro** (saneamento, vacinas, antibióticos) e natalidade segue alta → **explosão populacional**\n- **3** → natalidade cai (urbanização, mulher no mercado, contracepção) → crescimento desacelera\n- **4** → ambas baixas → população estável e **envelhecida**\n\nBrasil:\n- Transição rápida: queda acentuada da fecundidade desde os anos 1960–70; taxa de fecundidade total hoje **abaixo do nível de reposição (2,1)**\n- Pirâmide etária → base estreitando, topo alargando (\"pirâmide\" virando retângulo/barril)\n- Aumento da razão de dependência de idosos e do índice de envelhecimento\n\nTransição epidemiológica:\n- Infecciosas e mortalidade infantil caem → **DCNT** (cardiovascular, câncer, DM, DPOC) e **causas externas** sobem\n- Mortalidade desloca-se dos jovens para os idosos; morbidade predomina sobre mortalidade\n\nBrasil — modelo \"polarizado prolongado\":\n- **Superposição** → doenças infecciosas e crônicas ao mesmo tempo (**tripla carga**: infecciosas/carenciais, DCNT e causas externas)\n- **Contratransição** → reemergência de doenças (dengue, sífilis, sarampo, febre amarela)\n- **Transição prolongada** → indefinida, sem completar\n- **Polarização epidemiológica** → perfis diferentes entre regiões e classes sociais\n\nTransição nutricional:\n- Queda da desnutrição e aumento do **sobrepeso/obesidade** (ultraprocessados, sedentarismo)\n\nPrincipais causas de morte no Brasil:\n- Doenças do aparelho circulatório (1º), neoplasias (2º), causas externas (principal entre jovens, sobretudo homens)\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: o que cai primeiro (mortalidade), características do modelo brasileiro e conceitos (contratransição, polarização).",
+   "ctxvisual": [
+    {
+     "tipo": "fluxo",
+     "passos": [
+      "Fase 1: natalidade e mortalidade altas",
+      "Fase 2: mortalidade cai → explosão populacional",
+      "Fase 3: natalidade cai",
+      "Fase 4: ambas baixas → envelhecimento"
+     ]
+    }
+   ],
+   "fonte": "Omran AR — The epidemiologic transition (1971) / Frenk J et al. — modelo polarizado prolongado (1991) / IBGE — Censo Demográfico 2022 / Rouquayrol — Epidemiologia & Saúde 8ª ed.",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Medicina Preventiva",
+   "tema": "Epidemiologia",
+   "sub": "Transição demográfica e epidemiológica",
+   "id": "trd-d1",
+   "tipo": "digitar",
+   "prio": "media",
+   "frente": "Qual o nome do ressurgimento de doenças infecciosas já controladas?",
+   "verso": "**Contratransição.**",
+   "resposta": "Contratransição",
+   "aceitas": [
+    "contratransição",
+    "contratransicao",
+    "contra-transição"
+   ],
+   "macete": "Voltou = contra.",
+   "uerj": "Cobra conceitos (contratransição, polarização, superposição) e a ordem da transição.",
+   "contexto": "**Transição demográfica = passagem de altas taxas de natalidade e mortalidade para taxas baixas, com envelhecimento da população; transição epidemiológica = troca do predomínio das doenças infecciosas pelas doenças crônicas não transmissíveis (DCNT) e causas externas.**\n\nFases da transição demográfica:\n- **1** → natalidade e mortalidade altas, crescimento lento\n- **2** → **mortalidade cai primeiro** (saneamento, vacinas, antibióticos) e natalidade segue alta → **explosão populacional**\n- **3** → natalidade cai (urbanização, mulher no mercado, contracepção) → crescimento desacelera\n- **4** → ambas baixas → população estável e **envelhecida**\n\nBrasil:\n- Transição rápida: queda acentuada da fecundidade desde os anos 1960–70; taxa de fecundidade total hoje **abaixo do nível de reposição (2,1)**\n- Pirâmide etária → base estreitando, topo alargando (\"pirâmide\" virando retângulo/barril)\n- Aumento da razão de dependência de idosos e do índice de envelhecimento\n\nTransição epidemiológica:\n- Infecciosas e mortalidade infantil caem → **DCNT** (cardiovascular, câncer, DM, DPOC) e **causas externas** sobem\n- Mortalidade desloca-se dos jovens para os idosos; morbidade predomina sobre mortalidade\n\nBrasil — modelo \"polarizado prolongado\":\n- **Superposição** → doenças infecciosas e crônicas ao mesmo tempo (**tripla carga**: infecciosas/carenciais, DCNT e causas externas)\n- **Contratransição** → reemergência de doenças (dengue, sífilis, sarampo, febre amarela)\n- **Transição prolongada** → indefinida, sem completar\n- **Polarização epidemiológica** → perfis diferentes entre regiões e classes sociais\n\nTransição nutricional:\n- Queda da desnutrição e aumento do **sobrepeso/obesidade** (ultraprocessados, sedentarismo)\n\nPrincipais causas de morte no Brasil:\n- Doenças do aparelho circulatório (1º), neoplasias (2º), causas externas (principal entre jovens, sobretudo homens)\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: o que cai primeiro (mortalidade), características do modelo brasileiro e conceitos (contratransição, polarização).",
+   "ctxvisual": [
+    {
+     "tipo": "fluxo",
+     "passos": [
+      "Fase 1: natalidade e mortalidade altas",
+      "Fase 2: mortalidade cai → explosão populacional",
+      "Fase 3: natalidade cai",
+      "Fase 4: ambas baixas → envelhecimento"
+     ]
+    }
+   ],
+   "fonte": "Omran AR — The epidemiologic transition (1971) / Frenk J et al. — modelo polarizado prolongado (1991) / IBGE — Censo Demográfico 2022 / Rouquayrol — Epidemiologia & Saúde 8ª ed.",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Medicina Preventiva",
+   "tema": "Epidemiologia",
+   "sub": "Transição demográfica e epidemiológica",
+   "id": "trd-d2",
+   "tipo": "digitar",
+   "prio": "media",
+   "frente": "Qual a taxa de fecundidade total de reposição populacional?",
+   "verso": "**2,1 filhos por mulher.**",
+   "resposta": "2,1",
+   "aceitas": [
+    "2,1",
+    "2.1",
+    "2,1 filhos",
+    "2,1 filhos por mulher"
+   ],
+   "macete": "2 pais + 0,1 de mortalidade.",
+   "uerj": "Cobra conceitos (contratransição, polarização, superposição) e a ordem da transição.",
+   "contexto": "**Transição demográfica = passagem de altas taxas de natalidade e mortalidade para taxas baixas, com envelhecimento da população; transição epidemiológica = troca do predomínio das doenças infecciosas pelas doenças crônicas não transmissíveis (DCNT) e causas externas.**\n\nFases da transição demográfica:\n- **1** → natalidade e mortalidade altas, crescimento lento\n- **2** → **mortalidade cai primeiro** (saneamento, vacinas, antibióticos) e natalidade segue alta → **explosão populacional**\n- **3** → natalidade cai (urbanização, mulher no mercado, contracepção) → crescimento desacelera\n- **4** → ambas baixas → população estável e **envelhecida**\n\nBrasil:\n- Transição rápida: queda acentuada da fecundidade desde os anos 1960–70; taxa de fecundidade total hoje **abaixo do nível de reposição (2,1)**\n- Pirâmide etária → base estreitando, topo alargando (\"pirâmide\" virando retângulo/barril)\n- Aumento da razão de dependência de idosos e do índice de envelhecimento\n\nTransição epidemiológica:\n- Infecciosas e mortalidade infantil caem → **DCNT** (cardiovascular, câncer, DM, DPOC) e **causas externas** sobem\n- Mortalidade desloca-se dos jovens para os idosos; morbidade predomina sobre mortalidade\n\nBrasil — modelo \"polarizado prolongado\":\n- **Superposição** → doenças infecciosas e crônicas ao mesmo tempo (**tripla carga**: infecciosas/carenciais, DCNT e causas externas)\n- **Contratransição** → reemergência de doenças (dengue, sífilis, sarampo, febre amarela)\n- **Transição prolongada** → indefinida, sem completar\n- **Polarização epidemiológica** → perfis diferentes entre regiões e classes sociais\n\nTransição nutricional:\n- Queda da desnutrição e aumento do **sobrepeso/obesidade** (ultraprocessados, sedentarismo)\n\nPrincipais causas de morte no Brasil:\n- Doenças do aparelho circulatório (1º), neoplasias (2º), causas externas (principal entre jovens, sobretudo homens)\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: o que cai primeiro (mortalidade), características do modelo brasileiro e conceitos (contratransição, polarização).",
+   "ctxvisual": [
+    {
+     "tipo": "fluxo",
+     "passos": [
+      "Fase 1: natalidade e mortalidade altas",
+      "Fase 2: mortalidade cai → explosão populacional",
+      "Fase 3: natalidade cai",
+      "Fase 4: ambas baixas → envelhecimento"
+     ]
+    }
+   ],
+   "fonte": "Omran AR — The epidemiologic transition (1971) / Frenk J et al. — modelo polarizado prolongado (1991) / IBGE — Censo Demográfico 2022 / Rouquayrol — Epidemiologia & Saúde 8ª ed.",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Medicina Preventiva",
+   "tema": "SUS",
+   "sub": "História das políticas de saúde no Brasil",
+   "id": "hps-01",
+   "tipo": "flash",
+   "prio": "alta",
+   "frente": "Qual o marco da Reforma Sanitária brasileira?",
+   "verso": "Raciocínio:\n- Pela 1ª vez, sociedade civil e técnicos discutiram juntos um sistema único e universal → o relatório final virou a base do capítulo da saúde na Constituição.\n\n**VIII Conferência Nacional de Saúde (1986).**\n\nResultado:\n- Saúde como direito de todos e dever do Estado (CF 1988).",
+   "macete": "\"86 sonhou, 88 escreveu, 90 regulamentou\".",
+   "pegadinha": "A VIII CNS foi antes da Constituição; a Lei 8.142 é que institucionalizou as conferências.",
+   "uerj": "Cobra a ordem dos marcos históricos e o que cada um criou.",
+   "contexto": "**A história da saúde pública no Brasil vai do sanitarismo campanhista e da assistência ligada à previdência (só para quem tinha carteira) até o SUS universal da Constituição de 1988.**\n\nRepública Velha:\n- **Sanitarismo campanhista** (Oswaldo Cruz) → campanhas contra febre amarela, peste, varíola; vacinação obrigatória → **Revolta da Vacina (1904)**\n- **Lei Eloy Chaves (1923)** → **Caixas de Aposentadorias e Pensões (CAPs)** por empresa → marco da previdência social\n\nEra Vargas:\n- **IAPs (Institutos de Aposentadorias e Pensões)** por categoria profissional (anos 1930)\n- Criação do Ministério da Educação e Saúde (1930); Ministério da Saúde separado em 1953\n\nDitadura militar:\n- **INPS (1966)** → unifica os IAPs; modelo **médico-assistencial privatista** (compra de serviços privados)\n- **INAMPS (1977)** dentro do SINPAS → assistência médica só para contribuintes\n- **PIASS (1976)** → interiorização das ações de saúde\n\nCrise e Reforma Sanitária:\n- **CONASP (1982) / Ações Integradas de Saúde – AIS (1983)**\n- **VIII Conferência Nacional de Saúde (1986)** → **marco da Reforma Sanitária**, base do SUS (saúde como direito)\n- **SUDS (1987)** → transição, descentralização\n\nSUS:\n- **Constituição de 1988 (arts. 196–200)** → \"saúde é direito de todos e dever do Estado\"\n- **Lei 8.080/1990** (organização, princípios) e **Lei 8.142/1990** (participação social: conferências e conselhos; transferências)\n- **INAMPS extinto em 1993**\n- PACS (1991) e **PSF (1994)** → hoje Estratégia Saúde da Família\n- NOBs (91, 93, **96** → PAB) e NOAS (2001/2002) → regionalização\n- **Pacto pela Saúde (2006)** → Pactos pela Vida, em Defesa do SUS e de Gestão\n- **Decreto 7.508/2011** → Regiões de Saúde, portas de entrada, COAP, RENASES e RENAME\n- Financiamento → EC 29/2000, LC 141/2012, EC 95/2016 (teto de gastos)\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: ordem dos marcos (Eloy Chaves → IAPs → INPS → INAMPS → VIII CNS → CF/88 → leis de 1990).",
+   "ctxvisual": [
+    {
+     "tipo": "fluxo",
+     "passos": [
+      "1923: Lei Eloy Chaves (CAPs)",
+      "1930s: IAPs",
+      "1966: INPS",
+      "1977: INAMPS",
+      "1986: VIII Conferência Nacional de Saúde",
+      "1988: Constituição — SUS",
+      "1990: Leis 8.080 e 8.142"
+     ]
+    }
+   ],
+   "fonte": "Paim JS et al. — O sistema de saúde brasileiro: história, avanços e desafios (Lancet, 2011) / Constituição Federal 1988 / Leis 8.080 e 8.142 (1990) / Decreto 7.508 (2011)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Medicina Preventiva",
+   "tema": "SUS",
+   "sub": "História das políticas de saúde no Brasil",
+   "id": "hps-02",
+   "tipo": "flash",
+   "prio": "alta",
+   "frente": "Qual lei é o marco inicial da previdência social no Brasil?",
+   "verso": "Raciocínio:\n- A assistência médica nasceu ligada ao trabalho formal: só tinha direito quem contribuía.\n\n**Lei Eloy Chaves (1923).**\n\nCriou:\n- As CAPs (Caixas de Aposentadorias e Pensões), por empresa.\n\nDepois:\n- IAPs (por categoria) → INPS → INAMPS.",
+   "macete": "\"Eloy Chaves abriu a Caixa\".",
+   "pegadinha": "CAP era por empresa; IAP era por categoria profissional.",
+   "uerj": "Cobra a ordem dos marcos históricos e o que cada um criou.",
+   "contexto": "**A história da saúde pública no Brasil vai do sanitarismo campanhista e da assistência ligada à previdência (só para quem tinha carteira) até o SUS universal da Constituição de 1988.**\n\nRepública Velha:\n- **Sanitarismo campanhista** (Oswaldo Cruz) → campanhas contra febre amarela, peste, varíola; vacinação obrigatória → **Revolta da Vacina (1904)**\n- **Lei Eloy Chaves (1923)** → **Caixas de Aposentadorias e Pensões (CAPs)** por empresa → marco da previdência social\n\nEra Vargas:\n- **IAPs (Institutos de Aposentadorias e Pensões)** por categoria profissional (anos 1930)\n- Criação do Ministério da Educação e Saúde (1930); Ministério da Saúde separado em 1953\n\nDitadura militar:\n- **INPS (1966)** → unifica os IAPs; modelo **médico-assistencial privatista** (compra de serviços privados)\n- **INAMPS (1977)** dentro do SINPAS → assistência médica só para contribuintes\n- **PIASS (1976)** → interiorização das ações de saúde\n\nCrise e Reforma Sanitária:\n- **CONASP (1982) / Ações Integradas de Saúde – AIS (1983)**\n- **VIII Conferência Nacional de Saúde (1986)** → **marco da Reforma Sanitária**, base do SUS (saúde como direito)\n- **SUDS (1987)** → transição, descentralização\n\nSUS:\n- **Constituição de 1988 (arts. 196–200)** → \"saúde é direito de todos e dever do Estado\"\n- **Lei 8.080/1990** (organização, princípios) e **Lei 8.142/1990** (participação social: conferências e conselhos; transferências)\n- **INAMPS extinto em 1993**\n- PACS (1991) e **PSF (1994)** → hoje Estratégia Saúde da Família\n- NOBs (91, 93, **96** → PAB) e NOAS (2001/2002) → regionalização\n- **Pacto pela Saúde (2006)** → Pactos pela Vida, em Defesa do SUS e de Gestão\n- **Decreto 7.508/2011** → Regiões de Saúde, portas de entrada, COAP, RENASES e RENAME\n- Financiamento → EC 29/2000, LC 141/2012, EC 95/2016 (teto de gastos)\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: ordem dos marcos (Eloy Chaves → IAPs → INPS → INAMPS → VIII CNS → CF/88 → leis de 1990).",
+   "ctxvisual": [
+    {
+     "tipo": "fluxo",
+     "passos": [
+      "1923: Lei Eloy Chaves (CAPs)",
+      "1930s: IAPs",
+      "1966: INPS",
+      "1977: INAMPS",
+      "1986: VIII Conferência Nacional de Saúde",
+      "1988: Constituição — SUS",
+      "1990: Leis 8.080 e 8.142"
+     ]
+    }
+   ],
+   "fonte": "Paim JS et al. — O sistema de saúde brasileiro: história, avanços e desafios (Lancet, 2011) / Constituição Federal 1988 / Leis 8.080 e 8.142 (1990) / Decreto 7.508 (2011)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Medicina Preventiva",
+   "tema": "SUS",
+   "sub": "História das políticas de saúde no Brasil",
+   "tipo": "quiz",
+   "frente": "Sobre a história das políticas de saúde no Brasil, analise: I. A Lei Eloy Chaves (1923) criou as Caixas de Aposentadorias e Pensões. II. A VIII Conferência Nacional de Saúde ocorreu em 1986 e foi marco da Reforma Sanitária. III. O INAMPS garantia assistência universal a todos os brasileiros. Está(ão) correta(s):",
+   "opcoes": [
+    "Apenas I e III.",
+    "Apenas I e II.",
+    "Apenas II e III.",
+    "I, II e III."
+   ],
+   "certa": 1,
+   "comentarios": [
+    "III é falsa.",
+    "Correta. III é falsa: o INAMPS atendia apenas contribuintes da previdência.",
+    "III é falsa.",
+    "III é falsa."
+   ],
+   "id": "hps-q1",
+   "prio": "alta",
+   "macete": "\"Universal só depois de 88\".",
+   "pegadinha": "INAMPS não era universal.",
+   "uerj": "Cobra a ordem dos marcos históricos e o que cada um criou.",
+   "contexto": "**A história da saúde pública no Brasil vai do sanitarismo campanhista e da assistência ligada à previdência (só para quem tinha carteira) até o SUS universal da Constituição de 1988.**\n\nRepública Velha:\n- **Sanitarismo campanhista** (Oswaldo Cruz) → campanhas contra febre amarela, peste, varíola; vacinação obrigatória → **Revolta da Vacina (1904)**\n- **Lei Eloy Chaves (1923)** → **Caixas de Aposentadorias e Pensões (CAPs)** por empresa → marco da previdência social\n\nEra Vargas:\n- **IAPs (Institutos de Aposentadorias e Pensões)** por categoria profissional (anos 1930)\n- Criação do Ministério da Educação e Saúde (1930); Ministério da Saúde separado em 1953\n\nDitadura militar:\n- **INPS (1966)** → unifica os IAPs; modelo **médico-assistencial privatista** (compra de serviços privados)\n- **INAMPS (1977)** dentro do SINPAS → assistência médica só para contribuintes\n- **PIASS (1976)** → interiorização das ações de saúde\n\nCrise e Reforma Sanitária:\n- **CONASP (1982) / Ações Integradas de Saúde – AIS (1983)**\n- **VIII Conferência Nacional de Saúde (1986)** → **marco da Reforma Sanitária**, base do SUS (saúde como direito)\n- **SUDS (1987)** → transição, descentralização\n\nSUS:\n- **Constituição de 1988 (arts. 196–200)** → \"saúde é direito de todos e dever do Estado\"\n- **Lei 8.080/1990** (organização, princípios) e **Lei 8.142/1990** (participação social: conferências e conselhos; transferências)\n- **INAMPS extinto em 1993**\n- PACS (1991) e **PSF (1994)** → hoje Estratégia Saúde da Família\n- NOBs (91, 93, **96** → PAB) e NOAS (2001/2002) → regionalização\n- **Pacto pela Saúde (2006)** → Pactos pela Vida, em Defesa do SUS e de Gestão\n- **Decreto 7.508/2011** → Regiões de Saúde, portas de entrada, COAP, RENASES e RENAME\n- Financiamento → EC 29/2000, LC 141/2012, EC 95/2016 (teto de gastos)\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: ordem dos marcos (Eloy Chaves → IAPs → INPS → INAMPS → VIII CNS → CF/88 → leis de 1990).",
+   "ctxvisual": [
+    {
+     "tipo": "fluxo",
+     "passos": [
+      "1923: Lei Eloy Chaves (CAPs)",
+      "1930s: IAPs",
+      "1966: INPS",
+      "1977: INAMPS",
+      "1986: VIII Conferência Nacional de Saúde",
+      "1988: Constituição — SUS",
+      "1990: Leis 8.080 e 8.142"
+     ]
+    }
+   ],
+   "fonte": "Paim JS et al. — O sistema de saúde brasileiro: história, avanços e desafios (Lancet, 2011) / Constituição Federal 1988 / Leis 8.080 e 8.142 (1990) / Decreto 7.508 (2011)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Medicina Preventiva",
+   "tema": "SUS",
+   "sub": "História das políticas de saúde no Brasil",
+   "id": "hps-d1",
+   "tipo": "digitar",
+   "prio": "alta",
+   "frente": "Em que ano ocorreu a VIII Conferência Nacional de Saúde?",
+   "verso": "**1986.**",
+   "resposta": "1986",
+   "aceitas": [
+    "1986",
+    "86"
+   ],
+   "macete": "86.",
+   "uerj": "Cobra a ordem dos marcos históricos e o que cada um criou.",
+   "contexto": "**A história da saúde pública no Brasil vai do sanitarismo campanhista e da assistência ligada à previdência (só para quem tinha carteira) até o SUS universal da Constituição de 1988.**\n\nRepública Velha:\n- **Sanitarismo campanhista** (Oswaldo Cruz) → campanhas contra febre amarela, peste, varíola; vacinação obrigatória → **Revolta da Vacina (1904)**\n- **Lei Eloy Chaves (1923)** → **Caixas de Aposentadorias e Pensões (CAPs)** por empresa → marco da previdência social\n\nEra Vargas:\n- **IAPs (Institutos de Aposentadorias e Pensões)** por categoria profissional (anos 1930)\n- Criação do Ministério da Educação e Saúde (1930); Ministério da Saúde separado em 1953\n\nDitadura militar:\n- **INPS (1966)** → unifica os IAPs; modelo **médico-assistencial privatista** (compra de serviços privados)\n- **INAMPS (1977)** dentro do SINPAS → assistência médica só para contribuintes\n- **PIASS (1976)** → interiorização das ações de saúde\n\nCrise e Reforma Sanitária:\n- **CONASP (1982) / Ações Integradas de Saúde – AIS (1983)**\n- **VIII Conferência Nacional de Saúde (1986)** → **marco da Reforma Sanitária**, base do SUS (saúde como direito)\n- **SUDS (1987)** → transição, descentralização\n\nSUS:\n- **Constituição de 1988 (arts. 196–200)** → \"saúde é direito de todos e dever do Estado\"\n- **Lei 8.080/1990** (organização, princípios) e **Lei 8.142/1990** (participação social: conferências e conselhos; transferências)\n- **INAMPS extinto em 1993**\n- PACS (1991) e **PSF (1994)** → hoje Estratégia Saúde da Família\n- NOBs (91, 93, **96** → PAB) e NOAS (2001/2002) → regionalização\n- **Pacto pela Saúde (2006)** → Pactos pela Vida, em Defesa do SUS e de Gestão\n- **Decreto 7.508/2011** → Regiões de Saúde, portas de entrada, COAP, RENASES e RENAME\n- Financiamento → EC 29/2000, LC 141/2012, EC 95/2016 (teto de gastos)\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: ordem dos marcos (Eloy Chaves → IAPs → INPS → INAMPS → VIII CNS → CF/88 → leis de 1990).",
+   "ctxvisual": [
+    {
+     "tipo": "fluxo",
+     "passos": [
+      "1923: Lei Eloy Chaves (CAPs)",
+      "1930s: IAPs",
+      "1966: INPS",
+      "1977: INAMPS",
+      "1986: VIII Conferência Nacional de Saúde",
+      "1988: Constituição — SUS",
+      "1990: Leis 8.080 e 8.142"
+     ]
+    }
+   ],
+   "fonte": "Paim JS et al. — O sistema de saúde brasileiro: história, avanços e desafios (Lancet, 2011) / Constituição Federal 1988 / Leis 8.080 e 8.142 (1990) / Decreto 7.508 (2011)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Medicina Preventiva",
+   "tema": "SUS",
+   "sub": "História das políticas de saúde no Brasil",
+   "id": "hps-d2",
+   "tipo": "digitar",
+   "prio": "media",
+   "frente": "Qual lei criou as Caixas de Aposentadorias e Pensões (1923)?",
+   "verso": "**Lei Eloy Chaves.**",
+   "resposta": "Eloy Chaves",
+   "aceitas": [
+    "eloy chaves",
+    "lei eloy chaves",
+    "eloi chaves"
+   ],
+   "macete": "Eloy Chaves = CAPs.",
+   "uerj": "Cobra a ordem dos marcos históricos e o que cada um criou.",
+   "contexto": "**A história da saúde pública no Brasil vai do sanitarismo campanhista e da assistência ligada à previdência (só para quem tinha carteira) até o SUS universal da Constituição de 1988.**\n\nRepública Velha:\n- **Sanitarismo campanhista** (Oswaldo Cruz) → campanhas contra febre amarela, peste, varíola; vacinação obrigatória → **Revolta da Vacina (1904)**\n- **Lei Eloy Chaves (1923)** → **Caixas de Aposentadorias e Pensões (CAPs)** por empresa → marco da previdência social\n\nEra Vargas:\n- **IAPs (Institutos de Aposentadorias e Pensões)** por categoria profissional (anos 1930)\n- Criação do Ministério da Educação e Saúde (1930); Ministério da Saúde separado em 1953\n\nDitadura militar:\n- **INPS (1966)** → unifica os IAPs; modelo **médico-assistencial privatista** (compra de serviços privados)\n- **INAMPS (1977)** dentro do SINPAS → assistência médica só para contribuintes\n- **PIASS (1976)** → interiorização das ações de saúde\n\nCrise e Reforma Sanitária:\n- **CONASP (1982) / Ações Integradas de Saúde – AIS (1983)**\n- **VIII Conferência Nacional de Saúde (1986)** → **marco da Reforma Sanitária**, base do SUS (saúde como direito)\n- **SUDS (1987)** → transição, descentralização\n\nSUS:\n- **Constituição de 1988 (arts. 196–200)** → \"saúde é direito de todos e dever do Estado\"\n- **Lei 8.080/1990** (organização, princípios) e **Lei 8.142/1990** (participação social: conferências e conselhos; transferências)\n- **INAMPS extinto em 1993**\n- PACS (1991) e **PSF (1994)** → hoje Estratégia Saúde da Família\n- NOBs (91, 93, **96** → PAB) e NOAS (2001/2002) → regionalização\n- **Pacto pela Saúde (2006)** → Pactos pela Vida, em Defesa do SUS e de Gestão\n- **Decreto 7.508/2011** → Regiões de Saúde, portas de entrada, COAP, RENASES e RENAME\n- Financiamento → EC 29/2000, LC 141/2012, EC 95/2016 (teto de gastos)\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: ordem dos marcos (Eloy Chaves → IAPs → INPS → INAMPS → VIII CNS → CF/88 → leis de 1990).",
+   "ctxvisual": [
+    {
+     "tipo": "fluxo",
+     "passos": [
+      "1923: Lei Eloy Chaves (CAPs)",
+      "1930s: IAPs",
+      "1966: INPS",
+      "1977: INAMPS",
+      "1986: VIII Conferência Nacional de Saúde",
+      "1988: Constituição — SUS",
+      "1990: Leis 8.080 e 8.142"
+     ]
+    }
+   ],
+   "fonte": "Paim JS et al. — O sistema de saúde brasileiro: história, avanços e desafios (Lancet, 2011) / Constituição Federal 1988 / Leis 8.080 e 8.142 (1990) / Decreto 7.508 (2011)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Medicina Preventiva",
+   "tema": "Vigilância em Saúde",
+   "sub": "Violência — notificação e atendimento à violência sexual",
+   "id": "vio-01",
+   "tipo": "flash",
+   "prio": "alta",
+   "frente": "Violência: quais são de notificação imediata?",
+   "verso": "Raciocínio:\n- São as situações em que agir em horas muda o desfecho: profilaxias da violência sexual e risco de nova tentativa de suicídio.\n\n**Violência sexual.**\n**Tentativa de suicídio.**\n\nDemais violências:\n- Notificação semanal.\n\nBasta suspeita:\n- Não precisa confirmar para notificar.",
+   "macete": "\"Sexual e Suicídio = Super urgentes (24 h)\".",
+   "pegadinha": "Criança vítima de violência: notificar no SINAN E comunicar o Conselho Tutelar.",
+   "uerj": "Cobra prazos de notificação, a quem comunicar e as profilaxias.",
+   "contexto": "**Violência interpessoal e autoprovocada é agravo de notificação compulsória no SINAN; a violência sexual exige atendimento de urgência com profilaxias em até 72 h.**\n\nNotificação (Portaria de Consolidação nº 4/2017 e atualizações):\n- **Toda suspeita ou confirmação** de violência → ficha do SINAN (não precisa ter certeza)\n- **Imediata (24 h, à secretaria municipal)** → **violência sexual** e **tentativa de suicídio**\n- **Semanal** → demais violências (física, psicológica, negligência, trabalho infantil etc.)\n- Notificar não é denunciar: é instrumento de vigilância e de acesso à rede de proteção\n\nComunicação obrigatória além da notificação:\n- **Criança e adolescente** → **Conselho Tutelar** (ECA)\n- **Pessoa idosa** → autoridade policial, Ministério Público ou Conselho do Idoso (Estatuto da Pessoa Idosa)\n- **Mulher** → notificação compulsória (Lei 10.778/2003); comunicação à **autoridade policial em 24 h** em casos com indícios ou confirmação (Lei 13.931/2019), para fins estatísticos\n\nAtendimento à violência sexual (Lei 12.845/2013 — atendimento obrigatório e integral):\n- **Não exige boletim de ocorrência** para atendimento nem para aborto legal\n- Acolhimento, exame, coleta de vestígios (se possível), registro\n- Profilaxias:\n  - **Contracepção de emergência** → levonorgestrel 1,5 mg dose única (até 5 dias; quanto antes, melhor)\n  - **PEP para HIV** → **até 72 h**, por **28 dias** (tenofovir + lamivudina + dolutegravir)\n  - **ISTs bacterianas** → ceftriaxona + azitromicina + penicilina benzatina (± metronidazol)\n  - **Hepatite B** → vacina (+ imunoglobulina se não vacinada)\n- Seguimento sorológico (HIV, sífilis, hepatites) e apoio psicológico\n- Gestação decorrente de estupro → **aborto legal** (só a palavra da mulher; sem limite legal de idade gestacional no Código Penal)\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: o que é notificação imediata, a quem comunicar em cada grupo e as profilaxias da violência sexual.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "cab": [
+      "Situação",
+      "Notificação",
+      "Comunicar também"
+     ],
+     "linhas": [
+      [
+       "Violência sexual",
+       "Imediata (24 h)",
+       "Conforme o grupo"
+      ],
+      [
+       "Tentativa de suicídio",
+       "Imediata (24 h)",
+       "Rede de saúde mental"
+      ],
+      [
+       "Outras violências",
+       "Semanal",
+       "—"
+      ],
+      [
+       "Criança/adolescente",
+       "SINAN",
+       "Conselho Tutelar"
+      ],
+      [
+       "Pessoa idosa",
+       "SINAN",
+       "Polícia, MP ou Conselho do Idoso"
+      ],
+      [
+       "Mulher",
+       "SINAN",
+       "Autoridade policial em 24 h (Lei 13.931/2019)"
+      ]
+     ]
+    }
+   ],
+   "fonte": "Ministério da Saúde — Portaria de Consolidação nº 4/2017 (lista de notificação compulsória, atualizada) / Norma técnica: Prevenção e tratamento dos agravos da violência sexual (2012) / PCDT PEP (2024) / PCDT IST (2022) / Leis 12.845/2013 e 13.931/2019",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Medicina Preventiva",
+   "tema": "Vigilância em Saúde",
+   "sub": "Violência — notificação e atendimento à violência sexual",
+   "id": "vio-02",
+   "tipo": "flash",
+   "prio": "alta",
+   "frente": "Violência sexual: profilaxias no atendimento",
+   "verso": "Raciocínio:\n- O HIV leva horas a dias para se estabelecer → o antirretroviral precoce impede a infecção.\n- A contracepção de emergência atrasa a ovulação → funciona melhor quanto antes.\n\n**PEP para HIV até 72 h, por 28 dias.**\n**Contracepção de emergência (levonorgestrel).**\n**Profilaxia de ISTs e hepatite B.**\n\nNão exige:\n- Boletim de ocorrência.",
+   "macete": "\"72 h para o HIV, 5 dias para a pílula\".",
+   "pegadinha": "O aborto legal por estupro não exige BO nem autorização judicial.",
+   "uerj": "Cobra prazos de notificação, a quem comunicar e as profilaxias.",
+   "contexto": "**Violência interpessoal e autoprovocada é agravo de notificação compulsória no SINAN; a violência sexual exige atendimento de urgência com profilaxias em até 72 h.**\n\nNotificação (Portaria de Consolidação nº 4/2017 e atualizações):\n- **Toda suspeita ou confirmação** de violência → ficha do SINAN (não precisa ter certeza)\n- **Imediata (24 h, à secretaria municipal)** → **violência sexual** e **tentativa de suicídio**\n- **Semanal** → demais violências (física, psicológica, negligência, trabalho infantil etc.)\n- Notificar não é denunciar: é instrumento de vigilância e de acesso à rede de proteção\n\nComunicação obrigatória além da notificação:\n- **Criança e adolescente** → **Conselho Tutelar** (ECA)\n- **Pessoa idosa** → autoridade policial, Ministério Público ou Conselho do Idoso (Estatuto da Pessoa Idosa)\n- **Mulher** → notificação compulsória (Lei 10.778/2003); comunicação à **autoridade policial em 24 h** em casos com indícios ou confirmação (Lei 13.931/2019), para fins estatísticos\n\nAtendimento à violência sexual (Lei 12.845/2013 — atendimento obrigatório e integral):\n- **Não exige boletim de ocorrência** para atendimento nem para aborto legal\n- Acolhimento, exame, coleta de vestígios (se possível), registro\n- Profilaxias:\n  - **Contracepção de emergência** → levonorgestrel 1,5 mg dose única (até 5 dias; quanto antes, melhor)\n  - **PEP para HIV** → **até 72 h**, por **28 dias** (tenofovir + lamivudina + dolutegravir)\n  - **ISTs bacterianas** → ceftriaxona + azitromicina + penicilina benzatina (± metronidazol)\n  - **Hepatite B** → vacina (+ imunoglobulina se não vacinada)\n- Seguimento sorológico (HIV, sífilis, hepatites) e apoio psicológico\n- Gestação decorrente de estupro → **aborto legal** (só a palavra da mulher; sem limite legal de idade gestacional no Código Penal)\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: o que é notificação imediata, a quem comunicar em cada grupo e as profilaxias da violência sexual.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "cab": [
+      "Situação",
+      "Notificação",
+      "Comunicar também"
+     ],
+     "linhas": [
+      [
+       "Violência sexual",
+       "Imediata (24 h)",
+       "Conforme o grupo"
+      ],
+      [
+       "Tentativa de suicídio",
+       "Imediata (24 h)",
+       "Rede de saúde mental"
+      ],
+      [
+       "Outras violências",
+       "Semanal",
+       "—"
+      ],
+      [
+       "Criança/adolescente",
+       "SINAN",
+       "Conselho Tutelar"
+      ],
+      [
+       "Pessoa idosa",
+       "SINAN",
+       "Polícia, MP ou Conselho do Idoso"
+      ],
+      [
+       "Mulher",
+       "SINAN",
+       "Autoridade policial em 24 h (Lei 13.931/2019)"
+      ]
+     ]
+    }
+   ],
+   "fonte": "Ministério da Saúde — Portaria de Consolidação nº 4/2017 (lista de notificação compulsória, atualizada) / Norma técnica: Prevenção e tratamento dos agravos da violência sexual (2012) / PCDT PEP (2024) / PCDT IST (2022) / Leis 12.845/2013 e 13.931/2019",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Medicina Preventiva",
+   "tema": "Vigilância em Saúde",
+   "sub": "Violência — notificação e atendimento à violência sexual",
+   "tipo": "quiz",
+   "frente": "Sobre violência e notificação, analise: I. A violência sexual é de notificação imediata. II. A notificação exige confirmação da violência. III. A profilaxia pós-exposição ao HIV deve ser iniciada em até 72 horas. Está(ão) correta(s):",
+   "opcoes": [
+    "Apenas I e II.",
+    "Apenas II e III.",
+    "Apenas I e III.",
+    "I, II e III."
+   ],
+   "certa": 2,
+   "comentarios": [
+    "II é falsa.",
+    "II é falsa.",
+    "Correta. II é falsa: basta a suspeita.",
+    "II é falsa."
+   ],
+   "id": "vio-q1",
+   "prio": "alta",
+   "macete": "\"Suspeitou, notificou\".",
+   "pegadinha": "Não precisa confirmar.",
+   "uerj": "Cobra prazos de notificação, a quem comunicar e as profilaxias.",
+   "contexto": "**Violência interpessoal e autoprovocada é agravo de notificação compulsória no SINAN; a violência sexual exige atendimento de urgência com profilaxias em até 72 h.**\n\nNotificação (Portaria de Consolidação nº 4/2017 e atualizações):\n- **Toda suspeita ou confirmação** de violência → ficha do SINAN (não precisa ter certeza)\n- **Imediata (24 h, à secretaria municipal)** → **violência sexual** e **tentativa de suicídio**\n- **Semanal** → demais violências (física, psicológica, negligência, trabalho infantil etc.)\n- Notificar não é denunciar: é instrumento de vigilância e de acesso à rede de proteção\n\nComunicação obrigatória além da notificação:\n- **Criança e adolescente** → **Conselho Tutelar** (ECA)\n- **Pessoa idosa** → autoridade policial, Ministério Público ou Conselho do Idoso (Estatuto da Pessoa Idosa)\n- **Mulher** → notificação compulsória (Lei 10.778/2003); comunicação à **autoridade policial em 24 h** em casos com indícios ou confirmação (Lei 13.931/2019), para fins estatísticos\n\nAtendimento à violência sexual (Lei 12.845/2013 — atendimento obrigatório e integral):\n- **Não exige boletim de ocorrência** para atendimento nem para aborto legal\n- Acolhimento, exame, coleta de vestígios (se possível), registro\n- Profilaxias:\n  - **Contracepção de emergência** → levonorgestrel 1,5 mg dose única (até 5 dias; quanto antes, melhor)\n  - **PEP para HIV** → **até 72 h**, por **28 dias** (tenofovir + lamivudina + dolutegravir)\n  - **ISTs bacterianas** → ceftriaxona + azitromicina + penicilina benzatina (± metronidazol)\n  - **Hepatite B** → vacina (+ imunoglobulina se não vacinada)\n- Seguimento sorológico (HIV, sífilis, hepatites) e apoio psicológico\n- Gestação decorrente de estupro → **aborto legal** (só a palavra da mulher; sem limite legal de idade gestacional no Código Penal)\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: o que é notificação imediata, a quem comunicar em cada grupo e as profilaxias da violência sexual.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "cab": [
+      "Situação",
+      "Notificação",
+      "Comunicar também"
+     ],
+     "linhas": [
+      [
+       "Violência sexual",
+       "Imediata (24 h)",
+       "Conforme o grupo"
+      ],
+      [
+       "Tentativa de suicídio",
+       "Imediata (24 h)",
+       "Rede de saúde mental"
+      ],
+      [
+       "Outras violências",
+       "Semanal",
+       "—"
+      ],
+      [
+       "Criança/adolescente",
+       "SINAN",
+       "Conselho Tutelar"
+      ],
+      [
+       "Pessoa idosa",
+       "SINAN",
+       "Polícia, MP ou Conselho do Idoso"
+      ],
+      [
+       "Mulher",
+       "SINAN",
+       "Autoridade policial em 24 h (Lei 13.931/2019)"
+      ]
+     ]
+    }
+   ],
+   "fonte": "Ministério da Saúde — Portaria de Consolidação nº 4/2017 (lista de notificação compulsória, atualizada) / Norma técnica: Prevenção e tratamento dos agravos da violência sexual (2012) / PCDT PEP (2024) / PCDT IST (2022) / Leis 12.845/2013 e 13.931/2019",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Medicina Preventiva",
+   "tema": "Vigilância em Saúde",
+   "sub": "Violência — notificação e atendimento à violência sexual",
+   "id": "vio-d1",
+   "tipo": "digitar",
+   "prio": "alta",
+   "frente": "Até quantas horas após a exposição se inicia a PEP para HIV?",
+   "verso": "**72 horas.**\n\n- Duração: 28 dias.",
+   "resposta": "72 h",
+   "aceitas": [
+    "72",
+    "72h",
+    "72 horas",
+    "3 dias"
+   ],
+   "macete": "72.",
+   "uerj": "Cobra prazos de notificação, a quem comunicar e as profilaxias.",
+   "contexto": "**Violência interpessoal e autoprovocada é agravo de notificação compulsória no SINAN; a violência sexual exige atendimento de urgência com profilaxias em até 72 h.**\n\nNotificação (Portaria de Consolidação nº 4/2017 e atualizações):\n- **Toda suspeita ou confirmação** de violência → ficha do SINAN (não precisa ter certeza)\n- **Imediata (24 h, à secretaria municipal)** → **violência sexual** e **tentativa de suicídio**\n- **Semanal** → demais violências (física, psicológica, negligência, trabalho infantil etc.)\n- Notificar não é denunciar: é instrumento de vigilância e de acesso à rede de proteção\n\nComunicação obrigatória além da notificação:\n- **Criança e adolescente** → **Conselho Tutelar** (ECA)\n- **Pessoa idosa** → autoridade policial, Ministério Público ou Conselho do Idoso (Estatuto da Pessoa Idosa)\n- **Mulher** → notificação compulsória (Lei 10.778/2003); comunicação à **autoridade policial em 24 h** em casos com indícios ou confirmação (Lei 13.931/2019), para fins estatísticos\n\nAtendimento à violência sexual (Lei 12.845/2013 — atendimento obrigatório e integral):\n- **Não exige boletim de ocorrência** para atendimento nem para aborto legal\n- Acolhimento, exame, coleta de vestígios (se possível), registro\n- Profilaxias:\n  - **Contracepção de emergência** → levonorgestrel 1,5 mg dose única (até 5 dias; quanto antes, melhor)\n  - **PEP para HIV** → **até 72 h**, por **28 dias** (tenofovir + lamivudina + dolutegravir)\n  - **ISTs bacterianas** → ceftriaxona + azitromicina + penicilina benzatina (± metronidazol)\n  - **Hepatite B** → vacina (+ imunoglobulina se não vacinada)\n- Seguimento sorológico (HIV, sífilis, hepatites) e apoio psicológico\n- Gestação decorrente de estupro → **aborto legal** (só a palavra da mulher; sem limite legal de idade gestacional no Código Penal)\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: o que é notificação imediata, a quem comunicar em cada grupo e as profilaxias da violência sexual.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "cab": [
+      "Situação",
+      "Notificação",
+      "Comunicar também"
+     ],
+     "linhas": [
+      [
+       "Violência sexual",
+       "Imediata (24 h)",
+       "Conforme o grupo"
+      ],
+      [
+       "Tentativa de suicídio",
+       "Imediata (24 h)",
+       "Rede de saúde mental"
+      ],
+      [
+       "Outras violências",
+       "Semanal",
+       "—"
+      ],
+      [
+       "Criança/adolescente",
+       "SINAN",
+       "Conselho Tutelar"
+      ],
+      [
+       "Pessoa idosa",
+       "SINAN",
+       "Polícia, MP ou Conselho do Idoso"
+      ],
+      [
+       "Mulher",
+       "SINAN",
+       "Autoridade policial em 24 h (Lei 13.931/2019)"
+      ]
+     ]
+    }
+   ],
+   "fonte": "Ministério da Saúde — Portaria de Consolidação nº 4/2017 (lista de notificação compulsória, atualizada) / Norma técnica: Prevenção e tratamento dos agravos da violência sexual (2012) / PCDT PEP (2024) / PCDT IST (2022) / Leis 12.845/2013 e 13.931/2019",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Medicina Preventiva",
+   "tema": "Vigilância em Saúde",
+   "sub": "Violência — notificação e atendimento à violência sexual",
+   "id": "vio-d2",
+   "tipo": "digitar",
+   "prio": "alta",
+   "frente": "A quem se comunica a violência contra criança ou adolescente?",
+   "verso": "**Conselho Tutelar.**",
+   "resposta": "Conselho Tutelar",
+   "aceitas": [
+    "conselho tutelar",
+    "ct"
+   ],
+   "macete": "Criança → Conselho Tutelar.",
+   "uerj": "Cobra prazos de notificação, a quem comunicar e as profilaxias.",
+   "contexto": "**Violência interpessoal e autoprovocada é agravo de notificação compulsória no SINAN; a violência sexual exige atendimento de urgência com profilaxias em até 72 h.**\n\nNotificação (Portaria de Consolidação nº 4/2017 e atualizações):\n- **Toda suspeita ou confirmação** de violência → ficha do SINAN (não precisa ter certeza)\n- **Imediata (24 h, à secretaria municipal)** → **violência sexual** e **tentativa de suicídio**\n- **Semanal** → demais violências (física, psicológica, negligência, trabalho infantil etc.)\n- Notificar não é denunciar: é instrumento de vigilância e de acesso à rede de proteção\n\nComunicação obrigatória além da notificação:\n- **Criança e adolescente** → **Conselho Tutelar** (ECA)\n- **Pessoa idosa** → autoridade policial, Ministério Público ou Conselho do Idoso (Estatuto da Pessoa Idosa)\n- **Mulher** → notificação compulsória (Lei 10.778/2003); comunicação à **autoridade policial em 24 h** em casos com indícios ou confirmação (Lei 13.931/2019), para fins estatísticos\n\nAtendimento à violência sexual (Lei 12.845/2013 — atendimento obrigatório e integral):\n- **Não exige boletim de ocorrência** para atendimento nem para aborto legal\n- Acolhimento, exame, coleta de vestígios (se possível), registro\n- Profilaxias:\n  - **Contracepção de emergência** → levonorgestrel 1,5 mg dose única (até 5 dias; quanto antes, melhor)\n  - **PEP para HIV** → **até 72 h**, por **28 dias** (tenofovir + lamivudina + dolutegravir)\n  - **ISTs bacterianas** → ceftriaxona + azitromicina + penicilina benzatina (± metronidazol)\n  - **Hepatite B** → vacina (+ imunoglobulina se não vacinada)\n- Seguimento sorológico (HIV, sífilis, hepatites) e apoio psicológico\n- Gestação decorrente de estupro → **aborto legal** (só a palavra da mulher; sem limite legal de idade gestacional no Código Penal)\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: o que é notificação imediata, a quem comunicar em cada grupo e as profilaxias da violência sexual.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "cab": [
+      "Situação",
+      "Notificação",
+      "Comunicar também"
+     ],
+     "linhas": [
+      [
+       "Violência sexual",
+       "Imediata (24 h)",
+       "Conforme o grupo"
+      ],
+      [
+       "Tentativa de suicídio",
+       "Imediata (24 h)",
+       "Rede de saúde mental"
+      ],
+      [
+       "Outras violências",
+       "Semanal",
+       "—"
+      ],
+      [
+       "Criança/adolescente",
+       "SINAN",
+       "Conselho Tutelar"
+      ],
+      [
+       "Pessoa idosa",
+       "SINAN",
+       "Polícia, MP ou Conselho do Idoso"
+      ],
+      [
+       "Mulher",
+       "SINAN",
+       "Autoridade policial em 24 h (Lei 13.931/2019)"
+      ]
+     ]
+    }
+   ],
+   "fonte": "Ministério da Saúde — Portaria de Consolidação nº 4/2017 (lista de notificação compulsória, atualizada) / Norma técnica: Prevenção e tratamento dos agravos da violência sexual (2012) / PCDT PEP (2024) / PCDT IST (2022) / Leis 12.845/2013 e 13.931/2019",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Medicina Preventiva",
+   "tema": "SUS",
+   "sub": "Redes de Atenção à Saúde (RAS) e regionalização",
+   "id": "ras-01",
+   "tipo": "flash",
+   "prio": "alta",
+   "frente": "Redes de Atenção à Saúde: papel da APS e formato da rede",
+   "verso": "Raciocínio:\n- Na pirâmide, cada nível só se comunica com o de cima → o cuidado se fragmenta.\n- Na rede, todos os pontos têm a mesma importância e a APS coordena o fluxo do paciente.\n\n**APS → centro de comunicação e coordenadora do cuidado.**\n**Formato poliárquico (não hierárquico).**",
+   "macete": "\"Rede é teia, não pirâmide; a APS é a aranha no centro\".",
+   "pegadinha": "O hospital não é o centro da rede.",
+   "uerj": "Cobra o papel da APS, o formato poliárquico e o Decreto 7.508.",
+   "contexto": "**Redes de Atenção à Saúde (RAS) = arranjos organizativos de serviços de diferentes densidades tecnológicas, integrados por sistemas de apoio, logísticos e de gestão, para garantir o cuidado integral (Portaria 4.279/2010).**\n\nCaracterísticas:\n- **Formato poliárquico** (horizontal), não piramidal hierárquico\n- **APS como centro de comunicação** e coordenadora do cuidado, ordenadora da rede\n- Foco na população adscrita e nas condições crônicas\n\nElementos constitutivos:\n- **População** (adscrita, responsabilidade sanitária)\n- **Estrutura operacional**\n- **Modelo de atenção à saúde**\n\nEstrutura operacional:\n- **Centro de comunicação → APS**\n- **Pontos de atenção secundária e terciária** (ambulatórios, hospitais)\n- **Sistemas de apoio** (diagnóstico, assistência farmacêutica, informação)\n- **Sistemas logísticos** (cartão SUS, prontuário, regulação, transporte sanitário)\n- **Sistema de governança**\n\nRedes temáticas prioritárias:\n- Rede de cuidado materno-infantil (Rede Cegonha 2011 → hoje **Rede Alyne**, 2024)\n- **Rede de Urgência e Emergência (RUE)**\n- **Rede de Atenção Psicossocial (RAPS)**\n- Rede de Cuidados à Pessoa com Deficiência\n- Rede de Atenção às Pessoas com Doenças Crônicas\n\nDecreto 7.508/2011 (regulamenta a Lei 8.080):\n- **Região de Saúde** → deve ter no mínimo: **atenção primária, urgência e emergência, atenção psicossocial, atenção ambulatorial especializada e hospitalar, vigilância em saúde**\n- **Portas de entrada** → **atenção primária, urgência e emergência, atenção psicossocial e serviços especiais de acesso aberto**\n- **COAP** (Contrato Organizativo da Ação Pública), **RENASES** e **RENAME**, Comissões Intergestores (CIT, CIB, CIR)\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: APS como centro de comunicação, formato poliárquico e portas de entrada do Decreto 7.508.",
+   "ctxvisual": [
+    {
+     "tipo": "grupos",
+     "grupos": [
+      {
+       "t": "Centro de comunicação",
+       "itens": [
+        "APS"
+       ]
+      },
+      {
+       "t": "Pontos de atenção",
+       "itens": [
+        "Secundária",
+        "Terciária"
+       ]
+      },
+      {
+       "t": "Sistemas",
+       "itens": [
+        "Apoio",
+        "Logísticos",
+        "Governança"
+       ]
+      }
+     ]
+    }
+   ],
+   "fonte": "Ministério da Saúde — Portaria 4.279/2010 (consolidada na PRC 3/2017) / Decreto 7.508/2011 / Mendes EV — As redes de atenção à saúde (OPAS, 2011) / Ministério da Saúde — Rede Alyne (2024)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Medicina Preventiva",
+   "tema": "SUS",
+   "sub": "Redes de Atenção à Saúde (RAS) e regionalização",
+   "id": "ras-02",
+   "tipo": "flash",
+   "prio": "alta",
+   "frente": "Decreto 7.508/2011: portas de entrada do SUS",
+   "verso": "Raciocínio:\n- São os pontos onde o usuário pode chegar sem encaminhamento; a partir deles é referenciado ao resto da rede.\n\n**Portas de entrada:**\n- Atenção primária\n- Urgência e emergência\n- Atenção psicossocial\n- Serviços especiais de acesso aberto",
+   "macete": "\"PUPE: Primária, Urgência, Psicossocial, Especiais\".",
+   "pegadinha": "Ambulatório especializado e hospital não são portas de entrada.",
+   "uerj": "Cobra o papel da APS, o formato poliárquico e o Decreto 7.508.",
+   "contexto": "**Redes de Atenção à Saúde (RAS) = arranjos organizativos de serviços de diferentes densidades tecnológicas, integrados por sistemas de apoio, logísticos e de gestão, para garantir o cuidado integral (Portaria 4.279/2010).**\n\nCaracterísticas:\n- **Formato poliárquico** (horizontal), não piramidal hierárquico\n- **APS como centro de comunicação** e coordenadora do cuidado, ordenadora da rede\n- Foco na população adscrita e nas condições crônicas\n\nElementos constitutivos:\n- **População** (adscrita, responsabilidade sanitária)\n- **Estrutura operacional**\n- **Modelo de atenção à saúde**\n\nEstrutura operacional:\n- **Centro de comunicação → APS**\n- **Pontos de atenção secundária e terciária** (ambulatórios, hospitais)\n- **Sistemas de apoio** (diagnóstico, assistência farmacêutica, informação)\n- **Sistemas logísticos** (cartão SUS, prontuário, regulação, transporte sanitário)\n- **Sistema de governança**\n\nRedes temáticas prioritárias:\n- Rede de cuidado materno-infantil (Rede Cegonha 2011 → hoje **Rede Alyne**, 2024)\n- **Rede de Urgência e Emergência (RUE)**\n- **Rede de Atenção Psicossocial (RAPS)**\n- Rede de Cuidados à Pessoa com Deficiência\n- Rede de Atenção às Pessoas com Doenças Crônicas\n\nDecreto 7.508/2011 (regulamenta a Lei 8.080):\n- **Região de Saúde** → deve ter no mínimo: **atenção primária, urgência e emergência, atenção psicossocial, atenção ambulatorial especializada e hospitalar, vigilância em saúde**\n- **Portas de entrada** → **atenção primária, urgência e emergência, atenção psicossocial e serviços especiais de acesso aberto**\n- **COAP** (Contrato Organizativo da Ação Pública), **RENASES** e **RENAME**, Comissões Intergestores (CIT, CIB, CIR)\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: APS como centro de comunicação, formato poliárquico e portas de entrada do Decreto 7.508.",
+   "ctxvisual": [
+    {
+     "tipo": "grupos",
+     "grupos": [
+      {
+       "t": "Centro de comunicação",
+       "itens": [
+        "APS"
+       ]
+      },
+      {
+       "t": "Pontos de atenção",
+       "itens": [
+        "Secundária",
+        "Terciária"
+       ]
+      },
+      {
+       "t": "Sistemas",
+       "itens": [
+        "Apoio",
+        "Logísticos",
+        "Governança"
+       ]
+      }
+     ]
+    }
+   ],
+   "fonte": "Ministério da Saúde — Portaria 4.279/2010 (consolidada na PRC 3/2017) / Decreto 7.508/2011 / Mendes EV — As redes de atenção à saúde (OPAS, 2011) / Ministério da Saúde — Rede Alyne (2024)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Medicina Preventiva",
+   "tema": "SUS",
+   "sub": "Redes de Atenção à Saúde (RAS) e regionalização",
+   "tipo": "quiz",
+   "frente": "Sobre as Redes de Atenção à Saúde, analise: I. A atenção primária é o centro de comunicação da rede. II. As RAS se organizam em formato piramidal hierárquico. III. Pelo Decreto 7.508/2011, a atenção psicossocial é porta de entrada do SUS. Está(ão) correta(s):",
+   "opcoes": [
+    "Apenas I e II.",
+    "Apenas II e III.",
+    "I, II e III.",
+    "Apenas I e III."
+   ],
+   "certa": 3,
+   "comentarios": [
+    "II é falsa.",
+    "II é falsa.",
+    "II é falsa.",
+    "Correta. II é falsa: o formato é poliárquico."
+   ],
+   "id": "ras-q1",
+   "prio": "alta",
+   "macete": "\"Rede = horizontal\".",
+   "pegadinha": "Não é piramidal.",
+   "uerj": "Cobra o papel da APS, o formato poliárquico e o Decreto 7.508.",
+   "contexto": "**Redes de Atenção à Saúde (RAS) = arranjos organizativos de serviços de diferentes densidades tecnológicas, integrados por sistemas de apoio, logísticos e de gestão, para garantir o cuidado integral (Portaria 4.279/2010).**\n\nCaracterísticas:\n- **Formato poliárquico** (horizontal), não piramidal hierárquico\n- **APS como centro de comunicação** e coordenadora do cuidado, ordenadora da rede\n- Foco na população adscrita e nas condições crônicas\n\nElementos constitutivos:\n- **População** (adscrita, responsabilidade sanitária)\n- **Estrutura operacional**\n- **Modelo de atenção à saúde**\n\nEstrutura operacional:\n- **Centro de comunicação → APS**\n- **Pontos de atenção secundária e terciária** (ambulatórios, hospitais)\n- **Sistemas de apoio** (diagnóstico, assistência farmacêutica, informação)\n- **Sistemas logísticos** (cartão SUS, prontuário, regulação, transporte sanitário)\n- **Sistema de governança**\n\nRedes temáticas prioritárias:\n- Rede de cuidado materno-infantil (Rede Cegonha 2011 → hoje **Rede Alyne**, 2024)\n- **Rede de Urgência e Emergência (RUE)**\n- **Rede de Atenção Psicossocial (RAPS)**\n- Rede de Cuidados à Pessoa com Deficiência\n- Rede de Atenção às Pessoas com Doenças Crônicas\n\nDecreto 7.508/2011 (regulamenta a Lei 8.080):\n- **Região de Saúde** → deve ter no mínimo: **atenção primária, urgência e emergência, atenção psicossocial, atenção ambulatorial especializada e hospitalar, vigilância em saúde**\n- **Portas de entrada** → **atenção primária, urgência e emergência, atenção psicossocial e serviços especiais de acesso aberto**\n- **COAP** (Contrato Organizativo da Ação Pública), **RENASES** e **RENAME**, Comissões Intergestores (CIT, CIB, CIR)\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: APS como centro de comunicação, formato poliárquico e portas de entrada do Decreto 7.508.",
+   "ctxvisual": [
+    {
+     "tipo": "grupos",
+     "grupos": [
+      {
+       "t": "Centro de comunicação",
+       "itens": [
+        "APS"
+       ]
+      },
+      {
+       "t": "Pontos de atenção",
+       "itens": [
+        "Secundária",
+        "Terciária"
+       ]
+      },
+      {
+       "t": "Sistemas",
+       "itens": [
+        "Apoio",
+        "Logísticos",
+        "Governança"
+       ]
+      }
+     ]
+    }
+   ],
+   "fonte": "Ministério da Saúde — Portaria 4.279/2010 (consolidada na PRC 3/2017) / Decreto 7.508/2011 / Mendes EV — As redes de atenção à saúde (OPAS, 2011) / Ministério da Saúde — Rede Alyne (2024)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Medicina Preventiva",
+   "tema": "SUS",
+   "sub": "Redes de Atenção à Saúde (RAS) e regionalização",
+   "id": "ras-d1",
+   "tipo": "digitar",
+   "prio": "media",
+   "frente": "Qual portaria estabeleceu as diretrizes das Redes de Atenção à Saúde?",
+   "verso": "**Portaria 4.279/2010.**",
+   "resposta": "4.279/2010",
+   "aceitas": [
+    "4279",
+    "4.279",
+    "4279/2010",
+    "4.279/2010",
+    "portaria 4279"
+   ],
+   "macete": "4279 = Redes.",
+   "uerj": "Cobra o papel da APS, o formato poliárquico e o Decreto 7.508.",
+   "contexto": "**Redes de Atenção à Saúde (RAS) = arranjos organizativos de serviços de diferentes densidades tecnológicas, integrados por sistemas de apoio, logísticos e de gestão, para garantir o cuidado integral (Portaria 4.279/2010).**\n\nCaracterísticas:\n- **Formato poliárquico** (horizontal), não piramidal hierárquico\n- **APS como centro de comunicação** e coordenadora do cuidado, ordenadora da rede\n- Foco na população adscrita e nas condições crônicas\n\nElementos constitutivos:\n- **População** (adscrita, responsabilidade sanitária)\n- **Estrutura operacional**\n- **Modelo de atenção à saúde**\n\nEstrutura operacional:\n- **Centro de comunicação → APS**\n- **Pontos de atenção secundária e terciária** (ambulatórios, hospitais)\n- **Sistemas de apoio** (diagnóstico, assistência farmacêutica, informação)\n- **Sistemas logísticos** (cartão SUS, prontuário, regulação, transporte sanitário)\n- **Sistema de governança**\n\nRedes temáticas prioritárias:\n- Rede de cuidado materno-infantil (Rede Cegonha 2011 → hoje **Rede Alyne**, 2024)\n- **Rede de Urgência e Emergência (RUE)**\n- **Rede de Atenção Psicossocial (RAPS)**\n- Rede de Cuidados à Pessoa com Deficiência\n- Rede de Atenção às Pessoas com Doenças Crônicas\n\nDecreto 7.508/2011 (regulamenta a Lei 8.080):\n- **Região de Saúde** → deve ter no mínimo: **atenção primária, urgência e emergência, atenção psicossocial, atenção ambulatorial especializada e hospitalar, vigilância em saúde**\n- **Portas de entrada** → **atenção primária, urgência e emergência, atenção psicossocial e serviços especiais de acesso aberto**\n- **COAP** (Contrato Organizativo da Ação Pública), **RENASES** e **RENAME**, Comissões Intergestores (CIT, CIB, CIR)\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: APS como centro de comunicação, formato poliárquico e portas de entrada do Decreto 7.508.",
+   "ctxvisual": [
+    {
+     "tipo": "grupos",
+     "grupos": [
+      {
+       "t": "Centro de comunicação",
+       "itens": [
+        "APS"
+       ]
+      },
+      {
+       "t": "Pontos de atenção",
+       "itens": [
+        "Secundária",
+        "Terciária"
+       ]
+      },
+      {
+       "t": "Sistemas",
+       "itens": [
+        "Apoio",
+        "Logísticos",
+        "Governança"
+       ]
+      }
+     ]
+    }
+   ],
+   "fonte": "Ministério da Saúde — Portaria 4.279/2010 (consolidada na PRC 3/2017) / Decreto 7.508/2011 / Mendes EV — As redes de atenção à saúde (OPAS, 2011) / Ministério da Saúde — Rede Alyne (2024)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Medicina Preventiva",
+   "tema": "SUS",
+   "sub": "Redes de Atenção à Saúde (RAS) e regionalização",
+   "id": "ras-d2",
+   "tipo": "digitar",
+   "prio": "media",
+   "frente": "Qual o formato de organização das Redes de Atenção à Saúde?",
+   "verso": "**Poliárquico.**",
+   "resposta": "Poliárquico",
+   "aceitas": [
+    "poliarquico",
+    "poliárquico",
+    "poliarquia",
+    "horizontal"
+   ],
+   "macete": "Poli = muitos centros iguais.",
+   "uerj": "Cobra o papel da APS, o formato poliárquico e o Decreto 7.508.",
+   "contexto": "**Redes de Atenção à Saúde (RAS) = arranjos organizativos de serviços de diferentes densidades tecnológicas, integrados por sistemas de apoio, logísticos e de gestão, para garantir o cuidado integral (Portaria 4.279/2010).**\n\nCaracterísticas:\n- **Formato poliárquico** (horizontal), não piramidal hierárquico\n- **APS como centro de comunicação** e coordenadora do cuidado, ordenadora da rede\n- Foco na população adscrita e nas condições crônicas\n\nElementos constitutivos:\n- **População** (adscrita, responsabilidade sanitária)\n- **Estrutura operacional**\n- **Modelo de atenção à saúde**\n\nEstrutura operacional:\n- **Centro de comunicação → APS**\n- **Pontos de atenção secundária e terciária** (ambulatórios, hospitais)\n- **Sistemas de apoio** (diagnóstico, assistência farmacêutica, informação)\n- **Sistemas logísticos** (cartão SUS, prontuário, regulação, transporte sanitário)\n- **Sistema de governança**\n\nRedes temáticas prioritárias:\n- Rede de cuidado materno-infantil (Rede Cegonha 2011 → hoje **Rede Alyne**, 2024)\n- **Rede de Urgência e Emergência (RUE)**\n- **Rede de Atenção Psicossocial (RAPS)**\n- Rede de Cuidados à Pessoa com Deficiência\n- Rede de Atenção às Pessoas com Doenças Crônicas\n\nDecreto 7.508/2011 (regulamenta a Lei 8.080):\n- **Região de Saúde** → deve ter no mínimo: **atenção primária, urgência e emergência, atenção psicossocial, atenção ambulatorial especializada e hospitalar, vigilância em saúde**\n- **Portas de entrada** → **atenção primária, urgência e emergência, atenção psicossocial e serviços especiais de acesso aberto**\n- **COAP** (Contrato Organizativo da Ação Pública), **RENASES** e **RENAME**, Comissões Intergestores (CIT, CIB, CIR)\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: APS como centro de comunicação, formato poliárquico e portas de entrada do Decreto 7.508.",
+   "ctxvisual": [
+    {
+     "tipo": "grupos",
+     "grupos": [
+      {
+       "t": "Centro de comunicação",
+       "itens": [
+        "APS"
+       ]
+      },
+      {
+       "t": "Pontos de atenção",
+       "itens": [
+        "Secundária",
+        "Terciária"
+       ]
+      },
+      {
+       "t": "Sistemas",
+       "itens": [
+        "Apoio",
+        "Logísticos",
+        "Governança"
+       ]
+      }
+     ]
+    }
+   ],
+   "fonte": "Ministério da Saúde — Portaria 4.279/2010 (consolidada na PRC 3/2017) / Decreto 7.508/2011 / Mendes EV — As redes de atenção à saúde (OPAS, 2011) / Ministério da Saúde — Rede Alyne (2024)",
+   "add": "2026-11-04"
   }
  ],
  "rev": 1793814207548
