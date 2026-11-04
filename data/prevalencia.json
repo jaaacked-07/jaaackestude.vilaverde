@@ -1763,6 +1763,70 @@
    "temas": "",
    "area": "Clínica Médica",
    "tema": "Hematologia"
+  },
+  "Atendimento inicial ao politraumatizado — ATLS": {
+   "q": 0,
+   "pond": 0,
+   "fontes": {},
+   "temas": "",
+   "area": "Cirurgia",
+   "tema": "Trauma"
+  },
+  "Traumatismo cranioencefálico (TCE)": {
+   "q": 0,
+   "pond": 0,
+   "fontes": {},
+   "temas": "",
+   "area": "Cirurgia",
+   "tema": "Trauma"
+  },
+  "Queimaduras": {
+   "q": 0,
+   "pond": 0,
+   "fontes": {},
+   "temas": "",
+   "area": "Cirurgia",
+   "tema": "Trauma"
+  },
+  "Câncer colorretal": {
+   "q": 0,
+   "pond": 0,
+   "fontes": {},
+   "temas": "",
+   "area": "Cirurgia",
+   "tema": "Coloproctologia"
+  },
+  "Doença hemorroidária": {
+   "q": 0,
+   "pond": 0,
+   "fontes": {},
+   "temas": "",
+   "area": "Cirurgia",
+   "tema": "Coloproctologia"
+  },
+  "Doença do refluxo gastroesofágico e hérnia de hiato": {
+   "q": 0,
+   "pond": 0,
+   "fontes": {},
+   "temas": "",
+   "area": "Cirurgia",
+   "tema": "Esôfago e estômago"
+  },
+  "Doença arterial periférica e aneurisma de aorta abdominal": {
+   "q": 0,
+   "pond": 0,
+   "fontes": {},
+   "temas": "",
+   "area": "Cirurgia",
+   "tema": "Cirurgia vascular"
+  },
+  "Avaliação pré-operatória — risco cirúrgico, jejum e medicações": {
+   "q": 0,
+   "pond": 0,
+   "fontes": {},
+   "temas": "",
+   "area": "Cirurgia",
+   "tema": "Perioperatório"
   }
  }
 }

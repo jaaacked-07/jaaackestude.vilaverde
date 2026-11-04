@@ -67464,6 +67464,2676 @@
    ],
    "fonte": "ACCP — Antithrombotic Therapy for VTE (CHEST 2021) / ASH Guidelines for VTE (2020) / SBACV — Diretrizes de TVP (2023)",
    "add": "2026-11-04"
+  },
+  {
+   "area": "Cirurgia",
+   "tema": "Trauma",
+   "sub": "Atendimento inicial ao politraumatizado — ATLS",
+   "id": "atls-01",
+   "tipo": "flash",
+   "prio": "alta",
+   "frente": "Politraumatizado: qual a ordem da avaliação primária?",
+   "verso": "Raciocínio:\n- A ordem segue o que mata mais rápido: sangramento maciço e via aérea matam em minutos; o neurológico pode esperar segundos.\n- Resolve-se cada letra antes de passar à próxima.\n\n**X → hemorragia exsanguinante**\n**A → via aérea + coluna cervical**\n**B → ventilação**\n**C → circulação**\n**D → neurológico**\n**E → exposição**",
+   "macete": "\"X-ABCDE: primeiro estanca, depois respira\".",
+   "pegadinha": "A proteção da coluna cervical está no A, junto com a via aérea.",
+   "uerj": "Cobra a ordem do XABCDE e a conduta imediata (via aérea, pneumotórax, sangramento) em casos curtos.",
+   "contexto": "**Atendimento inicial ao trauma (ATLS 10ª ed.) = avaliação primária sistematizada pelo XABCDE, tratando cada ameaça à vida na ordem em que mata.**\n\nAvaliação primária (XABCDE):\n- **X** → hemorragia externa exsanguinante: compressão direta, torniquete\n- **A** → via aérea com **proteção da coluna cervical** (colar, estabilização manual)\n- **B** → respiração e ventilação: pneumotórax hipertensivo, aberto, hemotórax maciço, tórax instável\n- **C** → circulação com controle de hemorragia: 2 acessos calibrosos, cristaloide aquecido (até 1 L no adulto), sangue precoce, ácido tranexâmico em até 3 h\n- **D** → disfunção neurológica: Glasgow + pupilas\n- **E** → exposição e controle do ambiente (evitar hipotermia)\n\nVia aérea definitiva:\n- Indicações → Glasgow ≤ 8, incapacidade de proteger a via aérea, queimadura de via aérea, apneia, risco de obstrução (hematoma cervical em expansão)\n- Falhou a intubação → via cirúrgica: **cricotireoidostomia** (cirúrgica no adulto; por punção em < 12 anos)\n\nAdjuntos da avaliação primária:\n- Monitorização, sonda gástrica e vesical (se não houver contraindicação), gasometria, RX de tórax e pelve, **FAST**\n\nContraindicações à sonda:\n- Vesical → sangue no meato, hematoma perineal, próstata alta ao toque (lesão de uretra)\n- Nasogástrica → suspeita de fratura de base de crânio (usar orogástrica)\n\nAvaliação secundária:\n- Só após a primária e a estabilização: exame da cabeça aos pés + história **AMPLA** (Alergias, Medicamentos, Passado médico/gestação, Líquidos e alimentos, Ambiente e eventos)\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: ordem do XABCDE, indicações de via aérea definitiva e Glasgow (com pupilas).",
+   "ctxvisual": [
+    {
+     "tipo": "fluxo",
+     "passos": [
+      "X: hemorragia externa grave",
+      "A: via aérea + coluna cervical",
+      "B: ventilação (pneumotórax!)",
+      "C: circulação + controle do sangramento",
+      "D: Glasgow + pupilas",
+      "E: exposição + evitar hipotermia"
+     ]
+    },
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "Glasgow (ECG)",
+      "Critério",
+      "Pontos / conduta"
+     ],
+     "linhas": [
+      [
+       "Abertura ocular",
+       "Espontânea 4 · ao som 3 · à pressão 2 · ausente 1",
+       "1 a 4"
+      ],
+      [
+       "Resposta verbal",
+       "Orientada 5 · confusa 4 · palavras 3 · sons 2 · ausente 1",
+       "1 a 5"
+      ],
+      [
+       "Resposta motora",
+       "Obedece 6 · localiza 5 · flexão normal 4 · flexão anormal 3 · extensão 2 · ausente 1",
+       "1 a 6"
+      ],
+      [
+       "Reatividade pupilar (ECG-P)",
+       "Subtrair: nenhuma pupila reage −2 · uma não reage −1",
+       "Total 1 a 15"
+      ],
+      [
+       "13–15 pontos",
+       "TCE leve",
+       "Observação; TC se fator de risco"
+      ],
+      [
+       "9–12 pontos",
+       "TCE moderado",
+       "TC de crânio, internação, neurocirurgia"
+      ],
+      [
+       "3–8 pontos",
+       "TCE grave",
+       "Intubação (via aérea definitiva) + TC + neurocirurgia"
+      ]
+     ]
+    }
+   ],
+   "fonte": "ATLS — Advanced Trauma Life Support 10ª ed. (ACS, 2018) / PHTLS 10ª ed.",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Cirurgia",
+   "tema": "Trauma",
+   "sub": "Atendimento inicial ao politraumatizado — ATLS",
+   "id": "atls-02",
+   "tipo": "flash",
+   "prio": "alta",
+   "frente": "Trauma: indicações de via aérea definitiva",
+   "verso": "Raciocínio:\n- Com Glasgow ≤ 8, o paciente perde os reflexos de proteção → aspira e obstrui.\n- Queimadura de via aérea incha em horas: intubar antes que feche.\n\n**Glasgow ≤ 8.**\n**Incapacidade de proteger a via aérea.**\n**Lesão inalatória / queimadura de via aérea.**\n**Apneia ou hipoxemia refratária.**\n\nFalha na intubação:\n- Cricotireoidostomia cirúrgica (adulto).\n- Por punção em < 12 anos.",
+   "macete": "\"Glasgow 8 = intubar\".",
+   "pegadinha": "Na criança < 12 anos, a cricotireoidostomia cirúrgica é evitada.",
+   "visual": {
+    "tipo": "tabela",
+    "crit": true,
+    "cab": [
+     "Glasgow (ECG)",
+     "Critério",
+     "Pontos / conduta"
+    ],
+    "linhas": [
+     [
+      "Abertura ocular",
+      "Espontânea 4 · ao som 3 · à pressão 2 · ausente 1",
+      "1 a 4"
+     ],
+     [
+      "Resposta verbal",
+      "Orientada 5 · confusa 4 · palavras 3 · sons 2 · ausente 1",
+      "1 a 5"
+     ],
+     [
+      "Resposta motora",
+      "Obedece 6 · localiza 5 · flexão normal 4 · flexão anormal 3 · extensão 2 · ausente 1",
+      "1 a 6"
+     ],
+     [
+      "Reatividade pupilar (ECG-P)",
+      "Subtrair: nenhuma pupila reage −2 · uma não reage −1",
+      "Total 1 a 15"
+     ],
+     [
+      "13–15 pontos",
+      "TCE leve",
+      "Observação; TC se fator de risco"
+     ],
+     [
+      "9–12 pontos",
+      "TCE moderado",
+      "TC de crânio, internação, neurocirurgia"
+     ],
+     [
+      "3–8 pontos",
+      "TCE grave",
+      "Intubação (via aérea definitiva) + TC + neurocirurgia"
+     ]
+    ]
+   },
+   "uerj": "Cobra a ordem do XABCDE e a conduta imediata (via aérea, pneumotórax, sangramento) em casos curtos.",
+   "contexto": "**Atendimento inicial ao trauma (ATLS 10ª ed.) = avaliação primária sistematizada pelo XABCDE, tratando cada ameaça à vida na ordem em que mata.**\n\nAvaliação primária (XABCDE):\n- **X** → hemorragia externa exsanguinante: compressão direta, torniquete\n- **A** → via aérea com **proteção da coluna cervical** (colar, estabilização manual)\n- **B** → respiração e ventilação: pneumotórax hipertensivo, aberto, hemotórax maciço, tórax instável\n- **C** → circulação com controle de hemorragia: 2 acessos calibrosos, cristaloide aquecido (até 1 L no adulto), sangue precoce, ácido tranexâmico em até 3 h\n- **D** → disfunção neurológica: Glasgow + pupilas\n- **E** → exposição e controle do ambiente (evitar hipotermia)\n\nVia aérea definitiva:\n- Indicações → Glasgow ≤ 8, incapacidade de proteger a via aérea, queimadura de via aérea, apneia, risco de obstrução (hematoma cervical em expansão)\n- Falhou a intubação → via cirúrgica: **cricotireoidostomia** (cirúrgica no adulto; por punção em < 12 anos)\n\nAdjuntos da avaliação primária:\n- Monitorização, sonda gástrica e vesical (se não houver contraindicação), gasometria, RX de tórax e pelve, **FAST**\n\nContraindicações à sonda:\n- Vesical → sangue no meato, hematoma perineal, próstata alta ao toque (lesão de uretra)\n- Nasogástrica → suspeita de fratura de base de crânio (usar orogástrica)\n\nAvaliação secundária:\n- Só após a primária e a estabilização: exame da cabeça aos pés + história **AMPLA** (Alergias, Medicamentos, Passado médico/gestação, Líquidos e alimentos, Ambiente e eventos)\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: ordem do XABCDE, indicações de via aérea definitiva e Glasgow (com pupilas).",
+   "ctxvisual": [
+    {
+     "tipo": "fluxo",
+     "passos": [
+      "X: hemorragia externa grave",
+      "A: via aérea + coluna cervical",
+      "B: ventilação (pneumotórax!)",
+      "C: circulação + controle do sangramento",
+      "D: Glasgow + pupilas",
+      "E: exposição + evitar hipotermia"
+     ]
+    },
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "Glasgow (ECG)",
+      "Critério",
+      "Pontos / conduta"
+     ],
+     "linhas": [
+      [
+       "Abertura ocular",
+       "Espontânea 4 · ao som 3 · à pressão 2 · ausente 1",
+       "1 a 4"
+      ],
+      [
+       "Resposta verbal",
+       "Orientada 5 · confusa 4 · palavras 3 · sons 2 · ausente 1",
+       "1 a 5"
+      ],
+      [
+       "Resposta motora",
+       "Obedece 6 · localiza 5 · flexão normal 4 · flexão anormal 3 · extensão 2 · ausente 1",
+       "1 a 6"
+      ],
+      [
+       "Reatividade pupilar (ECG-P)",
+       "Subtrair: nenhuma pupila reage −2 · uma não reage −1",
+       "Total 1 a 15"
+      ],
+      [
+       "13–15 pontos",
+       "TCE leve",
+       "Observação; TC se fator de risco"
+      ],
+      [
+       "9–12 pontos",
+       "TCE moderado",
+       "TC de crânio, internação, neurocirurgia"
+      ],
+      [
+       "3–8 pontos",
+       "TCE grave",
+       "Intubação (via aérea definitiva) + TC + neurocirurgia"
+      ]
+     ]
+    }
+   ],
+   "fonte": "ATLS — Advanced Trauma Life Support 10ª ed. (ACS, 2018) / PHTLS 10ª ed.",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Cirurgia",
+   "tema": "Trauma",
+   "sub": "Atendimento inicial ao politraumatizado — ATLS",
+   "tipo": "quiz",
+   "frente": "No atendimento inicial ao politraumatizado (ATLS), analise: I. A proteção da coluna cervical faz parte da etapa A. II. Glasgow ≤ 8 é indicação de via aérea definitiva. III. Sangue no meato uretral não contraindica sondagem vesical. Está(ão) correta(s):",
+   "opcoes": [
+    "Apenas I e III.",
+    "Apenas II e III.",
+    "I, II e III.",
+    "Apenas I e II."
+   ],
+   "certa": 3,
+   "comentarios": [
+    "III é falsa.",
+    "III é falsa.",
+    "III é falsa.",
+    "Correta. III é falsa: sangue no meato sugere lesão de uretra → não sondar (uretrocistografia)."
+   ],
+   "id": "atls-q1",
+   "prio": "alta",
+   "base": "- Glasgow ≤ 8 → perda dos reflexos protetores da via aérea.\n- Sangue no meato → possível lesão de uretra: a sonda pode transformar uma lesão parcial em completa.",
+   "macete": "\"Sangue no meato: sonda não entra\".",
+   "pegadinha": "Lesão de uretra contraindica sonda vesical.",
+   "uerj": "Cobra a ordem do XABCDE e a conduta imediata (via aérea, pneumotórax, sangramento) em casos curtos.",
+   "contexto": "**Atendimento inicial ao trauma (ATLS 10ª ed.) = avaliação primária sistematizada pelo XABCDE, tratando cada ameaça à vida na ordem em que mata.**\n\nAvaliação primária (XABCDE):\n- **X** → hemorragia externa exsanguinante: compressão direta, torniquete\n- **A** → via aérea com **proteção da coluna cervical** (colar, estabilização manual)\n- **B** → respiração e ventilação: pneumotórax hipertensivo, aberto, hemotórax maciço, tórax instável\n- **C** → circulação com controle de hemorragia: 2 acessos calibrosos, cristaloide aquecido (até 1 L no adulto), sangue precoce, ácido tranexâmico em até 3 h\n- **D** → disfunção neurológica: Glasgow + pupilas\n- **E** → exposição e controle do ambiente (evitar hipotermia)\n\nVia aérea definitiva:\n- Indicações → Glasgow ≤ 8, incapacidade de proteger a via aérea, queimadura de via aérea, apneia, risco de obstrução (hematoma cervical em expansão)\n- Falhou a intubação → via cirúrgica: **cricotireoidostomia** (cirúrgica no adulto; por punção em < 12 anos)\n\nAdjuntos da avaliação primária:\n- Monitorização, sonda gástrica e vesical (se não houver contraindicação), gasometria, RX de tórax e pelve, **FAST**\n\nContraindicações à sonda:\n- Vesical → sangue no meato, hematoma perineal, próstata alta ao toque (lesão de uretra)\n- Nasogástrica → suspeita de fratura de base de crânio (usar orogástrica)\n\nAvaliação secundária:\n- Só após a primária e a estabilização: exame da cabeça aos pés + história **AMPLA** (Alergias, Medicamentos, Passado médico/gestação, Líquidos e alimentos, Ambiente e eventos)\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: ordem do XABCDE, indicações de via aérea definitiva e Glasgow (com pupilas).",
+   "ctxvisual": [
+    {
+     "tipo": "fluxo",
+     "passos": [
+      "X: hemorragia externa grave",
+      "A: via aérea + coluna cervical",
+      "B: ventilação (pneumotórax!)",
+      "C: circulação + controle do sangramento",
+      "D: Glasgow + pupilas",
+      "E: exposição + evitar hipotermia"
+     ]
+    },
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "Glasgow (ECG)",
+      "Critério",
+      "Pontos / conduta"
+     ],
+     "linhas": [
+      [
+       "Abertura ocular",
+       "Espontânea 4 · ao som 3 · à pressão 2 · ausente 1",
+       "1 a 4"
+      ],
+      [
+       "Resposta verbal",
+       "Orientada 5 · confusa 4 · palavras 3 · sons 2 · ausente 1",
+       "1 a 5"
+      ],
+      [
+       "Resposta motora",
+       "Obedece 6 · localiza 5 · flexão normal 4 · flexão anormal 3 · extensão 2 · ausente 1",
+       "1 a 6"
+      ],
+      [
+       "Reatividade pupilar (ECG-P)",
+       "Subtrair: nenhuma pupila reage −2 · uma não reage −1",
+       "Total 1 a 15"
+      ],
+      [
+       "13–15 pontos",
+       "TCE leve",
+       "Observação; TC se fator de risco"
+      ],
+      [
+       "9–12 pontos",
+       "TCE moderado",
+       "TC de crânio, internação, neurocirurgia"
+      ],
+      [
+       "3–8 pontos",
+       "TCE grave",
+       "Intubação (via aérea definitiva) + TC + neurocirurgia"
+      ]
+     ]
+    }
+   ],
+   "fonte": "ATLS — Advanced Trauma Life Support 10ª ed. (ACS, 2018) / PHTLS 10ª ed.",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Cirurgia",
+   "tema": "Trauma",
+   "sub": "Atendimento inicial ao politraumatizado — ATLS",
+   "id": "atls-d1",
+   "tipo": "digitar",
+   "prio": "alta",
+   "frente": "Abaixo de qual Glasgow (ou igual) está indicada a via aérea definitiva no trauma?",
+   "verso": "**Glasgow ≤ 8.**",
+   "resposta": "8",
+   "aceitas": [
+    "8",
+    "≤ 8",
+    "glasgow 8",
+    "menor ou igual a 8"
+   ],
+   "macete": "\"Oito, intubo\".",
+   "uerj": "Cobra a ordem do XABCDE e a conduta imediata (via aérea, pneumotórax, sangramento) em casos curtos.",
+   "contexto": "**Atendimento inicial ao trauma (ATLS 10ª ed.) = avaliação primária sistematizada pelo XABCDE, tratando cada ameaça à vida na ordem em que mata.**\n\nAvaliação primária (XABCDE):\n- **X** → hemorragia externa exsanguinante: compressão direta, torniquete\n- **A** → via aérea com **proteção da coluna cervical** (colar, estabilização manual)\n- **B** → respiração e ventilação: pneumotórax hipertensivo, aberto, hemotórax maciço, tórax instável\n- **C** → circulação com controle de hemorragia: 2 acessos calibrosos, cristaloide aquecido (até 1 L no adulto), sangue precoce, ácido tranexâmico em até 3 h\n- **D** → disfunção neurológica: Glasgow + pupilas\n- **E** → exposição e controle do ambiente (evitar hipotermia)\n\nVia aérea definitiva:\n- Indicações → Glasgow ≤ 8, incapacidade de proteger a via aérea, queimadura de via aérea, apneia, risco de obstrução (hematoma cervical em expansão)\n- Falhou a intubação → via cirúrgica: **cricotireoidostomia** (cirúrgica no adulto; por punção em < 12 anos)\n\nAdjuntos da avaliação primária:\n- Monitorização, sonda gástrica e vesical (se não houver contraindicação), gasometria, RX de tórax e pelve, **FAST**\n\nContraindicações à sonda:\n- Vesical → sangue no meato, hematoma perineal, próstata alta ao toque (lesão de uretra)\n- Nasogástrica → suspeita de fratura de base de crânio (usar orogástrica)\n\nAvaliação secundária:\n- Só após a primária e a estabilização: exame da cabeça aos pés + história **AMPLA** (Alergias, Medicamentos, Passado médico/gestação, Líquidos e alimentos, Ambiente e eventos)\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: ordem do XABCDE, indicações de via aérea definitiva e Glasgow (com pupilas).",
+   "ctxvisual": [
+    {
+     "tipo": "fluxo",
+     "passos": [
+      "X: hemorragia externa grave",
+      "A: via aérea + coluna cervical",
+      "B: ventilação (pneumotórax!)",
+      "C: circulação + controle do sangramento",
+      "D: Glasgow + pupilas",
+      "E: exposição + evitar hipotermia"
+     ]
+    },
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "Glasgow (ECG)",
+      "Critério",
+      "Pontos / conduta"
+     ],
+     "linhas": [
+      [
+       "Abertura ocular",
+       "Espontânea 4 · ao som 3 · à pressão 2 · ausente 1",
+       "1 a 4"
+      ],
+      [
+       "Resposta verbal",
+       "Orientada 5 · confusa 4 · palavras 3 · sons 2 · ausente 1",
+       "1 a 5"
+      ],
+      [
+       "Resposta motora",
+       "Obedece 6 · localiza 5 · flexão normal 4 · flexão anormal 3 · extensão 2 · ausente 1",
+       "1 a 6"
+      ],
+      [
+       "Reatividade pupilar (ECG-P)",
+       "Subtrair: nenhuma pupila reage −2 · uma não reage −1",
+       "Total 1 a 15"
+      ],
+      [
+       "13–15 pontos",
+       "TCE leve",
+       "Observação; TC se fator de risco"
+      ],
+      [
+       "9–12 pontos",
+       "TCE moderado",
+       "TC de crânio, internação, neurocirurgia"
+      ],
+      [
+       "3–8 pontos",
+       "TCE grave",
+       "Intubação (via aérea definitiva) + TC + neurocirurgia"
+      ]
+     ]
+    }
+   ],
+   "fonte": "ATLS — Advanced Trauma Life Support 10ª ed. (ACS, 2018) / PHTLS 10ª ed.",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Cirurgia",
+   "tema": "Trauma",
+   "sub": "Atendimento inicial ao politraumatizado — ATLS",
+   "id": "atls-d2",
+   "tipo": "digitar",
+   "prio": "media",
+   "frente": "Qual a via aérea cirúrgica de escolha no adulto quando a intubação falha?",
+   "verso": "**Cricotireoidostomia cirúrgica.**",
+   "resposta": "Cricotireoidostomia",
+   "aceitas": [
+    "cricotireoidostomia",
+    "cricotireoidostomia cirúrgica",
+    "cricotireoidostomia cirurgica",
+    "crico"
+   ],
+   "macete": "Falhou o tubo → crico.",
+   "uerj": "Cobra a ordem do XABCDE e a conduta imediata (via aérea, pneumotórax, sangramento) em casos curtos.",
+   "contexto": "**Atendimento inicial ao trauma (ATLS 10ª ed.) = avaliação primária sistematizada pelo XABCDE, tratando cada ameaça à vida na ordem em que mata.**\n\nAvaliação primária (XABCDE):\n- **X** → hemorragia externa exsanguinante: compressão direta, torniquete\n- **A** → via aérea com **proteção da coluna cervical** (colar, estabilização manual)\n- **B** → respiração e ventilação: pneumotórax hipertensivo, aberto, hemotórax maciço, tórax instável\n- **C** → circulação com controle de hemorragia: 2 acessos calibrosos, cristaloide aquecido (até 1 L no adulto), sangue precoce, ácido tranexâmico em até 3 h\n- **D** → disfunção neurológica: Glasgow + pupilas\n- **E** → exposição e controle do ambiente (evitar hipotermia)\n\nVia aérea definitiva:\n- Indicações → Glasgow ≤ 8, incapacidade de proteger a via aérea, queimadura de via aérea, apneia, risco de obstrução (hematoma cervical em expansão)\n- Falhou a intubação → via cirúrgica: **cricotireoidostomia** (cirúrgica no adulto; por punção em < 12 anos)\n\nAdjuntos da avaliação primária:\n- Monitorização, sonda gástrica e vesical (se não houver contraindicação), gasometria, RX de tórax e pelve, **FAST**\n\nContraindicações à sonda:\n- Vesical → sangue no meato, hematoma perineal, próstata alta ao toque (lesão de uretra)\n- Nasogástrica → suspeita de fratura de base de crânio (usar orogástrica)\n\nAvaliação secundária:\n- Só após a primária e a estabilização: exame da cabeça aos pés + história **AMPLA** (Alergias, Medicamentos, Passado médico/gestação, Líquidos e alimentos, Ambiente e eventos)\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: ordem do XABCDE, indicações de via aérea definitiva e Glasgow (com pupilas).",
+   "ctxvisual": [
+    {
+     "tipo": "fluxo",
+     "passos": [
+      "X: hemorragia externa grave",
+      "A: via aérea + coluna cervical",
+      "B: ventilação (pneumotórax!)",
+      "C: circulação + controle do sangramento",
+      "D: Glasgow + pupilas",
+      "E: exposição + evitar hipotermia"
+     ]
+    },
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "Glasgow (ECG)",
+      "Critério",
+      "Pontos / conduta"
+     ],
+     "linhas": [
+      [
+       "Abertura ocular",
+       "Espontânea 4 · ao som 3 · à pressão 2 · ausente 1",
+       "1 a 4"
+      ],
+      [
+       "Resposta verbal",
+       "Orientada 5 · confusa 4 · palavras 3 · sons 2 · ausente 1",
+       "1 a 5"
+      ],
+      [
+       "Resposta motora",
+       "Obedece 6 · localiza 5 · flexão normal 4 · flexão anormal 3 · extensão 2 · ausente 1",
+       "1 a 6"
+      ],
+      [
+       "Reatividade pupilar (ECG-P)",
+       "Subtrair: nenhuma pupila reage −2 · uma não reage −1",
+       "Total 1 a 15"
+      ],
+      [
+       "13–15 pontos",
+       "TCE leve",
+       "Observação; TC se fator de risco"
+      ],
+      [
+       "9–12 pontos",
+       "TCE moderado",
+       "TC de crânio, internação, neurocirurgia"
+      ],
+      [
+       "3–8 pontos",
+       "TCE grave",
+       "Intubação (via aérea definitiva) + TC + neurocirurgia"
+      ]
+     ]
+    }
+   ],
+   "fonte": "ATLS — Advanced Trauma Life Support 10ª ed. (ACS, 2018) / PHTLS 10ª ed.",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Cirurgia",
+   "tema": "Trauma",
+   "sub": "Traumatismo cranioencefálico (TCE)",
+   "id": "tce-01",
+   "tipo": "flash",
+   "prio": "alta",
+   "frente": "Hematoma epidural × subdural",
+   "verso": "Raciocínio:\n- O epidural é arterial e fica entre o osso e a dura, que é presa nas suturas → coleção convexa que não as cruza.\n- O subdural é venoso, fica sob a dura e se espalha pela superfície → crescente que cruza suturas.\n\n**Epidural → arterial, lente biconvexa.**\n**Subdural → venoso, crescente.**\n\nEpidural:\n- Artéria meníngea média (fratura do temporal).\n- Intervalo lúcido.\n\nSubdural:\n- Veias-ponte.\n- Idoso, alcoolista, anticoagulado.",
+   "macete": "\"Epidural = Elipse (lente); Subdural = Sorriso (crescente)\".",
+   "pegadinha": "Intervalo lúcido é clássico do epidural, mas não está sempre presente.",
+   "uerj": "Cobra epidural × subdural, Glasgow e sinais de fratura de base.",
+   "contexto": "**TCE = lesão cerebral por trauma; o objetivo é evitar a lesão secundária (hipóxia, hipotensão e hipertensão intracraniana).**\n\nClassificação (Glasgow, 3 a 15 pontos):\n- **Leve** → 13–15\n- **Moderado** → 9–12\n- **Grave** → 3–8 (intubar)\n\nLesões:\n- **Hematoma epidural** → **artéria meníngea média** (fratura do temporal); **intervalo lúcido**; TC com **lente biconvexa** que não cruza suturas\n- **Hematoma subdural agudo** → **veias-ponte**; idoso, alcoolista, anticoagulado; TC em **crescente** que cruza suturas; pior prognóstico\n- **Lesão axonal difusa** → coma desde o trauma com TC quase normal (aceleração/desaceleração)\n- **Contusão** → lesão em golpe e contragolpe\n- **Fratura de base de crânio** → olhos de guaxinim, **sinal de Battle** (equimose retroauricular), rinorreia/otorreia de líquor, hemotímpano\n\nHipertensão intracraniana:\n- **Tríade de Cushing** → hipertensão + bradicardia + respiração irregular (sinal tardio)\n- Herniação uncal → midríase ipsilateral + hemiparesia contralateral\n\nConduta:\n- ABCDE; evitar hipóxia (SatO₂ > 94%) e hipotensão (PAS ≥ 100–110)\n- TC de crânio sem contraste → todo moderado/grave e leve com fator de risco\n- Medidas para HIC → cabeceira a 30°, sedação, salina hipertônica ou manitol, hiperventilação só transitória (PaCO₂ 35)\n- Hematoma com efeito de massa → drenagem neurocirúrgica\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: epidural × subdural na TC, sinais de fratura de base e tríade de Cushing.",
+   "ctxvisual": [
+    {
+     "tipo": "vs",
+     "a": {
+      "t": "Hematoma epidural",
+      "itens": [
+       "Artéria meníngea média",
+       "Intervalo lúcido",
+       "Lente biconvexa",
+       "Não cruza suturas"
+      ]
+     },
+     "b": {
+      "t": "Hematoma subdural",
+      "itens": [
+       "Veias-ponte",
+       "Idoso, alcoolista, anticoagulado",
+       "Crescente (meia-lua)",
+       "Cruza suturas"
+      ]
+     }
+    },
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "Glasgow (ECG)",
+      "Critério",
+      "Pontos / conduta"
+     ],
+     "linhas": [
+      [
+       "Abertura ocular",
+       "Espontânea 4 · ao som 3 · à pressão 2 · ausente 1",
+       "1 a 4"
+      ],
+      [
+       "Resposta verbal",
+       "Orientada 5 · confusa 4 · palavras 3 · sons 2 · ausente 1",
+       "1 a 5"
+      ],
+      [
+       "Resposta motora",
+       "Obedece 6 · localiza 5 · flexão normal 4 · flexão anormal 3 · extensão 2 · ausente 1",
+       "1 a 6"
+      ],
+      [
+       "Reatividade pupilar (ECG-P)",
+       "Subtrair: nenhuma pupila reage −2 · uma não reage −1",
+       "Total 1 a 15"
+      ],
+      [
+       "13–15 pontos",
+       "TCE leve",
+       "Observação; TC se fator de risco"
+      ],
+      [
+       "9–12 pontos",
+       "TCE moderado",
+       "TC de crânio, internação, neurocirurgia"
+      ],
+      [
+       "3–8 pontos",
+       "TCE grave",
+       "Intubação (via aérea definitiva) + TC + neurocirurgia"
+      ]
+     ]
+    }
+   ],
+   "fonte": "ATLS 10ª ed. (2018) / Brain Trauma Foundation Guidelines 4ª ed. (2016)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Cirurgia",
+   "tema": "Trauma",
+   "sub": "Traumatismo cranioencefálico (TCE)",
+   "id": "tce-02",
+   "tipo": "flash",
+   "prio": "media",
+   "frente": "Sinais de fratura de base de crânio",
+   "verso": "Raciocínio:\n- A fratura rompe dura e seios → sangue e líquor escorrem para órbitas, mastoide, nariz e ouvido.\n\n**Olhos de guaxinim.**\n**Sinal de Battle (equimose retroauricular).**\n**Rinorreia ou otorreia de líquor.**\n**Hemotímpano.**\n\nConduta:\n- Não passar sonda nasogástrica (usar orogástrica).",
+   "macete": "\"Guaxinim e Batalha (Battle) na base\".",
+   "pegadinha": "Fratura de base contraindica sonda NASOgástrica.",
+   "uerj": "Cobra epidural × subdural, Glasgow e sinais de fratura de base.",
+   "contexto": "**TCE = lesão cerebral por trauma; o objetivo é evitar a lesão secundária (hipóxia, hipotensão e hipertensão intracraniana).**\n\nClassificação (Glasgow, 3 a 15 pontos):\n- **Leve** → 13–15\n- **Moderado** → 9–12\n- **Grave** → 3–8 (intubar)\n\nLesões:\n- **Hematoma epidural** → **artéria meníngea média** (fratura do temporal); **intervalo lúcido**; TC com **lente biconvexa** que não cruza suturas\n- **Hematoma subdural agudo** → **veias-ponte**; idoso, alcoolista, anticoagulado; TC em **crescente** que cruza suturas; pior prognóstico\n- **Lesão axonal difusa** → coma desde o trauma com TC quase normal (aceleração/desaceleração)\n- **Contusão** → lesão em golpe e contragolpe\n- **Fratura de base de crânio** → olhos de guaxinim, **sinal de Battle** (equimose retroauricular), rinorreia/otorreia de líquor, hemotímpano\n\nHipertensão intracraniana:\n- **Tríade de Cushing** → hipertensão + bradicardia + respiração irregular (sinal tardio)\n- Herniação uncal → midríase ipsilateral + hemiparesia contralateral\n\nConduta:\n- ABCDE; evitar hipóxia (SatO₂ > 94%) e hipotensão (PAS ≥ 100–110)\n- TC de crânio sem contraste → todo moderado/grave e leve com fator de risco\n- Medidas para HIC → cabeceira a 30°, sedação, salina hipertônica ou manitol, hiperventilação só transitória (PaCO₂ 35)\n- Hematoma com efeito de massa → drenagem neurocirúrgica\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: epidural × subdural na TC, sinais de fratura de base e tríade de Cushing.",
+   "ctxvisual": [
+    {
+     "tipo": "vs",
+     "a": {
+      "t": "Hematoma epidural",
+      "itens": [
+       "Artéria meníngea média",
+       "Intervalo lúcido",
+       "Lente biconvexa",
+       "Não cruza suturas"
+      ]
+     },
+     "b": {
+      "t": "Hematoma subdural",
+      "itens": [
+       "Veias-ponte",
+       "Idoso, alcoolista, anticoagulado",
+       "Crescente (meia-lua)",
+       "Cruza suturas"
+      ]
+     }
+    },
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "Glasgow (ECG)",
+      "Critério",
+      "Pontos / conduta"
+     ],
+     "linhas": [
+      [
+       "Abertura ocular",
+       "Espontânea 4 · ao som 3 · à pressão 2 · ausente 1",
+       "1 a 4"
+      ],
+      [
+       "Resposta verbal",
+       "Orientada 5 · confusa 4 · palavras 3 · sons 2 · ausente 1",
+       "1 a 5"
+      ],
+      [
+       "Resposta motora",
+       "Obedece 6 · localiza 5 · flexão normal 4 · flexão anormal 3 · extensão 2 · ausente 1",
+       "1 a 6"
+      ],
+      [
+       "Reatividade pupilar (ECG-P)",
+       "Subtrair: nenhuma pupila reage −2 · uma não reage −1",
+       "Total 1 a 15"
+      ],
+      [
+       "13–15 pontos",
+       "TCE leve",
+       "Observação; TC se fator de risco"
+      ],
+      [
+       "9–12 pontos",
+       "TCE moderado",
+       "TC de crânio, internação, neurocirurgia"
+      ],
+      [
+       "3–8 pontos",
+       "TCE grave",
+       "Intubação (via aérea definitiva) + TC + neurocirurgia"
+      ]
+     ]
+    }
+   ],
+   "fonte": "ATLS 10ª ed. (2018) / Brain Trauma Foundation Guidelines 4ª ed. (2016)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Cirurgia",
+   "tema": "Trauma",
+   "sub": "Traumatismo cranioencefálico (TCE)",
+   "tipo": "quiz",
+   "frente": "Sobre o traumatismo cranioencefálico, analise: I. O hematoma epidural geralmente decorre de lesão da artéria meníngea média. II. A tríade de Cushing é formada por hipotensão, taquicardia e taquipneia. III. Glasgow entre 9 e 12 classifica o TCE como moderado. Está(ão) correta(s):",
+   "opcoes": [
+    "Apenas I e II.",
+    "Apenas I e III.",
+    "Apenas II e III.",
+    "I, II e III."
+   ],
+   "certa": 1,
+   "comentarios": [
+    "II é falsa.",
+    "Correta. II é falsa: Cushing = hipertensão, bradicardia e respiração irregular.",
+    "II é falsa.",
+    "II é falsa."
+   ],
+   "id": "tce-q1",
+   "prio": "alta",
+   "base": "- Na HIC, a PA sobe para manter a perfusão cerebral (PPC = PAM − PIC).\n- O barorreflexo responde à hipertensão com bradicardia; a compressão do tronco altera a respiração.",
+   "macete": "\"Cushing: pressão Sobe, coração Desce\".",
+   "pegadinha": "Cushing é hipertensão + bradicardia.",
+   "uerj": "Cobra epidural × subdural, Glasgow e sinais de fratura de base.",
+   "contexto": "**TCE = lesão cerebral por trauma; o objetivo é evitar a lesão secundária (hipóxia, hipotensão e hipertensão intracraniana).**\n\nClassificação (Glasgow, 3 a 15 pontos):\n- **Leve** → 13–15\n- **Moderado** → 9–12\n- **Grave** → 3–8 (intubar)\n\nLesões:\n- **Hematoma epidural** → **artéria meníngea média** (fratura do temporal); **intervalo lúcido**; TC com **lente biconvexa** que não cruza suturas\n- **Hematoma subdural agudo** → **veias-ponte**; idoso, alcoolista, anticoagulado; TC em **crescente** que cruza suturas; pior prognóstico\n- **Lesão axonal difusa** → coma desde o trauma com TC quase normal (aceleração/desaceleração)\n- **Contusão** → lesão em golpe e contragolpe\n- **Fratura de base de crânio** → olhos de guaxinim, **sinal de Battle** (equimose retroauricular), rinorreia/otorreia de líquor, hemotímpano\n\nHipertensão intracraniana:\n- **Tríade de Cushing** → hipertensão + bradicardia + respiração irregular (sinal tardio)\n- Herniação uncal → midríase ipsilateral + hemiparesia contralateral\n\nConduta:\n- ABCDE; evitar hipóxia (SatO₂ > 94%) e hipotensão (PAS ≥ 100–110)\n- TC de crânio sem contraste → todo moderado/grave e leve com fator de risco\n- Medidas para HIC → cabeceira a 30°, sedação, salina hipertônica ou manitol, hiperventilação só transitória (PaCO₂ 35)\n- Hematoma com efeito de massa → drenagem neurocirúrgica\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: epidural × subdural na TC, sinais de fratura de base e tríade de Cushing.",
+   "ctxvisual": [
+    {
+     "tipo": "vs",
+     "a": {
+      "t": "Hematoma epidural",
+      "itens": [
+       "Artéria meníngea média",
+       "Intervalo lúcido",
+       "Lente biconvexa",
+       "Não cruza suturas"
+      ]
+     },
+     "b": {
+      "t": "Hematoma subdural",
+      "itens": [
+       "Veias-ponte",
+       "Idoso, alcoolista, anticoagulado",
+       "Crescente (meia-lua)",
+       "Cruza suturas"
+      ]
+     }
+    },
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "Glasgow (ECG)",
+      "Critério",
+      "Pontos / conduta"
+     ],
+     "linhas": [
+      [
+       "Abertura ocular",
+       "Espontânea 4 · ao som 3 · à pressão 2 · ausente 1",
+       "1 a 4"
+      ],
+      [
+       "Resposta verbal",
+       "Orientada 5 · confusa 4 · palavras 3 · sons 2 · ausente 1",
+       "1 a 5"
+      ],
+      [
+       "Resposta motora",
+       "Obedece 6 · localiza 5 · flexão normal 4 · flexão anormal 3 · extensão 2 · ausente 1",
+       "1 a 6"
+      ],
+      [
+       "Reatividade pupilar (ECG-P)",
+       "Subtrair: nenhuma pupila reage −2 · uma não reage −1",
+       "Total 1 a 15"
+      ],
+      [
+       "13–15 pontos",
+       "TCE leve",
+       "Observação; TC se fator de risco"
+      ],
+      [
+       "9–12 pontos",
+       "TCE moderado",
+       "TC de crânio, internação, neurocirurgia"
+      ],
+      [
+       "3–8 pontos",
+       "TCE grave",
+       "Intubação (via aérea definitiva) + TC + neurocirurgia"
+      ]
+     ]
+    }
+   ],
+   "fonte": "ATLS 10ª ed. (2018) / Brain Trauma Foundation Guidelines 4ª ed. (2016)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Cirurgia",
+   "tema": "Trauma",
+   "sub": "Traumatismo cranioencefálico (TCE)",
+   "id": "tce-d1",
+   "tipo": "digitar",
+   "prio": "alta",
+   "frente": "Qual vaso costuma sangrar no hematoma epidural?",
+   "verso": "**Artéria meníngea média.**",
+   "resposta": "Artéria meníngea média",
+   "aceitas": [
+    "meningea media",
+    "meníngea média",
+    "arteria meningea media"
+   ],
+   "macete": "Epidural = artéria.",
+   "uerj": "Cobra epidural × subdural, Glasgow e sinais de fratura de base.",
+   "contexto": "**TCE = lesão cerebral por trauma; o objetivo é evitar a lesão secundária (hipóxia, hipotensão e hipertensão intracraniana).**\n\nClassificação (Glasgow, 3 a 15 pontos):\n- **Leve** → 13–15\n- **Moderado** → 9–12\n- **Grave** → 3–8 (intubar)\n\nLesões:\n- **Hematoma epidural** → **artéria meníngea média** (fratura do temporal); **intervalo lúcido**; TC com **lente biconvexa** que não cruza suturas\n- **Hematoma subdural agudo** → **veias-ponte**; idoso, alcoolista, anticoagulado; TC em **crescente** que cruza suturas; pior prognóstico\n- **Lesão axonal difusa** → coma desde o trauma com TC quase normal (aceleração/desaceleração)\n- **Contusão** → lesão em golpe e contragolpe\n- **Fratura de base de crânio** → olhos de guaxinim, **sinal de Battle** (equimose retroauricular), rinorreia/otorreia de líquor, hemotímpano\n\nHipertensão intracraniana:\n- **Tríade de Cushing** → hipertensão + bradicardia + respiração irregular (sinal tardio)\n- Herniação uncal → midríase ipsilateral + hemiparesia contralateral\n\nConduta:\n- ABCDE; evitar hipóxia (SatO₂ > 94%) e hipotensão (PAS ≥ 100–110)\n- TC de crânio sem contraste → todo moderado/grave e leve com fator de risco\n- Medidas para HIC → cabeceira a 30°, sedação, salina hipertônica ou manitol, hiperventilação só transitória (PaCO₂ 35)\n- Hematoma com efeito de massa → drenagem neurocirúrgica\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: epidural × subdural na TC, sinais de fratura de base e tríade de Cushing.",
+   "ctxvisual": [
+    {
+     "tipo": "vs",
+     "a": {
+      "t": "Hematoma epidural",
+      "itens": [
+       "Artéria meníngea média",
+       "Intervalo lúcido",
+       "Lente biconvexa",
+       "Não cruza suturas"
+      ]
+     },
+     "b": {
+      "t": "Hematoma subdural",
+      "itens": [
+       "Veias-ponte",
+       "Idoso, alcoolista, anticoagulado",
+       "Crescente (meia-lua)",
+       "Cruza suturas"
+      ]
+     }
+    },
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "Glasgow (ECG)",
+      "Critério",
+      "Pontos / conduta"
+     ],
+     "linhas": [
+      [
+       "Abertura ocular",
+       "Espontânea 4 · ao som 3 · à pressão 2 · ausente 1",
+       "1 a 4"
+      ],
+      [
+       "Resposta verbal",
+       "Orientada 5 · confusa 4 · palavras 3 · sons 2 · ausente 1",
+       "1 a 5"
+      ],
+      [
+       "Resposta motora",
+       "Obedece 6 · localiza 5 · flexão normal 4 · flexão anormal 3 · extensão 2 · ausente 1",
+       "1 a 6"
+      ],
+      [
+       "Reatividade pupilar (ECG-P)",
+       "Subtrair: nenhuma pupila reage −2 · uma não reage −1",
+       "Total 1 a 15"
+      ],
+      [
+       "13–15 pontos",
+       "TCE leve",
+       "Observação; TC se fator de risco"
+      ],
+      [
+       "9–12 pontos",
+       "TCE moderado",
+       "TC de crânio, internação, neurocirurgia"
+      ],
+      [
+       "3–8 pontos",
+       "TCE grave",
+       "Intubação (via aérea definitiva) + TC + neurocirurgia"
+      ]
+     ]
+    }
+   ],
+   "fonte": "ATLS 10ª ed. (2018) / Brain Trauma Foundation Guidelines 4ª ed. (2016)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Cirurgia",
+   "tema": "Trauma",
+   "sub": "Traumatismo cranioencefálico (TCE)",
+   "id": "tce-d2",
+   "tipo": "digitar",
+   "prio": "media",
+   "frente": "Qual o nome da equimose retroauricular na fratura de base de crânio?",
+   "verso": "**Sinal de Battle.**",
+   "resposta": "Battle",
+   "aceitas": [
+    "sinal de battle",
+    "battle"
+   ],
+   "macete": "Battle atrás da orelha.",
+   "uerj": "Cobra epidural × subdural, Glasgow e sinais de fratura de base.",
+   "contexto": "**TCE = lesão cerebral por trauma; o objetivo é evitar a lesão secundária (hipóxia, hipotensão e hipertensão intracraniana).**\n\nClassificação (Glasgow, 3 a 15 pontos):\n- **Leve** → 13–15\n- **Moderado** → 9–12\n- **Grave** → 3–8 (intubar)\n\nLesões:\n- **Hematoma epidural** → **artéria meníngea média** (fratura do temporal); **intervalo lúcido**; TC com **lente biconvexa** que não cruza suturas\n- **Hematoma subdural agudo** → **veias-ponte**; idoso, alcoolista, anticoagulado; TC em **crescente** que cruza suturas; pior prognóstico\n- **Lesão axonal difusa** → coma desde o trauma com TC quase normal (aceleração/desaceleração)\n- **Contusão** → lesão em golpe e contragolpe\n- **Fratura de base de crânio** → olhos de guaxinim, **sinal de Battle** (equimose retroauricular), rinorreia/otorreia de líquor, hemotímpano\n\nHipertensão intracraniana:\n- **Tríade de Cushing** → hipertensão + bradicardia + respiração irregular (sinal tardio)\n- Herniação uncal → midríase ipsilateral + hemiparesia contralateral\n\nConduta:\n- ABCDE; evitar hipóxia (SatO₂ > 94%) e hipotensão (PAS ≥ 100–110)\n- TC de crânio sem contraste → todo moderado/grave e leve com fator de risco\n- Medidas para HIC → cabeceira a 30°, sedação, salina hipertônica ou manitol, hiperventilação só transitória (PaCO₂ 35)\n- Hematoma com efeito de massa → drenagem neurocirúrgica\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: epidural × subdural na TC, sinais de fratura de base e tríade de Cushing.",
+   "ctxvisual": [
+    {
+     "tipo": "vs",
+     "a": {
+      "t": "Hematoma epidural",
+      "itens": [
+       "Artéria meníngea média",
+       "Intervalo lúcido",
+       "Lente biconvexa",
+       "Não cruza suturas"
+      ]
+     },
+     "b": {
+      "t": "Hematoma subdural",
+      "itens": [
+       "Veias-ponte",
+       "Idoso, alcoolista, anticoagulado",
+       "Crescente (meia-lua)",
+       "Cruza suturas"
+      ]
+     }
+    },
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "Glasgow (ECG)",
+      "Critério",
+      "Pontos / conduta"
+     ],
+     "linhas": [
+      [
+       "Abertura ocular",
+       "Espontânea 4 · ao som 3 · à pressão 2 · ausente 1",
+       "1 a 4"
+      ],
+      [
+       "Resposta verbal",
+       "Orientada 5 · confusa 4 · palavras 3 · sons 2 · ausente 1",
+       "1 a 5"
+      ],
+      [
+       "Resposta motora",
+       "Obedece 6 · localiza 5 · flexão normal 4 · flexão anormal 3 · extensão 2 · ausente 1",
+       "1 a 6"
+      ],
+      [
+       "Reatividade pupilar (ECG-P)",
+       "Subtrair: nenhuma pupila reage −2 · uma não reage −1",
+       "Total 1 a 15"
+      ],
+      [
+       "13–15 pontos",
+       "TCE leve",
+       "Observação; TC se fator de risco"
+      ],
+      [
+       "9–12 pontos",
+       "TCE moderado",
+       "TC de crânio, internação, neurocirurgia"
+      ],
+      [
+       "3–8 pontos",
+       "TCE grave",
+       "Intubação (via aérea definitiva) + TC + neurocirurgia"
+      ]
+     ]
+    }
+   ],
+   "fonte": "ATLS 10ª ed. (2018) / Brain Trauma Foundation Guidelines 4ª ed. (2016)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Cirurgia",
+   "tema": "Trauma",
+   "sub": "Queimaduras",
+   "id": "qmd-01",
+   "tipo": "flash",
+   "prio": "alta",
+   "frente": "Grande queimado: como calcular a reposição volêmica (ATLS 10)?",
+   "verso": "Raciocínio:\n- A queimadura libera mediadores → vazamento capilar maciço nas primeiras horas.\n- Por isso metade do volume vai nas primeiras 8 h desde a queimadura.\n\n**Ringer lactato 2 mL × kg × %SCQ.**\n**Metade nas primeiras 8 h.**\n\nAjustes:\n- Criança → 3 mL × kg × %SCQ.\n- Elétrica → 4 mL × kg × %SCQ.\n\nGuia:\n- Diurese 0,5 mL/kg/h (adulto).",
+   "macete": "\"2-8-0,5\": 2 mL, metade em 8 h, diurese 0,5.",
+   "pegadinha": "Queimadura de 1º grau NÃO entra no cálculo da SCQ.",
+   "uerj": "Cobra a regra dos 9, a fórmula de reposição e a diurese-alvo.",
+   "contexto": "**Queimadura = lesão tecidual por calor, eletricidade, frio, química ou radiação; o grande queimado tem choque por perda de líquido pela pele e pelo vazamento capilar.**\n\nProfundidade:\n- **1º grau** → só epiderme: eritema, dor, sem bolha (não entra no cálculo de SCQ)\n- **2º grau superficial** → bolhas, leito rosado, muita dor\n- **2º grau profundo** → leito pálido/mosqueado, menos dor\n- **3º grau** → toda a derme: branco nacarado ou marrom, **indolor**, aspecto de couro; precisa de enxerto\n\nExtensão (superfície corporal queimada — SCQ):\n- **Regra dos 9 (adulto)** → cabeça 9%, cada membro superior 9%, tronco anterior 18%, tronco posterior 18%, cada membro inferior 18%, períneo 1%\n- Criança → cabeça maior, membros inferiores menores (Lund-Browder)\n- Palma da mão do paciente ≈ 1%\n\nReposição volêmica (ATLS 10ª ed.):\n- Indicada em queimaduras de 2º e 3º graus > 20% SCQ\n- **Ringer lactato 2 mL × kg × %SCQ** no adulto (3 mL na criança; 4 mL na queimadura elétrica)\n- **Metade nas primeiras 8 h (contadas desde a queimadura)** e metade nas 16 h seguintes\n- Guia → **diurese 0,5 mL/kg/h** no adulto (1 mL/kg/h na criança < 30 kg; 1–1,5 mL/kg/h na elétrica)\n- (Fórmula clássica de Parkland usava 4 mL)\n\nVia aérea:\n- Lesão inalatória → queimadura de face, vibrissas queimadas, escarro carbonáceo, rouquidão, ambiente fechado → **intubação precoce**\n- Intoxicação por CO → O₂ a 100% (oxímetro de pulso engana)\n\nOutros:\n- Queimadura circunferencial de membro ou tórax → **escarotomia**\n- Elétrica → lesão interna maior que a pele; rabdomiólise, arritmia\n- Química → irrigação abundante com água\n- Profilaxia antitetânica; antibiótico sistêmico profilático NÃO\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: regra dos 9, fórmula de reposição e meta de diurese.",
+   "ctxvisual": [
+    {
+     "tipo": "img",
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Wallace_rule_of_nines-en.svg/600px-Wallace_rule_of_nines-en.svg.png",
+     "legenda": "Regra dos 9 de Wallace (adulto)",
+     "fonte": "Wikimedia Commons · CC BY-SA"
+    },
+    {
+     "tipo": "tabela",
+     "cab": [
+      "Região (adulto)",
+      "% SCQ"
+     ],
+     "linhas": [
+      [
+       "Cabeça e pescoço",
+       "9%"
+      ],
+      [
+       "Cada membro superior",
+       "9%"
+      ],
+      [
+       "Tronco anterior",
+       "18%"
+      ],
+      [
+       "Tronco posterior",
+       "18%"
+      ],
+      [
+       "Cada membro inferior",
+       "18%"
+      ],
+      [
+       "Períneo",
+       "1%"
+      ]
+     ]
+    }
+   ],
+   "fonte": "ATLS 10ª ed. (2018) / Ministério da Saúde — Cartilha para tratamento de emergência das queimaduras (2012) / ISBI Practice Guidelines (2016)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Cirurgia",
+   "tema": "Trauma",
+   "sub": "Queimaduras",
+   "id": "qmd-02",
+   "tipo": "flash",
+   "prio": "alta",
+   "frente": "Queimaduras: como classificar a profundidade?",
+   "verso": "Raciocínio:\n- Quanto mais fundo, mais terminações nervosas destruídas → o 3º grau é indolor.\n\n**1º grau → eritema, sem bolha.**\n**2º grau → bolhas, dor.**\n**3º grau → branca ou couro, indolor.**\n\n3º grau:\n- Não cicatriza sozinho → enxerto.",
+   "macete": "\"Bolha = 2º; Sem dor = 3º\".",
+   "pegadinha": "A queimadura mais grave é a que menos dói.",
+   "uerj": "Cobra a regra dos 9, a fórmula de reposição e a diurese-alvo.",
+   "contexto": "**Queimadura = lesão tecidual por calor, eletricidade, frio, química ou radiação; o grande queimado tem choque por perda de líquido pela pele e pelo vazamento capilar.**\n\nProfundidade:\n- **1º grau** → só epiderme: eritema, dor, sem bolha (não entra no cálculo de SCQ)\n- **2º grau superficial** → bolhas, leito rosado, muita dor\n- **2º grau profundo** → leito pálido/mosqueado, menos dor\n- **3º grau** → toda a derme: branco nacarado ou marrom, **indolor**, aspecto de couro; precisa de enxerto\n\nExtensão (superfície corporal queimada — SCQ):\n- **Regra dos 9 (adulto)** → cabeça 9%, cada membro superior 9%, tronco anterior 18%, tronco posterior 18%, cada membro inferior 18%, períneo 1%\n- Criança → cabeça maior, membros inferiores menores (Lund-Browder)\n- Palma da mão do paciente ≈ 1%\n\nReposição volêmica (ATLS 10ª ed.):\n- Indicada em queimaduras de 2º e 3º graus > 20% SCQ\n- **Ringer lactato 2 mL × kg × %SCQ** no adulto (3 mL na criança; 4 mL na queimadura elétrica)\n- **Metade nas primeiras 8 h (contadas desde a queimadura)** e metade nas 16 h seguintes\n- Guia → **diurese 0,5 mL/kg/h** no adulto (1 mL/kg/h na criança < 30 kg; 1–1,5 mL/kg/h na elétrica)\n- (Fórmula clássica de Parkland usava 4 mL)\n\nVia aérea:\n- Lesão inalatória → queimadura de face, vibrissas queimadas, escarro carbonáceo, rouquidão, ambiente fechado → **intubação precoce**\n- Intoxicação por CO → O₂ a 100% (oxímetro de pulso engana)\n\nOutros:\n- Queimadura circunferencial de membro ou tórax → **escarotomia**\n- Elétrica → lesão interna maior que a pele; rabdomiólise, arritmia\n- Química → irrigação abundante com água\n- Profilaxia antitetânica; antibiótico sistêmico profilático NÃO\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: regra dos 9, fórmula de reposição e meta de diurese.",
+   "ctxvisual": [
+    {
+     "tipo": "img",
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Wallace_rule_of_nines-en.svg/600px-Wallace_rule_of_nines-en.svg.png",
+     "legenda": "Regra dos 9 de Wallace (adulto)",
+     "fonte": "Wikimedia Commons · CC BY-SA"
+    },
+    {
+     "tipo": "tabela",
+     "cab": [
+      "Região (adulto)",
+      "% SCQ"
+     ],
+     "linhas": [
+      [
+       "Cabeça e pescoço",
+       "9%"
+      ],
+      [
+       "Cada membro superior",
+       "9%"
+      ],
+      [
+       "Tronco anterior",
+       "18%"
+      ],
+      [
+       "Tronco posterior",
+       "18%"
+      ],
+      [
+       "Cada membro inferior",
+       "18%"
+      ],
+      [
+       "Períneo",
+       "1%"
+      ]
+     ]
+    }
+   ],
+   "fonte": "ATLS 10ª ed. (2018) / Ministério da Saúde — Cartilha para tratamento de emergência das queimaduras (2012) / ISBI Practice Guidelines (2016)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Cirurgia",
+   "tema": "Trauma",
+   "sub": "Queimaduras",
+   "tipo": "quiz",
+   "frente": "Sobre o atendimento ao grande queimado, analise: I. Pela regra dos 9, cada membro inferior do adulto corresponde a 18%. II. Queimaduras de 1º grau entram no cálculo da superfície corporal queimada. III. A diurese-alvo no adulto é de 0,5 mL/kg/h. Está(ão) correta(s):",
+   "opcoes": [
+    "Apenas I e II.",
+    "Apenas II e III.",
+    "Apenas I e III.",
+    "I, II e III."
+   ],
+   "certa": 2,
+   "comentarios": [
+    "II é falsa.",
+    "II é falsa.",
+    "Correta. II é falsa: só 2º e 3º graus entram no cálculo.",
+    "II é falsa."
+   ],
+   "id": "qmd-q1",
+   "prio": "alta",
+   "macete": "\"Perna 18, diurese meio\".",
+   "pegadinha": "1º grau não conta.",
+   "uerj": "Cobra a regra dos 9, a fórmula de reposição e a diurese-alvo.",
+   "contexto": "**Queimadura = lesão tecidual por calor, eletricidade, frio, química ou radiação; o grande queimado tem choque por perda de líquido pela pele e pelo vazamento capilar.**\n\nProfundidade:\n- **1º grau** → só epiderme: eritema, dor, sem bolha (não entra no cálculo de SCQ)\n- **2º grau superficial** → bolhas, leito rosado, muita dor\n- **2º grau profundo** → leito pálido/mosqueado, menos dor\n- **3º grau** → toda a derme: branco nacarado ou marrom, **indolor**, aspecto de couro; precisa de enxerto\n\nExtensão (superfície corporal queimada — SCQ):\n- **Regra dos 9 (adulto)** → cabeça 9%, cada membro superior 9%, tronco anterior 18%, tronco posterior 18%, cada membro inferior 18%, períneo 1%\n- Criança → cabeça maior, membros inferiores menores (Lund-Browder)\n- Palma da mão do paciente ≈ 1%\n\nReposição volêmica (ATLS 10ª ed.):\n- Indicada em queimaduras de 2º e 3º graus > 20% SCQ\n- **Ringer lactato 2 mL × kg × %SCQ** no adulto (3 mL na criança; 4 mL na queimadura elétrica)\n- **Metade nas primeiras 8 h (contadas desde a queimadura)** e metade nas 16 h seguintes\n- Guia → **diurese 0,5 mL/kg/h** no adulto (1 mL/kg/h na criança < 30 kg; 1–1,5 mL/kg/h na elétrica)\n- (Fórmula clássica de Parkland usava 4 mL)\n\nVia aérea:\n- Lesão inalatória → queimadura de face, vibrissas queimadas, escarro carbonáceo, rouquidão, ambiente fechado → **intubação precoce**\n- Intoxicação por CO → O₂ a 100% (oxímetro de pulso engana)\n\nOutros:\n- Queimadura circunferencial de membro ou tórax → **escarotomia**\n- Elétrica → lesão interna maior que a pele; rabdomiólise, arritmia\n- Química → irrigação abundante com água\n- Profilaxia antitetânica; antibiótico sistêmico profilático NÃO\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: regra dos 9, fórmula de reposição e meta de diurese.",
+   "ctxvisual": [
+    {
+     "tipo": "img",
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Wallace_rule_of_nines-en.svg/600px-Wallace_rule_of_nines-en.svg.png",
+     "legenda": "Regra dos 9 de Wallace (adulto)",
+     "fonte": "Wikimedia Commons · CC BY-SA"
+    },
+    {
+     "tipo": "tabela",
+     "cab": [
+      "Região (adulto)",
+      "% SCQ"
+     ],
+     "linhas": [
+      [
+       "Cabeça e pescoço",
+       "9%"
+      ],
+      [
+       "Cada membro superior",
+       "9%"
+      ],
+      [
+       "Tronco anterior",
+       "18%"
+      ],
+      [
+       "Tronco posterior",
+       "18%"
+      ],
+      [
+       "Cada membro inferior",
+       "18%"
+      ],
+      [
+       "Períneo",
+       "1%"
+      ]
+     ]
+    }
+   ],
+   "fonte": "ATLS 10ª ed. (2018) / Ministério da Saúde — Cartilha para tratamento de emergência das queimaduras (2012) / ISBI Practice Guidelines (2016)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Cirurgia",
+   "tema": "Trauma",
+   "sub": "Queimaduras",
+   "id": "qmd-d1",
+   "tipo": "digitar",
+   "prio": "alta",
+   "frente": "Qual a diurese-alvo na reposição do adulto queimado (mL/kg/h)?",
+   "verso": "**0,5 mL/kg/h.**\n\n- Criança < 30 kg → 1 mL/kg/h.",
+   "resposta": "0,5 mL/kg/h",
+   "aceitas": [
+    "0,5",
+    "0.5",
+    "0,5 ml/kg/h",
+    "0.5 ml/kg/h"
+   ],
+   "macete": "Adulto: meio por quilo por hora.",
+   "uerj": "Cobra a regra dos 9, a fórmula de reposição e a diurese-alvo.",
+   "contexto": "**Queimadura = lesão tecidual por calor, eletricidade, frio, química ou radiação; o grande queimado tem choque por perda de líquido pela pele e pelo vazamento capilar.**\n\nProfundidade:\n- **1º grau** → só epiderme: eritema, dor, sem bolha (não entra no cálculo de SCQ)\n- **2º grau superficial** → bolhas, leito rosado, muita dor\n- **2º grau profundo** → leito pálido/mosqueado, menos dor\n- **3º grau** → toda a derme: branco nacarado ou marrom, **indolor**, aspecto de couro; precisa de enxerto\n\nExtensão (superfície corporal queimada — SCQ):\n- **Regra dos 9 (adulto)** → cabeça 9%, cada membro superior 9%, tronco anterior 18%, tronco posterior 18%, cada membro inferior 18%, períneo 1%\n- Criança → cabeça maior, membros inferiores menores (Lund-Browder)\n- Palma da mão do paciente ≈ 1%\n\nReposição volêmica (ATLS 10ª ed.):\n- Indicada em queimaduras de 2º e 3º graus > 20% SCQ\n- **Ringer lactato 2 mL × kg × %SCQ** no adulto (3 mL na criança; 4 mL na queimadura elétrica)\n- **Metade nas primeiras 8 h (contadas desde a queimadura)** e metade nas 16 h seguintes\n- Guia → **diurese 0,5 mL/kg/h** no adulto (1 mL/kg/h na criança < 30 kg; 1–1,5 mL/kg/h na elétrica)\n- (Fórmula clássica de Parkland usava 4 mL)\n\nVia aérea:\n- Lesão inalatória → queimadura de face, vibrissas queimadas, escarro carbonáceo, rouquidão, ambiente fechado → **intubação precoce**\n- Intoxicação por CO → O₂ a 100% (oxímetro de pulso engana)\n\nOutros:\n- Queimadura circunferencial de membro ou tórax → **escarotomia**\n- Elétrica → lesão interna maior que a pele; rabdomiólise, arritmia\n- Química → irrigação abundante com água\n- Profilaxia antitetânica; antibiótico sistêmico profilático NÃO\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: regra dos 9, fórmula de reposição e meta de diurese.",
+   "ctxvisual": [
+    {
+     "tipo": "img",
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Wallace_rule_of_nines-en.svg/600px-Wallace_rule_of_nines-en.svg.png",
+     "legenda": "Regra dos 9 de Wallace (adulto)",
+     "fonte": "Wikimedia Commons · CC BY-SA"
+    },
+    {
+     "tipo": "tabela",
+     "cab": [
+      "Região (adulto)",
+      "% SCQ"
+     ],
+     "linhas": [
+      [
+       "Cabeça e pescoço",
+       "9%"
+      ],
+      [
+       "Cada membro superior",
+       "9%"
+      ],
+      [
+       "Tronco anterior",
+       "18%"
+      ],
+      [
+       "Tronco posterior",
+       "18%"
+      ],
+      [
+       "Cada membro inferior",
+       "18%"
+      ],
+      [
+       "Períneo",
+       "1%"
+      ]
+     ]
+    }
+   ],
+   "fonte": "ATLS 10ª ed. (2018) / Ministério da Saúde — Cartilha para tratamento de emergência das queimaduras (2012) / ISBI Practice Guidelines (2016)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Cirurgia",
+   "tema": "Trauma",
+   "sub": "Queimaduras",
+   "id": "qmd-d2",
+   "tipo": "digitar",
+   "prio": "media",
+   "frente": "Qual procedimento em queimadura circunferencial de membro com isquemia?",
+   "verso": "**Escarotomia.**",
+   "resposta": "Escarotomia",
+   "aceitas": [
+    "escarotomia"
+   ],
+   "macete": "Escara apertando → escarotomia.",
+   "uerj": "Cobra a regra dos 9, a fórmula de reposição e a diurese-alvo.",
+   "contexto": "**Queimadura = lesão tecidual por calor, eletricidade, frio, química ou radiação; o grande queimado tem choque por perda de líquido pela pele e pelo vazamento capilar.**\n\nProfundidade:\n- **1º grau** → só epiderme: eritema, dor, sem bolha (não entra no cálculo de SCQ)\n- **2º grau superficial** → bolhas, leito rosado, muita dor\n- **2º grau profundo** → leito pálido/mosqueado, menos dor\n- **3º grau** → toda a derme: branco nacarado ou marrom, **indolor**, aspecto de couro; precisa de enxerto\n\nExtensão (superfície corporal queimada — SCQ):\n- **Regra dos 9 (adulto)** → cabeça 9%, cada membro superior 9%, tronco anterior 18%, tronco posterior 18%, cada membro inferior 18%, períneo 1%\n- Criança → cabeça maior, membros inferiores menores (Lund-Browder)\n- Palma da mão do paciente ≈ 1%\n\nReposição volêmica (ATLS 10ª ed.):\n- Indicada em queimaduras de 2º e 3º graus > 20% SCQ\n- **Ringer lactato 2 mL × kg × %SCQ** no adulto (3 mL na criança; 4 mL na queimadura elétrica)\n- **Metade nas primeiras 8 h (contadas desde a queimadura)** e metade nas 16 h seguintes\n- Guia → **diurese 0,5 mL/kg/h** no adulto (1 mL/kg/h na criança < 30 kg; 1–1,5 mL/kg/h na elétrica)\n- (Fórmula clássica de Parkland usava 4 mL)\n\nVia aérea:\n- Lesão inalatória → queimadura de face, vibrissas queimadas, escarro carbonáceo, rouquidão, ambiente fechado → **intubação precoce**\n- Intoxicação por CO → O₂ a 100% (oxímetro de pulso engana)\n\nOutros:\n- Queimadura circunferencial de membro ou tórax → **escarotomia**\n- Elétrica → lesão interna maior que a pele; rabdomiólise, arritmia\n- Química → irrigação abundante com água\n- Profilaxia antitetânica; antibiótico sistêmico profilático NÃO\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: regra dos 9, fórmula de reposição e meta de diurese.",
+   "ctxvisual": [
+    {
+     "tipo": "img",
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Wallace_rule_of_nines-en.svg/600px-Wallace_rule_of_nines-en.svg.png",
+     "legenda": "Regra dos 9 de Wallace (adulto)",
+     "fonte": "Wikimedia Commons · CC BY-SA"
+    },
+    {
+     "tipo": "tabela",
+     "cab": [
+      "Região (adulto)",
+      "% SCQ"
+     ],
+     "linhas": [
+      [
+       "Cabeça e pescoço",
+       "9%"
+      ],
+      [
+       "Cada membro superior",
+       "9%"
+      ],
+      [
+       "Tronco anterior",
+       "18%"
+      ],
+      [
+       "Tronco posterior",
+       "18%"
+      ],
+      [
+       "Cada membro inferior",
+       "18%"
+      ],
+      [
+       "Períneo",
+       "1%"
+      ]
+     ]
+    }
+   ],
+   "fonte": "ATLS 10ª ed. (2018) / Ministério da Saúde — Cartilha para tratamento de emergência das queimaduras (2012) / ISBI Practice Guidelines (2016)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Cirurgia",
+   "tema": "Coloproctologia",
+   "sub": "Câncer colorretal",
+   "id": "ccr-01",
+   "tipo": "flash",
+   "prio": "alta",
+   "frente": "Câncer colorretal: clínica do cólon direito × esquerdo",
+   "verso": "Raciocínio:\n- No cólon direito as fezes são líquidas e o lúmen é largo → o tumor cresce e sangra sem obstruir.\n- No esquerdo as fezes já são sólidas e o lúmen é estreito → obstrui e muda o hábito.\n\n**Direito → anemia ferropriva.**\n**Esquerdo → obstrução e mudança do hábito intestinal.**\n\nReto:\n- Hematoquezia e tenesmo.",
+   "macete": "\"Direito sangra escondido; esquerdo entope\".",
+   "pegadinha": "Anemia ferropriva em homem ou mulher na pós-menopausa → investigar cólon.",
+   "uerj": "Cobra clínica direito × esquerdo, rastreamento e tratamento do reto.",
+   "contexto": "**Câncer colorretal (CCR) = adenocarcinoma do cólon/reto que surge, em geral, de um pólipo adenomatoso (sequência adenoma → carcinoma).**\n\nFatores de risco:\n- Idade, história familiar, pólipos adenomatosos, DII, dieta rica em carne vermelha/processada, obesidade, tabagismo, álcool\n- Hereditários → **polipose adenomatosa familiar (gene APC**, centenas de pólipos, colectomia profilática) e **síndrome de Lynch** (reparo do DNA, sem polipose; também endométrio, ovário)\n\nCarcinogênese:\n- APC → KRAS → p53 (via clássica); instabilidade de microssatélites no Lynch\n\nClínica:\n- **Cólon direito** → anemia ferropriva, massa, sangue oculto\n- **Cólon esquerdo** → alteração do hábito intestinal, fezes afiladas, **obstrução**\n- **Reto** → hematoquezia, tenesmo\n- Bacteremia por *Streptococcus gallolyticus* (bovis) ou *Clostridium septicum* → investigar cólon\n\nRastreamento (risco médio):\n- A partir de 45–50 anos até 75 → pesquisa de sangue oculto nas fezes anual ou colonoscopia a cada 10 anos\n- Parente de 1º grau com CCR → colonoscopia aos 40 anos ou 10 anos antes do caso índice\n\nDiagnóstico e estadiamento:\n- **Colonoscopia com biópsia** (avaliar todo o cólon: lesão sincrônica)\n- TC de tórax/abdome/pelve; **RM de pelve no câncer de reto**; CEA basal (seguimento, não diagnóstico)\n\nTratamento:\n- **Cólon** → colectomia com linfadenectomia (≥ 12 linfonodos); **estádio III (linfonodo +) → quimioterapia adjuvante**\n- **Reto** → localmente avançado: **quimiorradioterapia neoadjuvante** + excisão total do mesorreto\n- Metástase hepática isolada → pode ser ressecada com intenção curativa\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: direito × esquerdo, rastreamento e neoadjuvância no reto.",
+   "ctxvisual": [
+    {
+     "tipo": "vs",
+     "a": {
+      "t": "Cólon direito",
+      "itens": [
+       "Fezes líquidas, lúmen largo",
+       "Anemia ferropriva",
+       "Massa palpável",
+       "Raramente obstrui"
+      ]
+     },
+     "b": {
+      "t": "Cólon esquerdo / reto",
+      "itens": [
+       "Fezes sólidas, lúmen estreito",
+       "Alteração do hábito, fezes afiladas",
+       "Obstrução",
+       "Hematoquezia, tenesmo (reto)"
+      ]
+     }
+    }
+   ],
+   "fonte": "INCA — Detecção precoce do câncer (2021) / NCCN Colon and Rectal Cancer (2025) / Sabiston 21ª ed.",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Cirurgia",
+   "tema": "Coloproctologia",
+   "sub": "Câncer colorretal",
+   "id": "ccr-02",
+   "tipo": "flash",
+   "prio": "media",
+   "frente": "Câncer colorretal: quando fazer neoadjuvância e adjuvância?",
+   "verso": "Raciocínio:\n- O reto fica na pelve estreita → a radioterapia antes da cirurgia reduz o tumor e a recidiva local.\n- No cólon, o linfonodo positivo indica doença micrometastática → quimioterapia depois.\n\n**Reto localmente avançado → quimiorradioterapia neoadjuvante.**\n**Cólon estádio III → quimioterapia adjuvante.**\n\nCirurgia do reto:\n- Excisão total do mesorreto.",
+   "macete": "\"Reto: radio ANTES; Cólon com linfonodo: quimio DEPOIS\".",
+   "pegadinha": "CEA não serve para diagnóstico nem rastreamento, só seguimento.",
+   "uerj": "Cobra clínica direito × esquerdo, rastreamento e tratamento do reto.",
+   "contexto": "**Câncer colorretal (CCR) = adenocarcinoma do cólon/reto que surge, em geral, de um pólipo adenomatoso (sequência adenoma → carcinoma).**\n\nFatores de risco:\n- Idade, história familiar, pólipos adenomatosos, DII, dieta rica em carne vermelha/processada, obesidade, tabagismo, álcool\n- Hereditários → **polipose adenomatosa familiar (gene APC**, centenas de pólipos, colectomia profilática) e **síndrome de Lynch** (reparo do DNA, sem polipose; também endométrio, ovário)\n\nCarcinogênese:\n- APC → KRAS → p53 (via clássica); instabilidade de microssatélites no Lynch\n\nClínica:\n- **Cólon direito** → anemia ferropriva, massa, sangue oculto\n- **Cólon esquerdo** → alteração do hábito intestinal, fezes afiladas, **obstrução**\n- **Reto** → hematoquezia, tenesmo\n- Bacteremia por *Streptococcus gallolyticus* (bovis) ou *Clostridium septicum* → investigar cólon\n\nRastreamento (risco médio):\n- A partir de 45–50 anos até 75 → pesquisa de sangue oculto nas fezes anual ou colonoscopia a cada 10 anos\n- Parente de 1º grau com CCR → colonoscopia aos 40 anos ou 10 anos antes do caso índice\n\nDiagnóstico e estadiamento:\n- **Colonoscopia com biópsia** (avaliar todo o cólon: lesão sincrônica)\n- TC de tórax/abdome/pelve; **RM de pelve no câncer de reto**; CEA basal (seguimento, não diagnóstico)\n\nTratamento:\n- **Cólon** → colectomia com linfadenectomia (≥ 12 linfonodos); **estádio III (linfonodo +) → quimioterapia adjuvante**\n- **Reto** → localmente avançado: **quimiorradioterapia neoadjuvante** + excisão total do mesorreto\n- Metástase hepática isolada → pode ser ressecada com intenção curativa\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: direito × esquerdo, rastreamento e neoadjuvância no reto.",
+   "ctxvisual": [
+    {
+     "tipo": "vs",
+     "a": {
+      "t": "Cólon direito",
+      "itens": [
+       "Fezes líquidas, lúmen largo",
+       "Anemia ferropriva",
+       "Massa palpável",
+       "Raramente obstrui"
+      ]
+     },
+     "b": {
+      "t": "Cólon esquerdo / reto",
+      "itens": [
+       "Fezes sólidas, lúmen estreito",
+       "Alteração do hábito, fezes afiladas",
+       "Obstrução",
+       "Hematoquezia, tenesmo (reto)"
+      ]
+     }
+    }
+   ],
+   "fonte": "INCA — Detecção precoce do câncer (2021) / NCCN Colon and Rectal Cancer (2025) / Sabiston 21ª ed.",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Cirurgia",
+   "tema": "Coloproctologia",
+   "sub": "Câncer colorretal",
+   "tipo": "quiz",
+   "frente": "Sobre o câncer colorretal, analise: I. A polipose adenomatosa familiar está ligada ao gene APC. II. O CEA é o exame de escolha para o rastreamento populacional. III. No câncer de reto localmente avançado, indica-se quimiorradioterapia neoadjuvante. Está(ão) correta(s):",
+   "opcoes": [
+    "Apenas I e III.",
+    "Apenas I e II.",
+    "Apenas II e III.",
+    "I, II e III."
+   ],
+   "certa": 0,
+   "comentarios": [
+    "Correta. II é falsa: CEA é para seguimento.",
+    "II é falsa.",
+    "II é falsa.",
+    "II é falsa."
+   ],
+   "id": "ccr-q1",
+   "prio": "alta",
+   "macete": "\"APC = Adenomatose; CEA = Controle\".",
+   "pegadinha": "CEA não rastreia.",
+   "uerj": "Cobra clínica direito × esquerdo, rastreamento e tratamento do reto.",
+   "contexto": "**Câncer colorretal (CCR) = adenocarcinoma do cólon/reto que surge, em geral, de um pólipo adenomatoso (sequência adenoma → carcinoma).**\n\nFatores de risco:\n- Idade, história familiar, pólipos adenomatosos, DII, dieta rica em carne vermelha/processada, obesidade, tabagismo, álcool\n- Hereditários → **polipose adenomatosa familiar (gene APC**, centenas de pólipos, colectomia profilática) e **síndrome de Lynch** (reparo do DNA, sem polipose; também endométrio, ovário)\n\nCarcinogênese:\n- APC → KRAS → p53 (via clássica); instabilidade de microssatélites no Lynch\n\nClínica:\n- **Cólon direito** → anemia ferropriva, massa, sangue oculto\n- **Cólon esquerdo** → alteração do hábito intestinal, fezes afiladas, **obstrução**\n- **Reto** → hematoquezia, tenesmo\n- Bacteremia por *Streptococcus gallolyticus* (bovis) ou *Clostridium septicum* → investigar cólon\n\nRastreamento (risco médio):\n- A partir de 45–50 anos até 75 → pesquisa de sangue oculto nas fezes anual ou colonoscopia a cada 10 anos\n- Parente de 1º grau com CCR → colonoscopia aos 40 anos ou 10 anos antes do caso índice\n\nDiagnóstico e estadiamento:\n- **Colonoscopia com biópsia** (avaliar todo o cólon: lesão sincrônica)\n- TC de tórax/abdome/pelve; **RM de pelve no câncer de reto**; CEA basal (seguimento, não diagnóstico)\n\nTratamento:\n- **Cólon** → colectomia com linfadenectomia (≥ 12 linfonodos); **estádio III (linfonodo +) → quimioterapia adjuvante**\n- **Reto** → localmente avançado: **quimiorradioterapia neoadjuvante** + excisão total do mesorreto\n- Metástase hepática isolada → pode ser ressecada com intenção curativa\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: direito × esquerdo, rastreamento e neoadjuvância no reto.",
+   "ctxvisual": [
+    {
+     "tipo": "vs",
+     "a": {
+      "t": "Cólon direito",
+      "itens": [
+       "Fezes líquidas, lúmen largo",
+       "Anemia ferropriva",
+       "Massa palpável",
+       "Raramente obstrui"
+      ]
+     },
+     "b": {
+      "t": "Cólon esquerdo / reto",
+      "itens": [
+       "Fezes sólidas, lúmen estreito",
+       "Alteração do hábito, fezes afiladas",
+       "Obstrução",
+       "Hematoquezia, tenesmo (reto)"
+      ]
+     }
+    }
+   ],
+   "fonte": "INCA — Detecção precoce do câncer (2021) / NCCN Colon and Rectal Cancer (2025) / Sabiston 21ª ed.",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Cirurgia",
+   "tema": "Coloproctologia",
+   "sub": "Câncer colorretal",
+   "id": "ccr-d1",
+   "tipo": "digitar",
+   "prio": "media",
+   "frente": "Qual gene está mutado na polipose adenomatosa familiar?",
+   "verso": "**APC.**",
+   "resposta": "APC",
+   "aceitas": [
+    "apc",
+    "gene apc"
+   ],
+   "macete": "APC = Adenomatous Polyposis Coli.",
+   "uerj": "Cobra clínica direito × esquerdo, rastreamento e tratamento do reto.",
+   "contexto": "**Câncer colorretal (CCR) = adenocarcinoma do cólon/reto que surge, em geral, de um pólipo adenomatoso (sequência adenoma → carcinoma).**\n\nFatores de risco:\n- Idade, história familiar, pólipos adenomatosos, DII, dieta rica em carne vermelha/processada, obesidade, tabagismo, álcool\n- Hereditários → **polipose adenomatosa familiar (gene APC**, centenas de pólipos, colectomia profilática) e **síndrome de Lynch** (reparo do DNA, sem polipose; também endométrio, ovário)\n\nCarcinogênese:\n- APC → KRAS → p53 (via clássica); instabilidade de microssatélites no Lynch\n\nClínica:\n- **Cólon direito** → anemia ferropriva, massa, sangue oculto\n- **Cólon esquerdo** → alteração do hábito intestinal, fezes afiladas, **obstrução**\n- **Reto** → hematoquezia, tenesmo\n- Bacteremia por *Streptococcus gallolyticus* (bovis) ou *Clostridium septicum* → investigar cólon\n\nRastreamento (risco médio):\n- A partir de 45–50 anos até 75 → pesquisa de sangue oculto nas fezes anual ou colonoscopia a cada 10 anos\n- Parente de 1º grau com CCR → colonoscopia aos 40 anos ou 10 anos antes do caso índice\n\nDiagnóstico e estadiamento:\n- **Colonoscopia com biópsia** (avaliar todo o cólon: lesão sincrônica)\n- TC de tórax/abdome/pelve; **RM de pelve no câncer de reto**; CEA basal (seguimento, não diagnóstico)\n\nTratamento:\n- **Cólon** → colectomia com linfadenectomia (≥ 12 linfonodos); **estádio III (linfonodo +) → quimioterapia adjuvante**\n- **Reto** → localmente avançado: **quimiorradioterapia neoadjuvante** + excisão total do mesorreto\n- Metástase hepática isolada → pode ser ressecada com intenção curativa\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: direito × esquerdo, rastreamento e neoadjuvância no reto.",
+   "ctxvisual": [
+    {
+     "tipo": "vs",
+     "a": {
+      "t": "Cólon direito",
+      "itens": [
+       "Fezes líquidas, lúmen largo",
+       "Anemia ferropriva",
+       "Massa palpável",
+       "Raramente obstrui"
+      ]
+     },
+     "b": {
+      "t": "Cólon esquerdo / reto",
+      "itens": [
+       "Fezes sólidas, lúmen estreito",
+       "Alteração do hábito, fezes afiladas",
+       "Obstrução",
+       "Hematoquezia, tenesmo (reto)"
+      ]
+     }
+    }
+   ],
+   "fonte": "INCA — Detecção precoce do câncer (2021) / NCCN Colon and Rectal Cancer (2025) / Sabiston 21ª ed.",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Cirurgia",
+   "tema": "Coloproctologia",
+   "sub": "Câncer colorretal",
+   "id": "ccr-d2",
+   "tipo": "digitar",
+   "prio": "media",
+   "frente": "Qual exame de imagem estadia localmente o câncer de reto?",
+   "verso": "**RM de pelve.**",
+   "resposta": "RM de pelve",
+   "aceitas": [
+    "ressonancia de pelve",
+    "ressonância de pelve",
+    "rm pelve",
+    "ressonância magnética de pelve",
+    "rm"
+   ],
+   "macete": "Reto → RM.",
+   "uerj": "Cobra clínica direito × esquerdo, rastreamento e tratamento do reto.",
+   "contexto": "**Câncer colorretal (CCR) = adenocarcinoma do cólon/reto que surge, em geral, de um pólipo adenomatoso (sequência adenoma → carcinoma).**\n\nFatores de risco:\n- Idade, história familiar, pólipos adenomatosos, DII, dieta rica em carne vermelha/processada, obesidade, tabagismo, álcool\n- Hereditários → **polipose adenomatosa familiar (gene APC**, centenas de pólipos, colectomia profilática) e **síndrome de Lynch** (reparo do DNA, sem polipose; também endométrio, ovário)\n\nCarcinogênese:\n- APC → KRAS → p53 (via clássica); instabilidade de microssatélites no Lynch\n\nClínica:\n- **Cólon direito** → anemia ferropriva, massa, sangue oculto\n- **Cólon esquerdo** → alteração do hábito intestinal, fezes afiladas, **obstrução**\n- **Reto** → hematoquezia, tenesmo\n- Bacteremia por *Streptococcus gallolyticus* (bovis) ou *Clostridium septicum* → investigar cólon\n\nRastreamento (risco médio):\n- A partir de 45–50 anos até 75 → pesquisa de sangue oculto nas fezes anual ou colonoscopia a cada 10 anos\n- Parente de 1º grau com CCR → colonoscopia aos 40 anos ou 10 anos antes do caso índice\n\nDiagnóstico e estadiamento:\n- **Colonoscopia com biópsia** (avaliar todo o cólon: lesão sincrônica)\n- TC de tórax/abdome/pelve; **RM de pelve no câncer de reto**; CEA basal (seguimento, não diagnóstico)\n\nTratamento:\n- **Cólon** → colectomia com linfadenectomia (≥ 12 linfonodos); **estádio III (linfonodo +) → quimioterapia adjuvante**\n- **Reto** → localmente avançado: **quimiorradioterapia neoadjuvante** + excisão total do mesorreto\n- Metástase hepática isolada → pode ser ressecada com intenção curativa\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: direito × esquerdo, rastreamento e neoadjuvância no reto.",
+   "ctxvisual": [
+    {
+     "tipo": "vs",
+     "a": {
+      "t": "Cólon direito",
+      "itens": [
+       "Fezes líquidas, lúmen largo",
+       "Anemia ferropriva",
+       "Massa palpável",
+       "Raramente obstrui"
+      ]
+     },
+     "b": {
+      "t": "Cólon esquerdo / reto",
+      "itens": [
+       "Fezes sólidas, lúmen estreito",
+       "Alteração do hábito, fezes afiladas",
+       "Obstrução",
+       "Hematoquezia, tenesmo (reto)"
+      ]
+     }
+    }
+   ],
+   "fonte": "INCA — Detecção precoce do câncer (2021) / NCCN Colon and Rectal Cancer (2025) / Sabiston 21ª ed.",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Cirurgia",
+   "tema": "Coloproctologia",
+   "sub": "Doença hemorroidária",
+   "id": "hem-01",
+   "tipo": "flash",
+   "prio": "alta",
+   "frente": "Hemorroida interna × externa",
+   "verso": "Raciocínio:\n- Acima da linha pectínea a mucosa tem inervação visceral → não dói.\n- Abaixo, a pele tem inervação somática → dor intensa na trombose.\n\n**Interna → sangramento vivo indolor e prolapso.**\n**Externa → dor quando trombosa.**",
+   "macete": "\"Dentro sangra; fora dói\".",
+   "pegadinha": "Hemorroida interna não dói, a menos que estrangule (grau IV).",
+   "uerj": "Cobra a classificação em graus com a conduta e a trombose externa.",
+   "contexto": "**Doença hemorroidária = dilatação e deslizamento dos coxins vasculares do canal anal, que causa sangramento e prolapso.**\n\nTipos:\n- **Internas** → acima da linha pectínea; mucosa sem inervação somática → **sangramento indolor** (vermelho vivo, no papel/vaso) e prolapso\n- **Externas** → abaixo da linha pectínea; pele inervada → dor quando **trombosam**\n\nFatores de risco:\n- Constipação, esforço evacuatório, gestação, dieta pobre em fibras, ficar muito tempo sentado no vaso\n\nClassificação das internas (Goligher):\n- Graus I a IV (tabela do contexto)\n\nTratamento:\n- Todos → fibras, líquidos, evitar esforço, banho de assento\n- **Ligadura elástica** → graus I–II (e alguns III) refratários\n- **Hemorroidectomia** → graus III–IV, mistas, falha das outras\n- **Trombose externa** → **< 72 h: excisão do trombo**; > 72 h: tratamento clínico\n\nPegadas:\n- Sangramento anal sempre exige afastar câncer (colonoscopia se > 45–50 anos, anemia, alteração do hábito)\n- Dor intensa à evacuação com sangue → pensar em fissura anal\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: graus I–IV com a conduta e a trombose hemorroidária externa.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "Goligher (hemorroida interna)",
+      "Critério",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "Grau I",
+       "Sangra, não prolapsa",
+       "Clínico; ligadura se persistir"
+      ],
+      [
+       "Grau II",
+       "Prolapsa e volta sozinha",
+       "Clínico + ligadura elástica"
+      ],
+      [
+       "Grau III",
+       "Prolapsa e precisa de redução manual",
+       "Ligadura ou hemorroidectomia"
+      ],
+      [
+       "Grau IV",
+       "Prolapso irredutível",
+       "Hemorroidectomia"
+      ]
+     ]
+    }
+   ],
+   "fonte": "ASCRS Clinical Practice Guidelines for Hemorrhoids (2018/2024) / SBCP / Sabiston 21ª ed.",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Cirurgia",
+   "tema": "Coloproctologia",
+   "sub": "Doença hemorroidária",
+   "id": "hem-02",
+   "tipo": "flash",
+   "prio": "alta",
+   "frente": "Trombose hemorroidária externa: conduta",
+   "verso": "Raciocínio:\n- Nas primeiras 72 h o trombo está tenso e doloroso → retirá-lo alivia na hora.\n- Depois disso já está em reabsorção → a cirurgia não compensa.\n\n**< 72 h → excisão do trombo.**\n**> 72 h → tratamento clínico.**\n\nClínico:\n- Analgesia, banho de assento, fibras.",
+   "macete": "\"72 h: corta; depois: espera\".",
+   "pegadinha": "Não fazer ligadura elástica em hemorroida externa (dor intensa).",
+   "uerj": "Cobra a classificação em graus com a conduta e a trombose externa.",
+   "contexto": "**Doença hemorroidária = dilatação e deslizamento dos coxins vasculares do canal anal, que causa sangramento e prolapso.**\n\nTipos:\n- **Internas** → acima da linha pectínea; mucosa sem inervação somática → **sangramento indolor** (vermelho vivo, no papel/vaso) e prolapso\n- **Externas** → abaixo da linha pectínea; pele inervada → dor quando **trombosam**\n\nFatores de risco:\n- Constipação, esforço evacuatório, gestação, dieta pobre em fibras, ficar muito tempo sentado no vaso\n\nClassificação das internas (Goligher):\n- Graus I a IV (tabela do contexto)\n\nTratamento:\n- Todos → fibras, líquidos, evitar esforço, banho de assento\n- **Ligadura elástica** → graus I–II (e alguns III) refratários\n- **Hemorroidectomia** → graus III–IV, mistas, falha das outras\n- **Trombose externa** → **< 72 h: excisão do trombo**; > 72 h: tratamento clínico\n\nPegadas:\n- Sangramento anal sempre exige afastar câncer (colonoscopia se > 45–50 anos, anemia, alteração do hábito)\n- Dor intensa à evacuação com sangue → pensar em fissura anal\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: graus I–IV com a conduta e a trombose hemorroidária externa.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "Goligher (hemorroida interna)",
+      "Critério",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "Grau I",
+       "Sangra, não prolapsa",
+       "Clínico; ligadura se persistir"
+      ],
+      [
+       "Grau II",
+       "Prolapsa e volta sozinha",
+       "Clínico + ligadura elástica"
+      ],
+      [
+       "Grau III",
+       "Prolapsa e precisa de redução manual",
+       "Ligadura ou hemorroidectomia"
+      ],
+      [
+       "Grau IV",
+       "Prolapso irredutível",
+       "Hemorroidectomia"
+      ]
+     ]
+    }
+   ],
+   "fonte": "ASCRS Clinical Practice Guidelines for Hemorrhoids (2018/2024) / SBCP / Sabiston 21ª ed.",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Cirurgia",
+   "tema": "Coloproctologia",
+   "sub": "Doença hemorroidária",
+   "tipo": "quiz",
+   "frente": "Sobre a doença hemorroidária, analise: I. A hemorroida interna grau II prolapsa e reduz espontaneamente. II. A ligadura elástica é indicada para hemorroidas externas. III. Hemorroida grau IV é tratada com hemorroidectomia. Está(ão) correta(s):",
+   "opcoes": [
+    "Apenas I e II.",
+    "Apenas I e III.",
+    "Apenas II e III.",
+    "I, II e III."
+   ],
+   "certa": 1,
+   "comentarios": [
+    "II é falsa.",
+    "Correta. II é falsa: ligadura é para internas (acima da linha pectínea, sem dor).",
+    "II é falsa.",
+    "II é falsa."
+   ],
+   "id": "hem-q1",
+   "prio": "alta",
+   "macete": "\"Ligadura só onde não dói\".",
+   "pegadinha": "Ligadura em externa = dor.",
+   "uerj": "Cobra a classificação em graus com a conduta e a trombose externa.",
+   "contexto": "**Doença hemorroidária = dilatação e deslizamento dos coxins vasculares do canal anal, que causa sangramento e prolapso.**\n\nTipos:\n- **Internas** → acima da linha pectínea; mucosa sem inervação somática → **sangramento indolor** (vermelho vivo, no papel/vaso) e prolapso\n- **Externas** → abaixo da linha pectínea; pele inervada → dor quando **trombosam**\n\nFatores de risco:\n- Constipação, esforço evacuatório, gestação, dieta pobre em fibras, ficar muito tempo sentado no vaso\n\nClassificação das internas (Goligher):\n- Graus I a IV (tabela do contexto)\n\nTratamento:\n- Todos → fibras, líquidos, evitar esforço, banho de assento\n- **Ligadura elástica** → graus I–II (e alguns III) refratários\n- **Hemorroidectomia** → graus III–IV, mistas, falha das outras\n- **Trombose externa** → **< 72 h: excisão do trombo**; > 72 h: tratamento clínico\n\nPegadas:\n- Sangramento anal sempre exige afastar câncer (colonoscopia se > 45–50 anos, anemia, alteração do hábito)\n- Dor intensa à evacuação com sangue → pensar em fissura anal\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: graus I–IV com a conduta e a trombose hemorroidária externa.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "Goligher (hemorroida interna)",
+      "Critério",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "Grau I",
+       "Sangra, não prolapsa",
+       "Clínico; ligadura se persistir"
+      ],
+      [
+       "Grau II",
+       "Prolapsa e volta sozinha",
+       "Clínico + ligadura elástica"
+      ],
+      [
+       "Grau III",
+       "Prolapsa e precisa de redução manual",
+       "Ligadura ou hemorroidectomia"
+      ],
+      [
+       "Grau IV",
+       "Prolapso irredutível",
+       "Hemorroidectomia"
+      ]
+     ]
+    }
+   ],
+   "fonte": "ASCRS Clinical Practice Guidelines for Hemorrhoids (2018/2024) / SBCP / Sabiston 21ª ed.",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Cirurgia",
+   "tema": "Coloproctologia",
+   "sub": "Doença hemorroidária",
+   "id": "hem-d1",
+   "tipo": "digitar",
+   "prio": "alta",
+   "frente": "Hemorroida que prolapsa e precisa de redução manual: qual grau?",
+   "verso": "**Grau III.**",
+   "resposta": "Grau III",
+   "aceitas": [
+    "iii",
+    "3",
+    "grau 3",
+    "grau iii",
+    "terceiro grau"
+   ],
+   "macete": "I sangra · II volta só · III com a mão · IV não volta.",
+   "uerj": "Cobra a classificação em graus com a conduta e a trombose externa.",
+   "contexto": "**Doença hemorroidária = dilatação e deslizamento dos coxins vasculares do canal anal, que causa sangramento e prolapso.**\n\nTipos:\n- **Internas** → acima da linha pectínea; mucosa sem inervação somática → **sangramento indolor** (vermelho vivo, no papel/vaso) e prolapso\n- **Externas** → abaixo da linha pectínea; pele inervada → dor quando **trombosam**\n\nFatores de risco:\n- Constipação, esforço evacuatório, gestação, dieta pobre em fibras, ficar muito tempo sentado no vaso\n\nClassificação das internas (Goligher):\n- Graus I a IV (tabela do contexto)\n\nTratamento:\n- Todos → fibras, líquidos, evitar esforço, banho de assento\n- **Ligadura elástica** → graus I–II (e alguns III) refratários\n- **Hemorroidectomia** → graus III–IV, mistas, falha das outras\n- **Trombose externa** → **< 72 h: excisão do trombo**; > 72 h: tratamento clínico\n\nPegadas:\n- Sangramento anal sempre exige afastar câncer (colonoscopia se > 45–50 anos, anemia, alteração do hábito)\n- Dor intensa à evacuação com sangue → pensar em fissura anal\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: graus I–IV com a conduta e a trombose hemorroidária externa.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "Goligher (hemorroida interna)",
+      "Critério",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "Grau I",
+       "Sangra, não prolapsa",
+       "Clínico; ligadura se persistir"
+      ],
+      [
+       "Grau II",
+       "Prolapsa e volta sozinha",
+       "Clínico + ligadura elástica"
+      ],
+      [
+       "Grau III",
+       "Prolapsa e precisa de redução manual",
+       "Ligadura ou hemorroidectomia"
+      ],
+      [
+       "Grau IV",
+       "Prolapso irredutível",
+       "Hemorroidectomia"
+      ]
+     ]
+    }
+   ],
+   "fonte": "ASCRS Clinical Practice Guidelines for Hemorrhoids (2018/2024) / SBCP / Sabiston 21ª ed.",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Cirurgia",
+   "tema": "Coloproctologia",
+   "sub": "Doença hemorroidária",
+   "id": "hem-d2",
+   "tipo": "digitar",
+   "prio": "media",
+   "frente": "Até quantas horas está indicada a excisão da trombose hemorroidária externa?",
+   "verso": "**72 horas.**",
+   "resposta": "72 h",
+   "aceitas": [
+    "72",
+    "72h",
+    "72 horas",
+    "3 dias"
+   ],
+   "macete": "72 h.",
+   "uerj": "Cobra a classificação em graus com a conduta e a trombose externa.",
+   "contexto": "**Doença hemorroidária = dilatação e deslizamento dos coxins vasculares do canal anal, que causa sangramento e prolapso.**\n\nTipos:\n- **Internas** → acima da linha pectínea; mucosa sem inervação somática → **sangramento indolor** (vermelho vivo, no papel/vaso) e prolapso\n- **Externas** → abaixo da linha pectínea; pele inervada → dor quando **trombosam**\n\nFatores de risco:\n- Constipação, esforço evacuatório, gestação, dieta pobre em fibras, ficar muito tempo sentado no vaso\n\nClassificação das internas (Goligher):\n- Graus I a IV (tabela do contexto)\n\nTratamento:\n- Todos → fibras, líquidos, evitar esforço, banho de assento\n- **Ligadura elástica** → graus I–II (e alguns III) refratários\n- **Hemorroidectomia** → graus III–IV, mistas, falha das outras\n- **Trombose externa** → **< 72 h: excisão do trombo**; > 72 h: tratamento clínico\n\nPegadas:\n- Sangramento anal sempre exige afastar câncer (colonoscopia se > 45–50 anos, anemia, alteração do hábito)\n- Dor intensa à evacuação com sangue → pensar em fissura anal\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: graus I–IV com a conduta e a trombose hemorroidária externa.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "Goligher (hemorroida interna)",
+      "Critério",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "Grau I",
+       "Sangra, não prolapsa",
+       "Clínico; ligadura se persistir"
+      ],
+      [
+       "Grau II",
+       "Prolapsa e volta sozinha",
+       "Clínico + ligadura elástica"
+      ],
+      [
+       "Grau III",
+       "Prolapsa e precisa de redução manual",
+       "Ligadura ou hemorroidectomia"
+      ],
+      [
+       "Grau IV",
+       "Prolapso irredutível",
+       "Hemorroidectomia"
+      ]
+     ]
+    }
+   ],
+   "fonte": "ASCRS Clinical Practice Guidelines for Hemorrhoids (2018/2024) / SBCP / Sabiston 21ª ed.",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Cirurgia",
+   "tema": "Esôfago e estômago",
+   "sub": "Doença do refluxo gastroesofágico e hérnia de hiato",
+   "id": "drge-01",
+   "tipo": "flash",
+   "prio": "alta",
+   "frente": "DRGE: quando pedir EDA e qual o padrão-ouro?",
+   "verso": "Raciocínio:\n- Sintoma típico sem alarme responde ao IBP → o teste terapêutico já diagnostica.\n- Alarme sugere complicação ou câncer → precisa ver a mucosa.\n- A pHmetria mede o ácido no esôfago → prova o refluxo mesmo com EDA normal.\n\n**EDA → sinais de alarme ou > 40–45 anos.**\n**Padrão-ouro → pHmetria de 24 h.**\n\nAlarme:\n- Disfagia, odinofagia\n- Emagrecimento, anemia, sangramento",
+   "macete": "\"Alarme toca → câmera (EDA); dúvida → pH\".",
+   "pegadinha": "EDA normal não exclui DRGE (a maioria tem doença não erosiva).",
+   "uerj": "Cobra quando pedir EDA, o padrão-ouro e o Barrett.",
+   "contexto": "**DRGE = refluxo do conteúdo gástrico que causa sintomas incômodos ou complicações (esofagite, estenose, Barrett).**\n\nFisiopatologia:\n- Relaxamentos transitórios do esfíncter esofágico inferior, hipotonia do EEI, hérnia de hiato, obesidade, gestação\n\nClínica:\n- **Típica** → pirose e regurgitação\n- **Atípica (extraesofágica)** → tosse crônica, asma, rouquidão/laringite, pigarro, erosão dentária, dor torácica\n\nDiagnóstico:\n- Sintomas típicos sem alarme → **teste terapêutico com IBP** (8 semanas)\n- **EDA** → sinais de alarme (disfagia, odinofagia, emagrecimento, anemia, sangramento, vômitos), idade > 40–45 anos, refratários\n- Esofagite → **classificação de Los Angeles** (A a D; C e D confirmam DRGE)\n- **pHmetria de 24 h (ou impedâncio-pHmetria)** → padrão-ouro para refluxo; antes da cirurgia\n- Manometria → antes da fundoplicatura (afasta distúrbio motor como acalasia)\n\nTratamento:\n- Medidas → perder peso, elevar cabeceira, evitar comer 2–3 h antes de deitar\n- **IBP** em jejum por 8 semanas; depois menor dose eficaz ou sob demanda\n- **Cirurgia (fundoplicatura de Nissen, 360°)** → refratário, intolerância/desejo de não usar IBP, complicações, hérnia grande\n\nComplicações:\n- Estenose péptica, úlcera, sangramento\n- **Esôfago de Barrett** → **metaplasia intestinal** (epitélio colunar com células caliciformes) → risco de adenocarcinoma → EDA de vigilância\n\nHérnia de hiato:\n- **Tipo I (deslizamento)** → mais comum, associada à DRGE\n- **Tipo II (paraesofágica)** e III/IV → risco de volvo e estrangulamento → cirurgia mesmo se pouco sintomática\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: sinais de alarme para EDA, pHmetria como padrão-ouro e Barrett.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "Los Angeles (esofagite)",
+      "Critério",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "A",
+       "Erosões < 5 mm, sem confluir",
+       "IBP"
+      ],
+      [
+       "B",
+       "Erosão > 5 mm, sem confluir entre pregas",
+       "IBP"
+      ],
+      [
+       "C",
+       "Erosões confluentes < 75% da circunferência",
+       "IBP; confirma DRGE"
+      ],
+      [
+       "D",
+       "Erosões ≥ 75% da circunferência",
+       "IBP dose plena; nova EDA para afastar Barrett"
+      ]
+     ]
+    }
+   ],
+   "fonte": "Consenso Brasileiro de DRGE (FBG) / Lyon Consensus 2.0 (2023) / ACG Guideline for GERD (2022)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Cirurgia",
+   "tema": "Esôfago e estômago",
+   "sub": "Doença do refluxo gastroesofágico e hérnia de hiato",
+   "id": "drge-02",
+   "tipo": "flash",
+   "prio": "alta",
+   "frente": "Esôfago de Barrett: o que é e por que importa?",
+   "verso": "Raciocínio:\n- O ácido crônico troca o epitélio escamoso por um colunar mais resistente (metaplasia).\n- Essa metaplasia pode evoluir para displasia → adenocarcinoma.\n\n**Metaplasia intestinal do esôfago distal.**\n**Risco de adenocarcinoma.**\n\nConduta:\n- IBP + EDA de vigilância com biópsias.\n- Displasia → terapia endoscópica (ablação/ressecção).",
+   "macete": "\"Barrett: Bota o intestino no esôfago\".",
+   "pegadinha": "Barrett leva a adenocarcinoma, não a carcinoma epidermoide.",
+   "uerj": "Cobra quando pedir EDA, o padrão-ouro e o Barrett.",
+   "contexto": "**DRGE = refluxo do conteúdo gástrico que causa sintomas incômodos ou complicações (esofagite, estenose, Barrett).**\n\nFisiopatologia:\n- Relaxamentos transitórios do esfíncter esofágico inferior, hipotonia do EEI, hérnia de hiato, obesidade, gestação\n\nClínica:\n- **Típica** → pirose e regurgitação\n- **Atípica (extraesofágica)** → tosse crônica, asma, rouquidão/laringite, pigarro, erosão dentária, dor torácica\n\nDiagnóstico:\n- Sintomas típicos sem alarme → **teste terapêutico com IBP** (8 semanas)\n- **EDA** → sinais de alarme (disfagia, odinofagia, emagrecimento, anemia, sangramento, vômitos), idade > 40–45 anos, refratários\n- Esofagite → **classificação de Los Angeles** (A a D; C e D confirmam DRGE)\n- **pHmetria de 24 h (ou impedâncio-pHmetria)** → padrão-ouro para refluxo; antes da cirurgia\n- Manometria → antes da fundoplicatura (afasta distúrbio motor como acalasia)\n\nTratamento:\n- Medidas → perder peso, elevar cabeceira, evitar comer 2–3 h antes de deitar\n- **IBP** em jejum por 8 semanas; depois menor dose eficaz ou sob demanda\n- **Cirurgia (fundoplicatura de Nissen, 360°)** → refratário, intolerância/desejo de não usar IBP, complicações, hérnia grande\n\nComplicações:\n- Estenose péptica, úlcera, sangramento\n- **Esôfago de Barrett** → **metaplasia intestinal** (epitélio colunar com células caliciformes) → risco de adenocarcinoma → EDA de vigilância\n\nHérnia de hiato:\n- **Tipo I (deslizamento)** → mais comum, associada à DRGE\n- **Tipo II (paraesofágica)** e III/IV → risco de volvo e estrangulamento → cirurgia mesmo se pouco sintomática\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: sinais de alarme para EDA, pHmetria como padrão-ouro e Barrett.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "Los Angeles (esofagite)",
+      "Critério",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "A",
+       "Erosões < 5 mm, sem confluir",
+       "IBP"
+      ],
+      [
+       "B",
+       "Erosão > 5 mm, sem confluir entre pregas",
+       "IBP"
+      ],
+      [
+       "C",
+       "Erosões confluentes < 75% da circunferência",
+       "IBP; confirma DRGE"
+      ],
+      [
+       "D",
+       "Erosões ≥ 75% da circunferência",
+       "IBP dose plena; nova EDA para afastar Barrett"
+      ]
+     ]
+    }
+   ],
+   "fonte": "Consenso Brasileiro de DRGE (FBG) / Lyon Consensus 2.0 (2023) / ACG Guideline for GERD (2022)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Cirurgia",
+   "tema": "Esôfago e estômago",
+   "sub": "Doença do refluxo gastroesofágico e hérnia de hiato",
+   "tipo": "quiz",
+   "frente": "Sobre a DRGE, analise: I. A pHmetria de 24 horas é o exame padrão-ouro para documentar o refluxo. II. A hérnia de hiato paraesofágica tem indicação cirúrgica pelo risco de volvo. III. O esôfago de Barrett aumenta o risco de carcinoma epidermoide. Está(ão) correta(s):",
+   "opcoes": [
+    "Apenas I e II.",
+    "Apenas I e III.",
+    "Apenas II e III.",
+    "I, II e III."
+   ],
+   "certa": 0,
+   "comentarios": [
+    "Correta. III é falsa: Barrett → adenocarcinoma.",
+    "III é falsa.",
+    "III é falsa.",
+    "III é falsa."
+   ],
+   "id": "drge-q1",
+   "prio": "alta",
+   "macete": "\"Barrett = Adeno\".",
+   "pegadinha": "Epidermoide é ligado a tabaco e álcool.",
+   "uerj": "Cobra quando pedir EDA, o padrão-ouro e o Barrett.",
+   "contexto": "**DRGE = refluxo do conteúdo gástrico que causa sintomas incômodos ou complicações (esofagite, estenose, Barrett).**\n\nFisiopatologia:\n- Relaxamentos transitórios do esfíncter esofágico inferior, hipotonia do EEI, hérnia de hiato, obesidade, gestação\n\nClínica:\n- **Típica** → pirose e regurgitação\n- **Atípica (extraesofágica)** → tosse crônica, asma, rouquidão/laringite, pigarro, erosão dentária, dor torácica\n\nDiagnóstico:\n- Sintomas típicos sem alarme → **teste terapêutico com IBP** (8 semanas)\n- **EDA** → sinais de alarme (disfagia, odinofagia, emagrecimento, anemia, sangramento, vômitos), idade > 40–45 anos, refratários\n- Esofagite → **classificação de Los Angeles** (A a D; C e D confirmam DRGE)\n- **pHmetria de 24 h (ou impedâncio-pHmetria)** → padrão-ouro para refluxo; antes da cirurgia\n- Manometria → antes da fundoplicatura (afasta distúrbio motor como acalasia)\n\nTratamento:\n- Medidas → perder peso, elevar cabeceira, evitar comer 2–3 h antes de deitar\n- **IBP** em jejum por 8 semanas; depois menor dose eficaz ou sob demanda\n- **Cirurgia (fundoplicatura de Nissen, 360°)** → refratário, intolerância/desejo de não usar IBP, complicações, hérnia grande\n\nComplicações:\n- Estenose péptica, úlcera, sangramento\n- **Esôfago de Barrett** → **metaplasia intestinal** (epitélio colunar com células caliciformes) → risco de adenocarcinoma → EDA de vigilância\n\nHérnia de hiato:\n- **Tipo I (deslizamento)** → mais comum, associada à DRGE\n- **Tipo II (paraesofágica)** e III/IV → risco de volvo e estrangulamento → cirurgia mesmo se pouco sintomática\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: sinais de alarme para EDA, pHmetria como padrão-ouro e Barrett.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "Los Angeles (esofagite)",
+      "Critério",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "A",
+       "Erosões < 5 mm, sem confluir",
+       "IBP"
+      ],
+      [
+       "B",
+       "Erosão > 5 mm, sem confluir entre pregas",
+       "IBP"
+      ],
+      [
+       "C",
+       "Erosões confluentes < 75% da circunferência",
+       "IBP; confirma DRGE"
+      ],
+      [
+       "D",
+       "Erosões ≥ 75% da circunferência",
+       "IBP dose plena; nova EDA para afastar Barrett"
+      ]
+     ]
+    }
+   ],
+   "fonte": "Consenso Brasileiro de DRGE (FBG) / Lyon Consensus 2.0 (2023) / ACG Guideline for GERD (2022)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Cirurgia",
+   "tema": "Esôfago e estômago",
+   "sub": "Doença do refluxo gastroesofágico e hérnia de hiato",
+   "id": "drge-d1",
+   "tipo": "digitar",
+   "prio": "media",
+   "frente": "Qual a cirurgia antirrefluxo clássica (360°)?",
+   "verso": "**Fundoplicatura de Nissen.**",
+   "resposta": "Nissen",
+   "aceitas": [
+    "fundoplicatura de nissen",
+    "nissen",
+    "fundoplicatura"
+   ],
+   "macete": "Nissen = 360°.",
+   "uerj": "Cobra quando pedir EDA, o padrão-ouro e o Barrett.",
+   "contexto": "**DRGE = refluxo do conteúdo gástrico que causa sintomas incômodos ou complicações (esofagite, estenose, Barrett).**\n\nFisiopatologia:\n- Relaxamentos transitórios do esfíncter esofágico inferior, hipotonia do EEI, hérnia de hiato, obesidade, gestação\n\nClínica:\n- **Típica** → pirose e regurgitação\n- **Atípica (extraesofágica)** → tosse crônica, asma, rouquidão/laringite, pigarro, erosão dentária, dor torácica\n\nDiagnóstico:\n- Sintomas típicos sem alarme → **teste terapêutico com IBP** (8 semanas)\n- **EDA** → sinais de alarme (disfagia, odinofagia, emagrecimento, anemia, sangramento, vômitos), idade > 40–45 anos, refratários\n- Esofagite → **classificação de Los Angeles** (A a D; C e D confirmam DRGE)\n- **pHmetria de 24 h (ou impedâncio-pHmetria)** → padrão-ouro para refluxo; antes da cirurgia\n- Manometria → antes da fundoplicatura (afasta distúrbio motor como acalasia)\n\nTratamento:\n- Medidas → perder peso, elevar cabeceira, evitar comer 2–3 h antes de deitar\n- **IBP** em jejum por 8 semanas; depois menor dose eficaz ou sob demanda\n- **Cirurgia (fundoplicatura de Nissen, 360°)** → refratário, intolerância/desejo de não usar IBP, complicações, hérnia grande\n\nComplicações:\n- Estenose péptica, úlcera, sangramento\n- **Esôfago de Barrett** → **metaplasia intestinal** (epitélio colunar com células caliciformes) → risco de adenocarcinoma → EDA de vigilância\n\nHérnia de hiato:\n- **Tipo I (deslizamento)** → mais comum, associada à DRGE\n- **Tipo II (paraesofágica)** e III/IV → risco de volvo e estrangulamento → cirurgia mesmo se pouco sintomática\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: sinais de alarme para EDA, pHmetria como padrão-ouro e Barrett.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "Los Angeles (esofagite)",
+      "Critério",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "A",
+       "Erosões < 5 mm, sem confluir",
+       "IBP"
+      ],
+      [
+       "B",
+       "Erosão > 5 mm, sem confluir entre pregas",
+       "IBP"
+      ],
+      [
+       "C",
+       "Erosões confluentes < 75% da circunferência",
+       "IBP; confirma DRGE"
+      ],
+      [
+       "D",
+       "Erosões ≥ 75% da circunferência",
+       "IBP dose plena; nova EDA para afastar Barrett"
+      ]
+     ]
+    }
+   ],
+   "fonte": "Consenso Brasileiro de DRGE (FBG) / Lyon Consensus 2.0 (2023) / ACG Guideline for GERD (2022)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Cirurgia",
+   "tema": "Esôfago e estômago",
+   "sub": "Doença do refluxo gastroesofágico e hérnia de hiato",
+   "id": "drge-d2",
+   "tipo": "digitar",
+   "prio": "media",
+   "frente": "Qual o tipo mais comum de hérnia de hiato?",
+   "verso": "**Tipo I (por deslizamento).**",
+   "resposta": "Deslizamento",
+   "aceitas": [
+    "tipo i",
+    "tipo 1",
+    "deslizamento",
+    "por deslizamento"
+   ],
+   "macete": "Mais comum: desliza.",
+   "uerj": "Cobra quando pedir EDA, o padrão-ouro e o Barrett.",
+   "contexto": "**DRGE = refluxo do conteúdo gástrico que causa sintomas incômodos ou complicações (esofagite, estenose, Barrett).**\n\nFisiopatologia:\n- Relaxamentos transitórios do esfíncter esofágico inferior, hipotonia do EEI, hérnia de hiato, obesidade, gestação\n\nClínica:\n- **Típica** → pirose e regurgitação\n- **Atípica (extraesofágica)** → tosse crônica, asma, rouquidão/laringite, pigarro, erosão dentária, dor torácica\n\nDiagnóstico:\n- Sintomas típicos sem alarme → **teste terapêutico com IBP** (8 semanas)\n- **EDA** → sinais de alarme (disfagia, odinofagia, emagrecimento, anemia, sangramento, vômitos), idade > 40–45 anos, refratários\n- Esofagite → **classificação de Los Angeles** (A a D; C e D confirmam DRGE)\n- **pHmetria de 24 h (ou impedâncio-pHmetria)** → padrão-ouro para refluxo; antes da cirurgia\n- Manometria → antes da fundoplicatura (afasta distúrbio motor como acalasia)\n\nTratamento:\n- Medidas → perder peso, elevar cabeceira, evitar comer 2–3 h antes de deitar\n- **IBP** em jejum por 8 semanas; depois menor dose eficaz ou sob demanda\n- **Cirurgia (fundoplicatura de Nissen, 360°)** → refratário, intolerância/desejo de não usar IBP, complicações, hérnia grande\n\nComplicações:\n- Estenose péptica, úlcera, sangramento\n- **Esôfago de Barrett** → **metaplasia intestinal** (epitélio colunar com células caliciformes) → risco de adenocarcinoma → EDA de vigilância\n\nHérnia de hiato:\n- **Tipo I (deslizamento)** → mais comum, associada à DRGE\n- **Tipo II (paraesofágica)** e III/IV → risco de volvo e estrangulamento → cirurgia mesmo se pouco sintomática\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: sinais de alarme para EDA, pHmetria como padrão-ouro e Barrett.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "Los Angeles (esofagite)",
+      "Critério",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "A",
+       "Erosões < 5 mm, sem confluir",
+       "IBP"
+      ],
+      [
+       "B",
+       "Erosão > 5 mm, sem confluir entre pregas",
+       "IBP"
+      ],
+      [
+       "C",
+       "Erosões confluentes < 75% da circunferência",
+       "IBP; confirma DRGE"
+      ],
+      [
+       "D",
+       "Erosões ≥ 75% da circunferência",
+       "IBP dose plena; nova EDA para afastar Barrett"
+      ]
+     ]
+    }
+   ],
+   "fonte": "Consenso Brasileiro de DRGE (FBG) / Lyon Consensus 2.0 (2023) / ACG Guideline for GERD (2022)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Cirurgia",
+   "tema": "Cirurgia vascular",
+   "sub": "Doença arterial periférica e aneurisma de aorta abdominal",
+   "id": "dap-01",
+   "tipo": "flash",
+   "prio": "alta",
+   "frente": "Doença arterial periférica: diagnóstico pelo ITB",
+   "verso": "Raciocínio:\n- Normalmente a PA no tornozelo é igual ou maior que no braço.\n- A placa reduz a pressão abaixo dela → o tornozelo fica com PA menor.\n- Artéria calcificada não colaba com o manguito → ITB falsamente alto.\n\n**ITB ≤ 0,9 → DAP.**\n**ITB ≤ 0,4 → isquemia crítica.**\n\nITB > 1,3:\n- Artéria incompressível (diabético, renal crônico).",
+   "macete": "\"Abaixo de 0,9: a perna perdeu a pressão\".",
+   "pegadinha": "ITB alto no diabético não significa artéria saudável.",
+   "uerj": "Cobra o ITB, o tratamento clínico da claudicação e o diâmetro de cirurgia do AAA.",
+   "contexto": "**Doença arterial periférica (DAP) = aterosclerose das artérias dos membros inferiores, que reduz o fluxo; aneurisma de aorta abdominal (AAA) = dilatação ≥ 3 cm da aorta.**\n\nDAP — clínica:\n- **Claudicação intermitente** → dor na panturrilha ao caminhar que melhora com repouso\n- Isquemia crônica crítica → dor em repouso, úlcera, gangrena\n- Pulsos diminuídos, pele fina, rarefação de pelos\n\nDAP — diagnóstico:\n- **Índice tornozelo-braquial (ITB)** = PAS do tornozelo ÷ PAS do braço (tabela do contexto)\n- Doppler, angio-TC/angio-RM ou arteriografia para planejar revascularização\n\nDAP — tratamento:\n- **Parar de fumar**, exercício supervisionado, **antiagregante (AAS ou clopidogrel)**, **estatina de alta potência**, controle de PA e DM\n- Cilostazol → melhora a distância de marcha (contraindicado na IC)\n- Revascularização (angioplastia ou ponte) → isquemia crítica ou claudicação limitante refratária\n\nIsquemia arterial aguda:\n- **6 Ps** → dor (pain), palidez, ausência de pulso, parestesia, paralisia, pecilotermia (frio)\n- Embolia (FA, sem DAP prévia) × trombose (sobre placa)\n- Heparina imediata + revascularização (embolectomia com Fogarty)\n\nAAA:\n- Homem idoso tabagista; maioria assintomática (massa pulsátil)\n- **Rastreio** → USG uma vez em homens de 65–75 anos que já fumaram\n- **Cirurgia (aberta ou endovascular)** → diâmetro **≥ 5,5 cm** (≥ 5,0 cm na mulher), crescimento > 1 cm/ano ou sintomático\n- Menor → vigilância com USG e controle dos fatores de risco\n- **Roto** → dor abdominal/lombar + hipotensão + massa pulsátil → cirurgia imediata (hipotensão permissiva)\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: ITB, conduta clínica da claudicação e indicação de cirurgia no AAA.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "ITB",
+      "Critério",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "> 1,3–1,4",
+       "Artéria incompressível (calcificada: DM, DRC)",
+       "Não confiável → índice hálux-braquial / Doppler"
+      ],
+      [
+       "1,0–1,3",
+       "Normal",
+       "—"
+      ],
+      [
+       "0,91–0,99",
+       "Limítrofe",
+       "Controle de fatores de risco"
+      ],
+      [
+       "≤ 0,9",
+       "DAP",
+       "Antiagregante + estatina + parar de fumar + exercício"
+      ],
+      [
+       "≤ 0,4",
+       "Isquemia grave / crítica",
+       "Revascularização"
+      ]
+     ]
+    }
+   ],
+   "fonte": "ESC/ESVS Guidelines on Peripheral Arterial and Aortic Diseases (2024) / SVS AAA Guidelines (2018) / SBACV",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Cirurgia",
+   "tema": "Cirurgia vascular",
+   "sub": "Doença arterial periférica e aneurisma de aorta abdominal",
+   "id": "dap-02",
+   "tipo": "flash",
+   "prio": "alta",
+   "frente": "Aneurisma de aorta abdominal: quando operar?",
+   "verso": "Raciocínio:\n- Pela lei de Laplace, a tensão na parede cresce com o raio → o risco de ruptura dispara acima de 5,5 cm.\n- Abaixo disso, o risco da cirurgia supera o da ruptura.\n\n**≥ 5,5 cm (homem).**\n**≥ 5,0 cm (mulher).**\n**Crescimento > 1 cm/ano.**\n**Sintomático ou roto.**\n\nRastreio:\n- USG em homens de 65–75 anos que já fumaram.",
+   "macete": "\"Cinco e meio: hora do reparo\".",
+   "pegadinha": "Roto: tríade dor + hipotensão + massa pulsátil → cirurgia, sem esperar TC se instável.",
+   "uerj": "Cobra o ITB, o tratamento clínico da claudicação e o diâmetro de cirurgia do AAA.",
+   "contexto": "**Doença arterial periférica (DAP) = aterosclerose das artérias dos membros inferiores, que reduz o fluxo; aneurisma de aorta abdominal (AAA) = dilatação ≥ 3 cm da aorta.**\n\nDAP — clínica:\n- **Claudicação intermitente** → dor na panturrilha ao caminhar que melhora com repouso\n- Isquemia crônica crítica → dor em repouso, úlcera, gangrena\n- Pulsos diminuídos, pele fina, rarefação de pelos\n\nDAP — diagnóstico:\n- **Índice tornozelo-braquial (ITB)** = PAS do tornozelo ÷ PAS do braço (tabela do contexto)\n- Doppler, angio-TC/angio-RM ou arteriografia para planejar revascularização\n\nDAP — tratamento:\n- **Parar de fumar**, exercício supervisionado, **antiagregante (AAS ou clopidogrel)**, **estatina de alta potência**, controle de PA e DM\n- Cilostazol → melhora a distância de marcha (contraindicado na IC)\n- Revascularização (angioplastia ou ponte) → isquemia crítica ou claudicação limitante refratária\n\nIsquemia arterial aguda:\n- **6 Ps** → dor (pain), palidez, ausência de pulso, parestesia, paralisia, pecilotermia (frio)\n- Embolia (FA, sem DAP prévia) × trombose (sobre placa)\n- Heparina imediata + revascularização (embolectomia com Fogarty)\n\nAAA:\n- Homem idoso tabagista; maioria assintomática (massa pulsátil)\n- **Rastreio** → USG uma vez em homens de 65–75 anos que já fumaram\n- **Cirurgia (aberta ou endovascular)** → diâmetro **≥ 5,5 cm** (≥ 5,0 cm na mulher), crescimento > 1 cm/ano ou sintomático\n- Menor → vigilância com USG e controle dos fatores de risco\n- **Roto** → dor abdominal/lombar + hipotensão + massa pulsátil → cirurgia imediata (hipotensão permissiva)\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: ITB, conduta clínica da claudicação e indicação de cirurgia no AAA.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "ITB",
+      "Critério",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "> 1,3–1,4",
+       "Artéria incompressível (calcificada: DM, DRC)",
+       "Não confiável → índice hálux-braquial / Doppler"
+      ],
+      [
+       "1,0–1,3",
+       "Normal",
+       "—"
+      ],
+      [
+       "0,91–0,99",
+       "Limítrofe",
+       "Controle de fatores de risco"
+      ],
+      [
+       "≤ 0,9",
+       "DAP",
+       "Antiagregante + estatina + parar de fumar + exercício"
+      ],
+      [
+       "≤ 0,4",
+       "Isquemia grave / crítica",
+       "Revascularização"
+      ]
+     ]
+    }
+   ],
+   "fonte": "ESC/ESVS Guidelines on Peripheral Arterial and Aortic Diseases (2024) / SVS AAA Guidelines (2018) / SBACV",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Cirurgia",
+   "tema": "Cirurgia vascular",
+   "sub": "Doença arterial periférica e aneurisma de aorta abdominal",
+   "tipo": "quiz",
+   "frente": "Sobre a doença arterial periférica, analise: I. A claudicação intermitente melhora com o repouso. II. ITB de 1,5 em diabético afasta doença arterial. III. Antiagregante e estatina fazem parte do tratamento de todos os pacientes sintomáticos. Está(ão) correta(s):",
+   "opcoes": [
+    "Apenas I e II.",
+    "Apenas II e III.",
+    "Apenas I e III.",
+    "I, II e III."
+   ],
+   "certa": 2,
+   "comentarios": [
+    "II é falsa.",
+    "II é falsa.",
+    "Correta. II é falsa: ITB > 1,3 indica artéria incompressível (calcificada), não confiável.",
+    "II é falsa."
+   ],
+   "id": "dap-q1",
+   "prio": "alta",
+   "macete": "\"ITB alto demais = cano duro\".",
+   "pegadinha": "Calcificação dá ITB falsamente alto.",
+   "uerj": "Cobra o ITB, o tratamento clínico da claudicação e o diâmetro de cirurgia do AAA.",
+   "contexto": "**Doença arterial periférica (DAP) = aterosclerose das artérias dos membros inferiores, que reduz o fluxo; aneurisma de aorta abdominal (AAA) = dilatação ≥ 3 cm da aorta.**\n\nDAP — clínica:\n- **Claudicação intermitente** → dor na panturrilha ao caminhar que melhora com repouso\n- Isquemia crônica crítica → dor em repouso, úlcera, gangrena\n- Pulsos diminuídos, pele fina, rarefação de pelos\n\nDAP — diagnóstico:\n- **Índice tornozelo-braquial (ITB)** = PAS do tornozelo ÷ PAS do braço (tabela do contexto)\n- Doppler, angio-TC/angio-RM ou arteriografia para planejar revascularização\n\nDAP — tratamento:\n- **Parar de fumar**, exercício supervisionado, **antiagregante (AAS ou clopidogrel)**, **estatina de alta potência**, controle de PA e DM\n- Cilostazol → melhora a distância de marcha (contraindicado na IC)\n- Revascularização (angioplastia ou ponte) → isquemia crítica ou claudicação limitante refratária\n\nIsquemia arterial aguda:\n- **6 Ps** → dor (pain), palidez, ausência de pulso, parestesia, paralisia, pecilotermia (frio)\n- Embolia (FA, sem DAP prévia) × trombose (sobre placa)\n- Heparina imediata + revascularização (embolectomia com Fogarty)\n\nAAA:\n- Homem idoso tabagista; maioria assintomática (massa pulsátil)\n- **Rastreio** → USG uma vez em homens de 65–75 anos que já fumaram\n- **Cirurgia (aberta ou endovascular)** → diâmetro **≥ 5,5 cm** (≥ 5,0 cm na mulher), crescimento > 1 cm/ano ou sintomático\n- Menor → vigilância com USG e controle dos fatores de risco\n- **Roto** → dor abdominal/lombar + hipotensão + massa pulsátil → cirurgia imediata (hipotensão permissiva)\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: ITB, conduta clínica da claudicação e indicação de cirurgia no AAA.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "ITB",
+      "Critério",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "> 1,3–1,4",
+       "Artéria incompressível (calcificada: DM, DRC)",
+       "Não confiável → índice hálux-braquial / Doppler"
+      ],
+      [
+       "1,0–1,3",
+       "Normal",
+       "—"
+      ],
+      [
+       "0,91–0,99",
+       "Limítrofe",
+       "Controle de fatores de risco"
+      ],
+      [
+       "≤ 0,9",
+       "DAP",
+       "Antiagregante + estatina + parar de fumar + exercício"
+      ],
+      [
+       "≤ 0,4",
+       "Isquemia grave / crítica",
+       "Revascularização"
+      ]
+     ]
+    }
+   ],
+   "fonte": "ESC/ESVS Guidelines on Peripheral Arterial and Aortic Diseases (2024) / SVS AAA Guidelines (2018) / SBACV",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Cirurgia",
+   "tema": "Cirurgia vascular",
+   "sub": "Doença arterial periférica e aneurisma de aorta abdominal",
+   "id": "dap-d1",
+   "tipo": "digitar",
+   "prio": "alta",
+   "frente": "Qual valor de ITB define doença arterial periférica?",
+   "verso": "**≤ 0,9.**",
+   "resposta": "0,9",
+   "aceitas": [
+    "0.9",
+    "0,9",
+    "≤ 0,9",
+    "menor que 0,9",
+    "abaixo de 0,9"
+   ],
+   "macete": "0,9.",
+   "uerj": "Cobra o ITB, o tratamento clínico da claudicação e o diâmetro de cirurgia do AAA.",
+   "contexto": "**Doença arterial periférica (DAP) = aterosclerose das artérias dos membros inferiores, que reduz o fluxo; aneurisma de aorta abdominal (AAA) = dilatação ≥ 3 cm da aorta.**\n\nDAP — clínica:\n- **Claudicação intermitente** → dor na panturrilha ao caminhar que melhora com repouso\n- Isquemia crônica crítica → dor em repouso, úlcera, gangrena\n- Pulsos diminuídos, pele fina, rarefação de pelos\n\nDAP — diagnóstico:\n- **Índice tornozelo-braquial (ITB)** = PAS do tornozelo ÷ PAS do braço (tabela do contexto)\n- Doppler, angio-TC/angio-RM ou arteriografia para planejar revascularização\n\nDAP — tratamento:\n- **Parar de fumar**, exercício supervisionado, **antiagregante (AAS ou clopidogrel)**, **estatina de alta potência**, controle de PA e DM\n- Cilostazol → melhora a distância de marcha (contraindicado na IC)\n- Revascularização (angioplastia ou ponte) → isquemia crítica ou claudicação limitante refratária\n\nIsquemia arterial aguda:\n- **6 Ps** → dor (pain), palidez, ausência de pulso, parestesia, paralisia, pecilotermia (frio)\n- Embolia (FA, sem DAP prévia) × trombose (sobre placa)\n- Heparina imediata + revascularização (embolectomia com Fogarty)\n\nAAA:\n- Homem idoso tabagista; maioria assintomática (massa pulsátil)\n- **Rastreio** → USG uma vez em homens de 65–75 anos que já fumaram\n- **Cirurgia (aberta ou endovascular)** → diâmetro **≥ 5,5 cm** (≥ 5,0 cm na mulher), crescimento > 1 cm/ano ou sintomático\n- Menor → vigilância com USG e controle dos fatores de risco\n- **Roto** → dor abdominal/lombar + hipotensão + massa pulsátil → cirurgia imediata (hipotensão permissiva)\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: ITB, conduta clínica da claudicação e indicação de cirurgia no AAA.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "ITB",
+      "Critério",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "> 1,3–1,4",
+       "Artéria incompressível (calcificada: DM, DRC)",
+       "Não confiável → índice hálux-braquial / Doppler"
+      ],
+      [
+       "1,0–1,3",
+       "Normal",
+       "—"
+      ],
+      [
+       "0,91–0,99",
+       "Limítrofe",
+       "Controle de fatores de risco"
+      ],
+      [
+       "≤ 0,9",
+       "DAP",
+       "Antiagregante + estatina + parar de fumar + exercício"
+      ],
+      [
+       "≤ 0,4",
+       "Isquemia grave / crítica",
+       "Revascularização"
+      ]
+     ]
+    }
+   ],
+   "fonte": "ESC/ESVS Guidelines on Peripheral Arterial and Aortic Diseases (2024) / SVS AAA Guidelines (2018) / SBACV",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Cirurgia",
+   "tema": "Cirurgia vascular",
+   "sub": "Doença arterial periférica e aneurisma de aorta abdominal",
+   "id": "dap-d2",
+   "tipo": "digitar",
+   "prio": "alta",
+   "frente": "A partir de qual diâmetro se opera o aneurisma de aorta abdominal no homem?",
+   "verso": "**5,5 cm.**",
+   "resposta": "5,5 cm",
+   "aceitas": [
+    "5,5",
+    "5.5",
+    "5,5cm",
+    "55 mm"
+   ],
+   "macete": "Cinco e meio.",
+   "uerj": "Cobra o ITB, o tratamento clínico da claudicação e o diâmetro de cirurgia do AAA.",
+   "contexto": "**Doença arterial periférica (DAP) = aterosclerose das artérias dos membros inferiores, que reduz o fluxo; aneurisma de aorta abdominal (AAA) = dilatação ≥ 3 cm da aorta.**\n\nDAP — clínica:\n- **Claudicação intermitente** → dor na panturrilha ao caminhar que melhora com repouso\n- Isquemia crônica crítica → dor em repouso, úlcera, gangrena\n- Pulsos diminuídos, pele fina, rarefação de pelos\n\nDAP — diagnóstico:\n- **Índice tornozelo-braquial (ITB)** = PAS do tornozelo ÷ PAS do braço (tabela do contexto)\n- Doppler, angio-TC/angio-RM ou arteriografia para planejar revascularização\n\nDAP — tratamento:\n- **Parar de fumar**, exercício supervisionado, **antiagregante (AAS ou clopidogrel)**, **estatina de alta potência**, controle de PA e DM\n- Cilostazol → melhora a distância de marcha (contraindicado na IC)\n- Revascularização (angioplastia ou ponte) → isquemia crítica ou claudicação limitante refratária\n\nIsquemia arterial aguda:\n- **6 Ps** → dor (pain), palidez, ausência de pulso, parestesia, paralisia, pecilotermia (frio)\n- Embolia (FA, sem DAP prévia) × trombose (sobre placa)\n- Heparina imediata + revascularização (embolectomia com Fogarty)\n\nAAA:\n- Homem idoso tabagista; maioria assintomática (massa pulsátil)\n- **Rastreio** → USG uma vez em homens de 65–75 anos que já fumaram\n- **Cirurgia (aberta ou endovascular)** → diâmetro **≥ 5,5 cm** (≥ 5,0 cm na mulher), crescimento > 1 cm/ano ou sintomático\n- Menor → vigilância com USG e controle dos fatores de risco\n- **Roto** → dor abdominal/lombar + hipotensão + massa pulsátil → cirurgia imediata (hipotensão permissiva)\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: ITB, conduta clínica da claudicação e indicação de cirurgia no AAA.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "ITB",
+      "Critério",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "> 1,3–1,4",
+       "Artéria incompressível (calcificada: DM, DRC)",
+       "Não confiável → índice hálux-braquial / Doppler"
+      ],
+      [
+       "1,0–1,3",
+       "Normal",
+       "—"
+      ],
+      [
+       "0,91–0,99",
+       "Limítrofe",
+       "Controle de fatores de risco"
+      ],
+      [
+       "≤ 0,9",
+       "DAP",
+       "Antiagregante + estatina + parar de fumar + exercício"
+      ],
+      [
+       "≤ 0,4",
+       "Isquemia grave / crítica",
+       "Revascularização"
+      ]
+     ]
+    }
+   ],
+   "fonte": "ESC/ESVS Guidelines on Peripheral Arterial and Aortic Diseases (2024) / SVS AAA Guidelines (2018) / SBACV",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Cirurgia",
+   "tema": "Perioperatório",
+   "sub": "Avaliação pré-operatória — risco cirúrgico, jejum e medicações",
+   "id": "preop-01",
+   "tipo": "flash",
+   "prio": "alta",
+   "frente": "Jejum pré-operatório (ASA): tempos",
+   "verso": "Raciocínio:\n- O objetivo é estômago vazio na indução (menos risco de aspiração) sem desidratar.\n- Líquido claro esvazia rápido; gordura e proteína demoram mais.\n\n**Líquidos claros → 2 h**\n**Leite materno → 4 h**\n**Fórmula, leite e refeição leve → 6 h**\n**Refeição gordurosa → 8 h**",
+   "macete": "\"2-4-6-8\": claro, peito, leve, gordura.",
+   "pegadinha": "Leite de vaca não é líquido claro (6 h).",
+   "uerj": "Cobra a ASA, o jejum 2-4-6-8 e o manejo das medicações.",
+   "contexto": "**Avaliação pré-operatória = estimar o risco do paciente e da cirurgia, otimizar doenças e decidir exames e medicações, pedindo exame só quando muda a conduta.**\n\nEstado físico (ASA):\n- **I** → saudável\n- **II** → doença sistêmica leve (HAS controlada, tabagista, obesidade leve)\n- **III** → doença sistêmica grave (DM descompensado, DPOC, IMC ≥ 40)\n- **IV** → doença grave com ameaça constante à vida\n- **V** → moribundo, não sobrevive sem a cirurgia\n- **VI** → morte encefálica (doador)\n- Sufixo **E** → emergência\n\nRisco cardíaco:\n- **Índice de Lee (RCRI)** → 6 itens de 1 ponto (tabela do contexto)\n- Capacidade funcional → < 4 METs (não sobe 2 lances de escada) é ruim\n- Cirurgia de emergência → operar; não atrasar por exames\n\nExames:\n- Paciente saudável em cirurgia de baixo risco → **nenhum exame de rotina**\n- ECG → cardiopatia ou cirurgia de risco intermediário/alto\n- Hemoglobina → cirurgia com perda sanguínea; coagulograma → anticoagulado/hepatopata\n\nJejum (ASA):\n- **Líquidos claros → 2 h**\n- **Leite materno → 4 h**\n- **Fórmula infantil, leite não humano, refeição leve → 6 h**\n- **Refeição gordurosa → 8 h**\n\nMedicações:\n- **Manter** → betabloqueador, estatina, anti-hipertensivos (IECA/BRA: muitos suspendem 24 h antes), levotiroxina, corticoide (dose de estresse se uso crônico)\n- **Suspender** → varfarina 5 dias antes (ponte com heparina se alto risco), DOAC 1–3 dias conforme droga e função renal, clopidogrel 5 dias, iSGLT2 3–4 dias (risco de cetoacidose euglicêmica), metformina no dia\n- AAS → manter na maioria (suspender em neurocirurgia e próstata); após stent recente, adiar cirurgia eletiva\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: ASA, tempos de jejum e quais medicações manter ou suspender.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "RCRI (Lee)",
+      "Critério",
+      "Pontos / conduta"
+     ],
+     "linhas": [
+      [
+       "Cirurgia de alto risco",
+       "Intraperitoneal, intratorácica ou vascular suprainguinal",
+       "1 ponto"
+      ],
+      [
+       "Doença isquêmica do coração",
+       "IAM prévio, angina, teste positivo, nitrato",
+       "1 ponto"
+      ],
+      [
+       "Insuficiência cardíaca",
+       "História ou sinais",
+       "1 ponto"
+      ],
+      [
+       "Doença cerebrovascular",
+       "AVC ou AIT prévio",
+       "1 ponto"
+      ],
+      [
+       "Diabetes com insulina",
+       "Uso de insulina",
+       "1 ponto"
+      ],
+      [
+       "Creatinina > 2 mg/dL",
+       "Disfunção renal",
+       "1 ponto"
+      ],
+      [
+       "Total 0–1 ponto",
+       "Risco baixo",
+       "Operar sem testes adicionais"
+      ],
+      [
+       "Total ≥ 2 pontos",
+       "Risco elevado",
+       "Avaliar capacidade funcional (< 4 METs → considerar teste se mudar conduta)"
+      ]
+     ]
+    }
+   ],
+   "fonte": "ACC/AHA Perioperative Cardiovascular Guideline (2024) / ASA Physical Status Classification (2020) / ASA Practice Guidelines for Preoperative Fasting (2023) / SBC — Diretriz de Avaliação Perioperatória (2024)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Cirurgia",
+   "tema": "Perioperatório",
+   "sub": "Avaliação pré-operatória — risco cirúrgico, jejum e medicações",
+   "id": "preop-02",
+   "tipo": "flash",
+   "prio": "alta",
+   "frente": "Classificação ASA: o que significa cada classe?",
+   "verso": "Raciocínio:\n- A ASA classifica o estado físico do paciente, não o risco da cirurgia.\n\n**I → saudável**\n**II → doença sistêmica leve**\n**III → doença sistêmica grave**\n**IV → ameaça constante à vida**\n**V → moribundo**\n**VI → morte encefálica (doador)**\n\nSufixo:\n- E → emergência.",
+   "macete": "\"1 sadio, 2 leve, 3 grave, 4 ameaça, 5 morre, 6 doa\".",
+   "pegadinha": "Tabagista e obeso leve já são ASA II.",
+   "uerj": "Cobra a ASA, o jejum 2-4-6-8 e o manejo das medicações.",
+   "contexto": "**Avaliação pré-operatória = estimar o risco do paciente e da cirurgia, otimizar doenças e decidir exames e medicações, pedindo exame só quando muda a conduta.**\n\nEstado físico (ASA):\n- **I** → saudável\n- **II** → doença sistêmica leve (HAS controlada, tabagista, obesidade leve)\n- **III** → doença sistêmica grave (DM descompensado, DPOC, IMC ≥ 40)\n- **IV** → doença grave com ameaça constante à vida\n- **V** → moribundo, não sobrevive sem a cirurgia\n- **VI** → morte encefálica (doador)\n- Sufixo **E** → emergência\n\nRisco cardíaco:\n- **Índice de Lee (RCRI)** → 6 itens de 1 ponto (tabela do contexto)\n- Capacidade funcional → < 4 METs (não sobe 2 lances de escada) é ruim\n- Cirurgia de emergência → operar; não atrasar por exames\n\nExames:\n- Paciente saudável em cirurgia de baixo risco → **nenhum exame de rotina**\n- ECG → cardiopatia ou cirurgia de risco intermediário/alto\n- Hemoglobina → cirurgia com perda sanguínea; coagulograma → anticoagulado/hepatopata\n\nJejum (ASA):\n- **Líquidos claros → 2 h**\n- **Leite materno → 4 h**\n- **Fórmula infantil, leite não humano, refeição leve → 6 h**\n- **Refeição gordurosa → 8 h**\n\nMedicações:\n- **Manter** → betabloqueador, estatina, anti-hipertensivos (IECA/BRA: muitos suspendem 24 h antes), levotiroxina, corticoide (dose de estresse se uso crônico)\n- **Suspender** → varfarina 5 dias antes (ponte com heparina se alto risco), DOAC 1–3 dias conforme droga e função renal, clopidogrel 5 dias, iSGLT2 3–4 dias (risco de cetoacidose euglicêmica), metformina no dia\n- AAS → manter na maioria (suspender em neurocirurgia e próstata); após stent recente, adiar cirurgia eletiva\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: ASA, tempos de jejum e quais medicações manter ou suspender.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "RCRI (Lee)",
+      "Critério",
+      "Pontos / conduta"
+     ],
+     "linhas": [
+      [
+       "Cirurgia de alto risco",
+       "Intraperitoneal, intratorácica ou vascular suprainguinal",
+       "1 ponto"
+      ],
+      [
+       "Doença isquêmica do coração",
+       "IAM prévio, angina, teste positivo, nitrato",
+       "1 ponto"
+      ],
+      [
+       "Insuficiência cardíaca",
+       "História ou sinais",
+       "1 ponto"
+      ],
+      [
+       "Doença cerebrovascular",
+       "AVC ou AIT prévio",
+       "1 ponto"
+      ],
+      [
+       "Diabetes com insulina",
+       "Uso de insulina",
+       "1 ponto"
+      ],
+      [
+       "Creatinina > 2 mg/dL",
+       "Disfunção renal",
+       "1 ponto"
+      ],
+      [
+       "Total 0–1 ponto",
+       "Risco baixo",
+       "Operar sem testes adicionais"
+      ],
+      [
+       "Total ≥ 2 pontos",
+       "Risco elevado",
+       "Avaliar capacidade funcional (< 4 METs → considerar teste se mudar conduta)"
+      ]
+     ]
+    }
+   ],
+   "fonte": "ACC/AHA Perioperative Cardiovascular Guideline (2024) / ASA Physical Status Classification (2020) / ASA Practice Guidelines for Preoperative Fasting (2023) / SBC — Diretriz de Avaliação Perioperatória (2024)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Cirurgia",
+   "tema": "Perioperatório",
+   "sub": "Avaliação pré-operatória — risco cirúrgico, jejum e medicações",
+   "tipo": "quiz",
+   "frente": "Sobre a avaliação pré-operatória, analise: I. Líquidos claros podem ser ingeridos até 2 horas antes da anestesia. II. Paciente ASA I em cirurgia de baixo risco deve fazer hemograma, coagulograma e ECG de rotina. III. O betabloqueador de uso crônico deve ser mantido no perioperatório. Está(ão) correta(s):",
+   "opcoes": [
+    "Apenas I e II.",
+    "Apenas II e III.",
+    "I, II e III.",
+    "Apenas I e III."
+   ],
+   "certa": 3,
+   "comentarios": [
+    "II é falsa.",
+    "II é falsa.",
+    "II é falsa.",
+    "Correta. II é falsa: sem indicação clínica, não há exames de rotina."
+   ],
+   "id": "preop-q1",
+   "prio": "alta",
+   "base": "- Exame pré-operatório só vale se mudar a conduta.\n- Suspender betabloqueador de forma abrupta causa rebote (taquicardia, isquemia).",
+   "macete": "\"Exame só se muda conduta; betabloqueador não para\".",
+   "pegadinha": "Exames de rotina em ASA I não são indicados.",
+   "visual": {
+    "tipo": "tabela",
+    "crit": true,
+    "cab": [
+     "RCRI (Lee)",
+     "Critério",
+     "Pontos / conduta"
+    ],
+    "linhas": [
+     [
+      "Cirurgia de alto risco",
+      "Intraperitoneal, intratorácica ou vascular suprainguinal",
+      "1 ponto"
+     ],
+     [
+      "Doença isquêmica do coração",
+      "IAM prévio, angina, teste positivo, nitrato",
+      "1 ponto"
+     ],
+     [
+      "Insuficiência cardíaca",
+      "História ou sinais",
+      "1 ponto"
+     ],
+     [
+      "Doença cerebrovascular",
+      "AVC ou AIT prévio",
+      "1 ponto"
+     ],
+     [
+      "Diabetes com insulina",
+      "Uso de insulina",
+      "1 ponto"
+     ],
+     [
+      "Creatinina > 2 mg/dL",
+      "Disfunção renal",
+      "1 ponto"
+     ],
+     [
+      "Total 0–1 ponto",
+      "Risco baixo",
+      "Operar sem testes adicionais"
+     ],
+     [
+      "Total ≥ 2 pontos",
+      "Risco elevado",
+      "Avaliar capacidade funcional (< 4 METs → considerar teste se mudar conduta)"
+     ]
+    ]
+   },
+   "uerj": "Cobra a ASA, o jejum 2-4-6-8 e o manejo das medicações.",
+   "contexto": "**Avaliação pré-operatória = estimar o risco do paciente e da cirurgia, otimizar doenças e decidir exames e medicações, pedindo exame só quando muda a conduta.**\n\nEstado físico (ASA):\n- **I** → saudável\n- **II** → doença sistêmica leve (HAS controlada, tabagista, obesidade leve)\n- **III** → doença sistêmica grave (DM descompensado, DPOC, IMC ≥ 40)\n- **IV** → doença grave com ameaça constante à vida\n- **V** → moribundo, não sobrevive sem a cirurgia\n- **VI** → morte encefálica (doador)\n- Sufixo **E** → emergência\n\nRisco cardíaco:\n- **Índice de Lee (RCRI)** → 6 itens de 1 ponto (tabela do contexto)\n- Capacidade funcional → < 4 METs (não sobe 2 lances de escada) é ruim\n- Cirurgia de emergência → operar; não atrasar por exames\n\nExames:\n- Paciente saudável em cirurgia de baixo risco → **nenhum exame de rotina**\n- ECG → cardiopatia ou cirurgia de risco intermediário/alto\n- Hemoglobina → cirurgia com perda sanguínea; coagulograma → anticoagulado/hepatopata\n\nJejum (ASA):\n- **Líquidos claros → 2 h**\n- **Leite materno → 4 h**\n- **Fórmula infantil, leite não humano, refeição leve → 6 h**\n- **Refeição gordurosa → 8 h**\n\nMedicações:\n- **Manter** → betabloqueador, estatina, anti-hipertensivos (IECA/BRA: muitos suspendem 24 h antes), levotiroxina, corticoide (dose de estresse se uso crônico)\n- **Suspender** → varfarina 5 dias antes (ponte com heparina se alto risco), DOAC 1–3 dias conforme droga e função renal, clopidogrel 5 dias, iSGLT2 3–4 dias (risco de cetoacidose euglicêmica), metformina no dia\n- AAS → manter na maioria (suspender em neurocirurgia e próstata); após stent recente, adiar cirurgia eletiva\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: ASA, tempos de jejum e quais medicações manter ou suspender.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "RCRI (Lee)",
+      "Critério",
+      "Pontos / conduta"
+     ],
+     "linhas": [
+      [
+       "Cirurgia de alto risco",
+       "Intraperitoneal, intratorácica ou vascular suprainguinal",
+       "1 ponto"
+      ],
+      [
+       "Doença isquêmica do coração",
+       "IAM prévio, angina, teste positivo, nitrato",
+       "1 ponto"
+      ],
+      [
+       "Insuficiência cardíaca",
+       "História ou sinais",
+       "1 ponto"
+      ],
+      [
+       "Doença cerebrovascular",
+       "AVC ou AIT prévio",
+       "1 ponto"
+      ],
+      [
+       "Diabetes com insulina",
+       "Uso de insulina",
+       "1 ponto"
+      ],
+      [
+       "Creatinina > 2 mg/dL",
+       "Disfunção renal",
+       "1 ponto"
+      ],
+      [
+       "Total 0–1 ponto",
+       "Risco baixo",
+       "Operar sem testes adicionais"
+      ],
+      [
+       "Total ≥ 2 pontos",
+       "Risco elevado",
+       "Avaliar capacidade funcional (< 4 METs → considerar teste se mudar conduta)"
+      ]
+     ]
+    }
+   ],
+   "fonte": "ACC/AHA Perioperative Cardiovascular Guideline (2024) / ASA Physical Status Classification (2020) / ASA Practice Guidelines for Preoperative Fasting (2023) / SBC — Diretriz de Avaliação Perioperatória (2024)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Cirurgia",
+   "tema": "Perioperatório",
+   "sub": "Avaliação pré-operatória — risco cirúrgico, jejum e medicações",
+   "id": "preop-d1",
+   "tipo": "digitar",
+   "prio": "alta",
+   "frente": "Quantas horas de jejum para líquidos claros antes da anestesia?",
+   "verso": "**2 horas.**",
+   "resposta": "2 h",
+   "aceitas": [
+    "2",
+    "2h",
+    "2 horas",
+    "duas horas"
+   ],
+   "macete": "2-4-6-8.",
+   "uerj": "Cobra a ASA, o jejum 2-4-6-8 e o manejo das medicações.",
+   "contexto": "**Avaliação pré-operatória = estimar o risco do paciente e da cirurgia, otimizar doenças e decidir exames e medicações, pedindo exame só quando muda a conduta.**\n\nEstado físico (ASA):\n- **I** → saudável\n- **II** → doença sistêmica leve (HAS controlada, tabagista, obesidade leve)\n- **III** → doença sistêmica grave (DM descompensado, DPOC, IMC ≥ 40)\n- **IV** → doença grave com ameaça constante à vida\n- **V** → moribundo, não sobrevive sem a cirurgia\n- **VI** → morte encefálica (doador)\n- Sufixo **E** → emergência\n\nRisco cardíaco:\n- **Índice de Lee (RCRI)** → 6 itens de 1 ponto (tabela do contexto)\n- Capacidade funcional → < 4 METs (não sobe 2 lances de escada) é ruim\n- Cirurgia de emergência → operar; não atrasar por exames\n\nExames:\n- Paciente saudável em cirurgia de baixo risco → **nenhum exame de rotina**\n- ECG → cardiopatia ou cirurgia de risco intermediário/alto\n- Hemoglobina → cirurgia com perda sanguínea; coagulograma → anticoagulado/hepatopata\n\nJejum (ASA):\n- **Líquidos claros → 2 h**\n- **Leite materno → 4 h**\n- **Fórmula infantil, leite não humano, refeição leve → 6 h**\n- **Refeição gordurosa → 8 h**\n\nMedicações:\n- **Manter** → betabloqueador, estatina, anti-hipertensivos (IECA/BRA: muitos suspendem 24 h antes), levotiroxina, corticoide (dose de estresse se uso crônico)\n- **Suspender** → varfarina 5 dias antes (ponte com heparina se alto risco), DOAC 1–3 dias conforme droga e função renal, clopidogrel 5 dias, iSGLT2 3–4 dias (risco de cetoacidose euglicêmica), metformina no dia\n- AAS → manter na maioria (suspender em neurocirurgia e próstata); após stent recente, adiar cirurgia eletiva\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: ASA, tempos de jejum e quais medicações manter ou suspender.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "RCRI (Lee)",
+      "Critério",
+      "Pontos / conduta"
+     ],
+     "linhas": [
+      [
+       "Cirurgia de alto risco",
+       "Intraperitoneal, intratorácica ou vascular suprainguinal",
+       "1 ponto"
+      ],
+      [
+       "Doença isquêmica do coração",
+       "IAM prévio, angina, teste positivo, nitrato",
+       "1 ponto"
+      ],
+      [
+       "Insuficiência cardíaca",
+       "História ou sinais",
+       "1 ponto"
+      ],
+      [
+       "Doença cerebrovascular",
+       "AVC ou AIT prévio",
+       "1 ponto"
+      ],
+      [
+       "Diabetes com insulina",
+       "Uso de insulina",
+       "1 ponto"
+      ],
+      [
+       "Creatinina > 2 mg/dL",
+       "Disfunção renal",
+       "1 ponto"
+      ],
+      [
+       "Total 0–1 ponto",
+       "Risco baixo",
+       "Operar sem testes adicionais"
+      ],
+      [
+       "Total ≥ 2 pontos",
+       "Risco elevado",
+       "Avaliar capacidade funcional (< 4 METs → considerar teste se mudar conduta)"
+      ]
+     ]
+    }
+   ],
+   "fonte": "ACC/AHA Perioperative Cardiovascular Guideline (2024) / ASA Physical Status Classification (2020) / ASA Practice Guidelines for Preoperative Fasting (2023) / SBC — Diretriz de Avaliação Perioperatória (2024)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Cirurgia",
+   "tema": "Perioperatório",
+   "sub": "Avaliação pré-operatória — risco cirúrgico, jejum e medicações",
+   "id": "preop-d2",
+   "tipo": "digitar",
+   "prio": "media",
+   "frente": "Quantos dias antes da cirurgia se suspende a varfarina?",
+   "verso": "**5 dias.**\n\n- Checar INR na véspera.",
+   "resposta": "5 dias",
+   "aceitas": [
+    "5",
+    "cinco",
+    "5 dias"
+   ],
+   "macete": "Varfarina: 5 dias.",
+   "uerj": "Cobra a ASA, o jejum 2-4-6-8 e o manejo das medicações.",
+   "contexto": "**Avaliação pré-operatória = estimar o risco do paciente e da cirurgia, otimizar doenças e decidir exames e medicações, pedindo exame só quando muda a conduta.**\n\nEstado físico (ASA):\n- **I** → saudável\n- **II** → doença sistêmica leve (HAS controlada, tabagista, obesidade leve)\n- **III** → doença sistêmica grave (DM descompensado, DPOC, IMC ≥ 40)\n- **IV** → doença grave com ameaça constante à vida\n- **V** → moribundo, não sobrevive sem a cirurgia\n- **VI** → morte encefálica (doador)\n- Sufixo **E** → emergência\n\nRisco cardíaco:\n- **Índice de Lee (RCRI)** → 6 itens de 1 ponto (tabela do contexto)\n- Capacidade funcional → < 4 METs (não sobe 2 lances de escada) é ruim\n- Cirurgia de emergência → operar; não atrasar por exames\n\nExames:\n- Paciente saudável em cirurgia de baixo risco → **nenhum exame de rotina**\n- ECG → cardiopatia ou cirurgia de risco intermediário/alto\n- Hemoglobina → cirurgia com perda sanguínea; coagulograma → anticoagulado/hepatopata\n\nJejum (ASA):\n- **Líquidos claros → 2 h**\n- **Leite materno → 4 h**\n- **Fórmula infantil, leite não humano, refeição leve → 6 h**\n- **Refeição gordurosa → 8 h**\n\nMedicações:\n- **Manter** → betabloqueador, estatina, anti-hipertensivos (IECA/BRA: muitos suspendem 24 h antes), levotiroxina, corticoide (dose de estresse se uso crônico)\n- **Suspender** → varfarina 5 dias antes (ponte com heparina se alto risco), DOAC 1–3 dias conforme droga e função renal, clopidogrel 5 dias, iSGLT2 3–4 dias (risco de cetoacidose euglicêmica), metformina no dia\n- AAS → manter na maioria (suspender em neurocirurgia e próstata); após stent recente, adiar cirurgia eletiva\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: ASA, tempos de jejum e quais medicações manter ou suspender.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "RCRI (Lee)",
+      "Critério",
+      "Pontos / conduta"
+     ],
+     "linhas": [
+      [
+       "Cirurgia de alto risco",
+       "Intraperitoneal, intratorácica ou vascular suprainguinal",
+       "1 ponto"
+      ],
+      [
+       "Doença isquêmica do coração",
+       "IAM prévio, angina, teste positivo, nitrato",
+       "1 ponto"
+      ],
+      [
+       "Insuficiência cardíaca",
+       "História ou sinais",
+       "1 ponto"
+      ],
+      [
+       "Doença cerebrovascular",
+       "AVC ou AIT prévio",
+       "1 ponto"
+      ],
+      [
+       "Diabetes com insulina",
+       "Uso de insulina",
+       "1 ponto"
+      ],
+      [
+       "Creatinina > 2 mg/dL",
+       "Disfunção renal",
+       "1 ponto"
+      ],
+      [
+       "Total 0–1 ponto",
+       "Risco baixo",
+       "Operar sem testes adicionais"
+      ],
+      [
+       "Total ≥ 2 pontos",
+       "Risco elevado",
+       "Avaliar capacidade funcional (< 4 METs → considerar teste se mudar conduta)"
+      ]
+     ]
+    }
+   ],
+   "fonte": "ACC/AHA Perioperative Cardiovascular Guideline (2024) / ASA Physical Status Classification (2020) / ASA Practice Guidelines for Preoperative Fasting (2023) / SBC — Diretriz de Avaliação Perioperatória (2024)",
+   "add": "2026-11-04"
   }
  ],
  "rev": 1793814207548
