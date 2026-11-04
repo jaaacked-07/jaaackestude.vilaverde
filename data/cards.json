@@ -82832,6 +82832,1862 @@
    ],
    "fonte": "Fletcher — Epidemiologia Clínica: Elementos Essenciais, 5ª ed. / Medronho — Epidemiologia, 2ª ed. / Oxford CEBM — Levels of Evidence (2011) / GRADE Working Group",
    "add": "2026-11-04"
+  },
+  {
+   "area": "Clínica Médica",
+   "tema": "Infectologia",
+   "sub": "Sepse e choque séptico",
+   "id": "bq-cm-025",
+   "tipo": "quiz",
+   "frente": "Paciente com pneumonia, PA 82 × 45 mmHg após 30 mL/kg de cristaloide e lactato de 4,5 mmol/L. Qual a próxima medida?",
+   "opcoes": [
+    "Mais 3 litros de cristaloide antes de qualquer droga",
+    "Dopamina como vasopressor de escolha",
+    "Iniciar noradrenalina para PAM ≥ 65 mmHg",
+    "Albumina 20% em bolus e aguardar"
+   ],
+   "certa": 2,
+   "comentarios": [
+    "Excesso de volume aumenta mortalidade; não atrasar o vasopressor.",
+    "Dopamina causa mais arritmias; nora é 1ª escolha.",
+    "Correta. Hipotensão persistente após volume = choque séptico → vasopressor (noradrenalina 1ª escolha).",
+    "Albumina pode ser adjuvante, não substitui vasopressor."
+   ],
+   "macete": "\"Volume não segurou: Nora\".",
+   "prio": "alta",
+   "banco": true,
+   "contexto": "**Sepse = disfunção orgânica ameaçadora à vida causada por resposta desregulada do hospedeiro à infecção (Sepsis-3).**\n\nDefinições (Sepsis-3):\n- **Sepse** → infecção + disfunção orgânica (aumento ≥ 2 pontos no SOFA)\n- **Choque séptico** → sepse + vasopressor para PAM ≥ 65 mmHg + lactato > 2 mmol/L, apesar de volume adequado\n- **qSOFA** (triagem fora da UTI, 1 ponto cada) → FR ≥ 22, alteração do nível de consciência, PAS ≤ 100; ≥ 2 = risco alto (não é diagnóstico)\n- SIRS saiu da definição\n\nFisiopatologia:\n- Mediadores inflamatórios → vasodilatação e aumento da permeabilidade capilar → hipovolemia relativa\n- Disfunção microcirculatória e mitocondrial → lactato alto e falência de órgãos\n\nPacote da 1ª hora (Surviving Sepsis 2021):\n- **Lactato** (repetir se > 2)\n- **Hemoculturas antes do antibiótico** (sem atrasá-lo)\n- **Antibiótico de amplo espectro na 1ª hora**\n- **Cristaloide 30 mL/kg** se hipotensão ou lactato ≥ 4 (preferir Ringer lactato/balanceados)\n- **Vasopressor** se hipotensão persistir → **noradrenalina** (1ª escolha), meta PAM ≥ 65\n\nDepois:\n- Vasopressina como 2º vasopressor; hidrocortisona se choque com dose crescente de vasopressor\n- Controle do foco (drenar abscesso, retirar cateter)\n- Reavaliar volume por parâmetros dinâmicos; evitar excesso de fluido\n- Glicemia 144–180, profilaxia de TVP e úlcera de estresse\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: pacote da 1ª hora, noradrenalina como 1ª escolha e definição de choque séptico.",
+   "ctxvisual": [
+    {
+     "tipo": "fluxo",
+     "passos": [
+      "Suspeita de sepse",
+      "1ª hora: lactato + hemoculturas + ATB amplo",
+      "Hipotensão ou lactato ≥ 4 → cristaloide 30 mL/kg",
+      "Persistiu → noradrenalina (PAM ≥ 65)",
+      "Controle do foco"
+     ]
+    },
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "qSOFA (triagem)",
+      "Critério",
+      "Pontos / conduta"
+     ],
+     "linhas": [
+      [
+       "FR",
+       "≥ 22 irpm",
+       "1 ponto"
+      ],
+      [
+       "Consciência",
+       "Glasgow < 15 / alteração mental",
+       "1 ponto"
+      ],
+      [
+       "PAS",
+       "≤ 100 mmHg",
+       "1 ponto"
+      ],
+      [
+       "Total ≥ 2 pontos",
+       "Maior risco de morte",
+       "Investigar disfunção (SOFA), tratar como sepse"
+      ],
+      [
+       "Total 0–1",
+       "Não afasta sepse",
+       "Manter vigilância"
+      ]
+     ]
+    }
+   ],
+   "fonte": "Surviving Sepsis Campaign Guidelines (2021) / Sepsis-3 (JAMA 2016) / ILAS — Protocolo de sepse",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Clínica Médica",
+   "tema": "Infectologia",
+   "sub": "HIV/aids — diagnóstico, tratamento e profilaxias",
+   "id": "bq-cm-026",
+   "tipo": "quiz",
+   "frente": "Paciente recém-diagnosticado com HIV, sem contraindicações. Qual o esquema antirretroviral inicial preferencial no Brasil?",
+   "opcoes": [
+    "Tenofovir + lamivudina + dolutegravir",
+    "Zidovudina + lamivudina + efavirenz",
+    "Tenofovir + lamivudina, sem 3ª droga",
+    "Lopinavir/ritonavir em monoterapia"
+   ],
+   "certa": 0,
+   "comentarios": [
+    "Correta. PCDT HIV: TDF/3TC + DTG é o esquema inicial preferencial para a maioria dos adultos.",
+    "Esquema antigo.",
+    "TARV usa 3 drogas (exceto estratégias específicas).",
+    "Monoterapia não é recomendada."
+   ],
+   "macete": "\"TLD: Tenofovir, Lamivudina, Dolutegravir\".",
+   "prio": "alta",
+   "banco": true,
+   "pegadinha": "TB + HIV: dolutegravir em dose dobrada (50 mg 12/12 h) com rifampicina.",
+   "contexto": "**HIV = retrovírus que infecta linfócitos T CD4+; sem tratamento, a queda do CD4 leva à aids (imunodeficiência com infecções oportunistas e neoplasias).**\n\nHistória natural:\n- Infecção aguda (síndrome retroviral) → 2–4 semanas: febre, faringite, linfonodos, exantema\n- Latência clínica (anos) → CD4 cai ~50–100/ano\n- Aids → CD4 < 200 ou doença definidora (pneumocistose, neurotoxoplasmose, criptococose, TB extrapulmonar, sarcoma de Kaposi, candidíase esofágica)\n\nDiagnóstico (MS):\n- **Dois testes rápidos** de fabricantes diferentes reagentes (fluxograma)\n- Ou imunoensaio (4ª geração) + teste molecular (carga viral)\n- Janela imunológica ~30 dias (4ª geração)\n\nTratamento (PCDT 2024):\n- **TARV para todos**, independentemente do CD4, o mais cedo possível\n- Esquema inicial preferencial → **tenofovir (TDF) + lamivudina (3TC) + dolutegravir (DTG)**\n- Objetivo → carga viral indetectável (indetectável = intransmissível)\n- Com TB → começar o tratamento da TB e iniciar TARV em até 2 semanas (exceto meningite tuberculosa/criptocócica: adiar 4–6 semanas)\n\nProfilaxias de infecções oportunistas:\n- **CD4 < 200** → sulfametoxazol-trimetoprima (pneumocistose; também toxoplasmose se CD4 < 100 e IgG+)\n- ILTB → tratar (ver baralho de tuberculose)\n\nPrevenção:\n- **PrEP** → TDF + entricitabina diária (ou sob demanda em homens que fazem sexo com homens), para populações de risco\n- **PEP** → até **72 h** da exposição, por **28 dias**: TDF + 3TC + DTG\n- Gestante → TARV, carga viral no 3º trimestre, AZT intraparto se carga viral > 1.000 ou desconhecida; não amamentar\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: prazos da PEP, TARV inicial e CD4 que indica profilaxia.",
+   "ctxvisual": [
+    {
+     "tipo": "fluxo",
+     "passos": [
+      "Exposição de risco",
+      "PEP em até 72 h (ideal 2 h)",
+      "TDF + 3TC + DTG por 28 dias",
+      "Testar HIV na hora, com 30 e 90 dias"
+     ]
+    }
+   ],
+   "fonte": "Ministério da Saúde — PCDT para Manejo da Infecção pelo HIV em Adultos (2024) / PCDT PEP (2024) / PCDT PrEP (2025)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Clínica Médica",
+   "tema": "Reumatologia",
+   "sub": "Artrite reumatoide",
+   "tipo": "quiz",
+   "frente": "Sobre a artrite reumatoide, analise: I. A rigidez matinal prolongada (> 1 hora) é típica. II. Acomete as interfalângicas distais de forma característica. III. O metotrexato é a droga modificadora de doença de primeira escolha. Está(ão) correta(s):",
+   "opcoes": [
+    "Apenas I e II.",
+    "Apenas II e III.",
+    "I, II e III.",
+    "Apenas I e III."
+   ],
+   "certa": 3,
+   "comentarios": [
+    "Errada. II é falsa: a AR poupa as interfalângicas distais (que são acometidas na osteoartrite e na artrite psoriásica).",
+    "Errada. II é falsa: a AR poupa as interfalângicas distais (que são acometidas na osteoartrite e na artrite psoriásica).",
+    "Errada. II é falsa: a AR poupa as interfalângicas distais (que são acometidas na osteoartrite e na artrite psoriásica).",
+    "Correta. II é falsa: a AR poupa as interfalângicas distais (que são acometidas na osteoartrite e na artrite psoriásica)."
+   ],
+   "id": "bq-cm-027",
+   "prio": "alta",
+   "macete": "\"AR poupa a ponta\".",
+   "banco": true,
+   "contexto": "**Artrite reumatoide (AR) = doença autoimune sistêmica com poliartrite simétrica e erosiva de pequenas articulações, mediada pela sinovite (pannus).**\n\nClínica:\n- Poliartrite **simétrica** de mãos e pés: **metacarpofalângicas e interfalângicas proximais**, punhos (poupa as interfalângicas distais)\n- **Rigidez matinal > 1 hora**\n- Deformidades tardias → desvio ulnar, pescoço de cisne, boutonnière, dedo em Z\n- Mulher 30–50 anos\n\nExtra-articular:\n- Nódulos reumatoides, pulmão (doença intersticial, derrame), vasculite, síndrome de Sjögren secundária, anemia de doença crônica\n- **Síndrome de Felty** → AR + esplenomegalia + neutropenia\n- Coluna cervical → subluxação atlantoaxial (risco na intubação)\n\nExames:\n- **Fator reumatoide** (sensível, pouco específico) e **anti-CCP** (mais específico; prognóstico)\n- VHS/PCR elevados\n- RX → osteopenia justa-articular, redução do espaço, **erosões marginais**\n- USG/RM detectam sinovite precoce\n\nCritérios ACR/EULAR 2010:\n- ≥ 6 pontos de 10 (articulações, sorologia, provas inflamatórias, duração ≥ 6 semanas) — tabela do contexto\n\nTratamento:\n- **Metotrexato** → droga âncora, iniciar logo (com ácido fólico)\n- Corticoide em dose baixa como ponte; AINE para sintomas\n- Outras DMARDs → leflunomida, sulfassalazina, hidroxicloroquina\n- Biológicos (anti-TNF etc.) e inibidores de JAK se falha\n- Antes de biológico → rastrear TB latente e hepatites\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: padrão articular (poupa interfalângicas distais), anti-CCP e metotrexato como 1ª linha.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "ACR/EULAR 2010 (AR)",
+      "Critério",
+      "Pontos"
+     ],
+     "linhas": [
+      [
+       "Articulações",
+       "1 grande = 0 · 2–10 grandes = 1 · 1–3 pequenas = 2 · 4–10 pequenas = 3 · > 10 (≥ 1 pequena) = 5",
+       "0 a 5"
+      ],
+      [
+       "Sorologia",
+       "FR e anti-CCP negativos = 0 · baixo título = 2 · alto título (> 3×) = 3",
+       "0 a 3"
+      ],
+      [
+       "Provas inflamatórias",
+       "VHS e PCR normais = 0 · alteradas = 1",
+       "0 a 1"
+      ],
+      [
+       "Duração",
+       "< 6 semanas = 0 · ≥ 6 semanas = 1",
+       "0 a 1"
+      ],
+      [
+       "Total ≥ 6 de 10 pontos",
+       "Classifica como AR",
+       "Iniciar DMARD (metotrexato)"
+      ]
+     ]
+    }
+   ],
+   "fonte": "ACR/EULAR Classification Criteria for RA (2010) / SBR — Recomendações para o tratamento da AR (2022) / ACR Guideline (2021)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Clínica Médica",
+   "tema": "Reumatologia",
+   "sub": "Gota e artrite por cristais",
+   "id": "bq-cm-028",
+   "tipo": "quiz",
+   "frente": "Paciente em uso de alopurinol há 1 ano tem crise de gota no hálux. O que fazer com o alopurinol?",
+   "opcoes": [
+    "Suspender o alopurinol até a crise passar",
+    "Manter o alopurinol e tratar a crise com AINE, colchicina ou corticoide",
+    "Dobrar a dose do alopurinol durante a crise",
+    "Trocar por probenecida"
+   ],
+   "certa": 1,
+   "comentarios": [
+    "Oscilação do urato prolonga a crise.",
+    "Correta. Não suspender nem iniciar hipouricemiante por causa da crise; quem já usa, mantém.",
+    "Não se ajusta durante a crise.",
+    "Sem indicação."
+   ],
+   "macete": "\"Crise: não mexe no alopurinol\".",
+   "prio": "alta",
+   "banco": true,
+   "contexto": "**Gota = artrite inflamatória causada pelo depósito de cristais de urato monossódico, por hiperuricemia crônica.**\n\nFisiopatologia:\n- Ácido úrico > ~6,8 mg/dL satura e precipita nas articulações (mais em extremidades frias)\n- 90% → hipoexcreção renal; 10% → hiperprodução\n- Gatilhos de crise → álcool (cerveja), carne vermelha, frutos do mar, frutose, diuréticos (tiazídicos, de alça), AAS em dose baixa, trauma, cirurgia, desidratação\n\nClínica:\n- **Monoartrite aguda muito dolorosa**, de início noturno, com rubor e calor\n- **1ª metatarsofalângica (podagra)** é a mais típica\n- Crises recorrentes → gota tofácea crônica (tofos em orelha, cotovelo, mãos), nefrolitíase úrica\n\nDiagnóstico:\n- **Punção articular** → cristais em agulha com **birrefringência negativa** à luz polarizada (padrão-ouro)\n- Ácido úrico sérico pode estar NORMAL na crise\n- Sempre afastar artrite séptica (Gram e cultura do líquido)\n\nTratamento da crise:\n- **AINE, colchicina ou corticoide** (o mais cedo possível)\n- **Não iniciar nem suspender** hipouricemiante por causa da crise (se já usa, manter)\n\nTratamento de longo prazo (hipouricemiante):\n- Indicações → ≥ 2 crises/ano, tofos, artropatia, nefrolitíase\n- **Alopurinol** (inibidor da xantina oxidase) — 1ª escolha; febuxostate alternativa\n- Meta → ácido úrico < 6 mg/dL (< 5 se tofos)\n- Profilaxia com colchicina dose baixa nos primeiros meses (a queda do urato desencadeia crises)\n\nPseudogota (CPPD):\n- Cristais de pirofosfato de cálcio, **birrefringência positiva** (romboides); joelho de idoso; condrocalcinose no RX\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: cristais (negativa × positiva), conduta na crise e o alopurinol.",
+   "ctxvisual": [
+    {
+     "tipo": "vs",
+     "a": {
+      "t": "Gota (urato)",
+      "itens": [
+       "Agulha",
+       "Birrefringência NEGATIVA",
+       "Podagra (1ª MTF)",
+       "Alopurinol no longo prazo"
+      ]
+     },
+     "b": {
+      "t": "Pseudogota (pirofosfato)",
+      "itens": [
+       "Romboide",
+       "Birrefringência POSITIVA",
+       "Joelho, idoso",
+       "Condrocalcinose no RX"
+      ]
+     }
+    }
+   ],
+   "fonte": "ACR Guideline for the Management of Gout (2020) / EULAR (2016) / SBR — Recomendações sobre gota (2021)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Clínica Médica",
+   "tema": "Pneumologia",
+   "sub": "Derrame pleural",
+   "id": "bq-cm-029",
+   "tipo": "quiz",
+   "frente": "Líquido pleural com proteína pleural/sérica de 0,7 e LDH pleural/sérica de 0,8, predomínio de linfócitos e ADA de 70 U/L, em paciente com febre vespertina e emagrecimento. Qual o diagnóstico mais provável?",
+   "opcoes": [
+    "Insuficiência cardíaca",
+    "Tuberculose pleural",
+    "Derrame parapneumônico",
+    "Cirrose"
+   ],
+   "certa": 1,
+   "comentarios": [
+    "IC causa transudato.",
+    "Correta. Exsudato linfocítico com ADA alta (> 40) = TB pleural.",
+    "Parapneumônico: predomínio de neutrófilos.",
+    "Cirrose causa transudato."
+   ],
+   "macete": "\"Linfócito + ADA alta = TB\".",
+   "prio": "alta",
+   "banco": true,
+   "contexto": "**Derrame pleural = acúmulo anormal de líquido no espaço pleural; o 1º passo é separar transudato de exsudato (critérios de Light).**\n\nClínica:\n- Dispneia, dor pleurítica, tosse\n- Exame → murmúrio vesicular e frêmito toracovocal diminuídos, macicez à percussão\n- RX → velamento do seio costofrênico (curva de Damoiseau); USG detecta pequenos volumes e guia a punção\n\nTransudato × exsudato:\n- **Transudato** → desequilíbrio de pressões (pleura normal): IC (causa mais comum), cirrose, síndrome nefrótica\n- **Exsudato** → doença da pleura (inflamação/infiltração): pneumonia (parapneumônico), câncer, tuberculose, TEP\n- **Critérios de Light** (basta 1 para exsudato) → tabela do contexto\n\nPistas no líquido:\n- **TB** → exsudato linfocítico, **ADA alta** (> 40)\n- **Neoplasia** → hemorrágico, citologia oncótica (pulmão, mama, linfoma)\n- **Quilotórax** → triglicerídeos > 110 mg/dL (lesão do ducto torácico)\n- Amilase alta → pancreatite, ruptura de esôfago\n- Glicose baixa → empiema, AR, TB\n\nDerrame parapneumônico:\n- Simples → antibiótico\n- **Complicado/empiema** → **pH < 7,2**, glicose < 60, LDH > 1.000, Gram/cultura positivos ou pus → **drenagem torácica**\n\nTratamento:\n- Transudato → tratar a causa (diurético na IC)\n- Toracocentese de alívio se dispneia; neoplásico recorrente → pleurodese ou cateter pleural\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: critérios de Light, quando drenar o parapneumônico e ADA na TB pleural.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "Critérios de Light",
+      "Critério",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "Proteína",
+       "Proteína pleural ÷ sérica > 0,5",
+       "Exsudato → investigar a pleura"
+      ],
+      [
+       "LDH (razão)",
+       "LDH pleural ÷ sérica > 0,6",
+       "Exsudato"
+      ],
+      [
+       "LDH (valor)",
+       "LDH pleural > 2/3 do limite superior sérico",
+       "Exsudato"
+      ],
+      [
+       "Nenhum critério",
+       "Transudato (IC, cirrose, nefrótica)",
+       "Tratar a causa"
+      ],
+      [
+       "pH < 7,2 / glicose < 60 / pus",
+       "Parapneumônico complicado / empiema",
+       "Drenagem torácica"
+      ]
+     ]
+    }
+   ],
+   "fonte": "Light RW — Pleural Diseases 6ª ed. / BTS Pleural Disease Guideline (2023) / SBPT — Diretrizes de derrame pleural",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Clínica Médica",
+   "tema": "Hematologia",
+   "sub": "Trombose venosa profunda e anticoagulação",
+   "id": "bq-cm-030",
+   "tipo": "quiz",
+   "frente": "Paciente com TVP proximal após cirurgia ortopédica, sem contraindicação. Qual o tempo mínimo de anticoagulação?",
+   "opcoes": [
+    "2 semanas",
+    "Por toda a vida",
+    "Somente durante a internação",
+    "3 meses"
+   ],
+   "certa": 3,
+   "comentarios": [
+    "Insuficiente.",
+    "Indefinido para não provocada recorrente, câncer ativo, trombofilia grave.",
+    "Insuficiente.",
+    "Correta. TVP provocada por fator transitório → 3 meses."
+   ],
+   "macete": "\"TVP: 3 meses no mínimo\".",
+   "prio": "alta",
+   "banco": true,
+   "contexto": "**Trombose venosa profunda (TVP) = trombo no sistema venoso profundo (geralmente dos membros inferiores); com o TEP, forma o tromboembolismo venoso (TEV).**\n\nFisiopatologia (tríade de Virchow):\n- **Estase** (imobilização, viagem longa, IC), **lesão endotelial** (cirurgia, trauma) e **hipercoagulabilidade** (câncer, gestação, estrogênio, trombofilias)\n\nClínica:\n- Edema unilateral, dor, empastamento da panturrilha, calor\n- Sinal de Homans (dor à dorsiflexão) → pouco sensível\n- Complicações → TEP (a mais grave), síndrome pós-trombótica, flegmasia (cerúlea dolens)\n\nDiagnóstico:\n- Probabilidade clínica pelo **escore de Wells** (1 ponto por item; tabela do contexto)\n- Baixa probabilidade → **D-dímero** (normal afasta)\n- Alta probabilidade ou D-dímero alto → **USG Doppler venoso** (exame de escolha)\n\nTratamento:\n- **Anticoagulação** por pelo menos **3 meses**\n- **DOAC** (rivaroxabana, apixabana) → preferidos na maioria\n- Heparina de baixo peso molecular (enoxaparina) → gestante e câncer (DOAC também é opção no câncer)\n- Varfarina → começar junto com heparina e manter a heparina até INR 2–3 por 2 dias seguidos\n- Provocada por fator transitório → 3 meses; não provocada ou câncer → considerar tempo indefinido\n- **Filtro de veia cava** → só se anticoagulação contraindicada\n\nProfilaxia:\n- Pacientes internados de risco → enoxaparina 40 mg/dia ou heparina não fracionada; deambulação precoce; compressão pneumática se risco de sangramento\n\nAntídotos:\n- Heparina → protamina; varfarina → vitamina K + complexo protrombínico; dabigatrana → idarucizumabe\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: tríade de Virchow, D-dímero para afastar e Doppler para confirmar, duração da anticoagulação.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "Wells (TVP)",
+      "Critério",
+      "Pontos / conduta"
+     ],
+     "linhas": [
+      [
+       "Câncer ativo",
+       "Tratamento nos últimos 6 meses ou paliativo",
+       "1 ponto"
+      ],
+      [
+       "Paralisia/imobilização",
+       "Paresia ou gesso recente no membro",
+       "1 ponto"
+      ],
+      [
+       "Acamado/cirurgia",
+       "Acamado > 3 dias ou cirurgia maior em 12 semanas",
+       "1 ponto"
+      ],
+      [
+       "Dor no trajeto venoso",
+       "Sensibilidade no sistema venoso profundo",
+       "1 ponto"
+      ],
+      [
+       "Edema de todo o membro",
+       "Membro inteiro edemaciado",
+       "1 ponto"
+      ],
+      [
+       "Panturrilha",
+       "Diferença > 3 cm em relação à outra",
+       "1 ponto"
+      ],
+      [
+       "Cacifo",
+       "Edema com cacifo só no membro sintomático",
+       "1 ponto"
+      ],
+      [
+       "Veias colaterais",
+       "Superficiais não varicosas",
+       "1 ponto"
+      ],
+      [
+       "TVP prévia",
+       "Documentada",
+       "1 ponto"
+      ],
+      [
+       "Diagnóstico alternativo",
+       "Tão ou mais provável que TVP",
+       "−2 pontos"
+      ],
+      [
+       "Total ≤ 1 ponto",
+       "TVP improvável",
+       "D-dímero: normal afasta"
+      ],
+      [
+       "Total ≥ 2 pontos",
+       "TVP provável",
+       "USG Doppler venoso"
+      ]
+     ]
+    }
+   ],
+   "fonte": "ACCP — Antithrombotic Therapy for VTE (CHEST 2021) / ASH Guidelines for VTE (2020) / SBACV — Diretrizes de TVP (2023)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Cirurgia",
+   "tema": "Trauma",
+   "sub": "Atendimento inicial ao politraumatizado — ATLS",
+   "id": "bq-cir-025",
+   "tipo": "quiz",
+   "frente": "Vítima de moto com Glasgow 7, respiração ruidosa e sangramento facial. Qual a prioridade?",
+   "opcoes": [
+    "Garantir via aérea definitiva com proteção da coluna cervical",
+    "TC de crânio antes de tudo",
+    "Acesso venoso e volume",
+    "Exame neurológico detalhado"
+   ],
+   "certa": 0,
+   "comentarios": [
+    "Correta. Glasgow ≤ 8 = via aérea definitiva (A do ABCDE).",
+    "Exames só após estabilização.",
+    "C vem depois do A.",
+    "D vem depois."
+   ],
+   "macete": "\"Glasgow 8 = intubo\".",
+   "prio": "alta",
+   "banco": true,
+   "contexto": "**Atendimento inicial ao trauma (ATLS 10ª ed.) = avaliação primária sistematizada pelo XABCDE, tratando cada ameaça à vida na ordem em que mata.**\n\nAvaliação primária (XABCDE):\n- **X** → hemorragia externa exsanguinante: compressão direta, torniquete\n- **A** → via aérea com **proteção da coluna cervical** (colar, estabilização manual)\n- **B** → respiração e ventilação: pneumotórax hipertensivo, aberto, hemotórax maciço, tórax instável\n- **C** → circulação com controle de hemorragia: 2 acessos calibrosos, cristaloide aquecido (até 1 L no adulto), sangue precoce, ácido tranexâmico em até 3 h\n- **D** → disfunção neurológica: Glasgow + pupilas\n- **E** → exposição e controle do ambiente (evitar hipotermia)\n\nVia aérea definitiva:\n- Indicações → Glasgow ≤ 8, incapacidade de proteger a via aérea, queimadura de via aérea, apneia, risco de obstrução (hematoma cervical em expansão)\n- Falhou a intubação → via cirúrgica: **cricotireoidostomia** (cirúrgica no adulto; por punção em < 12 anos)\n\nAdjuntos da avaliação primária:\n- Monitorização, sonda gástrica e vesical (se não houver contraindicação), gasometria, RX de tórax e pelve, **FAST**\n\nContraindicações à sonda:\n- Vesical → sangue no meato, hematoma perineal, próstata alta ao toque (lesão de uretra)\n- Nasogástrica → suspeita de fratura de base de crânio (usar orogástrica)\n\nAvaliação secundária:\n- Só após a primária e a estabilização: exame da cabeça aos pés + história **AMPLA** (Alergias, Medicamentos, Passado médico/gestação, Líquidos e alimentos, Ambiente e eventos)\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: ordem do XABCDE, indicações de via aérea definitiva e Glasgow (com pupilas).",
+   "ctxvisual": [
+    {
+     "tipo": "fluxo",
+     "passos": [
+      "X: hemorragia externa grave",
+      "A: via aérea + coluna cervical",
+      "B: ventilação (pneumotórax!)",
+      "C: circulação + controle do sangramento",
+      "D: Glasgow + pupilas",
+      "E: exposição + evitar hipotermia"
+     ]
+    },
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "Glasgow (ECG)",
+      "Critério",
+      "Pontos / conduta"
+     ],
+     "linhas": [
+      [
+       "Abertura ocular",
+       "Espontânea 4 · ao som 3 · à pressão 2 · ausente 1",
+       "1 a 4"
+      ],
+      [
+       "Resposta verbal",
+       "Orientada 5 · confusa 4 · palavras 3 · sons 2 · ausente 1",
+       "1 a 5"
+      ],
+      [
+       "Resposta motora",
+       "Obedece 6 · localiza 5 · flexão normal 4 · flexão anormal 3 · extensão 2 · ausente 1",
+       "1 a 6"
+      ],
+      [
+       "Reatividade pupilar (ECG-P)",
+       "Subtrair: nenhuma pupila reage −2 · uma não reage −1",
+       "Total 1 a 15"
+      ],
+      [
+       "13–15 pontos",
+       "TCE leve",
+       "Observação; TC se fator de risco"
+      ],
+      [
+       "9–12 pontos",
+       "TCE moderado",
+       "TC de crânio, internação, neurocirurgia"
+      ],
+      [
+       "3–8 pontos",
+       "TCE grave",
+       "Intubação (via aérea definitiva) + TC + neurocirurgia"
+      ]
+     ]
+    }
+   ],
+   "fonte": "ATLS — Advanced Trauma Life Support 10ª ed. (ACS, 2018) / PHTLS 10ª ed.",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Cirurgia",
+   "tema": "Trauma",
+   "sub": "Traumatismo cranioencefálico (TCE)",
+   "id": "bq-cir-026",
+   "tipo": "quiz",
+   "frente": "Jovem com trauma temporal, perda breve da consciência, depois lúcido e conversando, e 2 horas depois evolui com rebaixamento e anisocoria. Qual o diagnóstico mais provável?",
+   "opcoes": [
+    "Hematoma subdural crônico",
+    "Lesão axonal difusa",
+    "Hematoma epidural",
+    "Concussão cerebral"
+   ],
+   "certa": 2,
+   "comentarios": [
+    "Crônico: idoso, semanas depois.",
+    "LAD: coma desde o trauma.",
+    "Correta. Intervalo lúcido + trauma temporal (artéria meníngea média) = epidural; TC: lente biconvexa.",
+    "Concussão não evolui com anisocoria."
+   ],
+   "macete": "\"Lúcido e depois apaga = epidural\".",
+   "prio": "alta",
+   "banco": true,
+   "contexto": "**TCE = lesão cerebral por trauma; o objetivo é evitar a lesão secundária (hipóxia, hipotensão e hipertensão intracraniana).**\n\nClassificação (Glasgow, 3 a 15 pontos):\n- **Leve** → 13–15\n- **Moderado** → 9–12\n- **Grave** → 3–8 (intubar)\n\nLesões:\n- **Hematoma epidural** → **artéria meníngea média** (fratura do temporal); **intervalo lúcido**; TC com **lente biconvexa** que não cruza suturas\n- **Hematoma subdural agudo** → **veias-ponte**; idoso, alcoolista, anticoagulado; TC em **crescente** que cruza suturas; pior prognóstico\n- **Lesão axonal difusa** → coma desde o trauma com TC quase normal (aceleração/desaceleração)\n- **Contusão** → lesão em golpe e contragolpe\n- **Fratura de base de crânio** → olhos de guaxinim, **sinal de Battle** (equimose retroauricular), rinorreia/otorreia de líquor, hemotímpano\n\nHipertensão intracraniana:\n- **Tríade de Cushing** → hipertensão + bradicardia + respiração irregular (sinal tardio)\n- Herniação uncal → midríase ipsilateral + hemiparesia contralateral\n\nConduta:\n- ABCDE; evitar hipóxia (SatO₂ > 94%) e hipotensão (PAS ≥ 100–110)\n- TC de crânio sem contraste → todo moderado/grave e leve com fator de risco\n- Medidas para HIC → cabeceira a 30°, sedação, salina hipertônica ou manitol, hiperventilação só transitória (PaCO₂ 35)\n- Hematoma com efeito de massa → drenagem neurocirúrgica\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: epidural × subdural na TC, sinais de fratura de base e tríade de Cushing.",
+   "ctxvisual": [
+    {
+     "tipo": "vs",
+     "a": {
+      "t": "Hematoma epidural",
+      "itens": [
+       "Artéria meníngea média",
+       "Intervalo lúcido",
+       "Lente biconvexa",
+       "Não cruza suturas"
+      ]
+     },
+     "b": {
+      "t": "Hematoma subdural",
+      "itens": [
+       "Veias-ponte",
+       "Idoso, alcoolista, anticoagulado",
+       "Crescente (meia-lua)",
+       "Cruza suturas"
+      ]
+     }
+    },
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "Glasgow (ECG)",
+      "Critério",
+      "Pontos / conduta"
+     ],
+     "linhas": [
+      [
+       "Abertura ocular",
+       "Espontânea 4 · ao som 3 · à pressão 2 · ausente 1",
+       "1 a 4"
+      ],
+      [
+       "Resposta verbal",
+       "Orientada 5 · confusa 4 · palavras 3 · sons 2 · ausente 1",
+       "1 a 5"
+      ],
+      [
+       "Resposta motora",
+       "Obedece 6 · localiza 5 · flexão normal 4 · flexão anormal 3 · extensão 2 · ausente 1",
+       "1 a 6"
+      ],
+      [
+       "Reatividade pupilar (ECG-P)",
+       "Subtrair: nenhuma pupila reage −2 · uma não reage −1",
+       "Total 1 a 15"
+      ],
+      [
+       "13–15 pontos",
+       "TCE leve",
+       "Observação; TC se fator de risco"
+      ],
+      [
+       "9–12 pontos",
+       "TCE moderado",
+       "TC de crânio, internação, neurocirurgia"
+      ],
+      [
+       "3–8 pontos",
+       "TCE grave",
+       "Intubação (via aérea definitiva) + TC + neurocirurgia"
+      ]
+     ]
+    }
+   ],
+   "fonte": "ATLS 10ª ed. (2018) / Brain Trauma Foundation Guidelines 4ª ed. (2016)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Cirurgia",
+   "tema": "Trauma",
+   "sub": "Queimaduras",
+   "id": "bq-cir-027",
+   "tipo": "quiz",
+   "frente": "Adulto de 70 kg com queimaduras de 2º e 3º graus em 30% da superfície corporal. Pela fórmula do ATLS 10ª ed., qual o volume de Ringer lactato nas primeiras 24 horas e quanto nas primeiras 8 horas?",
+   "opcoes": [
+    "8.400 mL em 24 h, sendo 4.200 mL nas primeiras 8 h",
+    "2.100 mL em 24 h",
+    "4.200 mL em 24 h, sendo 2.100 mL nas primeiras 8 h",
+    "4.200 mL em 24 h, distribuídos igualmente"
+   ],
+   "certa": 2,
+   "comentarios": [
+    "Esse é o cálculo de Parkland (4 mL), não o ATLS 10.",
+    "Metade do correto.",
+    "Correta. 2 mL × 70 kg × 30% = 4.200 mL; metade nas 8 h desde a queimadura.",
+    "Metade vai nas primeiras 8 h."
+   ],
+   "macete": "\"2 × peso × % → metade em 8 h\".",
+   "prio": "alta",
+   "banco": true,
+   "pegadinha": "Ajustar pela diurese: 0,5 mL/kg/h no adulto.",
+   "contexto": "**Queimadura = lesão tecidual por calor, eletricidade, frio, química ou radiação; o grande queimado tem choque por perda de líquido pela pele e pelo vazamento capilar.**\n\nProfundidade:\n- **1º grau** → só epiderme: eritema, dor, sem bolha (não entra no cálculo de SCQ)\n- **2º grau superficial** → bolhas, leito rosado, muita dor\n- **2º grau profundo** → leito pálido/mosqueado, menos dor\n- **3º grau** → toda a derme: branco nacarado ou marrom, **indolor**, aspecto de couro; precisa de enxerto\n\nExtensão (superfície corporal queimada — SCQ):\n- **Regra dos 9 (adulto)** → cabeça 9%, cada membro superior 9%, tronco anterior 18%, tronco posterior 18%, cada membro inferior 18%, períneo 1%\n- Criança → cabeça maior, membros inferiores menores (Lund-Browder)\n- Palma da mão do paciente ≈ 1%\n\nReposição volêmica (ATLS 10ª ed.):\n- Indicada em queimaduras de 2º e 3º graus > 20% SCQ\n- **Ringer lactato 2 mL × kg × %SCQ** no adulto (3 mL na criança; 4 mL na queimadura elétrica)\n- **Metade nas primeiras 8 h (contadas desde a queimadura)** e metade nas 16 h seguintes\n- Guia → **diurese 0,5 mL/kg/h** no adulto (1 mL/kg/h na criança < 30 kg; 1–1,5 mL/kg/h na elétrica)\n- (Fórmula clássica de Parkland usava 4 mL)\n\nVia aérea:\n- Lesão inalatória → queimadura de face, vibrissas queimadas, escarro carbonáceo, rouquidão, ambiente fechado → **intubação precoce**\n- Intoxicação por CO → O₂ a 100% (oxímetro de pulso engana)\n\nOutros:\n- Queimadura circunferencial de membro ou tórax → **escarotomia**\n- Elétrica → lesão interna maior que a pele; rabdomiólise, arritmia\n- Química → irrigação abundante com água\n- Profilaxia antitetânica; antibiótico sistêmico profilático NÃO\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: regra dos 9, fórmula de reposição e meta de diurese.",
+   "ctxvisual": [
+    {
+     "tipo": "img",
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Wallace_rule_of_nines-en.svg/600px-Wallace_rule_of_nines-en.svg.png",
+     "legenda": "Regra dos 9 de Wallace (adulto)",
+     "fonte": "Wikimedia Commons · CC BY-SA"
+    },
+    {
+     "tipo": "tabela",
+     "cab": [
+      "Região (adulto)",
+      "% SCQ"
+     ],
+     "linhas": [
+      [
+       "Cabeça e pescoço",
+       "9%"
+      ],
+      [
+       "Cada membro superior",
+       "9%"
+      ],
+      [
+       "Tronco anterior",
+       "18%"
+      ],
+      [
+       "Tronco posterior",
+       "18%"
+      ],
+      [
+       "Cada membro inferior",
+       "18%"
+      ],
+      [
+       "Períneo",
+       "1%"
+      ]
+     ]
+    }
+   ],
+   "fonte": "ATLS 10ª ed. (2018) / Ministério da Saúde — Cartilha para tratamento de emergência das queimaduras (2012) / ISBI Practice Guidelines (2016)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Cirurgia",
+   "tema": "Coloproctologia",
+   "sub": "Câncer colorretal",
+   "id": "bq-cir-028",
+   "tipo": "quiz",
+   "frente": "Homem de 65 anos com anemia ferropriva, sem sangramento visível e sem alteração do hábito intestinal. Qual a localização mais provável de um câncer colorretal?",
+   "opcoes": [
+    "Cólon direito",
+    "Reto",
+    "Sigmoide",
+    "Cólon descendente"
+   ],
+   "certa": 0,
+   "comentarios": [
+    "Correta. Cólon direito: sangra oculto, anemia ferropriva, raramente obstrui.",
+    "Reto: hematoquezia e tenesmo.",
+    "Esquerdo: alteração do hábito e obstrução.",
+    "Esquerdo: obstrução."
+   ],
+   "macete": "\"Direito sangra escondido\".",
+   "prio": "alta",
+   "banco": true,
+   "contexto": "**Câncer colorretal (CCR) = adenocarcinoma do cólon/reto que surge, em geral, de um pólipo adenomatoso (sequência adenoma → carcinoma).**\n\nFatores de risco:\n- Idade, história familiar, pólipos adenomatosos, DII, dieta rica em carne vermelha/processada, obesidade, tabagismo, álcool\n- Hereditários → **polipose adenomatosa familiar (gene APC**, centenas de pólipos, colectomia profilática) e **síndrome de Lynch** (reparo do DNA, sem polipose; também endométrio, ovário)\n\nCarcinogênese:\n- APC → KRAS → p53 (via clássica); instabilidade de microssatélites no Lynch\n\nClínica:\n- **Cólon direito** → anemia ferropriva, massa, sangue oculto\n- **Cólon esquerdo** → alteração do hábito intestinal, fezes afiladas, **obstrução**\n- **Reto** → hematoquezia, tenesmo\n- Bacteremia por *Streptococcus gallolyticus* (bovis) ou *Clostridium septicum* → investigar cólon\n\nRastreamento (risco médio):\n- A partir de 45–50 anos até 75 → pesquisa de sangue oculto nas fezes anual ou colonoscopia a cada 10 anos\n- Parente de 1º grau com CCR → colonoscopia aos 40 anos ou 10 anos antes do caso índice\n\nDiagnóstico e estadiamento:\n- **Colonoscopia com biópsia** (avaliar todo o cólon: lesão sincrônica)\n- TC de tórax/abdome/pelve; **RM de pelve no câncer de reto**; CEA basal (seguimento, não diagnóstico)\n\nTratamento:\n- **Cólon** → colectomia com linfadenectomia (≥ 12 linfonodos); **estádio III (linfonodo +) → quimioterapia adjuvante**\n- **Reto** → localmente avançado: **quimiorradioterapia neoadjuvante** + excisão total do mesorreto\n- Metástase hepática isolada → pode ser ressecada com intenção curativa\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: direito × esquerdo, rastreamento e neoadjuvância no reto.",
+   "ctxvisual": [
+    {
+     "tipo": "vs",
+     "a": {
+      "t": "Cólon direito",
+      "itens": [
+       "Fezes líquidas, lúmen largo",
+       "Anemia ferropriva",
+       "Massa palpável",
+       "Raramente obstrui"
+      ]
+     },
+     "b": {
+      "t": "Cólon esquerdo / reto",
+      "itens": [
+       "Fezes sólidas, lúmen estreito",
+       "Alteração do hábito, fezes afiladas",
+       "Obstrução",
+       "Hematoquezia, tenesmo (reto)"
+      ]
+     }
+    }
+   ],
+   "fonte": "INCA — Detecção precoce do câncer (2021) / NCCN Colon and Rectal Cancer (2025) / Sabiston 21ª ed.",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Cirurgia",
+   "tema": "Coloproctologia",
+   "sub": "Doença hemorroidária",
+   "tipo": "quiz",
+   "frente": "Sobre a doença hemorroidária, analise: I. A hemorroida interna causa sangramento vermelho vivo e indolor. II. A hemorroida grau III prolapsa e reduz espontaneamente. III. A trombose hemorroidária externa com menos de 72 horas pode ser tratada com excisão do trombo. Está(ão) correta(s):",
+   "opcoes": [
+    "Apenas I e II.",
+    "Apenas II e III.",
+    "I, II e III.",
+    "Apenas I e III."
+   ],
+   "certa": 3,
+   "comentarios": [
+    "Errada. II é falsa: grau III precisa de redução MANUAL; grau II reduz espontaneamente.",
+    "Errada. II é falsa: grau III precisa de redução MANUAL; grau II reduz espontaneamente.",
+    "Errada. II é falsa: grau III precisa de redução MANUAL; grau II reduz espontaneamente.",
+    "Correta. II é falsa: grau III precisa de redução MANUAL; grau II reduz espontaneamente."
+   ],
+   "id": "bq-cir-029",
+   "prio": "alta",
+   "macete": "\"I sangra, II volta só, III com a mão, IV não volta\".",
+   "banco": true,
+   "contexto": "**Doença hemorroidária = dilatação e deslizamento dos coxins vasculares do canal anal, que causa sangramento e prolapso.**\n\nTipos:\n- **Internas** → acima da linha pectínea; mucosa sem inervação somática → **sangramento indolor** (vermelho vivo, no papel/vaso) e prolapso\n- **Externas** → abaixo da linha pectínea; pele inervada → dor quando **trombosam**\n\nFatores de risco:\n- Constipação, esforço evacuatório, gestação, dieta pobre em fibras, ficar muito tempo sentado no vaso\n\nClassificação das internas (Goligher):\n- Graus I a IV (tabela do contexto)\n\nTratamento:\n- Todos → fibras, líquidos, evitar esforço, banho de assento\n- **Ligadura elástica** → graus I–II (e alguns III) refratários\n- **Hemorroidectomia** → graus III–IV, mistas, falha das outras\n- **Trombose externa** → **< 72 h: excisão do trombo**; > 72 h: tratamento clínico\n\nPegadas:\n- Sangramento anal sempre exige afastar câncer (colonoscopia se > 45–50 anos, anemia, alteração do hábito)\n- Dor intensa à evacuação com sangue → pensar em fissura anal\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: graus I–IV com a conduta e a trombose hemorroidária externa.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "Goligher (hemorroida interna)",
+      "Critério",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "Grau I",
+       "Sangra, não prolapsa",
+       "Clínico; ligadura se persistir"
+      ],
+      [
+       "Grau II",
+       "Prolapsa e volta sozinha",
+       "Clínico + ligadura elástica"
+      ],
+      [
+       "Grau III",
+       "Prolapsa e precisa de redução manual",
+       "Ligadura ou hemorroidectomia"
+      ],
+      [
+       "Grau IV",
+       "Prolapso irredutível",
+       "Hemorroidectomia"
+      ]
+     ]
+    }
+   ],
+   "fonte": "ASCRS Clinical Practice Guidelines for Hemorrhoids (2018/2024) / SBCP / Sabiston 21ª ed.",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Cirurgia",
+   "tema": "Perioperatório",
+   "sub": "Avaliação pré-operatória — risco cirúrgico, jejum e medicações",
+   "id": "bq-cir-030",
+   "tipo": "quiz",
+   "frente": "Paciente com hipertensão controlada e diabetes tipo 2 em uso de metformina, sem outras doenças. Como se classifica pela ASA?",
+   "opcoes": [
+    "ASA I",
+    "ASA II",
+    "ASA III",
+    "ASA IV"
+   ],
+   "certa": 1,
+   "comentarios": [
+    "ASA I = saudável.",
+    "Correta. Doença sistêmica leve, controlada, sem limitação funcional.",
+    "ASA III = doença sistêmica grave (ex.: DM descompensado, DPOC).",
+    "ASA IV = ameaça constante à vida."
+   ],
+   "macete": "\"Doença controlada = II; descompensada = III\".",
+   "prio": "alta",
+   "banco": true,
+   "contexto": "**Avaliação pré-operatória = estimar o risco do paciente e da cirurgia, otimizar doenças e decidir exames e medicações, pedindo exame só quando muda a conduta.**\n\nEstado físico (ASA):\n- **I** → saudável\n- **II** → doença sistêmica leve (HAS controlada, tabagista, obesidade leve)\n- **III** → doença sistêmica grave (DM descompensado, DPOC, IMC ≥ 40)\n- **IV** → doença grave com ameaça constante à vida\n- **V** → moribundo, não sobrevive sem a cirurgia\n- **VI** → morte encefálica (doador)\n- Sufixo **E** → emergência\n\nRisco cardíaco:\n- **Índice de Lee (RCRI)** → 6 itens de 1 ponto (tabela do contexto)\n- Capacidade funcional → < 4 METs (não sobe 2 lances de escada) é ruim\n- Cirurgia de emergência → operar; não atrasar por exames\n\nExames:\n- Paciente saudável em cirurgia de baixo risco → **nenhum exame de rotina**\n- ECG → cardiopatia ou cirurgia de risco intermediário/alto\n- Hemoglobina → cirurgia com perda sanguínea; coagulograma → anticoagulado/hepatopata\n\nJejum (ASA):\n- **Líquidos claros → 2 h**\n- **Leite materno → 4 h**\n- **Fórmula infantil, leite não humano, refeição leve → 6 h**\n- **Refeição gordurosa → 8 h**\n\nMedicações:\n- **Manter** → betabloqueador, estatina, anti-hipertensivos (IECA/BRA: muitos suspendem 24 h antes), levotiroxina, corticoide (dose de estresse se uso crônico)\n- **Suspender** → varfarina 5 dias antes (ponte com heparina se alto risco), DOAC 1–3 dias conforme droga e função renal, clopidogrel 5 dias, iSGLT2 3–4 dias (risco de cetoacidose euglicêmica), metformina no dia\n- AAS → manter na maioria (suspender em neurocirurgia e próstata); após stent recente, adiar cirurgia eletiva\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: ASA, tempos de jejum e quais medicações manter ou suspender.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "RCRI (Lee)",
+      "Critério",
+      "Pontos / conduta"
+     ],
+     "linhas": [
+      [
+       "Cirurgia de alto risco",
+       "Intraperitoneal, intratorácica ou vascular suprainguinal",
+       "1 ponto"
+      ],
+      [
+       "Doença isquêmica do coração",
+       "IAM prévio, angina, teste positivo, nitrato",
+       "1 ponto"
+      ],
+      [
+       "Insuficiência cardíaca",
+       "História ou sinais",
+       "1 ponto"
+      ],
+      [
+       "Doença cerebrovascular",
+       "AVC ou AIT prévio",
+       "1 ponto"
+      ],
+      [
+       "Diabetes com insulina",
+       "Uso de insulina",
+       "1 ponto"
+      ],
+      [
+       "Creatinina > 2 mg/dL",
+       "Disfunção renal",
+       "1 ponto"
+      ],
+      [
+       "Total 0–1 ponto",
+       "Risco baixo",
+       "Operar sem testes adicionais"
+      ],
+      [
+       "Total ≥ 2 pontos",
+       "Risco elevado",
+       "Avaliar capacidade funcional (< 4 METs → considerar teste se mudar conduta)"
+      ]
+     ]
+    }
+   ],
+   "fonte": "ACC/AHA Perioperative Cardiovascular Guideline (2024) / ASA Physical Status Classification (2020) / ASA Practice Guidelines for Preoperative Fasting (2023) / SBC — Diretriz de Avaliação Perioperatória (2024)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Ginecologia",
+   "tema": "Endocrinologia ginecológica",
+   "sub": "Síndrome dos ovários policísticos (SOP)",
+   "id": "bq-go-025",
+   "tipo": "quiz",
+   "frente": "Mulher de 24 anos com ciclos irregulares, hirsutismo e IMC de 31, sem desejo de gestar no momento. Qual o tratamento farmacológico de primeira linha para o ciclo e o hirsutismo?",
+   "opcoes": [
+    "Clomifeno",
+    "Anticoncepcional oral combinado",
+    "Progesterona isolada contínua em dose alta",
+    "Estrogênio isolado"
+   ],
+   "certa": 1,
+   "comentarios": [
+    "Indutor de ovulação (e o letrozol é preferido) — só se quiser gestar.",
+    "Correta. ACO regula o ciclo, protege o endométrio e reduz androgênios livres; associado à mudança de estilo de vida.",
+    "Protege o endométrio, mas não trata hirsutismo.",
+    "Aumenta risco de hiperplasia endometrial."
+   ],
+   "macete": "\"SOP sem querer gestar: pílula\".",
+   "prio": "alta",
+   "banco": true,
+   "contexto": "**SOP = distúrbio endócrino-metabólico com anovulação crônica e hiperandrogenismo; endocrinopatia mais comum da mulher em idade reprodutiva.**\n\nFisiopatologia:\n- **Resistência à insulina e hiperinsulinemia** → estimulam a produção de androgênios pela teca e reduzem a SHBG\n- **LH alto em relação ao FSH** → mais androgênio; folículos não amadurecem → anovulação\n- Estrogênio sem oposição da progesterona → **hiperplasia e câncer de endométrio**\n\nDiagnóstico (Rotterdam — 2 de 3):\n- **Oligo/anovulação** (ciclos irregulares)\n- **Hiperandrogenismo** clínico (hirsutismo, acne, alopecia) ou laboratorial\n- **Ovários policísticos na USG** (≥ 20 folículos por ovário ou volume ≥ 10 mL) — ou AMH elevado no adulto (diretriz 2023)\n- Em adolescentes (< 8 anos de menarca) → precisa de irregularidade + hiperandrogenismo; USG não entra\n\nExcluir antes:\n- **Gravidez, hipotireoidismo (TSH), hiperprolactinemia, hiperplasia adrenal congênita não clássica (17-OH-progesterona)**, tumor produtor de androgênio (virilização rápida, testosterona muito alta), Cushing\n\nRiscos associados:\n- DM2, dislipidemia, síndrome metabólica, esteatose, apneia do sono, depressão/ansiedade, câncer de endométrio, infertilidade\n\nTratamento:\n- **Mudança de estilo de vida / perda de peso** → 1ª linha (perda de 5–10% já restaura ovulação)\n- **Anticoncepcional combinado** → regula ciclo, protege endométrio, reduz hirsutismo e acne\n- Antiandrogênio (espironolactona) associado ao ACO para hirsutismo\n- **Metformina** → resistência insulínica/alterações metabólicas\n- **Infertilidade → letrozol** (1ª linha atual; clomifeno alternativa), depois gonadotrofinas/FIV\n- Quem não quer ACO → progestágeno cíclico ou DIU de levonorgestrel para proteger o endométrio\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: critérios de Rotterdam, exames para excluir e tratamento conforme o objetivo.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "Rotterdam (SOP)",
+      "Critério",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "Oligo/anovulação",
+       "Ciclos irregulares (> 35 dias ou < 8 por ano)",
+       "ACO ou progestágeno para proteger o endométrio"
+      ],
+      [
+       "Hiperandrogenismo",
+       "Hirsutismo, acne, alopecia ou testosterona alta",
+       "ACO ± espironolactona"
+      ],
+      [
+       "Morfologia policística",
+       "≥ 20 folículos por ovário ou volume ≥ 10 mL (ou AMH alto)",
+       "Não usar em adolescente"
+      ],
+      [
+       "Diagnóstico",
+       "2 de 3 critérios + excluir outras causas",
+       "Estilo de vida + tratar conforme o objetivo (ciclo, pele, fertilidade)"
+      ]
+     ]
+    }
+   ],
+   "fonte": "International Evidence-based Guideline for PCOS (2023) / FEBRASGO — Protocolo SOP (2023) / Rotterdam ESHRE/ASRM Consensus (2003)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Ginecologia",
+   "tema": "Oncologia ginecológica",
+   "sub": "Câncer de endométrio",
+   "id": "bq-go-026",
+   "tipo": "quiz",
+   "frente": "Qual dos fatores abaixo é PROTETOR para o câncer de endométrio?",
+   "opcoes": [
+    "Obesidade",
+    "Uso de tamoxifeno",
+    "Nuliparidade",
+    "Uso de anticoncepcional oral combinado"
+   ],
+   "certa": 3,
+   "comentarios": [
+    "Fator de risco (estrona periférica).",
+    "Fator de risco.",
+    "Fator de risco.",
+    "Correta. Progestágeno do ACO protege o endométrio (efeito por anos após o uso)."
+   ],
+   "macete": "\"Progesterona protege o endométrio\".",
+   "prio": "alta",
+   "banco": true,
+   "contexto": "**Câncer de endométrio = neoplasia maligna do revestimento do útero; câncer ginecológico mais comum em países desenvolvidos, típico da pós-menopausa.**\n\nTipos:\n- **Tipo I (endometrioide)** → ~80%, **dependente de estrogênio**, precedido de hiperplasia, bom prognóstico\n- **Tipo II (seroso, células claras)** → não hormonal, mulher mais velha, endométrio atrófico, agressivo\n- Classificação molecular atual (POLE, deficiência de reparo/MMR, p53, sem perfil específico) entrou na FIGO 2023\n\nFatores de risco (estrogênio sem oposição da progesterona):\n- **Obesidade** (principal), nuliparidade, menarca precoce/menopausa tardia, **anovulação crônica (SOP)**, **tamoxifeno**, **terapia só com estrogênio** em mulher com útero, DM, HAS\n- **Síndrome de Lynch** (risco ao longo da vida de até 60%)\n- Protetores → **anticoncepcional combinado**, DIU de levonorgestrel, tabagismo (não se recomenda)\n\nClínica:\n- **Sangramento pós-menopausa** (90%) → sempre investigar\n\nInvestigação:\n- **USG transvaginal** → endométrio **> 4 mm** na pós-menopausa sem TH → biópsia\n- **Histeroscopia com biópsia dirigida** → padrão-ouro; biópsia aspirativa (Pipelle) é alternativa\n- Não existe rastreamento populacional\n\nEstadiamento:\n- **Cirúrgico** (FIGO 2009 na tabela; FIGO 2023 acrescentou tipo histológico e perfil molecular)\n\nTratamento:\n- **Histerectomia total + salpingo-ooforectomia bilateral** + estadiamento linfonodal (linfonodo sentinela)\n- Adjuvância conforme risco → braquiterapia vaginal, radioterapia pélvica, quimioterapia\n- Jovem que deseja gestar, tumor inicial bem diferenciado → progestágeno (DIU de levonorgestrel) com vigilância\n\nHiperplasia endometrial:\n- **Sem atipia** → progestágeno (DIU de levonorgestrel)\n- **Com atipia** → histerectomia (alto risco de câncer associado)\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: fatores de risco ligados ao estrogênio, conduta no sangramento pós-menopausa e endométrio > 4 mm.",
+   "ctxvisual": [
+    {
+     "tipo": "fluxo",
+     "passos": [
+      "Sangramento pós-menopausa",
+      "USG transvaginal",
+      [
+       "Endométrio ≤ 4 mm → baixo risco (acompanhar; investigar se persistir)",
+       "Endométrio > 4 mm → histeroscopia com biópsia"
+      ]
+     ]
+    },
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "FIGO 2009 (endométrio)",
+      "Critério",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "IA",
+       "Restrito ao corpo, invade < 50% do miométrio",
+       "Histerectomia total + salpingo-ooforectomia bilateral (± linfonodo sentinela)"
+      ],
+      [
+       "IB",
+       "Invade ≥ 50% do miométrio",
+       "Cirurgia + estadiamento linfonodal; braquiterapia conforme risco"
+      ],
+      [
+       "II",
+       "Invade o estroma do colo",
+       "Cirurgia + radioterapia adjuvante"
+      ],
+      [
+       "IIIA / IIIB",
+       "Serosa ou anexos / vagina ou paramétrio",
+       "Cirurgia + quimioterapia ± radioterapia"
+      ],
+      [
+       "IIIC",
+       "Linfonodos pélvicos (C1) ou para-aórticos (C2)",
+       "Cirurgia + quimioterapia ± radioterapia"
+      ],
+      [
+       "IVA / IVB",
+       "Mucosa de bexiga ou reto / metástase à distância",
+       "Tratamento sistêmico; cirurgia citorredutora selecionada"
+      ]
+     ]
+    }
+   ],
+   "fonte": "FEBRASGO — Protocolo Câncer de endométrio (2021) / FIGO Staging of Endometrial Cancer (2009 e 2023) / NCCN Uterine Neoplasms (2025) / INCA (2023)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Ginecologia",
+   "tema": "Endocrinologia ginecológica",
+   "sub": "Amenorreia secundária",
+   "tipo": "quiz",
+   "frente": "Mulher de 32 anos com amenorreia há 6 meses, beta-hCG negativo, TSH e prolactina normais. No teste da progesterona não houve sangramento; com estrogênio + progesterona também não. Sobre o caso, analise: I. A causa provável é uterina (compartimento I). II. Antecedente de curetagens favorece síndrome de Asherman. III. O próximo passo é dosar FSH para confirmar insuficiência ovariana. Está(ão) correta(s):",
+   "opcoes": [
+    "Apenas I e II.",
+    "Apenas I e III.",
+    "Apenas II e III.",
+    "I, II e III."
+   ],
+   "certa": 0,
+   "comentarios": [
+    "Correta. III é falsa: FSH só é dosado se sangrar com estrogênio + progesterona (falta de estrogênio); sem sangramento com E+P o problema está no útero → histeroscopia.",
+    "Errada. III é falsa: FSH só é dosado se sangrar com estrogênio + progesterona (falta de estrogênio); sem sangramento com E+P o problema está no útero → histeroscopia.",
+    "Errada. III é falsa: FSH só é dosado se sangrar com estrogênio + progesterona (falta de estrogênio); sem sangramento com E+P o problema está no útero → histeroscopia.",
+    "Errada. III é falsa: FSH só é dosado se sangrar com estrogênio + progesterona (falta de estrogênio); sem sangramento com E+P o problema está no útero → histeroscopia."
+   ],
+   "id": "bq-go-027",
+   "prio": "alta",
+   "macete": "\"E+P sem sangrar = útero\".",
+   "banco": true,
+   "contexto": "**Amenorreia secundária = ausência de menstruação por 3 meses em quem tinha ciclos regulares ou por 6 meses em quem tinha ciclos irregulares.**\n\n1º passo sempre:\n- **Excluir gravidez (beta-hCG)**\n\nInvestigação inicial:\n- **TSH** e **prolactina** (e FSH, LH, estradiol; androgênios se hiperandrogenismo)\n\nCompartimentos e causas:\n- **Útero (compartimento I)** → **síndrome de Asherman** (sinéquias após curetagem/infecção) → histeroscopia\n- **Ovário (II)** → **SOP** (mais comum), **insuficiência ovariana prematura** (< 40 anos, FSH alto)\n- **Hipófise (III)** → **prolactinoma/hiperprolactinemia**, **síndrome de Sheehan** (necrose hipofisária após hemorragia pós-parto: 1º sinal = falha na lactação)\n- **Hipotálamo (IV)** → **amenorreia hipotalâmica funcional** (estresse, exercício intenso, baixo peso, transtornos alimentares)\n\nTeste de progesterona (raciocínio clássico):\n- Medroxiprogesterona 10 mg por 7–10 dias\n- **Sangrou** → havia estrogênio e o útero funciona → **anovulação** (ex.: SOP)\n- **Não sangrou** → estrogênio + progesterona:\n  - **Não sangrou** → causa **uterina** (Asherman)\n  - **Sangrou** → falta estrogênio → dosar **FSH**:\n    - **FSH alto** → **ovariana** (insuficiência ovariana)\n    - **FSH baixo/normal** → **hipotálamo/hipófise** (RM de sela se indicado)\n\nTratamento conforme a causa:\n- Asherman → lise histeroscópica das sinéquias\n- Insuficiência ovariana → terapia hormonal até a idade da menopausa (protege osso e coração)\n- Hipotalâmica → recuperar peso, reduzir exercício/estresse; repor estrogênio\n- Prolactinoma → agonista dopaminérgico (cabergolina)\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: excluir gravidez primeiro, sequência do teste de progesterona e Sheehan/Asherman.",
+   "ctxvisual": [
+    {
+     "tipo": "fluxo",
+     "passos": [
+      "Beta-hCG negativo → TSH e prolactina normais",
+      "Teste da progesterona",
+      [
+       "Sangrou → anovulação (SOP)",
+       "Não sangrou → estrogênio + progesterona"
+      ],
+      [
+       "Não sangrou → útero (Asherman)",
+       "Sangrou → FSH"
+      ],
+      [
+       "FSH alto → ovário (IOP)",
+       "FSH baixo/normal → hipotálamo/hipófise"
+      ]
+     ]
+    }
+   ],
+   "fonte": "FEBRASGO — Protocolo Amenorreia (2021) / ASRM — Current evaluation of amenorrhea (2008/2024) / Speroff's Clinical Gynecologic Endocrinology 9ª ed.",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Obstetrícia",
+   "tema": "Prematuridade e RPMO",
+   "sub": "Rotura prematura das membranas ovulares (RPMO)",
+   "id": "bq-go-028",
+   "tipo": "quiz",
+   "frente": "Gestante de 30 semanas com RPMO confirmada, sem trabalho de parto, sem sinais de infecção e com vitalidade fetal preservada. Qual a conduta?",
+   "opcoes": [
+    "Indução imediata do parto",
+    "Tocólise e alta hospitalar",
+    "Internação, corticoide, antibiótico de latência e conduta expectante",
+    "Cesárea imediata"
+   ],
+   "certa": 2,
+   "comentarios": [
+    "Antes de 34 semanas sem infecção, espera-se.",
+    "Tocólise não é indicada na RPMO; internação obrigatória.",
+    "Correta. 24–33 semanas sem infecção: expectante + betametasona + antibiótico (ampicilina + azitromicina).",
+    "Sem indicação."
+   ],
+   "macete": "\"RPMO pré-termo: Corticoide, Antibiótico e espera\".",
+   "prio": "alta",
+   "banco": true,
+   "contexto": "**RPMO = rotura das membranas antes do início do trabalho de parto; pré-termo quando antes de 37 semanas.**\n\nFatores de risco:\n- Infecção (vaginose, ITU, cervicite), RPMO prévia, tabagismo, polidrâmnio, gemelaridade, colo curto, sangramento\n\nDiagnóstico:\n- **Clínico** → perda de líquido + **exame especular** mostrando líquido saindo pelo orifício do colo (manobra de Valsalva)\n- **Evitar toque vaginal** (aumenta infecção), salvo trabalho de parto\n- Testes auxiliares → pH vaginal alcalino (nitrazina), cristalização \"em folha de samambaia\", PAMG-1/IGFBP-1 (testes imunocromatográficos)\n- USG → oligoâmnio reforça, mas não confirma\n\nComplicações:\n- **Corioamnionite**, prematuridade, prolapso de cordão, descolamento de placenta, hipoplasia pulmonar (RPMO muito precoce)\n\nConduta por idade gestacional:\n- **≥ 37 semanas** → resolução (indução ou cesárea por indicação obstétrica)\n- **34 a 36 semanas** → resolução da gestação na maioria dos protocolos (expectante até 37 é aceitável em casos selecionados)\n- **24 a 33 semanas** → **conduta expectante** com internação:\n  - **Corticoide** (betametasona 12 mg IM, 2 doses com 24 h)\n  - **Antibiótico de latência** (ampicilina EV 48 h → amoxicilina 5 dias + azitromicina dose única)\n  - **Sulfato de magnésio** para neuroproteção se < 32 semanas e parto iminente\n  - Profilaxia de GBS no trabalho de parto\n  - **Tocolíticos não**\n- **< 24 semanas** → individualizar com a família (prognóstico ruim)\n\nCorioamnionite:\n- Febre + taquicardia materna/fetal, útero doloroso, líquido fétido, leucocitose\n- **Antibiótico + resolução da gestação, em qualquer idade gestacional** (via vaginal preferida)\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: diagnóstico pelo especular, conduta por idade gestacional e corioamnionite.",
+   "ctxvisual": [
+    {
+     "tipo": "fluxo",
+     "passos": [
+      "RPMO confirmada (exame especular)",
+      "Corioamnionite? → antibiótico + resolução",
+      [
+       "≥ 34 sem → resolução",
+       "24–33 sem → expectante: corticoide + ATB de latência ± MgSO₄",
+       "< 24 sem → individualizar"
+      ]
+     ]
+    }
+   ],
+   "fonte": "FEBRASGO — Protocolo Rotura prematura das membranas ovulares (2021) / ACOG Practice Bulletin 217: PROM (2020) / Ministério da Saúde — Manual de Gestação de Alto Risco (2022)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Obstetrícia",
+   "tema": "Pré-natal",
+   "sub": "Aloimunização Rh e doença hemolítica perinatal",
+   "id": "bq-go-029",
+   "tipo": "quiz",
+   "frente": "Puérpera Rh negativo, Coombs indireto negativo no pré-natal, tem RN Rh positivo com Coombs direto negativo. Qual a conduta?",
+   "opcoes": [
+    "Nada, pois o Coombs do RN é negativo",
+    "Imunoglobulina anti-D ao RN",
+    "Imunoglobulina anti-D até 72 horas após o parto",
+    "Exsanguineotransfusão do RN"
+   ],
+   "certa": 2,
+   "comentarios": [
+    "É justamente por não estar sensibilizada que se faz a profilaxia.",
+    "A imunoglobulina é dada à MÃE.",
+    "Correta. Mãe Rh− não sensibilizada + RN Rh+ → anti-D em até 72 h.",
+    "Sem hemólise."
+   ],
+   "macete": "\"Mãe negativa + bebê positivo = anti-D em 72 h\".",
+   "prio": "alta",
+   "banco": true,
+   "contexto": "**Aloimunização Rh = produção de anticorpos anti-D pela gestante Rh negativo exposta a hemácias Rh positivo; os anticorpos IgG cruzam a placenta e destroem as hemácias fetais (doença hemolítica perinatal).**\n\nFisiopatologia:\n- Sensibilização em parto, abortamento, ectópica, mola, sangramento, trauma, procedimento invasivo, transfusão\n- 1ª gestação raramente afetada (resposta IgM); nas seguintes, IgG → **anemia fetal**, hidropisia, icterícia grave no RN\n\nRastreamento:\n- **Tipagem ABO-Rh** na 1ª consulta\n- Gestante Rh negativo (parceiro Rh positivo ou desconhecido) → **Coombs indireto**\n- Coombs indireto negativo → repetir (mensal a partir de 24 semanas ou com 28 semanas, conforme o protocolo)\n\nPrevenção (imunoglobulina anti-D 300 mcg IM):\n- **Com 28 semanas** em Rh negativo não sensibilizada (quando disponível)\n- **Até 72 h após o parto** se RN Rh positivo (Coombs direto do RN negativo)\n- Após abortamento, ectópica, mola, sangramento, amniocentese, versão externa, trauma abdominal\n- Hemorragia feto-materna grande → teste de Kleihauer-Betke para ajustar a dose\n\nGestante já sensibilizada (Coombs indireto positivo):\n- **Não adianta mais a imunoglobulina**\n- Título ≥ 1:16 (crítico; alguns usam 1:8) → **Doppler da artéria cerebral média** (pico de velocidade sistólica > 1,5 MoM = anemia fetal moderada/grave)\n- Anemia grave → **cordocentese e transfusão intrauterina**\n- Resolução programada conforme a gravidade\n\nRN:\n- Coombs direto positivo, anemia, icterícia precoce → fototerapia, exsanguineotransfusão\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: quando dar imunoglobulina anti-D e o Doppler de ACM na gestante sensibilizada.",
+   "ctxvisual": [
+    {
+     "tipo": "fluxo",
+     "passos": [
+      "Gestante Rh negativo → Coombs indireto",
+      [
+       "Negativo (não sensibilizada) → repetir + anti-D com 28 sem e até 72 h pós-parto",
+       "Positivo (sensibilizada) → título → Doppler da ACM → transfusão intrauterina se anemia grave"
+      ]
+     ]
+    }
+   ],
+   "fonte": "Ministério da Saúde — Manual de Gestação de Alto Risco (2022) / FEBRASGO — Protocolo Aloimunização Rh (2021) / ACOG Practice Bulletin 181 (2017)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Obstetrícia",
+   "tema": "Hemorragias da gestação",
+   "sub": "Abortamento e doença trofoblástica gestacional",
+   "id": "bq-go-030",
+   "tipo": "quiz",
+   "frente": "Gestante de 10 semanas com sangramento, útero maior que o esperado, β-hCG muito elevado e USG com imagem em \"flocos de neve\", sem embrião. Qual o tratamento?",
+   "opcoes": [
+    "Esvaziamento uterino por vácuo-aspiração e seguimento com β-hCG",
+    "Histerectomia em todas as pacientes",
+    "Quimioterapia com metotrexato imediata",
+    "Misoprostol e alta"
+   ],
+   "certa": 0,
+   "comentarios": [
+    "Correta. Mola hidatiforme: vácuo-aspiração + β-hCG seriado + contracepção.",
+    "Só em casos selecionados (prole completa, idade avançada).",
+    "Quimioterapia é para neoplasia trofoblástica pós-molar.",
+    "Indução medicamentosa aumenta risco de embolização trofoblástica; vácuo-aspiração é o método."
+   ],
+   "macete": "\"Flocos de neve: aspira e segue o hCG\".",
+   "prio": "alta",
+   "banco": true,
+   "contexto": "**Abortamento = interrupção da gestação antes de 20–22 semanas ou com feto < 500 g; doença trofoblástica gestacional = proliferação anormal do trofoblasto (mola hidatiforme e neoplasias).**\n\nAbortamento — causas:\n- **Alterações cromossômicas** → principal causa no 1º trimestre (trissomias)\n- Outras → síndrome antifosfolípide, malformações uterinas, insuficiência istmocervical, endocrinopatias, infecções\n\nAbortamento — formas:\n- Ameaça, inevitável, incompleto, completo, retido e infectado (tabela do contexto)\n- O que separa → **colo aberto ou fechado** e se há embrião vivo/restos\n\nEsvaziamento:\n- **AMIU** (aspiração manual intrauterina) → preferida até 12 semanas\n- Curetagem uterina; **misoprostol** para preparo do colo ou tratamento clínico\n- Acima de 12 semanas → misoprostol para expulsão e depois curetagem se necessário\n- **Rh negativo não sensibilizada → imunoglobulina anti-D**\n\nAbortamento de repetição:\n- ≥ 3 perdas consecutivas (investigar a partir de 2)\n- Investigar → cariótipo do casal, SAF, útero (histeroscopia/USG 3D), TSH\n- **Insuficiência istmocervical** → perdas no 2º trimestre, **indolores**, com dilatação do colo → **cerclagem com 12–16 semanas**\n\nMola hidatiforme:\n- **Completa** → **46,XX** (só cromossomos paternos), **sem embrião**, maior risco de malignizar (15–20%)\n- **Parcial** → **triploide (69,XXY)**, com feto/partes fetais, risco menor (1–5%)\n- Clínica → sangramento, **útero maior que a idade gestacional**, hiperêmese, **pré-eclâmpsia antes de 20 semanas**, hipertireoidismo, cistos tecaluteínicos\n- USG → \"flocos de neve\" / cacho de uva; **hCG muito elevado**\n- Tratamento → **vácuo-aspiração uterina**\n- Seguimento → **hCG semanal até 3 negativos seguidos**, depois mensal; **contracepção** durante o seguimento (ACO é permitido)\n\nNeoplasia trofoblástica gestacional (pós-molar):\n- hCG em **platô** (4 dosagens em 3 semanas) ou em **elevação** (3 dosagens em 2 semanas) ou ainda positivo após 6 meses\n- Tratamento → **quimioterapia (metotrexato** no baixo risco); altíssima taxa de cura\n- Metástase mais comum → pulmão\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: formas de abortamento pelo colo, mola completa × parcial e seguimento com hCG.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "Abortamento (formas)",
+      "Critério",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "Ameaça",
+       "Sangramento leve, colo fechado, embrião vivo",
+       "Expectante, analgesia, repouso relativo"
+      ],
+      [
+       "Inevitável",
+       "Colo aberto, sangramento e cólica intensos",
+       "Esvaziamento uterino"
+      ],
+      [
+       "Incompleto",
+       "Colo aberto, restos ovulares (endométrio > 15 mm)",
+       "AMIU (≤ 12 sem) ou curetagem; misoprostol"
+      ],
+      [
+       "Completo",
+       "Colo fechado, útero vazio após expulsão",
+       "Expectante (confirmar queda do hCG)"
+      ],
+      [
+       "Retido",
+       "Colo fechado, embrião sem BCF / saco vazio",
+       "Misoprostol ou esvaziamento"
+      ],
+      [
+       "Infectado",
+       "Febre, dor, secreção fétida (manipulação)",
+       "Antibiótico (clindamicina + gentamicina) + esvaziamento"
+      ]
+     ]
+    }
+   ],
+   "fonte": "Ministério da Saúde — Atenção humanizada ao abortamento (2011) / FEBRASGO — Protocolos: Abortamento (2021) e Doença trofoblástica gestacional (2021) / FIGO Cancer Report (2021)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Pediatria",
+   "tema": "Pneumologia pediátrica",
+   "sub": "Bronquiolite viral aguda",
+   "id": "bq-ped-025",
+   "tipo": "quiz",
+   "frente": "Lactente de 4 meses com coriza há 3 dias, evoluindo com taquipneia, sibilos e crepitações difusos, SatO₂ 91%. Qual a conduta adequada?",
+   "opcoes": [
+    "Salbutamol inalatório de horário e corticoide oral",
+    "Amoxicilina oral",
+    "Fisioterapia respiratória diária",
+    "Oxigenoterapia, hidratação e aspiração de vias aéreas, sem broncodilatador ou corticoide de rotina"
+   ],
+   "certa": 3,
+   "comentarios": [
+    "Sem benefício comprovado.",
+    "Etiologia viral.",
+    "Não recomendada de rotina.",
+    "Correta. Bronquiolite: suporte; O₂ se SatO₂ < 90–92%."
+   ],
+   "macete": "\"Bronquiolite: oxigênio, água e paciência\".",
+   "prio": "alta",
+   "banco": true,
+   "contexto": "**Bronquiolite viral aguda = infecção viral das pequenas vias aéreas (bronquíolos) em lactentes, com obstrução por edema, muco e células descamadas.**\n\nEtiologia e epidemiologia:\n- **Vírus sincicial respiratório (VSR)** → principal agente; também rinovírus, metapneumovírus\n- **< 2 anos**, pico em < 6 meses; outono-inverno\n- **1º episódio de sibilância** do lactente\n\nClínica:\n- Pródromo de coriza e febre baixa → em 2–3 dias: taquipneia, tiragem, **sibilos e crepitações difusos**\n- Apneia em < 2 meses e prematuros\n- Pico no 3º–5º dia; tosse pode durar semanas\n\nDiagnóstico:\n- **Clínico**; RX e exames só se dúvida ou gravidade\n\nInternação:\n- SatO₂ < 90–92%, desconforto importante, apneia, recusa alimentar/desidratação, idade < 3 meses ou prematuro, cardiopatia, doença pulmonar crônica\n\nTratamento (suporte):\n- **O₂ se SatO₂ < 90–92%**, hidratação, aspiração nasal, cabeceira elevada\n- Cânula nasal de alto fluxo / CPAP se falência\n- **NÃO usar de rotina** → broncodilatador, corticoide, antibiótico, fisioterapia respiratória\n- Salina hipertônica 3% → só em internados (benefício discutível)\n\nPrevenção:\n- Higiene das mãos, aleitamento materno, evitar tabagismo passivo\n- **Anticorpo monoclonal anti-VSR** (palivizumabe; nirsevimabe) para prematuros e cardiopatas/pneumopatas de risco\n- Vacina VSR na gestante (protege o lactente nos primeiros meses)\n\nPegadas:\n- Sibilância recorrente depois da bronquiolite é comum (não é asma automaticamente)\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: agente (VSR), tratamento de suporte e o que NÃO usar.",
+   "ctxvisual": [
+    {
+     "tipo": "vs",
+     "a": {
+      "t": "Fazer",
+      "itens": [
+       "O₂ se SatO₂ < 90–92%",
+       "Hidratação",
+       "Aspiração nasal",
+       "Alto fluxo/CPAP se grave"
+      ]
+     },
+     "b": {
+      "t": "Não fazer de rotina",
+      "itens": [
+       "Broncodilatador",
+       "Corticoide",
+       "Antibiótico",
+       "Fisioterapia respiratória"
+      ]
+     }
+    }
+   ],
+   "fonte": "SBP — Diretrizes para o manejo da infecção causada pelo VSR (2017/2024) / AAP Clinical Practice Guideline: Bronchiolitis (2014) / NICE NG9 (2021)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Pediatria",
+   "tema": "Gastroenterologia pediátrica",
+   "sub": "Diarreia aguda e desidratação — planos A, B e C",
+   "id": "bq-ped-026",
+   "tipo": "quiz",
+   "frente": "Criança de 2 anos com diarreia, irritada, olhos fundos, bebe água com avidez e sinal da prega desaparecendo lentamente. Qual o plano de hidratação?",
+   "opcoes": [
+    "Plano A: hidratação em casa",
+    "Plano B: TRO na unidade de saúde (50–100 mL/kg em 4–6 h)",
+    "Plano C: hidratação venosa",
+    "Jejum de 6 horas e soro oral depois"
+   ],
+   "certa": 1,
+   "comentarios": [
+    "A é sem desidratação.",
+    "Correta. ≥ 2 sinais de desidratação sem sinais de gravidade = plano B.",
+    "C: letárgico, não bebe, prega muito lenta.",
+    "Não se faz jejum."
+   ],
+   "macete": "\"Sede intensa = Plano B\".",
+   "prio": "alta",
+   "banco": true,
+   "contexto": "**Diarreia aguda = ≥ 3 evacuações líquidas/amolecidas em 24 h, por até 14 dias; o risco principal é a desidratação.**\n\nEtiologia:\n- **Rotavírus** (mais comum em lactentes, reduzido pela vacina), norovírus\n- Bactérias → *E. coli*, *Shigella*, *Salmonella*, *Campylobacter*\n- Disenteria (sangue nas fezes) → *Shigella* é a principal\n\nClassificação:\n- **Aguda aquosa** → a maioria\n- **Disenteria** → com sangue\n- **Persistente** → ≥ 14 dias\n\nAvaliação da hidratação:\n- Estado geral, olhos, lágrimas, sede, sinal da prega, pulso, enchimento capilar → define o **plano A, B ou C** (tabela do contexto)\n\nTratamento:\n- **Terapia de reidratação oral (SRO)** é a base (Planos A e B)\n- **Zinco por 10–14 dias** → 10 mg/dia em < 6 meses e 20 mg/dia em ≥ 6 meses (reduz duração e recorrência)\n- **Manter a alimentação** e o aleitamento (não fazer jejum nem diluir o leite)\n- Plano C → reidratação EV; iniciar SRO assim que conseguir beber\n- Falha da TRO no plano B (vômitos persistentes, perda de peso) → gastróclise (sonda) ou EV\n\nAntibiótico:\n- Só na **disenteria com comprometimento do estado geral**, cólera grave ou imunodeprimidos\n- MS → ciprofloxacino (azitromicina e ceftriaxona como alternativas)\n\nNão usar:\n- Antidiarreicos e antiespasmódicos (loperamida contraindicada em crianças)\n\nPrevenção:\n- Vacina rotavírus (2 e 4 meses), aleitamento, saneamento, higiene\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: classificar e escolher o plano, zinco e quando dar antibiótico.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "Planos MS (desidratação)",
+      "Critério",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "Plano A",
+       "Sem desidratação: alerta, olhos normais, bebe normal, prega volta rápido",
+       "Casa: mais líquidos + SRO após cada evacuação + zinco + sinais de alerta"
+      ],
+      [
+       "Plano B",
+       "Desidratação (≥ 2 sinais): irritado, olhos fundos, sede intensa, prega volta lentamente",
+       "TRO na unidade: SRO 50–100 mL/kg em 4–6 h; reavaliar"
+      ],
+      [
+       "Plano C",
+       "Desidratação grave (≥ 2 sinais): letárgico, bebe mal ou não bebe, prega muito lenta, pulso fraco",
+       "EV: < 5 anos SF 0,9% 20 mL/kg em 30 min (repetir até hidratar) · ≥ 5 anos SF 30 mL/kg em 30 min + RL 70 mL/kg em 2 h 30"
+      ]
+     ]
+    }
+   ],
+   "fonte": "Ministério da Saúde — Manejo do paciente com diarreia (cartaz, 2023) / OMS — The treatment of diarrhoea (2005) / SBP — Diarreia aguda (2017)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Pediatria",
+   "tema": "Neonatologia",
+   "sub": "Sepse neonatal",
+   "id": "bq-ped-027",
+   "tipo": "quiz",
+   "frente": "RN de 12 horas de vida, mãe com bolsa rota há 26 horas e febre intraparto, apresenta hipotermia e desconforto respiratório. Qual o esquema empírico?",
+   "opcoes": [
+    "Vancomicina + cefepime",
+    "Ampicilina + gentamicina",
+    "Ceftriaxona isolada",
+    "Oxacilina isolada"
+   ],
+   "certa": 1,
+   "comentarios": [
+    "Esquema de sepse tardia hospitalar.",
+    "Correta. Sepse precoce (GBS, E. coli, Listeria) → ampicilina + aminoglicosídeo.",
+    "Ceftriaxona é evitada no RN e não cobre Listeria.",
+    "Não cobre gram-negativos."
+   ],
+   "macete": "\"Sepse precoce: Ampi + Genta\".",
+   "prio": "alta",
+   "banco": true,
+   "contexto": "**Sepse neonatal = infecção sistêmica no RN, dividida pelo momento de início: precoce (materna, ≤ 48–72 h) e tardia (hospitalar/comunitária, > 48–72 h).**\n\nSepse precoce (≤ 48–72 h):\n- Transmissão vertical (canal de parto, líquido infectado)\n- Agentes → **estreptococo do grupo B (GBS)** e **E. coli**; Listeria\n- Fatores de risco → **bolsa rota > 18 h**, corioamnionite/febre materna, colonização por GBS sem profilaxia adequada, prematuridade, ITU materna\n\nSepse tardia (> 48–72 h):\n- Ambiente hospitalar (UTI, cateteres, ventilação)\n- Agentes → **estafilococo coagulase-negativo** (mais comum), *S. aureus*, gram-negativos, Candida\n\nClínica (inespecífica):\n- Instabilidade térmica (hipotermia é comum), apneia, desconforto respiratório, má perfusão, letargia, recusa alimentar, distensão abdominal, hipo/hiperglicemia, icterícia\n\nDiagnóstico:\n- **Hemocultura** → padrão-ouro (antes do antibiótico)\n- Hemograma (relação imaturos/totais ≥ 0,2), PCR seriada (bom valor preditivo negativo)\n- Líquor → em suspeita clínica forte, hemocultura positiva ou sinais neurológicos\n\nTratamento empírico:\n- **Precoce → ampicilina + gentamicina**\n- **Tardia → oxacilina (ou vancomicina, se MRSA/coagulase-negativo) + aminoglicosídeo** ou cefalosporina conforme a CCIH\n- Meningite → ampicilina + cefotaxima (ceftriaxona evitada no RN: desloca bilirrubina, precipita com cálcio)\n\nPrevenção:\n- **Rastreio de GBS (swab vaginal e retal) com 35–37 semanas** e profilaxia intraparto com penicilina/ampicilina\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: precoce × tardia (agentes) e esquema empírico.",
+   "ctxvisual": [
+    {
+     "tipo": "vs",
+     "a": {
+      "t": "Precoce (≤ 48–72 h)",
+      "itens": [
+       "Vertical (materna)",
+       "GBS e E. coli",
+       "Bolsa rota > 18 h, corioamnionite",
+       "Ampicilina + gentamicina"
+      ]
+     },
+     "b": {
+      "t": "Tardia (> 48–72 h)",
+      "itens": [
+       "Hospitalar",
+       "Estafilo coagulase-negativo",
+       "Cateter, UTI, prematuro",
+       "Oxacilina/vancomicina + aminoglicosídeo"
+      ]
+     }
+    }
+   ],
+   "fonte": "Ministério da Saúde — Atenção à Saúde do Recém-Nascido vol. 2 (2014) / SBP — Diagnóstico e tratamento da sepse neonatal / AAP — Management of Neonates ≥ 35 wk with suspected early-onset sepsis (2018)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Pediatria",
+   "tema": "Infectologia pediátrica",
+   "sub": "Meningites — bacteriana, viral e tuberculosa",
+   "tipo": "quiz",
+   "frente": "Sobre a meningite bacteriana na criança, analise: I. O líquor mostra pleocitose com predomínio de neutrófilos, glicose baixa e proteína elevada. II. A ceftriaxona é o antibiótico empírico de escolha após o período neonatal. III. A quimioprofilaxia dos contactantes íntimos é indicada para meningite pneumocócica. Está(ão) correta(s):",
+   "opcoes": [
+    "Apenas I e III.",
+    "Apenas II e III.",
+    "I, II e III.",
+    "Apenas I e II."
+   ],
+   "certa": 3,
+   "comentarios": [
+    "Errada. III é falsa: quimioprofilaxia (rifampicina) é para meningococo e Hib, não para pneumococo.",
+    "Errada. III é falsa: quimioprofilaxia (rifampicina) é para meningococo e Hib, não para pneumococo.",
+    "Errada. III é falsa: quimioprofilaxia (rifampicina) é para meningococo e Hib, não para pneumococo.",
+    "Correta. III é falsa: quimioprofilaxia (rifampicina) é para meningococo e Hib, não para pneumococo."
+   ],
+   "id": "bq-ped-028",
+   "prio": "alta",
+   "macete": "\"Profilaxia de contato: Meningococo e Hib\".",
+   "banco": true,
+   "contexto": "**Meningite = inflamação das meninges, com bactérias (emergência médica), vírus (mais comum, benigna) ou TB/fungos (subaguda).**\n\nClínica:\n- **Febre, cefaleia, rigidez de nuca, vômitos, alteração da consciência**\n- Sinais meníngeos → **Kernig** e **Brudzinski**\n- Lactente → irritabilidade, abaulamento de fontanela, recusa alimentar (rigidez de nuca muitas vezes ausente)\n- **Petéquias/púrpura** → meningococo (meningococcemia)\n\nAgentes por idade:\n- **RN (< 1 mês)** → GBS, E. coli, Listeria\n- **Criança e adulto** → **pneumococo** (mais comum), **meningococo**, Hib (raro após vacina)\n- **> 50 anos, imunossuprimido, gestante** → acrescentar Listeria\n\nDiagnóstico:\n- **Punção lombar** (tabela do líquor no contexto) + hemocultura\n- **TC antes da punção** se → déficit focal, papiledema, convulsão recente, rebaixamento importante, imunossupressão\n- Nunca atrasar o antibiótico pela TC\n\nTratamento empírico:\n- **RN** → ampicilina + cefotaxima (ou gentamicina)\n- **Criança/adulto** → **ceftriaxona** (± vancomicina se pneumococo resistente)\n- **> 50 anos** → ceftriaxona + **ampicilina** (Listeria)\n- **Dexametasona** antes ou junto com a 1ª dose do antibiótico (reduz surdez/sequelas; benefício maior no pneumococo e Hib)\n\nSaúde pública:\n- **Notificação compulsória imediata** (meningites e doença meningocócica)\n- **Quimioprofilaxia dos contatos íntimos** (meningococo e Hib) → **rifampicina** (alternativas: ceftriaxona, ciprofloxacino)\n- Isolamento respiratório por gotículas nas primeiras 24 h de antibiótico (meningococo)\n\nComplicações:\n- Surdez neurossensorial (a mais comum), hidrocefalia, convulsões, abscesso, SIADH, Waterhouse-Friderichsen (meningococo)\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: líquor bacteriana × viral × TB, antibiótico por idade, dexametasona e quimioprofilaxia.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "cab": [
+      "Líquor",
+      "Células",
+      "Glicose",
+      "Proteína"
+     ],
+     "linhas": [
+      [
+       "Normal",
+       "< 5 (linfócitos)",
+       "≈ 2/3 da sérica",
+       "< 40"
+      ],
+      [
+       "Bacteriana",
+       "!Centenas a milhares · neutrófilos",
+       "!Muito baixa",
+       "!Alta"
+      ],
+      [
+       "Viral",
+       "Dezenas a centenas · linfócitos",
+       "Normal",
+       "Normal ou pouco alta"
+      ],
+      [
+       "Tuberculosa",
+       "Linfócitos",
+       "!Baixa",
+       "!Muito alta · ADA alta"
+      ],
+      [
+       "Fúngica (criptococo)",
+       "Linfócitos",
+       "Baixa",
+       "Alta · tinta da China"
+      ]
+     ]
+    }
+   ],
+   "fonte": "Ministério da Saúde — Guia de Vigilância em Saúde 6ª ed. (2024) / IDSA Bacterial Meningitis Guideline / ESCMID (2016) / SBP — Meningites bacterianas",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Pediatria",
+   "tema": "Pneumologia pediátrica",
+   "sub": "Laringotraqueíte viral (crupe) e epiglotite",
+   "id": "bq-ped-029",
+   "tipo": "quiz",
+   "frente": "Criança de 2 anos com coriza há 2 dias, evoluindo à noite com tosse ladrante, rouquidão e estridor inspiratório apenas ao chorar. Qual o tratamento?",
+   "opcoes": [
+    "Dexametasona em dose única",
+    "Adrenalina nebulizada e internação",
+    "Amoxicilina",
+    "Intubação orotraqueal"
+   ],
+   "certa": 0,
+   "comentarios": [
+    "Correta. Crupe leve: dexametasona VO/IM dose única; adrenalina só se estridor em repouso.",
+    "Adrenalina para moderado/grave (estridor em repouso).",
+    "Etiologia viral (parainfluenza).",
+    "Quadro leve."
+   ],
+   "macete": "\"Crupe: dexa para todos\".",
+   "prio": "alta",
+   "banco": true,
+   "contexto": "**Crupe (laringotraqueobronquite viral) = inflamação da laringe e região subglótica que estreita a via aérea superior; epiglotite = infecção bacteriana grave da epiglote.**\n\nCrupe viral:\n- **Parainfluenza** (principal); 6 meses a 3 anos\n- Pródromo de coriza → **tosse ladrante (\"de cachorro\")**, **rouquidão** e **estridor inspiratório**, pior à noite\n- Diagnóstico clínico; RX (se feito) → **sinal da torre/ponta de lápis** (estreitamento subglótico)\n- Gravidade → estridor em repouso, tiragem, agitação/letargia, cianose\n\nTratamento do crupe:\n- **Dexametasona dose única (0,15–0,6 mg/kg VO/IM) para TODOS**, inclusive leves\n- **Nebulização com adrenalina** → estridor em repouso / moderado a grave; **observar 2–4 h** (efeito rebote)\n- O₂ se hipoxemia; manter a criança calma no colo\n- Antibiótico não\n\nEpiglotite:\n- *Haemophilus influenzae* tipo b (rara após a vacina); hoje também estreptococo, estafilococo\n- 2–7 anos; **início súbito, febre alta, toxemia**\n- **4 Ds** → disfagia, disfonia (\"voz abafada\"), drooling (sialorreia), desconforto respiratório\n- **Posição do tripé**, sem tosse ladrante\n- RX lateral → **sinal do polegar**\n- Conduta → **não examinar a orofaringe nem deitar a criança**; via aérea definitiva em centro cirúrgico com equipe pronta para traqueostomia; **ceftriaxona**\n\nDiferenciais:\n- Traqueíte bacteriana (crupe que piora com febre alta e toxemia), corpo estranho, abscesso retrofaríngeo\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: crupe × epiglotite e dexametasona para todos.",
+   "ctxvisual": [
+    {
+     "tipo": "vs",
+     "a": {
+      "t": "Crupe viral",
+      "itens": [
+       "Parainfluenza",
+       "6 m–3 anos, início gradual",
+       "Tosse ladrante, rouquidão",
+       "Sinal da torre",
+       "Dexametasona ± adrenalina"
+      ]
+     },
+     "b": {
+      "t": "Epiglotite",
+      "itens": [
+       "H. influenzae b",
+       "Súbita, febre alta, toxemia",
+       "Sialorreia, tripé, voz abafada",
+       "Sinal do polegar",
+       "Via aérea no centro cirúrgico + ceftriaxona"
+      ]
+     }
+    }
+   ],
+   "fonte": "SBP — Tratado de Pediatria 5ª ed. (2022) / Nelson Textbook of Pediatrics 22ª ed. / Cochrane — Glucocorticoids for croup (2023)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Pediatria",
+   "tema": "Nefrologia pediátrica",
+   "sub": "Síndrome nefrítica — glomerulonefrite pós-estreptocócica",
+   "id": "bq-ped-030",
+   "tipo": "quiz",
+   "frente": "Escolar com edema palpebral, urina escura e PA elevada, 2 semanas após faringite. C3 baixo. Qual o tratamento?",
+   "opcoes": [
+    "Prednisona em dose alta",
+    "Ciclofosfamida",
+    "Restrição de sal e água e furosemida",
+    "Biópsia renal imediata"
+   ],
+   "certa": 2,
+   "comentarios": [
+    "Corticoide não é indicado na GNPE típica.",
+    "Sem indicação.",
+    "Correta. GNPE: suporte (sal, água, diurético de alça, anti-hipertensivo se necessário).",
+    "Biópsia só se atípica (C3 baixo > 8 semanas, piora renal)."
+   ],
+   "macete": "\"Nefrítica: tira sal, tira água, dá furosemida\".",
+   "prio": "alta",
+   "banco": true,
+   "contexto": "**Síndrome nefrítica = inflamação glomerular que causa hematúria, edema, hipertensão e oligúria; a causa clássica na infância é a glomerulonefrite pós-estreptocócica (GNPE).**\n\nSíndrome nefrítica:\n- **Hematúria** (urina \"cor de coca-cola\", dismorfismo eritrocitário, cilindros hemáticos)\n- **Edema** (periorbitário, matinal), **hipertensão**, **oligúria**\n- Proteinúria em geral < nefrótica\n\nGNPE:\n- **Estreptococo beta-hemolítico do grupo A** (cepas nefritogênicas)\n- **Latência** → **1–3 semanas após faringite** e **3–6 semanas após impetigo**\n- Idade escolar (5–12 anos)\n- Mecanismo → imunocomplexos depositados no glomérulo; **ativação do complemento pela via alternativa**\n\nExames:\n- **C3 baixo** (normaliza em **até 8 semanas**)\n- ASLO alta (faringite) ou anti-DNase B (pele)\n- Urina → hematúria dismórfica e cilindros hemáticos\n- Biópsia → **não é necessária no caso típico**; histologia: proliferação difusa com \"corcovas\" (humps) subepiteliais\n\nIndicações de biópsia (atípico):\n- C3 baixo por > 8 semanas\n- Função renal em piora rápida / oligúria prolongada\n- Proteinúria nefrótica\n- Hematúria macroscópica persistente\n\nTratamento (suporte):\n- **Restrição de sal e água**, **diurético de alça (furosemida)**, anti-hipertensivo se necessário\n- Antibiótico (penicilina) → para erradicar o estreptococo e reduzir a transmissão; **não muda o curso da GN**\n- Complicações → encefalopatia hipertensiva, congestão/edema agudo de pulmão, hipercalemia\n\nPrognóstico:\n- Excelente na criança; hematúria microscópica pode durar até 1–2 anos\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: latência, C3 baixo transitório e quando biopsiar.",
+   "ctxvisual": [
+    {
+     "tipo": "fluxo",
+     "passos": [
+      "Faringite (1–3 sem) ou impetigo (3–6 sem) por estreptococo A",
+      "Imunocomplexos no glomérulo → consumo de C3",
+      "Hematúria + edema + HAS + oligúria",
+      "Suporte: sal/água, furosemida",
+      "C3 normaliza em até 8 semanas"
+     ]
+    }
+   ],
+   "fonte": "SBP — Tratado de Pediatria 5ª ed. (2022) / Nelson Textbook of Pediatrics 22ª ed. / KDIGO Glomerular Diseases (2021)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Medicina Preventiva",
+   "tema": "SUS",
+   "sub": "História das políticas de saúde no Brasil",
+   "id": "bq-prev-025",
+   "tipo": "quiz",
+   "frente": "Qual evento é considerado o marco da Reforma Sanitária brasileira, cujo relatório final embasou o capítulo da saúde na Constituição de 1988?",
+   "opcoes": [
+    "Lei Eloy Chaves (1923)",
+    "Criação do INAMPS (1977)",
+    "VIII Conferência Nacional de Saúde (1986)",
+    "Lei 8.080 (1990)"
+   ],
+   "certa": 2,
+   "comentarios": [
+    "Marco da previdência social (CAPs).",
+    "INAMPS era assistência só para contribuintes.",
+    "Correta. A VIII CNS consolidou a saúde como direito e o SUS como proposta.",
+    "Regulamentou o SUS depois da Constituição."
+   ],
+   "macete": "\"86 sonhou, 88 escreveu, 90 regulamentou\".",
+   "prio": "alta",
+   "banco": true,
+   "contexto": "**A história da saúde pública no Brasil vai do sanitarismo campanhista e da assistência ligada à previdência (só para quem tinha carteira) até o SUS universal da Constituição de 1988.**\n\nRepública Velha:\n- **Sanitarismo campanhista** (Oswaldo Cruz) → campanhas contra febre amarela, peste, varíola; vacinação obrigatória → **Revolta da Vacina (1904)**\n- **Lei Eloy Chaves (1923)** → **Caixas de Aposentadorias e Pensões (CAPs)** por empresa → marco da previdência social\n\nEra Vargas:\n- **IAPs (Institutos de Aposentadorias e Pensões)** por categoria profissional (anos 1930)\n- Criação do Ministério da Educação e Saúde (1930); Ministério da Saúde separado em 1953\n\nDitadura militar:\n- **INPS (1966)** → unifica os IAPs; modelo **médico-assistencial privatista** (compra de serviços privados)\n- **INAMPS (1977)** dentro do SINPAS → assistência médica só para contribuintes\n- **PIASS (1976)** → interiorização das ações de saúde\n\nCrise e Reforma Sanitária:\n- **CONASP (1982) / Ações Integradas de Saúde – AIS (1983)**\n- **VIII Conferência Nacional de Saúde (1986)** → **marco da Reforma Sanitária**, base do SUS (saúde como direito)\n- **SUDS (1987)** → transição, descentralização\n\nSUS:\n- **Constituição de 1988 (arts. 196–200)** → \"saúde é direito de todos e dever do Estado\"\n- **Lei 8.080/1990** (organização, princípios) e **Lei 8.142/1990** (participação social: conferências e conselhos; transferências)\n- **INAMPS extinto em 1993**\n- PACS (1991) e **PSF (1994)** → hoje Estratégia Saúde da Família\n- NOBs (91, 93, **96** → PAB) e NOAS (2001/2002) → regionalização\n- **Pacto pela Saúde (2006)** → Pactos pela Vida, em Defesa do SUS e de Gestão\n- **Decreto 7.508/2011** → Regiões de Saúde, portas de entrada, COAP, RENASES e RENAME\n- Financiamento → EC 29/2000, LC 141/2012, EC 95/2016 (teto de gastos)\n\nO que mais cai no Vila Verde:\n- Ainda não caiu nas 3 provas do Vila Verde, mas é tema clássico de acesso direto: ordem dos marcos (Eloy Chaves → IAPs → INPS → INAMPS → VIII CNS → CF/88 → leis de 1990).",
+   "ctxvisual": [
+    {
+     "tipo": "fluxo",
+     "passos": [
+      "1923: Lei Eloy Chaves (CAPs)",
+      "1930s: IAPs",
+      "1966: INPS",
+      "1977: INAMPS",
+      "1986: VIII Conferência Nacional de Saúde",
+      "1988: Constituição — SUS",
+      "1990: Leis 8.080 e 8.142"
+     ]
+    }
+   ],
+   "fonte": "Paim JS et al. — O sistema de saúde brasileiro: história, avanços e desafios (Lancet, 2011) / Constituição Federal 1988 / Leis 8.080 e 8.142 (1990) / Decreto 7.508 (2011)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Medicina Preventiva",
+   "tema": "Epidemiologia",
+   "sub": "Conceitos de epidemiologia — cadeia epidemiológica, surto, epidemia e endemia",
+   "id": "bq-prev-026",
+   "tipo": "quiz",
+   "frente": "A capacidade de um agente infeccioso de produzir casos graves ou fatais é denominada:",
+   "opcoes": [
+    "Virulência",
+    "Infectividade",
+    "Patogenicidade",
+    "Imunogenicidade"
+   ],
+   "certa": 0,
+   "comentarios": [
+    "Correta. Virulência = gravidade (casos graves/óbitos entre os doentes).",
+    "Infectividade = capacidade de infectar (penetrar e multiplicar).",
+    "Patogenicidade = capacidade de causar doença entre os infectados.",
+    "Imunogenicidade = capacidade de induzir imunidade."
+   ],
+   "macete": "\"Infecta → adoece (patogenicidade) → mata (virulência)\".",
+   "prio": "alta",
+   "banco": true,
+   "contexto": "**Conceitos de epidemiologia de campo = cadeia de transmissão, propriedades do agente e a forma como a doença se distribui (endemia, epidemia, surto, pandemia).**\n\nCadeia epidemiológica:\n- Agente → reservatório → porta de saída → modo de transmissão → porta de entrada → hospedeiro suscetível\n\nPropriedades do agente:\n- **Infectividade** → capacidade de penetrar, se desenvolver e/ou se multiplicar no hospedeiro\n- **Patogenicidade** → capacidade de produzir doença (sinais e sintomas) nos infectados\n- **Virulência** → capacidade de produzir casos GRAVES ou FATAIS (medida pela letalidade)\n- **Imunogenicidade** → capacidade de induzir imunidade\n- Poder invasivo → capacidade de se espalhar pelos tecidos\n\nDistribuição das doenças:\n- **Endemia** → presença CONTÍNUA/habitual de uma doença ou agente em uma área, dentro do esperado\n- **Epidemia** → aumento ACIMA do esperado de casos em uma área e período (acima do limite superior do diagrama de controle)\n- **Surto** → epidemia localizada, em área restrita ou grupo específico (escola, creche, fonte comum)\n- **Pandemia** → epidemia que atinge vários países/continentes\n- Hiperendemia → endemia em nível alto e persistente\n- Diagrama de controle (canal endêmico) → média ± ~2 desvios-padrão dos anos anteriores\n\nTipos de epidemia:\n- **Fonte comum** → todos expostos à mesma fonte (água, alimento); pontual ou persistente; curva com pico rápido\n- **Propagada** → transmissão pessoa a pessoa; ondas sucessivas\n\nOutros termos:\n- Período de incubação → da exposição até os sintomas\n- Período de transmissibilidade → quando o infectado pode transmitir\n- Caso índice → o primeiro identificado\n\nO que mais cai no Vila Verde:\n- VV 2025 → virulência = capacidade de produzir casos graves ou fatais; 45 casos de diarreia após água de mesma fonte em 3 dias = SURTO.\n- VV 2024 → conceito de endemia (presença contínua em uma área) apareceu 2 vezes.\n- Distratores trocam virulência por infectividade (penetrar e multiplicar) e por patogenicidade (produzir sintomas).",
+   "ctxvisual": [
+    {
+     "tipo": "svg",
+     "svg": "<svg viewBox=\"0 0 340 192\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><line x1=\"20\" y1=\"170\" x2=\"330\" y2=\"170\" stroke=\"var(--ink)\"/><line x1=\"20\" y1=\"20\" x2=\"20\" y2=\"170\" stroke=\"var(--ink)\"/><path d=\"M20 130 L330 130\" stroke=\"var(--rose)\" stroke-dasharray=\"5 4\"/><text x=\"326\" y=\"124\" text-anchor=\"end\" font-size=\"9\" fill=\"var(--mute)\">limite superior esperado</text><path d=\"M20 150 Q 60 140 90 148 T 160 146 Q 190 140 205 90 Q 220 40 240 90 Q 255 140 290 148 L 330 146\" fill=\"none\" stroke=\"var(--wine)\" stroke-width=\"2.2\"/><text x=\"60\" y=\"162\" font-size=\"9.5\" fill=\"var(--ink)\">Endemia</text><text x=\"222\" y=\"36\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"600\" fill=\"var(--bad)\">Epidemia</text><text x=\"175\" y=\"186\" text-anchor=\"middle\" font-size=\"9\" fill=\"var(--mute)\">tempo (semanas epidemiológicas)</text></svg>",
+     "legenda": "Endemia (nível esperado) × epidemia (acima do esperado)"
+    },
+    {
+     "tipo": "tabela",
+     "cab": [
+      "Propriedade",
+      "É a capacidade de..."
+     ],
+     "linhas": [
+      [
+       "Infectividade",
+       "Penetrar, se desenvolver e multiplicar no hospedeiro"
+      ],
+      [
+       "Patogenicidade",
+       "Produzir doença (sintomas)"
+      ],
+      [
+       "!Virulência",
+       "Produzir casos graves ou fatais"
+      ],
+      [
+       "Imunogenicidade",
+       "Induzir imunidade"
+      ]
+     ]
+    }
+   ],
+   "fonte": "Rouquayrol — Epidemiologia & Saúde, 8ª ed. / MS — Guia de Vigilância em Saúde, 6ª ed. (2023) / OPAS — Módulos de Princípios de Epidemiologia para o Controle de Enfermidades (MOPECE)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Medicina Preventiva",
+   "tema": "Epidemiologia",
+   "sub": "Testes diagnósticos — sensibilidade, especificidade, valores preditivos e probabilidade pré-teste",
+   "tipo": "quiz",
+   "frente": "Sobre a escolha de testes diagnósticos, analise: I. Um teste muito sensível, quando negativo, ajuda a afastar a doença. II. Para confirmar uma doença grave cujo tratamento é agressivo, prefere-se um teste muito específico. III. A especificidade é a proporção de doentes com teste positivo. Está(ão) correta(s):",
+   "opcoes": [
+    "Apenas I e III.",
+    "Apenas II e III.",
+    "I, II e III.",
+    "Apenas I e II."
+   ],
+   "certa": 3,
+   "comentarios": [
+    "Errada. III é falsa: especificidade = proporção de NÃO doentes com teste negativo; doentes com teste positivo = sensibilidade.",
+    "Errada. III é falsa: especificidade = proporção de NÃO doentes com teste negativo; doentes com teste positivo = sensibilidade.",
+    "Errada. III é falsa: especificidade = proporção de NÃO doentes com teste negativo; doentes com teste positivo = sensibilidade.",
+    "Correta. III é falsa: especificidade = proporção de NÃO doentes com teste negativo; doentes com teste positivo = sensibilidade."
+   ],
+   "id": "bq-prev-027",
+   "prio": "alta",
+   "macete": "\"SnNout: Sensível negativo exclui; SpPin: Específico positivo confirma\".",
+   "banco": true,
+   "contexto": "**Testes diagnósticos = avaliam o quanto um exame acerta quem tem e quem não tem a doença; a probabilidade pré-teste decide o quanto o resultado muda a conduta.**\n\nTabela 2 × 2 (ver ilustração):\n- **Sensibilidade** → a / (a + c) → positivo entre os doentes\n- **Especificidade** → d / (b + d) → negativo entre os sadios\n- **VPP** → a / (a + b) → doente entre os positivos\n- **VPN** → d / (c + d) → sadio entre os negativos\n- Acurácia → (a + d) / total\n\nO que muda com a prevalência:\n- S e E → propriedades do teste, NÃO mudam com a prevalência\n- Prevalência ↑ → VPP ↑ e VPN ↓\n- Prevalência ↓ → VPP ↓ e VPN ↑\n\nProbabilidade pré-teste:\n- Chance de o paciente ter a doença ANTES do exame\n- Na população → prevalência; no consultório → estimativa clínica (sintomas, fatores de risco, escores)\n- Baixa → um positivo pode ser falso-positivo; alta → um negativo pode ser falso-negativo\n\nRazão de verossimilhança (RV):\n- RV+ = S / (1 − E); RV− = (1 − S) / E\n- Odds pré = p / (1 − p) → odds pós = odds pré × RV → p pós = odds / (1 + odds)\n- RV+ > 10 ou RV− < 0,1 → mudam muito a probabilidade\n- RV = 1 → teste inútil\n\nUso na prática:\n- Rastreio/afastar doença → teste sensível (SnNout: Sensível, Negativo, exclui)\n- Confirmar → teste específico (SpPin: Específico, Positivo, inclui)\n- Série → ↑ especificidade e VPP\n- Paralelo → ↑ sensibilidade e VPN\n- Curva ROC → melhor ponto de corte; área sob a curva = acurácia global\n\nO que mais cai no Vila Verde:\n- VIV 2026 (Q3) → VPP aumenta com a prevalência\n- VIV 2026 (Q10) → definição de especificidade\n- VV 2025 (Q81) → sensibilidade × especificidade\n- Calcular S, E, VPP e VPN a partir de uma tabela\n- Testes em série × paralelo; rastreio × confirmação",
+   "ctxvisual": {
+    "tipo": "svg",
+    "svg": "<svg viewBox=\"0 0 340 192\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><text x=\"205\" y=\"16\" font-size=\"10.5\" text-anchor=\"middle\" fill=\"var(--wine)\" font-weight=\"700\">Doença</text><text x=\"155\" y=\"32\" font-size=\"9.5\" text-anchor=\"middle\" fill=\"var(--ink)\">Presente</text><text x=\"255\" y=\"32\" font-size=\"9.5\" text-anchor=\"middle\" fill=\"var(--ink)\">Ausente</text><text x=\"48\" y=\"70\" font-size=\"10\" text-anchor=\"middle\" fill=\"var(--ink)\" font-weight=\"700\">Teste +</text><text x=\"48\" y=\"125\" font-size=\"10\" text-anchor=\"middle\" fill=\"var(--ink)\" font-weight=\"700\">Teste −</text><rect x=\"105\" y=\"40\" width=\"100\" height=\"50\" rx=\"8\" fill=\"var(--rose-soft)\" stroke=\"var(--line)\"/><text x=\"155.0\" y=\"62.3\" font-size=\"10\" text-anchor=\"middle\" fill=\"var(--ink)\">a</text><text x=\"155.0\" y=\"74.3\" font-size=\"10\" text-anchor=\"middle\" fill=\"var(--ink)\">verdadeiro +</text><rect x=\"205\" y=\"40\" width=\"100\" height=\"50\" rx=\"8\" fill=\"var(--card)\" stroke=\"var(--line)\"/><text x=\"255.0\" y=\"62.3\" font-size=\"10\" text-anchor=\"middle\" fill=\"var(--ink)\">b</text><text x=\"255.0\" y=\"74.3\" font-size=\"10\" text-anchor=\"middle\" fill=\"var(--ink)\">falso +</text><rect x=\"105\" y=\"95\" width=\"100\" height=\"50\" rx=\"8\" fill=\"var(--card)\" stroke=\"var(--line)\"/><text x=\"155.0\" y=\"117.3\" font-size=\"10\" text-anchor=\"middle\" fill=\"var(--ink)\">c</text><text x=\"155.0\" y=\"129.3\" font-size=\"10\" text-anchor=\"middle\" fill=\"var(--ink)\">falso −</text><rect x=\"205\" y=\"95\" width=\"100\" height=\"50\" rx=\"8\" fill=\"var(--rose-soft)\" stroke=\"var(--line)\"/><text x=\"255.0\" y=\"117.3\" font-size=\"10\" text-anchor=\"middle\" fill=\"var(--ink)\">d</text><text x=\"255.0\" y=\"129.3\" font-size=\"10\" text-anchor=\"middle\" fill=\"var(--ink)\">verdadeiro −</text><text x=\"10\" y=\"165\" font-size=\"10\" text-anchor=\"start\" fill=\"var(--wine)\" font-weight=\"700\">S = a/(a+c)   E = d/(b+d)</text><text x=\"10\" y=\"182\" font-size=\"10\" text-anchor=\"start\" fill=\"var(--wine)\" font-weight=\"700\">VPP = a/(a+b)   VPN = d/(c+d)</text><text x=\"330\" y=\"182\" font-size=\"9\" text-anchor=\"end\" fill=\"var(--mute)\">S/E: colunas</text><text x=\"330\" y=\"165\" font-size=\"9\" text-anchor=\"end\" fill=\"var(--mute)\">VPP/VPN: linhas</text></svg>",
+    "legenda": "Tabela 2 × 2: sensibilidade e especificidade nas colunas; valores preditivos nas linhas"
+   },
+   "fonte": "Medronho — Epidemiologia 2ª ed. (2009) / Fletcher — Epidemiologia Clínica 5ª ed. (2014) / Rouquayrol — Epidemiologia & Saúde 8ª ed. (2018) / Duncan — Medicina Ambulatorial 5ª ed. (2022)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Medicina Preventiva",
+   "tema": "Atenção Primária",
+   "sub": "Dislipidemia e prevenção cardiovascular",
+   "id": "bq-prev-028",
+   "tipo": "quiz",
+   "frente": "Paciente de 55 anos com diabetes tipo 2 e hipertensão, sem doença aterosclerótica estabelecida, com LDL de 160 mg/dL. Qual a conduta medicamentosa?",
+   "opcoes": [
+    "Apenas dieta por 6 meses",
+    "Iniciar estatina",
+    "Fibrato como 1ª escolha",
+    "Ômega-3 isolado"
+   ],
+   "certa": 1,
+   "comentarios": [
+    "Risco alto: estatina desde o início, junto com MEV.",
+    "Correta. DM com fatores de risco = risco alto → estatina com meta de LDL baixa (SBC).",
+    "Fibrato é para triglicerídeos muito altos.",
+    "Não reduz LDL de forma relevante."
+   ],
+   "macete": "\"Diabetes + fator de risco = estatina\".",
+   "prio": "media",
+   "banco": true,
+   "contexto": "**Dislipidemia e prevenção cardiovascular = estratificar o risco do paciente e definir a meta de LDL; quanto maior o risco, mais baixo o LDL alvo.**\n\nCategorias de risco e metas (SBC 2025):\n- **Baixo** → LDL < 115 mg/dL (não-HDL < 145)\n- **Intermediário** → LDL < 100 (não-HDL < 130)\n- **Alto** → LDL < 70 (não-HDL < 100)\n- **Muito alto** → LDL < 50 (não-HDL < 80)\n- **Extremo** → LDL < 40 (não-HDL < 70)\n\nQuem é de alto risco (exemplos):\n- LDL ≥ 190 mg/dL\n- Diabetes em homem ≥ 50 anos ou mulher ≥ 56 anos\n- DRC, aterosclerose subclínica significativa\n- Muito alto/extremo → doença aterosclerótica manifesta (IAM, AVC, doença arterial periférica), eventos recorrentes\n- **Diabetes nunca é baixo risco**\n\nTratamento:\n- Mudança de estilo de vida sempre (dieta, atividade física, perda de peso, parar de fumar)\n- **Estatina** é a 1ª escolha; alta potência (atorvastatina 40–80, rosuvastatina 20–40) quando precisa reduzir ≥ 50%\n- Não atingiu a meta → + ezetimiba → + inibidor de PCSK9\n- Intolerante à estatina → ezetimiba; ácido bempedoico\n- Triglicerídeos > 500 (risco de pancreatite) → fibrato\n\nEfeitos adversos da estatina:\n- Mialgia, elevação de CK/rabdomiólise (raro), elevação de transaminases\n- Contraindicada na gestação\n\nO que mais cai no Vila Verde:\n- VIV 2026 → diabético e hipertenso com LDL 160 (alto risco): estatina de alta potência + mudança de estilo de vida, com meta de LDL baixa.",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "crit": true,
+     "cab": [
+      "Risco CV (SBC 2025)",
+      "Meta LDL",
+      "Conduta"
+     ],
+     "linhas": [
+      [
+       "Baixo",
+       "< 115 mg/dL",
+       "MEV; estatina se não atingir"
+      ],
+      [
+       "Intermediário",
+       "< 100 mg/dL",
+       "MEV + estatina"
+      ],
+      [
+       "Alto",
+       "< 70 mg/dL",
+       "Estatina de alta potência (± ezetimiba)"
+      ],
+      [
+       "Muito alto",
+       "< 50 mg/dL",
+       "Alta potência + ezetimiba; PCSK9 se preciso"
+      ],
+      [
+       "Extremo",
+       "< 40 mg/dL",
+       "Terapia combinada intensiva"
+      ]
+     ]
+    }
+   ],
+   "fonte": "SBC — Diretriz Brasileira de Dislipidemias e Prevenção da Aterosclerose 2025 (Arq Bras Cardiol 2025;122(9)) / ESC/EAS Dyslipidaemia Guidelines (2019, focused update 2025)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Medicina Preventiva",
+   "tema": "Atenção Primária",
+   "sub": "Rastreamento de câncer e níveis de prevenção",
+   "id": "bq-prev-029",
+   "tipo": "quiz",
+   "frente": "Segundo o Ministério da Saúde/INCA, o rastreamento de câncer de mama com mamografia na população de risco habitual é recomendado:",
+   "opcoes": [
+    "A partir dos 40 anos, anualmente",
+    "Dos 50 aos 69 anos, a cada 2 anos",
+    "Dos 25 aos 64 anos, a cada 3 anos",
+    "Somente se houver nódulo palpável"
+   ],
+   "certa": 1,
+   "comentarios": [
+    "Recomendação de sociedades (SBM/FEBRASGO), não do MS.",
+    "Correta. MS/INCA: mamografia bienal de 50 a 69 anos.",
+    "Isso é o rastreio do colo do útero (citologia).",
+    "Isso é diagnóstico, não rastreamento."
+   ],
+   "macete": "\"Mama no SUS: 50 a 69, a cada 2 anos\".",
+   "prio": "alta",
+   "banco": true,
+   "pegadinha": "Atenção: o rastreio do colo pelo DNA-HPV (25–64 anos, a cada 5 anos) está sendo implantado no SUS.",
+   "contexto": "**Rastreamento: exame em pessoa SEM sintomas, só quando o benefício supera o dano; o MS não recomenda rastrear câncer de próstata.**\n\nRastreamento × diagnóstico precoce:\n- Rastreamento → população assintomática\n- Diagnóstico precoce → investigar logo quem tem sinal ou sintoma\n\nRecomendações (ver quadro):\n- **Colo** → citopatológico 25–64 anos; o DNA-HPV está sendo implantado no SUS (a cada 5 anos)\n- **Mama** → mamografia bienal 50–69 anos (INCA); o MS ampliou em 2025 o acesso para 40–49 e 70–74 anos por decisão compartilhada\n- **Próstata** → sem rastreamento populacional; PSA só com decisão compartilhada\n- **Colorretal** → sangue oculto ou colonoscopia a partir de 50 anos (sem programa organizado)\n- Ovário, pâncreas, tireoide → não rastrear\n\nCritérios para um bom rastreamento:\n- Doença importante, com fase pré-clínica detectável\n- Teste aceitável, barato e acurado\n- Tratamento precoce melhora o desfecho\n\nNíveis de prevenção (Leavell e Clark + Jamoulle):\n- **Primária** → antes da doença: promoção da saúde e proteção específica (vacina, preservativo)\n- **Secundária** → diagnóstico precoce e rastreamento\n- **Terciária** → reduzir sequelas e reabilitar\n- **Quaternária** → proteger de intervenções desnecessárias (sobrediagnóstico, medicalização)\n\nVieses do rastreamento:\n- **Tempo de antecipação (lead time)** → parece viver mais só porque o diagnóstico veio antes\n- **Duração (length bias)** → o rastreamento acha mais os tumores lentos, de melhor prognóstico\n- **Sobrediagnóstico** → acha doença que nunca daria sintoma\n\nO que mais cai no Vila Verde:\n- É o tema de Preventiva que MAIS caiu no Vila Verde (10 questões)\n- VIV 2026 (Q2, Q16) → prevenção terciária (reabilitação pós-AVC) e quaternária\n- VIV 2026 (Q4, Q7) → rastreamento colorretal aos 50 anos e LSIL no Papanicolau (INCA)\n- VIV 2026 (Q13) → viés de tempo de antecipação (lead-time)\n- VV 2025 (Q86) e VV 2024 (Q81, Q82, Q83, Q85) → níveis de prevenção, conceito de rastreamento e IMC\n- Próstata → MS não recomenda rastrear",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "cab": [
+      "Câncer",
+      "Quem",
+      "Exame e intervalo"
+     ],
+     "linhas": [
+      [
+       "Colo do útero",
+       "25–64 anos que já tiveram relação sexual",
+       "Citopatológico: 2 anuais negativos → a cada 3 anos (DNA-HPV a cada 5 anos onde implantado)"
+      ],
+      [
+       "Mama",
+       "50–69 anos (diretriz INCA)",
+       "Mamografia a cada 2 anos"
+      ],
+      [
+       "Colorretal",
+       "50–75 anos (sem programa organizado no SUS)",
+       "Sangue oculto anual ou colonoscopia a cada 10 anos"
+      ],
+      [
+       "Próstata",
+       "Não há rastreamento populacional",
+       "Decisão compartilhada se o homem pedir"
+      ],
+      [
+       "Pulmão",
+       "50–80 anos, ≥ 20 maços-ano",
+       "TC de baixa dose anual (não é programa do SUS)"
+      ]
+     ]
+    },
+    {
+     "tipo": "tabela",
+     "cab": [
+      "Wilson e Jungner (OMS, 1968)",
+      "Critério"
+     ],
+     "linhas": [
+      [
+       "1",
+       "A doença é um problema de saúde importante"
+      ],
+      [
+       "2",
+       "Existe tratamento aceito para quem tem a doença"
+      ],
+      [
+       "3",
+       "Há estrutura para diagnóstico e tratamento"
+      ],
+      [
+       "4",
+       "Existe fase latente ou sintomática inicial reconhecível"
+      ],
+      [
+       "5",
+       "Existe teste ou exame adequado"
+      ],
+      [
+       "6",
+       "O teste é aceitável pela população"
+      ],
+      [
+       "7",
+       "A história natural da doença é bem conhecida"
+      ],
+      [
+       "8",
+       "Há consenso sobre quem tratar"
+      ],
+      [
+       "9",
+       "O custo é equilibrado com os gastos em saúde"
+      ],
+      [
+       "10",
+       "A busca de casos é contínua, não um projeto pontual"
+      ]
+     ],
+     "crit": true
+    }
+   ],
+   "fonte": "INCA — Diretrizes para rastreamento do câncer do colo do útero (2016) e de mama (2015); MS — atualizações de 2024–2025; Leavell & Clark; Jamoulle (prevenção quaternária)",
+   "add": "2026-11-04"
+  },
+  {
+   "area": "Medicina Preventiva",
+   "tema": "Saúde do trabalhador",
+   "sub": "Saúde do trabalhador",
+   "id": "bq-prev-030",
+   "tipo": "quiz",
+   "frente": "Trabalhadora de telemarketing com dor e parestesia em punho, piora no fim da jornada e sinal de Phalen positivo. Qual o diagnóstico e a natureza do agravo?",
+   "opcoes": [
+    "Tendinite de De Quervain",
+    "Epicondilite lateral",
+    "Artrite reumatoide",
+    "Síndrome do túnel do carpo — LER/DORT relacionada ao trabalho"
+   ],
+   "certa": 3,
+   "comentarios": [
+    "De Quervain: dor no estiloide radial, Finkelstein positivo.",
+    "Dor no cotovelo.",
+    "Doença sistêmica, poliarticular.",
+    "Correta. Atividade repetitiva → compressão do nervo mediano; agravo relacionado ao trabalho (notificável como LER/DORT)."
+   ],
+   "macete": "\"Phalen e Tinel = mediano no túnel\".",
+   "prio": "media",
+   "banco": true,
+   "contexto": "**Saúde do trabalhador = área da saúde coletiva que estuda a relação trabalho–saúde–doença; no SUS envolve vigilância, assistência integral e notificação dos agravos relacionados ao trabalho.**\n\nPapel do SUS (Lei 8.080 e PNSTT 2012):\n- Vigilância em saúde do trabalhador (ambientes e processos de trabalho)\n- Assistência integral, prevenção, promoção e reabilitação\n- Notificação dos agravos relacionados ao trabalho no SINAN\n- Rede → RENAST e CEREST (Centros de Referência em Saúde do Trabalhador)\n\nO que NÃO é do SUS:\n- Perícia médica, benefícios previdenciários e reabilitação profissional → INSS (Previdência)\n- Normas Regulamentadoras (NR-4 SESMT, NR-7 PCMSO) e fiscalização → Ministério do Trabalho\n- CAT (Comunicação de Acidente de Trabalho) → emitida pela empresa (ou médico/sindicato) para a Previdência\n\nAgravos de notificação compulsória (exemplos):\n- Acidente de trabalho grave/fatal e em crianças/adolescentes\n- Acidente com exposição a material biológico\n- LER/DORT, PAIR (perda auditiva induzida por ruído), pneumoconioses, dermatoses ocupacionais\n- Transtornos mentais relacionados ao trabalho, câncer relacionado ao trabalho, intoxicação exógena\n\nSíndrome de Burnout:\n- Esgotamento por estresse crônico no trabalho; na Lista de Doenças Relacionadas ao Trabalho (MS 2023)\n- Dimensões (Maslach) → exaustão emocional, despersonalização/cinismo, baixa realização profissional\n- **Manifestações psíquicas** → ansiedade, frustração, irritabilidade, desânimo, dificuldade de concentração\n- Manifestações físicas/comportamentais → distúrbios do sono, alterações do apetite, cefaleia\n\nO que mais cai no Vila Verde:\n- VV 2025 → papel do SUS = vigilância, prevenção e assistência integral (perícia e reabilitação profissional são do INSS).\n- VV 2024 → ansiedade e frustração são manifestações psíquicas do Burnout; sono e apetite NÃO foram aceitos como psíquicos (gabarito: apenas I).",
+   "ctxvisual": [
+    {
+     "tipo": "tabela",
+     "cab": [
+      "Órgão",
+      "Responsabilidade"
+     ],
+     "linhas": [
+      [
+       "SUS (CEREST/RENAST)",
+       "!Vigilância, assistência, notificação no SINAN"
+      ],
+      [
+       "INSS (Previdência)",
+       "Perícia, benefícios, reabilitação profissional"
+      ],
+      [
+       "Ministério do Trabalho",
+       "NRs, fiscalização (SESMT, PCMSO)"
+      ],
+      [
+       "Empresa",
+       "Emitir a CAT, PCMSO, EPI"
+      ]
+     ]
+    }
+   ],
+   "fonte": "MS — Política Nacional de Saúde do Trabalhador e da Trabalhadora (Portaria 1.823/2012) / Lista de Doenças Relacionadas ao Trabalho (Portaria GM/MS 1.999/2023) / Lei 8.080/1990, art. 6º",
+   "add": "2026-11-04"
   }
  ],
  "rev": 1793817414566
