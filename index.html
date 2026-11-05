@@ -135,17 +135,24 @@ html:has(body>.sess),html:has(body>.sess) body{overflow:hidden!important;height:
 .opt.sel{background:var(--wine-soft);box-shadow:inset 0 0 0 1.5px var(--wine)}.opt.sel .k{background:var(--wine);border-color:var(--wine);color:#fff}
 .preal{display:inline-block;font-size:11.5px;font-weight:600;color:#b8860b;background:rgba(217,164,65,.14);border-radius:999px;padding:3px 9px;margin-bottom:8px}
 .crw .tx{font-weight:600}.crp{font-size:12px;color:var(--mute);flex:none;font-variant-numeric:tabular-nums}.crw.cheia .crp,.crd.cheio .crp{color:var(--ok);font-weight:700}
+.crpend{font-size:10.5px;font-weight:700;color:#9a6700;background:rgba(217,164,65,.2);border-radius:999px;padding:2px 7px;margin-left:4px;vertical-align:1px}
+.crpendm{font-size:12.5px;color:#9a6700;background:rgba(217,164,65,.14);border-radius:10px;padding:7px 10px}
+.crrv{display:flex;flex-direction:column;gap:6px;margin-top:4px;padding-top:8px;border-top:1px dashed var(--line)}.crrvh{font-size:13.5px;font-weight:600}
+.cri.rsk:not(.ok) .crt span{text-decoration:line-through;text-decoration-color:var(--ok);color:var(--mute)}.cri.rsk small{color:var(--ok)}
 .crnow{font-size:10.5px;font-weight:700;color:#fff;background:var(--wine);border-radius:999px;padding:2px 7px;margin-left:4px;vertical-align:1px}
 .crd.hj{background:var(--wine-soft)}.crd.cheio .tx{color:var(--ok)}
 .crdia{padding:4px 12px 10px 30px;display:flex;flex-direction:column;gap:6px;border-bottom:1px solid var(--line)}
 .cri{display:flex;align-items:center;gap:10px;padding:9px 10px;border-radius:12px;background:var(--bg);transition:background .25s}
 .cri .crk{flex:none;width:26px;height:26px;border-radius:50%;border:2px solid var(--line);display:grid;place-items:center;font-size:14px;font-weight:700;color:#fff;transition:all .2s}
 .cri .crt{flex:1;min-width:0;cursor:pointer}.cri .crt small{display:block;font-size:11px;color:var(--mute);font-variant-numeric:tabular-nums}.cri .crt span{font-size:14px;line-height:1.35}
-.cri .crb{flex:none;font-size:12px;font-weight:600;color:var(--wine);background:var(--wine-soft);border-radius:9px;padding:6px 10px}
+.crb{flex:none;font-size:12px;font-weight:600;color:var(--wine);background:var(--wine-soft);border-radius:9px;padding:6px 10px}
 .cri.ok{background:var(--ok-soft)}.cri.ok .crk{background:var(--ok);border-color:var(--ok);transform:scale(1.05)}.cri.ok .crt span{text-decoration:line-through;text-decoration-thickness:1.5px;color:var(--mute)}
 .cri.cr-sim .crt span{font-weight:600}.cri.cr-prova{background:var(--wine-soft)}.cri.cr-prova .crt span{font-weight:700;color:var(--wine)}
 .cradd{align-self:flex-start;margin:2px 0 0 4px;font-size:13.5px}
 select.srch{appearance:auto}
+.smand{display:flex;align-items:center;gap:8px;padding:10px 0;border-bottom:1px solid var(--line)}.smand .smi{flex:1;min-width:0;display:flex;flex-direction:column;gap:2px}.crb.del{color:var(--bad);background:var(--bad-soft)}
+.sar0,.sar1,.sar2{display:flex;align-items:center;gap:10px;padding:9px 0;border-bottom:1px solid var(--line)}.sar1{padding-left:22px}.sar2{padding-left:44px;font-size:14px}.sar0 .snm{font-weight:600}
+.snm{flex:1;cursor:pointer}.sck{flex:none;width:24px;height:24px;border-radius:7px;border:2px solid var(--line);display:grid;place-items:center;font-size:13px;font-weight:700;color:#fff;cursor:pointer}.sck.on{background:var(--wine);border-color:var(--wine)}
 .smtm{font-size:13px;font-weight:600;font-variant-numeric:tabular-nums;color:var(--ink);min-width:52px;text-align:right}.smtm.pouco{color:var(--bad)}
 .smgr{font-size:12.5px;font-weight:600;color:var(--wine);background:var(--wine-soft);border-radius:9px;padding:6px 9px}
 .smnav{display:flex;gap:8px}.smnav .btn{margin:0;width:auto;padding:15px 12px}.smnav .btn.ghost{flex:0 0 auto;min-width:56px}.smnav .btn:last-child{flex:1}.smfl.on{color:#D9A441;border-color:#D9A441}
@@ -591,7 +598,8 @@ const DEV=(()=>{try{let d=localStorage.getItem(LS+'.dev');if(!d){d=Math.random()
 function fixS(){ (S.notas||[]).forEach(n=>(n.imgs||[]).forEach(im=>{ if(im&&im.path&&im.local) delete im.local; }));S.srs=S.srs||{}; S.xp=S.xp||0; S.streak=S.streak||{n:0,last:null}; S.notas=S.notas||[]; S.extra=S.extra||[]; S.plan=S.plan||null; S.fav=S.fav||{}; S.minha=S.minha||{}; S.ren=S.ren||{tema:{},sub:{}}; S.ren.area=S.ren.area||{}; S.edit=S.edit||{}; S.oculto=S.oculto||{}; migrarRet();
   S.xpDev=S.xpDev||{}; if(S.xp&&!Object.keys(S.xpDev).length) S.xpDev[DEV]=S.xp;
   S.dias=S.dias||{}; if(S.streak&&S.streak.last&&!Object.keys(S.dias).length) for(let i=0;i<S.streak.n;i++) S.dias[addD(S.streak.last,-i)]=1;
-  S.notasDel=S.notasDel||{}; S.sim=S.sim||[]; S.simq=S.simq||{}; S.crono=S.crono||{}; S.simDel=S.simDel||{}; S.decks=S.decks||[]; S.decksDel=S.decksDel||{}; S.marks=S.marks||{}; S.lido=S.lido||{};
+  S.notasDel=S.notasDel||{}; S.sim=S.sim||[]; S.simq=S.simq||{}; S.crono=S.crono||{}; S.simAnd=S.simAnd||{}; S.simAndDel=S.simAndDel||{}; S.crev=S.crev||{};
+  if(S.simAt&&!S.simAt.off&&S.simAt.ids){ const k=S.simAt.t0||Date.now(); S.simAnd[k]={...S.simAt,id:k}; S.simAt={u:Date.now(),off:true}; } S.simDel=S.simDel||{}; S.decks=S.decks||[]; S.decksDel=S.decksDel||{}; S.marks=S.marks||{}; S.lido=S.lido||{};
   if(typeof recalc==='function') recalc();}
 fixS();
 /* se o armazenamento do aparelho lotar (fotos em cache), libera o cache de fotos e tenta de novo — o progresso nunca deixa de ser salvo */
@@ -682,7 +690,7 @@ function ligarVespera(){ document.querySelectorAll('.vespb').forEach(b=>b.onclic
 /* ===== Fraco e sanguessuga ===== */
 /* fraco = ainda não acertou 3× seguidas ("Sabia") E já errou OU marcou "Quase" alguma vez */
 const quaseN=x=>x.q!=null?x.q:Math.max(0,Math.round((2.5-(x.ease||2.5)-0.2*(x.lapses||0))/0.15));
-const ehFraco=x=>!!x&&(x.box||0)<3&&((x.wrong||0)>0||quaseN(x)>0);
+const ehFraco=x=>!!x&&(x.box||0)<2&&((x.wrong||0)>0||quaseN(x)>0);
 /* sanguessuga (termo do Anki) = card errado 4 ou mais vezes: repetir não está resolvendo */
 const LEECH=4;
 const ehSanguessuga=x=>!!x&&(x.wrong||0)>=LEECH&&(x.box||0)<3;
@@ -699,7 +707,7 @@ const LEECH_TXT='Sanguessuga é o card que você já errou 4 ou mais vezes: só 
 function rating(id,r,tipoErro){
   const s=S.srs[id]||{box:0,seen:0,wrong:0};
   if(s.ease==null){s.ease=2.5;s.ivl=0;s.reps=0;s.lapses=0}
-  const h=hoje(), jaHoje=s.last===h&&s.due; s.seen++; s.last=h; s.lr=r; s.t=Date.now();
+  const h=hoje(), jaHoje=s.last===h&&s.due; s.seen++; s.last=h; s.lr=r; s.t=Date.now(); if(r===0) s.lw=s.t;
   /* card repetido no mesmo dia (outra rodada manual): acerto não "empurra" a revisão de novo; erro conta normalmente */
   if(jaHoje&&r>0){ S.srs[id]=s; return; }
   let ivl;
@@ -1051,9 +1059,15 @@ function ligarArvore(el,aberto,redesenhar){
 const ABERTO_E=new Set();
 function pErros(){
   const X=c=>S.srs[c.id];
-  const err=CARDS.filter(c=>X(c)&&((X(c).wrong||0)>0||quaseN(X(c))>0));
+  /* fica fora: erro só de simulado em tema não prioritário (x.so) e erro já resolvido há 21 dias (arquivado) */
+  const ARQ=21*864e5, err=CARDS.filter(c=>{ const x=X(c); if(!x||!((x.wrong||0)>0||quaseN(x)>0)) return false; if(x.so&&x.so>=x.t) return false; if(!ehFraco(x)&&x.lw&&Date.now()-x.lw>ARQ) return false; return true; });
   if(!err.length){$('#app').innerHTML=`<div class="wrap"><h2 class="serif">Caderno de erros</h2><div class="empty"><div class="serif">Nenhum erro ainda</div>Quando você errar ou marcar "Quase" num card, ele aparece aqui sozinho.</div></div>`;return}
-  const fracos=err.filter(c=>ehFraco(X(c))).sort((a,b)=>pesoUERJ(b)-pesoUERJ(a));
+  const naFila=new Set(S.plan&&S.plan.date===hoje()?S.plan.ids.filter(i=>!S.plan.done.includes(i)):[]);
+  const fracosT=err.filter(c=>ehFraco(X(c))&&!naFila.has(c.id)).sort((a,b)=>(ehSanguessuga(X(b))-ehSanguessuga(X(a)))||(pesoUERJ(b)-pesoUERJ(a))||((X(a).lw||X(a).t||0)-(X(b).lw||X(b).t||0)));
+  const DOSE=15, fracos=fracosT.slice(0,DOSE), espera=fracosT.length-fracos.length;
+  const porTema={}; err.filter(c=>ehFraco(X(c))).forEach(c=>{ (porTema[c.sub]=porTema[c.sub]||[]).push(c); });
+  const tFracos=Object.entries(porTema).filter(([k,v])=>v.length>=3).sort((a,b)=>b[1].length-a[1].length);
+  const topE=Object.entries(err.reduce((m,c)=>{ m[c.sub]=(m[c.sub]||0)+(X(c).wrong||0); return m; },{})).filter(e=>e[1]>0).sort((a,b)=>b[1]-a[1]).slice(0,3);
   const sang=err.filter(c=>ehSanguessuga(X(c)));
   const cont={ns:0,cf:0,lr:0}; err.forEach(c=>{const t=X(c).et;if(t)cont[t]++});
   const mx=Math.max(1,...Object.values(cont)), temTipo=Object.values(cont).some(v=>v);
@@ -1062,15 +1076,18 @@ function pErros(){
     return `<div class="tile ${ok?'dim':''}" role="button" data-card="${c.id}"><span class="tt">${esc(plano(c.frente))}</span>${bd}</div>`};
   $('#app').innerHTML=`<div class="wrap">
     <h2 class="serif">Caderno de erros</h2>
-    <p class="mute small" style="margin-top:-10px;margin-bottom:14px">Fraco = errou ou marcou "Quase" e ainda não acertou 3× seguidas. Os mais cobrados na banca vêm primeiro.</p>
-    ${fracos.length?`<button class="btn" id="rev">Revisar ${fracos.length} ${fracos.length>1?'fracos':'fraco'}</button>`:`<div class="done"><div class="serif">Tudo dominado ✓</div></div>`}
+    <p class="mute small" style="margin-top:-10px;margin-bottom:14px">Uma dose por dia, sem pilha: até ${DOSE} erros (sanguessugas e o que mais cai primeiro). Sai do caderno quem você acertar 2× seguidas em dias diferentes; erro resolvido há 21 dias é arquivado sozinho.</p>
+    ${fracos.length?`<button class="btn" id="rev">Erros de hoje · ${fracos.length}</button>${espera?`<p class="mute small" style="text-align:center;margin-top:6px">Mais ${espera} aguardando — sem pressa, entram nos próximos dias.</p>`:''}`:`<div class="done"><div class="serif">${fracosT.length||naFila.size?'Erros de hoje em dia ✓':'Tudo dominado ✓'}</div></div>`}
+    ${tFracos.length?`<div class="sec">⚠️ Temas fracos · ${tFracos.length}</div><p class="mute small" style="margin:-2px 0 8px">3 ou mais erros no mesmo tema: reler o resumo rende mais que rever card por card.</p>${tFracos.map(([sb,v])=>`<div class="cri"><div class="crt"><small>${v.length} erros ativos</small><span>${esc(sb)}</span></div><button class="crb" data-tf="${esc(sb)}">Reler resumo</button></div>`).join('')}`:''}
+    ${topE.length?`<div class="sec">Seus 3 temas com mais erros</div><div class="bars">${topE.map(([sb,n])=>`<div class="bar"><span>${esc(sb)}</span><span class="b"><i style="width:${n/topE[0][1]*100}%"></i></span><span class="v">${n}</span></div>`).join('')}</div>`:''}
     ${sang.length?`<div class="sec">🩸 Sanguessugas · ${sang.length}</div>
       <div class="leech"><p>${LEECH_TXT}</p>${sang.map(c=>`<button class="lr" data-card="${c.id}"><span>${esc(c.frente)}</span><b>${X(c).wrong}×</b></button>`).join('')}</div>`:''}
     ${temTipo?`<div class="sec">Por que eu erro</div><div class="bars">${Object.keys(TIPOS).map(k=>`<div class="bar"><span>${TIPOS[k]}</span><span class="b"><i style="width:${cont[k]/mx*100}%"></i></span><span class="v">${cont[k]}</span></div>`).join('')}</div>`:''}
     <div class="sec">Onde eu erro</div>
     <div id="lstE">${arvoreHTML(err,ABERTO_E,{tile})}</div>
   </div>`;
-  const r=$('#rev'); if(r) r.onclick=()=>sessao(fracos.map(c=>c.id),'erros',null,'revisão dos fracos');
+  const r=$('#rev'); if(r) r.onclick=()=>sessao(fracos.map(c=>c.id),'erros',null,'erros de hoje');
+  document.querySelectorAll('[data-tf]').forEach(b=>b.onclick=()=>{ const x=matItens().find(y=>y.sub===b.dataset.tf); if(x) abrirMat(x); });
   document.querySelectorAll('.leech [data-card]').forEach(b=>b.onclick=()=>folhaCard(b.dataset.card));
   ligarArvore($('#lstE'),ABERTO_E,pErros);
 }
@@ -1125,7 +1142,7 @@ function pEstudar(){
     <p class="mute small" style="margin-top:-10px;margin-bottom:16px">Monte seu baralho — o que você estudar aqui também entra na revisão programada.</p>
     ${(h=>h?h+'<div style="height:14px"></div>':'')(retLista())}
     ${!vesperaAtiva()&&filaVespera().length?`<div class="linkrow" style="justify-content:flex-start;margin:-6px 0 12px"><button class="link vespb">🌙 Modo véspera (${filaVespera().length}) — revisão final, sem novos</button></div>`:''}
-    <button class="btn ghost" id="simB" style="margin:0 0 14px">📝 Simulado estilo prova${S.simAt&&!S.simAt.off&&S.simAt.ids?' · continuar':''}</button>
+    <button class="btn ghost" id="simB" style="margin:0 0 14px">📝 Simulado estilo prova${simAndL().length?' · '+simAndL().length+' em andamento':''}</button>
     <button class="sel" id="sT"><span class="sl">Temas</span><span class="sv">${esc(temaTxt)}</span><span class="ch">▾</span></button>
     <button class="sel" id="sF"><span class="sl">Quais cards</span><span class="sv">${FILTROS[DECK.filtro]}</span><span class="ch">▾</span></button>
     <button class="sel" id="sP"><span class="sl">Prioridade</span><span class="sv">${PRIOS[DECK.prio]}</span><span class="ch">▾</span></button>
@@ -1767,7 +1784,7 @@ async function syncNotas(){
 /* ===== Sincronizar progresso entre aparelhos ===== */
 const GH_PROG=GH_API.replace('notas.json','progresso.json');
 const notasSync=()=>S.notas.map(n=>n.imgs?{...n,imgs:n.imgs.filter(i=>i.path).map(i=>({path:i.path}))}:n);
-const progSnap=()=>({marks:S.marks,decks:S.decks,decksDel:S.decksDel,sim:S.sim,simDel:S.simDel,simq:S.simq,simAt:S.simAt||null,crono:S.crono,srs:S.srs,xpDev:S.xpDev,dias:S.dias,notas:notasSync(),notasDel:S.notasDel,plan:S.plan,hoje:S.hoje,extra:S.extra,rets:S.rets,retsDel:S.retsDel,lido:S.lido});
+const progSnap=()=>({marks:S.marks,decks:S.decks,decksDel:S.decksDel,sim:S.sim,simDel:S.simDel,simq:S.simq,simAnd:S.simAnd,simAndDel:S.simAndDel,crev:S.crev,crono:S.crono,srs:S.srs,xpDev:S.xpDev,dias:S.dias,notas:notasSync(),notasDel:S.notasDel,plan:S.plan,hoje:S.hoje,extra:S.extra,rets:S.rets,retsDel:S.retsDel,lido:S.lido});
 function mergeProg(R){
   if(!R) return false; const antes=JSON.stringify(progSnap());
   for(const id in R.srs||{}){const a=S.srs[id],b=R.srs[id]; if(!a||(b.t||0)>(a.t||0)) S.srs[id]=b;}
@@ -1784,7 +1801,11 @@ function mergeProg(R){
     else if(R.plan.date===S.plan.date){ S.plan.ids=[...new Set([...S.plan.ids,...R.plan.ids])]; S.plan.done=[...new Set([...S.plan.done,...R.plan.done])]; S.plan.nv=Math.max(S.plan.nv||0,R.plan.nv||0); S.plan.v=Math.max(S.plan.v||2,R.plan.v||2);} }
   for(const d in R.crono||{}){ const a=S.crono[d],b=R.crono[d]; if(!a||(b.u||0)>(a.u||0)) S.crono[d]=b; }
   for(const k in R.simq||{}) S.simq[k]=Math.max(S.simq[k]||0,R.simq[k]);
-  if(R.simAt&&(R.simAt.u||0)>((S.simAt&&S.simAt.u)||0)&&!SIMU) S.simAt=R.simAt;
+  Object.assign(S.simAndDel,R.simAndDel||{});
+  if(R.simAt&&!R.simAt.off&&R.simAt.ids){ const k=R.simAt.t0; if(k&&!S.simAndDel[k]&&!S.simAnd[k]) S.simAnd[k]={...R.simAt,id:k}; }
+  for(const k in R.simAnd||{}){ const a=S.simAnd[k],b=R.simAnd[k]; if(!(SIMU&&String(SIMU.id)===k)&&(!a||(b.u||0)>(a.u||0))) S.simAnd[k]=b; }
+  for(const k in S.simAndDel) delete S.simAnd[k];
+  for(const k in R.crev||{}){ const a=S.crev[k],b=R.crev[k]; if(!a||(b.u||0)>(a.u||0)) S.crev[k]=b; }
   Object.assign(S.retsDel,R.retsDel||{});
   if(R.ret&&R.ret.fila&&R.ret.fila.length){ const id=R.ret.t0||R.ret.t; if(!S.retsDel[id]&&!S.rets.some(x=>x.id===id)) S.rets.push({...R.ret,id}); }
   { const m={}; [...S.rets,...(R.rets||[])].forEach(x=>{ const o=m[x.id]; if(!o||(x.t||0)>(o.t||0)) m[x.id]=x; }); S.rets=Object.values(m).filter(x=>!S.retsDel[x.id]); }
@@ -1931,22 +1952,53 @@ function croSemanas(){
   return W;
 }
 const croFeito=x=>!!x.ok;
+const croAdd=(d,n)=>iso(new Date(new Date(d+'T12:00').getTime()+n*864e5));
+const CRO_ULT='2026-12-12', CRO_MAX=5;
+/* data da 1ª leitura de cada tema: check da leitura no cronograma ou "lido" no Material */
+function croLeituras(){ const R={}, put=(sb,d)=>{ if(sb&&d&&(!R[sb]||d<R[sb])) R[sb]=d; };
+  for(const d in S.crono) (S.crono[d].itens||[]).forEach(x=>{ if(x.ok&&x.tipo==='leitura'&&x.sub) put(x.sub,x.okEm?iso(new Date(x.okEm)):d); });
+  matItens().forEach(m=>{ const v=S.lido[matChave(m)]; if(v&&v.v&&v.u) put(m.sub,iso(new Date(v.u))); });
+  return R; }
+function croAcerto(sb){ let seen=0,wr=0; CARDS.forEach(c=>{ if(c.sub===sb){ const x=S.srs[c.id]; if(x){ seen+=x.seen||0; wr+=x.wrong||0; } } }); return seen>=5?Math.round((1-wr/seen)*100):null; }
+/* revisões por dia: R1 (2 dias após ler) e R2 (9 dias); "esqueci" cria mais uma 3 dias depois.
+   Até 5 por dia; R2 riscada (≥ 80% de acerto nos cards) não conta no limite. Só passa de 5 se não houver outro dia até 12/12. */
+function croRevisoes(){
+  const L=croLeituras(), RV=[];
+  for(const sb in L){ const r=L[sb];
+    const ini=CRONO_DEF?CRONO_DEF.inicio:'2026-11-05', r1=croAdd(r,2)<ini?ini:croAdd(r,2);
+    [['R1',2],['R2',9]].forEach(([n,k])=>{ let due=n==='R1'?r1:(croAdd(r,9)<croAdd(r1,7)?croAdd(r1,7):croAdd(r,9)); if(n==='R2'&&due>'2026-12-10') due='2026-12-10'; if(due>CRO_ULT) due=CRO_ULT; RV.push({key:sb+'|'+n,sub:sb,n,due,lido:r});
+      const st=S.crev[sb+'|'+n]; if(st&&st.esq){ let d2=croAdd(st.esq,3); if(d2>CRO_ULT) d2=CRO_ULT; RV.push({key:sb+'|'+n+'b',sub:sb,n:n+'↺',due:d2,lido:r}); } }); }
+  RV.sort((a,b)=>a.due<b.due?-1:a.due>b.due?1:(a.lido<b.lido?-1:a.lido>b.lido?1:abc(a.sub,b.sub)));
+  const ac={}, D={}, cnt={};
+  RV.forEach(v=>{ if(!(v.sub in ac)) ac[v.sub]=croAcerto(v.sub); v.risca=v.n==='R2'&&ac[v.sub]!=null&&ac[v.sub]>=80; v.ac=ac[v.sub]; v.ok=!!(S.crev[v.key]&&S.crev[v.key].ok);
+    let d=v.due; if(!v.risca){ while((cnt[d]||0)>=CRO_MAX&&d<CRO_ULT) d=croAdd(d,1); cnt[d]=(cnt[d]||0)+1; }
+    (D[d]=D[d]||[]).push(v); });
+  return D; }
+const croConta=x=>!['pausa','livre','prova'].includes(x.tipo);
+
 const ddmm=d=>d.slice(8,10)+'/'+d.slice(5,7);
 function pCrono(){
   if(!CRONO_DEF){ $('#app').innerHTML=`<div class="wrap"><h2 class="serif">Cronograma</h2><p class="mute">Carregando…</p></div>`; return; }
-  const W=croSemanas(), h=hoje();
+  const W=croSemanas(), h=hoje(), REV=croRevisoes(), rvC=d=>(REV[d]||[]).filter(v=>!v.risca);
+  const dTot=d=>croItens(d).length+rvC(d).length, dFe=d=>croItens(d).filter(croFeito).length+rvC(d).filter(v=>v.ok).length;
+  const dPend=d=>d<h&&(croItens(d).some(x=>croConta(x)&&!x.ok)||rvC(d).some(v=>!v.ok));
   if(!CRO_INI){ CRO_INI=true; const wi=W.findIndex(w=>w.includes(h)); if(wi>=0){ CRO_AB.add('w'+wi); CRO_AB.add('d'+h); } }
-  const tot=W.flat().flatMap(croItens), fe=tot.filter(croFeito).length, pg=tot.length?Math.round(fe/tot.length*100):0;
+  const totN=W.flat().reduce((a,d)=>a+dTot(d),0), fe=W.flat().reduce((a,d)=>a+dFe(d),0), pg=totN?Math.round(fe/totN*100):0, tot={length:totN};
   const faltam=Math.max(0,diff(h,CRONO_DEF.prova));
   const itemH=(d,x,i)=>{ const [ic]=CRO_TIPOS[x.tipo]||CRO_TIPOS.outro;
     const acao=x.tipo==='leitura'&&x.sub?`<button class="crb" data-cro-mat="${esc(x.sub)}">Abrir</button>`:x.tipo==='sim'&&x.sim?`<button class="crb" data-cro-sim="${x.sim}">Fazer</button>`:x.tipo==='cards'?`<button class="crb" data-cro-ir="home">Ir</button>`:x.tipo==='vesp'?`<button class="crb" data-cro-vesp="1">Ir</button>`:'';
     return `<div class="cri ${x.ok?'ok':''} cr-${x.tipo}"><button class="crk" data-cro-ck="${d}|${i}" aria-label="${x.ok?'Desmarcar':'Marcar como feito'}">${x.ok?'✓':''}</button>
       <div class="crt" data-cro-ed="${d}|${i}"><small>${esc(x.h||'')}</small><span>${ic} ${esc(x.t)}</span></div>${acao}</div>`; };
-  const html=W.map((w,wi)=>{ const it=w.flatMap(croItens), f=it.filter(croFeito).length, p=it.length?Math.round(f/it.length*100):0, aw=CRO_AB.has('w'+wi), atual=w.includes(h);
-    const cab=`<div class="rowi crw ${aw?'op':''} ${p===100?'cheia':''}" role="button" data-cro-k="w${wi}"><span class="chv">▶</span><span class="tx">Semana ${wi+1} <span class="mute small">· ${ddmm(w[0])}–${ddmm(w[w.length-1])}</span>${atual?' <span class="crnow">esta semana</span>':''}</span><span class="crp">${p===100?'🏆':p+'%'}</span></div>`;
-    return cab+(aw?w.map(d=>{ const its=croItens(d), fd=its.filter(croFeito).length, ad=CRO_AB.has('d'+d), dn=new Date(d+'T12:00').getDay(), cheio=its.length&&fd===its.length;
-      return `<div class="rowi lv1 crd ${ad?'op':''} ${cheio?'cheio':''} ${d===h?'hj':''}" role="button" data-cro-k="d${d}"><span class="chv">▶</span><span class="tx">${DSEM[dn]} ${ddmm(d)}${d===h?' <span class="crnow">hoje</span>':''}</span><span class="crp">${cheio?'✓ feito':fd+'/'+its.length}</span></div>`+
-        (ad?`<div class="crdia">${its.map((x,i)=>itemH(d,x,i)).join('')}<button class="link cradd" data-cro-add="${d}">＋ Adicionar</button></div>`:''); }).join(''):''); }).join('');
+  const rvH=(v)=>`<div class="cri rv ${v.ok?'ok':''} ${v.risca?'rsk':''}"><button class="crk" data-rv-ck="${esc(v.key)}" aria-label="Revisado">${v.ok?'✓':''}</button>
+      <div class="crt" data-cro-mat="${esc(v.sub)}"><small>${v.n} · leu em ${ddmm(v.lido)}${v.risca?` · ✅ ${v.ac}% de acerto nos cards — pode pular`:''}</small><span>📖 ${esc(v.sub)}</span></div>
+      ${v.n.length===2&&!(S.crev[v.key]&&S.crev[v.key].esq)?`<button class="crb" data-rv-esq="${esc(v.key)}" title="Esqueci: revisar de novo em 3 dias">↺</button>`:''}</div>`;
+  const rvBloco=d=>{ const L=REV[d]||[]; if(!L.length) return ''; const c=L.filter(v=>!v.risca);
+    return `<div class="crrv"><div class="crrvh">🔁 Revisão de temas <span class="mute small">· sem horário · ${c.filter(v=>v.ok).length}/${c.length}</span></div>${L.map(rvH).join('')}</div>`; };
+  const html=W.map((w,wi)=>{ const T=w.reduce((a,d)=>a+dTot(d),0), f=w.reduce((a,d)=>a+dFe(d),0), p=T?Math.round(f/T*100):0, aw=CRO_AB.has('w'+wi), atual=w.includes(h), wp=w.some(dPend);
+    const cab=`<div class="rowi crw ${aw?'op':''} ${p===100?'cheia':''}" role="button" data-cro-k="w${wi}"><span class="chv">▶</span><span class="tx">Semana ${wi+1} <span class="mute small">· ${ddmm(w[0])}–${ddmm(w[w.length-1])}</span>${atual?' <span class="crnow">esta semana</span>':''}${wp?' <span class="crpend">⚠️ pendente</span>':''}</span><span class="crp">${p===100?'🏆':p+'%'}</span></div>`;
+    return cab+(aw?w.map(d=>{ const its=croItens(d), fd=dFe(d), td=dTot(d), ad=CRO_AB.has('d'+d), dn=new Date(d+'T12:00').getDay(), cheio=td&&fd===td, pd=dPend(d);
+      return `<div class="rowi lv1 crd ${ad?'op':''} ${cheio?'cheio':''} ${d===h?'hj':''}" role="button" data-cro-k="d${d}"><span class="chv">▶</span><span class="tx">${DSEM[dn]} ${ddmm(d)}${d===h?' <span class="crnow">hoje</span>':''}${pd?' <span class="crpend">⚠️ pendente</span>':''}</span><span class="crp">${cheio?'✓ feito':fd+'/'+td}</span></div>`+
+        (ad?`<div class="crdia">${pd?'<div class="crpendm">⚠️ Ficou coisa sem marcar neste dia.</div>':''}${its.map((x,i)=>itemH(d,x,i)).join('')}${rvBloco(d)}<button class="link cradd" data-cro-add="${d}">＋ Adicionar</button></div>`:''); }).join(''):''); }).join('');
   const ex=(CRONO_DEF.extra||[]).filter(s=>{ const x=matItens().find(y=>y.sub===s); return x&&!matLido(x); });
   $('#app').innerHTML=`<div class="wrap" id="cro">
     <h2 class="serif">Cronograma</h2>
@@ -1963,8 +2015,10 @@ function pCrono(){
       croSalvar(d,its); vib(x.ok?12:6);
       if(x.ok&&its.every(croFeito)){ toast('🎉 Dia concluído! Mandou bem'); const w=croSemanas().find(w=>w.includes(d)); if(w&&w.every(dd=>croItens(dd).every(croFeito))) setTimeout(()=>toast('🏆 Semana inteira concluída!'),1600); }
       return pCrono(); }
+    const rc=t.closest('[data-rv-ck]'); if(rc){ const k=rc.dataset.rvCk, st={...(S.crev[k]||{})}; st.ok=st.ok?0:Date.now(); st.u=Date.now(); S.crev[k]=st; save(); vib(st.ok?12:6); return pCrono(); }
+    const re=t.closest('[data-rv-esq]'); if(re){ const k=re.dataset.rvEsq; S.crev[k]={...(S.crev[k]||{}),ok:Date.now(),esq:hoje(),u:Date.now()}; save(); toast('Ok: esse tema volta daqui a 3 dias'); return pCrono(); }
     const mt=t.closest('[data-cro-mat]'); if(mt){ const x=matItens().find(y=>y.sub===mt.dataset.croMat); if(x) abrirMat(x); else toast('Resumo não encontrado'); return; }
-    const sm=t.closest('[data-cro-sim]'); if(sm){ const f=sm.dataset.croSim; if(S.simAt&&!S.simAt.off&&S.simAt.ids) return simuMenu(); if(f==='area') return escolha('Qual área?',SIM_ORD.map(g=>({v:g,t:GN[g]})),'',g=>simuNovo('area',g)); return simuNovo(f); }
+    const sm=t.closest('[data-cro-sim]'); if(sm){ const f=sm.dataset.croSim; if(f==='area') return simuArea(); return simuNovo(f); }
     if(t.closest('[data-cro-ir]')) return ir('home');
     if(t.closest('[data-cro-vesp]')){ const f=filaVespera(); return f.length?sessao(f,'vespera',null,'modo véspera'):toast('Nada para o modo véspera agora'); }
     const ed=t.closest('[data-cro-ed]'); if(ed){ const [d,i]=ed.dataset.croEd.split('|'); return croEditar(d,+i); }
@@ -2004,29 +2058,58 @@ function simEscolher(g,n){
   const L=simPool(g).map(c=>({c,k:(q[c.id]||0)*100+(S.srs[c.id]?10:0)-Math.min(9,pesoUERJ(c)/3)-Math.random()*8})).sort((a,b)=>a.k-b.k).slice(0,n).map(x=>x.c);
   return L.sort(()=>Math.random()-.5).map(c=>c.id);
 }
+const simAndL=()=>Object.values(S.simAnd||{}).filter(x=>x&&x.ids&&!S.simAndDel[x.id]).sort((a,b)=>(b.u||0)-(a.u||0));
 function simuMenu(){
-  const cont=S.simAt&&!S.simAt.off&&S.simAt.ids?S.simAt:null;
-  const tot=SIM_ORD.map(g=>simPool(g).length);
+  const and=simAndL();
   folha(`<div class="serif" style="font-size:21px;margin-bottom:4px">Simulado estilo prova</div>
-    <p class="mute small" style="margin:0 0 12px">Como na Selecting: 5 áreas por igual, sem correção na hora, com cronômetro. Os erros entram na sua revisão.</p>
-    ${cont?`<button class="opi" data-sm="cont"><span><b>▶ Continuar simulado</b><br><span class="mute small">${SIMF[cont.fmt].t} · ${Object.keys(cont.resp||{}).length}/${cont.ids.length} respondidas</span></span></button>`:''}
-    ${['completo','mini','area','r2025','r2024'].filter(k=>k[0]!=='r'||simReal(k.slice(1)).length).map(k=>`<button class="opi" data-sm="${k}"><span><b>${SIMF[k].t}</b><br><span class="mute small">${SIMF[k].d}</span></span></button>`).join('')}
-    <p class="mute small" style="margin-top:10px">Banco: ${SIM_ORD.map((g,i)=>g+' '+tot[i]).join(' · ')} questões</p>`);
-  document.querySelectorAll('[data-sm]').forEach(b=>b.onclick=async()=>{ const k=b.dataset.sm; fecharFolha();
-    if(k==='cont') return simuAbrir(cont);
-    if(cont&&!(await confirmar('Já existe um simulado em andamento. Começar outro e descartar aquele?','Começar novo'))) return;
-    if(k==='area') return escolha('Qual área?',SIM_ORD.map(g=>({v:g,t:GN[g]})),'',g=>simuNovo('area',g));
-    simuNovo(k); });
+    <p class="mute small" style="margin:0 0 12px">Como na Selecting: sem correção na hora, com cronômetro. Todo simulado feito vai sozinho para a aba Porcentagem.</p>
+    ${and.length?`<button class="opi" data-sm="and"><span><b>⏸ Em andamento (${and.length})</b><br><span class="mute small">Continuar ou apagar os que você largou</span></span></button>`:''}
+    ${['completo','mini','area','r2025','r2024'].filter(k=>k[0]!=='r'||simReal(k.slice(1)).length).map(k=>`<button class="opi" data-sm="${k}"><span><b>${SIMF[k].t}</b><br><span class="mute small">${SIMF[k].d}</span></span></button>`).join('')}`);
+  document.querySelectorAll('[data-sm]').forEach(b=>b.onclick=()=>{ const k=b.dataset.sm; fecharFolha();
+    if(k==='and') return simuAndamento(); if(k==='area') return simuArea(); simuNovo(k); });
 }
-function simuNovo(fmt,g){
-  const F=SIMF[fmt], real=fmt[0]==='r', gs=fmt==='area'?[g]:SIM_ORD, ids=real?simReal(fmt.slice(1)).map(c=>c.id):gs.flatMap(x=>simEscolher(x,F.n));
-  if(!ids.length) return toast('Sem questões para esse simulado');
-  const dur=real?F.min*60000:F.min*60*1000*ids.length/(F.n*gs.length);
-  simuAbrir({fmt,g:g||null,ids,resp:{},marc:[],i:0,rest:dur,dur,t0:Date.now(),u:Date.now()});
+const simRot=x=>(SIMF[x.fmt]||{t:'Simulado'}).t+(x.rot?' · '+x.rot:x.g?' · '+(GN[x.g]||x.g):'');
+function simuAndamento(){
+  const L=simAndL(); if(!L.length){ fecharFolha(); return toast('Nenhum simulado em andamento'); }
+  const dt=t=>new Date(t).toLocaleDateString('pt-BR',{day:'2-digit',month:'2-digit'});
+  folha(`<div class="serif" style="font-size:21px;margin-bottom:10px">Em andamento · ${L.length}</div>
+    ${L.map(x=>`<div class="smand"><div class="smi"><b>${esc(simRot(x))}</b><span class="mute small">Começou ${dt(x.t0||x.u)} · ${Object.keys(x.resp||{}).length}/${x.ids.length} respondidas · ${Math.round((x.rest||0)/60000)} min restantes</span></div>
+      <button class="crb" data-ac="${x.id}">Continuar</button><button class="crb del" data-ap="${x.id}">Apagar</button></div>`).join('')}`);
+  document.querySelectorAll('[data-ac]').forEach(b=>b.onclick=()=>{ const x=S.simAnd[b.dataset.ac]; fecharFolha(); if(x) simuAbrir(x); });
+  document.querySelectorAll('[data-ap]').forEach(b=>b.onclick=async()=>{ const k=b.dataset.ap; if(!(await confirmar('Apagar este simulado em andamento? As respostas dele serão perdidas.','Apagar'))) return simuAndamento(); delete S.simAnd[k]; S.simAndDel[k]=1; save(); simuAndamento(); });
 }
-function simuSalvar(){ if(!SIMU) return; SIMU.rest=Math.max(0,SIMU.fim-Date.now()); SIMU.u=Date.now(); const {fim,...x}=SIMU; S.simAt=x; save(); }
+/* Por área: ✓ na grande área = área inteira; toque no nome = abre matérias → baralhos para escolher */
+let SAR_SEL=new Set(), SAR_AB=new Set();
+function simuArea(){
+  folha(`<div class="serif" style="font-size:21px;margin-bottom:4px">Simulado por área</div><p class="mute small" style="margin:0 0 10px">✓ na grande área = questões da área inteira. Toque no nome para escolher matérias ou baralhos.</p><div id="sar"></div><button class="btn" id="sarok" style="margin-top:14px">Começar</button>`);
+  const Q=CARDS.filter(c=>c.tipo==='quiz'&&c.opcoes&&c.opcoes.length>=2), T={};
+  Q.forEach(c=>{ const g=grupoDe(c), tk=c.area+'|'+c.tema; ((T[g]=T[g]||{})[tk]=T[g][tk]||new Set()).add(c.sub); });
+  const ck=k=>`<span class="sck ${SAR_SEL.has(k)?'on':''}" data-sk="${esc(k)}" role="button">${SAR_SEL.has(k)?'✓':''}</span>`;
+  const draw=()=>{ $('#sar').innerHTML=SIM_ORD.filter(g=>T[g]).map(g=>{ const kg='g:'+g, og=SAR_AB.has(kg);
+    return `<div class="sar0">${ck(kg)}<span class="snm" data-sx="${kg}">${og?'▾':'▸'} ${esc(GN[g])}</span></div>`+(og?Object.keys(T[g]).sort((a,b)=>abc(a.split('|')[1],b.split('|')[1])).map(tk=>{ const kt='t:'+tk, ot=SAR_AB.has(kt), [ar,tm]=tk.split('|');
+      return `<div class="sar1">${ck(kt)}<span class="snm" data-sx="${esc(kt)}">${ot?'▾':'▸'} ${g==='GO'?esc(ar)+' › ':''}${esc(tm)}</span></div>`+(ot?[...T[g][tk]].sort(abc).map(sb=>`<div class="sar2">${ck('s:'+tk+'|'+sb)}<span class="snm" data-sk2="${esc('s:'+tk+'|'+sb)}">${esc(sb)}</span></div>`).join(''):''); }).join(''):''); }).join(''); };
+  draw();
+  $('#sar').onclick=e=>{ const x=e.target.closest('[data-sx]'); if(x){ const k=x.dataset.sx; SAR_AB.has(k)?SAR_AB.delete(k):SAR_AB.add(k); return draw(); }
+    const c=e.target.closest('[data-sk],[data-sk2]'); if(c){ const k=c.dataset.sk||c.dataset.sk2; SAR_SEL.has(k)?SAR_SEL.delete(k):SAR_SEL.add(k); draw(); } };
+  $('#sarok').onclick=()=>{ if(!SAR_SEL.size) return toast('Marque uma área, matéria ou baralho');
+    const sel=[...SAR_SEL], pool=Q.filter(c=>sel.some(k=>k==='g:'+grupoDe(c)||k==='t:'+c.area+'|'+c.tema||k==='s:'+c.area+'|'+c.tema+'|'+c.sub));
+    if(!pool.length) return toast('Sem questões nessa seleção');
+    const nm=sel.map(k=>k[0]==='g'?GN[k.slice(2)]:k.split('|').pop()), rot=nm.length>2?nm.slice(0,2).join(', ')+'…':nm.join(', ');
+    fecharFolha(); simuIds('area',simEscolherDe(pool,20),rot); };
+}
+function simEscolherDe(pool,n){ const q=S.simq||{};
+  return pool.map(c=>({c,k:(q[c.id]||0)*100+(S.srs[c.id]?10:0)-Math.min(9,pesoUERJ(c)/3)-Math.random()*8})).sort((a,b)=>a.k-b.k).slice(0,n).map(x=>x.c.id).sort(()=>Math.random()-.5); }
+function simuIds(fmt,ids,rot,dur){ if(!ids.length) return toast('Sem questões para esse simulado');
+  dur=dur||Math.round(ids.length*2.4*60000); const t=Date.now();
+  simuAbrir({id:t,fmt,rot:rot||'',ids,resp:{},marc:[],i:0,rest:dur,dur,t0:t,u:t}); }
+function simuNovo(fmt){
+  if(fmt==='area') return simuArea();
+  const F=SIMF[fmt], real=fmt[0]==='r', ids=real?simReal(fmt.slice(1)).map(c=>c.id):SIM_ORD.flatMap(x=>simEscolher(x,F.n));
+  simuIds(fmt,ids,'',real?F.min*60000:F.min*60*1000*ids.length/(F.n*SIM_ORD.length));
+}
+function simuSalvar(){ if(!SIMU) return; SIMU.rest=Math.max(0,SIMU.fim-Date.now()); SIMU.u=Date.now(); const {fim,...x}=SIMU; if(!S.simAndDel[x.id]) S.simAnd[x.id]=x; save(); }
 function simuAbrir(st){
-  SIMU={...st,resp:{...(st.resp||{})},marc:[...(st.marc||[])]}; SIMU.fim=Date.now()+(SIMU.rest||0);
+  SIMU={...st,resp:{...(st.resp||{})},marc:[...(st.marc||[])]}; SIMU.id=SIMU.id||SIMU.t0||Date.now(); SIMU.fim=Date.now()+(SIMU.rest||0);
   const el=document.createElement('div'); el.className='sess'; el.id='simu';
   el.innerHTML=`<div class="sbar"><button class="x" id="smx" aria-label="Sair (salva)" title="Sair — o simulado fica salvo"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
     <div class="prog"><i id="smp"></i></div><span class="smtm" id="smt"></span><button class="smgr" id="smg">Questões</button></div>
@@ -2070,15 +2153,19 @@ function simuEntregar(){
   if(!SIMU) return; clearInterval(SIMTK);
   const st=SIMU, F=SIMF[st.fmt], ar={}; let ac=0;
   st.ids.forEach(id=>{ const c=BYID[id]; if(!c) return; const g=grupoDe(c), ok=st.resp[id]===c.certa; ar[g]=ar[g]||[0,0]; ar[g][1]++; if(ok){ ar[g][0]++; ac++; }
-    rating(id,ok?2:0); S.simq[id]=(S.simq[id]||0)+1; });
+    rating(id,ok?2:0); S.simq[id]=(S.simq[id]||0)+1;
+    if(c.real){ st.ut=(st.ut||0)+1; if(ok) st.ua=(st.ua||0)+1; }
+    /* erro de simulado só entra no caderno se o tema é prioridade alta ou a questão caiu na prova (o resto volta pelos cards) */
+    if(!ok&&!(c.real||prioDe(c)==='alta')) S.srs[id].so=Date.now(); });
   const usado=Math.round(((st.dur||F.min*60000)-Math.max(0,st.fim-Date.now()))/60000), id=Date.now();
-  S.sim.push({id,nome:`Simulado ${F.t}${st.g?' '+st.g:''} - ${dBR(hoje())}`,d:hoje(),tot:st.ids.length,ac,utot:0,uac:0,u:id,app:1,ar,min:usado,...(st.g?{area:GN[st.g]}:{})});
-  S.simAt={u:Date.now(),off:true}; save(); syncProg();
+  const nums=S.sim.map(x=>+((String(x.nome).match(/^Simulado (\d+)/)||[])[1]||0)), num=Math.max(S.sim.length,...nums,0)+1;
+  S.sim.push({id,nome:`Simulado ${num} - ${dBR(hoje())}`,area:`${F.t}${st.rot?' ('+st.rot+')':st.g?' ('+(GN[st.g]||st.g)+')':''} - ${st.ids.length} questões`,d:hoje(),tot:st.ids.length,ac,utot:st.ut||0,uac:st.ua||0,u:id,app:1,ar,min:usado});
+  delete S.simAnd[st.id]; S.simAndDel[st.id]=1; save(); syncProg();
   simuResultado(st,ar,ac,usado);
 }
 function simuResultado(st,ar,ac,usado){
   const n=st.ids.length, p=Math.round(ac/n*100), cor=v=>v<50?'var(--bad)':v<70?'#D9A441':'var(--ok)', erradas=st.ids.filter(id=>BYID[id]&&st.resp[id]!==BYID[id].certa);
-  $('#smw').innerHTML=`<div class="smres"><div class="tag">Resultado · ${SIMF[st.fmt].t}${st.g?' · '+esc(GN[st.g]):''}</div>
+  $('#smw').innerHTML=`<div class="smres"><div class="tag">Resultado · ${esc(simRot(st))}</div>
     <div class="smbig" style="color:${cor(p)}">${p}%</div><div class="mute">${ac} de ${n} acertos · ${usado} min</div>
     <div class="smcut ${p>=50?'ok':'bad'}">${p>=50?'✓ Acima do corte de 50%':'✗ Abaixo do corte de 50% (eliminaria)'}</div></div>
     <div class="pnls" style="margin-top:18px">${SIM_ORD.filter(g=>ar[g]).map(g=>{ const [a,t]=ar[g], v=Math.round(a/t*100);
@@ -2096,6 +2183,8 @@ function simuRevisar(st,L,k){
     <div class="opts">${c.opcoes.map((o,i)=>`<div class="opt ${i===c.certa?'ok':i===m?'bad':''}"><span class="k">${'ABCDE'[i]}</span><span class="ot"><span class="tx0">${esc(o)}</span><span class="c">${inlBr((c.comentarios||[])[i]||'')}</span></span></div>`).join('')}</div>
     ${m==null?'<p class="mute small">Você deixou em branco.</p>':''}${macHTML(c)}<div class="ans">${ctxHTML(c)}</div>${extrasUERJ(c)}`;
   $('#smb').scrollTop=0; aplicarZonas&&aplicarZonas();
+  const xs=S.srs[id]; if(xs&&xs.so) $('#smw').insertAdjacentHTML('afterbegin',`<button class="crb" id="smcad" style="margin-bottom:10px">⭐ Pôr no caderno de erros</button>`);
+  const cb=$('#smcad'); if(cb) cb.onclick=()=>{ delete S.srs[id].so; save(); cb.remove(); toast('Vai para o caderno de erros ⭐'); };
   const nav=document.querySelector('#simu .smnav');
   nav.innerHTML=`<button class="btn ghost" id="smra">←</button><button class="btn" id="smrn">${k<L.length-1?'Próximo erro →':'Fechar'}</button>`;
   $('#smra').disabled=k===0; $('#smra').onclick=()=>simuRevisar(st,L,k-1);
