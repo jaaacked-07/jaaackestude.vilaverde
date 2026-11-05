@@ -70,7 +70,7 @@ textarea{font:inherit;color:inherit}
 
 /* nav */
 nav{position:fixed;left:0;right:0;bottom:0;gap:0!important;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-top:1px solid var(--line);padding:8px 0 calc(8px + env(safe-area-inset-bottom));display:flex;justify-content:center;gap:8px;z-index:5}
-nav button{display:flex;flex-direction:column;align-items:center;gap:2px;font-size:11px;color:var(--mute);padding:6px 4px;min-width:0;flex:0 1 66px;border-radius:12px;position:relative}
+nav button{display:flex;flex-direction:column;align-items:center;gap:2px;font-size:9px;letter-spacing:-.25px;overflow:visible;white-space:nowrap;color:var(--mute);padding:6px 0;min-width:0;flex:1 1 0;max-width:66px;border-radius:12px;position:relative}
 nav button.on{color:var(--wine)}
 nav svg{width:24px;height:24px}
 .dot{position:absolute;top:4px;right:12px;min-width:8px;height:8px;border-radius:8px;background:var(--bad)}
@@ -134,6 +134,18 @@ html:has(body>.sess),html:has(body>.sess) body{overflow:hidden!important;height:
 .opt[disabled]{cursor:default}
 .opt.sel{background:var(--wine-soft);box-shadow:inset 0 0 0 1.5px var(--wine)}.opt.sel .k{background:var(--wine);border-color:var(--wine);color:#fff}
 .preal{display:inline-block;font-size:11.5px;font-weight:600;color:#b8860b;background:rgba(217,164,65,.14);border-radius:999px;padding:3px 9px;margin-bottom:8px}
+.crw .tx{font-weight:600}.crp{font-size:12px;color:var(--mute);flex:none;font-variant-numeric:tabular-nums}.crw.cheia .crp,.crd.cheio .crp{color:var(--ok);font-weight:700}
+.crnow{font-size:10.5px;font-weight:700;color:#fff;background:var(--wine);border-radius:999px;padding:2px 7px;margin-left:4px;vertical-align:1px}
+.crd.hj{background:var(--wine-soft)}.crd.cheio .tx{color:var(--ok)}
+.crdia{padding:4px 12px 10px 30px;display:flex;flex-direction:column;gap:6px;border-bottom:1px solid var(--line)}
+.cri{display:flex;align-items:center;gap:10px;padding:9px 10px;border-radius:12px;background:var(--bg);transition:background .25s}
+.cri .crk{flex:none;width:26px;height:26px;border-radius:50%;border:2px solid var(--line);display:grid;place-items:center;font-size:14px;font-weight:700;color:#fff;transition:all .2s}
+.cri .crt{flex:1;min-width:0;cursor:pointer}.cri .crt small{display:block;font-size:11px;color:var(--mute);font-variant-numeric:tabular-nums}.cri .crt span{font-size:14px;line-height:1.35}
+.cri .crb{flex:none;font-size:12px;font-weight:600;color:var(--wine);background:var(--wine-soft);border-radius:9px;padding:6px 10px}
+.cri.ok{background:var(--ok-soft)}.cri.ok .crk{background:var(--ok);border-color:var(--ok);transform:scale(1.05)}.cri.ok .crt span{text-decoration:line-through;text-decoration-thickness:1.5px;color:var(--mute)}
+.cri.cr-sim .crt span{font-weight:600}.cri.cr-prova{background:var(--wine-soft)}.cri.cr-prova .crt span{font-weight:700;color:var(--wine)}
+.cradd{align-self:flex-start;margin:2px 0 0 4px;font-size:13.5px}
+select.srch{appearance:auto}
 .smtm{font-size:13px;font-weight:600;font-variant-numeric:tabular-nums;color:var(--ink);min-width:52px;text-align:right}.smtm.pouco{color:var(--bad)}
 .smgr{font-size:12.5px;font-weight:600;color:var(--wine);background:var(--wine-soft);border-radius:9px;padding:6px 9px}
 .smnav{display:flex;gap:8px}.smnav .btn{margin:0;width:auto;padding:15px 12px}.smnav .btn.ghost{flex:0 0 auto;min-width:56px}.smnav .btn:last-child{flex:1}.smfl.on{color:#D9A441;border-color:#D9A441}
@@ -544,6 +556,7 @@ mark.hl-y{background:rgba(250,214,80,.55)}mark.hl-g{background:rgba(120,200,140,
 <main id="app"></main>
 <nav id="nav">
   <button data-p="home" class="on"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="5" width="13" height="15" rx="2.5"/><path d="M8 3h10a2 2 0 0 1 2 2v12"/></svg>Hoje</button>
+  <button data-p="crono"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="5" width="16" height="15" rx="2.5"/><path d="M8 3v4M16 3v4M4 10h16M9 14l2 2 4-4"/></svg>Cronograma</button>
   <button data-p="estudar"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l9 5-9 5-9-5z"/><path d="M3 13l9 5 9-5"/></svg>Estudar</button>
   <button data-p="material"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 6.5C10 5 7 4.5 4 5v13c3-.5 6 0 8 1.5 2-1.5 5-2 8-1.5V5c-3-.5-6 0-8 1.5z"/><path d="M12 6.5v13"/></svg>Material</button>
   <button data-p="erros"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M5 4h11l3 3v13H5z"/><path d="M9 11h6M9 15h4"/></svg>Erros<i class="dot hide" id="dotE"></i></button>
@@ -578,7 +591,7 @@ const DEV=(()=>{try{let d=localStorage.getItem(LS+'.dev');if(!d){d=Math.random()
 function fixS(){ (S.notas||[]).forEach(n=>(n.imgs||[]).forEach(im=>{ if(im&&im.path&&im.local) delete im.local; }));S.srs=S.srs||{}; S.xp=S.xp||0; S.streak=S.streak||{n:0,last:null}; S.notas=S.notas||[]; S.extra=S.extra||[]; S.plan=S.plan||null; S.fav=S.fav||{}; S.minha=S.minha||{}; S.ren=S.ren||{tema:{},sub:{}}; S.ren.area=S.ren.area||{}; S.edit=S.edit||{}; S.oculto=S.oculto||{}; migrarRet();
   S.xpDev=S.xpDev||{}; if(S.xp&&!Object.keys(S.xpDev).length) S.xpDev[DEV]=S.xp;
   S.dias=S.dias||{}; if(S.streak&&S.streak.last&&!Object.keys(S.dias).length) for(let i=0;i<S.streak.n;i++) S.dias[addD(S.streak.last,-i)]=1;
-  S.notasDel=S.notasDel||{}; S.sim=S.sim||[]; S.simq=S.simq||{}; S.simDel=S.simDel||{}; S.decks=S.decks||[]; S.decksDel=S.decksDel||{}; S.marks=S.marks||{}; S.lido=S.lido||{};
+  S.notasDel=S.notasDel||{}; S.sim=S.sim||[]; S.simq=S.simq||{}; S.crono=S.crono||{}; S.simDel=S.simDel||{}; S.decks=S.decks||[]; S.decksDel=S.decksDel||{}; S.marks=S.marks||{}; S.lido=S.lido||{};
   if(typeof recalc==='function') recalc();}
 fixS();
 /* se o armazenamento do aparelho lotar (fotos em cache), libera o cache de fotos e tenta de novo — o progresso nunca deixa de ser salvo */
@@ -627,6 +640,8 @@ async function carregar(){
   }catch(e){}
   if(!CARDS.length && !base) setCards([]);
   migrarMarcasCtx(); migrarIO(); migrarSubtemas();
+  try{ CRONO_DEF=JSON.parse(localStorage.getItem(LS+'.crono'))||null }catch(e){}
+  fetch('data/cronograma.json?t='+Date.now(),{cache:'no-store'}).then(r=>r.ok?r.json():null).then(j=>{ if(j){ CRONO_DEF=j; try{localStorage.setItem(LS+'.crono',JSON.stringify(j))}catch(e){} if(PAG==='crono'&&!SS) pCrono(); } }).catch(()=>{});
   try{ PREV=JSON.parse(localStorage.getItem(LS+'.prev'))||PREV }catch(e){}
   try{ const r=await fetch('data/prevalencia.json?t='+Date.now(),{cache:'no-store'}); if(r.ok){ PREV=await r.json(); localStorage.setItem(LS+'.prev',JSON.stringify(PREV)); } }catch(e){}
 }
@@ -934,7 +949,7 @@ function render(){
   $('#dotE').classList.toggle('hide',!e);
   const y=scrollY, ae=document.activeElement, ak=curKey(ae), am=ak&&{s:ae.selectionStart,e:ae.selectionEnd,t:ae.scrollTop,v:ae.value};
   if(ak) curGuardar(ae);
-  ({home:pHome,estudar:pEstudar,material:pMaterial,erros:pErros,pct:pPct,anotar:pAnotar,criar:pCriar})[PAG]();
+  ({home:pHome,crono:pCrono,estudar:pEstudar,material:pMaterial,erros:pErros,pct:pPct,anotar:pAnotar,criar:pCriar})[PAG]();
   /* o campo em que ela escrevia volta com o cursor e a rolagem no mesmo lugar */
   if(ak){ const n=qSeg(ak); if(n&&n!==ae&&n.value===am.v){ n.focus({preventScroll:true}); try{n.setSelectionRange(am.s,am.e)}catch(e){} n.scrollTop=am.t; } }
   curRolagens();
@@ -1752,7 +1767,7 @@ async function syncNotas(){
 /* ===== Sincronizar progresso entre aparelhos ===== */
 const GH_PROG=GH_API.replace('notas.json','progresso.json');
 const notasSync=()=>S.notas.map(n=>n.imgs?{...n,imgs:n.imgs.filter(i=>i.path).map(i=>({path:i.path}))}:n);
-const progSnap=()=>({marks:S.marks,decks:S.decks,decksDel:S.decksDel,sim:S.sim,simDel:S.simDel,simq:S.simq,simAt:S.simAt||null,srs:S.srs,xpDev:S.xpDev,dias:S.dias,notas:notasSync(),notasDel:S.notasDel,plan:S.plan,hoje:S.hoje,extra:S.extra,rets:S.rets,retsDel:S.retsDel,lido:S.lido});
+const progSnap=()=>({marks:S.marks,decks:S.decks,decksDel:S.decksDel,sim:S.sim,simDel:S.simDel,simq:S.simq,simAt:S.simAt||null,crono:S.crono,srs:S.srs,xpDev:S.xpDev,dias:S.dias,notas:notasSync(),notasDel:S.notasDel,plan:S.plan,hoje:S.hoje,extra:S.extra,rets:S.rets,retsDel:S.retsDel,lido:S.lido});
 function mergeProg(R){
   if(!R) return false; const antes=JSON.stringify(progSnap());
   for(const id in R.srs||{}){const a=S.srs[id],b=R.srs[id]; if(!a||(b.t||0)>(a.t||0)) S.srs[id]=b;}
@@ -1767,6 +1782,7 @@ function mergeProg(R){
   if(R.hoje){ if(!S.hoje||R.hoje.date>S.hoje.date) S.hoje=R.hoje; else if(R.hoje.date===S.hoje.date) S.hoje.ids=[...new Set([...S.hoje.ids,...R.hoje.ids])]; }
   if(R.plan&&R.plan.v>=2){ if(!S.plan||!(S.plan.v>=2)||R.plan.date>S.plan.date) S.plan=R.plan;
     else if(R.plan.date===S.plan.date){ S.plan.ids=[...new Set([...S.plan.ids,...R.plan.ids])]; S.plan.done=[...new Set([...S.plan.done,...R.plan.done])]; S.plan.nv=Math.max(S.plan.nv||0,R.plan.nv||0); S.plan.v=Math.max(S.plan.v||2,R.plan.v||2);} }
+  for(const d in R.crono||{}){ const a=S.crono[d],b=R.crono[d]; if(!a||(b.u||0)>(a.u||0)) S.crono[d]=b; }
   for(const k in R.simq||{}) S.simq[k]=Math.max(S.simq[k]||0,R.simq[k]);
   if(R.simAt&&(R.simAt.u||0)>((S.simAt&&S.simAt.u)||0)&&!SIMU) S.simAt=R.simAt;
   Object.assign(S.retsDel,R.retsDel||{});
@@ -1900,6 +1916,80 @@ async function addImgsRasc(files){
   const a=rascImgs();
   for(const f of files){ if(!/^image\//.test(f.type)) continue; try{a.push(await comprimir(f))}catch(e){toast('Não consegui ler essa imagem')} }
   setRascImgs(a); pAnotar(); toast('Imagem anexada');
+}
+
+/* ===== Cronograma até a prova: semanas → dias → compromissos (tudo editável, com check) ===== */
+let CRONO_DEF=null; const CRO_AB=new Set(); let CRO_INI=false;
+const CRO_TIPOS={cards:['🃏','Cards'],leitura:['📖','Leitura de resumo'],sim:['📝','Simulado'],rev:['🔁','Revisão'],pausa:['☕','Pausa'],vesp:['🌙','Modo véspera'],livre:['🌿','Livre'],prova:['🏁','Prova'],outro:['📌','Outro']};
+const DSEM=['Dom','Seg','Ter','Qua','Qui','Sex','Sáb'];
+const croItens=d=>(S.crono[d]&&S.crono[d].itens)||((CRONO_DEF&&CRONO_DEF.dias[d])||[]);
+function croSalvar(d,itens){ S.crono[d]={u:Date.now(),itens}; save(); }
+function croSemanas(){
+  if(!CRONO_DEF) return [];
+  const ds=Object.keys(CRONO_DEF.dias).sort(), W=[]; let cur=null;
+  ds.forEach(d=>{ const w=new Date(d+'T12:00').getDay(); if(!cur||w===1){ cur=[]; W.push(cur); } cur.push(d); });
+  return W;
+}
+const croFeito=x=>!!x.ok;
+const ddmm=d=>d.slice(8,10)+'/'+d.slice(5,7);
+function pCrono(){
+  if(!CRONO_DEF){ $('#app').innerHTML=`<div class="wrap"><h2 class="serif">Cronograma</h2><p class="mute">Carregando…</p></div>`; return; }
+  const W=croSemanas(), h=hoje();
+  if(!CRO_INI){ CRO_INI=true; const wi=W.findIndex(w=>w.includes(h)); if(wi>=0){ CRO_AB.add('w'+wi); CRO_AB.add('d'+h); } }
+  const tot=W.flat().flatMap(croItens), fe=tot.filter(croFeito).length, pg=tot.length?Math.round(fe/tot.length*100):0;
+  const faltam=Math.max(0,diff(h,CRONO_DEF.prova));
+  const itemH=(d,x,i)=>{ const [ic]=CRO_TIPOS[x.tipo]||CRO_TIPOS.outro;
+    const acao=x.tipo==='leitura'&&x.sub?`<button class="crb" data-cro-mat="${esc(x.sub)}">Abrir</button>`:x.tipo==='sim'&&x.sim?`<button class="crb" data-cro-sim="${x.sim}">Fazer</button>`:x.tipo==='cards'?`<button class="crb" data-cro-ir="home">Ir</button>`:x.tipo==='vesp'?`<button class="crb" data-cro-vesp="1">Ir</button>`:'';
+    return `<div class="cri ${x.ok?'ok':''} cr-${x.tipo}"><button class="crk" data-cro-ck="${d}|${i}" aria-label="${x.ok?'Desmarcar':'Marcar como feito'}">${x.ok?'✓':''}</button>
+      <div class="crt" data-cro-ed="${d}|${i}"><small>${esc(x.h||'')}</small><span>${ic} ${esc(x.t)}</span></div>${acao}</div>`; };
+  const html=W.map((w,wi)=>{ const it=w.flatMap(croItens), f=it.filter(croFeito).length, p=it.length?Math.round(f/it.length*100):0, aw=CRO_AB.has('w'+wi), atual=w.includes(h);
+    const cab=`<div class="rowi crw ${aw?'op':''} ${p===100?'cheia':''}" role="button" data-cro-k="w${wi}"><span class="chv">▶</span><span class="tx">Semana ${wi+1} <span class="mute small">· ${ddmm(w[0])}–${ddmm(w[w.length-1])}</span>${atual?' <span class="crnow">esta semana</span>':''}</span><span class="crp">${p===100?'🏆':p+'%'}</span></div>`;
+    return cab+(aw?w.map(d=>{ const its=croItens(d), fd=its.filter(croFeito).length, ad=CRO_AB.has('d'+d), dn=new Date(d+'T12:00').getDay(), cheio=its.length&&fd===its.length;
+      return `<div class="rowi lv1 crd ${ad?'op':''} ${cheio?'cheio':''} ${d===h?'hj':''}" role="button" data-cro-k="d${d}"><span class="chv">▶</span><span class="tx">${DSEM[dn]} ${ddmm(d)}${d===h?' <span class="crnow">hoje</span>':''}</span><span class="crp">${cheio?'✓ feito':fd+'/'+its.length}</span></div>`+
+        (ad?`<div class="crdia">${its.map((x,i)=>itemH(d,x,i)).join('')}<button class="link cradd" data-cro-add="${d}">＋ Adicionar</button></div>`:''); }).join(''):''); }).join('');
+  const ex=(CRONO_DEF.extra||[]).filter(s=>{ const x=matItens().find(y=>y.sub===s); return x&&!matLido(x); });
+  $('#app').innerHTML=`<div class="wrap" id="cro">
+    <h2 class="serif">Cronograma</h2>
+    <p class="mute small" style="margin-top:-10px;margin-bottom:12px">${faltam?`Faltam ${faltam} dias para a prova (13/12).`:'Hoje é o dia da prova. Boa prova! 🍀'} Toque na semana e no dia para abrir · ✎ toque no texto para editar.</p>
+    <div class="mtop"><span class="b"><i style="width:${pg}%"></i></span><span class="v">${fe} de ${tot.length} feitos · ${pg}%</span></div>
+    <div class="rows" id="crL">${html}</div>
+    ${ex.length?`<div class="sec" style="margin-top:26px">Se sobrar tempo · ${ex.length} resumos</div><p class="mute small" style="margin:-2px 0 10px">Menor prioridade: ficaram fora do cronograma, mas continuam nos cards.</p><div class="rows">${ex.map(s=>`<div class="rowi lv1" role="button" data-cro-mat="${esc(s)}"><span class="tx">📖 ${esc(s)}</span></div>`).join('')}</div>`:''}
+  </div>`;
+  $('#cro').onclick=e=>{
+    const t=e.target;
+    const k=t.closest('[data-cro-k]'); if(k){ const v=k.dataset.croK; CRO_AB.has(v)?CRO_AB.delete(v):CRO_AB.add(v); return pCrono(); }
+    const ck=t.closest('[data-cro-ck]'); if(ck){ const [d,i]=ck.dataset.croCk.split('|'), its=croItens(d).map(x=>({...x})), x=its[+i]; x.ok=!x.ok; if(x.ok) x.okEm=Date.now(); else delete x.okEm;
+      if(x.ok&&x.tipo==='leitura'&&x.sub){ const m=matItens().find(y=>y.sub===x.sub); if(m&&!matLido(m)) matAlternar(m); }
+      croSalvar(d,its); vib(x.ok?12:6);
+      if(x.ok&&its.every(croFeito)){ toast('🎉 Dia concluído! Mandou bem'); const w=croSemanas().find(w=>w.includes(d)); if(w&&w.every(dd=>croItens(dd).every(croFeito))) setTimeout(()=>toast('🏆 Semana inteira concluída!'),1600); }
+      return pCrono(); }
+    const mt=t.closest('[data-cro-mat]'); if(mt){ const x=matItens().find(y=>y.sub===mt.dataset.croMat); if(x) abrirMat(x); else toast('Resumo não encontrado'); return; }
+    const sm=t.closest('[data-cro-sim]'); if(sm){ const f=sm.dataset.croSim; if(S.simAt&&!S.simAt.off&&S.simAt.ids) return simuMenu(); if(f==='area') return escolha('Qual área?',SIM_ORD.map(g=>({v:g,t:GN[g]})),'',g=>simuNovo('area',g)); return simuNovo(f); }
+    if(t.closest('[data-cro-ir]')) return ir('home');
+    if(t.closest('[data-cro-vesp]')){ const f=filaVespera(); return f.length?sessao(f,'vespera',null,'modo véspera'):toast('Nada para o modo véspera agora'); }
+    const ed=t.closest('[data-cro-ed]'); if(ed){ const [d,i]=ed.dataset.croEd.split('|'); return croEditar(d,+i); }
+    const ad=t.closest('[data-cro-add]'); if(ad) return croEditar(ad.dataset.croAdd,-1);
+  };
+}
+function croEditar(d,i){
+  const its=croItens(d).map(x=>({...x})), x=i>=0?its[i]:{h:'',t:'',tipo:'leitura'}, subs=[...new Set(CARDS.map(c=>c.sub))].sort(abc);
+  folha(`<div class="serif" style="font-size:21px;margin-bottom:8px">${i>=0?'Editar':'Adicionar'} · ${DSEM[new Date(d+'T12:00').getDay()]} ${ddmm(d)}</div>
+    <div class="tm">Horário</div><input class="srch" id="ceh" value="${esc(x.h||'')}" placeholder="ex.: 20:30–21:30">
+    <div class="tm">Tipo</div><select class="srch" id="cet">${Object.keys(CRO_TIPOS).map(k=>`<option value="${k}" ${k===x.tipo?'selected':''}>${CRO_TIPOS[k][0]} ${CRO_TIPOS[k][1]}</option>`).join('')}</select>
+    <div id="cesw"><div class="tm">Resumo do Material</div><input class="srch" id="ces" list="cesl" value="${esc(x.sub||'')}" placeholder="Digite para buscar…"><datalist id="cesl">${subs.map(s=>`<option value="${esc(s)}">`).join('')}</datalist></div>
+    <div class="tm">O que fazer</div><input class="srch" id="cex" value="${esc(x.tipo==='leitura'&&x.sub?'':x.t||'')}" placeholder="ex.: refazer questões de SUS">
+    <button class="btn" id="ceok" style="margin-top:14px">Salvar</button>
+    ${i>=0?`<button class="btn ghost" id="cedel" style="margin-top:10px">Apagar</button>`:''}`);
+  const sw=()=>{ $('#cesw').style.display=$('#cet').value==='leitura'?'':'none'; }; sw(); $('#cet').onchange=sw;
+  $('#ceok').onclick=()=>{ const tipo=$('#cet').value, sub=$('#ces').value.trim(), txt=$('#cex').value.trim();
+    if(tipo==='leitura'&&!sub&&!txt) return toast('Escolha o resumo ou escreva o que fazer');
+    if(tipo!=='leitura'&&!txt) return toast('Escreva o que fazer');
+    const n={...x,h:$('#ceh').value.trim(),tipo,t:tipo==='leitura'&&sub?'Ler: '+sub:txt};
+    if(tipo==='leitura'&&sub) n.sub=sub; else delete n.sub;
+    if(tipo!=='sim') delete n.sim; if(!n.id) n.id=d.slice(5).replace('-','')+'-u'+Date.now().toString(36);
+    if(i>=0) its[i]=n; else its.push(n);
+    croSalvar(d,its); fecharFolha(); CRO_AB.add('d'+d); pCrono(); toast('Salvo'); };
+  const dl=$('#cedel'); if(dl) dl.onclick=async()=>{ if(!(await confirmar('Apagar este item do cronograma?','Apagar'))) return; its.splice(i,1); croSalvar(d,its); fecharFolha(); pCrono(); };
 }
 
 /* ===== Simulado estilo prova (Selecting): 3 formatos, sem correção na hora, cronômetro, resultado por área ===== */

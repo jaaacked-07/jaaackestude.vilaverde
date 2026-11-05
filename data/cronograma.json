@@ -1,0 +1,1981 @@
+{
+ "v": 1,
+ "inicio": "2026-11-05",
+ "prova": "2026-12-13",
+ "dias": {
+  "2026-11-05": [
+   {
+    "id": "1105-01",
+    "h": "19:30–20:30",
+    "t": "Cards da fila do dia",
+    "tipo": "cards"
+   },
+   {
+    "id": "1105-02",
+    "h": "20:30–21:30",
+    "t": "Ler: Rastreamento de câncer e níveis de prevenção",
+    "tipo": "leitura",
+    "sub": "Rastreamento de câncer e níveis de prevenção"
+   },
+   {
+    "id": "1105-03",
+    "h": "20:30–21:30",
+    "t": "Ler: Cardiopatias congênitas e sopros na infância",
+    "tipo": "leitura",
+    "sub": "Cardiopatias congênitas e sopros na infância"
+   },
+   {
+    "id": "1105-04",
+    "h": "20:30–21:30",
+    "t": "Ler: Anticoncepção — métodos e critérios de elegibilidade",
+    "tipo": "leitura",
+    "sub": "Anticoncepção — métodos e critérios de elegibilidade"
+   },
+   {
+    "id": "1105-05",
+    "h": "21:30–22:15",
+    "t": "Mini simulado (25 questões)",
+    "tipo": "sim",
+    "sim": "mini"
+   },
+   {
+    "id": "1105-06",
+    "h": "22:15–22:30",
+    "t": "Revisar os erros do mini simulado",
+    "tipo": "rev"
+   }
+  ],
+  "2026-11-06": [
+   {
+    "id": "1106-01",
+    "h": "19:30–20:30",
+    "t": "Cards da fila do dia",
+    "tipo": "cards"
+   },
+   {
+    "id": "1106-02",
+    "h": "20:30–21:30",
+    "t": "Ler: Abdome agudo obstrutivo — bridas e vólvulo",
+    "tipo": "leitura",
+    "sub": "Abdome agudo obstrutivo — bridas e vólvulo"
+   },
+   {
+    "id": "1106-03",
+    "h": "20:30–21:30",
+    "t": "Ler: Distúrbios do sódio",
+    "tipo": "leitura",
+    "sub": "Distúrbios do sódio"
+   },
+   {
+    "id": "1106-04",
+    "h": "20:30–21:30",
+    "t": "Ler: Diabetes mellitus — diagnóstico, cetoacidose e iSGLT2",
+    "tipo": "leitura",
+    "sub": "Diabetes mellitus — diagnóstico, cetoacidose e iSGLT2"
+   },
+   {
+    "id": "1106-05",
+    "h": "21:30–22:15",
+    "t": "Mini simulado (25 questões)",
+    "tipo": "sim",
+    "sim": "mini"
+   },
+   {
+    "id": "1106-06",
+    "h": "22:15–22:30",
+    "t": "Revisar os erros do mini simulado",
+    "tipo": "rev"
+   }
+  ],
+  "2026-11-07": [
+   {
+    "id": "1107-01",
+    "h": "11:00–15:00",
+    "t": "Prova real Vila Verde JF 2024 (100 questões · 4 h)",
+    "tipo": "sim",
+    "sim": "r2024"
+   },
+   {
+    "id": "1107-02",
+    "h": "15:00–16:00",
+    "t": "Almoço e pausa",
+    "tipo": "pausa"
+   },
+   {
+    "id": "1107-03",
+    "h": "16:00–17:00",
+    "t": "Corrigir os erros do simulado",
+    "tipo": "rev"
+   },
+   {
+    "id": "1107-04",
+    "h": "17:00–19:00",
+    "t": "Ler: Vulvovaginites",
+    "tipo": "leitura",
+    "sub": "Vulvovaginites"
+   },
+   {
+    "id": "1107-05",
+    "h": "17:00–19:00",
+    "t": "Ler: Testes diagnósticos — sensibilidade, especificidade, valores preditivos e probabilidade pré-teste",
+    "tipo": "leitura",
+    "sub": "Testes diagnósticos — sensibilidade, especificidade, valores preditivos e probabilidade pré-teste"
+   },
+   {
+    "id": "1107-06",
+    "h": "17:00–19:00",
+    "t": "Ler: Doença falciforme — crises e síndrome torácica aguda",
+    "tipo": "leitura",
+    "sub": "Doença falciforme — crises e síndrome torácica aguda"
+   },
+   {
+    "id": "1107-07",
+    "h": "17:00–19:00",
+    "t": "Ler: Abdome agudo vascular — isquemia mesentérica",
+    "tipo": "leitura",
+    "sub": "Abdome agudo vascular — isquemia mesentérica"
+   },
+   {
+    "id": "1107-08",
+    "h": "17:00–19:00",
+    "t": "Ler: Distúrbios do potássio",
+    "tipo": "leitura",
+    "sub": "Distúrbios do potássio"
+   },
+   {
+    "id": "1107-09",
+    "h": "17:00–19:00",
+    "t": "Ler: Tuberculose",
+    "tipo": "leitura",
+    "sub": "Tuberculose"
+   }
+  ],
+  "2026-11-08": [
+   {
+    "id": "1108-01",
+    "h": "11:00–12:30",
+    "t": "Cards da fila do dia + atrasados",
+    "tipo": "cards"
+   },
+   {
+    "id": "1108-02",
+    "h": "12:30–15:00",
+    "t": "Ler: Desenhos de estudo e medidas de associação",
+    "tipo": "leitura",
+    "sub": "Desenhos de estudo e medidas de associação"
+   },
+   {
+    "id": "1108-03",
+    "h": "12:30–15:00",
+    "t": "Ler: Câncer de colo do útero",
+    "tipo": "leitura",
+    "sub": "Câncer de colo do útero"
+   },
+   {
+    "id": "1108-04",
+    "h": "12:30–15:00",
+    "t": "Ler: Coagulopatias — hemofilia e doença de von Willebrand",
+    "tipo": "leitura",
+    "sub": "Coagulopatias — hemofilia e doença de von Willebrand"
+   },
+   {
+    "id": "1108-05",
+    "h": "12:30–15:00",
+    "t": "Ler: Hérnias da parede abdominal — inguinal, femoral e umbilical",
+    "tipo": "leitura",
+    "sub": "Hérnias da parede abdominal — inguinal, femoral e umbilical"
+   },
+   {
+    "id": "1108-06",
+    "h": "12:30–15:00",
+    "t": "Ler: Hipertensão arterial sistêmica",
+    "tipo": "leitura",
+    "sub": "Hipertensão arterial sistêmica"
+   },
+   {
+    "id": "1108-07",
+    "h": "12:30–15:00",
+    "t": "Ler: Úlcera péptica, H. pylori, hemorragia digestiva alta e acalasia",
+    "tipo": "leitura",
+    "sub": "Úlcera péptica, H. pylori, hemorragia digestiva alta e acalasia"
+   },
+   {
+    "id": "1108-08",
+    "h": "12:30–15:00",
+    "t": "Ler: Calendário vacinal (PNI) — criança, adulto e idoso",
+    "tipo": "leitura",
+    "sub": "Calendário vacinal (PNI) — criança, adulto e idoso"
+   },
+   {
+    "id": "1108-09",
+    "h": "15:00–16:00",
+    "t": "Pausa",
+    "tipo": "pausa"
+   },
+   {
+    "id": "1108-10",
+    "h": "16:00–17:00",
+    "t": "Simulado por área (20 questões) na área mais fraca do painel",
+    "tipo": "sim",
+    "sim": "area"
+   },
+   {
+    "id": "1108-11",
+    "h": "17:00–19:00",
+    "t": "Ler: Pré-eclâmpsia e síndromes hipertensivas da gestação",
+    "tipo": "leitura",
+    "sub": "Pré-eclâmpsia e síndromes hipertensivas da gestação"
+   },
+   {
+    "id": "1108-12",
+    "h": "17:00–19:00",
+    "t": "Ler: Doenças exantemáticas",
+    "tipo": "leitura",
+    "sub": "Doenças exantemáticas"
+   },
+   {
+    "id": "1108-13",
+    "h": "17:00–19:00",
+    "t": "Ler: Inflamatório - Apendicite",
+    "tipo": "leitura",
+    "sub": "Inflamatório - Apendicite"
+   },
+   {
+    "id": "1108-14",
+    "h": "17:00–19:00",
+    "t": "Ler: Infecção urinária no adulto e pielonefrite",
+    "tipo": "leitura",
+    "sub": "Infecção urinária no adulto e pielonefrite"
+   },
+   {
+    "id": "1108-15",
+    "h": "17:00–19:00",
+    "t": "Ler: Pneumonia adquirida na comunidade e nódulo pulmonar",
+    "tipo": "leitura",
+    "sub": "Pneumonia adquirida na comunidade e nódulo pulmonar"
+   },
+   {
+    "id": "1108-16",
+    "h": "17:00–19:00",
+    "t": "Caderno de erros (aba Erros)",
+    "tipo": "rev"
+   }
+  ],
+  "2026-11-09": [
+   {
+    "id": "1109-01",
+    "h": "19:30–20:30",
+    "t": "Cards da fila do dia",
+    "tipo": "cards"
+   },
+   {
+    "id": "1109-02",
+    "h": "20:30–21:30",
+    "t": "Ler: Bioestatística e medicina baseada em evidências",
+    "tipo": "leitura",
+    "sub": "Bioestatística e medicina baseada em evidências"
+   },
+   {
+    "id": "1109-03",
+    "h": "20:30–21:30",
+    "t": "Ler: Urologia pediátrica — hipospádia, criptorquidia e refluxo vesicoureteral",
+    "tipo": "leitura",
+    "sub": "Urologia pediátrica — hipospádia, criptorquidia e refluxo vesicoureteral"
+   },
+   {
+    "id": "1109-04",
+    "h": "20:30–21:30",
+    "t": "Ler: Diabetes mellitus gestacional",
+    "tipo": "leitura",
+    "sub": "Diabetes mellitus gestacional"
+   },
+   {
+    "id": "1109-05",
+    "h": "21:30–22:15",
+    "t": "Mini simulado (25 questões)",
+    "tipo": "sim",
+    "sim": "mini"
+   },
+   {
+    "id": "1109-06",
+    "h": "22:15–22:30",
+    "t": "Revisar os erros do mini simulado",
+    "tipo": "rev"
+   }
+  ],
+  "2026-11-10": [
+   {
+    "id": "1110-01",
+    "h": "19:30–20:30",
+    "t": "Cards da fila do dia",
+    "tipo": "cards"
+   },
+   {
+    "id": "1110-02",
+    "h": "20:30–21:30",
+    "t": "Ler: Inflamatório - Colecistite aguda",
+    "tipo": "leitura",
+    "sub": "Inflamatório - Colecistite aguda"
+   },
+   {
+    "id": "1110-03",
+    "h": "20:30–21:30",
+    "t": "Ler: Insuficiência cardíaca, edema agudo de pulmão e choque cardiogênico",
+    "tipo": "leitura",
+    "sub": "Insuficiência cardíaca, edema agudo de pulmão e choque cardiogênico"
+   },
+   {
+    "id": "1110-04",
+    "h": "20:30–21:30",
+    "t": "Ler: Anemias — classificação, megaloblástica, hemolíticas, von Willebrand e transfusão",
+    "tipo": "leitura",
+    "sub": "Anemias — classificação, megaloblástica, hemolíticas, von Willebrand e transfusão"
+   },
+   {
+    "id": "1110-05",
+    "h": "21:30–22:15",
+    "t": "Mini simulado (25 questões)",
+    "tipo": "sim",
+    "sim": "mini"
+   },
+   {
+    "id": "1110-06",
+    "h": "22:15–22:30",
+    "t": "Revisar os erros do mini simulado",
+    "tipo": "rev"
+   }
+  ],
+  "2026-11-11": [
+   {
+    "id": "1111-01",
+    "h": "19:30–20:30",
+    "t": "Cards da fila do dia",
+    "tipo": "cards"
+   },
+   {
+    "id": "1111-02",
+    "h": "20:30–21:30",
+    "t": "Ler: Processo saúde-doença — modelos explicativos e fatores de risco",
+    "tipo": "leitura",
+    "sub": "Processo saúde-doença — modelos explicativos e fatores de risco"
+   },
+   {
+    "id": "1111-03",
+    "h": "20:30–21:30",
+    "t": "Ler: Procedimentos — acesso venoso central, toracocentese e suturas",
+    "tipo": "leitura",
+    "sub": "Procedimentos — acesso venoso central, toracocentese e suturas"
+   },
+   {
+    "id": "1111-04",
+    "h": "20:30–21:30",
+    "t": "Ler: Sangramento uterino anormal",
+    "tipo": "leitura",
+    "sub": "Sangramento uterino anormal"
+   },
+   {
+    "id": "1111-05",
+    "h": "21:30–22:15",
+    "t": "Mini simulado (25 questões)",
+    "tipo": "sim",
+    "sim": "mini"
+   },
+   {
+    "id": "1111-06",
+    "h": "22:15–22:30",
+    "t": "Revisar os erros do mini simulado",
+    "tipo": "rev"
+   }
+  ],
+  "2026-11-12": [
+   {
+    "id": "1112-01",
+    "h": "19:30–20:30",
+    "t": "Cards da fila do dia",
+    "tipo": "cards"
+   },
+   {
+    "id": "1112-02",
+    "h": "20:30–21:30",
+    "t": "Ler: Infecção urinária na criança",
+    "tipo": "leitura",
+    "sub": "Infecção urinária na criança"
+   },
+   {
+    "id": "1112-03",
+    "h": "20:30–21:30",
+    "t": "Ler: Doença renal crônica",
+    "tipo": "leitura",
+    "sub": "Doença renal crônica"
+   },
+   {
+    "id": "1112-04",
+    "h": "20:30–21:30",
+    "t": "Ler: DPOC",
+    "tipo": "leitura",
+    "sub": "DPOC"
+   },
+   {
+    "id": "1112-05",
+    "h": "21:30–22:15",
+    "t": "Mini simulado (25 questões)",
+    "tipo": "sim",
+    "sim": "mini"
+   },
+   {
+    "id": "1112-06",
+    "h": "22:15–22:30",
+    "t": "Revisar os erros do mini simulado",
+    "tipo": "rev"
+   }
+  ],
+  "2026-11-13": [
+   {
+    "id": "1113-01",
+    "h": "19:30–20:30",
+    "t": "Cards da fila do dia",
+    "tipo": "cards"
+   },
+   {
+    "id": "1113-02",
+    "h": "20:30–21:30",
+    "t": "Ler: Medidas de frequência — incidência e prevalência",
+    "tipo": "leitura",
+    "sub": "Medidas de frequência — incidência e prevalência"
+   },
+   {
+    "id": "1113-03",
+    "h": "20:30–21:30",
+    "t": "Ler: Endometriose e adenomiose",
+    "tipo": "leitura",
+    "sub": "Endometriose e adenomiose"
+   },
+   {
+    "id": "1113-04",
+    "h": "20:30–21:30",
+    "t": "Ler: Abdome agudo — classificação e conduta geral",
+    "tipo": "leitura",
+    "sub": "Abdome agudo — classificação e conduta geral"
+   },
+   {
+    "id": "1113-05",
+    "h": "21:30–22:15",
+    "t": "Mini simulado (25 questões)",
+    "tipo": "sim",
+    "sim": "mini"
+   },
+   {
+    "id": "1113-06",
+    "h": "22:15–22:30",
+    "t": "Revisar os erros do mini simulado",
+    "tipo": "rev"
+   }
+  ],
+  "2026-11-14": [
+   {
+    "id": "1114-01",
+    "h": "11:00–15:00",
+    "t": "Prova real Vila Verde JF 2025 (100 questões · 4 h)",
+    "tipo": "sim",
+    "sim": "r2025"
+   },
+   {
+    "id": "1114-02",
+    "h": "15:00–16:00",
+    "t": "Almoço e pausa",
+    "tipo": "pausa"
+   },
+   {
+    "id": "1114-03",
+    "h": "16:00–17:00",
+    "t": "Corrigir os erros do simulado",
+    "tipo": "rev"
+   },
+   {
+    "id": "1114-04",
+    "h": "17:00–19:00",
+    "t": "Ler: Aleitamento materno — Dez Passos e IHAC",
+    "tipo": "leitura",
+    "sub": "Aleitamento materno — Dez Passos e IHAC"
+   },
+   {
+    "id": "1114-05",
+    "h": "17:00–19:00",
+    "t": "Ler: AIT, AVC isquêmico agudo e encefalite herpética",
+    "tipo": "leitura",
+    "sub": "AIT, AVC isquêmico agudo e encefalite herpética"
+   },
+   {
+    "id": "1114-06",
+    "h": "17:00–19:00",
+    "t": "Ler: Tromboembolismo pulmonar (TEP)",
+    "tipo": "leitura",
+    "sub": "Tromboembolismo pulmonar (TEP)"
+   },
+   {
+    "id": "1114-07",
+    "h": "17:00–19:00",
+    "t": "Ler: Princípios do SUS e controle social",
+    "tipo": "leitura",
+    "sub": "Princípios do SUS e controle social"
+   },
+   {
+    "id": "1114-08",
+    "h": "17:00–19:00",
+    "t": "Ler: Fisiologia da gestação e datação",
+    "tipo": "leitura",
+    "sub": "Fisiologia da gestação e datação"
+   },
+   {
+    "id": "1114-09",
+    "h": "17:00–19:00",
+    "t": "Ler: Anestesia — anestésicos locais, intubação em sequência rápida e analgesia",
+    "tipo": "leitura",
+    "sub": "Anestesia — anestésicos locais, intubação em sequência rápida e analgesia"
+   }
+  ],
+  "2026-11-15": [
+   {
+    "id": "1115-01",
+    "h": "11:00–12:30",
+    "t": "Cards da fila do dia + atrasados",
+    "tipo": "cards"
+   },
+   {
+    "id": "1115-02",
+    "h": "12:30–15:00",
+    "t": "Ler: Infecções congênitas (TORCH) e sífilis congênita",
+    "tipo": "leitura",
+    "sub": "Infecções congênitas (TORCH) e sífilis congênita"
+   },
+   {
+    "id": "1115-03",
+    "h": "12:30–15:00",
+    "t": "Ler: Ascite — GASA e PBE",
+    "tipo": "leitura",
+    "sub": "Ascite — GASA e PBE"
+   },
+   {
+    "id": "1115-04",
+    "h": "12:30–15:00",
+    "t": "Ler: Dengue e arboviroses",
+    "tipo": "leitura",
+    "sub": "Dengue e arboviroses"
+   },
+   {
+    "id": "1115-05",
+    "h": "12:30–15:00",
+    "t": "Ler: Atributos da APS (Starfield) e PNAB",
+    "tipo": "leitura",
+    "sub": "Atributos da APS (Starfield) e PNAB"
+   },
+   {
+    "id": "1115-06",
+    "h": "12:30–15:00",
+    "t": "Ler: Sífilis na gestação",
+    "tipo": "leitura",
+    "sub": "Sífilis na gestação"
+   },
+   {
+    "id": "1115-07",
+    "h": "12:30–15:00",
+    "t": "Ler: Pancreatite aguda",
+    "tipo": "leitura",
+    "sub": "Pancreatite aguda"
+   },
+   {
+    "id": "1115-08",
+    "h": "12:30–15:00",
+    "t": "Ler: Mononucleose infecciosa",
+    "tipo": "leitura",
+    "sub": "Mononucleose infecciosa"
+   },
+   {
+    "id": "1115-09",
+    "h": "15:00–16:00",
+    "t": "Pausa",
+    "tipo": "pausa"
+   },
+   {
+    "id": "1115-10",
+    "h": "16:00–17:00",
+    "t": "Simulado por área (20 questões) na área mais fraca do painel",
+    "tipo": "sim",
+    "sim": "area"
+   },
+   {
+    "id": "1115-11",
+    "h": "17:00–19:00",
+    "t": "Ler: Crescimento e baixa estatura",
+    "tipo": "leitura",
+    "sub": "Crescimento e baixa estatura"
+   },
+   {
+    "id": "1115-12",
+    "h": "17:00–19:00",
+    "t": "Ler: Cefaleia e vertigem — sinais de alarme, enxaqueca e VPPB",
+    "tipo": "leitura",
+    "sub": "Cefaleia e vertigem — sinais de alarme, enxaqueca e VPPB"
+   },
+   {
+    "id": "1115-13",
+    "h": "17:00–19:00",
+    "t": "Ler: Conceitos de epidemiologia — cadeia epidemiológica, surto, epidemia e endemia",
+    "tipo": "leitura",
+    "sub": "Conceitos de epidemiologia — cadeia epidemiológica, surto, epidemia e endemia"
+   },
+   {
+    "id": "1115-14",
+    "h": "17:00–19:00",
+    "t": "Ler: Mama — nódulo, BI-RADS e rastreamento",
+    "tipo": "leitura",
+    "sub": "Mama — nódulo, BI-RADS e rastreamento"
+   },
+   {
+    "id": "1115-15",
+    "h": "17:00–19:00",
+    "t": "Ler: Abdome agudo perfurativo — úlcera péptica perfurada",
+    "tipo": "leitura",
+    "sub": "Abdome agudo perfurativo — úlcera péptica perfurada"
+   },
+   {
+    "id": "1115-16",
+    "h": "17:00–19:00",
+    "t": "Caderno de erros (aba Erros)",
+    "tipo": "rev"
+   }
+  ],
+  "2026-11-16": [
+   {
+    "id": "1116-01",
+    "h": "19:30–20:30",
+    "t": "Cards da fila do dia",
+    "tipo": "cards"
+   },
+   {
+    "id": "1116-02",
+    "h": "20:30–21:30",
+    "t": "Ler: Reanimação neonatal",
+    "tipo": "leitura",
+    "sub": "Reanimação neonatal"
+   },
+   {
+    "id": "1116-03",
+    "h": "20:30–21:30",
+    "t": "Ler: Distúrbios ácido-base",
+    "tipo": "leitura",
+    "sub": "Distúrbios ácido-base"
+   },
+   {
+    "id": "1116-04",
+    "h": "20:30–21:30",
+    "t": "Ler: Hepatites virais e provas de função hepática",
+    "tipo": "leitura",
+    "sub": "Hepatites virais e provas de função hepática"
+   },
+   {
+    "id": "1116-05",
+    "h": "21:30–22:15",
+    "t": "Mini simulado (25 questões)",
+    "tipo": "sim",
+    "sim": "mini"
+   },
+   {
+    "id": "1116-06",
+    "h": "22:15–22:30",
+    "t": "Revisar os erros do mini simulado",
+    "tipo": "rev"
+   }
+  ],
+  "2026-11-17": [
+   {
+    "id": "1117-01",
+    "h": "19:30–20:30",
+    "t": "Cards da fila do dia",
+    "tipo": "cards"
+   },
+   {
+    "id": "1117-02",
+    "h": "20:30–21:30",
+    "t": "Ler: Notificação imediata",
+    "tipo": "leitura",
+    "sub": "Notificação imediata"
+   },
+   {
+    "id": "1117-03",
+    "h": "20:30–21:30",
+    "t": "Ler: Gravidez ectópica",
+    "tipo": "leitura",
+    "sub": "Gravidez ectópica"
+   },
+   {
+    "id": "1117-04",
+    "h": "20:30–21:30",
+    "t": "Ler: Trauma torácico",
+    "tipo": "leitura",
+    "sub": "Trauma torácico"
+   },
+   {
+    "id": "1117-05",
+    "h": "21:30–22:15",
+    "t": "Mini simulado (25 questões)",
+    "tipo": "sim",
+    "sim": "mini"
+   },
+   {
+    "id": "1117-06",
+    "h": "22:15–22:30",
+    "t": "Revisar os erros do mini simulado",
+    "tipo": "rev"
+   }
+  ],
+  "2026-11-18": [
+   {
+    "id": "1118-01",
+    "h": "19:30–20:30",
+    "t": "Cards da fila do dia",
+    "tipo": "cards"
+   },
+   {
+    "id": "1118-02",
+    "h": "20:30–21:30",
+    "t": "Ler: Distúrbios respiratórios do RN — TTRN, aspiração de mecônio e hipertensão pulmonar",
+    "tipo": "leitura",
+    "sub": "Distúrbios respiratórios do RN — TTRN, aspiração de mecônio e hipertensão pulmonar"
+   },
+   {
+    "id": "1118-03",
+    "h": "20:30–21:30",
+    "t": "Ler: Espiroquetoses — leptospirose, doença de Lyme e febre recorrente",
+    "tipo": "leitura",
+    "sub": "Espiroquetoses — leptospirose, doença de Lyme e febre recorrente"
+   },
+   {
+    "id": "1118-04",
+    "h": "20:30–21:30",
+    "t": "Ler: Tireoide — hipotireoidismo subclínico, tireoidites e hipertireoidismo",
+    "tipo": "leitura",
+    "sub": "Tireoide — hipotireoidismo subclínico, tireoidites e hipertireoidismo"
+   },
+   {
+    "id": "1118-05",
+    "h": "21:30–22:15",
+    "t": "Mini simulado (25 questões)",
+    "tipo": "sim",
+    "sim": "mini"
+   },
+   {
+    "id": "1118-06",
+    "h": "22:15–22:30",
+    "t": "Revisar os erros do mini simulado",
+    "tipo": "rev"
+   }
+  ],
+  "2026-11-19": [
+   {
+    "id": "1119-01",
+    "h": "19:30–20:30",
+    "t": "Cards da fila do dia",
+    "tipo": "cards"
+   },
+   {
+    "id": "1119-02",
+    "h": "20:30–21:30",
+    "t": "Ler: Indicadores demográficos e de saúde",
+    "tipo": "leitura",
+    "sub": "Indicadores demográficos e de saúde"
+   },
+   {
+    "id": "1119-03",
+    "h": "20:30–21:30",
+    "t": "Ler: Sofrimento fetal agudo — CTG",
+    "tipo": "leitura",
+    "sub": "Sofrimento fetal agudo — CTG"
+   },
+   {
+    "id": "1119-04",
+    "h": "20:30–21:30",
+    "t": "Ler: Trauma abdominal",
+    "tipo": "leitura",
+    "sub": "Trauma abdominal"
+   },
+   {
+    "id": "1119-05",
+    "h": "21:30–22:15",
+    "t": "Mini simulado (25 questões)",
+    "tipo": "sim",
+    "sim": "mini"
+   },
+   {
+    "id": "1119-06",
+    "h": "22:15–22:30",
+    "t": "Revisar os erros do mini simulado",
+    "tipo": "rev"
+   }
+  ],
+  "2026-11-20": [
+   {
+    "id": "1120-01",
+    "h": "19:30–20:30",
+    "t": "Cards da fila do dia",
+    "tipo": "cards"
+   },
+   {
+    "id": "1120-02",
+    "h": "20:30–21:30",
+    "t": "Ler: Febre reumática",
+    "tipo": "leitura",
+    "sub": "Febre reumática"
+   },
+   {
+    "id": "1120-03",
+    "h": "20:30–21:30",
+    "t": "Ler: Atelectasia e abscesso pulmonar",
+    "tipo": "leitura",
+    "sub": "Atelectasia e abscesso pulmonar"
+   },
+   {
+    "id": "1120-04",
+    "h": "20:30–21:30",
+    "t": "Ler: Câncer Hematológico",
+    "tipo": "leitura",
+    "sub": "Câncer Hematológico"
+   },
+   {
+    "id": "1120-05",
+    "h": "21:30–22:15",
+    "t": "Mini simulado (25 questões)",
+    "tipo": "sim",
+    "sim": "mini"
+   },
+   {
+    "id": "1120-06",
+    "h": "22:15–22:30",
+    "t": "Revisar os erros do mini simulado",
+    "tipo": "rev"
+   }
+  ],
+  "2026-11-21": [
+   {
+    "id": "1121-01",
+    "h": "11:00–15:00",
+    "t": "Simulado completo do app (100 questões · 4 h)",
+    "tipo": "sim",
+    "sim": "completo"
+   },
+   {
+    "id": "1121-02",
+    "h": "15:00–16:00",
+    "t": "Almoço e pausa",
+    "tipo": "pausa"
+   },
+   {
+    "id": "1121-03",
+    "h": "16:00–17:00",
+    "t": "Corrigir os erros do simulado",
+    "tipo": "rev"
+   },
+   {
+    "id": "1121-04",
+    "h": "17:00–19:00",
+    "t": "Ler: Pré-natal — exames de rotina, toxoplasmose, estreptococo do grupo B e vacinas",
+    "tipo": "leitura",
+    "sub": "Pré-natal — exames de rotina, toxoplasmose, estreptococo do grupo B e vacinas"
+   },
+   {
+    "id": "1121-05",
+    "h": "17:00–19:00",
+    "t": "Ler: Choque — tipos e perfil hemodinâmico",
+    "tipo": "leitura",
+    "sub": "Choque — tipos e perfil hemodinâmico"
+   },
+   {
+    "id": "1121-06",
+    "h": "17:00–19:00",
+    "t": "Ler: Tabagismo e estágios de mudança",
+    "tipo": "leitura",
+    "sub": "Tabagismo e estágios de mudança"
+   },
+   {
+    "id": "1121-07",
+    "h": "17:00–19:00",
+    "t": "Ler: Desenvolvimento neuropsicomotor — marcos",
+    "tipo": "leitura",
+    "sub": "Desenvolvimento neuropsicomotor — marcos"
+   },
+   {
+    "id": "1121-08",
+    "h": "17:00–19:00",
+    "t": "Ler: Síndrome nefrótica",
+    "tipo": "leitura",
+    "sub": "Síndrome nefrótica"
+   },
+   {
+    "id": "1121-09",
+    "h": "17:00–19:00",
+    "t": "Ler: Lesão renal aguda",
+    "tipo": "leitura",
+    "sub": "Lesão renal aguda"
+   }
+  ],
+  "2026-11-22": [
+   {
+    "id": "1122-01",
+    "h": "11:00–12:30",
+    "t": "Cards da fila do dia + atrasados",
+    "tipo": "cards"
+   },
+   {
+    "id": "1122-02",
+    "h": "12:30–15:00",
+    "t": "Ler: Doença inflamatória pélvica (DIP)",
+    "tipo": "leitura",
+    "sub": "Doença inflamatória pélvica (DIP)"
+   },
+   {
+    "id": "1122-03",
+    "h": "12:30–15:00",
+    "t": "Ler: Divertículos — Zenker e doença diverticular dos cólons",
+    "tipo": "leitura",
+    "sub": "Divertículos — Zenker e doença diverticular dos cólons"
+   },
+   {
+    "id": "1122-04",
+    "h": "12:30–15:00",
+    "t": "Ler: Abordagem familiar e método clínico centrado na pessoa",
+    "tipo": "leitura",
+    "sub": "Abordagem familiar e método clínico centrado na pessoa"
+   },
+   {
+    "id": "1122-05",
+    "h": "12:30–15:00",
+    "t": "Ler: Pneumonia na infância",
+    "tipo": "leitura",
+    "sub": "Pneumonia na infância"
+   },
+   {
+    "id": "1122-06",
+    "h": "12:30–15:00",
+    "t": "Ler: HIV/aids — diagnóstico, tratamento e profilaxias",
+    "tipo": "leitura",
+    "sub": "HIV/aids — diagnóstico, tratamento e profilaxias"
+   },
+   {
+    "id": "1122-07",
+    "h": "12:30–15:00",
+    "t": "Ler: Sepse e choque séptico",
+    "tipo": "leitura",
+    "sub": "Sepse e choque séptico"
+   },
+   {
+    "id": "1122-08",
+    "h": "12:30–15:00",
+    "t": "Ler: Câncer de mama — subtipos moleculares e tratamento",
+    "tipo": "leitura",
+    "sub": "Câncer de mama — subtipos moleculares e tratamento"
+   },
+   {
+    "id": "1122-09",
+    "h": "15:00–16:00",
+    "t": "Pausa",
+    "tipo": "pausa"
+   },
+   {
+    "id": "1122-10",
+    "h": "16:00–17:00",
+    "t": "Simulado por área (20 questões) na área mais fraca do painel",
+    "tipo": "sim",
+    "sim": "area"
+   },
+   {
+    "id": "1122-11",
+    "h": "17:00–19:00",
+    "t": "Ler: Cirrose — Child-Pugh e MELD",
+    "tipo": "leitura",
+    "sub": "Cirrose — Child-Pugh e MELD"
+   },
+   {
+    "id": "1122-12",
+    "h": "17:00–19:00",
+    "t": "Ler: Comunicação de más notícias — SPIKES",
+    "tipo": "leitura",
+    "sub": "Comunicação de más notícias — SPIKES"
+   },
+   {
+    "id": "1122-13",
+    "h": "17:00–19:00",
+    "t": "Ler: Icterícia neonatal — fisiológica, patológica, fototerapia e colestase",
+    "tipo": "leitura",
+    "sub": "Icterícia neonatal — fisiológica, patológica, fototerapia e colestase"
+   },
+   {
+    "id": "1122-14",
+    "h": "17:00–19:00",
+    "t": "Ler: Alergia — angioedema e reações adversas a drogas",
+    "tipo": "leitura",
+    "sub": "Alergia — angioedema e reações adversas a drogas"
+   },
+   {
+    "id": "1122-15",
+    "h": "17:00–19:00",
+    "t": "Ler: Diabetes mellitus — tratamento do DM2 e complicações crônicas",
+    "tipo": "leitura",
+    "sub": "Diabetes mellitus — tratamento do DM2 e complicações crônicas"
+   },
+   {
+    "id": "1122-16",
+    "h": "17:00–19:00",
+    "t": "Caderno de erros (aba Erros)",
+    "tipo": "rev"
+   }
+  ],
+  "2026-11-23": [
+   {
+    "id": "1123-01",
+    "h": "19:30–20:30",
+    "t": "Cards da fila do dia",
+    "tipo": "cards"
+   },
+   {
+    "id": "1123-02",
+    "h": "20:30–21:30",
+    "t": "Ler: Climatério — terapia hormonal",
+    "tipo": "leitura",
+    "sub": "Climatério — terapia hormonal"
+   },
+   {
+    "id": "1123-03",
+    "h": "20:30–21:30",
+    "t": "Ler: Dislipidemia e prevenção cardiovascular",
+    "tipo": "leitura",
+    "sub": "Dislipidemia e prevenção cardiovascular"
+   },
+   {
+    "id": "1123-04",
+    "h": "20:30–21:30",
+    "t": "Ler: Antibioticoprofilaxia cirúrgica",
+    "tipo": "leitura",
+    "sub": "Antibioticoprofilaxia cirúrgica"
+   },
+   {
+    "id": "1123-05",
+    "h": "21:30–22:15",
+    "t": "Mini simulado (25 questões)",
+    "tipo": "sim",
+    "sim": "mini"
+   },
+   {
+    "id": "1123-06",
+    "h": "22:15–22:30",
+    "t": "Revisar os erros do mini simulado",
+    "tipo": "rev"
+   }
+  ],
+  "2026-11-24": [
+   {
+    "id": "1124-01",
+    "h": "19:30–20:30",
+    "t": "Cards da fila do dia",
+    "tipo": "cards"
+   },
+   {
+    "id": "1124-02",
+    "h": "20:30–21:30",
+    "t": "Ler: Epilepsia — crises, síndromes e convulsão febril",
+    "tipo": "leitura",
+    "sub": "Epilepsia — crises, síndromes e convulsão febril"
+   },
+   {
+    "id": "1124-03",
+    "h": "20:30–21:30",
+    "t": "Ler: Asma",
+    "tipo": "leitura",
+    "sub": "Asma"
+   },
+   {
+    "id": "1124-04",
+    "h": "20:30–21:30",
+    "t": "Ler: Meningites — bacteriana, viral e tuberculosa",
+    "tipo": "leitura",
+    "sub": "Meningites — bacteriana, viral e tuberculosa"
+   },
+   {
+    "id": "1124-05",
+    "h": "21:30–22:15",
+    "t": "Mini simulado (25 questões)",
+    "tipo": "sim",
+    "sim": "mini"
+   },
+   {
+    "id": "1124-06",
+    "h": "22:15–22:30",
+    "t": "Revisar os erros do mini simulado",
+    "tipo": "rev"
+   }
+  ],
+  "2026-11-25": [
+   {
+    "id": "1125-01",
+    "h": "19:30–20:30",
+    "t": "Cards da fila do dia",
+    "tipo": "cards"
+   },
+   {
+    "id": "1125-02",
+    "h": "20:30–21:30",
+    "t": "Ler: Hemorragia pós-parto",
+    "tipo": "leitura",
+    "sub": "Hemorragia pós-parto"
+   },
+   {
+    "id": "1125-03",
+    "h": "20:30–21:30",
+    "t": "Ler: Cicatrização de feridas",
+    "tipo": "leitura",
+    "sub": "Cicatrização de feridas"
+   },
+   {
+    "id": "1125-04",
+    "h": "20:30–21:30",
+    "t": "Ler: Derrame pleural",
+    "tipo": "leitura",
+    "sub": "Derrame pleural"
+   },
+   {
+    "id": "1125-05",
+    "h": "21:30–22:15",
+    "t": "Mini simulado (25 questões)",
+    "tipo": "sim",
+    "sim": "mini"
+   },
+   {
+    "id": "1125-06",
+    "h": "22:15–22:30",
+    "t": "Revisar os erros do mini simulado",
+    "tipo": "rev"
+   }
+  ],
+  "2026-11-26": [
+   {
+    "id": "1126-01",
+    "h": "19:30–20:30",
+    "t": "Cards da fila do dia",
+    "tipo": "cards"
+   },
+   {
+    "id": "1126-02",
+    "h": "20:30–21:30",
+    "t": "Ler: Endocardite infecciosa",
+    "tipo": "leitura",
+    "sub": "Endocardite infecciosa"
+   },
+   {
+    "id": "1126-03",
+    "h": "20:30–21:30",
+    "t": "Ler: Sepse neonatal",
+    "tipo": "leitura",
+    "sub": "Sepse neonatal"
+   },
+   {
+    "id": "1126-04",
+    "h": "20:30–21:30",
+    "t": "Ler: Violência — notificação e atendimento à violência sexual",
+    "tipo": "leitura",
+    "sub": "Violência — notificação e atendimento à violência sexual"
+   },
+   {
+    "id": "1126-05",
+    "h": "21:30–22:15",
+    "t": "Mini simulado (25 questões)",
+    "tipo": "sim",
+    "sim": "mini"
+   },
+   {
+    "id": "1126-06",
+    "h": "22:15–22:30",
+    "t": "Revisar os erros do mini simulado",
+    "tipo": "rev"
+   }
+  ],
+  "2026-11-27": [
+   {
+    "id": "1127-01",
+    "h": "Dia todo",
+    "t": "🎓 Colação de grau — dia livre",
+    "tipo": "livre"
+   }
+  ],
+  "2026-11-28": [
+   {
+    "id": "1128-01",
+    "h": "11:00–15:00",
+    "t": "Simulado completo do app (100 questões · 4 h)",
+    "tipo": "sim",
+    "sim": "completo"
+   },
+   {
+    "id": "1128-02",
+    "h": "15:00–16:00",
+    "t": "Almoço e pausa",
+    "tipo": "pausa"
+   },
+   {
+    "id": "1128-03",
+    "h": "16:00–17:00",
+    "t": "Corrigir os erros do simulado",
+    "tipo": "rev"
+   },
+   {
+    "id": "1128-04",
+    "h": "17:00–19:00",
+    "t": "Ler: Sangramento da 2ª metade — DPP, placenta prévia, acretismo, vasa prévia e rotura uterina",
+    "tipo": "leitura",
+    "sub": "Sangramento da 2ª metade — DPP, placenta prévia, acretismo, vasa prévia e rotura uterina"
+   },
+   {
+    "id": "1128-05",
+    "h": "17:00–19:00",
+    "t": "Ler: Câncer de tireoide",
+    "tipo": "leitura",
+    "sub": "Câncer de tireoide"
+   },
+   {
+    "id": "1128-06",
+    "h": "17:00–19:00",
+    "t": "Ler: Síndrome coronariana aguda — IAM com e sem supra de ST",
+    "tipo": "leitura",
+    "sub": "Síndrome coronariana aguda — IAM com e sem supra de ST"
+   },
+   {
+    "id": "1128-07",
+    "h": "17:00–19:00",
+    "t": "Ler: Fibrilação atrial e taquiarritmias",
+    "tipo": "leitura",
+    "sub": "Fibrilação atrial e taquiarritmias"
+   },
+   {
+    "id": "1128-08",
+    "h": "17:00–19:00",
+    "t": "Ler: Triagem neonatal — testes do pezinho, orelhinha, olhinho e coraçãozinho",
+    "tipo": "leitura",
+    "sub": "Triagem neonatal — testes do pezinho, orelhinha, olhinho e coraçãozinho"
+   },
+   {
+    "id": "1128-09",
+    "h": "17:00–19:00",
+    "t": "Ler: Avaliação geriátrica ampla e polifarmácia",
+    "tipo": "leitura",
+    "sub": "Avaliação geriátrica ampla e polifarmácia"
+   }
+  ],
+  "2026-11-29": [
+   {
+    "id": "1129-01",
+    "h": "11:00–12:30",
+    "t": "Cards da fila do dia + atrasados",
+    "tipo": "cards"
+   },
+   {
+    "id": "1129-02",
+    "h": "12:30–15:00",
+    "t": "Ler: Incontinência urinária",
+    "tipo": "leitura",
+    "sub": "Incontinência urinária"
+   },
+   {
+    "id": "1129-03",
+    "h": "12:30–15:00",
+    "t": "Ler: Valvopatias",
+    "tipo": "leitura",
+    "sub": "Valvopatias"
+   },
+   {
+    "id": "1129-04",
+    "h": "12:30–15:00",
+    "t": "Ler: Parada cardiorrespiratória — suporte avançado de vida (ACLS)",
+    "tipo": "leitura",
+    "sub": "Parada cardiorrespiratória — suporte avançado de vida (ACLS)"
+   },
+   {
+    "id": "1129-05",
+    "h": "12:30–15:00",
+    "t": "Ler: Atendimento inicial ao politraumatizado — ATLS",
+    "tipo": "leitura",
+    "sub": "Atendimento inicial ao politraumatizado — ATLS"
+   },
+   {
+    "id": "1129-06",
+    "h": "12:30–15:00",
+    "t": "Ler: Doença de Kawasaki",
+    "tipo": "leitura",
+    "sub": "Doença de Kawasaki"
+   },
+   {
+    "id": "1129-07",
+    "h": "12:30–15:00",
+    "t": "Ler: Saúde do trabalhador",
+    "tipo": "leitura",
+    "sub": "Saúde do trabalhador"
+   },
+   {
+    "id": "1129-08",
+    "h": "12:30–15:00",
+    "t": "Ler: Prematuridade — prevenção e trabalho de parto prematuro",
+    "tipo": "leitura",
+    "sub": "Prematuridade — prevenção e trabalho de parto prematuro"
+   },
+   {
+    "id": "1129-09",
+    "h": "15:00–16:00",
+    "t": "Pausa",
+    "tipo": "pausa"
+   },
+   {
+    "id": "1129-10",
+    "h": "16:00–17:00",
+    "t": "Simulado por área (20 questões) na área mais fraca do painel",
+    "tipo": "sim",
+    "sim": "area"
+   },
+   {
+    "id": "1129-11",
+    "h": "17:00–19:00",
+    "t": "Ler: Trombose venosa profunda e anticoagulação",
+    "tipo": "leitura",
+    "sub": "Trombose venosa profunda e anticoagulação"
+   },
+   {
+    "id": "1129-12",
+    "h": "17:00–19:00",
+    "t": "Ler: Queimaduras",
+    "tipo": "leitura",
+    "sub": "Queimaduras"
+   },
+   {
+    "id": "1129-13",
+    "h": "17:00–19:00",
+    "t": "Ler: Hanseníase",
+    "tipo": "leitura",
+    "sub": "Hanseníase"
+   },
+   {
+    "id": "1129-14",
+    "h": "17:00–19:00",
+    "t": "Ler: Puberdade — eventos hormonais e estágios de Tanner",
+    "tipo": "leitura",
+    "sub": "Puberdade — eventos hormonais e estágios de Tanner"
+   },
+   {
+    "id": "1129-15",
+    "h": "17:00–19:00",
+    "t": "Ler: Ética médica — sigilo, adolescente e aborto legal",
+    "tipo": "leitura",
+    "sub": "Ética médica — sigilo, adolescente e aborto legal"
+   },
+   {
+    "id": "1129-16",
+    "h": "17:00–19:00",
+    "t": "Caderno de erros (aba Erros)",
+    "tipo": "rev"
+   }
+  ],
+  "2026-11-30": [
+   {
+    "id": "1130-01",
+    "h": "19:30–20:30",
+    "t": "Cards da fila do dia",
+    "tipo": "cards"
+   },
+   {
+    "id": "1130-02",
+    "h": "20:30–21:30",
+    "t": "Ler: Úlceras genitais — sífilis, herpes, cancro mole, LGV e donovanose",
+    "tipo": "leitura",
+    "sub": "Úlceras genitais — sífilis, herpes, cancro mole, LGV e donovanose"
+   },
+   {
+    "id": "1130-03",
+    "h": "20:30–21:30",
+    "t": "Ler: Complicações da ferida operatória — deiscência e evisceração",
+    "tipo": "leitura",
+    "sub": "Complicações da ferida operatória — deiscência e evisceração"
+   },
+   {
+    "id": "1130-04",
+    "h": "20:30–21:30",
+    "t": "Ler: Lúpus eritematoso sistêmico",
+    "tipo": "leitura",
+    "sub": "Lúpus eritematoso sistêmico"
+   },
+   {
+    "id": "1130-05",
+    "h": "21:30–22:15",
+    "t": "Mini simulado (25 questões)",
+    "tipo": "sim",
+    "sim": "mini"
+   },
+   {
+    "id": "1130-06",
+    "h": "22:15–22:30",
+    "t": "Revisar os erros do mini simulado",
+    "tipo": "rev"
+   }
+  ],
+  "2026-12-01": [
+   {
+    "id": "1201-01",
+    "h": "19:30–20:30",
+    "t": "Cards da fila do dia",
+    "tipo": "cards"
+   },
+   {
+    "id": "1201-02",
+    "h": "20:30–21:30",
+    "t": "Ler: Bronquiolite viral aguda",
+    "tipo": "leitura",
+    "sub": "Bronquiolite viral aguda"
+   },
+   {
+    "id": "1201-03",
+    "h": "20:30–21:30",
+    "t": "Ler: Transição demográfica e epidemiológica",
+    "tipo": "leitura",
+    "sub": "Transição demográfica e epidemiológica"
+   },
+   {
+    "id": "1201-04",
+    "h": "20:30–21:30",
+    "t": "Ler: Síndromes paraneoplásicas, emergências oncológicas e cuidados paliativos",
+    "tipo": "leitura",
+    "sub": "Síndromes paraneoplásicas, emergências oncológicas e cuidados paliativos"
+   },
+   {
+    "id": "1201-05",
+    "h": "21:30–22:15",
+    "t": "Mini simulado (25 questões)",
+    "tipo": "sim",
+    "sim": "mini"
+   },
+   {
+    "id": "1201-06",
+    "h": "22:15–22:30",
+    "t": "Revisar os erros do mini simulado",
+    "tipo": "rev"
+   }
+  ],
+  "2026-12-02": [
+   {
+    "id": "1202-01",
+    "h": "19:30–20:30",
+    "t": "Cards da fila do dia",
+    "tipo": "cards"
+   },
+   {
+    "id": "1202-02",
+    "h": "20:30–21:30",
+    "t": "Ler: Trabalho de parto — partograma, estática fetal e assistência",
+    "tipo": "leitura",
+    "sub": "Trabalho de parto — partograma, estática fetal e assistência"
+   },
+   {
+    "id": "1202-03",
+    "h": "20:30–21:30",
+    "t": "Ler: Fasciite necrosante e infecções de partes moles",
+    "tipo": "leitura",
+    "sub": "Fasciite necrosante e infecções de partes moles"
+   },
+   {
+    "id": "1202-04",
+    "h": "20:30–21:30",
+    "t": "Ler: Diarreia aguda e desidratação — planos A, B e C",
+    "tipo": "leitura",
+    "sub": "Diarreia aguda e desidratação — planos A, B e C"
+   },
+   {
+    "id": "1202-05",
+    "h": "21:30–22:15",
+    "t": "Mini simulado (25 questões)",
+    "tipo": "sim",
+    "sim": "mini"
+   },
+   {
+    "id": "1202-06",
+    "h": "22:15–22:30",
+    "t": "Revisar os erros do mini simulado",
+    "tipo": "rev"
+   }
+  ],
+  "2026-12-03": [
+   {
+    "id": "1203-01",
+    "h": "19:30–20:30",
+    "t": "Cards da fila do dia",
+    "tipo": "cards"
+   },
+   {
+    "id": "1203-02",
+    "h": "20:30–21:30",
+    "t": "Ler: Hiperparatireoidismo",
+    "tipo": "leitura",
+    "sub": "Hiperparatireoidismo"
+   },
+   {
+    "id": "1203-03",
+    "h": "20:30–21:30",
+    "t": "Ler: Síndrome de Cushing",
+    "tipo": "leitura",
+    "sub": "Síndrome de Cushing"
+   },
+   {
+    "id": "1203-04",
+    "h": "20:30–21:30",
+    "t": "Ler: Assistência social — PNAS e SUAS",
+    "tipo": "leitura",
+    "sub": "Assistência social — PNAS e SUAS"
+   },
+   {
+    "id": "1203-05",
+    "h": "21:30–22:15",
+    "t": "Mini simulado (25 questões)",
+    "tipo": "sim",
+    "sim": "mini"
+   },
+   {
+    "id": "1203-06",
+    "h": "22:15–22:30",
+    "t": "Revisar os erros do mini simulado",
+    "tipo": "rev"
+   }
+  ],
+  "2026-12-04": [
+   {
+    "id": "1204-01",
+    "h": "19:30–20:30",
+    "t": "Cards da fila do dia",
+    "tipo": "cards"
+   },
+   {
+    "id": "1204-02",
+    "h": "20:30–21:30",
+    "t": "Ler: Infecção urinária na gestação",
+    "tipo": "leitura",
+    "sub": "Infecção urinária na gestação"
+   },
+   {
+    "id": "1204-03",
+    "h": "20:30–21:30",
+    "t": "Ler: Câncer gástrico",
+    "tipo": "leitura",
+    "sub": "Câncer gástrico"
+   },
+   {
+    "id": "1204-04",
+    "h": "20:30–21:30",
+    "t": "Ler: Otite média aguda",
+    "tipo": "leitura",
+    "sub": "Otite média aguda"
+   },
+   {
+    "id": "1204-05",
+    "h": "21:30–22:15",
+    "t": "Mini simulado (25 questões)",
+    "tipo": "sim",
+    "sim": "mini"
+   },
+   {
+    "id": "1204-06",
+    "h": "22:15–22:30",
+    "t": "Revisar os erros do mini simulado",
+    "tipo": "rev"
+   }
+  ],
+  "2026-12-05": [
+   {
+    "id": "1205-01",
+    "h": "11:00–15:00",
+    "t": "Simulado completo do app (100 questões · 4 h)",
+    "tipo": "sim",
+    "sim": "completo"
+   },
+   {
+    "id": "1205-02",
+    "h": "15:00–16:00",
+    "t": "Almoço e pausa",
+    "tipo": "pausa"
+   },
+   {
+    "id": "1205-03",
+    "h": "16:00–17:00",
+    "t": "Corrigir os erros do simulado",
+    "tipo": "rev"
+   },
+   {
+    "id": "1205-04",
+    "h": "17:00–19:00",
+    "t": "Ler: Adrenal — hiperaldosteronismo, insuficiência adrenal e incidentaloma",
+    "tipo": "leitura",
+    "sub": "Adrenal — hiperaldosteronismo, insuficiência adrenal e incidentaloma"
+   },
+   {
+    "id": "1205-05",
+    "h": "17:00–19:00",
+    "t": "Ler: Hiperprolactinemia e prolactinoma",
+    "tipo": "leitura",
+    "sub": "Hiperprolactinemia e prolactinoma"
+   },
+   {
+    "id": "1205-06",
+    "h": "17:00–19:00",
+    "t": "Ler: História das políticas de saúde no Brasil",
+    "tipo": "leitura",
+    "sub": "História das políticas de saúde no Brasil"
+   },
+   {
+    "id": "1205-07",
+    "h": "17:00–19:00",
+    "t": "Ler: Dismenorreia",
+    "tipo": "leitura",
+    "sub": "Dismenorreia"
+   },
+   {
+    "id": "1205-08",
+    "h": "17:00–19:00",
+    "t": "Ler: Doença do refluxo gastroesofágico e hérnia de hiato",
+    "tipo": "leitura",
+    "sub": "Doença do refluxo gastroesofágico e hérnia de hiato"
+   },
+   {
+    "id": "1205-09",
+    "h": "17:00–19:00",
+    "t": "Ler: Hipoglicemia neonatal",
+    "tipo": "leitura",
+    "sub": "Hipoglicemia neonatal"
+   }
+  ],
+  "2026-12-06": [
+   {
+    "id": "1206-01",
+    "h": "11:00–12:30",
+    "t": "Cards da fila do dia + atrasados",
+    "tipo": "cards"
+   },
+   {
+    "id": "1206-02",
+    "h": "12:30–15:00",
+    "t": "Ler: Bradiarritmias e ECG básico",
+    "tipo": "leitura",
+    "sub": "Bradiarritmias e ECG básico"
+   },
+   {
+    "id": "1206-03",
+    "h": "12:30–15:00",
+    "t": "Ler: Embriologia renal",
+    "tipo": "leitura",
+    "sub": "Embriologia renal"
+   },
+   {
+    "id": "1206-04",
+    "h": "12:30–15:00",
+    "t": "Ler: Redes de Atenção à Saúde (RAS) e regionalização",
+    "tipo": "leitura",
+    "sub": "Redes de Atenção à Saúde (RAS) e regionalização"
+   },
+   {
+    "id": "1206-05",
+    "h": "12:30–15:00",
+    "t": "Ler: Miomatose uterina",
+    "tipo": "leitura",
+    "sub": "Miomatose uterina"
+   },
+   {
+    "id": "1206-06",
+    "h": "12:30–15:00",
+    "t": "Ler: Cirurgia plástica — enxertos e retalhos",
+    "tipo": "leitura",
+    "sub": "Cirurgia plástica — enxertos e retalhos"
+   },
+   {
+    "id": "1206-07",
+    "h": "12:30–15:00",
+    "t": "Ler: Hiperplasia adrenal congênita, estenose de piloro e puberdade precoce",
+    "tipo": "leitura",
+    "sub": "Hiperplasia adrenal congênita, estenose de piloro e puberdade precoce"
+   },
+   {
+    "id": "1206-08",
+    "h": "12:30–15:00",
+    "t": "Ler: Malária",
+    "tipo": "leitura",
+    "sub": "Malária"
+   },
+   {
+    "id": "1206-09",
+    "h": "15:00–16:00",
+    "t": "Pausa",
+    "tipo": "pausa"
+   },
+   {
+    "id": "1206-10",
+    "h": "16:00–17:00",
+    "t": "Simulado por área (20 questões) na área mais fraca do painel",
+    "tipo": "sim",
+    "sim": "area"
+   },
+   {
+    "id": "1206-11",
+    "h": "17:00–19:00",
+    "t": "Ler: Sistema nervoso autônomo — fisiologia e farmacologia",
+    "tipo": "leitura",
+    "sub": "Sistema nervoso autônomo — fisiologia e farmacologia"
+   },
+   {
+    "id": "1206-12",
+    "h": "17:00–19:00",
+    "t": "Ler: Sistemas de informação em saúde — SIM, SINASC, SINAN, SIH e SIA",
+    "tipo": "leitura",
+    "sub": "Sistemas de informação em saúde — SIM, SINASC, SINAN, SIH e SIA"
+   },
+   {
+    "id": "1206-13",
+    "h": "17:00–19:00",
+    "t": "Ler: Puerpério — mastite e complicações",
+    "tipo": "leitura",
+    "sub": "Puerpério — mastite e complicações"
+   },
+   {
+    "id": "1206-14",
+    "h": "17:00–19:00",
+    "t": "Ler: Câncer colorretal",
+    "tipo": "leitura",
+    "sub": "Câncer colorretal"
+   },
+   {
+    "id": "1206-15",
+    "h": "17:00–19:00",
+    "t": "Ler: Faringoamigdalites na infância",
+    "tipo": "leitura",
+    "sub": "Faringoamigdalites na infância"
+   },
+   {
+    "id": "1206-16",
+    "h": "17:00–19:00",
+    "t": "Caderno de erros (aba Erros)",
+    "tipo": "rev"
+   }
+  ],
+  "2026-12-07": [
+   {
+    "id": "1207-01",
+    "h": "19:30–20:30",
+    "t": "Cards da fila do dia",
+    "tipo": "cards"
+   },
+   {
+    "id": "1207-02",
+    "h": "20:30–21:30",
+    "t": "Ler: Doença inflamatória intestinal — Crohn e retocolite ulcerativa",
+    "tipo": "leitura",
+    "sub": "Doença inflamatória intestinal — Crohn e retocolite ulcerativa"
+   },
+   {
+    "id": "1207-03",
+    "h": "20:30–21:30",
+    "t": "Ler: Prostatite bacteriana aguda",
+    "tipo": "leitura",
+    "sub": "Prostatite bacteriana aguda"
+   },
+   {
+    "id": "1207-04",
+    "h": "20:30–21:30",
+    "t": "Ler: Abortamento e doença trofoblástica gestacional",
+    "tipo": "leitura",
+    "sub": "Abortamento e doença trofoblástica gestacional"
+   },
+   {
+    "id": "1207-05",
+    "h": "21:30–22:15",
+    "t": "Mini simulado (25 questões)",
+    "tipo": "sim",
+    "sim": "mini"
+   },
+   {
+    "id": "1207-06",
+    "h": "22:15–22:30",
+    "t": "Revisar os erros do mini simulado",
+    "tipo": "rev"
+   }
+  ],
+  "2026-12-08": [
+   {
+    "id": "1208-01",
+    "h": "19:30–20:30",
+    "t": "Cards da fila do dia",
+    "tipo": "cards"
+   },
+   {
+    "id": "1208-02",
+    "h": "20:30–21:30",
+    "t": "Ler: Choque hemorrágico e transfusão maciça",
+    "tipo": "leitura",
+    "sub": "Choque hemorrágico e transfusão maciça"
+   },
+   {
+    "id": "1208-03",
+    "h": "20:30–21:30",
+    "t": "Ler: Classificação do recém-nascido — peso e idade gestacional",
+    "tipo": "leitura",
+    "sub": "Classificação do recém-nascido — peso e idade gestacional"
+   },
+   {
+    "id": "1208-04",
+    "h": "20:30–21:30",
+    "t": "Ler: Artrite reumatoide",
+    "tipo": "leitura",
+    "sub": "Artrite reumatoide"
+   },
+   {
+    "id": "1208-05",
+    "h": "21:30–22:15",
+    "t": "Mini simulado (25 questões)",
+    "tipo": "sim",
+    "sim": "mini"
+   },
+   {
+    "id": "1208-06",
+    "h": "22:15–22:30",
+    "t": "Revisar os erros do mini simulado",
+    "tipo": "rev"
+   }
+  ],
+  "2026-12-09": [
+   {
+    "id": "1209-01",
+    "h": "19:30–20:30",
+    "t": "Cards da fila do dia",
+    "tipo": "cards"
+   },
+   {
+    "id": "1209-02",
+    "h": "20:30–21:30",
+    "t": "Revisão: releia os resumos dos baralhos em que você mais erra (painel da Porcentagem)",
+    "tipo": "rev"
+   },
+   {
+    "id": "1209-03",
+    "h": "21:30–22:15",
+    "t": "Mini simulado (25 questões)",
+    "tipo": "sim",
+    "sim": "mini"
+   },
+   {
+    "id": "1209-04",
+    "h": "22:15–22:30",
+    "t": "Revisar os erros do mini simulado",
+    "tipo": "rev"
+   }
+  ],
+  "2026-12-10": [
+   {
+    "id": "1210-01",
+    "h": "19:30–20:30",
+    "t": "Cards da fila do dia",
+    "tipo": "cards"
+   },
+   {
+    "id": "1210-02",
+    "h": "20:30–21:30",
+    "t": "Revisão: releia os resumos dos baralhos em que você mais erra (painel da Porcentagem)",
+    "tipo": "rev"
+   },
+   {
+    "id": "1210-03",
+    "h": "21:30–22:15",
+    "t": "Mini simulado (25 questões)",
+    "tipo": "sim",
+    "sim": "mini"
+   },
+   {
+    "id": "1210-04",
+    "h": "22:15–22:30",
+    "t": "Revisar os erros do mini simulado",
+    "tipo": "rev"
+   }
+  ],
+  "2026-12-11": [
+   {
+    "id": "1211-01",
+    "h": "19:30–20:30",
+    "t": "Cards da fila do dia",
+    "tipo": "cards"
+   },
+   {
+    "id": "1211-02",
+    "h": "20:30–22:30",
+    "t": "Modo véspera (revisão final)",
+    "tipo": "vesp"
+   }
+  ],
+  "2026-12-12": [
+   {
+    "id": "1212-01",
+    "h": "11:00–12:30",
+    "t": "Revisão leve no modo véspera",
+    "tipo": "vesp"
+   },
+   {
+    "id": "1212-02",
+    "h": "12:30–19:00",
+    "t": "Descanso e viagem para Juiz de Fora",
+    "tipo": "livre"
+   }
+  ],
+  "2026-12-13": [
+   {
+    "id": "1213-01",
+    "h": "Manhã",
+    "t": "🏁 PROVA — Vila Verde / Grupo VIV (Selecting)",
+    "tipo": "prova"
+   }
+  ]
+ },
+ "extra": [
+  "Gota e artrite por cristais",
+  "Síndrome dos ovários policísticos (SOP)",
+  "Oncologia cirúrgica — biópsias e síndromes hereditárias",
+  "Transtorno do espectro autista (TEA)",
+  "Dor — classificação e dor neuropática",
+  "Amenorreia secundária",
+  "Morte encefálica e doação de órgãos",
+  "Anemia ferropriva e suplementação de ferro",
+  "Infertilidade e reserva ovariana",
+  "Avaliação pré-operatória — risco cirúrgico, jejum e medicações",
+  "Doença celíaca e diarreia crônica na criança",
+  "Rotura prematura das membranas ovulares (RPMO)",
+  "GIST — tumor estromal gastrointestinal",
+  "Atresias intestinais e obstrução neonatal",
+  "Tumores de ovário",
+  "Hemorragia digestiva baixa",
+  "Escabiose e pediculose",
+  "Gestação prolongada (pós-datismo)",
+  "Câncer de pâncreas",
+  "Síndrome nefrítica — glomerulonefrite pós-estreptocócica",
+  "Osteoporose e densitometria",
+  "Fissura anal",
+  "Desnutrição e obesidade infantil",
+  "Amenorreia primária",
+  "Coledocolitíase",
+  "Laringotraqueíte viral (crupe) e epiglotite",
+  "Ciclo menstrual — fisiologia",
+  "Traumatismo cranioencefálico (TCE)",
+  "Mama — desenvolvimento, anomalias e anatomia",
+  "Doença hemorroidária",
+  "Aloimunização Rh e doença hemolítica perinatal",
+  "Doença arterial periférica e aneurisma de aorta abdominal",
+  "Câncer de endométrio",
+  "Câncer de esôfago",
+  "Prolapso genital (distopias)",
+  "Pancreatite crônica",
+  "Melanoma e câncer de pele",
+  "Paralisia de cordas vocais"
+ ]
+}
