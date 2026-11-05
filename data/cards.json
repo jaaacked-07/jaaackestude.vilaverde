@@ -17213,7 +17213,9 @@
       ],
       "fonte": "Sabiston Textbook of Surgery 21ª ed. / Gray's Anatomy 42ª ed.",
       "add": "2026-10-24",
-      "prio": "alta"
+      "prio": "alta",
+      "fav": true,
+      "minha": "@@nota|0|Hérnia inguinal direta.\nMD -> medial=DIRETA"
     },
     {
       "id": "hern-d2",
@@ -39076,7 +39078,8 @@
       },
       "macete": "Rastrear = \"Segunda chance\" de pegar cedo.",
       "pegadinha": "Vacina é primária; reabilitação é terciária; evitar exame desnecessário é quaternária.",
-      "add": "2026-10-27"
+      "add": "2026-10-27",
+      "fav": true
     },
     {
       "id": "ccg-01",
@@ -40475,7 +40478,8 @@
         }
       ],
       "fonte": "MS — Manual de Hemofilia, 2ª ed. (2015) e Manual de Diagnóstico e Tratamento da Doença de von Willebrand (2008) / WFH Guidelines for the Management of Hemophilia, 3ª ed. (2020) / ASH-ISTH-NHF-WFH Guidelines on von Willebrand Disease (2021)",
-      "add": "2026-10-28"
+      "add": "2026-10-28",
+      "fav": true
     },
     {
       "id": "coag-q1",
@@ -42471,7 +42475,8 @@
         }
       ],
       "fonte": "ATLS 10ª ed. / Light RW — Pleural Diseases 6ª ed. / BTS Pleural Disease Guideline (2023) / CDC — Guidelines for the Prevention of Intravascular Catheter-Related Infections (atualização 2017)",
-      "add": "2026-10-28"
+      "add": "2026-10-28",
+      "fav": true
     },
     {
       "id": "proc-02",
@@ -76991,7 +76996,8 @@
         }
       ],
       "fonte": "SBP — Sistematização do atendimento ao RN com suspeita de cardiopatia congênita (2022) / Tratado de Pediatria SBP 5ª ed. / Nelson Textbook of Pediatrics 22ª ed.",
-      "add": "2026-11-04"
+      "add": "2026-11-04",
+      "fav": true
     },
     {
       "area": "Pediatria",
@@ -90873,7 +90879,8 @@
         "fonte": "Wikimedia Commons · NHLBI/NIH (domínio público)"
       },
       "fonte": "MS — PCDT Doença Falciforme (2018) e Manual de eventos agudos em doença falciforme (2009/2023) / NHLBI Evidence-Based Management of SCD (2014) / ASH Guidelines SCD (2020) / Tratado de Pediatria SBP 5ª ed.",
-      "add": "2026-11-04"
+      "add": "2026-11-04",
+      "fav": true
     },
     {
       "area": "Pediatria",
@@ -100433,7 +100440,8 @@
         }
       ],
       "fonte": "SBP — Sistematização do atendimento ao RN com suspeita de cardiopatia congênita (2022) / Tratado de Pediatria SBP 5ª ed. / Nelson Textbook of Pediatrics 22ª ed.",
-      "add": "2026-11-04"
+      "add": "2026-11-04",
+      "fav": true
     },
     {
       "area": "Pediatria",
@@ -105001,5 +105009,5 @@
       "add": "2026-11-04"
     }
   ],
-  "rev": 1793852061284
+  "rev": 1793914640869
 }
