@@ -62059,7 +62059,8 @@
         }
       ],
       "fonte": "Fletcher — Epidemiologia Clínica: Elementos Essenciais, 5ª ed. / Medronho — Epidemiologia, 2ª ed. / Oxford CEBM — Levels of Evidence (2011) / GRADE Working Group",
-      "add": "2026-11-04"
+      "add": "2026-11-04",
+      "fav": true
     },
     {
       "area": "Medicina Preventiva",
@@ -105009,5 +105010,5 @@
       "add": "2026-11-04"
     }
   ],
-  "rev": 1793914640869
+  "rev": 1793915557704
 }
