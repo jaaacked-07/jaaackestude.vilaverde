@@ -42044,7 +42044,8 @@
         }
       ],
       "fonte": "ESVS Clinical Practice Guidelines on the Management of Diseases of the Mesenteric Arteries and Veins (2017, atualização 2025) / WSES Guidelines — Acute Mesenteric Ischemia (2022) / Sabiston Textbook of Surgery 21ª ed.",
-      "add": "2026-10-28"
+      "add": "2026-10-28",
+      "fav": true
     },
     {
       "id": "ime-q1",
@@ -105010,5 +105011,5 @@
       "add": "2026-11-04"
     }
   ],
-  "rev": 1793915557704
+  "rev": 1793915630952
 }
