@@ -28630,7 +28630,8 @@
         }
       ],
       "fonte": "INCA — Diretrizes para rastreamento do câncer do colo do útero (2016) e de mama (2015); MS — atualizações de 2024–2025; Leavell & Clark; Jamoulle (prevenção quaternária)",
-      "add": "2026-10-25"
+      "add": "2026-10-25",
+      "fav": true
     },
     {
       "id": "rast-d2",
@@ -105020,5 +105021,5 @@
       "add": "2026-11-04"
     }
   ],
-  "rev": 1793973348966
+  "rev": 1793973422462
 }
