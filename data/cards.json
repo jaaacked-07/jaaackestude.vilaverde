@@ -60502,7 +60502,8 @@
         }
       ],
       "fonte": "OMS — Medical Eligibility Criteria for Contraceptive Use, 5ª ed. (2015) e atualização 2025 / FEBRASGO — Manual de Anticoncepção / MS — Saúde Sexual e Reprodutiva (Cadernos de AB nº 26)",
-      "add": "2026-11-04"
+      "add": "2026-11-04",
+      "fav": true
     },
     {
       "area": "Ginecologia",
@@ -105017,5 +105018,5 @@
       "add": "2026-11-04"
     }
   ],
-  "rev": 1793972851917
+  "rev": 1793973060432
 }
