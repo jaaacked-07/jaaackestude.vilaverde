@@ -79924,7 +79924,8 @@
         }
       ],
       "fonte": "ATLS 10ª ed. / Light RW — Pleural Diseases 6ª ed. / BTS Pleural Disease Guideline (2023) / CDC — Guidelines for the Prevention of Intravascular Catheter-Related Infections (atualização 2017)",
-      "add": "2026-11-04"
+      "add": "2026-11-04",
+      "fav": true
     },
     {
       "area": "Cirurgia",
@@ -105018,5 +105019,5 @@
       "add": "2026-11-04"
     }
   ],
-  "rev": 1793973060432
+  "rev": 1793973133158
 }
