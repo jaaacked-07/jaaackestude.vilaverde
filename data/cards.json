@@ -42754,7 +42754,8 @@
         }
       ],
       "fonte": "ASRA Practice Advisory on Local Anesthetic Systemic Toxicity (2020) / Difficult Airway Society — Guidelines (2015, atualização 2025) / Miller's Anesthesia 9ª ed. / ATLS 10ª ed.",
-      "add": "2026-10-28"
+      "add": "2026-10-28",
+      "fav": true
     },
     {
       "id": "anes-02",
@@ -105023,5 +105024,5 @@
       "add": "2026-11-04"
     }
   ],
-  "rev": 1793991336208
+  "rev": 1793991554117
 }
