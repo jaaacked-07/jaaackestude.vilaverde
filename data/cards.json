@@ -101742,7 +101742,8 @@
         }
       ],
       "fonte": "Sabiston Textbook of Surgery 21ª ed. / Gray's Anatomy 42ª ed.",
-      "add": "2026-11-04"
+      "add": "2026-11-04",
+      "fav": true
     },
     {
       "area": "Clínica Médica",
@@ -105015,5 +105016,5 @@
       "add": "2026-11-04"
     }
   ],
-  "rev": 1793972745293
+  "rev": 1793972776879
 }
