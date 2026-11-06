@@ -61453,7 +61453,8 @@
         "fonte": "Wikimedia Commons · NHLBI/NIH (domínio público)"
       },
       "fonte": "MS — PCDT Doença Falciforme (2018) e Manual de eventos agudos em doença falciforme (2009/2023) / NHLBI Evidence-Based Management of SCD (2014) / ASH Guidelines SCD (2020) / Tratado de Pediatria SBP 5ª ed.",
-      "add": "2026-11-04"
+      "add": "2026-11-04",
+      "fav": true
     },
     {
       "area": "Medicina Preventiva",
@@ -105014,5 +105015,5 @@
       "add": "2026-11-04"
     }
   ],
-  "rev": 1793916324637
+  "rev": 1793972745293
 }
