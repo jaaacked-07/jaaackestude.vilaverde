@@ -87291,7 +87291,8 @@
         }
       ],
       "fonte": "SBP — Sistematização do atendimento ao RN com suspeita de cardiopatia congênita (2022) / Tratado de Pediatria SBP 5ª ed. / Nelson Textbook of Pediatrics 22ª ed.",
-      "add": "2026-11-04"
+      "add": "2026-11-04",
+      "fav": true
     },
     {
       "area": "Pediatria",
@@ -105025,5 +105026,5 @@
       "add": "2026-11-04"
     }
   ],
-  "rev": 1793991647725
+  "rev": 1793991777774
 }
