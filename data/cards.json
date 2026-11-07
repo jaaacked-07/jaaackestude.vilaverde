@@ -42270,7 +42270,8 @@
       ],
       "fonte": "ERC/ACLS — Cardiac arrest in special circumstances: hyperkalaemia (2021) / KDIGO — Controversies in potassium management (2020) / UK Kidney Association — Treatment of Acute Hyperkalaemia in Adults (2023)",
       "add": "2026-10-28",
-      "fav": true
+      "fav": true,
+      "minha": "@@nota|0|1º → onda T apiculada (em tenda).\nHIPERcalemia -> ou seja, a TENDA (que é PRA CIMA) acontece na HIPERcalemia!!!"
     },
     {
       "id": "kal-02",
@@ -105031,5 +105032,5 @@
       "add": "2026-11-04"
     }
   ],
-  "rev": 1794017757556
+  "rev": 1794017790383
 }
