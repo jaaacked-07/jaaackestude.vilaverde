@@ -1658,7 +1658,8 @@
       ],
       "prio": "alta",
       "minha": "@@nota|0|EstádioCondutaIA1 sem invasão linfovascularConização (quer g\nI → colo do útero\n\nII → sai do útero\nIIA → 2/3 superiores da vagina\nIIB → paramétrio\n\nIII → outros\nIIIA → 1/3 inferior da vagina\nIIIB → parede pélvica ou hidronefrose\nIIIC1 → linfonodos pélvicos\nIIIC2 → linfonodos para-aórticos\n\nIV → sai da pelve ou invade bexiga/reto\nIVA → mucosa de bexiga/reto (biópsia)\nIVB → à distância",
-      "uerj": "O que mais derruba é a conduta nos limites: IA1 com ou sem invasão linfovascular, IB2 × IB3 e o paramétrio invadido (IIB), que não é cirúrgico."
+      "uerj": "O que mais derruba é a conduta nos limites: IA1 com ou sem invasão linfovascular, IB2 × IB3 e o paramétrio invadido (IIB), que não é cirúrgico.",
+      "fav": true
     },
     {
       "id": "figo-colo-q1",
@@ -105027,5 +105028,5 @@
       "add": "2026-11-04"
     }
   ],
-  "rev": 1793991975933
+  "rev": 1794017281310
 }
