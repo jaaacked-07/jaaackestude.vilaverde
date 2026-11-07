@@ -42269,7 +42269,8 @@
         }
       ],
       "fonte": "ERC/ACLS — Cardiac arrest in special circumstances: hyperkalaemia (2021) / KDIGO — Controversies in potassium management (2020) / UK Kidney Association — Treatment of Acute Hyperkalaemia in Adults (2023)",
-      "add": "2026-10-28"
+      "add": "2026-10-28",
+      "fav": true
     },
     {
       "id": "kal-02",
@@ -105030,5 +105031,5 @@
       "add": "2026-11-04"
     }
   ],
-  "rev": 1794017673915
+  "rev": 1794017757556
 }
