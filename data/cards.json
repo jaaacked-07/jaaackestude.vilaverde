@@ -41279,7 +41279,8 @@
         }
       ],
       "fonte": "MS/PNI — Instrução Normativa do Calendário Nacional de Vacinação (2024) / NT MS substituição MenC → MenACWY no reforço (jul/2025) / NT Conjunta MS 310/2026 (VPC20 ≥ 85 anos) / NT SMSA-BH 020/2026 (VPC20 infantil) / Calendário SBIm do Idoso 2025/2026",
-      "add": "2026-10-28"
+      "add": "2026-10-28",
+      "fav": true
     },
     {
       "id": "pni-03",
@@ -105028,5 +105029,5 @@
       "add": "2026-11-04"
     }
   ],
-  "rev": 1794017281310
+  "rev": 1794017549831
 }
