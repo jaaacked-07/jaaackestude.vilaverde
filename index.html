@@ -2053,7 +2053,7 @@ function croEditar(d,i){
 }
 
 /* ===== Simulado estilo prova (Selecting): 3 formatos, sem correção na hora, cronômetro, resultado por área ===== */
-const SIMF={completo:{t:'Completo',n:20,min:240,d:'100 questões · 4 h'},mini:{t:'Mini',n:5,min:60,d:'25 questões · 1 h'},area:{t:'Por área',n:20,min:48,d:'20 questões de uma área · 48 min'},r2025:{t:'Prova real 2025',min:240,d:'As 100 questões da Vila Verde JF 2025, na ordem original · 4 h'},r2024:{t:'Prova real 2024',min:240,d:'As 100 questões da Vila Verde JF 2024, na ordem original · 4 h'}};
+const SIMF={completo:{t:'Completo',n:20,min:240,d:'100 questões · 4 h'},mini:{t:'Mini',n:5,min:60,d:'25 questões · 1 h'},area:{t:'Montar simulado',n:20,min:48,d:'Você escolhe áreas, matérias ou baralhos e a quantidade de questões'},r2025:{t:'Prova real 2025',min:240,d:'As 100 questões da Vila Verde JF 2025, na ordem original · 4 h'},r2024:{t:'Prova real 2024',min:240,d:'As 100 questões da Vila Verde JF 2024, na ordem original · 4 h'}};
 const SIM_ORD=['CM','CIR','GO','PED','PREV'];
 let SIMU=null, SIMTK=null;
 const simReal=a=>CARDS.filter(c=>c.real&&String(c.prova||'').includes(a+' ·')).sort((x,y)=>(+String(x.prova).split('Q')[1])-(+String(y.prova).split('Q')[1]));
@@ -2085,9 +2085,10 @@ function simuAndamento(){
   document.querySelectorAll('[data-ap]').forEach(b=>b.onclick=async()=>{ const k=b.dataset.ap; if(!(await confirmar('Apagar este simulado em andamento? As respostas dele serão perdidas.','Apagar'))) return simuAndamento(); delete S.simAnd[k]; S.simAndDel[k]=1; save(); simuAndamento(); });
 }
 /* Por área: ✓ na grande área = área inteira; toque no nome = abre matérias → baralhos para escolher */
-let SAR_SEL=new Set(), SAR_AB=new Set();
+let SAR_SEL=new Set(), SAR_AB=new Set(), SAR_N=20;
 function simuArea(){
-  folha(`<div class="serif" style="font-size:21px;margin-bottom:4px">Simulado por área</div><p class="mute small" style="margin:0 0 10px">✓ na grande área = questões da área inteira. Toque no nome para escolher matérias ou baralhos.</p><div id="sar"></div><button class="btn" id="sarok" style="margin-top:14px">Começar</button>`);
+  folha(`<div class="serif" style="font-size:21px;margin-bottom:4px">Montar simulado</div><p class="mute small" style="margin:0 0 10px">✓ na grande área = questões da área inteira. Toque no nome para escolher matérias ou baralhos.</p><div id="sar"></div><div class="tm" style="margin-top:14px">Quantas questões (sorteadas)</div><div class="seg" id="sarn">${[10,20,30,50,100].map(n=>`<button data-n="${n}" class="${n===SAR_N?'on':''}">${n}</button>`).join('')}</div><button class="btn" id="sarok" style="margin-top:10px">Começar</button>`);
+  $('#sarn').onclick=e=>{ const b=e.target.closest('[data-n]'); if(!b) return; SAR_N=+b.dataset.n; document.querySelectorAll('#sarn button').forEach(x=>x.classList.toggle('on',x===b)); };
   const Q=CARDS.filter(c=>c.tipo==='quiz'&&c.opcoes&&c.opcoes.length>=2), T={};
   Q.forEach(c=>{ const g=grupoDe(c), tk=c.area+'|'+c.tema; ((T[g]=T[g]||{})[tk]=T[g][tk]||new Set()).add(c.sub); });
   const ck=k=>`<span class="sck ${SAR_SEL.has(k)?'on':''}" data-sk="${esc(k)}" role="button">${SAR_SEL.has(k)?'✓':''}</span>`;
@@ -2101,7 +2102,7 @@ function simuArea(){
     const sel=[...SAR_SEL], pool=Q.filter(c=>sel.some(k=>k==='g:'+grupoDe(c)||k==='t:'+c.area+'|'+c.tema||k==='s:'+c.area+'|'+c.tema+'|'+c.sub));
     if(!pool.length) return toast('Sem questões nessa seleção');
     const nm=sel.map(k=>k[0]==='g'?GN[k.slice(2)]:k.split('|').pop()), rot=nm.length>2?nm.slice(0,2).join(', ')+'…':nm.join(', ');
-    fecharFolha(); simuIds('area',simEscolherDe(pool,20),rot); };
+    fecharFolha(); simuIds('area',simEscolherDe(pool,SAR_N),rot); };
 }
 function simEscolherDe(pool,n){ const q=S.simq||{};
   return pool.map(c=>({c,k:(q[c.id]||0)*100+(S.srs[c.id]?10:0)-Math.min(9,pesoUERJ(c)/3)-Math.random()*8})).sort((a,b)=>a.k-b.k).slice(0,n).map(x=>x.c.id).sort(()=>Math.random()-.5); }
