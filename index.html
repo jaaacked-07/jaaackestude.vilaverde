@@ -159,7 +159,7 @@ select.srch{appearance:auto}
 .snm{flex:1;cursor:pointer}.sck{flex:none;width:24px;height:24px;border-radius:7px;border:2px solid var(--line);display:grid;place-items:center;font-size:13px;font-weight:700;color:#fff;cursor:pointer}.sck.on{background:var(--wine);border-color:var(--wine)}
 .smtm{font-size:13px;font-weight:600;font-variant-numeric:tabular-nums;color:var(--ink);min-width:52px;text-align:right}.smtm.pouco{color:var(--bad)}
 .smgr{font-size:12.5px;font-weight:600;color:var(--wine);background:var(--wine-soft);border-radius:9px;padding:6px 9px}
-.smnav{display:flex;gap:8px}.smnav .btn{margin:0;width:auto;padding:15px 12px}.smnav .btn.ghost{flex:0 0 auto;min-width:56px}.smnav .btn:last-child{flex:1}.smfl.on{color:#D9A441;border-color:#D9A441}
+.smnav{display:flex;gap:8px;align-items:stretch}.smnav .smic{font-size:22px;min-width:58px;padding:12px 8px}.smnav .smprox{flex:1!important;font-size:17px}.smnav .smentr{flex:0 0 auto!important;min-width:0;font-size:12.5px;padding:8px 10px;color:var(--mute)}.smnav .btn{margin:0;width:auto;padding:15px 12px}.smnav .btn.ghost{flex:0 0 auto;min-width:56px}.smnav .btn:last-child{flex:1}.smfl.on{color:#D9A441;border-color:#D9A441}
 .smgd{display:grid;grid-template-columns:repeat(auto-fill,minmax(40px,1fr));gap:6px;max-height:50vh;overflow-y:auto}.smgd button{height:38px;border-radius:9px;border:1.5px solid var(--line);font-size:13px;font-variant-numeric:tabular-nums;color:var(--mute);position:relative}
 .smgd button.r{background:rgba(59,111,214,.14);color:#3B6FD6;border-color:transparent;font-weight:600}.smgd button.m::after{content:'⚑';position:absolute;top:-3px;right:1px;font-size:10px;color:#D9A441}.smgd button.at{outline:2px solid var(--wine);outline-offset:1px}
 .smres{text-align:center;padding:10px 0}.smbig{font-size:54px;font-weight:600;letter-spacing:-.03em;font-variant-numeric:tabular-nums;line-height:1.1}.smcut{display:inline-block;margin-top:10px;padding:6px 12px;border-radius:999px;font-size:13.5px;font-weight:600}.smcut.ok{background:var(--ok-soft);color:var(--ok)}.smcut.bad{background:var(--bad-soft);color:var(--bad)}
@@ -2126,7 +2126,7 @@ function simuAbrir(st){
   el.innerHTML=`<div class="sbar"><button class="x" id="smx" aria-label="Sair (salva)" title="Sair — o simulado fica salvo"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
     <div class="prog"><i id="smp"></i></div><span class="smtm" id="smt"></span></div>
     <div class="sbody" id="smb"><div class="wrap" id="smw"></div></div>
-    <div class="sfoot"><div class="in smnav"><button class="btn ghost" id="sma" aria-label="Anterior">←</button><button class="btn ghost smfl" id="smf" aria-label="Marcar dúvida">⚑</button><button class="btn ghost" id="smn" aria-label="Próxima">→</button><button class="btn" id="sme2">Entregar</button></div></div>`;
+    <div class="sfoot"><div class="in smnav"><button class="btn ghost smic" id="sma" aria-label="Anterior">←</button><button class="btn ghost smic smfl" id="smf" aria-label="Marcar dúvida">⚑</button><button class="btn smprox" id="smn">Próximo →</button><button class="btn ghost smentr" id="sme2">Entregar</button></div></div>`;
   document.body.appendChild(el); document.body.style.overflow='hidden'; document.documentElement.style.overflow='hidden';
   $('#smx').onclick=()=>{ simuSalvar(); simuFechar(); toast('Simulado salvo — continue quando quiser'); };
   $('#sme2').onclick=simuEntregarPerg;
@@ -2154,11 +2154,19 @@ function simuQ(){
     if(e.target.closest('.rk')){ e.stopPropagation(); SIMU.risc=SIMU.risc||{}; const k=id+'_'+i; SIMU.risc[k]=!SIMU.risc[k]; if(SIMU.risc[k]&&SIMU.resp[id]===i) delete SIMU.resp[id]; return pinta(); }
     if(SIMU.resp[id]===i) delete SIMU.resp[id]; else SIMU.resp[id]=i; vib(8); pinta(); });
   $('#smf').classList.toggle('on',SIMU.marc.includes(id)); $('#sma').disabled=SIMU.i===0;
-  SIMU.max=Math.max(SIMU.max||0,SIMU.i); $('#smn').disabled=SIMU.i>=SIMU.ids.length-1;
+  SIMU.max=Math.max(SIMU.max||0,SIMU.i); $('#smn').disabled=SIMU.i>=SIMU.ids.length-1; $('#smn').textContent=SIMU.i>=SIMU.ids.length-1?'Última questão':'Próximo →';
   if(SIMU.i<SIMU.max) $('#smw').insertAdjacentHTML('beforeend',`<button class="crb" id="smvolta" style="margin-top:14px">⏩ Voltar para a questão ${SIMU.max+1} (onde você estava)</button>`);
   const vv=$('#smvolta'); if(vv) vv.onclick=()=>{ SIMU.i=SIMU.max; simuQ(); };
   fabMT();
 }
+/* teclado no simulado: Q = cartão-resposta · ← → = navegar */
+document.addEventListener('keydown',e=>{ if(!SIMU||SIMU.fim0||!$('#simu')||e.ctrlKey||e.metaKey||e.altKey) return;
+  const a=document.activeElement; if(a&&(/^(INPUT|TEXTAREA|SELECT)$/.test(a.tagName)||a.isContentEditable)) return;
+  const k=e.key.toLowerCase();
+  if(k==='q'){ e.preventDefault(); if($('#sheet')) fecharFolha(); else simuGrade(); return; }
+  if($('#sheet')) return;
+  if(e.key==='ArrowRight'&&SIMU.i<SIMU.ids.length-1){ e.preventDefault(); SIMU.i++; simuQ(); }
+  else if(e.key==='ArrowLeft'&&SIMU.i>0){ e.preventDefault(); SIMU.i--; simuQ(); } });
 function simLimparMarcas(ids){ (ids||[]).forEach(id=>{ const k='sq:'+id; if(S.marks[k]) S.marks[k]={l:[],u:Date.now()}; }); }
 function simuEntregarPerg(){
   const br=SIMU.ids.map((id,i)=>SIMU.resp[id]==null?i:-1).filter(i=>i>=0);
@@ -2970,7 +2978,7 @@ function fabMT(){
   let f=$('#mtfab'); const tem=!!document.querySelector('.hlz,[data-an]');
   if(!tem){ if(f) f.remove(); return; }
   if(!f){ f=document.createElement('div'); f.id='mtfab'; f.className='mtfab';
-    f.innerHTML=`<div class="mtops hide">${['y','g','p'].map(c=>`<button class="${c}" data-mc="${c}" aria-label="Cor"></button>`).join('')}<button class="off" data-mc="">desligar</button></div><div class="mtrow"><button class="mtb sfab" aria-label="Favoritar card (*)" title="Favoritar card (*)">☆</button><button class="mtb nfab" aria-label="Novo card neste baralho (N)" title="Novo card neste baralho (N)">N</button><button class="mtb ntb${NT?' on':''}" aria-label="Nova anotação (T)" title="Nova anotação (T)">${NT_SVG}</button><button class="mtb cfab" aria-label="Cartão-resposta" title="Cartão-resposta">${CART_SVG}</button><button class="mtb mtm" aria-label="Marca-texto">${MT_SVG}</button></div>`;
+    f.innerHTML=`<div class="mtops hide">${['y','g','p'].map(c=>`<button class="${c}" data-mc="${c}" aria-label="Cor"></button>`).join('')}<button class="off" data-mc="">desligar</button></div><div class="mtrow"><button class="mtb sfab" aria-label="Favoritar card (*)" title="Favoritar card (*)">☆</button><button class="mtb nfab" aria-label="Novo card neste baralho (N)" title="Novo card neste baralho (N)">N</button><button class="mtb ntb${NT?' on':''}" aria-label="Nova anotação (T)" title="Nova anotação (T)">${NT_SVG}</button><button class="mtb cfab" aria-label="Cartão-resposta (Q)" title="Cartão-resposta (Q)">${CART_SVG}</button><button class="mtb mtm" aria-label="Marca-texto">${MT_SVG}</button></div>`;
     f.querySelector('.cfab').onclick=()=>{ f.querySelector('.mtops').classList.add('hide'); if(SIMU&&!SIMU.fim0) simuGrade(); };
     f.querySelector('.sfab').onmousedown=e=>e.preventDefault(); f.querySelector('.sfab').onclick=()=>{ const id=cardAtualFav(); if(id) favAlternar(id); };
     f.querySelector('.nfab').onclick=()=>{ f.querySelector('.mtops').classList.add('hide'); if($('#mat')) novoDoTema(); else novoDoCard(); };
