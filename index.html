@@ -516,6 +516,8 @@ body.matab .mtfab .sfab{display:none!important}body.matab .mtfab .nfab{display:f
 .simtile{aspect-ratio:1;background:var(--card);box-shadow:var(--shadow);border-radius:16px;padding:14px;text-align:left;display:flex;flex-direction:column;gap:8px;transition:transform .12s}
 .simtile:active{transform:scale(.97)}
 .simtile{justify-content:space-between;text-align:center;align-items:center}
+.simtile{aspect-ratio:auto;min-height:150px}.simrv{font-size:11.5px;font-weight:600;color:#3B6FD6;background:rgba(59,111,214,.1);border-radius:99px;padding:4px 9px}
+.smpq{margin-top:16px;border:1.5px solid #3B6FD6;background:rgba(59,111,214,.07);border-radius:14px;padding:12px 14px;font-size:14.5px}.smpq p{margin:4px 0}.smpqh{font-weight:700;color:#3B6FD6;margin-bottom:6px}.smpqx{padding-left:10px;border-left:3px solid var(--bad)}.smpqx.ok{border-left-color:var(--ok)}
 .simtile.c2{aspect-ratio:auto;min-height:100%}
 .simtile .nmw{display:flex;flex-direction:column;align-items:center;gap:5px;width:100%}
 .simtile .nm2{font-size:12.5px;font-weight:700;color:var(--wine);background:var(--wine-soft);border-radius:8px;padding:3px 9px;line-height:1.3;max-width:100%;overflow-wrap:anywhere;white-space:normal}
@@ -654,6 +656,7 @@ async function carregar(){
   if(!CARDS.length && !base) setCards([]);
   migrarMarcasCtx(); migrarIO(); migrarSubtemas();
   try{ CRONO_DEF=JSON.parse(localStorage.getItem(LS+'.crono'))||null }catch(e){}
+  fetch('data/simrev.json?t='+Date.now(),{cache:'no-store'}).then(r=>r.ok?r.json():null).then(j=>{ if(j&&j.sims) SIMREV=j.sims; }).catch(()=>{});
   fetch('data/cronograma.json?t='+Date.now(),{cache:'no-store'}).then(r=>r.ok?r.json():null).then(j=>{ if(j){ CRONO_DEF=j; try{localStorage.setItem(LS+'.crono',JSON.stringify(j))}catch(e){} if(PAG==='crono'&&!SS) pCrono(); } }).catch(()=>{});
   try{ PREV=JSON.parse(localStorage.getItem(LS+'.prev'))||PREV }catch(e){}
   try{ const r=await fetch('data/prevalencia.json?t='+Date.now(),{cache:'no-store'}); if(r.ok){ PREV=await r.json(); localStorage.setItem(LS+'.prev',JSON.stringify(PREV)); } }catch(e){}
@@ -2079,6 +2082,8 @@ function simuMenu(){
   document.querySelectorAll('[data-sm]').forEach(b=>b.onclick=()=>{ const k=b.dataset.sm; fecharFolha();
     if(k==='and') return simuAndamento(); if(k==='area') return simuArea(); simuNovo(k); });
 }
+let SIMREV={};
+const provaTag=c=>{ const m=String(c.prova||'').match(/(\d{4}).*?(Q\d+)/); return m?`📄 caiu na prova ${m[1]} · ${m[2]}`:'📄 caiu na prova'; };
 const simRot=x=>(SIMF[x.fmt]||{t:'Simulado'}).t+(x.rot?' · '+x.rot:x.g?' · '+(GN[x.g]||x.g):'');
 function simuAndamento(){
   const L=simAndL(); if(!L.length){ fecharFolha(); return toast('Nenhum simulado em andamento'); }
@@ -2144,7 +2149,7 @@ function simuTick(){ if(!SIMU) return; const r=Math.max(0,SIMU.fim-Date.now()), 
 function simuQ(){
   const id=SIMU.ids[SIMU.i], c=BYID[id], esc0=SIMU.resp[id];
   $('#smp').style.width=(Object.keys(SIMU.resp).length/SIMU.ids.length*100)+'%';
-  $('#smw').innerHTML=`<div class="tag">Questão ${SIMU.i+1} de ${SIMU.ids.length} · ${esc(GN[grupoDe(c)]||c.area)}${c.prova&&SIMU.fmt[0]!=='r'?' · 📄 caiu na prova':''}${SIMU.marc.includes(id)?' · ⚑ marcada':''}</div><div class="hlz" data-hl="sq:${id}">${frenteHTML(c)}</div>
+  $('#smw').innerHTML=`<div class="tag">Questão ${SIMU.i+1} de ${SIMU.ids.length} · ${esc(GN[grupoDe(c)]||c.area)}${c.prova?' · '+provaTag(c):''}${SIMU.marc.includes(id)?' · ⚑ marcada':''}</div><div class="hlz" data-hl="sq:${id}">${frenteHTML(c)}</div>
     <div class="opts">${c.opcoes.map((o,i)=>`<button class="opt ${esc0===i?'sel':''} ${(SIMU.risc||{})[id+'_'+i]?'risc':''}" data-i="${i}"><span class="k">${'ABCDE'[i]}</span><span class="ot"><span class="tx0">${esc(o)}</span></span>${RISCA}</button>`).join('')}</div>`;
   $('#smb').scrollTop=0; aplicarZonas();
   /* responder/riscar só troca as classes: a tela fica onde está */
@@ -2167,6 +2172,10 @@ document.addEventListener('keydown',e=>{ if(!SIMU||SIMU.fim0||!$('#simu')||e.ctr
   if($('#sheet')) return;
   if(e.key==='ArrowRight'&&SIMU.i<SIMU.ids.length-1){ e.preventDefault(); SIMU.i++; simuQ(); }
   else if(e.key==='ArrowLeft'&&SIMU.i>0){ e.preventDefault(); SIMU.i--; simuQ(); } });
+document.addEventListener('keydown',e=>{ if(!SIMU||SIMU.fim0||!$('#simu')||$('#sheet')||e.ctrlKey||e.metaKey||e.altKey||e.repeat) return;
+  const ehAst=e.key==='*'||e.code==='NumpadMultiply'||(e.shiftKey&&e.code==='Digit8'&&e.key!=='('); if(!ehAst) return;
+  const a=document.activeElement; if(a&&(/^(INPUT|TEXTAREA|SELECT)$/.test(a.tagName)||a.isContentEditable)) return;
+  e.preventDefault(); e.stopImmediatePropagation(); const f=$('#smf'); if(f){ f.click(); toast(f.classList.contains('on')?'⚑ Questão marcada':'Bandeirinha removida'); } },true);
 function simLimparMarcas(ids){ (ids||[]).forEach(id=>{ const k='sq:'+id; if(S.marks[k]) S.marks[k]={l:[],u:Date.now()}; }); }
 function simuEntregarPerg(){
   const br=SIMU.ids.map((id,i)=>SIMU.resp[id]==null?i:-1).filter(i=>i>=0);
@@ -2200,7 +2209,7 @@ function simuEntregar(){
     if(!ok&&!(c.real||prioDe(c)==='alta')) S.srs[id].so=Date.now(); });
   const usado=Math.round(((st.dur||F.min*60000)-Math.max(0,st.fim-Date.now()))/60000), id=Date.now();
   const nums=S.sim.map(x=>+((String(x.nome).match(/^Simulado (\d+)/)||[])[1]||0)), num=Math.max(S.sim.length,...nums,0)+1;
-  S.sim.push({id,nome:`Simulado ${num} - ${dBR(hoje())}`,area:`${F.t}${st.rot?' ('+st.rot+')':st.g?' ('+(GN[st.g]||st.g)+')':''} - ${st.ids.length} questões`,d:hoje(),tot:st.ids.length,ac,utot:st.ut||0,uac:st.ua||0,u:id,app:1,ar,min:usado});
+  S.sim.push({id,nome:`Simulado ${num} - ${dBR(hoje())}`,area:`${F.t}${st.rot?' ('+st.rot+')':st.g?' ('+(GN[st.g]||st.g)+')':''} - ${st.ids.length} questões`,d:hoje(),tot:st.ids.length,ac,utot:st.ut||0,uac:st.ua||0,u:id,app:1,ar,min:usado,rev:{ids:st.ids,resp:st.resp,marc:st.marc||[],fmt:st.fmt,rot:st.rot||''}});
   delete S.simAnd[st.id]; S.simAndDel[st.id]=1; save(); syncProg();
   simuResultado(st,ar,ac,usado);
 }
@@ -2212,8 +2221,8 @@ function simuResultado(st,ar,ac,usado){
     <div class="pnls" style="margin-top:18px">${SIM_ORD.filter(g=>ar[g]).map(g=>{ const [a,t]=ar[g], v=Math.round(a/t*100);
       return `<div class="pnl"><div class="pnt"><b>${GN[g]}</b><span>${a}/${t} · ${v}%</span></div><div class="pnb"><i style="width:${v}%;background:${cor(v)}"></i><s title="corte: 50%"></s></div></div>`; }).join('')}</div>
     <div class="sec" style="margin-top:22px">Cartão-resposta</div><p class="mute small" style="margin:-2px 0 8px">Verde = acertou · vermelho = errou · tracejado = em branco · ⚑ = você marcou (dúvida). Toque no número para abrir a questão.</p>
-    <div class="smcart">${st.ids.map((id,i)=>{ const c=BYID[id]; if(!c) return ''; const r=st.resp[id], ok=r===c.certa; return `<button class="${ok?'ok':'bad'} ${r==null?'br':''} ${(st.marc||[]).includes(id)?'fl':''}" data-cq="${i}">${i+1}${r!=null&&!ok?`<small>${'ABCD'[r]}</small>`:''}</button>`; }).join('')}</div>
-    <p class="mute small" style="margin-top:14px">${erradas.length?`As ${erradas.length} que você errou (ou deixou em branco) já entraram na revisão como cards fracos.`:'Gabaritou! 🎉'}</p>`;
+    <div class="smcart">${st.ids.map((id,i)=>{ const c=BYID[id]; if(!c) return ''; const r=st.resp[id], ok=r===c.certa; return `<button class="${ok?'ok':'bad'} ${r==null?'br':''} ${(st.marc||[]).includes(id)?'fl':''}" data-cq="${i}">${i+1}${r!=null&&r>=0&&!ok?`<small>${'ABCD'[r]}</small>`:''}</button>`; }).join('')}</div>
+    <p class="mute small" style="margin-top:14px">${st.rever?(Object.values(st.resp).some(v=>v===-1)?'Simulado reconstruído pelo histórico: aparece o que você acertou e errou, mas a letra marcada nos erros não ficou registrada.':''):erradas.length?`As ${erradas.length} que você errou (ou deixou em branco) já entraram na revisão como cards fracos.`:'Gabaritou! 🎉'}</p>`;
   $('#smp').style.width='100%'; $('#smt').textContent='';
   const nav=document.querySelector('#simu .smnav');
   nav.innerHTML=`${erradas.length?`<button class="btn ghost" id="smrv">Ver erros · ${erradas.length}</button>`:''}<button class="btn" id="smok">Fechar</button>`;
@@ -2223,19 +2232,53 @@ function simuResultado(st,ar,ac,usado){
   document.querySelectorAll('[data-cq]').forEach(b=>b.onclick=()=>simuRevisar(st,st.ids,+b.dataset.cq,true));
   $('#smb').scrollTop=0;
 }
+function simLimpa(t){ return String(t||'').replace(/^(Errada|Incorreta|Correta)\s*(\([^)]*\))?\s*[.:—–-]*\s*/,'').replace(/\s*Marcada por \d+% dos candidatos\.?/,'').replace(/^o gabarito é [A-E]\.?$/i,'').trim(); }
+function simBanca(c){ const D=CARDS.filter(x=>x.sub===c.sub&&x.area===c.area);
+  const peg=c.pegadinha||((D.find(x=>x.pegadinha&&!x.real)||{}).pegadinha)||'';
+  const ct=(ctxDoBaralho(c).contexto||''), i=ct.search(/O que mais cai no Vila Verde:/), cai=i<0?[]:ct.slice(i).split('\n').slice(1).filter(l=>/^\s*- /.test(l)).map(l=>l.replace(/^\s*- /,'')).slice(0,4);
+  return {peg,cai}; }
+function simPorque(c,m){
+  const L='ABCDE', cm=c.comentarios||[], certa=c.certa;
+  let h=`<div class="smpq"><div class="smpqh">💡 Por que você errou</div>`;
+  if(m==null) h+=`<p>Você deixou <b>em branco</b>.</p>`;
+  else if(m<0) h+=`<p class="mute small">Esse simulado foi feito antes de o app guardar as respostas: sei que você errou, mas não qual letra marcou.</p>`;
+  else h+=`<p><b>Você marcou ${L[m]}:</b> ${esc(c.opcoes[m])}</p>${simLimpa(cm[m])&&simLimpa(cm[m])!==simLimpa(cm[certa])?`<p class="smpqx">${inlBr(simLimpa(cm[m]))}</p>`:''}`;
+  h+=`<p style="margin-top:8px"><b>Certa — ${L[certa]}:</b> ${esc(c.opcoes[certa])}</p>${simLimpa(cm[certa])?`<p class="smpqx ok">${inlBr(simLimpa(cm[certa]))}</p>`:''}</div>`;
+  const b=simBanca(c);
+  if(c.macete) h+=`<div class="mac"><b>🧠 Macete · </b>${inlBr(c.macete)}</div>`;
+  if(b.peg||b.cai.length) h+=`<div class="pega"><b>🎯 O que a Vila Verde gosta de cobrar</b>${b.peg?`<div style="margin-top:4px"><b>Pegadinha:</b> ${inlBr(b.peg)}</div>`:''}${b.cai.length?`<ul style="margin:6px 0 0;padding-left:18px">${b.cai.map(x=>`<li>${inlBr(x)}</li>`).join('')}</ul>`:''}</div>`;
+  return h; }
 function simuRevisar(st,L,k,todas){
-  const id=L[k], c=BYID[id], m=st.resp[id];
-  $('#smw').innerHTML=`<button class="crb" id="smcar" style="margin-bottom:10px">▦ Cartão-resposta</button><div class="tag">${todas?'Questão':'Erro'} ${k+1} de ${L.length} · ${m===c.certa?'✅ acertou':m==null?'⬜ em branco':'❌ errou'}${(st.marc||[]).includes(id)?' · ⚑ você marcou':''} · ${esc(GN[grupoDe(c)]||c.area)} · ${esc(c.sub)}</div><div class="hlz" data-hl="sq:${id}">${frenteHTML(c)}</div>
-    <div class="opts">${c.opcoes.map((o,i)=>`<div class="opt ${i===c.certa?'ok':i===m?'bad':''}"><span class="k">${'ABCDE'[i]}</span><span class="ot"><span class="tx0">${esc(o)}</span><span class="c">${inlBr((c.comentarios||[])[i]||'')}</span></span></div>`).join('')}</div>
-    ${m==null?'<p class="mute small">Você deixou em branco.</p>':''}${macHTML(c)}<div class="ans">${ctxHTML(c)}</div>${extrasUERJ(c)}`;
+  const id=L[k], c=BYID[id], m=st.resp[id], errou=m!==c.certa;
+  st._rv=[L,k,todas];
+  $('#smw').innerHTML=`<button class="crb" id="smcar" style="margin-bottom:10px">← Voltar ao gabarito <span class="mute small">(Esc)</span></button><div class="tag">${todas?'Questão':'Erro'} ${k+1} de ${L.length} · ${!errou?'✅ acertou':m==null?'⬜ em branco':'❌ errou'}${(st.marc||[]).includes(id)?' · ⚑ você marcou':''}${c.prova?' · '+provaTag(c):''} · ${esc(GN[grupoDe(c)]||c.area)} · ${esc(c.sub)}</div><div class="hlz" data-hl="sq:${id}">${frenteHTML(c)}</div>
+    <div class="opts">${c.opcoes.map((o,i)=>`<div class="opt ${i===c.certa?'ok':i===m?'bad':''}"><span class="k">${'ABCDE'[i]}</span><span class="ot"><span class="tx0">${esc(o)}</span>${errou&&(i===m||i===c.certa)?'':`<span class="c">${inlBr((c.comentarios||[])[i]||'')}</span>`}</span></div>`).join('')}</div>
+    ${errou?simPorque(c,m):macHTML(c)}<div class="ans">${ctxHTML(c)}</div>${errou?'':extrasUERJ(c)}`;
   $('#smb').scrollTop=0; aplicarZonas&&aplicarZonas();
-  const xs=S.srs[id]; if(xs&&xs.so) $('#smw').insertAdjacentHTML('afterbegin',`<button class="crb" id="smcad" style="margin-bottom:10px">⭐ Pôr no caderno de erros</button>`);
+  const xs=S.srs[id]; if(xs&&xs.so) $('#smcar').insertAdjacentHTML('afterend',`<button class="crb" id="smcad" style="margin-bottom:10px">⭐ Pôr no caderno de erros</button>`);
   const cb=$('#smcad'); if(cb) cb.onclick=()=>{ delete S.srs[id].so; save(); cb.remove(); toast('Vai para o caderno de erros ⭐'); };
   const nav=document.querySelector('#simu .smnav');
-  nav.innerHTML=`<button class="btn ghost" id="smra">←</button><button class="btn" id="smrn">${k<L.length-1?(todas?'Próxima →':'Próximo erro →'):'Cartão-resposta'}</button>`;
+  nav.innerHTML=`<button class="btn ghost" id="smra">←</button><button class="btn" id="smrn">${k<L.length-1?(todas?'Próxima →':'Próximo erro →'):'Voltar ao gabarito'}</button>`;
   $('#smra').disabled=k===0; $('#smra').onclick=()=>simuRevisar(st,L,k-1,todas);
-  $('#smcar').onclick=()=>{ const [ar,ac,us]=st._res||[{},0,0]; simuResultado(st,ar,ac,us); };
+  $('#smcar').onclick=()=>{ st._rv=null; const [ar,ac,us]=st._res||[{},0,0]; simuResultado(st,ar,ac,us); };
   $('#smrn').onclick=()=>k<L.length-1?simuRevisar(st,L,k+1,todas):$('#smcar').click();
+}
+/* rever um simulado salvo (Porcentagem): abre o cartão-resposta igual ao do fim */
+function simRevDe(x){ return x.rev||SIMREV[x.id]||SIMREV[String(x.id)]||null; }
+function simuRever(sid){
+  const x=S.sim.find(s=>s.id===sid), r=x&&simRevDe(x); if(!r) return toast('Esse simulado não tem as respostas guardadas');
+  const ids=r.ids.filter(id=>BYID[id]&&BYID[id].opcoes); if(!ids.length) return toast('As questões desse simulado não existem mais');
+  const st={id:x.id,fmt:r.fmt,rot:r.rot,ids,resp:{...r.resp},marc:r.marc||[],fim0:1,rever:1}, ar={}; let ac=0;
+  ids.forEach(id=>{ const c=BYID[id], g=grupoDe(c), ok=st.resp[id]===c.certa; ar[g]=ar[g]||[0,0]; ar[g][1]++; if(ok){ ar[g][0]++; ac++; } });
+  fecharFolha(); clearInterval(SIMTK); SIMU=st;
+  const el=document.createElement('div'); el.className='sess'; el.id='simu';
+  el.innerHTML=`<div class="sbar"><button class="x" id="smx" aria-label="Fechar"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+    <div class="prog"><i id="smp"></i></div><span class="smtm" id="smt"></span></div>
+    <div class="sbody" id="smb"><div class="wrap" id="smw"></div></div>
+    <div class="sfoot"><div class="in smnav"></div></div>`;
+  document.body.appendChild(el); document.body.style.overflow='hidden'; document.documentElement.style.overflow='hidden';
+  simuResultado(st,ar,ac,x.min||0);
+  $('#smw .smres .tag').textContent=x.nome+' · '+simRot(st);
 }
 
 /* ===== Porcentagem (simulados) ===== */
@@ -2276,7 +2319,7 @@ function pPct(){
       <div class="nmw"><div class="nm">${esc(x.nome)}</div>${x.area?`<div class="nm2">${esc(x.area)}</div>`:''}</div>
       <div class="blk"><div class="k">Simulado</div><div class="ln"><span class="fr">${x.tot?x.ac+'/'+x.tot:'—'}</span><span class="pc">${x.g!=null?x.g+'%':''}</span></div></div>
       <div class="blk"><div class="k">Vila Verde</div><div class="ln"><span class="fr">${x.utot?x.uac+'/'+x.utot:'—'}</span><span class="pc u">${x.u!=null?x.u+'%':''}</span></div></div>
-    </button>`).join('')}</div>`:L.length?'':`<div class="empty"><div class="serif">Nenhum simulado ainda</div>Adicione o primeiro para acompanhar sua evolução.</div>`}
+    ${simRevDe(x)?`<span class="simrv" data-srv="${x.id}">📋 Rever cartão-resposta</span>`:''}</button>`).join('')}</div>`:L.length?'':`<div class="empty"><div class="serif">Nenhum simulado ainda</div>Adicione o primeiro para acompanhar sua evolução.</div>`}
     ${painelHTML()}
     ${mapaHTML()}
   </div>`;
@@ -2287,7 +2330,7 @@ function pPct(){
     const n=Math.max(S.sim.length,...nums,0)+1, id=Date.now();
     VER_SIM=true; S.sim.push({id,nome:`Simulado ${n} - ${dBR(hoje())}`,d:hoje(),tot:0,ac:0,utot:0,uac:0,u:id}); save(); pPct(); editarSim(id,true);
   };
-  document.querySelectorAll('[data-sid]').forEach(b=>b.onclick=()=>editarSim(+b.dataset.sid));
+  document.querySelectorAll('[data-sid]').forEach(b=>b.onclick=e=>{ const r=e.target.closest('[data-srv]'); if(r) return simuRever(+r.dataset.srv); editarSim(+b.dataset.sid); });
 }
 /* ===== Painel das 5 áreas (como a prova: 20 questões cada; GO = Gineco + Obstetrícia) e baralhos mais fracos ===== */
 const GN={CM:'Clínica Médica',CIR:'Cirurgia',GO:'Ginecologia e Obstetrícia',PED:'Pediatria',PREV:'Medicina Preventiva'};
@@ -2337,7 +2380,7 @@ function editarSim(id,novo){
       <div><label>Acertos</label><input inputmode="numeric" id="${k2}" value="${x[k2]||''}"></div>
       <div><label>Questões</label><input inputmode="numeric" id="${k1}" value="${x[k1]||''}"></div>
       <div class="pp ${cls}" id="p_${k1}">${pc(x[k2],x[k1])!=null?pc(x[k2],x[k1])+'%':'—'}</div></div>`;
-  folha(`<div class="tm">Título</div><input class="srch" id="sn" value="${esc(x.nome)}" style="font-family:Fraunces,Georgia,serif;font-size:19px">
+  folha(`${simRevDe(x)?'<button class="btn" id="srev" style="margin-bottom:14px">📋 Rever simulado (cartão-resposta)</button>':''}<div class="tm">Título</div><input class="srch" id="sn" value="${esc(x.nome)}" style="font-family:Fraunces,Georgia,serif;font-size:19px">
     <div class="tm">Área / anotação (opcional · aparece em destaque no quadrinho)</div><input class="srch" id="sa" value="${esc(x.area||'')}" placeholder="Ex.: Clínica · Gineco · Geral">
     ${campo('tot','ac','','Simulado (total)')}${campo('utot','uac','u','Só questões do Vila Verde / Selecting')}
     <button class="btn" id="ss" style="margin-top:20px">Salvar</button>
@@ -2347,6 +2390,7 @@ function editarSim(id,novo){
   $('#sa').onkeydown=e=>{if(e.key==='Enter'){e.preventDefault();$('#ss').click()}};
   ['ac','tot','uac','utot'].forEach(k=>{$('#'+k).oninput=upd; $('#'+k).onkeydown=e=>{if(e.key==='Enter'){e.preventDefault();$('#ss').click()}}});
   if(novo) setTimeout(()=>$('#ac').focus(),250);
+  const rv=$('#srev'); if(rv) rv.onclick=()=>simuRever(id);
   $('#ss').onclick=()=>{
     const T=num('tot'),A=num('ac'),UT=num('utot'),UA=num('uac');
     if(A>T||UA>UT){toast('Acertos não podem passar do total de questões');return}
@@ -3153,6 +3197,7 @@ document.addEventListener('keydown',e=>{
 });
 /* ? = lista de atalhos */
 const ATALHOS=[['Revisão',[['Espaço','mostrar resposta / próximo'],['1  2  3','errei · quase · sabia'],['A B C D','alternativa do quiz'],['Z','card anterior'],['Esc','sair da rodada']]],
+  ['No simulado',[['← →','questão anterior / próxima'],['*','pôr/tirar a bandeirinha ⚑'],['Q','abrir/fechar o cartão-resposta'],['Esc','na correção: voltar ao gabarito']]],
   ['No card',[['*','favoritar'],['E','editar'],['T','anotação'],['N','novo card neste baralho'],['M','marca-texto (liga/desliga ou marca a seleção)'],['Shift + ;','trocar cor do marca-texto']]],
   ['Por que errou?',[['1  2  3  4','não sabia · confundi · li errado · só seguir']]],
   ['Escrevendo',[['Shift+Enter','salvar'],['Ctrl+B · Ctrl+U','negrito · sublinhado'],['Ctrl + selecionar','vários trechos de uma vez']]]];
@@ -3171,6 +3216,7 @@ document.addEventListener('keydown',e=>{
 document.addEventListener('keydown',e=>{
   if(e.key!=='Escape'||e.defaultPrevented) return;
   if($('#sheet')){ e.preventDefault(); fecharFolha(); return; }
+  if($('#simu')&&SIMU&&SIMU.fim0){ e.preventDefault(); const v=$('#smcar'); if(v) v.click(); else simuFechar(); return; }
   if($('#mat')){ const a=document.activeElement; if(a&&a.closest('#mat')&&/^(INPUT|TEXTAREA|SELECT)$/.test(a.tagName)){ a.blur(); return; } e.preventDefault(); fecharMat(); return; }
   if(PAG==='criar'&&VOLTA_MAT&&!SS){ e.preventDefault(); voltarTema(true); return; }
   if(PAG==='criar'&&VOLTA&&!SS&&!$('#end')){ e.preventDefault(); sairCriarRevisao(); return; }   // Criar aberto pelo N: Esc volta direto à revisão
