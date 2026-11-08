@@ -132,7 +132,7 @@ html:has(body>.sess),html:has(body>.sess) body{overflow:hidden!important;height:
 .opt.ok{background:var(--ok-soft)}.opt.ok .k{background:var(--ok);border-color:var(--ok);color:#fff}
 .opt.bad{background:var(--bad-soft)}.opt.bad .k{background:var(--bad);border-color:var(--bad);color:#fff}
 .opt[disabled]{cursor:default}
-.opt.sel{background:var(--wine-soft);box-shadow:inset 0 0 0 1.5px var(--wine)}.opt.sel .k{background:var(--wine);border-color:var(--wine);color:#fff}
+.opt.sel{background:rgba(59,111,214,.12);box-shadow:inset 0 0 0 1.5px #3B6FD6}.opt.sel .k{background:#3B6FD6;border-color:#3B6FD6;color:#fff}
 .preal{display:inline-block;font-size:11.5px;font-weight:600;color:#b8860b;background:rgba(217,164,65,.14);border-radius:999px;padding:3px 9px;margin-bottom:8px}
 .crw .tx{font-weight:600}.crp{font-size:12px;color:var(--mute);flex:none;font-variant-numeric:tabular-nums}.crw.cheia .crp,.crd.cheio .crp{color:var(--ok);font-weight:700}
 .crpend{font-size:10.5px;font-weight:700;color:#9a6700;background:rgba(217,164,65,.2);border-radius:999px;padding:2px 7px;margin-left:4px;vertical-align:1px}
@@ -150,6 +150,8 @@ html:has(body>.sess),html:has(body>.sess) body{overflow:hidden!important;height:
 .cri.cr-sim .crt span{font-weight:600}.cri.cr-prova{background:var(--wine-soft)}.cri.cr-prova .crt span{font-weight:700;color:var(--wine)}
 .cradd{align-self:flex-start;margin:2px 0 0 4px;font-size:13.5px}
 select.srch{appearance:auto}
+.smcart{display:grid;grid-template-columns:repeat(auto-fill,minmax(44px,1fr));gap:6px}.smcart button{height:42px;border-radius:9px;font-size:13px;font-weight:700;font-variant-numeric:tabular-nums;color:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;line-height:1.05}
+.smcart button small{font-size:9.5px;font-weight:600;opacity:.85}.smcart button{position:relative}.smcart .fl::after{content:'⚑';position:absolute;top:-6px;right:-4px;font-size:11px;color:#D9A441;background:var(--bg);border-radius:50%;width:15px;height:15px;line-height:15px;text-align:center;box-shadow:0 0 0 1px #D9A441}.smcart .ok{background:var(--ok)}.smcart .bad{background:var(--bad)}.smcart .br{background:transparent;color:var(--bad);border:2px dashed var(--bad)}
 .smand{display:flex;align-items:center;gap:8px;padding:10px 0;border-bottom:1px solid var(--line)}.smand .smi{flex:1;min-width:0;display:flex;flex-direction:column;gap:2px}.crb.del{color:var(--bad);background:var(--bad-soft)}
 .sar0,.sar1,.sar2{display:flex;align-items:center;gap:10px;padding:9px 0;border-bottom:1px solid var(--line)}.sar1{padding-left:22px}.sar2{padding-left:44px;font-size:14px}.sar0 .snm{font-weight:600}
 .snm{flex:1;cursor:pointer}.sck{flex:none;width:24px;height:24px;border-radius:7px;border:2px solid var(--line);display:grid;place-items:center;font-size:13px;font-weight:700;color:#fff;cursor:pointer}.sck.on{background:var(--wine);border-color:var(--wine)}
@@ -157,7 +159,7 @@ select.srch{appearance:auto}
 .smgr{font-size:12.5px;font-weight:600;color:var(--wine);background:var(--wine-soft);border-radius:9px;padding:6px 9px}
 .smnav{display:flex;gap:8px}.smnav .btn{margin:0;width:auto;padding:15px 12px}.smnav .btn.ghost{flex:0 0 auto;min-width:56px}.smnav .btn:last-child{flex:1}.smfl.on{color:#D9A441;border-color:#D9A441}
 .smgd{display:grid;grid-template-columns:repeat(auto-fill,minmax(40px,1fr));gap:6px;max-height:50vh;overflow-y:auto}.smgd button{height:38px;border-radius:9px;border:1.5px solid var(--line);font-size:13px;font-variant-numeric:tabular-nums;color:var(--mute);position:relative}
-.smgd button.r{background:var(--wine-soft);color:var(--wine);border-color:transparent;font-weight:600}.smgd button.m::after{content:'⚑';position:absolute;top:-3px;right:1px;font-size:10px;color:#D9A441}.smgd button.at{outline:2px solid var(--wine);outline-offset:1px}
+.smgd button.r{background:rgba(59,111,214,.14);color:#3B6FD6;border-color:transparent;font-weight:600}.smgd button.m::after{content:'⚑';position:absolute;top:-3px;right:1px;font-size:10px;color:#D9A441}.smgd button.at{outline:2px solid var(--wine);outline-offset:1px}
 .smres{text-align:center;padding:10px 0}.smbig{font-size:54px;font-weight:600;letter-spacing:-.03em;font-variant-numeric:tabular-nums;line-height:1.1}.smcut{display:inline-block;margin-top:10px;padding:6px 12px;border-radius:999px;font-size:13.5px;font-weight:600}.smcut.ok{background:var(--ok-soft);color:var(--ok)}.smcut.bad{background:var(--bad-soft);color:var(--bad)}
 .opt .ot{flex:1;min-width:0}.opt .rk{flex:none;align-self:center;width:30px;height:30px;margin:-4px -6px -4px 0;border-radius:50%;display:grid;place-items:center;color:var(--mute);font-size:15px;opacity:.55}.opt .rk:active{background:var(--line)}
 .opt.risc .ot>.tx0{text-decoration:line-through;text-decoration-thickness:1.5px;color:var(--mute)}.opt.risc .k{opacity:.4}.opt.risc .rk{opacity:1;color:var(--bad)}
@@ -2087,7 +2089,7 @@ function simuAndamento(){
 /* Por área: ✓ na grande área = área inteira; toque no nome = abre matérias → baralhos para escolher */
 let SAR_SEL=new Set(), SAR_AB=new Set(), SAR_N=20;
 function simuArea(){
-  folha(`<div class="serif" style="font-size:21px;margin-bottom:4px">Montar simulado</div><p class="mute small" style="margin:0 0 10px">✓ na grande área = questões da área inteira. Toque no nome para escolher matérias ou baralhos.</p><div id="sar"></div><div class="tm" style="margin-top:14px">Quantas questões (sorteadas)</div><div class="seg" id="sarn">${[10,20,30,50,100].map(n=>`<button data-n="${n}" class="${n===SAR_N?'on':''}">${n}</button>`).join('')}</div><button class="btn" id="sarok" style="margin-top:10px">Começar</button>`);
+  folha(`<div class="serif" style="font-size:21px;margin-bottom:4px">Montar simulado</div><p class="mute small" style="margin:0 0 10px">Sem marcar nada = questões de todas as áreas. ✓ na grande área = área inteira. Toque no nome para escolher matérias ou baralhos.</p><div id="sar"></div><div class="tm" style="margin-top:14px">Quantas questões (sorteadas)</div><div class="seg" id="sarn">${[10,20,30,50,100].map(n=>`<button data-n="${n}" class="${n===SAR_N?'on':''}">${n}</button>`).join('')}</div><button class="btn" id="sarok" style="margin-top:10px">Começar</button>`);
   $('#sarn').onclick=e=>{ const b=e.target.closest('[data-n]'); if(!b) return; SAR_N=+b.dataset.n; document.querySelectorAll('#sarn button').forEach(x=>x.classList.toggle('on',x===b)); };
   const Q=CARDS.filter(c=>c.tipo==='quiz'&&c.opcoes&&c.opcoes.length>=2), T={};
   Q.forEach(c=>{ const g=grupoDe(c), tk=c.area+'|'+c.tema; ((T[g]=T[g]||{})[tk]=T[g][tk]||new Set()).add(c.sub); });
@@ -2098,10 +2100,10 @@ function simuArea(){
   draw();
   $('#sar').onclick=e=>{ const x=e.target.closest('[data-sx]'); if(x){ const k=x.dataset.sx; SAR_AB.has(k)?SAR_AB.delete(k):SAR_AB.add(k); return draw(); }
     const c=e.target.closest('[data-sk],[data-sk2]'); if(c){ const k=c.dataset.sk||c.dataset.sk2; SAR_SEL.has(k)?SAR_SEL.delete(k):SAR_SEL.add(k); draw(); } };
-  $('#sarok').onclick=()=>{ if(!SAR_SEL.size) return toast('Marque uma área, matéria ou baralho');
-    const sel=[...SAR_SEL], pool=Q.filter(c=>sel.some(k=>k==='g:'+grupoDe(c)||k==='t:'+c.area+'|'+c.tema||k==='s:'+c.area+'|'+c.tema+'|'+c.sub));
+  $('#sarok').onclick=()=>{
+    const sel=[...SAR_SEL], pool=!sel.length?Q:Q.filter(c=>sel.some(k=>k==='g:'+grupoDe(c)||k==='t:'+c.area+'|'+c.tema||k==='s:'+c.area+'|'+c.tema+'|'+c.sub));
     if(!pool.length) return toast('Sem questões nessa seleção');
-    const nm=sel.map(k=>k[0]==='g'?GN[k.slice(2)]:k.split('|').pop()), rot=nm.length>2?nm.slice(0,2).join(', ')+'…':nm.join(', ');
+    const nm=sel.map(k=>k[0]==='g'?GN[k.slice(2)]:k.split('|').pop()), rot=!nm.length?'Todas as áreas':nm.length>2?nm.slice(0,2).join(', ')+'…':nm.join(', ');
     fecharFolha(); simuIds('area',simEscolherDe(pool,SAR_N),rot); };
 }
 function simEscolherDe(pool,n){ const q=S.simq||{};
@@ -2126,7 +2128,7 @@ function simuAbrir(st){
   $('#smx').onclick=()=>{ simuSalvar(); simuFechar(); toast('Simulado salvo — continue quando quiser'); };
   $('#smg').onclick=simuGrade;
   $('#sma').onclick=()=>{ if(SIMU.i>0){ SIMU.i--; simuQ(); } };
-  $('#smf').onclick=()=>{ const id=SIMU.ids[SIMU.i], k=SIMU.marc.indexOf(id); k<0?SIMU.marc.push(id):SIMU.marc.splice(k,1); simuQ(); };
+  $('#smf').onclick=()=>{ const id=SIMU.ids[SIMU.i], k=SIMU.marc.indexOf(id); k<0?SIMU.marc.push(id):SIMU.marc.splice(k,1); $('#smf').classList.toggle('on',k<0); const tg=$('#smw .tag'); if(tg) tg.textContent=tg.textContent.replace(' · ⚑ marcada','')+(k<0?' · ⚑ marcada':''); };
   $('#smn').onclick=()=>{ if(SIMU.i<SIMU.ids.length-1){ SIMU.i++; simuQ(); } else simuGrade(); };
   clearInterval(SIMTK); SIMTK=setInterval(simuTick,1000); simuTick(); simuQ();
 }
@@ -2138,12 +2140,15 @@ function simuTick(){ if(!SIMU) return; const r=Math.max(0,SIMU.fim-Date.now()), 
 function simuQ(){
   const id=SIMU.ids[SIMU.i], c=BYID[id], esc0=SIMU.resp[id];
   $('#smp').style.width=(Object.keys(SIMU.resp).length/SIMU.ids.length*100)+'%';
-  $('#smw').innerHTML=`<div class="tag">Questão ${SIMU.i+1} de ${SIMU.ids.length} · ${esc(GN[grupoDe(c)]||c.area)}${c.prova&&SIMU.fmt[0]!=='r'?' · 📄 caiu na prova':''}${SIMU.marc.includes(id)?' · ⚑ marcada':''}</div>${frenteHTML(c)}
+  $('#smw').innerHTML=`<div class="tag">Questão ${SIMU.i+1} de ${SIMU.ids.length} · ${esc(GN[grupoDe(c)]||c.area)}${c.prova&&SIMU.fmt[0]!=='r'?' · 📄 caiu na prova':''}${SIMU.marc.includes(id)?' · ⚑ marcada':''}</div><div class="hlz" data-hl="sq:${id}">${frenteHTML(c)}</div>
     <div class="opts">${c.opcoes.map((o,i)=>`<button class="opt ${esc0===i?'sel':''} ${(SIMU.risc||{})[id+'_'+i]?'risc':''}" data-i="${i}"><span class="k">${'ABCDE'[i]}</span><span class="ot"><span class="tx0">${esc(o)}</span></span>${RISCA}</button>`).join('')}</div>`;
-  $('#smb').scrollTop=0;
+  $('#smb').scrollTop=0; aplicarZonas();
+  /* responder/riscar só troca as classes: a tela fica onde está */
+  const pinta=()=>{ document.querySelectorAll('#smw .opt').forEach(b=>{ const i=+b.dataset.i; b.classList.toggle('sel',SIMU.resp[id]===i); b.classList.toggle('risc',!!(SIMU.risc||{})[id+'_'+i]); });
+    $('#smp').style.width=(Object.keys(SIMU.resp).length/SIMU.ids.length*100)+'%'; };
   document.querySelectorAll('#smw .opt').forEach(b=>b.onclick=e=>{ const i=+b.dataset.i;
-    if(e.target.closest('.rk')){ e.stopPropagation(); SIMU.risc=SIMU.risc||{}; const k=id+'_'+i; SIMU.risc[k]=!SIMU.risc[k]; if(SIMU.risc[k]&&SIMU.resp[id]===i) delete SIMU.resp[id]; return simuQ(); }
-    if(SIMU.resp[id]===i) delete SIMU.resp[id]; else SIMU.resp[id]=i; vib(8); simuQ(); });
+    if(e.target.closest('.rk')){ e.stopPropagation(); SIMU.risc=SIMU.risc||{}; const k=id+'_'+i; SIMU.risc[k]=!SIMU.risc[k]; if(SIMU.risc[k]&&SIMU.resp[id]===i) delete SIMU.resp[id]; return pinta(); }
+    if(SIMU.resp[id]===i) delete SIMU.resp[id]; else SIMU.resp[id]=i; vib(8); pinta(); });
   $('#smf').classList.toggle('on',SIMU.marc.includes(id)); $('#sma').disabled=SIMU.i===0;
   $('#smn').textContent=SIMU.i<SIMU.ids.length-1?'Próxima →':'Revisar e entregar';
 }
@@ -2177,25 +2182,31 @@ function simuResultado(st,ar,ac,usado){
     <div class="smcut ${p>=50?'ok':'bad'}">${p>=50?'✓ Acima do corte de 50%':'✗ Abaixo do corte de 50% (eliminaria)'}</div></div>
     <div class="pnls" style="margin-top:18px">${SIM_ORD.filter(g=>ar[g]).map(g=>{ const [a,t]=ar[g], v=Math.round(a/t*100);
       return `<div class="pnl"><div class="pnt"><b>${GN[g]}</b><span>${a}/${t} · ${v}%</span></div><div class="pnb"><i style="width:${v}%;background:${cor(v)}"></i><s title="corte: 50%"></s></div></div>`; }).join('')}</div>
+    <div class="sec" style="margin-top:22px">Cartão-resposta</div><p class="mute small" style="margin:-2px 0 8px">Verde = acertou · vermelho = errou · tracejado = em branco · ⚑ = você marcou (dúvida). Toque no número para abrir a questão.</p>
+    <div class="smcart">${st.ids.map((id,i)=>{ const c=BYID[id]; if(!c) return ''; const r=st.resp[id], ok=r===c.certa; return `<button class="${ok?'ok':'bad'} ${r==null?'br':''} ${(st.marc||[]).includes(id)?'fl':''}" data-cq="${i}">${i+1}${r!=null&&!ok?`<small>${'ABCD'[r]}</small>`:''}</button>`; }).join('')}</div>
     <p class="mute small" style="margin-top:14px">${erradas.length?`As ${erradas.length} que você errou (ou deixou em branco) já entraram na revisão como cards fracos.`:'Gabaritou! 🎉'}</p>`;
   $('#smp').style.width='100%'; $('#smt').textContent=''; $('#smg').style.visibility='hidden';
   const nav=document.querySelector('#simu .smnav');
   nav.innerHTML=`${erradas.length?`<button class="btn ghost" id="smrv">Ver erros · ${erradas.length}</button>`:''}<button class="btn" id="smok">Fechar</button>`;
   $('#smok').onclick=simuFechar; $('#smx').onclick=simuFechar;
   const rv=$('#smrv'); if(rv) rv.onclick=()=>simuRevisar(st,erradas,0);
+  st._res=[ar,ac,usado];
+  document.querySelectorAll('[data-cq]').forEach(b=>b.onclick=()=>simuRevisar(st,st.ids,+b.dataset.cq,true));
+  $('#smb').scrollTop=0;
 }
-function simuRevisar(st,L,k){
+function simuRevisar(st,L,k,todas){
   const id=L[k], c=BYID[id], m=st.resp[id];
-  $('#smw').innerHTML=`<div class="tag">Erro ${k+1} de ${L.length} · ${esc(GN[grupoDe(c)]||c.area)} · ${esc(c.sub)}</div>${frenteHTML(c)}
+  $('#smw').innerHTML=`<button class="crb" id="smcar" style="margin-bottom:10px">▦ Cartão-resposta</button><div class="tag">${todas?'Questão':'Erro'} ${k+1} de ${L.length} · ${m===c.certa?'✅ acertou':m==null?'⬜ em branco':'❌ errou'}${(st.marc||[]).includes(id)?' · ⚑ você marcou':''} · ${esc(GN[grupoDe(c)]||c.area)} · ${esc(c.sub)}</div><div class="hlz" data-hl="sq:${id}">${frenteHTML(c)}</div>
     <div class="opts">${c.opcoes.map((o,i)=>`<div class="opt ${i===c.certa?'ok':i===m?'bad':''}"><span class="k">${'ABCDE'[i]}</span><span class="ot"><span class="tx0">${esc(o)}</span><span class="c">${inlBr((c.comentarios||[])[i]||'')}</span></span></div>`).join('')}</div>
     ${m==null?'<p class="mute small">Você deixou em branco.</p>':''}${macHTML(c)}<div class="ans">${ctxHTML(c)}</div>${extrasUERJ(c)}`;
   $('#smb').scrollTop=0; aplicarZonas&&aplicarZonas();
   const xs=S.srs[id]; if(xs&&xs.so) $('#smw').insertAdjacentHTML('afterbegin',`<button class="crb" id="smcad" style="margin-bottom:10px">⭐ Pôr no caderno de erros</button>`);
   const cb=$('#smcad'); if(cb) cb.onclick=()=>{ delete S.srs[id].so; save(); cb.remove(); toast('Vai para o caderno de erros ⭐'); };
   const nav=document.querySelector('#simu .smnav');
-  nav.innerHTML=`<button class="btn ghost" id="smra">←</button><button class="btn" id="smrn">${k<L.length-1?'Próximo erro →':'Fechar'}</button>`;
-  $('#smra').disabled=k===0; $('#smra').onclick=()=>simuRevisar(st,L,k-1);
-  $('#smrn').onclick=()=>k<L.length-1?simuRevisar(st,L,k+1):simuFechar();
+  nav.innerHTML=`<button class="btn ghost" id="smra">←</button><button class="btn" id="smrn">${k<L.length-1?(todas?'Próxima →':'Próximo erro →'):'Cartão-resposta'}</button>`;
+  $('#smra').disabled=k===0; $('#smra').onclick=()=>simuRevisar(st,L,k-1,todas);
+  $('#smcar').onclick=()=>{ const [ar,ac,us]=st._res||[{},0,0]; simuResultado(st,ar,ac,us); };
+  $('#smrn').onclick=()=>k<L.length-1?simuRevisar(st,L,k+1,todas):$('#smcar').click();
 }
 
 /* ===== Porcentagem (simulados) ===== */
