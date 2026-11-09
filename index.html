@@ -344,6 +344,9 @@ textarea.note:focus{border-color:var(--rose)}
 .mrow .mimg.sp{flex:0 1 150px}.mrow .mimg.sm{flex:0 1 240px}
 .anot .mt b,.mine .mt b{font-weight:700}
 .vm{color:#C62828}
+.lctr{display:inline-block;width:100%;text-align:center}
+.rte>div[data-c]{text-align:center}
+.ftb .fup,#ftf .fup{font:700 13px Inter,sans-serif;letter-spacing:-.02em}
 .rte{position:relative;width:100%;outline:none;background:var(--card);border:1.5px solid var(--line);font-size:15px;line-height:1.55;white-space:pre-wrap;overflow-wrap:break-word;cursor:text;color:var(--ink)}
 .rte:focus{border-color:var(--rose)}
 .rte-ned{min-height:80px;border-radius:12px;padding:10px;margin-top:6px}
@@ -968,7 +971,7 @@ function conferirDig(c,v){ const u=normR(v); if(!u) return false;
   return [c.resposta,...(c.aceitas||[])].map(normR).filter(Boolean).some(a=>bateR(u,a)); }
 const extrasUERJ=c=>(c.uerj?`<div class="uerj"><b>Na banca · </b>${inlBr(c.uerj)}</div>`:'')+(c.ref_uerj?`<div class="uerj"><b>Na UERJ · </b>${inlBr(c.ref_uerj)}</div>`:'')+(c.pegadinha?`<div class="pega"><b>Pegadinha · </b>${inlBr(c.pegadinha)}</div>`:'');
 /* texto estruturado: linha = linha · "- " = tópico · **x** = destaque */
-const inl=t=>esc(t).replace(/\*\*(.+?)\*\*/g,'<strong>$1</strong>').replace(/__(.+?)__/g,'<u>$1</u>').replace(/\{v\}(.*?)\{\/v\}/g,'<span class="vm">$1</span>').replace(/\{\/?v\}/g,'');
+const inl=t=>esc(t).replace(/\{c\}(.*?)\{\/c\}/g,'<span class="lctr">$1</span>').replace(/\{\/?c\}/g,'').replace(/\*\*(.+?)\*\*/g,'<strong>$1</strong>').replace(/__(.+?)__/g,'<u>$1</u>').replace(/\{v\}(.*?)\{\/v\}/g,'<span class="vm">$1</span>').replace(/\{\/?v\}/g,'');
 const plano=t=>String(t||'').replace(/\*\*|__|\{\/?v\}/g,'');   // sem marcas de formatação (listas, títulos)
 const inlBr=t=>String(t||'').split('\n').map(x=>inl(x.trim())).filter(Boolean).join('<br>');
 /* "  - " (recuado) = subtópico do tópico de cima · linha terminando em ":" = rótulo do bloco */
@@ -1601,7 +1604,7 @@ function tagHTML(c){return `${c.prova?`<div class="preal">📄 Caiu na prova · 
 /* anotação pessoal: texto + fotos coladas, guardadas como ![](data/img/...) dentro do próprio texto */
 const IMG_RE=/!\[([^\]]*)\]\(([^)\s]+)\)/g;
 /* anotação: **negrito**, __sublinhado__, {v}vermelho{/v}; fotos ![p|m|](src) = pequena/média/grande; fotos na mesma linha = lado a lado */
-const fmtNota=t=>esc(t).replace(/\*\*([\s\S]+?)\*\*/g,'<b>$1</b>').replace(/__([\s\S]+?)__/g,'<u>$1</u>').replace(/\{v\}([\s\S]*?)\{\/v\}/g,'<span class="vm">$1</span>').replace(/\{\/?v\}/g,'');
+const fmtNota=t=>esc(t).replace(/\{c\}(.*?)\{\/c\}/g,'<span class="lctr">$1</span>').replace(/\{\/?c\}/g,'').replace(/\*\*([\s\S]+?)\*\*/g,'<b>$1</b>').replace(/__([\s\S]+?)__/g,'<u>$1</u>').replace(/\{v\}([\s\S]*?)\{\/v\}/g,'<span class="vm">$1</span>').replace(/\{\/?v\}/g,'');
 const imgTag=(a,src)=>`<img class="mimg ${a==='p'?'sp':a==='m'?'sm':'sg'}"${/^\d+$/.test(a||'')?` style="--w:${a}"`:''} src="${esc(imgSrc(src))}" data-p="${esc(src)}" alt="" data-zoom onerror="imgFalhou(this)">`;
 function minhaCorpo(t){
   t=String(t); let h='',i=0; const toks=[...t.matchAll(IMG_RE)];
@@ -3144,7 +3147,7 @@ addEventListener('scroll',()=>{ if(HLT&&HLT.style.display!=='none'&&!HLR) escond
    barra em cima da caixa + barra flutuante em cima do trecho selecionado.
    Marcas: **negrito**, __sublinhado__, {v}vermelho{/v}; "- " tópico; "  - " subtópico.
    PC: segure Ctrl (⌘ no Mac) e selecione outros trechos → todos ficam marcados e a formatação vale para todos. */
-const FMT_BTN=[['b','<b>B</b>','Negrito (Ctrl+B)',''],['u','<u>S</u>','Sublinhado (Ctrl+U)',''],['r','','Vermelho','fr'],['k','','Preto (cor normal)','fk'],['li','•','Tópico',''],['sub','◦','Subtópico',''],['seta','→','Seta','']];
+const FMT_BTN=[['b','<b>B</b>','Negrito (Ctrl+B)',''],['u','<u>S</u>','Sublinhado (Ctrl+U)',''],['r','','Vermelho','fr'],['k','','Preto (cor normal)','fk'],['li','•','Tópico',''],['sub','◦','Subtópico',''],['seta','→','Seta',''],['up','Aa','Maiúsculas / minúsculas (clique de novo volta)','fup'],['ctr','<svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M4 6h16M7 12h10M5 18h14"/></svg>','Centralizar linha','']];
 function barraFmtHTML(extra){ return `<div class="ftb" role="toolbar">${FMT_BTN.map(([k,h,t,c])=>`<button type="button" data-fx="${k}" class="${c}" title="${t}" aria-label="${t}">${h}</button>`).join('')}${extra||''}</div>`; }
 const ehFmt=t=>!!(t&&t.tagName==='TEXTAREA'&&t.matches('textarea.ned,textarea.note')&&t.id!=='bt');
 let MULTI={ta:null,r:[]};
@@ -3154,6 +3157,9 @@ function umFmt(v,a,b,f,n){
   if(f==='li'||f==='sub'){ const ls=v.lastIndexOf('\n',a-1)+1, le=v.indexOf('\n',b), fim=le<0?v.length:le, pf=f==='li'?'- ':'  - ';
     const novo=v.slice(ls,fim).split('\n').map(l=>pf+l.replace(/^\s*[-•◦]\s+/,'')).join('\n'); return {v:v.slice(0,ls)+novo+v.slice(fim),a:ls+novo.length,b:ls+novo.length}; }
   if(f==='seta') return {v:antes+' → '+depois,a:a+3,b:a+3};
+  if(f==='up'){ if(!sel) return {v,a,b}; const t=(sel!==sel.toUpperCase()?sel.toUpperCase():sel.toLowerCase()).replace(/\{(\/?)V\}/g,'{$1v}').replace(/\{(\/?)C\}/g,'{$1c}').replace(/\{\{C(\d+)::/g,'{{c$1::'); return {v:antes+t+depois,a,b:a+t.length}; }
+  if(f==='ctr'){ const ls=v.lastIndexOf('\n',a-1)+1, le=v.indexOf('\n',b), fim=le<0?v.length:le, bl=v.slice(ls,fim).split('\n'), todos=bl.every(l=>!l.trim()||/\{c\}.*\{\/c\}\s*$/.test(l));
+    const novo=bl.map(l=>{ if(!l.trim()) return l; if(todos) return l.replace('{c}','').replace(/\{\/c\}(\s*)$/,'$1'); const m=l.match(/^(\s*(?:[-•◦]\s+)?)(.*)$/); return m[1]+'{c}'+m[2]+'{/c}'; }).join('\n'); return {v:v.slice(0,ls)+novo+v.slice(fim),a:ls+novo.length,b:ls+novo.length}; }
   if(f==='cz'||f==='czm'){ const ab=`{{c${n}::`; return sel?{v:antes+ab+sel+'}}'+depois,a:a+ab.length+sel.length+2,b:a+ab.length+sel.length+2}:{v:antes+ab+'}}'+depois,a:a+ab.length,b:a+ab.length}; }
   if(f==='k'){ const s2=sel.replace(/\{\/?v\}/g,''), ab=antes.lastIndexOf('{v}')>antes.lastIndexOf('{/v}');
     return {v:antes+(ab?'{/v}':'')+s2+(ab&&!/^\{\/v\}/.test(depois)?'{v}':'')+depois,a:a+(ab?4:0),b:a+(ab?4:0)+s2.length}; }
@@ -3182,8 +3188,8 @@ const rteOk=ta=>ehFmt(ta)&&ta.id!=='ct'&&!ta._rte&&ta.isConnected;
 const rteImgW=a=>/^\d+$/.test(a||'')?+a:a==='p'?34:a==='m'?64:100;
 const rteImg=(a,src)=>`<img class="rimg" contenteditable="false" draggable="false" src="${esc(imgSrc(src))}" data-p="${esc(src)}" data-w="${rteImgW(a)}" style="--w:${rteImgW(a)}" alt="""" onerror="imgFalhou(this)">`;
 function rteInline(s){ let h='',i=0; for(const m of String(s).matchAll(IMG_RE)){ h+=fmtNota(s.slice(i,m.index)); h+=rteImg(m[1],m[2]); i=m.index+m[0].length; } return h+fmtNota(s.slice(i)); }
-function mdParaRte(md){ return String(md||'').replace(/\r/g,'').split('\n').map(ln=>{ const m=ln.match(/^(\s*)[-•◦]\s+(.*)$/), l=m?(m[1].length>=2?'sub':'li'):'', tx=m?m[2]:ln, h=rteInline(tx);
-  return `<div${l?` data-l="${l}"`:''}>${h||'<br>'}</div>`; }).join(''); }
+function mdParaRte(md){ return String(md||'').replace(/\r/g,'').split('\n').map(ln=>{ const m=ln.match(/^(\s*)[-•◦]\s+(.*)$/), l=m?(m[1].length>=2?'sub':'li'):''; let tx=m?m[2]:ln; const c=/^\{c\}([\s\S]*)\{\/c\}$/.exec(tx); if(c) tx=c[1]; const h=rteInline(tx);
+  return `<div${l?` data-l="${l}"`:''}${c?' data-c="1"':''}>${h||'<br>'}</div>`; }).join(''); }
 const rteCor=el=>{ const c=(el.getAttribute&&el.getAttribute('color')||el.style&&el.style.color||'').toLowerCase().replace(/\s/g,''); return c==='#d13438'||c==='rgb(209,52,56)'; };
 function rteInl(x){
   if(x.nodeType===3) return x.nodeValue.replace(/ /g,' ').replace(/​/g,'');
@@ -3205,7 +3211,7 @@ function rteParaMd(div){
   [...div.childNodes].forEach(n=>{
     if(bloco(n)){ cur=null; if(/^(UL|OL)$/.test(n.tagName)){ [...n.children].forEach(li=>linha(li,'- ')); return; }
       if([...n.childNodes].some(bloco)){ [...n.childNodes].forEach(k=>bloco(k)?linha(k,''):out.push(rteInl(k))); return; }
-      const l=n.dataset&&n.dataset.l; linha(n,l==='sub'?'  - ':l==='li'?'- ':''); }
+      const l=n.dataset&&n.dataset.l, pf=l==='sub'?'  - ':l==='li'?'- ':''; if(n.dataset&&n.dataset.c){ const i0=out.length; linha(n,''); for(let i=i0;i<out.length;i++) out[i]=(i===i0?pf:'')+(out[i].trim()?'{c}'+out[i]+'{/c}':out[i]); } else linha(n,pf); }
     else { const s=rteInl(n); if(cur===null){ out.push(''); cur=out.length-1; } out[cur]+=s; }
   });
   while(out.length&&out[out.length-1]==='') out.pop();
@@ -3243,7 +3249,7 @@ function rteSet(div,p){
 /* mapa: posição visível → posição no texto guardado (para quem ainda usa selectionStart / setSelectionRange) */
 function rteMapa(md){ const P=[], ls=String(md).split('\n'); let base=0;
   ls.forEach((ln,li)=>{ let i=0; const pm=ln.match(/^\s*[-•◦]\s+/); if(pm) i=pm[0].length;
-    while(i<ln.length){ const r=ln.slice(i); let m; if((m=r.match(/^(\*\*|__|\{v\}|\{\/v\})/))){ i+=m[0].length; continue; }
+    while(i<ln.length){ const r=ln.slice(i); let m; if((m=r.match(/^(\*\*|__|\{v\}|\{\/v\}|\{c\}|\{\/c\})/))){ i+=m[0].length; continue; }
       if((m=r.match(/^!\[[^\]]*\]\([^)\s]+\)/))){ P.push(base+i); i+=m[0].length; continue; } P.push(base+i); i++; }
     if(li<ls.length-1) P.push(base+ln.length); base+=ln.length+1; });
   P.push(String(md).length); return P; }
@@ -3264,11 +3270,22 @@ function rteLinhas(div){ /* texto solto no topo vira linha */ let run=[]; const 
 function linhaDe(div,node){ let n=node&&node.nodeType===3?node.parentNode:node; while(n&&n.parentNode!==div) n=n.parentNode; return n&&n!==div?n:null; }
 function rteLinhasSel(div){ const s=getSelection(); if(!s.rangeCount) return []; const r=s.getRangeAt(0), a=linhaDe(div,r.startContainer), b=linhaDe(div,r.endContainer); if(!a) return b?[b]:[];
   const ls=[...div.children], i=ls.indexOf(a), j=ls.indexOf(b||a); return ls.slice(Math.min(i,j),Math.max(i,j)+1); }
+/* maiúsculas ↔ minúsculas no trecho selecionado, sem perder negrito/cor */
+function rteCaixa(div){ const s=getSelection(); if(!s.rangeCount||s.isCollapsed) return; const r=s.getRangeAt(0), ns=[];
+  const w=document.createTreeWalker(div,NodeFilter.SHOW_TEXT); let n; while((n=w.nextNode())) if(r.intersectsNode(n)) ns.push(n);
+  const parte=n=>[n===r.startContainer?r.startOffset:0, n===r.endContainer?r.endOffset:n.nodeValue.length];
+  const txt=ns.map(n=>{ const [a,b]=parte(n); return n.nodeValue.slice(a,b); }).join(''), up=txt!==txt.toUpperCase();
+  const sc=r.startContainer, so=r.startOffset, ec=r.endContainer, eo=r.endOffset;
+  ns.forEach(n=>{ const [a,b]=parte(n), v=n.nodeValue, m=v.slice(a,b); n.nodeValue=v.slice(0,a)+(up?m.toUpperCase():m.toLowerCase())+v.slice(b); });
+  try{ const r2=document.createRange(); r2.setStart(sc,Math.min(so,sc.nodeValue!=null?sc.nodeValue.length:so)); r2.setEnd(ec,Math.min(eo,ec.nodeValue!=null?ec.nodeValue.length:eo)); s.removeAllRanges(); s.addRange(r2); }catch(e){}
+}
 function rteFmt(div,f){
   div.focus({preventScroll:true}); rteLinhas(div);
   if(f==='b') document.execCommand('bold'); else if(f==='u') document.execCommand('underline');
   else if(f==='r') document.execCommand('foreColor',false,RTE_RED); else if(f==='k') document.execCommand('foreColor',false,RTE_BLK);
   else if(f==='seta') document.execCommand('insertText',false,' → ');
+  else if(f==='ctr'){ const ls=rteLinhasSel(div), todos=ls.length&&ls.every(l=>l.dataset.c); ls.forEach(l=>{ if(todos) delete l.dataset.c; else l.dataset.c='1'; }); }
+  else if(f==='up') rteCaixa(div);
   else if(f==='li'||f==='sub'){ const ls=rteLinhasSel(div); const todos=ls.length&&ls.every(l=>l.dataset.l===f); ls.forEach(l=>{ if(todos) delete l.dataset.l; else l.dataset.l=f; }); }
   rteLinhas(div); rteSync(div);
 }
