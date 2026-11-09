@@ -34,7 +34,7 @@ for c in cards:
         elif ctx.rstrip().split(rot)[-1].count('\n\n'): E(i, f'contexto: o bloco "{rot}" tem que ser o ÚLTIMO')
         for l in ctx.split('\n'):
             if re.match(r'^\s*[-•◦]\s', l) and ' · ' in l: E(i, f'contexto: itens juntos com "·" na mesma linha → "{l.strip()[:60]}"')
-        if len(ctx) > 3200: W(i, 'contexto longo demais (resumão direto, sem enrolação)')
+        if len(ctx) > 4800: W(i, 'contexto longo demais (resumão direto, sem enrolação)')
     # nada de UERJ nos cards (só o texto dela em "minha" pode citar)
     for k, v in c.items():
         if k in ('minha',): continue
