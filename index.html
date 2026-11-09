@@ -367,8 +367,8 @@ textarea.note:focus{border-color:var(--rose)}
 .ansv{flex:none;width:30px;height:30px;border-radius:50%;background:var(--rose);color:#fff;font-size:15px;line-height:30px;text-align:center}
 body.ntmode [data-an]{cursor:crosshair}
 .mtfab .mtrow{display:flex;gap:8px}
-.mtfab .nfab{display:none;font:700 17px Inter,sans-serif;color:var(--wine)}
-.mtfab.comn .nfab{display:flex}
+.mtfab .mtb.nfab{display:none;font:700 17px Inter,sans-serif;color:var(--wine)}
+.mtfab.comn .mtb.nfab{display:flex}
 .rets{margin-top:16px;text-align:left}
 .retsh{font-size:12px;font-weight:600;color:var(--mute);text-transform:uppercase;letter-spacing:.05em;margin:0 0 6px 4px}
 .retl{display:flex;align-items:stretch;border:1px solid var(--line);border-radius:12px;background:var(--card);margin-bottom:6px;overflow:hidden}
@@ -383,9 +383,14 @@ body.ntmode [data-an]{cursor:crosshair}
 .atr{display:flex;align-items:center;gap:10px;padding:4px 0;font-size:14px}.atr .kbd{min-width:62px;text-align:center;margin:0}
 .chip .ktec{margin-left:6px;padding:2px 5px;font-size:10px}
 @media (pointer:coarse){.chip .ktec{display:none}}
-.mtfab .cfab{display:none;color:#3B6FD6}body:has(#sheet) .mtfab.simf{display:none}.mtfab.simf .cfab{display:flex}.mtfab.simf .sfab,.mtfab.simf .nfab,.mtfab.simf .ntb{display:none!important}
-.mtfab .sfab{display:none;font-size:22px;color:var(--mute)}
-.mtfab.comf .sfab{display:flex}
+.mtfab .mtb.cfab{display:none;color:#3B6FD6}.mtfab.simf .mtb.cfab{display:flex}
+.mtfab .mtb.mtx{display:none;font:700 20px Inter,sans-serif;color:var(--mute)}
+@media (max-width:760px),(pointer:coarse){
+  .mtfab:not(.simf) .mtb.mtx{display:flex}
+  .mtfab.fech:not(.simf) .mtrow .mtb:not(.ult):not(.mtx){display:none!important}
+}body:has(#sheet) .mtfab.simf{display:none}.mtfab.simf .cfab{display:flex}.mtfab.simf .sfab,.mtfab.simf .nfab,.mtfab.simf .ntb{display:none!important}
+.mtfab .mtb.sfab{display:none;font-size:22px;color:var(--mute)}
+.mtfab.comf .mtb.sfab{display:flex}
 .mtfab .sfab.on{color:#E0A800}
 #favav{position:fixed;left:50%;top:50%;transform:translate(-50%,-50%) scale(.9);z-index:9600;display:flex;flex-direction:column;align-items:center;gap:4px;padding:18px 26px;border-radius:18px;background:rgba(42,30,33,.92);color:#fff;pointer-events:none;animation:favin .18s ease forwards;transition:opacity .35s}
 #favav span{font-size:44px;line-height:1;color:#ccc}
@@ -2913,7 +2918,7 @@ function proximoCard(){
   const c=BYID[SS.fila[0]];
   $('#sb').scrollTop=0;
   const w=$('#sw'), f=$('#sf');
-  w.innerHTML=tagHTML(c)+frenteHTML(c)+`<div id="ar"></div>`; w.dataset.an=c.id; delete w.dataset.av;
+  w.innerHTML=tagHTML(c)+`<div class="hlz" data-hl="q:${c.id}">${frenteHTML(c)}</div>`+`<div id="ar"></div>`; w.dataset.an=c.id; delete w.dataset.av;
   if(c.tipo==='quiz'){
     $('#ar').innerHTML=`<div class="opts">${c.opcoes.map((o,i)=>`<button class="opt" data-i="${i}"><span class="k">${'ABCDE'[i]}</span><span class="ot"><span class="tx0">${esc(o)}</span><span class="c hide">${inlBr((c.comentarios||[])[i]||'')}</span></span>${RISCA}</button>`).join('')}</div>`;
     f.innerHTML='';
@@ -3035,11 +3040,15 @@ let MT=null, MTT=null, MDOWN=false; try{MT=localStorage.getItem(LS+'.mt')||null}
 const MT_SVG='<svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M15 4l5 5-9 9H6v-5z"/><path d="M4 21h8"/></svg>';
 const NT_SVG='<svg viewBox="0 0 24 24" width="21" height="21" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 5h14M12 5v14M9 19h6"/></svg>';
 const CART_SVG='<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><rect x="4" y="4" width="6" height="6" rx="1.2"/><rect x="14" y="4" width="6" height="6" rx="1.2"/><rect x="4" y="14" width="6" height="6" rx="1.2"/><rect x="14" y="14" width="6" height="6" rx="1.2"/></svg>';
+let FAB_ULT=null;
 function fabMT(){
   let f=$('#mtfab'); const tem=!!document.querySelector('.hlz,[data-an]');
   if(!tem){ if(f) f.remove(); return; }
   if(!f){ f=document.createElement('div'); f.id='mtfab'; f.className='mtfab';
-    f.innerHTML=`<div class="mtops hide">${['y','g','p'].map(c=>`<button class="${c}" data-mc="${c}" aria-label="Cor"></button>`).join('')}<button class="off" data-mc="">desligar</button></div><div class="mtrow"><button class="mtb sfab" aria-label="Favoritar card (*)" title="Favoritar card (*)">☆</button><button class="mtb nfab" aria-label="Novo card neste baralho (N)" title="Novo card neste baralho (N)">N</button><button class="mtb ntb${NT?' on':''}" aria-label="Nova anotação (T)" title="Nova anotação (T)">${NT_SVG}</button><button class="mtb cfab" aria-label="Cartão-resposta (Q)" title="Cartão-resposta (Q)">${CART_SVG}</button><button class="mtb mtm" aria-label="Marca-texto">${MT_SVG}</button></div>`;
+    f.innerHTML=`<div class="mtops hide">${['y','g','p'].map(c=>`<button class="${c}" data-mc="${c}" aria-label="Cor"></button>`).join('')}<button class="off" data-mc="">desligar</button></div><div class="mtrow"><button class="mtb sfab" aria-label="Favoritar card (*)" title="Favoritar card (*)">☆</button><button class="mtb nfab" aria-label="Novo card neste baralho (N)" title="Novo card neste baralho (N)">N</button><button class="mtb ntb${NT?' on':''}" aria-label="Nova anotação (T)" title="Nova anotação (T)">${NT_SVG}</button><button class="mtb cfab" aria-label="Cartão-resposta (Q)" title="Cartão-resposta (Q)">${CART_SVG}</button><button class="mtb mtm" aria-label="Marca-texto">${MT_SVG}</button><button class="mtb mtx" aria-label="Mais ferramentas" title="Mais ferramentas">⋯</button></div>`;
+    f.classList.add('fech');
+    f.querySelector('.mtx').onclick=()=>{ f.classList.toggle('fech'); f.querySelector('.mtops').classList.add('hide'); fabMT(); };
+    f.querySelectorAll('.mtrow .mtb:not(.mtx)').forEach(b=>b.addEventListener('click',()=>{ const k=['sfab','nfab','ntb','cfab','mtm'].find(x=>b.classList.contains(x)); try{localStorage.setItem(LS+'.fabult',k)}catch(e){} FAB_ULT=k; if(k!=='mtm') f.classList.add('fech'); fabMT(); }));
     f.querySelector('.cfab').onclick=()=>{ f.querySelector('.mtops').classList.add('hide'); if(SIMU&&!SIMU.fim0) simuGrade(); };
     f.querySelector('.sfab').onmousedown=e=>e.preventDefault(); f.querySelector('.sfab').onclick=()=>{ const id=cardAtualFav(); if(id) favAlternar(id); };
     f.querySelector('.nfab').onclick=()=>{ f.querySelector('.mtops').classList.add('hide'); if($('#mat')) novoDoTema(); else novoDoCard(); };
@@ -3049,6 +3058,10 @@ function fabMT(){
     document.body.appendChild(f); }
   if(f.dataset.c!==(MT||'')){ f.dataset.c=MT||''; f.classList.toggle('on',!!MT); }
   f.classList.toggle('alto',!!(SS||$('#sheet')||$('#simu'))); f.classList.toggle('comn',!!SS); f.classList.toggle('simf',!!(SIMU&&$('#simu')&&!SIMU.fim0));
+  { const pode={sfab:!!cardAtualFav()&&!document.body.classList.contains('matab'),nfab:!!SS||!!$('#mat'),ntb:true,cfab:f.classList.contains('simf'),mtm:true};
+    let u=FAB_ULT; if(!u){ try{u=localStorage.getItem(LS+'.fabult')}catch(e){} } if(!u||!pode[u]) u='mtm';
+    f.querySelectorAll('.mtrow .mtb').forEach(b=>{ const on=b.classList.contains(u); if(b.classList.contains('ult')!==on) b.classList.toggle('ult',on); });
+    const x=f.querySelector('.mtx'), tx=f.classList.contains('fech')?'⋯':'×'; if(x.textContent!==tx) x.textContent=tx; }
   const fid=cardAtualFav(), sb=f.querySelector('.sfab'); if(f.classList.contains('comf')!==!!fid) f.classList.toggle('comf',!!fid); if(fid){ const on=!!(BYID[fid]||{}).fav, tx=on?'★':'☆'; if(sb.textContent!==tx) sb.textContent=tx; if(sb.classList.contains('on')!==on) sb.classList.toggle('on',on); }   // só mexe se mudou (o observador chama fabMT a cada mudança)
 }
 function marcarDireto(){
@@ -3059,6 +3072,7 @@ function marcarDireto(){
 }
 addEventListener('mousedown',()=>{MDOWN=true},true);
 addEventListener('mouseup',()=>{MDOWN=false; if(MT) setTimeout(marcarDireto,0)},true);
+addEventListener('touchend',()=>{ MDOWN=false; if(MT) setTimeout(marcarDireto,450); },true);   /* celular: marca ao soltar o dedo */
 document.addEventListener('selectionchange',()=>{ clearTimeout(selT); selT=setTimeout(()=>{
   if(MT){ esconderFerr(); clearTimeout(MTT); if(!MDOWN) MTT=setTimeout(marcarDireto,tecladoFisico()?0:650); return; }
   const sel=getSelection(); if(!sel.rangeCount||sel.isCollapsed){ if(!MARCA_ALVO) esconderFerr(); return; }
