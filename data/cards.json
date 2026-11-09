@@ -89146,7 +89146,8 @@
         }
       ],
       "fonte": "Rouquayrol — Epidemiologia & Saúde, 8ª ed. / MS — Guia de Vigilância em Saúde, 6ª ed. (2023) / OPAS — Módulos de Princípios de Epidemiologia para o Controle de Enfermidades (MOPECE)",
-      "add": "2026-11-04"
+      "add": "2026-11-04",
+      "fav": true
     },
     {
       "area": "Medicina Preventiva",
@@ -105032,5 +105033,5 @@
       "add": "2026-11-04"
     }
   ],
-  "rev": 1794191559892
+  "rev": 1794191778244
 }
