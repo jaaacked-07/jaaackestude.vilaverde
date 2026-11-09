@@ -3099,7 +3099,7 @@ function fabMT(){
 function marcarDireto(){
   const sel=getSelection(); if(!MT||!sel.rangeCount||sel.isCollapsed) return;
   const r=sel.getRangeAt(0), base=r.commonAncestorContainer.nodeType===1?r.commonAncestorContainer:r.commonAncestorContainer.parentNode;
-  if(!base.closest('.hlz')||!sel.toString().trim()) return;
+  if(!base.closest('.hlz')||base.closest('.rte,.anot.edit')||!sel.toString().trim()) return;
   HLR=r.cloneRange(); marcarSelecao(MT); esconderFerr();
 }
 addEventListener('mousedown',()=>{MDOWN=true},true);
@@ -3109,7 +3109,7 @@ document.addEventListener('selectionchange',()=>{ clearTimeout(selT); selT=setTi
   if(MT){ esconderFerr(); clearTimeout(MTT); if(!MDOWN) MTT=setTimeout(marcarDireto,tecladoFisico()?0:650); return; }
   const sel=getSelection(); if(!sel.rangeCount||sel.isCollapsed){ if(!MARCA_ALVO) esconderFerr(); return; }
   const r=sel.getRangeAt(0), base=r.commonAncestorContainer.nodeType===1?r.commonAncestorContainer:r.commonAncestorContainer.parentNode;
-  if(!base.closest('.hlz')||!sel.toString().trim()) { esconderFerr(); return; }
+  if(!base.closest('.hlz')||base.closest('.rte,.anot.edit')||!sel.toString().trim()) { esconderFerr(); return; }
   HLR=r.cloneRange(); MARCA_ALVO=null; mostrarFerr(r.getBoundingClientRect(),false);
 },180); });
 function marcarSelecao(c){
@@ -3341,7 +3341,7 @@ function rteImgLig(o){
     addEventListener('pointermove',mv); addEventListener('pointerup',up); };
 }
 
-function alvoDaBarra(bar){ if(bar.id==='ftf') return MULTI.ta&&document.contains(MULTI.ta)?MULTI.ta:(ehFmt(document.activeElement)?document.activeElement:FLUT_TA);
+function alvoDaBarra(bar){ if(bar.id==='ftf'&&FLUT_TA&&FLUT_TA._rte&&document.contains(FLUT_TA)) return FLUT_TA; if(bar.id==='ftf') return MULTI.ta&&document.contains(MULTI.ta)?MULTI.ta:(ehFmt(document.activeElement)?document.activeElement:FLUT_TA);
   const nx=bar.nextElementSibling; if(nx&&nx.tagName==='TEXTAREA') return nx; return (bar.closest('.anot.edit')||bar.parentElement).querySelector('textarea'); }
 document.addEventListener('pointerdown',e=>{ if(e.target.closest&&e.target.closest('.ftb button,#ftf button')) e.preventDefault(); },true);
 document.addEventListener('mousedown',e=>{ if(e.target.closest&&e.target.closest('.ftb button,#ftf button')) e.preventDefault(); },true);
@@ -3374,12 +3374,28 @@ function desenharMulti(){
   rs.forEach(([a,b])=>{ if(a<i) a=i; h+=esc(v.slice(i,a))+'<mark>'+esc(v.slice(a,b))+'</mark>'; i=Math.max(i,b); }); h+=esc(v.slice(i))+'\n';
   o.innerHTML=h; o.scrollTop=ta.scrollTop;
 }
+/* barra flutuante no editor visual: aparece em cima (PC) ou embaixo (celular) do trecho selecionado, vale para várias linhas */
+function rteFlut(){
+  const d=document.activeElement; if(!d||!d._ta) return false;
+  let f=$('#ftf'); const s=getSelection();
+  if(!s.rangeCount||s.isCollapsed||!d.contains(s.anchorNode)||$('#lbx')){ if(f) f.classList.remove('on'); FLUT_TA=null; return true; }
+  if(!f){ f=document.createElement('div'); f.id='ftf'; f.setAttribute('role','toolbar'); document.body.appendChild(f); }
+  const ta=d._ta;
+  if(FLUT_TA!==ta){ const bar=ta.previousElementSibling&&ta.previousElementSibling.classList.contains('ftb')?ta.previousElementSibling:(ta.closest('.anot.edit')||{}).querySelector?.('.ftb');
+    f.innerHTML=(bar?[...bar.querySelectorAll('[data-fx]')].filter(b=>b.dataset.fx!=='img').map(b=>b.outerHTML).join(''):barraFmtHTML().replace(/^<div[^>]*>|<\/div>$/g,'')); FLUT_TA=ta; }
+  f.classList.add('on');
+  const r=s.getRangeAt(0), rs=r.getClientRects(), a=rs[0]||r.getBoundingClientRect(), z=rs[rs.length-1]||a, toque=matchMedia('(pointer:coarse)').matches, W=f.offsetWidth, H=f.offsetHeight;
+  let y=toque?z.bottom+12:a.top-H-8; if(!toque&&y<8) y=z.bottom+8; y=Math.min(Math.max(y,8),innerHeight-H-8);
+  const x=Math.min(Math.max(8,(toque?z.left:a.left)-12),innerWidth-W-8);
+  f.style.left=x+'px'; f.style.top=y+'px'; return true;
+}
 /* barra flutuante em cima do trecho selecionado */
 let FLUT_TA=null;
 function coordTA(ta,pos){ const d=document.createElement('div'); espelho(ta,d); d.style.height='auto'; Object.assign(d.style,{position:'absolute',visibility:'hidden',top:'0',left:'-9999px'});
   d.textContent=ta.value.slice(0,pos); const sp=document.createElement('span'); sp.textContent=ta.value.slice(pos,pos+1)||'.'; d.appendChild(sp); document.body.appendChild(d);
   const r=ta.getBoundingClientRect(), cs=getComputedStyle(ta), x=r.left+sp.offsetLeft-ta.scrollLeft, y=r.top+sp.offsetTop-ta.scrollTop, lh=parseFloat(cs.lineHeight)||parseFloat(cs.fontSize)*1.35; d.remove(); return {x,y,lh,r}; }
 function atualizarFlut(){
+  if(rteFlut()) return;
   let f=$('#ftf'); const ta=document.activeElement;
   const ok=ehFmt(ta)&&!$('#lbx')&&((ta.selectionEnd>ta.selectionStart)||(MULTI.ta===ta&&MULTI.r.length));
   if(!ok){ if(f) f.classList.remove('on'); FLUT_TA=null; return; }
@@ -3398,7 +3414,7 @@ function atualizarFlut(){
 ['selectionchange','mouseup','keyup','touchend','select'].forEach(ev=>document.addEventListener(ev,()=>setTimeout(atualizarFlut,0)));
 addEventListener('scroll',()=>{ if($('#ftf.on')) atualizarFlut(); if(MULTI.ta) desenharMulti(); },true);
 addEventListener('resize',()=>{ if($('#ftf.on')) atualizarFlut(); if(MULTI.ta) desenharMulti(); });
-document.addEventListener('focusout',()=>setTimeout(()=>{ if(!ehFmt(document.activeElement)){ const f=$('#ftf'); if(f) f.classList.remove('on'); FLUT_TA=null; } },120));
+document.addEventListener('focusout',()=>setTimeout(()=>{ if(!ehFmt(document.activeElement)&&!(document.activeElement&&document.activeElement._ta)){ const f=$('#ftf'); if(f) f.classList.remove('on'); FLUT_TA=null; } },120));
 
 /* ===== Foto ampliada: no meio da tela, ocupando quase toda a tela; tocar na foto amplia mais (2×, arrasta para ver); tocar fora, × ou Esc fecha ===== */
 function abrirFoto(src){
