@@ -238,6 +238,7 @@ table.t{width:100%;table-layout:auto;overflow-wrap:break-word;word-break:normal;
 .ctx .blq{font-family:Fraunces,Georgia,serif;letter-spacing:-.005em}
 .ans .ctx p,.ans .ctx li{font-size:15px;line-height:1.5}
 .ctx .blq+.blq{margin-top:12px}
+.lbl2{font-family:Inter,system-ui,sans-serif;font-size:14.5px;font-weight:700;color:var(--ink);margin:18px 0 4px;padding-left:9px;border-left:3px solid var(--rose)}.lbl+.lbl2,.blq>.lbl2:first-child{margin-top:8px}
 .ctx .blq:has(>.lbl:first-child)+.blq,.ctx .blq+.blq:has(>.lbl:first-child){margin-top:26px}
 .ctx .lbl{font-family:Inter,system-ui,sans-serif;font-size:15px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--wine);margin:0 0 6px;padding-bottom:5px;border-bottom:1.5px solid var(--rose-soft)}
 .ans p.lbl{font-weight:600}
@@ -930,7 +931,9 @@ const paras=t=>String(t||'').split(/\n\s*\n/).map(b=>{
   b.split('\n').filter(x=>x.trim()).forEach(x=>{
     const m=x.match(/^(\s*)[-•◦]\s+(.*)$/);
     if(m){ if(m[1].length>=2&&ul.length) ul[ul.length-1].s.push(m[2].trim()); else ul.push({t:m[2].trim(),s:[]}); }
-    else { flush(); x=x.trim(); h+=/:$/.test(x)&&!/^\*\*/.test(x)?'<p class="lbl">'+inl(x.slice(0,-1))+'</p>':'<p>'+inl(x)+'</p>'; } });
+    else { const tem=!!(h||ul.length); flush(); x=x.trim();
+      const sub=/^\*\*[^*]+:\*\*$/.test(x)||(/:$/.test(x)&&!/^\*\*/.test(x)&&tem);   /* subtítulo: **X:** ou rótulo no meio do bloco */
+      h+=sub?'<p class="lbl2">'+inl(x.replace(/^\*\*|\*\*$/g,'').replace(/:$/,''))+'</p>':/:$/.test(x)&&!/^\*\*/.test(x)?'<p class="lbl">'+inl(x.slice(0,-1))+'</p>':'<p>'+inl(x)+'</p>'; } });
   flush(); return '<div class="blq">'+h+'</div>'; }).join('');
 function visual(v){
   if(!v) return '';
