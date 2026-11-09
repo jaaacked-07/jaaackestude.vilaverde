@@ -39214,7 +39214,8 @@
       ],
       "fonte": "SBP — Sistematização do atendimento ao RN com suspeita de cardiopatia congênita (2022) / Tratado de Pediatria SBP 5ª ed. / Nelson Textbook of Pediatrics 22ª ed.",
       "add": "2026-10-28",
-      "minha": "@@nota|0|Aorta sai do VD; pulmonar sai do VE.\no normal é o contrario: aorta sai do VE!"
+      "minha": "@@nota|0|Aorta sai do VD; pulmonar sai do VE.\no normal é o contrario: aorta sai do VE!",
+      "fav": true
     },
     {
       "id": "ccg-03",
@@ -105037,5 +105038,5 @@
       "add": "2026-11-04"
     }
   ],
-  "rev": 1794194077754
+  "rev": 1794194320454
 }
