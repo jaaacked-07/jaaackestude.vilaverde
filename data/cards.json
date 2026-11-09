@@ -14137,7 +14137,8 @@
       ],
       "add": "2026-10-24",
       "prio": "alta",
-      "uerj": "Vulvovaginites é o tema de Ginecologia que mais caiu (VIV 2026 Q56; VV 2025 Q61, Q69, Q71; VV 2024 Q7, Q63, Q76)."
+      "uerj": "Vulvovaginites é o tema de Ginecologia que mais caiu (VIV 2026 Q56; VV 2025 Q61, Q69, Q71; VV 2024 Q7, Q63, Q76).",
+      "fav": true
     },
     {
       "id": "vv-02",
@@ -105034,5 +105035,5 @@
       "add": "2026-11-04"
     }
   ],
-  "rev": 1794193037509
+  "rev": 1794193705411
 }
