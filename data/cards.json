@@ -28022,7 +28022,8 @@
       },
       "fonte": "Medronho — Epidemiologia (2ª ed.); Rouquayrol — Epidemiologia & Saúde; CONSORT 2010",
       "add": "2026-10-25",
-      "uerj": "Cálculo de NNT a partir de duas porcentagens."
+      "uerj": "Cálculo de NNT a partir de duas porcentagens.",
+      "fav": true
     },
     {
       "id": "est-d1",
@@ -105036,5 +105037,5 @@
       "add": "2026-11-04"
     }
   ],
-  "rev": 1794193837421
+  "rev": 1794194077754
 }
