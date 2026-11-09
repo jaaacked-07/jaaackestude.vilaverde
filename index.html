@@ -236,18 +236,19 @@ table.t{width:100%;table-layout:auto;overflow-wrap:break-word;word-break:normal;
 .ctxh{font-family:Fraunces,Georgia,serif;font-style:italic;font-size:17px;color:var(--wine);margin-bottom:10px;display:flex;align-items:center;gap:8px}
 .ctxh::before{content:"✦";font-style:normal;font-size:13px;color:var(--rose)}
 .ctx .blq{font-family:Fraunces,Georgia,serif;letter-spacing:-.005em}
-.ans .ctx p,.ans .ctx li{font-size:15px;line-height:1.5}
-.ctx .blq+.blq{margin-top:12px}
+.ans .ctx p,.ans .ctx li{font-size:15px;line-height:1.6}
+.ctx .blq+.blq{margin-top:18px}
 /* hierarquia: tópico com subtópicos = subtítulo (sublinhado), subtópicos recuados, espaço entre grupos */
-.blq ul.sub{margin:6px 0 2px;padding-left:20px}
-.blq ul.sub li{margin:4px 0}
+.blq ul.sub{margin:8px 0 4px;padding-left:20px}
+.blq ul.sub li{margin:8px 0;font-size:1em;line-height:1.6}
 .blq ul.sub li::marker{content:"◦  ";color:var(--mute)}
-.blq li.lih{margin-top:16px}
-.blq li.lih:first-child{margin-top:6px}
-.blq li.lih+li:not(.lih){margin-top:14px}
+.blq li.lih{margin-top:26px}
+.blq li.lih:first-child{margin-top:10px}
+.blq li.lih+li:not(.lih){margin-top:22px}
 .blq li.lih>.lit{display:inline-block;font-weight:600;margin-bottom:2px}
-.blq li.lih>.lit{color:var(--wine);font-size:1.04em}.blq li.lih>.lit strong{font-weight:700;color:inherit}
-.blq ul.sub li strong.trm{font-size:inherit;color:var(--wine);font-weight:700;background:color-mix(in srgb,var(--rose) 22%,transparent);padding:0 5px;border-radius:5px}
+.blq li.lih>.lit{color:var(--wine);font-size:1.04em}
+.blq>ul>li:not(.lih){margin:9px 0}.blq li.lih>.lit strong{font-weight:700;color:inherit}
+.blq ul.sub li strong.trm{font-size:1.06em;color:var(--wine);font-weight:700;background:color-mix(in srgb,var(--rose) 22%,transparent);padding:0 5px;border-radius:5px}
 .lbl2{font-family:Inter,system-ui,sans-serif;font-size:14.5px;font-weight:700;color:var(--ink);margin:18px 0 4px;padding-left:9px;border-left:3px solid var(--rose)}.lbl+.lbl2,.blq>.lbl2:first-child{margin-top:8px}
 .ctx .blq:has(>.lbl:first-child)+.blq,.ctx .blq+.blq:has(>.lbl:first-child){margin-top:26px}
 .ctx .lbl{font-family:Inter,system-ui,sans-serif;font-size:15px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--wine);margin:0 0 8px;padding-bottom:6px;border-bottom:2px solid var(--rose)}
