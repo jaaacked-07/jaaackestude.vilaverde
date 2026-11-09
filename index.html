@@ -358,6 +358,11 @@ textarea.note:focus{border-color:var(--rose)}
 .rte>div.lc{text-align:center}.rte>div.lc img.rimg{margin:4px 3px}
 .anot>.mimg,.mine>.mimg{margin-left:auto!important;margin-right:auto!important;object-position:center!important}
 .anot .mrow,.mine .mrow{justify-content:center}
+.anot .mimg[style*="--w"],.mine .mimg[style*="--w"]{width:calc(min(100%,440px)*var(--w)/100)!important;max-width:100%!important}
+.mrow .mimg[style*="--w"]{flex:0 0 auto!important}
+.anot.edit .anr{flex-direction:column;align-items:stretch}.anot.edit .anbt{flex-direction:row;justify-content:flex-end}
+.rte img.rimg{width:calc(min(100%,440px)*var(--w,100)/100);max-height:min(50vh,420px);object-fit:contain;object-position:center}
+.rte>div:has(img.rimg ~ img.rimg) img.rimg{max-height:min(40vh,300px)}
 .rte img.rimg{display:inline-block;vertical-align:top;max-width:100%;height:auto;border-radius:8px;margin:4px 6px 4px 0;cursor:pointer;user-select:none}
 #rimgsel{position:fixed;z-index:90;border:2px solid #3B6FD6;border-radius:8px;display:none;touch-action:none;cursor:move;box-sizing:border-box;background:rgba(59,111,214,.08)}
 #rimgsel .rh{position:absolute;right:-11px;bottom:-11px;width:22px;height:22px;border-radius:50%;background:#3B6FD6;border:2px solid #fff;cursor:nwse-resize;touch-action:none;box-shadow:0 1px 4px rgba(0,0,0,.3)}
@@ -1597,7 +1602,7 @@ function tagHTML(c){return `${c.prova?`<div class="preal">📄 Caiu na prova · 
 const IMG_RE=/!\[([^\]]*)\]\(([^)\s]+)\)/g;
 /* anotação: **negrito**, __sublinhado__, {v}vermelho{/v}; fotos ![p|m|](src) = pequena/média/grande; fotos na mesma linha = lado a lado */
 const fmtNota=t=>esc(t).replace(/\*\*([\s\S]+?)\*\*/g,'<b>$1</b>').replace(/__([\s\S]+?)__/g,'<u>$1</u>').replace(/\{v\}([\s\S]*?)\{\/v\}/g,'<span class="vm">$1</span>').replace(/\{\/?v\}/g,'');
-const imgTag=(a,src)=>`<img class="mimg ${a==='p'?'sp':a==='m'?'sm':'sg'}"${/^\d+$/.test(a||'')?` style="width:${a}%;flex:0 1 ${a}%;max-width:100%"`:''} src="${esc(imgSrc(src))}" data-p="${esc(src)}" alt="" data-zoom onerror="imgFalhou(this)">`;
+const imgTag=(a,src)=>`<img class="mimg ${a==='p'?'sp':a==='m'?'sm':'sg'}"${/^\d+$/.test(a||'')?` style="--w:${a}"`:''} src="${esc(imgSrc(src))}" data-p="${esc(src)}" alt="" data-zoom onerror="imgFalhou(this)">`;
 function minhaCorpo(t){
   t=String(t); let h='',i=0; const toks=[...t.matchAll(IMG_RE)];
   for(let j=0;j<toks.length;){ const g=[toks[j]]; while(j+g.length<toks.length&&/^[ \t]*$/.test(t.slice(g[g.length-1].index+g[g.length-1][0].length,toks[j+g.length].index))) g.push(toks[j+g.length]);
@@ -3174,8 +3179,8 @@ function aplicarFmt(ta,f){
    O texto continua guardado no mesmo formato de sempre (o textarea fica escondido e é atualizado a cada tecla). */
 const RTE_RED='#d13438', RTE_BLK='#000001';
 const rteOk=ta=>ehFmt(ta)&&ta.id!=='ct'&&!ta._rte&&ta.isConnected;
-const rteImgW=a=>/^\d+$/.test(a||'')?+a:a==='p'?35:a==='m'?60:100;
-const rteImg=(a,src)=>`<img class="rimg" contenteditable="false" draggable="false" src="${esc(imgSrc(src))}" data-p="${esc(src)}" data-w="${rteImgW(a)}" style="width:${rteImgW(a)}%" alt="" onerror="imgFalhou(this)">`;
+const rteImgW=a=>/^\d+$/.test(a||'')?+a:a==='p'?34:a==='m'?64:100;
+const rteImg=(a,src)=>`<img class="rimg" contenteditable="false" draggable="false" src="${esc(imgSrc(src))}" data-p="${esc(src)}" data-w="${rteImgW(a)}" style="--w:${rteImgW(a)}" alt="""" onerror="imgFalhou(this)">`;
 function rteInline(s){ let h='',i=0; for(const m of String(s).matchAll(IMG_RE)){ h+=fmtNota(s.slice(i,m.index)); h+=rteImg(m[1],m[2]); i=m.index+m[0].length; } return h+fmtNota(s.slice(i)); }
 function mdParaRte(md){ return String(md||'').replace(/\r/g,'').split('\n').map(ln=>{ const m=ln.match(/^(\s*)[-•◦]\s+(.*)$/), l=m?(m[1].length>=2?'sub':'li'):'', tx=m?m[2]:ln, h=rteInline(tx);
   return `<div${l?` data-l="${l}"`:''}>${h||'<br>'}</div>`; }).join(''); }
@@ -3321,8 +3326,8 @@ function rteImgLig(o){
   o.querySelector('.rx').onpointerdown=e=>{ e.preventDefault(); e.stopPropagation(); };
   o.querySelector('.rx').onclick=e=>{ e.stopPropagation(); if(!RIMG) return; const d=RIMG.closest('.rte'), L=RIMG.parentNode; RIMG.remove(); if(L&&L.parentNode===d&&!L.textContent.trim()&&!L.querySelector('img')) L.innerHTML='<br>'; rteImgOff(); rteSync(d); };
   o.querySelector('.rh').onpointerdown=e=>{ e.preventDefault(); e.stopPropagation(); if(!RIMG) return; const im=RIMG, d=im.closest('.rte'), x0=e.clientX, w0=im.getBoundingClientRect().width, cw=d.clientWidth-parseFloat(getComputedStyle(d).paddingLeft)-parseFloat(getComputedStyle(d).paddingRight);
-    const mv=ev=>{ const w=Math.max(50,Math.min(cw,w0+ev.clientX-x0)); im.style.width=w+'px'; rteImgPos(); };
-    const up=()=>{ removeEventListener('pointermove',mv); removeEventListener('pointerup',up); const pc=Math.max(10,Math.min(100,Math.round(im.getBoundingClientRect().width/cw*100))); im.dataset.w=pc; im.style.width=pc+'%'; rteImgPos(); rteSync(d); };
+    const base=Math.min(cw,440), mv=ev=>{ const w=Math.max(40,Math.min(base,w0+ev.clientX-x0)); im.style.setProperty('--w',w/base*100); rteImgPos(); };
+    const up=()=>{ removeEventListener('pointermove',mv); removeEventListener('pointerup',up); const pc=Math.max(10,Math.min(100,Math.round(im.getBoundingClientRect().width/base*100))); im.dataset.w=pc; im.style.setProperty('--w',pc); rteImgPos(); rteSync(d); };
     addEventListener('pointermove',mv); addEventListener('pointerup',up); };
   o.onpointerdown=e=>{ if(e.target!==o||!RIMG) return; e.preventDefault(); const im=RIMG, d=im.closest('.rte'), x0=e.clientX, y0=e.clientY; let arr=false, ghost=null, mk=null, alvo=null;
     const mv=ev=>{ if(!arr&&Math.hypot(ev.clientX-x0,ev.clientY-y0)<6) return;
@@ -3335,7 +3340,7 @@ function rteImgLig(o){
         Object.assign(mk.style,{display:'block',left:rc.left+'px',top:rc.top+'px',height:Math.max(18,rc.height)+'px'}); } else { alvo=null; mk.style.display='none'; } };
     const up=()=>{ removeEventListener('pointermove',mv); removeEventListener('pointerup',up); if(ghost) ghost.remove(); if(mk) mk.remove();
       if(arr&&alvo){ const L0=im.parentNode; alvo.insertNode(im); if(L0&&L0.parentNode===d&&!L0.textContent.trim()&&!L0.querySelector('img')) L0.remove(); rteLinhas(d);
-        const L=linhaDe(d,im), ims=L?[...L.querySelectorAll('img.rimg')]:[]; if(ims.length>1&&ims.reduce((t,x)=>t+(+x.dataset.w||100),0)>96){ const w=Math.floor(96/ims.length); ims.forEach(x=>{ x.dataset.w=w; x.style.width=w+'%'; }); }   /* lado a lado: as fotos encolhem para caber na linha */
+        const L=linhaDe(d,im), ims=L?[...L.querySelectorAll('img.rimg')]:[]; if(ims.length>1&&ims.reduce((t,x)=>t+(+x.dataset.w||100),0)>96){ const w=Math.floor(96/ims.length); ims.forEach(x=>{ x.dataset.w=w; x.style.setProperty('--w',w); }); }   /* lado a lado: as fotos encolhem para caber na linha */
         rteSync(d); }
       rteImgSel(im); };
     addEventListener('pointermove',mv); addEventListener('pointerup',up); };
