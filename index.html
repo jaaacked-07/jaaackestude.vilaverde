@@ -238,7 +238,8 @@ table.t{width:100%;table-layout:auto;overflow-wrap:break-word;word-break:normal;
 .ctx .blq{font-family:Fraunces,Georgia,serif;letter-spacing:-.005em}
 .ans .ctx p,.ans .ctx li{font-size:15px;line-height:1.5}
 .ctx .blq+.blq{margin-top:12px}
-.ctx .lbl{font-family:Inter,system-ui,sans-serif;font-size:11.5px;font-weight:600;text-transform:uppercase;letter-spacing:.07em;color:var(--wine);margin-bottom:2px}
+.ctx .blq:has(>.lbl:first-child)+.blq,.ctx .blq+.blq:has(>.lbl:first-child){margin-top:26px}
+.ctx .lbl{font-family:Inter,system-ui,sans-serif;font-size:15px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--wine);margin:0 0 6px;padding-bottom:5px;border-bottom:1.5px solid var(--rose-soft)}
 .ans p.lbl{font-weight:600}
 .ans ul.sub{margin:3px 0 2px;padding-left:18px}
 .ans ul.sub li{font-size:.95em;margin:3px 0}
