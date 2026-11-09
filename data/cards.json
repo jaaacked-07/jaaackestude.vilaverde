@@ -41618,7 +41618,8 @@
         }
       ],
       "fonte": "Sabiston Textbook of Surgery 21ª ed. / Bologna Guidelines — Adhesive Small Bowel Obstruction (WSES 2017, atualização 2025) / ASCRS Clinical Practice Guidelines — Colonic Volvulus and Acute Colonic Pseudo-Obstruction (2021)",
-      "add": "2026-10-28"
+      "add": "2026-10-28",
+      "fav": true
     },
     {
       "id": "aao-03",
@@ -105033,5 +105034,5 @@
       "add": "2026-11-04"
     }
   ],
-  "rev": 1794192642373
+  "rev": 1794193037509
 }
