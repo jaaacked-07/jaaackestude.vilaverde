@@ -777,7 +777,10 @@ const prioDe=c=>c.prio||(c.meu?'alta':'media');
 const PRIO_P={alta:40,media:0,baixa:-40}, prioP=c=>PRIO_P[prioDe(c)]||0;
 /* jitter pequeno: dentro do mesmo baralho os empates (flash × quiz × digitar) saem sorteados — antes os de digitar, por estarem no fim do arquivo, quase nunca entravam como novos */
 /* fila do dia só com prioridade alta/média; os de prioridade baixa ficam no botão "Prioridade baixa" (estudar quando sobrar tempo) */
-function novos(){ const L=CARDS.filter(c=>!S.srs[c.id]&&prioDe(c)!=='baixa'); return equilibrar(L,c=>pesoUERJ(c)+prioP(c),4); }
+/* novos do dia: prioridade para cards normais e de digitar (fixam matéria); questões entram em menor proporção (1 a cada 4) — elas são mais do simulado */
+function misturaQuiz(A,B,k){ const out=[]; let i=0,j=0; while(i<A.length||j<B.length){ for(let n=0;n<k&&i<A.length;n++) out.push(A[i++]); if(j<B.length) out.push(B[j++]); } return out; }
+function novos(){ const L=CARDS.filter(c=>!S.srs[c.id]&&prioDe(c)!=='baixa'), sc=c=>pesoUERJ(c)+prioP(c);
+  return misturaQuiz(equilibrar(L.filter(c=>c.tipo!=='quiz'),sc,4),equilibrar(L.filter(c=>c.tipo==='quiz'),sc,4),3); }
 const novosBaixa=()=>equilibrar(CARDS.filter(c=>!S.srs[c.id]&&prioDe(c)==='baixa'),pesoUERJ,4);
 /* quantos novos hoje: os de prioridade alta/média que faltam ÷ dias até a véspera (11/12), entre 15 e 30 */
 function novosDia(){ const rest=CARDS.filter(c=>!S.srs[c.id]&&prioDe(c)!=='baixa').length, d=Math.max(1,diff(hoje(),VESP_INI));
@@ -967,6 +970,7 @@ function visual(v){
   return '';
 }
 function cardCompleto(c){
+  limparMarcasCard(c.id);
   let h=tagHTML(c)+(ehFrenteOculta(c)?'':frenteHTML(c));
   if(c.tipo==='quiz') h+=`<div class="opts">${c.opcoes.map((o,i)=>`<div class="opt ${i===c.certa?'ok':''}"><span class="k">${'ABCDE'[i]}</span><span>${esc(o)}<span class="c">${inlBr((c.comentarios||[])[i]||'')}</span></span></div>`).join('')}</div>`;
   else h+=`<div class="ans">${respHTML(c)}${macHTML(c)}</div>`;
@@ -2198,6 +2202,8 @@ document.addEventListener('keydown',e=>{ if(!SIMU||SIMU.fim0||!$('#simu')||$('#s
   const ehAst=e.key==='*'||e.code==='NumpadMultiply'||(e.shiftKey&&e.code==='Digit8'&&e.key!=='('); if(!ehAst) return;
   const a=document.activeElement; if(a&&(/^(INPUT|TEXTAREA|SELECT)$/.test(a.tagName)||a.isContentEditable)) return;
   e.preventDefault(); e.stopImmediatePropagation(); const f=$('#smf'); if(f){ f.click(); toast(f.classList.contains('on')?'⚑ Questão marcada':'Bandeirinha removida'); } },true);
+/* marcações feitas na pergunta ou na resposta do card não ficam guardadas (para não decorar a questão); as do contexto do tema ficam */
+function limparMarcasCard(id){ if(!id) return; let mud=0; [id,'q:'+id].forEach(k=>{ const m=S.marks[k]; if(m&&m.l&&m.l.length){ S.marks[k]={l:[],u:Date.now()}; mud=1; } }); if(mud) save(); }
 function simLimparMarcas(ids){ (ids||[]).forEach(id=>{ const k='sq:'+id; if(S.marks[k]) S.marks[k]={l:[],u:Date.now()}; }); }
 function simuEntregarPerg(){
   const br=SIMU.ids.map((id,i)=>SIMU.resp[id]==null?i:-1).filter(i=>i>=0);
@@ -2901,7 +2907,7 @@ function guardarRetomar(){
 function migrarRet(){ S.rets=S.rets||[]; S.retsDel=S.retsDel||{};
   if(S.ret&&S.ret.fila&&S.ret.fila.length){ const id=S.ret.t0||S.ret.t; if(!S.retsDel[id]&&!S.rets.some(x=>x.id===id)) S.rets.push({...S.ret,id}); }
   S.ret=null; }
-function sair(){guardarRetomar();const e=$('#sess');if(e)e.remove();document.body.style.overflow='';document.documentElement.style.overflow='';SS=null;render();syncProg()}
+function sair(){if(SS) limparMarcasCard(SS.ultCard);guardarRetomar();const e=$('#sess');if(e)e.remove();document.body.style.overflow='';document.documentElement.style.overflow='';SS=null;render();syncProg()}
 function barra(){
   let f,t;
   if(SS.modo==='dia'&&S.plan){ const ids=S.plan.ids.filter(id=>BYID[id]); t=ids.length; f=ids.filter(id=>S.plan.done.includes(id)).length; }
@@ -2918,6 +2924,7 @@ function proximoCard(){
   const c=BYID[SS.fila[0]];
   $('#sb').scrollTop=0;
   const w=$('#sw'), f=$('#sf');
+  limparMarcasCard(SS.ultCard); SS.ultCard=c.id; limparMarcasCard(c.id);
   w.innerHTML=tagHTML(c)+`<div class="hlz" data-hl="q:${c.id}">${frenteHTML(c)}</div>`+`<div id="ar"></div>`; w.dataset.an=c.id; delete w.dataset.av;
   if(c.tipo==='quiz'){
     $('#ar').innerHTML=`<div class="opts">${c.opcoes.map((o,i)=>`<button class="opt" data-i="${i}"><span class="k">${'ABCDE'[i]}</span><span class="ot"><span class="tx0">${esc(o)}</span><span class="c hide">${inlBr((c.comentarios||[])[i]||'')}</span></span>${RISCA}</button>`).join('')}</div>`;
@@ -2980,7 +2987,7 @@ function voltarCard(){
   guardarRetomar();
   S.xpDev[DEV]=h.xpDev; recalc(); save(); proximoCard(); vib(8);
 }
-function fim(){
+function fim(){ if(SS) limparMarcasCard(SS.ultCard);
   if($('#end')) return;   // já está na tela de conclusão (antes podia abrir 2 e o "Fechar" de cima não respondia)
   const lvAntes=nivel(S.xp-SS.xp);
   const diaFeito = !!SS.meta;
