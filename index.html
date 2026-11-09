@@ -355,6 +355,9 @@ textarea.note:focus{border-color:var(--rose)}
 .rte>div[data-l="sub"]{padding-left:40px}
 .rte>div[data-l]::before{content:"•";position:absolute;left:5px;color:var(--rose);font-weight:700}
 .rte>div[data-l="sub"]::before{content:"◦";left:24px}
+.rte>div.lc{text-align:center}.rte>div.lc img.rimg{margin:4px 3px}
+.anot>.mimg,.mine>.mimg{margin-left:auto!important;margin-right:auto!important;object-position:center!important}
+.anot .mrow,.mine .mrow{justify-content:center}
 .rte img.rimg{display:inline-block;vertical-align:top;max-width:100%;height:auto;border-radius:8px;margin:4px 6px 4px 0;cursor:pointer;user-select:none}
 #rimgsel{position:fixed;z-index:90;border:2px solid #3B6FD6;border-radius:8px;display:none;touch-action:none;cursor:move;box-sizing:border-box;background:rgba(59,111,214,.08)}
 #rimgsel .rh{position:absolute;right:-11px;bottom:-11px;width:22px;height:22px;border-radius:50%;background:#3B6FD6;border:2px solid #fff;cursor:nwse-resize;touch-action:none;box-shadow:0 1px 4px rgba(0,0,0,.3)}
@@ -3244,10 +3247,13 @@ const rtePlainPos=(md,a)=>{ const P=rteMapa(md); let k=P.findIndex(x=>x>=a); ret
 const VAL=Object.getOwnPropertyDescriptor(HTMLTextAreaElement.prototype,'value');
 function rteSync(div){ const ta=div._ta; if(!ta) return; const md=rteParaMd(div); if(VAL.get.call(ta)===md) return; ta._sync=1; ta.value=md; ta._sync=0; ta.dispatchEvent(new Event('input',{bubbles:true})); rteVazio(div); }
 const rteVazio=div=>div.classList.toggle('vazio',!div.textContent.replace(/​/g,'').trim()&&!div.querySelector('img'));
-function rteRender(ta){ const d=ta._rte; if(!d) return; d.innerHTML=mdParaRte(VAL.get.call(ta)); rteVazio(d); }
+function rteRender(ta){ const d=ta._rte; if(!d) return; d.innerHTML=mdParaRte(VAL.get.call(ta)); rteVazio(d); rteCentro(d); }
+/* linha só com foto(s) fica centralizada (igual aparece no card) */
+function rteCentro(div){ [...div.children].forEach(L=>{ const c=!!L.querySelector('img.rimg')&&!L.textContent.replace(/\u200b/g,'').trim(); if(L.classList.contains('lc')!==c) L.classList.toggle('lc',c); if(!L.className) L.removeAttribute('class'); }); }
 function rteLinhas(div){ /* texto solto no topo vira linha */ let run=[]; const fl=()=>{ if(!run.length) return; const d=document.createElement('div'); run[0].before(d); run.forEach(x=>d.appendChild(x)); run=[]; };
   [...div.childNodes].forEach(n=>{ if(n.nodeType===1&&/^(DIV|P|UL|OL)$/.test(n.tagName)) fl(); else run.push(n); }); fl();
   div.querySelectorAll('font').forEach(f=>{ if(rteCor(f)){ const s=document.createElement('span'); s.className='vm'; f.before(s); while(f.firstChild) s.appendChild(f.firstChild); f.remove(); } else { while(f.firstChild) f.before(f.firstChild); f.remove(); } });
+  rteCentro(div);
   div.querySelectorAll('span[style]').forEach(s=>{ if(rteCor(s)){ s.removeAttribute('style'); s.className='vm'; } else if(s.style.color){ s.style.color=''; if(!s.getAttribute('style')) { while(s.firstChild) s.before(s.firstChild); s.remove(); } } });
 }
 function linhaDe(div,node){ let n=node&&node.nodeType===3?node.parentNode:node; while(n&&n.parentNode!==div) n=n.parentNode; return n&&n!==div?n:null; }
