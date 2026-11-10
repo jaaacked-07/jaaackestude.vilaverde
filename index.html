@@ -1075,7 +1075,7 @@ function pHome(){
     <div class="stats">${(()=>{const n=S.streak.last&&diff(S.streak.last,h)<=1?S.streak.n:0;return `<span>🔥 <b>${n}</b> ${n===1?'dia':'dias'}</span>`})()}<span>✦ nível <b>${nivel(S.xp)}</b></span><span><b>${S.xp}</b> XP</span></div>
   </div>`;
   const va=$('#vat'); if(va) va.onclick=verAtalhos;
-  const g=$('#go'); if(g) g.onclick=()=>sessao(shuffle(pendentes()),'dia');
+  const g=$('#go'); if(g) g.onclick=()=>sessao(pendentes(),'dia');   /* ordem fixa do dia (o plano já vem embaralhado e intercalado por área ao ser montado) */
   ligarRets();
   ligarVespera();
   const bx=$('#baixa'); if(bx) bx.onclick=()=>sessao(novosBaixa().slice(0,20).map(c=>c.id),'baixa',null,'prioridade baixa');
