@@ -145,6 +145,7 @@ html:has(body>.sess),html:has(body>.sess) body{overflow:hidden!important;height:
 .cri{display:flex;align-items:center;gap:10px;padding:9px 10px;border-radius:12px;background:var(--bg);transition:background .25s}
 .cri .crk{flex:none;width:26px;height:26px;border-radius:50%;border:2px solid var(--line);display:grid;place-items:center;font-size:14px;font-weight:700;color:#fff;transition:all .2s}
 .cri .crt{flex:1;min-width:0;cursor:pointer}.cri .crt small{display:block;font-size:11px;color:var(--mute);font-variant-numeric:tabular-nums}.cri .crt span{font-size:14px;line-height:1.35}
+.crb.crc{margin-left:6px;background:var(--wine-soft);color:var(--wine)}
 .crb{flex:none;font-size:12px;font-weight:600;color:var(--wine);background:var(--wine-soft);border-radius:9px;padding:6px 10px}
 .cri.ok{background:var(--ok-soft)}.cri.ok .crk{background:var(--ok);border-color:var(--ok);transform:scale(1.05)}.cri.ok .crt span{text-decoration:line-through;text-decoration-thickness:1.5px;color:var(--mute)}
 .cri.cr-sim .crt span{font-weight:600}.cri.cr-prova{background:var(--wine-soft)}.cri.cr-prova .crt span{font-weight:700;color:var(--wine)}
@@ -2052,12 +2053,12 @@ function pCrono(){
   const totN=W.flat().reduce((a,d)=>a+dTot(d),0), fe=W.flat().reduce((a,d)=>a+dFe(d),0), pg=totN?Math.round(fe/totN*100):0, tot={length:totN};
   const faltam=Math.max(0,diff(h,CRONO_DEF.prova));
   const itemH=(d,x,i)=>{ const [ic]=CRO_TIPOS[x.tipo]||CRO_TIPOS.outro;
-    const acao=x.tipo==='leitura'&&x.sub?`<button class="crb" data-cro-mat="${esc(x.sub)}">Abrir</button>`:x.tipo==='sim'&&x.sim?`<button class="crb" data-cro-sim="${x.sim}">Fazer</button>`:x.tipo==='cards'?`<button class="crb" data-cro-ir="home">Ir</button>`:x.tipo==='vesp'?`<button class="crb" data-cro-vesp="1">Ir</button>`:'';
+    const acao=x.tipo==='leitura'&&x.sub?`<button class="crb" data-cro-mat="${esc(x.sub)}">Abrir</button><button class="crb crc" data-cro-cards="${esc(x.sub)}" title="10 cards deste tema para fixar">Cards</button>`:x.tipo==='sim'&&x.sim?`<button class="crb" data-cro-sim="${x.sim}">Fazer</button>`:x.tipo==='cards'?`<button class="crb" data-cro-ir="home">Ir</button>`:x.tipo==='vesp'?`<button class="crb" data-cro-vesp="1">Ir</button>`:'';
     return `<div class="cri ${x.ok?'ok':''} cr-${x.tipo}"><button class="crk" data-cro-ck="${d}|${i}" aria-label="${x.ok?'Desmarcar':'Marcar como feito'}">${x.ok?'✓':''}</button>
       <div class="crt" data-cro-ed="${d}|${i}"><small>${esc(x.h||'')}</small><span>${ic} ${esc(x.t)}</span></div>${acao}</div>`; };
   const rvH=(v)=>`<div class="cri rv ${v.ok?'ok':''} ${v.risca?'rsk':''}"><button class="crk" data-rv-ck="${esc(v.key)}" aria-label="Revisado">${v.ok?'✓':''}</button>
       <div class="crt" data-cro-mat="${esc(v.sub)}"><small>${v.n} · leu em ${ddmm(v.lido)}${v.risca?` · ✅ ${v.ac}% de acerto nos cards — pode pular`:''}</small><span>📖 ${esc(v.sub)}</span></div>
-      ${v.n.length===2&&!(S.crev[v.key]&&S.crev[v.key].esq)?`<button class="crb" data-rv-esq="${esc(v.key)}" title="Esqueci: revisar de novo em 3 dias">↺</button>`:''}</div>`;
+      <button class="crb crc" data-cro-cards="${esc(v.sub)}" title="10 cards deste tema para fixar">Cards</button>${v.n.length===2&&!(S.crev[v.key]&&S.crev[v.key].esq)?`<button class="crb" data-rv-esq="${esc(v.key)}" title="Esqueci: revisar de novo em 3 dias">↺</button>`:''}</div>`;
   const rvBloco=d=>{ const L=REV[d]||[]; if(!L.length) return ''; const c=L.filter(v=>!v.risca);
     return `<div class="crrv"><div class="crrvh">🔁 Revisão de temas <span class="mute small">· sem horário · ${c.filter(v=>v.ok).length}/${c.length}</span></div>${L.map(rvH).join('')}</div>`; };
   const html=W.map((w,wi)=>{ const T=w.reduce((a,d)=>a+dTot(d),0), f=w.reduce((a,d)=>a+dFe(d),0), p=T?Math.round(f/T*100):0, aw=CRO_AB.has('w'+wi), atual=w.includes(h), wp=w.some(dPend);
@@ -2083,6 +2084,7 @@ function pCrono(){
       return pCrono(); }
     const rc=t.closest('[data-rv-ck]'); if(rc){ const k=rc.dataset.rvCk, st={...(S.crev[k]||{})}; st.ok=st.ok?0:Date.now(); st.u=Date.now(); S.crev[k]=st; save(); vib(st.ok?12:6); return pCrono(); }
     const re=t.closest('[data-rv-esq]'); if(re){ const k=re.dataset.rvEsq; S.crev[k]={...(S.crev[k]||{}),ok:Date.now(),esq:hoje(),u:Date.now()}; save(); toast('Ok: esse tema volta daqui a 3 dias'); return pCrono(); }
+    const cc=t.closest('[data-cro-cards]'); if(cc){ fixarTema(cc.dataset.croCards); return; }
     const mt=t.closest('[data-cro-mat]'); if(mt){ const x=matItens().find(y=>y.sub===mt.dataset.croMat); if(x) abrirMat(x,true); else toast('Resumo não encontrado'); return; }
     const sm=t.closest('[data-cro-sim]'); if(sm){ const f=sm.dataset.croSim; if(f==='area') return simuArea(); return simuNovo(f); }
     if(t.closest('[data-cro-ir]')) return ir('home');
@@ -2762,12 +2764,26 @@ function crCresce(ta){ if(!ta.isConnected) return; const mx=innerHeight*.65; if(
 let VOLTA=null;
 /* N lendo um tema (Material ou revisão do cronograma): abre o Criar já no baralho do tema; Esc/↩ volta ao tema e, de lá, à tela de antes */
 let MAT_ATUAL=null, VOLTA_MAT=null;
-function novoDoTema(){ const x=MAT_ATUAL; if(!x||!$('#mat')) return; VOLTA_MAT={x,pag:PAG,fixo:MAT_FIXO}; fecharMat(true);
+/* "Cards" no cronograma: 10 cards do tema que ela acabou de ler, para fixar.
+   Só cards (normais e de digitar). Ordem: 1º os que ela errou/está fraca, depois os de prioridade alta ainda não vistos,
+   depois os já vistos que estão vencidos ou há mais tempo sem ver, e por último os de prioridade média; baixa só se faltar.
+   Conta na revisão espaçada normalmente (acertou → volta mais tarde; errou → volta amanhã). */
+function fixarTema(sub){
+  const L=CARDS.filter(c=>c.sub===sub&&ehCard(c)&&!c.oculto); if(!L.length) return toast('Esse tema ainda não tem cards');
+  const X=c=>S.srs[c.id], pr={alta:0,media:1,baixa:2};
+  const sc=c=>{ const x=X(c); let s=pr[prioDe(c)]*100;
+    if(x&&ehFraco(x)) s-=400; else if(x&&due(c)) s-=250; else if(!x&&prioDe(c)==='alta') s-=200; else if(x) s+=60-Math.min(59,diff(x.last||hoje(),hoje()));
+    return s+Math.random()*5; };
+  const ids=L.map(c=>({c,s:sc(c)})).sort((a,b)=>a.s-b.s).slice(0,10).map(x=>x.c.id);
+  sessao(ids,'fixar',null,'Fixar · '+sub);
+}
+function novoDoTema(){ const x=MAT_ATUAL; if(!x||!$('#mat')) return; const sp=$('#mat .mpn'); VOLTA_MAT={x,pag:PAG,fixo:MAT_FIXO,y:sp?sp.scrollTop:0}; fecharMat(true);
   CR=crNovo(CR&&!CR.edit?CR.tipo:'fv'); crDest({area:x.area,tema:x.tema,sub:x.sub,subt:''}); if(CR.tipo!=='io') CR.foco=CR.tipo==='cz'?'ct':'cf'; PAG='criar'; document.querySelectorAll('nav button').forEach(b=>b.classList.toggle('on',b.dataset.p==='criar')); render(); window.scrollTo(0,0); }
 async function voltarTema(perguntar){ const v=VOLTA_MAT; if(!v) return;
   const temTexto=CR&&!CR.edit&&[CR.frente,CR.verso,CR.texto,CR.perg].some(t=>String(t||'').trim())||(CR&&(CR.img||(CR.fimg||[]).length||(CR.vimg||[]).length));
   if(perguntar&&temTexto&&!await confirmar('Voltar ao tema sem salvar este card?','Voltar','O que você escreveu aqui não será salvo.')) return;
-  VOLTA_MAT=null; CR=crNovo(CR?CR.tipo:'fv'); ir(v.pag); abrirMat(v.x,v.fixo); }
+  VOLTA_MAT=null; CR=crNovo(CR?CR.tipo:'fv'); ir(v.pag); abrirMat(v.x,v.fixo);
+  if(v.y){ const vai=()=>{ const sp=$('#mat .mpn'); if(sp) sp.scrollTop=v.y; }; vai(); requestAnimationFrame(vai); setTimeout(vai,120); setTimeout(vai,400); } }   /* volta ao ponto onde parou de ler */
 function novoDoCard(){
   if(!SS||!SS.fila.length) return; const c=BYID[SS.fila[0]]; if(!c) return;
   VOLTA={fila:[...new Set(SS.fila)],modo:SS.modo,nome:SS.nome,feitos:SS.feitos,unicos:SS.unicos,acertos:SS.acertos,t0:SS.t0,retId:SS.retId,novos:[]};
