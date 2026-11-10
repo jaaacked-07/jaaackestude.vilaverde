@@ -633,7 +633,8 @@ mark.hl-y{background:rgba(250,214,80,.55)}mark.hl-g{background:rgba(120,200,140,
 const NOME='Jacke';
 const PROVA='2026-12-13';
 const VESPERA='2026-12-12';
-const META=20;            // cards por dia
+const META=30;            // cards por dia (fila do dia = só cards; questões ficam para os simulados)
+const NOV_MIN=10;         // mínimo de cards novos por dia (o resto são revisões vencidas, com prioridade)
 const MIN_NOVOS=15;       // novos garantidos na fila do dia (se houver)
 const MIN_REV=5;          // revisões vencidas garantidas
 const NOVOS_MIN=15, NOVOS_MAX=30;  // opção B: novos por dia calculados até a véspera, entre 15 e 30 (só prioridade alta/média)
@@ -807,9 +808,8 @@ const PRIO_P={alta:40,media:0,baixa:-40}, prioP=c=>PRIO_P[prioDe(c)]||0;
 /* fila do dia só com prioridade alta/média; os de prioridade baixa ficam no botão "Prioridade baixa" (estudar quando sobrar tempo) */
 /* novos do dia: prioridade para cards normais e de digitar (fixam matéria); questões entram em menor proporção (1 a cada 4) — elas são mais do simulado */
 function misturaQuiz(A,B,k){ const out=[]; let i=0,j=0; while(i<A.length||j<B.length){ for(let n=0;n<k&&i<A.length;n++) out.push(A[i++]); if(j<B.length) out.push(B[j++]); } return out; }
-function novos(){ const L=CARDS.filter(c=>!S.srs[c.id]&&prioDe(c)!=='baixa'), sc=c=>pesoUERJ(c)+prioP(c);
-  return misturaQuiz(equilibrar(L.filter(c=>c.tipo!=='quiz'),sc,4),equilibrar(L.filter(c=>c.tipo==='quiz'),sc,4),3); }
-const novosBaixa=()=>equilibrar(CARDS.filter(c=>!S.srs[c.id]&&prioDe(c)==='baixa'),pesoUERJ,4);
+function novos(){ return equilibrar(CARDS.filter(c=>ehCard(c)&&!S.srs[c.id]&&prioDe(c)!=='baixa'),c=>pesoUERJ(c)+prioP(c),4); }
+const novosBaixa=()=>equilibrar(CARDS.filter(c=>ehCard(c)&&!S.srs[c.id]&&prioDe(c)==='baixa'),pesoUERJ,4);
 /* quantos novos hoje: os de prioridade alta/média que faltam ÷ dias até a véspera (11/12), entre 15 e 30 */
 function novosDia(){ const rest=CARDS.filter(c=>!S.srs[c.id]&&prioDe(c)!=='baixa').length, d=Math.max(1,diff(hoje(),VESP_INI));
   return Math.min(NOVOS_MAX,Math.max(Math.min(NOVOS_MIN,rest),Math.ceil(rest/d))); }
@@ -818,39 +818,32 @@ function shuffle(a){for(let i=a.length-1;i>0;i--){const j=Math.random()*(i+1)|0;
 /* Fila do dia: TODOS os erros vencidos + 15 novos (se houver) + revisões vencidas (pelo menos 5) até completar a meta.
    Novos e revisões escolhidos pela prioridade combinada (banca + fraqueza), equilibrando as 5 áreas e intercalando baralhos.
    Se faltar card, completa com reforço (já vistos de maior prioridade). */
+/* fila do dia = só CARDS (normais e de digitar); questões ficam para os simulados.
+   Método: primeiro as revisões vencidas (erros antes, depois o que mais cai), garantindo pelo menos NOV_MIN novos por dia;
+   os novos e as revisões vêm intercalados. Revisão que não coube passa para o dia seguinte (ninguém some). */
+const ehCard=c=>c.tipo!=='quiz';
 function fila(n,excluir,minN){
-  const ex=new Set(excluir||[]), ok=c=>!ex.has(c.id), P=c=>S.srs[c.id];
+  const ex=new Set(excluir||[]), ok=c=>!ex.has(c.id)&&ehCard(c), P=c=>S.srs[c.id];
   const venc=CARDS.filter(c=>ok(c)&&due(c));
-  const E=intercalar(venc.filter(c=>P(c).lr===0),prioridade).map(c=>c.id);
-  const outros=equilibrar(venc.filter(c=>P(c).lr!==0),prioridade), nov=novos().filter(ok);
-  const vaga=Math.max(0,n-E.length);
-  let nN=Math.min(nov.length,Math.max(minN==null?MIN_NOVOS:minN,vaga-outros.length));
-  const nR=Math.min(outros.length,Math.max(MIN_REV,vaga-nN));   // pelo menos 5 revisões para não acumular
-  nN=Math.min(nov.length,Math.max(nN,vaga-nR));
-  const R=outros.slice(0,nR).map(c=>c.id), N=nov.slice(0,nN).map(c=>c.id);
-  const out=[...E];
-  while(R.length||N.length){ if(N.length) out.push(N.shift()); if(R.length) out.push(R.shift()); }
-  if(out.length<n){
-    const usados=new Set(out);
-    out.push(...equilibrar(CARDS.filter(c=>ok(c)&&P(c)&&!usados.has(c.id)),prioridade).slice(0,n-out.length).map(c=>c.id));
-  }
-  return shuffle(out);
+  const rev=[...intercalar(venc.filter(c=>P(c).lr===0),prioridade),...equilibrar(venc.filter(c=>P(c).lr!==0),prioridade)].map(c=>c.id);
+  const nov=novos().filter(ok).map(c=>c.id), nMin=Math.min(nov.length,minN==null?NOV_MIN:minN);
+  const R=rev.slice(0,Math.max(0,n-nMin)), N=nov.slice(0,Math.max(0,n-R.length));
+  const out=[]; let i=0,j=0; const passo=N.length?Math.max(1,R.length/N.length):1e9;
+  while(i<R.length||j<N.length){ if(j<N.length&&(i>=R.length||i>=(j+1)*passo-1)) out.push(N[j++]); else out.push(R[i++]); }
+  if(out.length<n){ const usados=new Set(out); out.push(...equilibrar(CARDS.filter(c=>ok(c)&&P(c)&&!usados.has(c.id)),prioridade).slice(0,n-out.length).map(c=>c.id)); }
+  return out;
 }
 function montarPlano(){
   const h=hoje();
   if(!S.hoje||S.hoje.date!==h) S.hoje={date:h,ids:Object.keys(S.srs).filter(id=>S.srs[id].last===h)};
-  if(S.plan&&S.plan.date===h&&S.plan.v===3){
-    /* conserta o dia inflado pela soma de planos de aparelhos diferentes: volta ao tamanho da meta, mantendo o que já foi feito */
-    if(!S.plan.t&&S.plan.meta&&S.plan.ids.length>S.plan.meta*1.4){ const d=S.plan.done, pend=S.plan.ids.filter(i=>!d.includes(i)); S.plan.ids=[...d,...pend.slice(0,Math.max(0,S.plan.meta-d.length))]; S.plan.t=Date.now(); save(); }
-    return; }
-  /* plano de hoje feito com a regra antiga (8 novos): completa até 15 novos sem refazer o dia */
-  if(S.plan&&S.plan.date===h&&S.plan.v===2){ const tem=new Set(S.plan.ids), nN=S.plan.ids.filter(id=>!S.srs[id]||S.srs[id].last===h&&S.srs[id].seen===1).length;
-    S.plan.ids.push(...novos().filter(c=>!tem.has(c.id)).slice(0,Math.max(0,MIN_NOVOS-nN)).map(c=>c.id)); S.plan.v=3; save(); return; }
-  const nn=vesperaAtiva()?0:novosDia(), meta=Math.max(META,nn+MIN_REV);
-  S.plan={date:h,ids:fila(meta,S.hoje.ids,nn),done:[],v:3,meta,nn,t:Date.now()};
+  if(!CARDS.length) return;   /* cards ainda não carregaram: não monta o dia vazio (era o "tudo feito" sem ter feito nada) */
+  if(S.plan&&S.plan.date===h&&S.plan.v===4&&S.plan.ids.some(i=>BYID[i])) return;
+  /* dia novo, plano antigo (com questões) ou vazio: monta o dia de 30 cards */
+  const nn=vesperaAtiva()?0:NOV_MIN, ids=fila(META,S.hoje.ids,nn);
+  S.plan={date:h,ids,done:[],v:4,meta:META,nn:ids.filter(i=>!S.srs[i]).length,t:Date.now()};
   save();
 }
-function pendentes(){return S.plan.ids.filter(id=>BYID[id]&&!S.plan.done.includes(id))}
+function pendentes(){return S.plan?S.plan.ids.filter(id=>BYID[id]&&!S.plan.done.includes(id)):[]}
 function adicionarMais(n){ const add=fila(n,S.plan.ids); S.plan.ids.push(...add); save(); return add; }
 function estudadosHoje(){ return S.hoje&&S.hoje.date===hoje()?S.hoje.ids.length:0; }
 function contarHoje(id){
@@ -1048,8 +1041,8 @@ function renderBg(){ if(digitandoNome()){ RENDER_PEND=true; return; } render(); 
 addEventListener('focusout',e=>{ if(RENDER_PEND&&e.target.classList&&(e.target.classList.contains('inl')||e.target.closest('.anot.edit'))&&document.hasFocus()) setTimeout(()=>{ if(RENDER_PEND) render(); },60); });
 function pHome(){
   const h=hoje(), falta=diff(h,PROVA);
-  const feito=estudadosHoje(), pend=pendentes().length;
-  const MT=metaHoje(), pct=Math.min(1,feito/MT), R=82, C=2*Math.PI*R, nb=novosBaixa().length;
+  const pend=pendentes().length, feito=S.plan?S.plan.done.filter(i=>S.plan.ids.includes(i)).length:0;
+  const MT=S.plan&&S.plan.ids.length||META, pct=Math.min(1,feito/MT), R=82, C=2*Math.PI*R, nb=novosBaixa().length;
   const cont = falta>1?`<div class="count serif">${falta} dias<small>para o Vila Verde · 13/12</small></div>`
     : falta===1?`<div class="count serif">Amanhã<small>Revisão leve hoje. Durma bem.</small></div>`
     : falta===0?`<div class="count serif">É hoje.<small>Boa prova, ${NOME}. Você estudou pra isso.</small></div>`
@@ -1057,7 +1050,7 @@ function pHome(){
   let acao;
   if(!CARDS.length) acao=`<div class="empty"><div class="serif">Ainda sem cards</div>Anote seus erros que os cards aparecem aqui.</div>`;
   else if(pend) acao=`<button class="btn" id="go">${S.plan.done.length||feito?'Continuar':'Começar'} · ${pend}</button>`;
-  else acao=`<div class="done"><div class="serif">${feito>=MT?'Meta do dia feita ✓':'Fila do dia feita ✓'}</div><p class="mute small" style="margin-top:4px">A revisão de amanhã já está agendada.</p></div>`;
+  else acao=`<div class="done"><div class="serif">${feito>=MT?'Cards do dia feitos ✓':'Fila do dia feita ✓'}</div><p class="mute small" style="margin-top:4px">A revisão de amanhã já está agendada.</p></div>`;
   $('#app').innerHTML=`<div class="wrap">
     <div class="hello">Oi, ${NOME}</div>${cont}
     <div class="ringbox"><div class="ring">
@@ -1067,9 +1060,9 @@ function pHome(){
     </div></div>
     ${vesperaAtiva()?vesperaHTML(true):''}
     ${acao}
-    ${S.plan&&S.plan.nn?`<p class="mute small" style="text-align:center;margin-top:8px">Hoje: ${(L=>`${L.filter(i=>!S.srs[i]).length} novos + ${L.filter(i=>S.srs[i]).length} revisões`)(pendentes())} · ${CARDS.filter(c=>!S.srs[c.id]&&prioDe(c)!=='baixa').length} de prioridade alta/média ainda não vistos</p>`:''}
+    ${S.plan&&S.plan.nn?`<p class="mute small" style="text-align:center;margin-top:8px">Hoje: ${(L=>`${L.filter(i=>!S.srs[i]).length} novos + ${L.filter(i=>S.srs[i]).length} revisões`)(pendentes())} · ${CARDS.filter(c=>ehCard(c)&&!S.srs[c.id]&&prioDe(c)!=='baixa').length} cards de prioridade alta/média ainda não vistos</p>`:''}
     ${retLista()}
-    ${CARDS.length&&!pend?`<button class="btn ghost" id="mais" style="margin-top:14px">Estudar mais 20</button>`:''}
+    ${CARDS.length?`<button class="btn ghost" id="mais" style="margin-top:14px">+ Fazer mais 20 cards</button>`:''}
     ${nb&&!pend?`<button class="btn ghost" id="baixa" style="margin-top:10px">Prioridade baixa · ${nb} (quando sobrar tempo)</button>`:''}
     ${tecladoFisico()?'<div class="linkrow" style="margin-top:10px"><button class="link mute small" id="vat" style="opacity:.7">⌨ atalhos do teclado</button></div>':''}
     <div class="stats">${(()=>{const n=S.streak.last&&diff(S.streak.last,h)<=1?S.streak.n:0;return `<span>🔥 <b>${n}</b> ${n===1?'dia':'dias'}</span>`})()}<span>✦ nível <b>${nivel(S.xp)}</b></span><span><b>${S.xp}</b> XP</span></div>
@@ -1870,7 +1863,7 @@ function mergeProg(R){
   if(R.plan&&R.plan.v>=2){ if(!S.plan||!(S.plan.v>=2)||R.plan.date>S.plan.date) S.plan=R.plan;
     else if(R.plan.date===S.plan.date){
       /* mesmo dia em 2 aparelhos: fica o plano criado primeiro (não soma as duas filas — antes isso inflava o dia); só os já feitos do outro entram */
-      const base=(R.plan.t||9e15)<(S.plan.t||9e15)?R.plan:S.plan, done=[...new Set([...S.plan.done,...R.plan.done])];
+      const vz=x=>!(x.ids||[]).length, base=(R.plan.v||0)!==(S.plan.v||0)?((R.plan.v||0)>(S.plan.v||0)?R.plan:S.plan):vz(R.plan)!==vz(S.plan)?(vz(R.plan)?S.plan:R.plan):(R.plan.t||9e15)<(S.plan.t||9e15)?R.plan:S.plan, done=[...new Set([...S.plan.done,...R.plan.done])];
       S.plan={...base,done,ids:[...new Set([...base.ids,...done])],nv:Math.max(S.plan.nv||0,R.plan.nv||0)}; } }
   for(const d in R.crono||{}){ const a=S.crono[d],b=R.crono[d]; if(!a||(b.u||0)>(a.u||0)) S.crono[d]=b; }
   for(const k in R.simq||{}) S.simq[k]=Math.max(S.simq[k]||0,R.simq[k]);
