@@ -2345,12 +2345,23 @@ function simuRever(sid){
 /* ===== Porcentagem (simulados) ===== */
 const pc=(a,t)=>t?Math.round(a/t*100):null;
 const dBR=d=>d.split('-').reverse().map((x,i)=>i===2?x.slice(2):x).join('/');
-function grafico(L){
-  const ult=k=>L.filter(s=>s[k]!=null), dl=k=>{const a=ult(k);return a.length>1?a[a.length-1][k]-a[a.length-2][k]:null};
-  const head=(k,nome,cor)=>{const a=ult(k); if(!a.length) return ''; const v=a[a.length-1][k], d=dl(k);
-    return `<div class="kpi"><span class="kn"><i style="background:${cor}"></i>${nome}</span><span class="kv">${v}<small>%</small></span>${d!=null?`<span class="kd ${d>0?'up':d<0?'dn':''}">${d>0?'▲ subiu':d<0?'▼ caiu':'• igual:'} de ${v-d}% para ${v}% <span class="kvs">(comparado ao simulado anterior)</span></span>`:''}</div>`};
+/* comparação justa: junta simulados até ter um número mínimo de questões (um simulado pequeno não distorce) */
+const JAN={g:['ac','tot',50],u:['uac','utot',20]};
+function janela(L,k,fim){ const [ka,kt,min]=JAN[k]; let a=0,t=0,n=0,i=fim;
+  for(;i>=0&&t<min;i--){ const s=L[i]; if(s[kt]){ a+=s[ka]; t+=s[kt]; n++; } } return {a,t,n,prox:i}; }
+function grafico(L0){
+  const L=L0.map((s,i)=>({...s,g:s.tot?pc(janela(L0,'g',i).a,janela(L0,'g',i).t):null,u:s.utot?pc(janela(L0,'u',i).a,janela(L0,'u',i).t):null}));
+  const head=(k,nome,cor)=>{ const [ka,kt,min]=JAN[k]; if(!L0.some(s=>s[kt])) return '';
+    const cur=janela(L0,k,L0.length-1), prev=cur.prox>=0?janela(L0,k,cur.prox):{t:0}, v=pc(cur.a,cur.t), pv=prev.t>=min*.6?pc(prev.a,prev.t):null, d=pv==null?null:v-pv;
+    const tot=L0.reduce((x,s)=>[x[0]+(s[ka]||0),x[1]+(s[kt]||0)],[0,0]), ul=[...L0].reverse().find(s=>s[kt]);
+    return `<div class="kpi"><span class="kn"><i style="background:${cor}"></i>${nome}</span><span class="kv">${v}<small>%</small></span>
+      <span class="kd kvs">nas últimas ${cur.t} questões${cur.n>1?` (${cur.n} simulados)`:''}${cur.t<min?' · ainda poucas questões':''}</span>
+      ${d!=null?`<span class="kd ${d>0?'up':d<0?'dn':''}">${d>0?'▲ subiu':d<0?'▼ caiu':'• igual:'} de ${pv}% para ${v}% <span class="kvs">(comparando com as ${prev.t} questões anteriores)</span></span>`:''}
+      <span class="kd kvs">Último simulado: ${ul[ka]}/${ul[kt]} (${pc(ul[ka],ul[kt])}%)${ul[kt]<10?' · poucas questões, pesa pouco':''}</span>
+      <span class="kd kvs">Desde o início: ${pc(tot[0],tot[1])}% de ${tot[1]} questões</span></div>`; };
   const topo=`<div class="kpis">${head('g','Simulado (total)','#3B6FD6')}${head('u','Questões do Vila Verde','#E08A1E')}</div>`;
   if(L.length<2) return `<div class="chart">${topo}<p class="mute small" style="text-align:center;padding:10px 0 6px">A curva de evolução aparece a partir do 2º simulado.</p></div>`;
+  const nota=`<p class="mute small" style="margin:6px 2px 0">Cada ponto da curva junta as últimas ~50 questões (~20 do Vila Verde) até aquele simulado — assim um simulado pequeno não dá falsa impressão.</p>`;
   const vs=L.flatMap(s=>[s.g,s.u]).filter(v=>v!=null), lo=Math.max(0,Math.floor((Math.min(...vs)-10)/10)*10), hi=100;
   const W=320,H=150,pl=8,pr=30,pt=10,pb=22, x=i=>pl+i*(W-pl-pr)/(L.length-1), y=v=>pt+(hi-v)*(H-pt-pb)/(hi-lo);
   const ticks=[lo,Math.round((lo+hi)/2/5)*5,hi];
@@ -2365,7 +2376,7 @@ function grafico(L){
     ${ticks.map(v=>`<line x1="${pl}" x2="${W-pr}" y1="${y(v)}" y2="${y(v)}" stroke="var(--line)" stroke-width="1" ${v===lo?'':'stroke-dasharray="2 4"'}/><text x="${W-pr+6}" y="${y(v)+3}" font-size="9" fill="var(--mute)">${v}%</text>`).join('')}
     ${L.map((s,i)=>i%passo&&i!==L.length-1?'':`<text x="${x(i)}" y="${H-6}" font-size="9" fill="var(--mute)" text-anchor="middle">S${i+1}</text>`).join('')}
     ${serie('u','#E08A1E')}${serie('g','#3B6FD6',true)}
-  </svg></div>`;
+  </svg>${nota}</div>`;
 }
 let VER_SIM=false; const MAPA_AB=new Set();
 function pPct(){
