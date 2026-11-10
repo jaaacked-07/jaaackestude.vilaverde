@@ -2765,14 +2765,14 @@ let VOLTA=null;
 /* N lendo um tema (Material ou revisão do cronograma): abre o Criar já no baralho do tema; Esc/↩ volta ao tema e, de lá, à tela de antes */
 let MAT_ATUAL=null, VOLTA_MAT=null;
 /* "Cards" no cronograma: 10 cards do tema que ela acabou de ler, para fixar.
-   Só cards (normais e de digitar). Ordem: 1º os que ela errou/está fraca, depois os de prioridade alta ainda não vistos,
-   depois os já vistos que estão vencidos ou há mais tempo sem ver, e por último os de prioridade média; baixa só se faltar.
+   Só cards (normais e de digitar). Ordem (ela pediu): 1º prioridade alta ainda não vistos, 2º os que errou/está fraca,
+   3º os vencidos, depois os já vistos há mais tempo, e por último os de prioridade média; baixa só se faltar.
    Conta na revisão espaçada normalmente (acertou → volta mais tarde; errou → volta amanhã). */
 function fixarTema(sub){
   const L=CARDS.filter(c=>c.sub===sub&&ehCard(c)&&!c.oculto); if(!L.length) return toast('Esse tema ainda não tem cards');
   const X=c=>S.srs[c.id], pr={alta:0,media:1,baixa:2};
   const sc=c=>{ const x=X(c); let s=pr[prioDe(c)]*100;
-    if(x&&ehFraco(x)) s-=400; else if(x&&due(c)) s-=250; else if(!x&&prioDe(c)==='alta') s-=200; else if(x) s+=60-Math.min(59,diff(x.last||hoje(),hoje()));
+    if(!x&&prioDe(c)==='alta') s-=400; else if(x&&ehFraco(x)) s-=250; else if(x&&due(c)) s-=200; else if(x) s+=60-Math.min(59,diff(x.last||hoje(),hoje()));
     return s+Math.random()*5; };
   const ids=L.map(c=>({c,s:sc(c)})).sort((a,b)=>a.s-b.s).slice(0,10).map(x=>x.c.id);
   sessao(ids,'fixar',null,'Fixar · '+sub);
