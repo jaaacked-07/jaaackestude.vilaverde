@@ -13,7 +13,11 @@ self.addEventListener('fetch',e=>{
   // conteúdo e página: rede primeiro sem cache HTTP do navegador (o GitHub Pages guarda 10 min), cache se offline
   if(u.pathname.includes('/data/')||e.request.mode==='navigate'||u.pathname.endsWith('index.html')){
     if(e.request.mode==='navigate') e.waitUntil(garantirShell());
-    e.respondWith(fetch(e.request.url,{cache:'no-cache'}).then(r=>{const c=r.clone();caches.open(V).then(x=>x.put(e.request.mode==='navigate'?'index.html':e.request.url.split('?')[0],c));return r}).catch(()=>caches.open(V).then(x=>x.match(e.request.mode==='navigate'?'index.html':e.request.url.split('?')[0]))));
+    /* internet fraca: se a rede demorar mais de 5 s, abre com a cópia guardada (e a rede atualiza a cópia em segundo plano) */
+    const k=e.request.mode==='navigate'?'index.html':e.request.url.split('?')[0], doCache=()=>caches.open(V).then(x=>x.match(k));
+    const rede=fetch(e.request.url,{cache:'no-cache'}).then(r=>{ if(r.ok){const c=r.clone();caches.open(V).then(x=>x.put(k,c));} return r; });
+    e.waitUntil(rede.catch(()=>{}));
+    e.respondWith(Promise.race([rede,new Promise(ok=>setTimeout(ok,5000)).then(()=>doCache().then(c=>c||rede))]).catch(()=>doCache().then(c=>c||Response.error())));
     return;
   }
   e.respondWith(caches.open(V).then(x=>x.match(e.request)).then(r=>r||fetch(e.request).then(n=>{if(n.ok||n.type==='opaque'){const c=n.clone();caches.open(V).then(x=>x.put(e.request,c))}return n})));
