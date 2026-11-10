@@ -232,6 +232,7 @@ table.t{width:100%;table-layout:auto;overflow-wrap:break-word;word-break:normal;
 .ctx{margin-top:34px;padding:16px 18px 18px;background:var(--card);border:1px solid var(--line);border-radius:16px;border-left:3px solid var(--rose);box-shadow:0 1px 3px rgba(0,0,0,.04)}
 .ctx .base{background:var(--bg)}
 .ctxbase{padding-bottom:4px;border-radius:16px 16px 0 0}
+.racx{margin-top:14px}.racx .base{margin-bottom:10px}
 .ctxbase+.ctx{margin-top:0;border-radius:0 0 16px 16px;padding-top:6px;border-top:0;box-shadow:none}
 .ctx.ctxbase{border-bottom:0;box-shadow:none}
 .ctxbase+.ctx>.ctxh{display:none}
@@ -910,7 +911,9 @@ const vib=n=>{try{navigator.vibrate&&navigator.vibrate(n)}catch(e){}};
 /* ===== Visuais ===== */
 /* marcações do contexto ficam no contexto (não no card): mesmo contexto em vários cards = mesmas marcações */
 const ctxKey=c=>{ const t=String(c.contexto||'').split('\n')[0].replace(/\*\*/g,'').trim(); let h=5381; for(let i=0;i<t.length;i++) h=((h<<5)+h+t.charCodeAt(i))|0; return 'ctx-'+(h>>>0).toString(36); };
-const ctxHTML=c0=>{const c=ctxDoBaralho(c0), r=racHTML(c0); return (r?`<div class="ctx ctxbase"><div class="ctxh">Contexto do tema</div>${r}</div>`:'')+(c.contexto?`<div class="ctx hlz" data-hl="${ctxKey(c)}" data-an="an:${ctxKey(c)}"><div class="ctxh">Contexto do tema</div>${paras(c.contexto)}${visual(c.ctxvisual)}</div>`:'');};
+/* raciocínio do CARD fica fora do contexto geral: logo abaixo da explicação do card (no resumo da matéria, vai no fim) */
+const racCard=c0=>{ const r=racHTML(c0); return r?`<div class="racx">${r}</div>`:''; };
+const ctxHTML=c0=>{const c=ctxDoBaralho(c0); return (c.contexto?`<div class="ctx hlz" data-hl="${ctxKey(c)}" data-an="an:${ctxKey(c)}"><div class="ctxh">Contexto do tema</div>${paras(c.contexto)}${visual(c.ctxvisual)}</div>`:'');};
 const macHTML=c=>c.macete?`<div class="mac"><b>🧠 Macete · </b>${inlBr(c.macete)}</div>`:'';
 /* card "digitar": compara a resposta digitada (sem acento, maiúscula, pontuação; tolera erro de digitação) */
 /* ===== correção do card de digitar (tolerante) =====
@@ -995,8 +998,8 @@ function cardCompleto(c){
   limparMarcasCard(c.id);
   let h=tagHTML(c)+(ehFrenteOculta(c)?'':frenteHTML(c));
   if(c.tipo==='quiz') h+=`<div class="opts">${c.opcoes.map((o,i)=>`<div class="opt ${i===c.certa?'ok':''}"><span class="k">${'ABCDE'[i]}</span><span>${esc(o)}<span class="c">${inlBr((c.comentarios||[])[i]||'')}</span></span></div>`).join('')}</div>`;
-  else h+=`<div class="ans">${respHTML(c)}${macHTML(c)}</div>`;
-  if(c.tipo==='quiz') h+=macHTML(c);
+  else h+=`<div class="ans">${respHTML(c)}${racCard(c)}${macHTML(c)}</div>`;
+  if(c.tipo==='quiz') h+=`<div class="ans">${racCard(c)}</div>`+macHTML(c);
   h+=`<div class="ans">${ctxHTML(c)}</div>`;
   h+=minhaHTML(c.id);
   h+=extrasUERJ(c);
@@ -1283,7 +1286,7 @@ function abrirMat(x,fixo){
   fecharMat(true); MAT_ATUAL=x; MAT_FIXO=!!fixo;
   const d=document.createElement('div'); d.id='mat';
   const bt=()=>{ const l=matLido(x); return `<button class="mlido ${l?'on':''}" id="mlido">${l?'✓ Lido':'Marcar como lido'}</button>`; };
-  d.innerHTML=`<div class="mpn"><div class="mbar"><button class="mvolta" id="mvolta" aria-label="Voltar" title="Voltar (Esc)">←</button><div class="mtt"><small>${esc(x.area)} › ${esc(x.tema)}</small><b>${esc(x.sub)}</b></div>${bt()}</div><div class="mbody">${ctxHTML(x)}</div></div>`;
+  d.innerHTML=`<div class="mpn"><div class="mbar"><button class="mvolta" id="mvolta" aria-label="Voltar" title="Voltar (Esc)">←</button><div class="mtt"><small>${esc(x.area)} › ${esc(x.tema)}</small><b>${esc(x.sub)}</b></div>${bt()}</div><div class="mbody">${ctxHTML(x)}${(r=>r?`<div class="sec" style="margin-top:26px">Raciocínio dos cards deste tema</div>${r}`:"")(racCard(x))}</div></div>`;
   d.onclick=e=>{ if(e.target===d&&!MAT_FIXO&&!d.querySelector('.anot.edit')) fecharMat(); };   /* vindo do cronograma (ou escrevendo): só sai pelo ← ou Esc */
   document.body.appendChild(d); document.body.style.overflow='hidden'; document.body.classList.add('matab');
   $('#mvolta').onclick=()=>fecharMat();
@@ -2309,7 +2312,7 @@ function simuRevisar(st,L,k,todas){
   st._rv=[L,k,todas];
   $('#smw').innerHTML=`<button class="crb" id="smcar" style="margin-bottom:10px">← Voltar ao gabarito <span class="mute small">(Esc)</span></button><div class="tag">${todas?'Questão':'Erro'} ${k+1} de ${L.length} · ${!errou?'✅ acertou':m==null?'⬜ em branco':'❌ errou'}${(st.marc||[]).includes(id)?' · ⚑ você marcou':''}${c.prova?' · '+provaTag(c):''} · ${esc(GN[grupoDe(c)]||c.area)} · ${esc(c.sub)}</div><div class="hlz" data-hl="sq:${id}">${frenteHTML(c)}</div>
     <div class="opts">${c.opcoes.map((o,i)=>`<div class="opt ${i===c.certa?'ok':i===m?'bad':''}"><span class="k">${'ABCDE'[i]}</span><span class="ot"><span class="tx0">${esc(o)}</span>${errou&&(i===m||i===c.certa)?'':`<span class="c">${inlBr((c.comentarios||[])[i]||'')}</span>`}</span></div>`).join('')}</div>
-    ${errou?simPorque(c,m):macHTML(c)}<div class="ans">${ctxHTML(c)}</div>${errou?'':extrasUERJ(c)}`;
+    ${errou?simPorque(c,m):macHTML(c)}<div class="ans">${racCard(c)}${ctxHTML(c)}</div>${errou?'':extrasUERJ(c)}`;
   $('#smb').scrollTop=0; aplicarZonas&&aplicarZonas();
   const xs=S.srs[id]; if(xs&&xs.so) $('#smcar').insertAdjacentHTML('afterend',`<button class="crb" id="smcad" style="margin-bottom:10px">⭐ Pôr no caderno de erros</button>`);
   const cb=$('#smcad'); if(cb) cb.onclick=()=>{ delete S.srs[id].so; save(); cb.remove(); toast('Vai para o caderno de erros ⭐'); };
@@ -2663,7 +2666,7 @@ function racDe(c){
   return txt||vb.length?{txt,vb}:null;
 }
 /* cada quadro tem zona própria de marca-texto e anotação (vale em todos os lugares em que o quadro aparece) */
-const baseBox=b=>{ const k='base-'+hashT(String(b.txt||JSON.stringify(b.vb)).split('\n')[0]); return `<div class="base hlz" data-hl="${k}" data-an="an:${k}"><div class="bt">🔎 Raciocínio · a base para entender</div>${b.txt?paras(b.txt):''}${b.vb&&b.vb.length?visual(b.vb):''}</div>`; };
+const baseBox=b=>{ const k='base-'+hashT(String(b.txt||JSON.stringify(b.vb)).split('\n')[0]); return `<div class="base hlz" data-hl="${k}" data-an="an:${k}"><div class="bt">🔎 Raciocínio deste card</div>${b.txt?paras(b.txt):''}${b.vb&&b.vb.length?visual(b.vb):''}</div>`; };
 function racHTML(c){ const L=c&&c.bases?c.bases:[racDe(c)].filter(Boolean); return L.map(baseBox).join(''); }
 function versoResp(v){
   const bl=String(v||'').split(/\n\s*\n/), b0=(bl[0]||'').trim(), ls=b0.split('\n').map(x=>x.trim()).filter(Boolean);
@@ -2986,7 +2989,7 @@ function proximoCard(){
       const i=+b.dataset.i, ok=i===c.certa;
       document.querySelectorAll('.opt').forEach((x,j)=>{x.disabled=true;x.querySelector('.c').classList.remove('hide');if(j===c.certa)x.classList.add('ok');else if(j===i)x.classList.add('bad')});
       vib(ok?12:[20,40,20]);
-      $('#ar').insertAdjacentHTML('beforeend',macHTML(c)+`<div class="ans">${ctxHTML(c)}</div>`+extrasUERJ(c)+minhaHTML(c.id)); $('#ar').classList.add('hlz'); $('#ar').dataset.hl=c.id; delete $('#ar').dataset.ok; aplicarZonas();
+      $('#ar').insertAdjacentHTML('beforeend',`<div class="ans">${racCard(c)}</div>`+macHTML(c)+`<div class="ans">${ctxHTML(c)}</div>`+extrasUERJ(c)+minhaHTML(c.id)); $('#ar').classList.add('hlz'); $('#ar').dataset.hl=c.id; delete $('#ar').dataset.ok; aplicarZonas();
       if(ok) f.innerHTML=`<button class="btn" id="nx">Continuar</button>`, $('#nx').onclick=()=>responder(c,2);
       else pedirMotivo(c);
     });
@@ -3000,7 +3003,7 @@ function proximoCard(){
       let res='', sug=-1;
       if(dg){ const v=($('#dg')||{}).value||'', ok=conferirDig(c,v); sug=ok?2:0; if(document.activeElement) document.activeElement.blur();
         res=`<div class="dgr ${ok?'ok':'bad'}">${v.trim()?`${ok?'✓':'✗'} Você: <b>${esc(v.trim())}</b>`:'✗ Em branco'}</div>`; }
-      $('#ar').innerHTML=res+`<div class="ans hlz" data-hl="${c.id}">${respHTML(c)}${macHTML(c)}${ctxHTML(c)}${extrasUERJ(c)}${minhaHTML(c.id)}</div>`;
+      $('#ar').innerHTML=res+`<div class="ans hlz" data-hl="${c.id}">${respHTML(c)}${racCard(c)}${macHTML(c)}${ctxHTML(c)}${extrasUERJ(c)}${minhaHTML(c.id)}</div>`;
       f.innerHTML=`<div class="rate"><button class="r0${sug===0?' sug':''}" data-r="0">Errei</button><button class="r1" data-r="1">Quase</button><button class="r2${sug===2?' sug':''}" data-r="2">Sabia</button></div>`;
       f.querySelectorAll('button').forEach(b=>b.onclick=()=>{const r=+b.dataset.r; if(r===0) pedirMotivo(c); else {vib(10);responder(c,r)}});
     };
