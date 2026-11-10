@@ -162,7 +162,7 @@ select.srch{appearance:auto}
 .smnav{display:flex;gap:8px;align-items:stretch}.smnav .smic{font-size:22px;min-width:58px;padding:12px 8px}.smnav .smprox{flex:1!important;font-size:17px}.smnav .smentr{flex:0 0 auto!important;min-width:0;font-size:12.5px;padding:8px 10px;color:var(--mute)}.smnav .btn{margin:0;width:auto;padding:15px 12px}.smnav .btn.ghost{flex:0 0 auto;min-width:56px}.smnav .btn:last-child{flex:1}.smfl.on{color:#D9A441;border-color:#D9A441}
 .smgd{display:grid;grid-template-columns:repeat(auto-fill,minmax(40px,1fr));gap:6px;max-height:50vh;overflow-y:auto}.smgd button{height:38px;border-radius:9px;border:1.5px solid var(--line);font-size:13px;font-variant-numeric:tabular-nums;color:var(--mute);position:relative}
 .smgd button.r{background:rgba(59,111,214,.14);color:#3B6FD6;border-color:transparent;font-weight:600}.smgd button.m::after{content:'⚑';position:absolute;top:-3px;right:1px;font-size:10px;color:#D9A441}.smgd button.at{outline:2px solid var(--wine);outline-offset:1px}
-.smres{text-align:center;padding:10px 0}.smbig{font-size:54px;font-weight:600;letter-spacing:-.03em;font-variant-numeric:tabular-nums;line-height:1.1}.smcut{display:inline-block;margin-top:10px;padding:6px 12px;border-radius:999px;font-size:13.5px;font-weight:600}.smcut.ok{background:var(--ok-soft);color:var(--ok)}.smcut.bad{background:var(--bad-soft);color:var(--bad)}
+.smres{text-align:center;padding:10px 0}.smac{font-size:20px;font-weight:600;margin-top:2px}.smac span{color:var(--mute);font-weight:500}.smer{font-size:14px;color:var(--mute);margin-top:2px}.smbig{font-size:54px;font-weight:600;letter-spacing:-.03em;font-variant-numeric:tabular-nums;line-height:1.1}.smcut{display:inline-block;margin-top:10px;padding:6px 12px;border-radius:999px;font-size:13.5px;font-weight:600}.smcut.ok{background:var(--ok-soft);color:var(--ok)}.smcut.bad{background:var(--bad-soft);color:var(--bad)}
 .opt .ot{flex:1;min-width:0}.opt .rk{flex:none;align-self:center;width:30px;height:30px;margin:-4px -6px -4px 0;border-radius:50%;display:grid;place-items:center;color:var(--mute);font-size:15px;opacity:.55}.opt .rk:active{background:var(--line)}
 .opt.risc .ot>.tx0{text-decoration:line-through;text-decoration-thickness:1.5px;color:var(--mute)}.opt.risc .k{opacity:.4}.opt.risc .rk{opacity:1;color:var(--bad)}
 
@@ -2277,7 +2277,7 @@ function simuEntregar(){
 function simuResultado(st,ar,ac,usado){
   const n=st.ids.length, p=Math.round(ac/n*100), cor=v=>v<50?'var(--bad)':v<70?'#D9A441':'var(--ok)', erradas=st.ids.filter(id=>BYID[id]&&st.resp[id]!==BYID[id].certa);
   $('#smw').innerHTML=`<div class="smres"><div class="tag">Resultado · ${esc(simRot(st))}</div>
-    <div class="smbig" style="color:${cor(p)}">${p}%</div><div class="mute">${ac} de ${n} acertos · ${usado} min</div>
+    <div class="smbig" style="color:${cor(p)}">${p}%</div><div class="smac"><b>${ac}</b> ${ac===1?'acerto':'acertos'} <span>/ ${n} questões</span></div><div class="smer">Erros: ${n-ac}${usado?` · ${usado} min`:''}</div>
     <div class="smcut ${p>=50?'ok':'bad'}">${p>=50?'✓ Acima do corte de 50%':'✗ Abaixo do corte de 50% (eliminaria)'}</div></div>
     <div class="pnls" style="margin-top:18px">${SIM_ORD.filter(g=>ar[g]).map(g=>{ const [a,t]=ar[g], v=Math.round(a/t*100);
       return `<div class="pnl"><div class="pnt"><b>${GN[g]}</b><span>${a}/${t} · ${v}%</span></div><div class="pnb"><i style="width:${v}%;background:${cor(v)}"></i><s title="corte: 50%"></s></div></div>`; }).join('')}</div>
