@@ -189,7 +189,7 @@ Escolha o formato pelo conteúdo: critérios/comparação de várias colunas →
 
 ## Como o app usa os cards (para entender as prioridades)
 
-- **Fila do dia:** todos os cards errados que venceram + **novos calculados** (cards de prioridade alta/média ainda não vistos ÷ dias até a véspera, entre 15 e 30) + pelo menos 5 revisões. Cards de prioridade **baixa não entram na fila**: ficam no botão "Prioridade baixa" (para quando sobrar tempo) — por isso marque `prio` com cuidado.
+- **Fila do dia:** 30 cards por dia, **só cards normais e de digitar** (questões/quiz ficam para os simulados): primeiro as revisões vencidas (erros antes, depois o que mais cai), com pelo menos 10 novos intercalados; revisão que não coube passa para o dia seguinte. Botão "+ Fazer mais 20 cards" sempre disponível. Cards de prioridade **baixa não entram na fila**: ficam no botão "Prioridade baixa" (para quando sobrar tempo) — por isso marque `prio` com cuidado.
 - **Prioridade:** quanto o baralho cai no Vila Verde (`pond` em `data/prevalencia.json`) + se o card está fraco + quantas vezes ela errou + favorito/marca-texto + atraso. Os baralhos são intercalados (não vêm 10 cards seguidos do mesmo tema).
 - **Equilíbrio das 5 áreas:** a fila do dia, as revisões e o modo véspera alternam CM → CIR → GO → PED → PREV (Ginecologia + Obstetrícia contam juntas). Por isso **todas as 5 áreas precisam ter cards** — se uma área ficar sem novos, avise a Jacke.
 - **Fraco** = errou ou marcou "Quase" e ainda não acertou 2× seguidas (em dias diferentes). Caderno de erros: dose de até 15 por dia; erro só de simulado em tema não prioritário não entra; erro resolvido há 21 dias é arquivado. **Sanguessuga** = errou 4 ou mais vezes.
