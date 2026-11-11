@@ -810,7 +810,8 @@ const PRIO_P={alta:40,media:0,baixa:-40}, prioP=c=>PRIO_P[prioDe(c)]||0;
 /* fila do dia só com prioridade alta/média; os de prioridade baixa ficam no botão "Prioridade baixa" (estudar quando sobrar tempo) */
 /* novos do dia: prioridade para cards normais e de digitar (fixam matéria); questões entram em menor proporção (1 a cada 4) — elas são mais do simulado */
 function misturaQuiz(A,B,k){ const out=[]; let i=0,j=0; while(i<A.length||j<B.length){ for(let n=0;n<k&&i<A.length;n++) out.push(A[i++]); if(j<B.length) out.push(B[j++]); } return out; }
-function novos(){ return equilibrar(CARDS.filter(c=>ehCard(c)&&!S.srs[c.id]&&prioDe(c)!=='baixa'),c=>pesoUERJ(c)+prioP(c),4); }
+/* cards que ela mesma criou entram primeiro entre os novos (no próximo dia ou no +20) */
+function novos(){ return equilibrar(CARDS.filter(c=>ehCard(c)&&!S.srs[c.id]&&prioDe(c)!=='baixa'),c=>pesoUERJ(c)+prioP(c)+(c.meu?1000:0),4); }
 const novosBaixa=()=>equilibrar(CARDS.filter(c=>ehCard(c)&&!S.srs[c.id]&&prioDe(c)==='baixa'),pesoUERJ,4);
 /* quantos novos hoje: os de prioridade alta/média que faltam ÷ dias até a véspera (11/12), entre 15 e 30 */
 function novosDia(){ const rest=CARDS.filter(c=>!S.srs[c.id]&&prioDe(c)!=='baixa').length, d=Math.max(1,diff(hoje(),VESP_INI));
