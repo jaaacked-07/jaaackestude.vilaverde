@@ -995,7 +995,6 @@ function visual(v){
   return '';
 }
 function cardCompleto(c){
-  limparMarcasCard(c.id);
   let h=tagHTML(c)+(ehFrenteOculta(c)?'':frenteHTML(c));
   if(c.tipo==='quiz') h+=`<div class="opts">${c.opcoes.map((o,i)=>`<div class="opt ${i===c.certa?'ok':''}"><span class="k">${'ABCDE'[i]}</span><span>${esc(o)}<span class="c">${inlBr((c.comentarios||[])[i]||'')}</span></span></div>`).join('')}</div>`;
   else h+=`<div class="ans">${respHTML(c)}${racCard(c)}${macHTML(c)}</div>`;
@@ -2233,7 +2232,7 @@ document.addEventListener('keydown',e=>{ if(!SIMU||SIMU.fim0||!$('#simu')||$('#s
   const ehAst=e.key==='*'||e.code==='NumpadMultiply'||(e.shiftKey&&e.code==='Digit8'&&e.key!=='('); if(!ehAst) return;
   const a=document.activeElement; if(a&&(/^(INPUT|TEXTAREA|SELECT)$/.test(a.tagName)||a.isContentEditable)) return;
   e.preventDefault(); e.stopImmediatePropagation(); const f=$('#smf'); if(f){ f.click(); toast(f.classList.contains('on')?'⚑ Questão marcada':'Bandeirinha removida'); } },true);
-/* marcações feitas na pergunta ou na resposta do card não ficam guardadas (para não decorar a questão); as do contexto do tema ficam */
+/* (não usado nos cards: as marcações dos cards ficam guardadas; só as das questões do simulado somem — ver simLimparMarcas) */
 function limparMarcasCard(id){ if(!id) return; let mud=0; [id,'q:'+id].forEach(k=>{ const m=S.marks[k]; if(m&&m.l&&m.l.length){ S.marks[k]={l:[],u:Date.now()}; mud=1; } }); if(mud) save(); }
 function simLimparMarcas(ids){ (ids||[]).forEach(id=>{ const k='sq:'+id; if(S.marks[k]) S.marks[k]={l:[],u:Date.now()}; }); }
 function simuEntregarPerg(){
@@ -2963,7 +2962,7 @@ function guardarRetomar(){
 function migrarRet(){ S.rets=S.rets||[]; S.retsDel=S.retsDel||{};
   if(S.ret&&S.ret.fila&&S.ret.fila.length){ const id=S.ret.t0||S.ret.t; if(!S.retsDel[id]&&!S.rets.some(x=>x.id===id)) S.rets.push({...S.ret,id}); }
   S.ret=null; }
-function sair(){if(SS) limparMarcasCard(SS.ultCard);guardarRetomar();const e=$('#sess');if(e)e.remove();document.body.style.overflow='';document.documentElement.style.overflow='';SS=null;render();syncProg()}
+function sair(){guardarRetomar();const e=$('#sess');if(e)e.remove();document.body.style.overflow='';document.documentElement.style.overflow='';SS=null;render();syncProg()}
 function barra(){
   let f,t;
   if(SS.modo==='dia'&&S.plan){ const ids=S.plan.ids.filter(id=>BYID[id]); t=ids.length; f=ids.filter(id=>S.plan.done.includes(id)).length; }
@@ -2980,7 +2979,7 @@ function proximoCard(){
   const c=BYID[SS.fila[0]];
   $('#sb').scrollTop=0;
   const w=$('#sw'), f=$('#sf');
-  limparMarcasCard(SS.ultCard); SS.ultCard=c.id; limparMarcasCard(c.id);
+  SS.ultCard=c.id;
   w.innerHTML=tagHTML(c)+`<div class="hlz" data-hl="q:${c.id}">${frenteHTML(c)}</div>`+`<div id="ar"></div>`; w.dataset.an=c.id; delete w.dataset.av;
   if(c.tipo==='quiz'){
     $('#ar').innerHTML=`<div class="opts">${c.opcoes.map((o,i)=>`<button class="opt" data-i="${i}"><span class="k">${'ABCDE'[i]}</span><span class="ot"><span class="tx0">${esc(o)}</span><span class="c hide">${inlBr((c.comentarios||[])[i]||'')}</span></span>${RISCA}</button>`).join('')}</div>`;
@@ -3043,7 +3042,7 @@ function voltarCard(){
   guardarRetomar();
   S.xpDev[DEV]=h.xpDev; recalc(); save(); proximoCard(); vib(8);
 }
-function fim(){ if(SS) limparMarcasCard(SS.ultCard);
+function fim(){
   if($('#end')) return;   // já está na tela de conclusão (antes podia abrir 2 e o "Fechar" de cima não respondia)
   const lvAntes=nivel(S.xp-SS.xp);
   const diaFeito = !!SS.meta;
