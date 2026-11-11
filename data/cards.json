@@ -40286,7 +40286,8 @@
       ],
       "fonte": "MS — Manual de Hemofilia, 2ª ed. (2015) e Manual de Diagnóstico e Tratamento da Doença de von Willebrand (2008) / WFH Guidelines for the Management of Hemophilia, 3ª ed. (2020) / ASH-ISTH-NHF-WFH Guidelines on von Willebrand Disease (2021)",
       "add": "2026-10-28",
-      "fav": true
+      "fav": true,
+      "minha": "@@nota|0|Recessiva ligada ao X → meninos afetados, mães portadoras.\nAs duas hemofilias sao ligadas ao X"
     },
     {
       "id": "coag-02",
@@ -117787,5 +117788,5 @@
       }
     }
   ],
-  "rev": 1794416136553
+  "rev": 1794416207714
 }
