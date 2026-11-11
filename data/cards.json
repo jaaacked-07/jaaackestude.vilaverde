@@ -40285,7 +40285,8 @@
         }
       ],
       "fonte": "MS — Manual de Hemofilia, 2ª ed. (2015) e Manual de Diagnóstico e Tratamento da Doença de von Willebrand (2008) / WFH Guidelines for the Management of Hemophilia, 3ª ed. (2020) / ASH-ISTH-NHF-WFH Guidelines on von Willebrand Disease (2021)",
-      "add": "2026-10-28"
+      "add": "2026-10-28",
+      "fav": true
     },
     {
       "id": "coag-02",
@@ -113263,7 +113264,7 @@
         }
       ],
       "fav": true,
-      "minha": "@@nota|0|Os dois → via comum ou CIVD.\n**** {v}RNI = TP ou TAP{/v} (tempo de atividade de protrombina)**"
+      "minha": "@@nota|0|Os dois → via comum ou CIVD.\n**** {v}RNI = TP ou TAP{/v} (tempo de atividade de protrombina)**\n\n@@nota|0|Só TP longo → fator VII.\nfator 7"
     },
     {
       "id": "cx5-025",
@@ -117786,5 +117787,5 @@
       }
     }
   ],
-  "rev": 1794415940194
+  "rev": 1794416136553
 }
