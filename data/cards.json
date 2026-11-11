@@ -9593,7 +9593,8 @@
         "legenda": "Hiponatremia aguda incha o neurônio; correção rápida da crônica faz o neurônio adaptado murchar"
       },
       "minha": "@@nota|0|1º passo → osmolaridade sérica (excluir pseudo e hiperglicem\nVR: 285 - 295\n\n@@nota|0|3º passo → volemia + sódio urinário\nver se tem MUITO ou POUCO calcio no xixi \n(VR: 30 - vide tabela acima)",
-      "prio": "alta"
+      "prio": "alta",
+      "fav": true
     },
     {
       "id": "na-02",
@@ -29445,7 +29446,8 @@
       "fonte": "Harrison — Medicina Interna, 21ª ed. (Choque); Diretriz Brasileira de Insuficiência Cardíaca Crônica e Aguda (SBC 2018, atualização 2021); ESC 2019 — Embolia pulmonar aguda",
       "add": "2026-10-26",
       "minha": "@@nota|0|PVC → enchimento do coração DIREITO\n**P{v}VC{/v} -> \"{v}pra você{/v}\" -> coração direito**\n**PCP ou POAP -> esquerdo**\n\n@@nota|0|ChoqueDCRVSPOAPPVCHipovolêmico↓↑↓↓Cardiogênico (VE/IAM)↓↑↑↑ \nExplicação no final do contexto do tema!!\n",
-      "uerj": "Cobra o tipo de choque pelo perfil hemodinâmico e pelos sinais de beira de leito."
+      "uerj": "Cobra o tipo de choque pelo perfil hemodinâmico e pelos sinais de beira de leito.",
+      "fav": true
     },
     {
       "area": "Clínica Médica",
@@ -117791,5 +117793,5 @@
       }
     }
   ],
-  "rev": 1794416924879
+  "rev": 1794417065556
 }
