@@ -106231,7 +106231,8 @@
           "Insulina regular EV 0,1 U/kg/h",
           "Glicemia ≤ 250 → acrescentar soro glicosado e manter insulina até fechar o ânion gap"
         ]
-      }
+      },
+      "fav": true
     },
     {
       "id": "cx1-019",
@@ -113260,7 +113261,8 @@
             ]
           ]
         }
-      ]
+      ],
+      "fav": true
     },
     {
       "id": "cx5-025",
@@ -117783,5 +117785,5 @@
       }
     }
   ],
-  "rev": 1794346206367
+  "rev": 1794415560347
 }
