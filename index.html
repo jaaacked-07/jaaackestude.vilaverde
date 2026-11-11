@@ -2221,6 +2221,11 @@ function simuQ(){
   const vv=$('#smvolta'); if(vv) vv.onclick=()=>{ SIMU.i=SIMU.max; simuQ(); };
   fabMT();
 }
+/* correção do simulado: ← → passam de uma questão para outra */
+document.addEventListener('keydown',e=>{ if(!SIMU||!SIMU.fim0||!$('#simu')||$('#sheet')||e.ctrlKey||e.metaKey||e.altKey) return;
+  const a=document.activeElement; if(a&&(/^(INPUT|TEXTAREA|SELECT)$/.test(a.tagName)||a.isContentEditable)) return;
+  if(e.key==='ArrowRight'){ const b=$('#smrn'); if(b&&!b.disabled){ e.preventDefault(); b.click(); } }
+  else if(e.key==='ArrowLeft'){ const b=$('#smra'); if(b&&!b.disabled){ e.preventDefault(); b.click(); } } });
 /* teclado no simulado: Q = cartão-resposta · ← → = navegar */
 document.addEventListener('keydown',e=>{ if(!SIMU||SIMU.fim0||!$('#simu')||e.ctrlKey||e.metaKey||e.altKey) return;
   const a=document.activeElement; if(a&&(/^(INPUT|TEXTAREA|SELECT)$/.test(a.tagName)||a.isContentEditable)) return;
@@ -2317,7 +2322,7 @@ function simuRevisar(st,L,k,todas){
   const xs=S.srs[id]; if(xs&&xs.so) $('#smcar').insertAdjacentHTML('afterend',`<button class="crb" id="smcad" style="margin-bottom:10px">⭐ Pôr no caderno de erros</button>`);
   const cb=$('#smcad'); if(cb) cb.onclick=()=>{ delete S.srs[id].so; save(); cb.remove(); toast('Vai para o caderno de erros ⭐'); };
   const nav=document.querySelector('#simu .smnav');
-  nav.innerHTML=`<button class="btn ghost" id="smra">←</button><button class="btn" id="smrn">${k<L.length-1?(todas?'Próxima →':'Próximo erro →'):'Voltar ao gabarito'}</button>`;
+  nav.innerHTML=`<button class="btn ghost smic" id="smra" aria-label="Questão anterior">← Anterior</button><button class="btn" id="smrn">${k<L.length-1?(todas?'Próxima →':'Próximo erro →'):'Voltar ao gabarito'}</button>`;
   $('#smra').disabled=k===0; $('#smra').onclick=()=>simuRevisar(st,L,k-1,todas);
   $('#smcar').onclick=()=>{ st._rv=null; const [ar,ac,us]=st._res||[{},0,0]; simuResultado(st,ar,ac,us); };
   $('#smrn').onclick=()=>k<L.length-1?simuRevisar(st,L,k+1,todas):$('#smcar').click();
