@@ -113262,7 +113262,8 @@
           ]
         }
       ],
-      "fav": true
+      "fav": true,
+      "minha": "@@nota|0|Os dois → via comum ou CIVD.\n**** {v}RNI = TP ou TAP{/v} (tempo de atividade de protrombina)**"
     },
     {
       "id": "cx5-025",
@@ -117785,5 +117786,5 @@
       }
     }
   ],
-  "rev": 1794415560347
+  "rev": 1794415940194
 }
