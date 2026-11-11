@@ -1414,7 +1414,8 @@
           "crit": true
         }
       ],
-      "prio": "alta"
+      "prio": "alta",
+      "minha": "@@nota|0|EstádioEstádioCritérioIIIA1/3 inferior da vaginaIIIBParede p\n\n![84](data/img/minha-figo-colo-04-mwcdb6hm.jpg)"
     },
     {
       "id": "figo-colo-05",
@@ -40287,7 +40288,7 @@
       "fonte": "MS — Manual de Hemofilia, 2ª ed. (2015) e Manual de Diagnóstico e Tratamento da Doença de von Willebrand (2008) / WFH Guidelines for the Management of Hemophilia, 3ª ed. (2020) / ASH-ISTH-NHF-WFH Guidelines on von Willebrand Disease (2021)",
       "add": "2026-10-28",
       "fav": true,
-      "minha": "@@nota|0|Recessiva ligada ao X → meninos afetados, mães portadoras.\nAs duas hemofilias sao ligadas ao X"
+      "minha": "@@nota|0|Recessiva ligada ao X → meninos afetados, mães portadoras.\nAs duas hemofilias sao ligadas ao X\n\n@@nota|0|B → fator IX.\n**Lembrar que é na ordem:**\n**A -> FATOR 8**\n**B -> FATOR 9**\n\n@@nota|0|TTPa prolongado; TP, plaquetas e tempo de sangramento normai\n**__{v}TP/INR -> via EXtrinseca (só ve o fator VII){/v}__** \n- **EX é ruim pq é MENOR -> então a via com menos fatores é a EXTRINSECA**\n\n\n**__{v}TPPa -> via INTRINSECA{/v}__** \n- **nome maior (tppa) é pq vê a via q tem mais fatores de coagulação)**"
     },
     {
       "id": "coag-02",
@@ -41258,7 +41259,8 @@
         }
       ],
       "fonte": "MS/PNI — Instrução Normativa do Calendário Nacional de Vacinação (2024) / NT MS substituição MenC → MenACWY no reforço (jul/2025) / NT Conjunta MS 310/2026 (VPC20 ≥ 85 anos) / NT SMSA-BH 020/2026 (VPC20 infantil) / Calendário SBIm do Idoso 2025/2026",
-      "add": "2026-10-28"
+      "add": "2026-10-28",
+      "fav": true
     },
     {
       "id": "pni-02",
@@ -44991,7 +44993,8 @@
         }
       ],
       "fonte": "Mélega — Cirurgia Plástica: Fundamentos e Arte / Grabb and Smith's Plastic Surgery 9ª ed. / Sabiston Textbook of Surgery 21ª ed.",
-      "add": "2026-10-28"
+      "add": "2026-10-28",
+      "fav": true
     },
     {
       "id": "pla-03",
@@ -117788,5 +117791,5 @@
       }
     }
   ],
-  "rev": 1794416207714
+  "rev": 1794416924879
 }
