@@ -636,7 +636,7 @@ const NOME='Jacke';
 const PROVA='2026-12-13';
 const VESPERA='2026-12-12';
 const META=30;            // cards por dia (fila do dia = só cards; questões ficam para os simulados)
-const NOV_MIN=10;         // mínimo de cards novos por dia (o resto são revisões vencidas, com prioridade)
+const NOV_MIN=20;         // cards novos por dia (o resto, ~10, são revisões: erros e fracos antes; o que você já sabe espera)
 const MIN_NOVOS=15;       // novos garantidos na fila do dia (se houver)
 const MIN_REV=5;          // revisões vencidas garantidas
 const NOVOS_MIN=15, NOVOS_MAX=30;  // opção B: novos por dia calculados até a véspera, entre 15 e 30 (só prioridade alta/média)
@@ -759,7 +759,7 @@ const LEECH_TXT='Sanguessuga é o card que você já errou 4 ou mais vezes: só 
 /* Cada card tem facilidade (ease), intervalo (ivl), acertos seguidos (box) e lapsos.
    Errei → volta na mesma rodada e amanhã; facilidade cai.
    Quase → intervalo cresce pouco (×1,2); facilidade cai um pouco.
-   Sabia → 1 dia, 3 dias, depois intervalo × facilidade (como o Anki).
+   Sabia → 1ª vez já sabendo: 6 dias; depois de erro: 2 dias; depois intervalo × facilidade (mín. 6, +3 a cada acerto).
    Antes da prova o intervalo é limitado a metade dos dias que faltam (todo card ainda passa
    pelo menos ~2 vezes antes de 13/12) e nada fica marcado para depois da véspera.
    Card errado recentemente nunca fica mais de 2 dias sem voltar. */
@@ -771,8 +771,9 @@ function rating(id,r,tipoErro){
   if(jaHoje&&r>0){ S.srs[id]=s; return; }
   let ivl;
   if(r===0){ s.wrong++; s.lapses++; s.box=0; s.reps=0; s.ease=Math.max(1.3,s.ease-0.2); if(tipoErro) s.et=tipoErro; ivl=1; }
-  else if(r===1){ s.q=quaseN(s)+1; s.ease=Math.max(1.3,s.ease-0.15); ivl=s.reps===0?1:Math.max(1,Math.round((s.ivl||1)*1.2)); s.reps++; }
-  else { s.box++; ivl=s.reps===0?1:s.reps===1?3:Math.max(1,Math.round((s.ivl||1)*s.ease)); s.reps++; }
+  else if(r===1){ s.q=quaseN(s)+1; s.ease=Math.max(1.3,s.ease-0.15); ivl=s.reps===0?1:Math.max(2,Math.round((s.ivl||1)*1.2)); s.reps++; }
+  /* Sabia: já sabia na 1ª vez → 6 dias; reaprendeu depois de errar → 2 dias; depois cresce rápido (mín. 6 e +3 a cada vez) — com 1 mês até a prova, card que você sabe não pode voltar todo dia */
+  else { s.box++; ivl=s.reps===0?(s.seen<=1?6:2):s.reps===1?Math.max(6,Math.round((s.ivl||1)*s.ease)):Math.max((s.ivl||1)+3,Math.round((s.ivl||1)*s.ease)); s.reps++; }
   const falta=diff(h,PROVA);
   if(falta>1){
     let cap=Math.max(1,Math.floor(falta/2));
@@ -828,7 +829,8 @@ const ehCard=c=>c.tipo!=='quiz';
 function fila(n,excluir,minN){
   const ex=new Set(excluir||[]), ok=c=>!ex.has(c.id)&&ehCard(c), P=c=>S.srs[c.id];
   const venc=CARDS.filter(c=>ok(c)&&due(c));
-  const rev=[...intercalar(venc.filter(c=>P(c).lr===0),prioridade),...equilibrar(venc.filter(c=>P(c).lr!==0),prioridade)].map(c=>c.id);
+  const rv=c=>prioridade(c)-12*Math.min(P(c).box||0,3);   /* já acertou várias vezes seguidas → espera; fraco/errado vem antes */
+  const rev=[...intercalar(venc.filter(c=>P(c).lr===0),prioridade),...equilibrar(venc.filter(c=>P(c).lr!==0),rv)].map(c=>c.id);
   const nov=novos().filter(ok).map(c=>c.id), nMin=Math.min(nov.length,minN==null?NOV_MIN:minN);
   const R=rev.slice(0,Math.max(0,n-nMin)), N=nov.slice(0,Math.max(0,n-R.length));
   const out=[]; let i=0,j=0; const passo=N.length?Math.max(1,R.length/N.length):1e9;
@@ -840,14 +842,15 @@ function montarPlano(){
   const h=hoje();
   if(!S.hoje||S.hoje.date!==h) S.hoje={date:h,ids:Object.keys(S.srs).filter(id=>S.srs[id].last===h)};
   if(!CARDS.length) return;   /* cards ainda não carregaram: não monta o dia vazio (era o "tudo feito" sem ter feito nada) */
-  if(S.plan&&S.plan.date===h&&S.plan.v===4&&S.plan.ids.some(i=>BYID[i])) return;
-  /* dia novo, plano antigo (com questões) ou vazio: monta o dia de 30 cards */
-  const nn=vesperaAtiva()?0:NOV_MIN, ids=fila(META,S.hoje.ids,nn);
-  S.plan={date:h,ids,done:[],v:4,meta:META,nn:ids.filter(i=>!S.srs[i]).length,t:Date.now()};
+  if(S.plan&&S.plan.date===h&&S.plan.v===5&&S.plan.ids.some(i=>BYID[i])) return;
+  /* dia novo, plano antigo ou vazio: monta o dia de 30 cards; se já estudou hoje, esses entram como feitos */
+  const ja=S.plan&&S.plan.date===h?S.hoje.ids.filter(i=>BYID[i]&&ehCard(BYID[i])).slice(0,META):[];
+  const nn=vesperaAtiva()?0:Math.max(0,NOV_MIN-ja.filter(i=>(S.srs[i]||{}).seen===1).length), ids=[...ja,...fila(META-ja.length,S.hoje.ids,nn)];
+  S.plan={date:h,ids,done:ja.slice(),v:5,meta:META,nn:ids.filter(i=>!S.srs[i]).length,t:Date.now()};
   save();
 }
 function pendentes(){return S.plan?S.plan.ids.filter(id=>BYID[id]&&!S.plan.done.includes(id)):[]}
-function adicionarMais(n){ const add=fila(n,S.plan.ids); S.plan.ids.push(...add); save(); return add; }
+function adicionarMais(n){ const add=fila(n,S.plan.ids,vesperaAtiva()?0:Math.ceil(n/2)); S.plan.ids.push(...add); save(); return add; }
 function estudadosHoje(){ return S.hoje&&S.hoje.date===hoje()?S.hoje.ids.length:0; }
 function contarHoje(id){
   const h=hoje(); if(!S.hoje||S.hoje.date!==h) S.hoje={date:h,ids:[]};
@@ -1867,7 +1870,7 @@ function mergeProg(R){
   if(R.plan&&R.plan.v>=2){ if(!S.plan||!(S.plan.v>=2)||R.plan.date>S.plan.date) S.plan=R.plan;
     else if(R.plan.date===S.plan.date){
       /* mesmo dia em 2 aparelhos: fica o plano criado primeiro (não soma as duas filas — antes isso inflava o dia); só os já feitos do outro entram */
-      const vz=x=>!(x.ids||[]).length, base=(R.plan.v||0)!==(S.plan.v||0)?((R.plan.v||0)>(S.plan.v||0)?R.plan:S.plan):vz(R.plan)!==vz(S.plan)?(vz(R.plan)?S.plan:R.plan):(R.plan.t||9e15)<(S.plan.t||9e15)?R.plan:S.plan, done=[...new Set([...S.plan.done,...R.plan.done])];
+      const vz=x=>!(x.ids||[]).length, base=(R.plan.v||0)!==(S.plan.v||0)?((R.plan.v||0)>(S.plan.v||0)?R.plan:S.plan):vz(R.plan)!==vz(S.plan)?(vz(R.plan)?S.plan:R.plan):(SS&&SS.modo==='dia')?S.plan:R.plan.done.length!==S.plan.done.length?(R.plan.done.length>S.plan.done.length?R.plan:S.plan):(R.plan.t||9e15)<(S.plan.t||9e15)?R.plan:S.plan, done=[...new Set([...S.plan.done,...R.plan.done])];
       S.plan={...base,done,ids:[...new Set([...base.ids,...done])],nv:Math.max(S.plan.nv||0,R.plan.nv||0)}; } }
   for(const d in R.crono||{}){ const a=S.crono[d],b=R.crono[d]; if(!a||(b.u||0)>(a.u||0)) S.crono[d]=b; }
   for(const k in R.simq||{}) S.simq[k]=Math.max(S.simq[k]||0,R.simq[k]);
@@ -3033,6 +3036,9 @@ function responder(c,r,t){
   const ganho = r===2?10:r===1?6:3;
   SS.xp+=ganho; addXP(ganho);
   if(r===2){SS.combo++;if(!repetido)SS.acertos++;SS.maxCombo=Math.max(SS.maxCombo,SS.combo)} else SS.combo=0;
+  if(S.plan && SS.modo==='dia' && S.plan.date===h0 && !S.plan.ids.includes(id)){
+    /* o plano foi trocado (sincronização com outro aparelho): o card feito entra no lugar de um pendente que não está nesta sessão */
+    const k=S.plan.ids.findIndex(x=>!S.plan.done.includes(x)&&!SS.fila.includes(x)); if(k>=0) S.plan.ids[k]=id; else S.plan.ids.push(id); }
   if(S.plan && S.plan.ids.includes(id) && !S.plan.done.includes(id)) S.plan.done.push(id);
   guardarRetomar(); save(); proximoCard();
 }
