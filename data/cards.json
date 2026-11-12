@@ -17214,7 +17214,9 @@
       },
       "fonte": "Diretriz Europeia de Hiponatremia (ESE/ESICM/ERA, 2014) / Recomendações do painel de especialistas (Verbalis, 2013) / Harrison 21ª ed.",
       "add": "2026-10-24",
-      "prio": "alta"
+      "prio": "alta",
+      "fav": true,
+      "minha": "@@nota|0|Restrição hídrica.\nLembrar que SIADH p, o problema é **{v}EXCESSO DE ÁGUA ({/v}**pq o adh retém sódio e água)… logo, pra melhorar, eu faço {v}**RESTRIÇÃO DE ÁGUA!!!!**{/v}"
     },
     {
       "id": "na-d4",
@@ -120418,7 +120420,8 @@
           ],
           "crit": true
         }
-      ]
+      ],
+      "fav": true
     },
     {
       "id": "cx8-020",
@@ -120521,7 +120524,8 @@
           ],
           "crit": true
         }
-      ]
+      ],
+      "fav": true
     },
     {
       "id": "cx8-021",
@@ -120772,5 +120776,5 @@
       }
     }
   ],
-  "rev": 1794419376111
+  "rev": 1794501271197
 }
