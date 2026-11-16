@@ -458,6 +458,10 @@ details.crx{margin-top:14px}
 details.crx summary{font-size:13px;color:var(--wine);cursor:pointer}
 .io,.ioed{position:relative;margin:14px 0 4px;border-radius:12px;overflow:hidden;line-height:0;user-select:none;-webkit-user-select:none}
 .io img,.ioed img{width:100%;display:block;pointer-events:none}
+.io{cursor:zoom-in}.ioz{position:absolute;right:6px;bottom:6px;width:34px;height:34px;border-radius:50%;background:rgba(20,12,14,.6);color:#fff;font:600 18px/34px Inter,system-ui,sans-serif;border:0;z-index:2}
+.vimg img{cursor:zoom-in}
+#lbx .lbio{margin:0;flex:none;border-radius:8px;cursor:zoom-in}#lbx .lbio img{width:100%;height:auto;min-width:0;object-fit:initial;border-radius:0;cursor:inherit}
+#lbx.z2 .lbio{margin:0 auto;cursor:zoom-out}#lbx.z2 .lbio img{min-width:0}#lbx .lbio .ior{font-size:18px}#lbx .lbio .ioz{display:none}
 .ior{position:absolute;background:var(--rose);border:2px solid var(--wine);border-radius:4px;display:flex;align-items:center;justify-content:center;color:var(--bg);font:700 16px/1 Inter,system-ui,sans-serif}
 .ior.iot{background:var(--wine);cursor:pointer;font-size:13px}
 .ior.iot.peek{background:transparent;border:3px dashed var(--wine);color:transparent}
@@ -1745,6 +1749,9 @@ document.addEventListener('paste',async e=>{
 });
 document.addEventListener('click',e=>{
   const zm=e.target.closest('img[data-zoom]'); if(zm&&getSelection().isCollapsed){ abrirFoto(zm.getAttribute('src')); return; }
+  if(!e.target.closest('#lbx')){
+    const io=e.target.closest('.io'); if(io&&!e.target.closest('[data-iop]')){ abrirFoto(null,io); return; }
+    const vi=e.target.closest('.vimg img'); if(vi){ abrirFoto(vi.getAttribute('src')); return; } }
   const pe=e.target.closest('[data-pen]'); if(pe){editarCard(pe.dataset.pen);return}
   const st=e.target.closest('[data-star]');
   if(st){ favAlternar(st.dataset.star); return; }
@@ -2651,7 +2658,7 @@ function clozeHTML(t,n,rev){
 }
 const czPlano=(t,n)=>plano(String(t||'').replace(CZ_RE,(m,k,ans,dica)=>+k===n?'[…]':ans)).replace(/\n+/g,' ').trim();
 function ioHTML(c,rev){
-  return `<div class="io"><img src="${esc(imgSrc(c.img))}" alt="">${(c.rects||[]).map((r,i)=>`<div class="ior ${rev?'rev':'iot'}" ${rev?'':'data-iop role="button"'} style="left:${r.x}%;top:${r.y}%;width:${r.w}%;height:${r.h}%">${rev?'':i+1}</div>`).join('')}</div>`;
+  return `<div class="io"><button class="ioz" aria-label="Ampliar foto" title="Ampliar">⤢</button><img src="${esc(imgSrc(c.img))}" alt="">${(c.rects||[]).map((r,i)=>`<div class="ior ${rev?'rev':'iot'}" ${rev?'':'data-iop role="button"'} style="left:${r.x}%;top:${r.y}%;width:${r.w}%;height:${r.h}%">${rev?'':i+1}</div>`).join('')}</div>`;
 }
 /* questão de afirmativas (I, II, III): cada afirmativa numa linha, como na prova */
 function afirmFmt(c){ let t=String(c.frente||''); if(c.tipo!=='quiz'||!/\sI\.\s.+\sII\.\s/.test(t)||t.includes('\n')) return t;
@@ -3473,11 +3480,18 @@ addEventListener('resize',()=>{ if($('#ftf.on')) atualizarFlut(); if(MULTI.ta) d
 document.addEventListener('focusout',()=>setTimeout(()=>{ if(!ehFmt(document.activeElement)&&!(document.activeElement&&document.activeElement._ta)){ const f=$('#ftf'); if(f) f.classList.remove('on'); FLUT_TA=null; } },120));
 
 /* ===== Foto ampliada: no meio da tela, ocupando quase toda a tela; tocar na foto amplia mais (2×, arrasta para ver); tocar fora, × ou Esc fecha ===== */
-function abrirFoto(src){
+function abrirFoto(src,io){
   fecharFoto(); const o=document.createElement('div'); o.id='lbx';
-  o.innerHTML=`<div class="lbw"><img src="${esc(src)}" alt=""></div><button class="lbx" aria-label="Fechar">×</button>`;
+  o.innerHTML=`<div class="lbw">${io?`<div class="io lbio">${io.innerHTML}</div>`:`<img src="${esc(src)}" alt="">`}</div><button class="lbx" aria-label="Fechar">×</button>`;
   document.body.appendChild(o); document.documentElement.style.overflow='hidden';
   const w=o.querySelector('.lbw'), im=o.querySelector('img');
+  if(io){ /* oclusão ampliada: as áreas continuam tampadas (tocar numa área espia só ela); tocar na foto aproxima */
+    const bx=o.querySelector('.lbio'), fit=()=>{ const r=(im.naturalWidth||4)/(im.naturalHeight||3), b=Math.min(innerWidth*.96,innerHeight*.9*r); bx.style.width=(o.classList.contains('z2')?b*2:b)+'px'; };
+    if(im.complete) fit(); else im.onload=fit;
+    bx.onclick=ev=>{ if(ev.target.closest('[data-iop]')) return; ev.stopPropagation(); const r=bx.getBoundingClientRect(), fx=(ev.clientX-r.left)/r.width, fy=(ev.clientY-r.top)/r.height;
+      o.classList.toggle('z2'); fit(); requestAnimationFrame(()=>{ w.scrollLeft=w.scrollWidth*fx-w.clientWidth/2; w.scrollTop=w.scrollHeight*fy-w.clientHeight/2; }); };
+    o.onclick=ev=>{ if(ev.target===o||ev.target===w||ev.target.classList.contains('lbx')) fecharFoto(); };
+    return; }
   im.onclick=ev=>{ ev.stopPropagation(); const z=!o.classList.contains('z2'); const r=im.getBoundingClientRect(), fx=(ev.clientX-r.left)/r.width, fy=(ev.clientY-r.top)/r.height;
     o.classList.toggle('z2',z); if(z) requestAnimationFrame(()=>{ w.scrollLeft=w.scrollWidth*fx-w.clientWidth/2; w.scrollTop=w.scrollHeight*fy-w.clientHeight/2; }); };
   o.onclick=ev=>{ if(ev.target===o||ev.target===w||ev.target.classList.contains('lbx')) fecharFoto(); };
