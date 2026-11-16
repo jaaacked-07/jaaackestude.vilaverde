@@ -38979,7 +38979,8 @@
       "pegadinha": "No eritema infeccioso a criança deixa de transmitir quando o exantema aparece; na varicela só volta à escola com todas as lesões em crosta.",
       "prio": "alta",
       "add": "2026-10-27",
-      "uerj": "A banca dá o caso e pede o diagnóstico: a coluna febre × exantema resolve a maioria (VV 2025 Q26: roséola)."
+      "uerj": "A banca dá o caso e pede o diagnóstico: a coluna febre × exantema resolve a maioria (VV 2025 Q26: roséola).",
+      "fav": true
     },
     {
       "id": "f-exa-d4",
@@ -120785,5 +120786,5 @@
       }
     }
   ],
-  "rev": 1794848298736
+  "rev": 1794848439496
 }
