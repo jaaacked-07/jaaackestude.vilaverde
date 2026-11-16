@@ -43039,7 +43039,8 @@
       ],
       "fonte": "ESVS Clinical Practice Guidelines on the Management of Diseases of the Mesenteric Arteries and Veins (2017, atualização 2025) / WSES Guidelines — Acute Mesenteric Ischemia (2022) / Sabiston Textbook of Surgery 21ª ed.",
       "add": "2026-10-28",
-      "fav": true
+      "fav": true,
+      "minha": "@@nota|0|Embolia → embolectomia.\nFA / IAM\n\n@@nota|0|Trombose arterial → revascularização.\nATEROSCLEROSE\n\n@@nota|0|Não oclusiva → papaverina e tratar a causa.\nBAIXO DEBITO\n\n@@nota|0|Trombose venosa → anticoagulação.\nHIPERCOAGULABILIDADE / TRIADE VIRSHOW"
     },
     {
       "id": "ime-q1",
@@ -64474,7 +64475,8 @@
         }
       ],
       "fonte": "ESVS Clinical Practice Guidelines on the Management of Diseases of the Mesenteric Arteries and Veins (2017, atualização 2025) / WSES Guidelines — Acute Mesenteric Ischemia (2022) / Sabiston Textbook of Surgery 21ª ed.",
-      "add": "2026-11-04"
+      "add": "2026-11-04",
+      "fav": true
     },
     {
       "area": "Cirurgia",
@@ -64527,7 +64529,8 @@
         }
       ],
       "fonte": "ESVS Clinical Practice Guidelines on the Management of Diseases of the Mesenteric Arteries and Veins (2017, atualização 2025) / WSES Guidelines — Acute Mesenteric Ischemia (2022) / Sabiston Textbook of Surgery 21ª ed.",
-      "add": "2026-11-04"
+      "add": "2026-11-04",
+      "fav": true
     },
     {
       "area": "Cirurgia",
@@ -120795,5 +120798,5 @@
       }
     }
   ],
-  "rev": 1794866848182
+  "rev": 1794866910114
 }
