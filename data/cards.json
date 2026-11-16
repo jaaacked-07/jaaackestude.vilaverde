@@ -42224,7 +42224,8 @@
       ],
       "fonte": "MS/PNI — Instrução Normativa do Calendário Nacional de Vacinação (2024) / NT MS substituição MenC → MenACWY no reforço (jul/2025) / NT Conjunta MS 310/2026 (VPC20 ≥ 85 anos) / NT SMSA-BH 020/2026 (VPC20 infantil) / Calendário SBIm do Idoso 2025/2026",
       "add": "2026-10-28",
-      "fav": true
+      "fav": true,
+      "minha": "@@nota|0|12 meses → tríplice viral + pneumo + meningo ACWY.\n12 meses: TRES MELHORES PRESENTES\nTriplice Viral\nMeningo (ACWY)\nPneumo"
     },
     {
       "id": "pni-02",
@@ -120776,5 +120777,5 @@
       }
     }
   ],
-  "rev": 1794501271197
+  "rev": 1794793897363
 }
