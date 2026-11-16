@@ -43993,7 +43993,8 @@
             "!Erro tipo II (β)"
           ]
         ]
-      }
+      },
+      "fav": true
     },
     {
       "id": "bio-02",
@@ -112804,7 +112805,7 @@
           "legenda": "Enxerto × retalho e seus tipos"
         }
       ],
-      "minha": "@@nota|0|Secundária → maior no enxerto parcial.\nEnxerto TOTAL:\n- melhor p esttttética\n- pouca contração -> logo, é fechada por suturas\n- FACE E MÃOS"
+      "minha": "@@nota|0|Secundária → maior no enxerto parcial.\nEnxerto TOTAL:\n- melhor p esttttética\n- pouca contração -> logo, é fechada por suturas\n- FACE E MÃOS\n\nEnxerto PARCIAL:\n- areas grandes\n- muita contração -> fecha sozinha"
     },
     {
       "id": "cx3-023",
@@ -120787,5 +120788,5 @@
       }
     }
   ],
-  "rev": 1794848554566
+  "rev": 1794849161005
 }
