@@ -43996,7 +43996,7 @@
       "area": "Medicina Preventiva",
       "tema": "Epidemiologia",
       "sub": "Bioestatística e medicina baseada em evidências",
-      "frente": "Vieses: seleção × informação × confusão",
+      "frente": "Vieses: seleção × informação × confusão\nExplicar e dar exemplos",
       "verso": "Raciocínio:\n- Confusão: a terceira variável está ligada à exposição E ao desfecho (o fumante bebe mais café e tem mais câncer).\n\n**Seleção → quem entra/permanece no estudo.**\n**Informação → como se mede.**\n**Confusão → terceira variável.**\n\nExemplos:\n- Seleção → grupos não comparáveis, perdas de seguimento.\n- Informação → viés de memória no caso-controle.\n- Confusão → café × câncer de pulmão confundido pelo tabagismo.\n\nControle da confusão:\n- Randomização, pareamento, estratificação, análise multivariada.",
       "macete": "\"Quem (seleção), Como (informação), O terceiro (confusão)\".",
       "visual": {
@@ -120779,5 +120779,5 @@
       }
     }
   ],
-  "rev": 1794794463202
+  "rev": 1794794483411
 }
