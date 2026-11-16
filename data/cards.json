@@ -41902,7 +41902,8 @@
         }
       ],
       "fonte": "AUA Guideline — Evaluation and Treatment of Cryptorchidism (2014, revisado) / EAU-ESPU Guidelines on Paediatric Urology (2024) / SBP — Manual de ITU na infância (2021) / AAP — UTI Clinical Practice Guideline (2011, reafirmado)",
-      "add": "2026-10-28"
+      "add": "2026-10-28",
+      "minha": "@@nota|0|Intra-abdominal → orquidopexia laparoscópica (às vezes em 2 \nintra-abd: quando NAO PALPA o testiculo"
     },
     {
       "id": "urop-03",
@@ -43801,7 +43802,8 @@
         }
       ],
       "fonte": "ASRA Practice Advisory on Local Anesthetic Systemic Toxicity (2020) / Difficult Airway Society — Guidelines (2015, atualização 2025) / Miller's Anesthesia 9ª ed. / ATLS 10ª ed.",
-      "add": "2026-10-28"
+      "add": "2026-10-28",
+      "fav": true
     },
     {
       "id": "anes-03",
@@ -45989,7 +45991,8 @@
       ],
       "fonte": "Mélega — Cirurgia Plástica: Fundamentos e Arte / Grabb and Smith's Plastic Surgery 9ª ed. / Sabiston Textbook of Surgery 21ª ed.",
       "add": "2026-10-28",
-      "fav": true
+      "fav": true,
+      "minha": "@@nota|0|ParcialTotalCamadasEpiderme + parte da dermeEpiderme + derme\n**TOTAL: melhor para estttética -> contrações menores ->  por isso, precisa ser fechada com SUTURA -----> FACE E MÃOS**\n\n\n**PARCIAL: grandes áreas -> contração maior -> por isso, cicatriza SOZINHA**"
     },
     {
       "id": "pla-03",
@@ -120782,5 +120785,5 @@
       }
     }
   ],
-  "rev": 1794799133372
+  "rev": 1794847952462
 }
