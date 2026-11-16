@@ -54027,7 +54027,8 @@
         }
       ],
       "fonte": "MS — PCDT Hepatite B e Coinfecções (2023) e PCDT Hepatite C (2019) / Harrison's 21ª ed. / EASL Clinical Practice Guidelines on HBV (2025)",
-      "add": "2026-10-28"
+      "add": "2026-10-28",
+      "fav": true
     },
     {
       "id": "hep-02",
@@ -109356,7 +109357,8 @@
             ]
           ]
         }
-      ]
+      ],
+      "fav": true
     },
     {
       "id": "cx1-031",
@@ -120793,5 +120795,5 @@
       }
     }
   ],
-  "rev": 1794857497665
+  "rev": 1794863131418
 }
