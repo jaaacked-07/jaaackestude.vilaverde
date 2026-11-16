@@ -656,7 +656,7 @@ const diff=(a,b)=>Math.round((new Date(b+'T12:00:00')-new Date(a+'T12:00:00'))/8
 let S;
 try{S=JSON.parse(localStorage.getItem(LS))||{}}catch(e){S={}}
 const DEV=(()=>{try{let d=localStorage.getItem(LS+'.dev');if(!d){d=Math.random().toString(36).slice(2,10);localStorage.setItem(LS+'.dev',d)}return d}catch(e){return 'x'}})();
-function fixS(){ (S.notas||[]).forEach(n=>(n.imgs||[]).forEach(im=>{ if(im&&im.path&&im.local) delete im.local; }));S.srs=S.srs||{}; S.xp=S.xp||0; S.streak=S.streak||{n:0,last:null}; S.notas=S.notas||[]; S.extra=S.extra||[]; S.plan=S.plan||null; S.fav=S.fav||{}; S.minha=S.minha||{}; S.ren=S.ren||{tema:{},sub:{}}; S.ren.area=S.ren.area||{}; S.edit=S.edit||{}; S.oculto=S.oculto||{}; migrarRet();
+function fixS(){ (S.notas||[]).forEach(n=>(n.imgs||[]).forEach(im=>{ if(im&&im.path&&im.local) delete im.local; }));S.srs=S.srs||{}; S.xp=S.xp||0; S.streak=S.streak||{n:0,last:null}; S.notas=S.notas||[]; S.extra=S.extra||[]; S.plan=S.plan||null; S.fav=S.fav||{}; S.minha=S.minha||{}; S.minhaP=S.minhaP||{}; for(const id in S.minha) if(!S.minhaP[id]) S.minhaP[id]={t:S.minha[id],u:1}; S.ren=S.ren||{tema:{},sub:{}}; S.ren.area=S.ren.area||{}; S.edit=S.edit||{}; S.oculto=S.oculto||{}; migrarRet();
   S.xpDev=S.xpDev||{}; if(S.xp&&!Object.keys(S.xpDev).length) S.xpDev[DEV]=S.xp;
   S.dias=S.dias||{}; if(S.streak&&S.streak.last&&!Object.keys(S.dias).length) for(let i=0;i<S.streak.n;i++) S.dias[addD(S.streak.last,-i)]=1;
   S.notasDel=S.notasDel||{}; S.sim=S.sim||[]; S.simq=S.simq||{}; S.crono=S.crono||{}; S.simAnd=S.simAnd||{}; S.simAndDel=S.simAndDel||{}; S.crev=S.crev||{};
@@ -1644,7 +1644,7 @@ const hashT=t=>{ let h=5381; for(const ch of String(t)) h=((h<<5)+h+ch.codePoint
 /* dono da anotação: card (campo "minha") ou CONTEXTO do tema ("an:ctx-…", vale para todos os cards que mostram esse contexto; sincroniza junto com o marca-texto) */
 const anDoCtx=id=>String(id).startsWith('an:');
 const anGet=id=>anDoCtx(id)?((S.marks[id]||{}).txt||''):((BYID[id]||{}).minha||'');
-function anSet(id,t){ if(anDoCtx(id)){ S.marks[id]={l:[],txt:t,u:Date.now()}; save(); } else { S.minha[id]=t; save(); reaplicar(); syncEdits(); } }
+function anSet(id,t){ if(anDoCtx(id)){ S.marks[id]={l:[],txt:t,u:Date.now()}; save(); } else { S.minha[id]=t; S.minhaP[id]={t,u:Date.now()}; save(); reaplicar(); syncEdits(); agendarSync(); } }
 /* nota antiga de card que foi feita dentro do contexto → passa a ser nota do contexto */
 function anMigrar(root,p){
   const subs=[...root.querySelectorAll('[data-an^="an:"]')]; if(!subs.length) return false; let mov=false;
@@ -1860,7 +1860,7 @@ async function syncNotas(){
 /* ===== Sincronizar progresso entre aparelhos ===== */
 const GH_PROG=GH_API.replace('notas.json','progresso.json');
 const notasSync=()=>S.notas.map(n=>n.imgs?{...n,imgs:n.imgs.filter(i=>i.path).map(i=>({path:i.path}))}:n);
-const progSnap=()=>({marks:S.marks,decks:S.decks,decksDel:S.decksDel,sim:S.sim,simDel:S.simDel,simq:S.simq,simAnd:S.simAnd,simAndDel:S.simAndDel,crev:S.crev,crono:S.crono,srs:S.srs,xpDev:S.xpDev,dias:S.dias,notas:notasSync(),notasDel:S.notasDel,plan:S.plan,hoje:S.hoje,extra:S.extra,rets:S.rets,retsDel:S.retsDel,lido:S.lido});
+const progSnap=()=>({marks:S.marks,decks:S.decks,decksDel:S.decksDel,sim:S.sim,simDel:S.simDel,simq:S.simq,simAnd:S.simAnd,simAndDel:S.simAndDel,crev:S.crev,crono:S.crono,srs:S.srs,xpDev:S.xpDev,dias:S.dias,notas:notasSync(),notasDel:S.notasDel,plan:S.plan,hoje:S.hoje,extra:S.extra,rets:S.rets,retsDel:S.retsDel,lido:S.lido,minhaP:S.minhaP});
 function mergeProg(R){
   if(!R) return false; const antes=JSON.stringify(progSnap());
   for(const id in R.srs||{}){const a=S.srs[id],b=R.srs[id]; if(!a||(b.t||0)>(a.t||0)) S.srs[id]=b;}
@@ -1889,6 +1889,9 @@ function mergeProg(R){
   if(R.ret&&R.ret.fila&&R.ret.fila.length){ const id=R.ret.t0||R.ret.t; if(!S.retsDel[id]&&!S.rets.some(x=>x.id===id)) S.rets.push({...R.ret,id}); }
   { const m={}; [...S.rets,...(R.rets||[])].forEach(x=>{ const o=m[x.id]; if(!o||(x.t||0)>(o.t||0)) m[x.id]=x; }); S.rets=Object.values(m).filter(x=>!S.retsDel[x.id]); }
   const ex={}; [...(S.extra||[]),...(R.extra||[])].forEach(c=>{ const o=ex[c.id]; if(!o||(c.u||0)>(o.u||0)) ex[c.id]=c; }); S.extra=Object.values(ex);
+  /* anotações dos cards também vão pelo progresso (arquivo pequeno, sincroniza sempre): a mais nova vale; antes só iam no cards.json (14 MB) e se perdiam com internet fraca */
+  let mn=false; for(const id in R.minhaP||{}){ const a=S.minhaP[id],b=R.minhaP[id]; if(b&&(!a||(b.u||0)>(a.u||0))){ S.minhaP[id]=b; if((b.u||0)>1&&S.minha[id]!==b.t){ S.minha[id]=b.t; mn=true; } } }
+  if(mn&&typeof reaplicar==='function') reaplicar();
   recalc(); migrarMarcasCtx(); migrarSubtemas();
   return JSON.stringify(progSnap())!==antes;
 }
@@ -2633,7 +2636,7 @@ async function reenviarFotosLocais(){
     for(const id of Object.keys(S.minha||{})){ let t=S.minha[id]; const locs=[...new Set((String(t).match(/local:[a-z0-9]+/g)||[]))];
       for(const l of locs){ const u=c[l]||MEMIMG[l]; if(!u) continue; const p=await subirImgCard(u,'minha-'+id.replace(/[^\w-]/g,'')+'-'+l.slice(6)); if(!p) continue;
         t=t.split(l).join(p); delete c[l]; mudou=true; }
-      if(t!==S.minha[id]) S.minha[id]=t; }
+      if(t!==S.minha[id]){ S.minha[id]=t; S.minhaP[id]={t,u:Date.now()}; } }
     for(const k of Object.keys(S.marks||{})){ if(!anDoCtx(k)||!S.marks[k].txt) continue; let t=S.marks[k].txt;
       for(const l of [...new Set(t.match(/local:[a-z0-9]+/g)||[])]){ const u=c[l]||MEMIMG[l]; if(!u) continue; const p=await subirImgCard(u,'ctx-'+k.slice(7)+'-'+l.slice(6)); if(!p) continue; t=t.split(l).join(p); delete c[l]; mudou=true; }
       if(t!==S.marks[k].txt) S.marks[k]={...S.marks[k],txt:t,u:Date.now()}; }
