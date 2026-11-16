@@ -460,8 +460,8 @@ details.crx summary{font-size:13px;color:var(--wine);cursor:pointer}
 .io img,.ioed img{width:100%;display:block;pointer-events:none}
 .io{cursor:zoom-in}.ioz{position:absolute;right:6px;bottom:6px;width:34px;height:34px;border-radius:50%;background:rgba(20,12,14,.6);color:#fff;font:600 18px/34px Inter,system-ui,sans-serif;border:0;z-index:2}
 .vimg img{cursor:zoom-in}
-#lbx .lbio{margin:0;flex:none;border-radius:8px;cursor:zoom-in}#lbx .lbio img{width:100%;height:auto;min-width:0;object-fit:initial;border-radius:0;cursor:inherit}
-#lbx.z2 .lbio{margin:0 auto;cursor:zoom-out}#lbx.z2 .lbio img{min-width:0}#lbx .lbio .ior{font-size:18px}#lbx .lbio .ioz{display:none}
+#lbx .lbio{margin:0;flex:none;border-radius:8px}#lbx .lbio img{width:100%;height:auto;min-width:0;object-fit:initial;border-radius:0;cursor:inherit}
+#lbx .lbio .ior{font-size:18px}#lbx .lbio .ioz{display:none}
 .ior{position:absolute;background:var(--rose);border:2px solid var(--wine);border-radius:4px;display:flex;align-items:center;justify-content:center;color:var(--bg);font:700 16px/1 Inter,system-ui,sans-serif}
 .ior.iot{background:var(--wine);cursor:pointer;font-size:13px}
 .ior.iot.peek{background:transparent;border:3px dashed var(--wine);color:transparent}
@@ -504,9 +504,8 @@ details.sent summary{cursor:pointer;color:var(--mute);font-size:14px;margin-top:
 .stc input{border:0;background:none;font:inherit;color:inherit;outline:0;width:170px}
 #lbx{position:fixed;inset:0;z-index:9999;background:rgba(20,12,14,.88);display:flex;align-items:center;justify-content:center;animation:fd .15s ease}
 #lbx .lbw{width:100%;height:100%;overflow:auto;display:flex;align-items:center;justify-content:center;touch-action:pinch-zoom pan-x pan-y;-webkit-overflow-scrolling:touch}
-#lbx img{width:96vw;height:90vh;object-fit:contain;border-radius:8px;cursor:zoom-in;flex:none}
-#lbx.z2 .lbw{display:block}
-#lbx.z2 img{width:auto;height:auto;min-width:192vw;max-width:none;object-fit:initial;cursor:zoom-out}
+#lbx img{width:96vw;height:90vh;object-fit:contain;border-radius:8px;flex:none}
+#lbx .lbw{touch-action:none;overflow:hidden}#lbx .lbz{transform-origin:0 0;will-change:transform;cursor:default}
 #lbx .lbx{position:fixed;top:max(12px,env(safe-area-inset-top));right:14px;width:42px;height:42px;border-radius:50%;background:rgba(255,255,255,.16);color:#fff;font-size:26px;line-height:1;border:0}
 /* Material */
 .mtop{display:flex;align-items:center;gap:10px;margin:-6px 0 14px}.mtop .b{flex:1;height:6px;border-radius:4px;background:var(--line);overflow:hidden}.mtop .b i{display:block;height:100%;background:var(--ok)}.mtop .v{font-size:13px;color:var(--mute)}
@@ -2910,7 +2909,7 @@ function abrirEdicaoMeu(id){
   fecharFolha(); if(SS) sair(); ir('criar');
 }
 /* oclusão: tocar numa área antes da resposta espia só ela */
-document.addEventListener('click',e=>{ const r=e.target.closest('[data-iop]'); if(r) r.classList.toggle('peek'); });
+document.addEventListener('click',e=>{ const r=e.target.closest('[data-iop]'); if(r&&!r.closest('#lbx')) r.classList.toggle('peek'); });
 /* N = novo card (fora de campos de texto) · colar imagem na aba Criar */
 document.addEventListener('keydown',e=>{
   if(e.key.toLowerCase()!=='n'||e.ctrlKey||e.metaKey||e.altKey||$('#sheet')) return;
@@ -3480,21 +3479,30 @@ addEventListener('resize',()=>{ if($('#ftf.on')) atualizarFlut(); if(MULTI.ta) d
 document.addEventListener('focusout',()=>setTimeout(()=>{ if(!ehFmt(document.activeElement)&&!(document.activeElement&&document.activeElement._ta)){ const f=$('#ftf'); if(f) f.classList.remove('on'); FLUT_TA=null; } },120));
 
 /* ===== Foto ampliada: no meio da tela, ocupando quase toda a tela; tocar na foto amplia mais (2×, arrasta para ver); tocar fora, × ou Esc fecha ===== */
+/* foto em tela cheia (todo o app): pinça com 2 dedos aproxima, 1 dedo arrasta a foto aproximada, toque simples fecha.
+   Oclusão: as áreas continuam tampadas e tocar numa área espia só ela. PC: roda do mouse aproxima, clique fecha. */
 function abrirFoto(src,io){
   fecharFoto(); const o=document.createElement('div'); o.id='lbx';
-  o.innerHTML=`<div class="lbw">${io?`<div class="io lbio">${io.innerHTML}</div>`:`<img src="${esc(src)}" alt="">`}</div><button class="lbx" aria-label="Fechar">×</button>`;
+  o.innerHTML=`<div class="lbw">${io?`<div class="io lbio lbz">${io.innerHTML}</div>`:`<img class="lbz" src="${esc(src)}" alt="">`}</div><button class="lbx" aria-label="Fechar">×</button>`;
   document.body.appendChild(o); document.documentElement.style.overflow='hidden';
-  const w=o.querySelector('.lbw'), im=o.querySelector('img');
-  if(io){ /* oclusão ampliada: as áreas continuam tampadas (tocar numa área espia só ela); tocar na foto aproxima */
-    const bx=o.querySelector('.lbio'), fit=()=>{ const r=(im.naturalWidth||4)/(im.naturalHeight||3), b=Math.min(innerWidth*.96,innerHeight*.9*r); bx.style.width=(o.classList.contains('z2')?b*2:b)+'px'; };
-    if(im.complete) fit(); else im.onload=fit;
-    bx.onclick=ev=>{ if(ev.target.closest('[data-iop]')) return; ev.stopPropagation(); const r=bx.getBoundingClientRect(), fx=(ev.clientX-r.left)/r.width, fy=(ev.clientY-r.top)/r.height;
-      o.classList.toggle('z2'); fit(); requestAnimationFrame(()=>{ w.scrollLeft=w.scrollWidth*fx-w.clientWidth/2; w.scrollTop=w.scrollHeight*fy-w.clientHeight/2; }); };
-    o.onclick=ev=>{ if(ev.target===o||ev.target===w||ev.target.classList.contains('lbx')) fecharFoto(); };
-    return; }
-  im.onclick=ev=>{ ev.stopPropagation(); const z=!o.classList.contains('z2'); const r=im.getBoundingClientRect(), fx=(ev.clientX-r.left)/r.width, fy=(ev.clientY-r.top)/r.height;
-    o.classList.toggle('z2',z); if(z) requestAnimationFrame(()=>{ w.scrollLeft=w.scrollWidth*fx-w.clientWidth/2; w.scrollTop=w.scrollHeight*fy-w.clientHeight/2; }); };
-  o.onclick=ev=>{ if(ev.target===o||ev.target===w||ev.target.classList.contains('lbx')) fecharFoto(); };
+  const w=o.querySelector('.lbw'), z=o.querySelector('.lbz'), im=o.querySelector('img');
+  if(io){ const fit=()=>{ const r=(im.naturalWidth||4)/(im.naturalHeight||3); z.style.width=Math.min(innerWidth*.96,innerHeight*.9*r)+'px'; }; if(im.complete) fit(); else im.onload=fit; }
+  let s=1,tx=0,ty=0,g=null,mov=false,t0=0;
+  const ap=()=>{ if(s<=1.01){s=1;tx=0;ty=0;} z.style.transform=`translate(${tx}px,${ty}px) scale(${s})`; };
+  const base=()=>{ const r=z.getBoundingClientRect(); return {l:r.left-tx,t:r.top-ty}; };
+  const pts=e=>[...e.touches].map(t=>({x:t.clientX,y:t.clientY}));
+  const toque=alvo=>{ const r=alvo.closest&&alvo.closest('[data-iop]'); if(r){ r.classList.toggle('peek'); return; } fecharFoto(); };
+  w.addEventListener('touchstart',e=>{ const p=pts(e), B=base(); if(e.touches.length===1&&!g){ mov=false; t0=Date.now(); }
+    if(p.length>=2){ mov=true; const m={x:(p[0].x+p[1].x)/2,y:(p[0].y+p[1].y)/2}; g={d:Math.hypot(p[0].x-p[1].x,p[0].y-p[1].y),s,lx:(m.x-B.l-tx)/s,ly:(m.y-B.t-ty)/s,B}; }
+    else g={p:p[0],tx,ty}; e.preventDefault(); },{passive:false});
+  w.addEventListener('touchmove',e=>{ if(!g) return; e.preventDefault(); const p=pts(e);
+    if(p.length>=2&&g.d){ const m={x:(p[0].x+p[1].x)/2,y:(p[0].y+p[1].y)/2}; s=Math.min(6,Math.max(1,g.s*Math.hypot(p[0].x-p[1].x,p[0].y-p[1].y)/g.d)); tx=m.x-g.B.l-s*g.lx; ty=m.y-g.B.t-s*g.ly; ap(); }
+    else if(p.length===1&&g.p){ const dx=p[0].x-g.p.x, dy=p[0].y-g.p.y; if(Math.hypot(dx,dy)>8) mov=true; if(s>1){ tx=g.tx+dx; ty=g.ty+dy; ap(); } } },{passive:false});
+  w.addEventListener('touchend',e=>{ e.preventDefault();
+    if(!e.touches.length){ const tap=!mov&&Date.now()-t0<400; g=null; if(tap) toque(e.target); }
+    else { const p=pts(e); g={p:p[0],tx,ty}; } },{passive:false});
+  w.addEventListener('wheel',e=>{ e.preventDefault(); const B=base(), lx=(e.clientX-B.l-tx)/s, ly=(e.clientY-B.t-ty)/s; s=Math.min(6,Math.max(1,s*(e.deltaY<0?1.15:1/1.15))); tx=e.clientX-B.l-s*lx; ty=e.clientY-B.t-s*ly; ap(); },{passive:false});
+  o.addEventListener('click',e=>{ if(e.target.classList.contains('lbx')){ fecharFoto(); return; } toque(e.target); });
 }
 function fecharFoto(){ const o=$('#lbx'); if(o){ o.remove(); if(!SS) document.documentElement.style.overflow=''; } }
 document.addEventListener('keydown',e=>{ if(e.key==='Escape'&&$('#lbx')){ e.preventDefault(); e.stopImmediatePropagation(); fecharFoto(); } },true);
