@@ -114289,7 +114289,8 @@
           "svg": "<svg viewBox=\"0 0 340 230\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter,system-ui,sans-serif\"><rect x=\"8\" y=\"8\" width=\"324\" height=\"28\" rx=\"9\" fill=\"var(--wine)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"170.0\" y=\"25.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--card)\">1. Preparar material, aspirador, drogas</text><rect x=\"8\" y=\"42\" width=\"324\" height=\"28\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"170.0\" y=\"59.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">2. Pré-oxigenar: O₂ 100% por 3 min</text><rect x=\"8\" y=\"76\" width=\"324\" height=\"28\" rx=\"9\" fill=\"var(--wine)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"170.0\" y=\"93.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--card)\">3. Indução + bloqueador neuromuscular</text><rect x=\"8\" y=\"110\" width=\"324\" height=\"28\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"170.0\" y=\"127.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">4. Posicionar (Sellick opcional)</text><rect x=\"8\" y=\"144\" width=\"324\" height=\"28\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"170.0\" y=\"161.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">5. Intubar e confirmar com capnografia</text><rect x=\"8\" y=\"178\" width=\"324\" height=\"28\" rx=\"9\" fill=\"var(--rose-soft)\" stroke=\"var(--rose)\" stroke-width=\"1.2\"/><text x=\"170.0\" y=\"195.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"var(--ink)\">6. Sedação/analgesia pós-intubação</text><text x=\"170\" y=\"222\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"var(--mute)\">Entre indução e tubo: evitar VPP vigorosa (insuflação gástrica)</text></svg>",
           "legenda": "Intubação em sequência rápida, passo a passo"
         }
-      ]
+      ],
+      "fav": true
     },
     {
       "id": "cx4-020",
@@ -120777,5 +120778,5 @@
       }
     }
   ],
-  "rev": 1794793897363
+  "rev": 1794793933429
 }
