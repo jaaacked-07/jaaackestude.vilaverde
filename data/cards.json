@@ -44062,7 +44062,8 @@
         }
       ],
       "fonte": "Fletcher — Epidemiologia Clínica: Elementos Essenciais, 5ª ed. / Medronho — Epidemiologia, 2ª ed. / Oxford CEBM — Levels of Evidence (2011) / GRADE Working Group",
-      "add": "2026-10-28"
+      "add": "2026-10-28",
+      "fav": true
     },
     {
       "id": "bio-q1",
@@ -120778,5 +120779,5 @@
       }
     }
   ],
-  "rev": 1794793933429
+  "rev": 1794794463202
 }
