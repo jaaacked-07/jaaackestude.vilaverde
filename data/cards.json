@@ -120445,7 +120445,8 @@
           "crit": true
         }
       ],
-      "fav": true
+      "fav": true,
+      "minha": "@@nota|0|ASC-H ou HSIL → colposcopia\n\n![](data/img/minha-cx8-019-mwwens98.jpg)\n\n\n![](data/img/minha-cx8-019-mwwenzyj.jpg)\n\n\n![](data/img/minha-cx8-019-mwweo597.jpg)"
     },
     {
       "id": "cx8-020",
@@ -120800,5 +120801,5 @@
       }
     }
   ],
-  "rev": 1795627999720
+  "rev": 1795628239950
 }
