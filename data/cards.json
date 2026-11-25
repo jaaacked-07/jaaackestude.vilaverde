@@ -17631,7 +17631,8 @@
       ],
       "fonte": "Sabiston Textbook of Surgery 21ª ed. / Gray's Anatomy 42ª ed.",
       "add": "2026-10-24",
-      "prio": "alta"
+      "prio": "alta",
+      "minha": "@@nota|0|Hérnia inguinal indireta.\n**{v}DM{/v} -> Direta é MEDIAL ao vasos epig. inferiores**\n**{v}LI -{/v}> Indireta é LATERAL aos vasos espig. inferiores**"
     },
     {
       "id": "hern-d3",
@@ -115484,7 +115485,8 @@
           ]
         }
       ],
-      "fav": true
+      "fav": true,
+      "minha": "@@nota|0|Oximetria em MSD + um MI, entre 24 e 48 h.\n\n![](data/img/minha-cx5-013-mwweu950.jpg)"
     },
     {
       "id": "cx5-014",
@@ -120802,5 +120804,5 @@
       }
     }
   ],
-  "rev": 1795628495916
+  "rev": 1795629836799
 }
