@@ -30881,7 +30881,9 @@
         }
       ],
       "fonte": "Chicago Classification v4.0 (2021); ACG Clinical Guideline — Achalasia (2020); Sabiston — Textbook of Surgery (21ª ed.)",
-      "add": "2026-10-26"
+      "add": "2026-10-26",
+      "fav": true,
+      "minha": "@@nota|0|\"Bico de pássaro\" (afilamento da cárdia).\n![](data/img/minha-l2-aca-d1-mwwfwovv.jpg)\n\n\nBICO DE PASSARO: \n**O EEI não relaxa ->  esôfago dilata acima e afina na cárdia.**"
     },
     {
       "id": "l2-aca-d2",
@@ -115559,7 +115561,7 @@
           ]
         }
       ],
-      "minha": "@@nota|0|Sangue passa do átrio esquerdo para o direito → o VD recebe \nCUIDADO: sangue do ATRIO ESQUERDO PRO DIREITO! N segue a logica\nCom isso, o VD ta sempre com volume extra\n\n@@nota|0|Desdobramento fixo de B2.\nSangue do átrio **__{v}esquerdo{/v}__** para o **__{v}direito{/v}__** → **{v}o VD recebe volume extra sempre!!!{/v}**\n\n\nA **__valva pulmonar fecha mais tarde__** → **{v}B2 desdobrada{/v}**."
+      "minha": "@@nota|0|Sangue passa do átrio esquerdo para o direito → o VD recebe \nCUIDADO: sangue do ATRIO ESQUERDO PRO DIREITO! N segue a logica\nCom isso, o VD ta sempre com volume extra\n\n@@nota|0|Desdobramento fixo de B2.\n- Sangue do átrio **__{v}esquerdo{/v}__** para o **__{v}direito{/v}__** → **{v}o VD recebe volume extra sempre!!!{/v}**\n\n- A **__valva pulmonar fecha mais tarde__** → **{v}B2 desdobrada{/v}**."
     },
     {
       "id": "cx5-015",
@@ -120806,5 +120808,5 @@
       }
     }
   ],
-  "rev": 1795630303767
+  "rev": 1795630396065
 }
