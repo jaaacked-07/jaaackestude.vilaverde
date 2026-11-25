@@ -115559,7 +115559,7 @@
           ]
         }
       ],
-      "minha": "@@nota|0|Sangue passa do átrio esquerdo para o direito → o VD recebe \nCUIDADO: sangue do ATRIO ESQUERDO PRO DIREITO! N segue a logica\nCom isso, o VD ta sempre com volume extra"
+      "minha": "@@nota|0|Sangue passa do átrio esquerdo para o direito → o VD recebe \nCUIDADO: sangue do ATRIO ESQUERDO PRO DIREITO! N segue a logica\nCom isso, o VD ta sempre com volume extra\n\n@@nota|0|Desdobramento fixo de B2.\nSangue do átrio **__{v}esquerdo{/v}__** para o **__{v}direito{/v}__** → **{v}o VD recebe volume extra sempre!!!{/v}**\n\n\nA **__valva pulmonar fecha mais tarde__** → **{v}B2 desdobrada{/v}**."
     },
     {
       "id": "cx5-015",
@@ -120806,5 +120806,5 @@
       }
     }
   ],
-  "rev": 1795630052266
+  "rev": 1795630303767
 }
