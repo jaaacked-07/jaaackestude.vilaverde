@@ -40077,7 +40077,8 @@
       ],
       "fonte": "SBP — Sistematização do atendimento ao RN com suspeita de cardiopatia congênita (2022) / Tratado de Pediatria SBP 5ª ed. / Nelson Textbook of Pediatrics 22ª ed.",
       "add": "2026-10-28",
-      "fav": true
+      "fav": true,
+      "minha": "@@nota|0|Coração em bota (ponta elevada pela HVD e arco pulmonar esca\n\n![](data/img/minha-ccg-01-mwweb1nm.jpg)\n**-> CORAÇÃO EM BOTA:**\n- **PONTA ELEVADA PELA HIPERTROFIA DE VD + ARCO PULMONAR ESCAVADO**"
     },
     {
       "id": "ccg-02",
@@ -120798,5 +120799,5 @@
       }
     }
   ],
-  "rev": 1794867993262
+  "rev": 1795627630151
 }
