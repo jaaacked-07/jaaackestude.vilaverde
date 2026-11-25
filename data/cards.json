@@ -115483,7 +115483,8 @@
             ]
           ]
         }
-      ]
+      ],
+      "fav": true
     },
     {
       "id": "cx5-014",
@@ -120446,7 +120447,7 @@
         }
       ],
       "fav": true,
-      "minha": "@@nota|0|ASC-H ou HSIL → colposcopia\n![](data/img/minha-cx8-019-mwwens98.jpg)\n\n**LSIL ---> {v}L de LOW (pouco/curto){/v} --> é o que tem APENAS 2 VARIAÇÕES**\n\n![](data/img/minha-cx8-019-mwwenzyj.jpg)\n**ASC-US ---> {v}tem S, então é PLURAL{/v} // asC-Us, se tem CU no nome é dificil ----> TEM 3 VARIAÇÕES!**\n\n![](data/img/minha-cx8-019-mwweo597.jpg)"
+      "minha": "@@nota|0|ASC-H ou HSIL → colposcopia\n![](data/img/minha-cx8-019-mwwens98.jpg)\n**LSIL ---> {v}L de LOW (pouco/curto){/v} --> é o que tem APENAS 2 VARIAÇÕES**\n\n\n\n![](data/img/minha-cx8-019-mwwenzyj.jpg)\n**ASC-US ---> {v}tem S, então é PLURAL{/v} // asC-Us, se tem CU no nome é dificil ----> TEM 3 VARIAÇÕES!**\n\n![](data/img/minha-cx8-019-mwweo597.jpg)"
     },
     {
       "id": "cx8-020",
@@ -120801,5 +120802,5 @@
       }
     }
   ],
-  "rev": 1795628339127
+  "rev": 1795628495916
 }
